@@ -1,0 +1,9 @@
+tqdm
+python-dotenv
+openai
+numpy
+torch
+transformers
+pandas
+accelerate
+bitsandbytes

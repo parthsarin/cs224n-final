@@ -1,0 +1,21 @@
+Here is an academic article:
+
+{article}
+
+Indicate whether the article was funded by each of the following funding sources: military, corporate, research agency, foundation, or none.
+
+Format your response with each of the funding sources on a new line, followed by a colon, then the word "yes" or "no" to indicate whether that funding was present. Your response should have exactly five lines. For example, this format is correct:
+
+military: yes
+corporate: no
+research agency: yes
+foundation: no
+none: no
+
+This format is incorrect because it uses the wrong separators and doesn't have the correct number of lines:
+
+military - no,
+corporate - yes,
+foundation - no
+
+What were the funding sources for the article?
