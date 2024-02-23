@@ -1,8 +1,12 @@
+### Context:
 Here is an academic article:
 
 {article}
 
+### Instruction:
 Answer the following question about the article, and respond only with "yes" or "no". Do not provide any other information.
 
 Q: {question}
-A: 
+
+### Response:
+A:
