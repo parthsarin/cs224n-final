@@ -16,7 +16,8 @@ def main(args):
     out = []
     for path in tqdm(glob(f'{args.in_dir}/*.json')):
         data = load(open(path, 'r'))
-        acl_id = path.split('/')[-1].split('.')[0]
+        filename = path.split('/')[-1]
+        acl_id = filename[:filename.rfind('.')]
         try:
             funding = data['funding']
         except KeyError:
