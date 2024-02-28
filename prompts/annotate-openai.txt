@@ -2,7 +2,9 @@ Here is an academic article:
 
 {article}
 
-Indicate whether the article was funded by each of the following funding sources: military, corporate, research agency, foundation, or none.
+Indicate whether the article was funded by each of the following funding sources: military, corporate, research agency, foundation, or none. Here are some examples of each funding source:
+
+{examples}
 
 Format your response with each of the funding sources on a new line, followed by a colon, then the word "yes" or "no" to indicate whether that funding was present. Your response should have exactly five lines. For example, this format is correct:
 

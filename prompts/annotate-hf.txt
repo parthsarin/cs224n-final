@@ -1,7 +1,11 @@
 ### Context:
+<ARTICLE>
 Here is an academic article:
-
 {article}
+
+<FUNDING EXAMPLES>
+Here are some examples of different funding sources:
+{examples}
 
 ### Instruction:
 Answer the following question about the article, and respond only with "yes" or "no". Do not provide any other information.
