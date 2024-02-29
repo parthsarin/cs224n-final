@@ -4,7 +4,11 @@ Here is an academic article:
 
 Indicate whether the article was funded by each of the following funding sources: military, corporate, research agency, foundation, or none. Here are some examples of each funding source:
 
-{examples}
+military: Defense Advanced Research Projects Agency (DARPA), Air Force Office of Scientific Research
+corporate: Google, Pfizer
+research agency: National Science Foundation (NSF), National Institutes of Health (NIH)
+foundation: Bill & Melinda Gates Foundation, Wellcome Trust
+none: independent crowdfunded project, pro bono academic collaboration
 
 Format your response with each of the funding sources on a new line, followed by a colon, then the word "yes" or "no" to indicate whether that funding was present. Your response should have exactly five lines. For example, this format is correct:
 

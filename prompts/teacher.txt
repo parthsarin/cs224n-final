@@ -9,4 +9,4 @@ Here is a prompt that is being given to a classifier model:
 We compared the model's predictions to the human-labeled data. It achieved an accuracy of {accuracy} on the test set.
 
 ### Instruction:
-Propose new examples of funding sources to replace the text above to improve the accuracy. Respond only with the new examples, to match the format of the examples in the prompt above.
+Propose a new prompt to improve the accuracy. Respond with the entire prompt, and use the identifier {{article}} to denote where we should put the article.
