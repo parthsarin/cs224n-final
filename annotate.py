@@ -15,18 +15,13 @@ import torch
 load_dotenv()
 
 N_AGENCIES = 5
-BASE_EXAMPLES = """military: Department of Defense, DARPA
-corporate: Google, IBM
-research agency: National Science Foundation, National Institutes of Health
-foundation: Gates Foundation, Sloan Foundation
-none: no funding"""
 
 
 # ------------------------------------------------------------------------------
 # generation utilities
 # ------------------------------------------------------------------------------
 class ArticleClassifier:
-    def annotate(self, article, examples=BASE_EXAMPLES):
+    def annotate(self, article, prompt=None):
         raise NotImplementedError("annotate method must be implemented")
 
 
@@ -65,8 +60,10 @@ class OpenAIClassifier(ArticleClassifier):
 
         return r.message.content, lps, agencies
 
-    def annotate(self, article, examples=BASE_EXAMPLES):
-        prompt = self.prompt_template.format(article=article, examples=examples)
+    def annotate(self, article, prompt=None):
+        if prompt is None:
+            prompt = self.prompt_template
+        prompt = prompt.format(article=article)
         messages = [
             {
                 "role": "system",
@@ -133,20 +130,21 @@ class HuggingFaceClassifier(ArticleClassifier):
     def __repr__(self):
         return f'HuggingFaceClassifier(model="{self.model_str}")'
 
-    def format_prompt(self, article, examples=BASE_EXAMPLES):
+    def format_prompt(self, article, prompt=None):
+        if prompt is None:
+            prompt = self.prompt_template
+
         return (
             (
                 src,
-                self.prompt_template.format(
-                    article=article, question=question, examples=examples
-                ).strip(),
+                prompt.format(article=article, question=question).strip(),
             )
             for src, question in self.questions.items()
         )
 
-    def annotate(self, article, examples=BASE_EXAMPLES):
+    def annotate(self, article, prompt=None):
         out = {}
-        for src, prompt in self.format_prompt(article, examples):
+        for src, prompt in self.format_prompt(article, prompt):
             input_ids = self.tokenizer.encode(
                 prompt, return_tensors="pt", add_special_tokens=False
             ).cuda()

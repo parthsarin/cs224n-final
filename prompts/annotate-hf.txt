@@ -1,16 +1,7 @@
 ### Context:
-<ARTICLE>
 Here is an academic article:
+
 {article}
-
-<FUNDING EXAMPLES>
-Here are some examples of different funding sources:
-
-military: Defense Advanced Research Projects Agency (DARPA), Air Force Office of Scientific Research
-corporate: Google, Pfizer
-research agency: National Science Foundation (NSF), National Institutes of Health (NIH)
-foundation: Bill & Melinda Gates Foundation, Wellcome Trust
-none: independent crowdfunded project, pro bono academic collaboration
 
 ### Instruction:
 Answer the following question about the article, and respond only with "yes" or "no". Do not provide any other information.

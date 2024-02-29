@@ -1,12 +1,9 @@
 ### Context:
 Here is a prompt that is being given to a classifier model:
-
-<PROMPT>
 {prompt}
-</PROMPT>
 
 ### Performance:
 We compared the model's predictions to the human-labeled data. It achieved an accuracy of {accuracy} on the test set.
 
 ### Instruction:
-Propose a new prompt to improve the accuracy. Respond with the entire prompt, and use the identifier {{article}} to denote where we should put the article.
+Propose a new prompt to improve the accuracy. Respond with the entire prompt, and use the identifier {{article}} to denote where we should put the article. Do not include any additional information in your response.

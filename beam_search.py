@@ -16,12 +16,6 @@ from json import load, dump
 from dataclasses_json import dataclass_json
 from tqdm import tqdm
 
-BASE_EXAMPLES = """military: Department of Defense, DARPA
-corporate: Google, IBM
-research agency: National Science Foundation, National Institutes of Health
-foundation: Gates Foundation, Sloan Foundation
-none: no funding"""
-
 
 # ------------------------------------------------------------------------------
 # score utilities
@@ -29,9 +23,9 @@ none: no funding"""
 @dataclass_json
 @dataclass
 class Prompt:
-    template: str = ""
-    examples: str = BASE_EXAMPLES
+    text: str = ""
     score: float = -1
+    generation: int = 0
 
 
 class EnhancedJSONEncoder(json.JSONEncoder):
@@ -49,9 +43,10 @@ def is_correct(label, pred):
 
     label, pred -- should be formatted as {funding source: probability}
     """
-    if label is None:
+    try:
+        return all(label[k] == round(pred[k]) for k in label)
+    except Exception:
         return False
-    return all(label[k] == round(pred[k]) for k in label)
 
 
 def score(labels, preds):
@@ -77,9 +72,7 @@ def eval_generation(args, student: ArticleClassifier, generation):
             preds = {}
             for filename, article in articles.items():
                 try:
-                    preds[filename] = student.annotate(
-                        article["article"], prompt.examples
-                    )
+                    preds[filename] = student.annotate(article["article"], prompt.text)
                 except Exception as e:
                     print(f"error on {filename}: {e}")
                     preds[filename] = None
@@ -99,9 +92,7 @@ class OpenAITeacher:
 
     def perturb(self, prompt: Prompt) -> Prompt:
         # fill out the prompt and send it to the model
-        prompt_text = prompt.template.format(
-            examples=prompt.examples, article=r"{article}"
-        )
+        prompt_text = prompt.text.format(article=r"{article}")
         messages = [
             {
                 "role": "user",
@@ -116,10 +107,10 @@ class OpenAITeacher:
             temperature=self.temperature,
             n=1,
         )
-        r = r.choices[0].message.content
+        r = str(r.choices[0].message.content)
 
-        # get a new prompt with the same template, new examples
-        return Prompt(template=prompt.template, examples=r)
+        # get a new prompt with the new text
+        return Prompt(r)
 
     def __repr__(self):
         return f'OpenAITeacher(model="{self.model}")'
@@ -128,7 +119,7 @@ class OpenAITeacher:
 def print_generation(gen_idx, generation):
     print(f"generation {gen_idx}:")
     print(f"- best score: {generation[0].score}")
-    print(f"- best examples: {generation[0].examples}")
+    print(f"- best prompt: {generation[0].text}")
     print(f"- worst score: {generation[-1].score}")
     print()
 
@@ -148,22 +139,13 @@ def main(args):
             args.student_model,
             temperature=args.student_temperature,
         )
-        generation = [
-            Prompt(
-                template=open("prompts/annotate-openai.txt").read(),
-                examples=BASE_EXAMPLES,
-            )
-        ]
+        generation = [Prompt(open("prompts/annotate-openai.txt").read())]
     else:
         student = HuggingFaceClassifier(
             args.student_model,
             temperature=args.student_temperature,
         )
-        generation = [
-            Prompt(
-                template=open("prompts/annotate-hf.txt").read(), examples=BASE_EXAMPLES
-            )
-        ]
+        generation = [Prompt(open("prompts/annotate-hf.txt").read())]
 
     # set up the teacher model
     print(
@@ -174,6 +156,7 @@ def main(args):
         temperature=args.teacher_temperature,
     )
 
+    # load the last generation
     try:
         all_prompts = load(open(args.out_file, "r"))
         all_prompts = [Prompt.from_dict(p) for p in all_prompts]
@@ -185,8 +168,12 @@ def main(args):
         save_prompts(args, all_prompts)
         print_generation(0, generation)
     else:
-        print("loaded prompts from file")
-        generation = all_prompts[-args.beam_width :]
+        gen_idx = all_prompts[-1].generation
+        print(f"loaded prompts from file, current generation is {gen_idx}")
+        generation = [p for p in all_prompts if p.generation == gen_idx]
+        eval_generation(args, student, generation)
+        generation.sort(key=lambda p: p.score, reverse=True)
+        save_prompts(args, all_prompts)
         print_generation(0, generation)
 
     for i in range(1, args.beam_depth + 1):
@@ -196,6 +183,10 @@ def main(args):
             p for p in generation[: args.beam_width] for _ in range(args.beam_degree)
         ]
         generation = [teacher.perturb(p) for p in tqdm(generation)]
+
+        # update and save the generation
+        for p in generation:
+            p.generation = i
         all_prompts += generation
         save_prompts(args, all_prompts)
 
