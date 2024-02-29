@@ -7,10 +7,14 @@ which is imported from annotate.py.
 """
 import argparse
 from openai import OpenAI
+import dataclasses
 from dataclasses import dataclass
 from annotate import OpenAIClassifier, HuggingFaceClassifier, ArticleClassifier
 from glob import glob
+import json
 from json import load, dump
+from dataclasses_json import dataclass_json
+from tqdm import tqdm
 
 BASE_EXAMPLES = """military: Department of Defense, DARPA
 corporate: Google, IBM
@@ -22,11 +26,21 @@ none: no funding"""
 # ------------------------------------------------------------------------------
 # score utilities
 # ------------------------------------------------------------------------------
+@dataclass_json
 @dataclass
 class Prompt:
     template: str = ""
     examples: str = BASE_EXAMPLES
     score: float = -1
+
+
+class EnhancedJSONEncoder(json.JSONEncoder):
+    """JSON encoder taken from https://stackoverflow.com/questions/51286748/make-the-python-json-encoder-support-pythons-new-dataclasses"""
+
+    def default(self, o):
+        if dataclasses.is_dataclass(o):
+            return dataclasses.asdict(o)
+        return super().default(o)
 
 
 def is_correct(label, pred):
@@ -35,6 +49,8 @@ def is_correct(label, pred):
 
     label, pred -- should be formatted as {funding source: probability}
     """
+    if label is None:
+        return False
     return all(label[k] == round(pred[k]) for k in label)
 
 
@@ -48,17 +64,27 @@ def score(labels, preds):
 
 
 def eval_generation(args, student: ArticleClassifier, generation):
+    print("beginning evaluation")
     articles = {
         filename: load(open(filename, "r"))
         for filename in glob(f"{args.in_dir}/*.json")
     }
     labels = {filename: article["funding"] for filename, article in articles.items()}
-    for prompt in generation:
-        preds = {
-            filename: student.annotate(article["article"], prompt.examples)
-            for filename, article in articles.items()
-        }
-        prompt.score = score(labels, preds)
+    with tqdm(total=len(generation) * len(articles)) as pbar:
+        for p_idx, prompt in enumerate(generation):
+            # set the pbar prompt info to the prompt idx
+            pbar.set_postfix_str(f"prompt {p_idx + 1} / {len(generation)}")
+            preds = {}
+            for filename, article in articles.items():
+                try:
+                    preds[filename] = student.annotate(
+                        article["article"], prompt.examples
+                    )
+                except Exception as e:
+                    print(f"error on {filename}: {e}")
+                    preds[filename] = None
+                pbar.update(1)
+            prompt.score = score(labels, preds)
 
 
 # ------------------------------------------------------------------------------
@@ -73,7 +99,9 @@ class OpenAITeacher:
 
     def perturb(self, prompt: Prompt) -> Prompt:
         # fill out the prompt and send it to the model
-        prompt_text = prompt.template.format(examples=prompt.examples)
+        prompt_text = prompt.template.format(
+            examples=prompt.examples, article=r"{article}"
+        )
         messages = [
             {
                 "role": "user",
@@ -107,11 +135,14 @@ def print_generation(gen_idx, generation):
 
 def save_prompts(args, prompts):
     with open(args.out_file, "w") as f:
-        dump(prompts, f)
+        dump(prompts, f, cls=EnhancedJSONEncoder, indent=4)
 
 
 def main(args):
     # set up the student model
+    print(
+        f"setting up student model {args.student_model} with temperature {args.student_temperature}"
+    )
     if args.student_model.startswith("gpt"):
         student = OpenAIClassifier(
             args.student_model,
@@ -135,28 +166,43 @@ def main(args):
         ]
 
     # set up the teacher model
+    print(
+        f"setting up teacher model {args.teacher_model} with temperature {args.teacher_temperature}"
+    )
     teacher = OpenAITeacher(
         args.teacher_model,
         temperature=args.teacher_temperature,
     )
 
-    all_prompts = []
+    try:
+        all_prompts = load(open(args.out_file, "r"))
+        all_prompts = [Prompt.from_dict(p) for p in all_prompts]
+    except FileNotFoundError:
+        all_prompts = []
 
-    eval_generation(args, student, generation)
-    all_prompts += generation
-    save_prompts(args, all_prompts)
-    print_generation(0, generation)
+        eval_generation(args, student, generation)
+        all_prompts += generation
+        save_prompts(args, all_prompts)
+        print_generation(0, generation)
+    else:
+        print("loaded prompts from file")
+        generation = all_prompts[-args.beam_width :]
+        print_generation(0, generation)
 
     for i in range(1, args.beam_depth + 1):
         # perturb the best prompts
+        print("perturbing the best prompts")
         generation = [
             p for p in generation[: args.beam_width] for _ in range(args.beam_degree)
         ]
-        generation = [teacher.perturb(p) for p in generation]
+        generation = [teacher.perturb(p) for p in tqdm(generation)]
+        all_prompts += generation
+        save_prompts(args, all_prompts)
 
         # evaluate the new generation
         eval_generation(args, student, generation)
         generation.sort(key=lambda p: p.score, reverse=True)
+        all_prompts = all_prompts[: -len(generation)] + generation
         save_prompts(args, all_prompts)
         print_generation(i, generation)
 
@@ -169,6 +215,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "in_dir", type=str, help="input directory containing JSON files"
     )
+    parser.add_argument("out_file", type=str, help="output file to save the prompts to")
     parser.add_argument(
         "--beam-width",
         type=int,
@@ -182,7 +229,7 @@ if __name__ == "__main__":
         help="the number of perturbations to generate for each prompt",
     )
     parser.add_argument(
-        "--beam-depth", type=int, default=5, help="the number of generations to run"
+        "--beam-depth", type=int, default=3, help="the number of generations to run"
     )
     parser.add_argument(
         "--teacher-model",
@@ -205,7 +252,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--student-temperature",
         type=float,
-        default=1,
+        default=0.1,
         help="temperature for generation",
     )
     parser.add_argument(

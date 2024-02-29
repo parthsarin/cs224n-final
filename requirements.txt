@@ -7,3 +7,4 @@ transformers
 pandas
 accelerate
 bitsandbytes
+dataclasses-json

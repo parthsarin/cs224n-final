@@ -85,7 +85,7 @@ class OpenAIClassifier(ArticleClassifier):
                     {"role": "assistant", "content": msg},
                     {
                         "role": "user",
-                        "content": f"That response was incorrectly formatted. You included {len(agencies)} agencies and {len(lps)} yes/no statements. Both should be {N_AGENCIES}. Please try again.",
+                        "content": f"That response was incorrectly formatted. You included {len(agencies)} agencies and {len(lps)} yes/no statements. Both should be {N_AGENCIES}. Please try again. Answer only with the list, and no other text.",
                     },
                 ]
             )
