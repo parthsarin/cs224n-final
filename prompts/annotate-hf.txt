@@ -1,18 +1,28 @@
-### Context:
+[CONTEXT]
 Here is an academic article:
 
 {article}
-
-### Instruction:
+[/CONTEXT]
+[INST]
 Carefully consider every sentence in the article, paying close attention to the acknowledgements and funding. Then answer the following question about the article. Give your reasoning and then respond with "Yes" or "No". Do not provide any other information.
+
+Here are examples of each funding source:
+
+Defense: any branch of a country's armed forces, including security and intelligence agencies
+Corporate: any for-profit company, including startups, established corporations, and conglomerates
+Research agency: any government-funded organization that provides grants for research
+Foundation: any non-profit organization, including philanthropies, that provides grants for research
+None: the article does not report funding from any of the above sources
 
 Here is an example of a correctly formatted response:
 
-Reasoning: The paper mentions that the research was funded by DARPA, which is a branch of the United States military, and the German Research Foundation, which is a publicly-funded government organization. Therefore the research was funded by the military.
+Reasoning: The paper mentions that the research was funded by DARPA, which is a branch of the United States military, and the German Research Foundation, which is a publicly-funded government organization. Therefore the research was funded by defense.
 A: Yes
+[/INST]
 
-### Question:
+[QUESTION]
 Q: {question}
+[/QUESTION]
 
-### Response:
+[ANSWER]
 Reasoning:

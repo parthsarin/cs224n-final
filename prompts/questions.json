@@ -3,5 +3,5 @@
   "corporate": "Was this research funded by a corporation?",
   "research agency": "Was this research funded by a research agency?",
   "foundation": "Was this research funded by a foundation?",
-  "none": "Did this research receive no external funding?"
+  "none": "Was the funding for this research unlisted?"
 }
