@@ -30,7 +30,7 @@ class OpenAIClassifier(ArticleClassifier):
         self,
         model,
         prompt_file="prompts/annotate-openai.txt",
-        max_tokens=50,
+        max_tokens=500,
         temperature=0.1,
         reprompt=True,
     ):
@@ -52,13 +52,23 @@ class OpenAIClassifier(ArticleClassifier):
             top_logprobs=2,
         )
 
-        # get the logprobs for the response
+        # get the reasoning
         r = r.choices[0]
-        lps = r.logprobs.content
-        lps = [lp for lp in lps if lp.token in (" yes", " no")]
-        agencies = [a.split(":")[0] for a in r.message.content.strip().split("\n")]
+        msg = r.message.content.strip()
+        reasoning = msg.split("\n")[0].strip()
 
-        return r.message.content, lps, agencies
+        # get the logprobs
+        msg = msg.split("\n")[1:]
+        raw_lps = r.logprobs.content
+        for idx, lp in enumerate(raw_lps):
+            # ignore the first line
+            if "\n" in lp.token:
+                break
+        lps = raw_lps[idx:]
+        lps = [lp for lp in lps if lp.token in (" yes", " no")]
+        agencies = [a.split(":")[0].lower() for a in msg]
+
+        return r.message.content, reasoning, lps, agencies
 
     def annotate(self, article, prompt=None):
         if prompt is None:
@@ -73,7 +83,7 @@ class OpenAIClassifier(ArticleClassifier):
         ]
 
         # generate the response
-        msg, lps, agencies = self.generate(messages)
+        msg, reasoning, lps, agencies = self.generate(messages)
 
         # if we need to reprompt
         if (len(agencies) != N_AGENCIES or len(lps) != N_AGENCIES) and self.reprompt:
@@ -82,12 +92,12 @@ class OpenAIClassifier(ArticleClassifier):
                     {"role": "assistant", "content": msg},
                     {
                         "role": "user",
-                        "content": f"That response was incorrectly formatted. You included {len(agencies)} agencies and {len(lps)} yes/no statements. Both should be {N_AGENCIES}. Please try again. Answer only with the list, and no other text.",
+                        "content": f"That response was incorrectly formatted. You included {len(agencies)} agencies and {len(lps)} yes/no statements. Both should be {N_AGENCIES}. Please try again. Make sure your response includes exactly six lines, with the reasoning on the first line, and no blank lines.",
                     },
                 ]
             )
 
-            msg, lps, agencies = self.generate(messages)
+            msg, reasoning, lps, agencies = self.generate(messages)
 
         # still didn't work
         if len(lps) != N_AGENCIES or len(agencies) != N_AGENCIES:
@@ -102,7 +112,7 @@ class OpenAIClassifier(ArticleClassifier):
             if lp.token == " no":
                 probs.append(1 - np.exp(lp.logprob))
 
-        return dict(zip(agencies, probs))
+        return dict(zip(agencies, probs)), reasoning
 
     def __repr__(self):
         return f'OpenAIClassifier(model="{self.model}")'
@@ -114,7 +124,7 @@ class HuggingFaceClassifier(ArticleClassifier):
         model,
         prompt_file="prompts/annotate-hf.txt",
         question_file="prompts/questions.json",
-        max_tokens=5,
+        max_tokens=500,
         temperature=0.1,
     ):
         self.model_str = model
@@ -144,6 +154,7 @@ class HuggingFaceClassifier(ArticleClassifier):
 
     def annotate(self, article, prompt=None):
         out = {}
+        reasoning = {}
         for src, prompt in self.format_prompt(article, prompt):
             input_ids = self.tokenizer.encode(
                 prompt, return_tensors="pt", add_special_tokens=False
@@ -174,17 +185,23 @@ class HuggingFaceClassifier(ArticleClassifier):
             # can't parse the answer
             if ("yes" not in generation) and ("no" not in generation):
                 out[src] = None
+                reasoning[src] = None
                 continue
 
-            # get the probabilities
-            for tok, score in zip(output, probs):
+            # get the probabilities, going backwards
+            capture_ans = False
+            for tok, score, idx in zip(output, probs, range(len(output))):
                 tok = self.tokenizer.decode(tok).strip().lower()
-                if tok in ("yes", "no"):
+                if tok in ("a", "a:", "a: ", "a :", "answer:", "answer"):
+                    reasoning[src] = generation[idx:]
+                    capture_ans = True  # start capturing the answer
+
+                if tok in ("yes", "no") and capture_ans:
                     p = score if tok == "yes" else 1 - score
                     out[src] = p.item()
                     break
 
-        return out
+        return out, reasoning
 
 
 # ------------------------------------------------------------------------------
@@ -223,12 +240,12 @@ def main(args):
 
             # annotate the article
             try:
-                funding = model.annotate(article)
+                funding, reasoning = model.annotate(article)
             except ValueError as e:
                 pbar.write(f"Error annotating file {path}: {e}")
                 pbar.update(1)
                 continue
-            data = {**data, "funding": funding}
+            data = {**data, "funding": funding, "reasoning": reasoning}
 
             # save the annotated article
             dump(data, open(f"{out_dir}/{filename}", "w"), indent=4)

@@ -4,9 +4,15 @@ Here is an academic article:
 {article}
 
 ### Instruction:
-Answer the following question about the article, and respond only with "yes" or "no". Do not provide any other information.
+Carefully consider every sentence in the article, paying close attention to the acknowledgements and funding. Then answer the following question about the article. Give your reasoning and then respond with "Yes" or "No". Do not provide any other information.
 
+Here is an example of a correctly formatted response:
+
+Reasoning: The paper mentions that the research was funded by DARPA, which is a branch of the United States military, and the German Research Foundation, which is a publicly-funded government organization. Therefore the research was funded by the military.
+A: Yes
+
+### Question:
 Q: {question}
 
 ### Response:
-A:
+Reasoning:

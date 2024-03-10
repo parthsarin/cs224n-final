@@ -1,21 +1,24 @@
-Here is an academic article:
+Begin by carefully reading this academic article:
 
 {article}
 
-Indicate whether the article was funded by each of the following funding sources: military, corporate, research agency, foundation, or none.
+Provide your reasoning, then indicate whether the article was funded by each of the following funding sources: military, corporate, research agency, foundation, or none. Here are are clarifications on each funding source:
 
-Format your response with each of the funding sources on a new line, followed by a colon, then the word "yes" or "no" to indicate whether that funding was present. Your response should have exactly five lines. For example, this format is correct:
+Military: any branch of a country's armed forces, including the army, navy, air force, and marines
+Corporate: any for-profit company, including startups, established corporations, and conglomerates
+Research agency: any government-funded organization that provides grants for research
+Foundation: any non-profit organization, including philanthropies, that provides grants for research
+None: the article does not report funding from any of the above sources
 
-military: yes
-corporate: no
-research agency: yes
-foundation: no
-none: no
+Give your reasoning on the first line, starting with "Reasoning:" and then write each of the funding sources on a new line, followed by a colon, and the word "yes" or "no" (lowercase) to indicate whether that funding was present. Your response should have exactly six lines. For example, this format is correct:
 
-This format is incorrect because it uses the wrong separators and doesn't have the correct number of lines:
+Reasoning: The paper mentions that the research was funded by DARPA, which is a branch of the United States military, and the German Research Foundation, which is a publicly-funded government organization. Therefore the research was funded by the military and a research agency.
+Military: yes
+Corporate: no
+Research agency: yes
+Foundation: no
+None: no
 
-military - no,
-corporate - yes,
-foundation - no
+If a source of funding isn't mentioned in the article but is known to be a common supporter of such research, do not assume its involvement; only report direct evidence found within the article.
 
 What were the funding sources for the article?
