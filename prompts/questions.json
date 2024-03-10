@@ -1,5 +1,5 @@
 {
-  "military": "Was this research funded by the military?",
+  "defense": "Was this research funded by defense?",
   "corporate": "Was this research funded by a corporation?",
   "research agency": "Was this research funded by a research agency?",
   "foundation": "Was this research funded by a foundation?",
