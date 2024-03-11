@@ -66,7 +66,7 @@ class OpenAIClassifier(ArticleClassifier):
                 break
         lps = raw_lps[idx:]
         lps = [lp for lp in lps if lp.token in (" yes", " no")]
-        agencies = [a.split(":")[0].lower() for a in msg]
+        agencies = [a.split(":")[0].lower() for a in msg if a.strip()]
 
         return r.message.content, reasoning, lps, agencies
 
