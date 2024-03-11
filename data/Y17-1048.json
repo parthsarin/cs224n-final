@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine the involvement of any of these entities based on the provided text alone."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine the involvement of any of these entities based on the provided text alone.",
+    "abstract": "Social media is an important source for news writers. However, extracting useful information for news writers from the vast amount of social media information is laborious. Therefore, services that enable news writers to extract important information are desired. In this paper, we describe a method to extract tweets that include useful information for news writers. Our method uses a Recurrent Neural Network (RNN) with an attention mechanism and multi-task learning that processes each character in the tweet to estimate whether the tweet includes important information. In our experiment, we compared two types of attention mechanism and compared their types with/without multi-task learning. By our proposed method, we obtained an F-measure of 0.627, which is 0.037 higher than that of baseline method.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": "3",
+    "year": "2017",
+    "month": "November",
+    "title": "Extracting Important Tweets for News Writers using Recurrent Neural Network with Attention Mechanism and Multi-task Learning"
 }

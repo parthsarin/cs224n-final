@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "In this paper, we describe an algorithm for aligning words with their translation in a bilingual corpus. Existing algorithms require enormous bilingual data to train statistical word-to-word translation models. Using word-based approach, frequent words with consistent translation can be aligned at a high precision rate. However, less frequent words or words with diverse translations usually do not have statistically significant evidence for confident alignment. Incomplete or incorrect alignments consequently result. Our algorithm attempts to handle the problem using a hierarchical class-based approximation of translation probabilities. The translation probabilities are estimated using class-based models on 3 levels of specificity. We found that the algorithm can provide translation probability for more word pairs at the cost of slightly lower degree of precision, even when a small corpus was used in training. We have achieved an application rate of 81.8% and precision rate of 93.3%. The algorithm also offer the advantage of producing word-sense disambiguation information.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Chinese",
+        "English",
+        "Mandarin"
+    ],
+    "numcitedby": "2",
+    "year": "1995",
+    "month": "December",
+    "title": "Automatic Acquisition of Class-based Rules for Word Alignment"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Grant-in-Aid for Scientific Research of Japan Society for the Promotion of Science and a Research Collaboration Project with Japan Anatomy Laboratory Co.Ltd. The Japan Society for the Promotion of Science is a research agency, and Japan Anatomy Laboratory Co.Ltd. represents corporate funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Grant-in-Aid for Scientific Research of Japan Society for the Promotion of Science and a Research Collaboration Project with Japan Anatomy Laboratory Co.Ltd. The Japan Society for the Promotion of Science is a research agency, and Japan Anatomy Laboratory Co.Ltd. represents corporate funding.",
+    "abstract": "Orthographic variation can be a serious problem for many natural language-processing applications. Japanese in particular contains orthographic variation, because the large quantity of transliteration from other languages causes many possible spelling variations. To manage this problem, this paper proposes a support vector machine (SVM)-based classifier that can determine whether two terms are equivalent. We automatically collected both positive examples (sets of equivalent term pairs) and negative examples (sets of inequivalent term pairs). Experimental results yielded high levels of accuracy (87.8%), demonstrating the feasibility of the proposed approach.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": "4",
+    "year": "2007",
+    "month": "September 7-9",
+    "title": "Support vector machine based orthographic disambiguation"
 }

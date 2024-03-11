@@ -7,5 +7,18 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union's Horizon 2020 research and innovation programme, the Government of Spain's research project Multisub, and the Universitat Polit\u00e8cnica de Val\u00e8ncia's PAID-01-17 R&D support programme. These are indicative of research agency and institutional support, not defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union's Horizon 2020 research and innovation programme, the Government of Spain's research project Multisub, and the Universitat Polit\u00e8cnica de Val\u00e8ncia's PAID-01-17 R&D support programme. These are indicative of research agency and institutional support, not defense, corporate, or foundation funding.",
+    "abstract": "This paper describes the participation of the MLLP research group of the Universitat Polit\u00e8cnica de Val\u00e8ncia in the WMT 2019 News Translation Shared Task. In this edition, we have submitted systems for the German \u2194 English and German \u2194 French language pairs, participating in both directions of each pair. Our submitted systems, based on the Transformer architecture, make ample use of data filtering, synthetic data and domain adaptation through fine-tuning.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "English",
+        "French",
+        "German"
+    ],
+    "numcitedby": "2",
+    "year": "2019",
+    "month": "August",
+    "title": "The {MLLP}-{UPV} Supervised Machine Translation Systems for {WMT}19 News Translation Task"
 }

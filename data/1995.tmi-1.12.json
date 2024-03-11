@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. It focuses on the development and application of KANT Controlled English in machine translation systems, specifically mentioning collaborations with Caterpillar Inc. and the Carnegie Group, but does not specify these as funding sources. Without explicit mention of funding, we cannot assume any specific source supported the research."
+    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. It focuses on the development and application of KANT Controlled English in machine translation systems, specifically mentioning collaborations with Caterpillar Inc. and the Carnegie Group, but does not specify these as funding sources. Without explicit mention of funding, we cannot assume any specific source supported the research.",
+    "abstract": "In this paper, we describe the design and deployment of KANT Controlled English (KCE) for knowledge-based machine translation in the KANT system. KCE combines three kinds of constraints: constraints on the lexicon; constraints on the complexity of sentences; and the use of generalized markup language. We describe how each of these types of language control are utilized in the implementation of a typical KANT application. The principles described are not specific to knowledge-based MT, and can be applied in the design of controlled languages for any kind of MT application.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "61",
+    "year": "1995",
+    "month": "July 5-7",
+    "title": "Controlled {E}nglish for Knowledge-Based {MT}: Experience with the {KANT} System"
 }

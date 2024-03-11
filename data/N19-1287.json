@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The acknowledgments section at the end of the article does not mention any specific funding sources, only thanking anonymous reviewers for their comments. There is no direct mention of support from defense, corporate entities, research agencies, or foundations. Therefore, based on the provided text, it appears there was no disclosed funding for this research."
+    "reasoning": "Reasoning: The acknowledgments section at the end of the article does not mention any specific funding sources, only thanking anonymous reviewers for their comments. There is no direct mention of support from defense, corporate entities, research agencies, or foundations. Therefore, based on the provided text, it appears there was no disclosed funding for this research.",
+    "abstract": "Document-level event factuality identification is an important subtask in event factuality and is crucial for discourse understanding in Natural Language Processing (NLP). Previous studies mainly suffer from the scarcity of suitable corpus and effective methods. To solve these two issues, we first construct a corpus annotated with both document-and sentencelevel event factuality information on both English and Chinese texts. Then we present an LSTM neural network based on adversarial training with both intra-and inter-sequence attentions to identify document-level event factuality. Experimental results show that our neural network model can outperform various baselines on the constructed corpus.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": "6",
+    "year": "2019",
+    "month": "June",
+    "title": "Document-Level Event Factuality Identification via Adversarial Neural Network"
 }

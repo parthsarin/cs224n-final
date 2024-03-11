@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. The only mention related to affiliations is that the work was done while the first author was visiting Microsoft Research Asia, which does not directly imply funding."
+    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. The only mention related to affiliations is that the work was done while the first author was visiting Microsoft Research Asia, which does not directly imply funding.",
+    "abstract": "This paper presents a new Chinese chunking method based on maximum entropy Markov models. We firstly present two types of Chinese chunking specifications and data sets, based on which the chunking models are applied. Then we describe the hidden Markov chunking model and maximum entropy chunking model. Based on our analysis of the two models, we propose a maximum entropy Markov chunking model that combines the transition probabilities and conditional probabilities of states. Experimental results for two types of data sets show that this approach achieves impressive accuracy in terms of the F-score: 91.02% and 92.68%, respectively. Compared with the hidden Markov chunking model and maximum entropy chunking model, based on the same data set, the new chunking model achieves better performance.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": "15",
+    "year": "2006",
+    "month": "June",
+    "title": "{C}hinese Chunking Based on Maximum Entropy {M}arkov Models"
 }

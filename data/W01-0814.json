@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute the research to any of these sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute the research to any of these sources based on the provided text.",
+    "abstract": "This paper proposes an empirical approach to the development of a computational model for assessing texts according to cohesiveness. We argue that the NLG technologies for the generation of structural paraphrases can be used to efficiently create what we call a cohesion-variant parallel corpus, which would serve as a good resource for empirical acquisition of cohesiveness criteria. We also present our pilot case study, in which we took a particular type of paraphrasing that separates a relative clause from a sentence. We have so far created a cohesion-variant parallel corpus containing 499 cohesive instances and 841 incohesive instances. Based on this corpus, we conducted a preliminary experiment on cohesion evaluation, obtaining encouraging results. 1 In this paper, we use the term cohesiveness to refer to the degree to which cohesive devices are properly chosen to realize cohesive relations in a text, whether it is quantified or not. It is a matter of surface realization or sentence planning (Wanner and Hovy, 1996; Reiter and Dale, 1999) . Here we distinguish it from the notion of coherence, which is typically used to refer to the degree to which the text contents themselves are well-organized at the conceptual level, and thus a matter of content selection/organization. This paper concentrates its focus on the former stratum.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": "8",
+    "year": "2001",
+    "month": "",
+    "title": "A Paraphrase-Based Exploration of Cohesiveness Criteria"
 }

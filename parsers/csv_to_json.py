@@ -9,6 +9,10 @@ import argparse
 from csv import DictReader, reader
 from json import load, dump
 from tqdm import tqdm
+import sys
+import csv
+
+csv.field_size_limit(sys.maxsize)
 
 
 def main(args):
@@ -26,10 +30,17 @@ def main(args):
             d = {}
 
         # isolate article from the prompt
-        prompt = row.pop('prompt')
-        article = '\n'.join(prompt.split('\n')[1:-1])
-
-        d = {**d, **row, 'article': article}
+        d = {
+            **d,
+            'article': row.pop('full_text'),
+            'abstract': row.pop('abstract'),
+            'countries': eval(row.pop('countries')),
+            'languages': eval(row.pop('final_langs')),
+            'numcitedby': row.pop('numcitedby'),
+            'year': row.pop('year'),
+            'month': row.pop('month'),
+            'title': row.pop('title'),
+        }
 
         # write the data back to the file
         dump(d, open(f'{args.output_dir}/{acl_id}.json', 'w'), indent=4)

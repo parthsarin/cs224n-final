@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is partially supported by the Grants from the Government subsidy for aiding scientific researches of the Ministry of Education of Japan, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is partially supported by the Grants from the Government subsidy for aiding scientific researches of the Ministry of Education of Japan, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper describes a method for searching word correspondences between pairs of translation sentences. In the Example-Based Machine Translation, translation patterns can be extracted easily if word correspondences between pair of translation sentences are defined. The popular methods for aligning bilingual corpus at a sub-sentential level are unable to produce reliable result when the size of the corpus is limited, because they are based on statistics. We propose a method for incrementing a word correspondence-included initial corpus automatically. It is appropriate for new languages whose huge corpus as well as machine readable dictionaries are still not available. The method was evaluated with French-Japanese spoken language texts. As the number of translation examples goes beyond 1,000, more than 80.0% of correct word correspondence rates were earned. 'Meaning of the sentence: \"Do you have an ashtray?\"",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese",
+        "French"
+    ],
+    "numcitedby": "4",
+    "year": "1999",
+    "month": "February",
+    "title": "Sub-Sentential Alignment Method by Analogy"
 }

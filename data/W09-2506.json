@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgements focus on thanking individuals for help and critical comments without reference to organizations or funding bodies."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgements focus on thanking individuals for help and critical comments without reference to organizations or funding bodies.",
+    "abstract": "We present a vector space model that supports the computation of appropriate vector representations for words in context, and apply it to a paraphrase ranking task. An evaluation on the SemEval 2007 lexical substitution task data shows promising results: the model significantly outperforms a current state of the art model, and our treatment of context is effective.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "40",
+    "year": "2009",
+    "month": "August",
+    "title": "Ranking Paraphrases in Context"
 }

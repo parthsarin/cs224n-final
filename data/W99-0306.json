@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9997035503698778
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "The Clarity project is devoted to automatic detection and classification of discourse structures in casual, non-task-oriented conversation using shallow, corpus-based methods of analysis. For the Clarity project, we have tagged speech acts and dialogue games in the Call Home Spanish corpus. We have done preliminary cross-level experiments on the relationship of word and speech act n-grams to dialogue games. Our results show that the label of a game cannot be predicted from n-grams of words it contains. We get better than baseline results for predicting the label of a game from the sequence of speech acts it contains, but only when the speech acts are hand tagged, and not when they are automatically detected. Our future research will focus on finding linguistic cues that are more predictive of game labels. The automatic classification of speech acts and games is carried out in a multi-level architecture that integrates classification at multiple discourse levels instead of performing them sequentially.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": "29",
+    "year": "1999",
+    "month": "",
+    "title": "Tagging of Speech Acts and Dialogue Games in {S}panish Call Home"
 }

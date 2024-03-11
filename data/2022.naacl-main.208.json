@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. It focuses on the development and annotation of a patient note (PN) corpus for biomedical natural language processing (NLP) without mentioning any support from defense, corporate entities, research agencies, or foundations. Therefore, without explicit mention of funding, we cannot assume the presence of any specific funding source."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. It focuses on the development and annotation of a patient note (PN) corpus for biomedical natural language processing (NLP) without mentioning any support from defense, corporate entities, research agencies, or foundations. Therefore, without explicit mention of funding, we cannot assume the presence of any specific funding source.",
+    "abstract": "This paper presents a corpus of 43,985 clinical patient notes (PNs) written by 35,156 examinees during the high-stakes USMLE \u00ae Step 2 Clinical Skills examination. In this exam, examinees interact with standardized patientspeople trained to portray simulated scenarios called clinical cases. For each encounter, an examinee writes a PN, which is then scored by physician raters using a rubric of clinical concepts, expressions of which should be present in the PN. The corpus features PNs from 10 clinical cases, as well as the clinical concepts from the case rubrics. A subset of 2,840 PNs were annotated by 10 physician experts such that all 143 concepts from the case rubrics (e.g., shortness of breath) were mapped to 34,660 PN phrases (e.g., dyspnea, difficulty breathing). The corpus is available via a data sharing agreement with NBME and can be requested at https://www.nbme.org/ services/data-sharing.",
+    "countries": [
+        "United States",
+        "United Kingdom"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": "0",
+    "year": "2022",
+    "month": "July",
+    "title": "The {USMLE}\u00ae Step 2 Clinical Skills Patient Note Corpus"
 }

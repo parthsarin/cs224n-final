@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.999311631234563
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "Statistical machine translation is a relatively new approach to the long-standing problem of translating human languages by computer. Current statistical techniques uncover translation rules from bilingual training texts and use those rules to translate new texts. The general architecture is the source-channel model: an English string is statistically generated (source), then statistically transformed into French (channel). In order to translate (or \"decode\") a French string, we look for the most likely English source. We show that for the simplest form of statistical models, this problem is NP-complete, i.e., probably exponential in the length of the observed sentence. We trace this complexity to factors not present in other decoding problems.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": "331",
+    "year": "1999",
+    "month": "",
+    "title": "Decoding complexity in word-replacement translation models"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from ISF grant 1095/05, the IST Programme of the European Community under the PASCAL Network of Excellence IST-2002-506778, and the ITC-irst/University of Haifa collaboration. ISF likely refers to a research agency grant, the IST Programme indicates European Community funding which is also a form of research agency support, and the collaboration with ITC-irst/University of Haifa does not clearly indicate corporate, defense, or foundation funding. There is no direct mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from ISF grant 1095/05, the IST Programme of the European Community under the PASCAL Network of Excellence IST-2002-506778, and the ITC-irst/University of Haifa collaboration. ISF likely refers to a research agency grant, the IST Programme indicates European Community funding which is also a form of research agency support, and the collaboration with ITC-irst/University of Haifa does not clearly indicate corporate, defense, or foundation funding. There is no direct mention of defense, corporate, or foundation funding.",
+    "abstract": "Obtaining large volumes of inference knowledge, such as entailment rules, has become a major factor in achieving robust semantic processing. While there has been substantial research on learning algorithms for such knowledge, their evaluation methodology has been problematic, hindering further research. We propose a novel evaluation methodology for entailment rules which explicitly addresses their semantic properties and yields satisfactory human agreement levels. The methodology is used to compare two state of the art learning algorithms, exposing critical issues for future progress.",
+    "countries": [
+        "Israel"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "86",
+    "year": "2007",
+    "month": "June",
+    "title": "Instance-based Evaluation of Entailment Rule Acquisition"
 }

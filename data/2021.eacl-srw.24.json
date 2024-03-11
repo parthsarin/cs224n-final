@@ -7,5 +7,20 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article thanks the Emil Aaltonen Foundation and the Academy of Finland for financial support. The Emil Aaltonen Foundation is a non-profit organization, thus a foundation, and the Academy of Finland is a government-funded organization that provides grants for research, thus a research agency. There is no mention of funding from defense, corporate sources, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article thanks the Emil Aaltonen Foundation and the Academy of Finland for financial support. The Emil Aaltonen Foundation is a non-profit organization, thus a foundation, and the Academy of Finland is a government-funded organization that provides grants for research, thus a research agency. There is no mention of funding from defense, corporate sources, or an indication that no funding was received.",
+    "abstract": "We explore cross-lingual transfer of register classification for web documents. Registers, that is, text varieties such as blogs or news are one of the primary predictors of linguistic variation and thus affect the automatic processing of language. We introduce two new registerannotated corpora, FreCORE and SweCORE, for French and Swedish. We demonstrate that deep pre-trained language models perform strongly in these languages and outperform previous state-of-the-art in English and Finnish. Specifically, we show 1) that zeroshot cross-lingual transfer from the large English CORE corpus can match or surpass previously published monolingual models, and 2) that lightweight monolingual classification requiring very little training data can reach or surpass our zero-shot performance. We further analyse classification results finding that certain registers continue to pose challenges in particular for cross-lingual transfer.",
+    "countries": [
+        "United States",
+        "Finland"
+    ],
+    "languages": [
+        "Swedish",
+        "Finnish",
+        "French",
+        "English"
+    ],
+    "numcitedby": "4",
+    "year": "2021",
+    "month": "April",
+    "title": "Beyond the {E}nglish Web: Zero-Shot Cross-Lingual and Lightweight Monolingual Classification of Registers"
 }

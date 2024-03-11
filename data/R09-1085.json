@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text.",
+    "abstract": "Instance sampling is a method to balance extremely skewed training sets as they occur, for example, in machine learning settings for anaphora resolution. Here, the number of negative samples (i.e. non-anaphoric pairs) is usually substantially larger than the number of positive samples. This causes classifiers to be biased towards negative classification, leading to suboptimal performance. In this paper, we explore how different techniques of instance sampling influence the performance of an anaphora resolution system for German given different classifiers. All sampling methods prove to increase the F-score for all classifiers, but the most successful method is random sampling. In the best setting, the F-score improves from 0.541 to 0.608 for memory-based learning, from 0.561 to 0.611 for decision tree learning and from 0.511 to 0.584 for maximum entropy learning.",
+    "countries": [
+        "United States",
+        "Germany"
+    ],
+    "languages": [
+        "Chinese",
+        "German"
+    ],
+    "numcitedby": "16",
+    "year": "2009",
+    "month": "September",
+    "title": "Instance Sampling Methods for Pronoun Resolution"
 }

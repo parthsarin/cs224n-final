@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "Prosody can be useful in resolving certain lexical and structural ambiguities in spoken English. In this paper we present some results of employing two types of prosodic information, namely pitch and pause, to assist syntactic and semantic analysis during parsing.",
+    "countries": [
+        "Australia"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "5",
+    "year": "1992",
+    "month": "June",
+    "title": "Prosodic Aids to Syntactic and Semantic Analysis of Spoken {E}nglish"
 }

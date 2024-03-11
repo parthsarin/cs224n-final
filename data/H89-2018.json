@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by DARPA under a specific contract, monitored through the Office of Naval Research. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense, which places it under the defense category. There is no mention of corporate, research agency (in the context of non-defense government-funded organizations), foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by DARPA under a specific contract, monitored through the Office of Naval Research. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense, which places it under the defense category. There is no mention of corporate, research agency (in the context of non-defense government-funded organizations), foundation funding, or an absence of funding.",
+    "abstract": "As part of our effort in developing a spoken language system for interactive problem solving, we recently collected a sizeable amount of speech data. This database is composed of spontaneous sentences which were collected during a simulated human/machine dialogue. Since a computer log of the spoken dialogue was maintained, we were able to ask the subjects to provide read versions of the sentences as well. This paper documents the data collection process, and provides some preliminary analyses of the collected data.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "23",
+    "year": "1989",
+    "month": "",
+    "title": "The Collection and Preliminary Analysis of a Spontaneous Speech Database"
 }

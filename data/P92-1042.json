@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "2",
+    "year": "1992",
+    "month": "June",
+    "title": "Documentation Parser to Extract Software Test Conditions"
 }

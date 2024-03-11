@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or the development of the MSED dataset. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute the research to any of these sources based on the information given."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or the development of the MSED dataset. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute the research to any of these sources based on the information given.",
+    "abstract": "Desire is a strong wish to do or have something, which involves not only a linguistic expression, but also underlying cognitive phenomena driving human feelings. As the most primitive and basic human instinct, conscious desire is often accompanied by a range of emotional responses. As a strikingly understudied task, it is difficult for machines to model and understand desire due to the unavailability of benchmarking datasets with desire and emotion labels. To bridge this gap, we present MSED, the first multi-modal and multi-task sentiment, emotion and desire dataset, which contains 9,190 textimage pairs, with English text. Each multimodal sample is annotated with six desires, three sentiments and six emotions. We also propose the state-of-the-art baselines to evaluate the potential of MSED and show the importance of multi-task and multi-modal clues for desire understanding. We hope this study provides a benchmark for human desire analysis. MSED will be publicly available for research 1 .",
+    "countries": [
+        "China",
+        "Denmark"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": "0",
+    "year": "2022",
+    "month": "July",
+    "title": "Beyond Emotion: A Multi-Modal Dataset for Human Desire Understanding"
 }

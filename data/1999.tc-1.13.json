@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 6.704270752999619e-07
     },
-    "reasoning": "Reasoning: The article discusses the development and application of tools (EasyEnglishAnalyzer and the Translation Confidence Index) specifically within the context of IBM's Machine Translation system. It mentions the use of these tools in improving the quality of machine translation for IBM, indicating a corporate context. There is no mention of funding from defense, research agencies, foundations, or an absence of funding, suggesting that the work was supported or conducted under the auspices of IBM, a for-profit corporation."
+    "reasoning": "Reasoning: The article discusses the development and application of tools (EasyEnglishAnalyzer and the Translation Confidence Index) specifically within the context of IBM's Machine Translation system. It mentions the use of these tools in improving the quality of machine translation for IBM, indicating a corporate context. There is no mention of funding from defense, research agencies, foundations, or an absence of funding, suggesting that the work was supported or conducted under the auspices of IBM, a for-profit corporation.",
+    "abstract": "We present two tools, EasyEnglishAnalyzer and the Translation Confidence Index, which help a company maximize the benefit of using MT in the information dissemination process by controlling the input (EasyEnglishAnalyser) and filtering the output (the Translation Confidence Index). These tools significantly increase the percentage of useful MT output, thus providing greater user acceptance. We show some examples of how these tools improve the quality of output from IBM's Machine Translation system in translation from English to German.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": "9",
+    "year": "1999",
+    "month": "November 10-11",
+    "title": "Controlling Input and Output of {MT} for Greater User Acceptance"
 }

@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from a fellowship within the Postdoc-Programme of the German Academic Exchange Service (DAAD), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions support from a fellowship within the Postdoc-Programme of the German Academic Exchange Service (DAAD), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources.",
+    "abstract": "The paper presents a corpus-based method for finding metaphorically used lexemes and prevailing semantico-conceptual source domains, given a target domain corpus. It is exemplified by a case study on the target domain of European politics, based on a French 800,000 token corpus.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": "14",
+    "year": "2007",
+    "month": "April",
+    "title": "Corpus-driven Metaphor Harvesting"
 }

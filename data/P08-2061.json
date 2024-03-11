@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that it was partially funded by Award Number 0551723 from the National Science Foundation, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that it was partially funded by Award Number 0551723 from the National Science Foundation, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "We present a novel fine-grained semantic representation of text and an approach to constructing it. This representation is largely extractable by today's technologies and facilitates more detailed semantic analysis. We discuss the requirements driving the representation, suggest how it might be of value in the automated tutoring domain, and provide evidence of its validity.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "9",
+    "year": "2008",
+    "month": "June",
+    "title": "Extracting a Representation from Text for Semantic Analysis"
 }

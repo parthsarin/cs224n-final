@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 7.896306882804183e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by the postdoctoral grant EX2005-1145 awarded by the Ministerio de Educaci\u00f3n y Ciencia of Spain, which is a government entity, thus categorizing it under a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by the postdoctoral grant EX2005-1145 awarded by the Ministerio de Educaci\u00f3n y Ciencia of Spain, which is a government entity, thus categorizing it under a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "In this paper we present a semantic role labeling system submitted to the task Multilevel Semantic Annotation of Catalan and Spanish in the context of SemEval-2007. The core of the system is a memory-based classifier that makes use of full syntactic information. Building on standard features, we train two classifiers to predict separately the semantic class of the verb and the semantic roles.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "Spanish",
+        "Catalan"
+    ],
+    "numcitedby": "0",
+    "year": "2007",
+    "month": "June",
+    "title": "{ILK}2: Semantic Role Labeling of {C}atalan and {S}panish using {T}i{MBL}"
 }

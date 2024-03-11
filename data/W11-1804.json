@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Grant-in-Aid for Specially Promoted Research (MEXT, Japan), which is a government funding program, and Federal funds from the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services, under a specific contract. These indicate funding from research agencies. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Grant-in-Aid for Specially Promoted Research (MEXT, Japan), which is a government funding program, and Federal funds from the National Institute of Allergy and Infectious Diseases, National Institutes of Health, Department of Health and Human Services, under a specific contract. These indicate funding from research agencies. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "This paper presents the preparation, resources, results and analysis of the Infectious Diseases (ID) information extraction task, a main task of the BioNLP Shared Task 2011. The ID task represents an application and extension of the BioNLP'09 shared task event extraction approach to full papers on infectious diseases. Seven teams submitted final results to the task, with the highest-performing system achieving 56% F-score in the full task, comparable to state-of-the-art performance in the established BioNLP'09 task. The results indicate that event extraction methods generalize well to new domains and full-text publications and are applicable to the extraction of events relevant to the molecular mechanisms of infectious diseases.",
+    "countries": [
+        "Japan",
+        "China",
+        "United States",
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "53",
+    "year": "2011",
+    "month": "June",
+    "title": "Overview of the Infectious Diseases ({ID}) task of {B}io{NLP} Shared Task 2011"
 }

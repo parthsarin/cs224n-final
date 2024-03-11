@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.9992892513016015
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text.",
+    "abstract": "This paper proposes an approach to identify word candidates that are not Traditional Chinese, including Japanese names (written in Japanese Kanji or Traditional Chinese characters) and word variants, when doing word segmentation on Traditional Chinese text. When handling personal names, a probability model concerning formats of names is introduced. We also propose a method to map Japanese Kanji into the corresponding Traditional Chinese characters. The same method can also be used to detect words written in character variants. After integrating generation rules for various types of special words, as well as their probability models, the F-measure of our word segmentation system rises from 94.16% to 96.06%. Another experiment shows that 83.18% of the 862 Japanese names in a set of 109 human-annotated documents can be successfully detected.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Japanese",
+        "Chinese",
+        "Mandarin"
+    ],
+    "numcitedby": "1",
+    "year": "2012",
+    "month": "September",
+    "title": "Strategies of Processing {J}apanese Names and Character Variants in Traditional {C}hinese Text"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources.",
+    "abstract": "In this work, we aim at identifying potential problems of ambiguity, completeness, conformity, singularity and readability in system and software requirements specifications. Those problems arise particularly when they are written in a natural language. While we describe them from a linguistic point of view, the business impacts of each potential error are also considered in system engineering context. We investigate and explore error patterns for requirements quality analysis by manually analyzing the corpus. This analysis is based on the requirements grammar that we developed in our previous work. In addition, this paper extends our previous work in a two-fold way: (1) we increase more than twice the number of evaluation data (1K sentences) through a manual verification process, and (2) we anonymize all sensible and confidential entities in evaluation data to make our data publicly available. We also provide the baseline system using conditional random fields for requirements quality analysis, and we obtain 79.47% for the F1 score on proposed evaluation data.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "1",
+    "year": "2018",
+    "month": "May",
+    "title": "Data Anonymization for Requirements Quality Analysis: a Reproducible Automatic Error Detection Task"
 }

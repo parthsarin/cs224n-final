@@ -7,5 +7,18 @@
         "foundation": 0.9998024393176823,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the ADAPT Centre for Digital Content Technology is funded under the Science Foundation Ireland (SFI) Research Centres Programme and is co-funded under the European Regional Development Fund. It also mentions partial funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement, and a research grant from SFI. These are all indicative of research agency and foundation funding sources. There is no mention of defense or corporate funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the ADAPT Centre for Digital Content Technology is funded under the Science Foundation Ireland (SFI) Research Centres Programme and is co-funded under the European Regional Development Fund. It also mentions partial funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement, and a research grant from SFI. These are all indicative of research agency and foundation funding sources. There is no mention of defense or corporate funding.",
+    "abstract": "Statistical machine translation (SMT) was the state-of-the-art in machine translation (MT) research for more than two decades, but has since been superseded by neural MT (NMT). Despite producing state-of-the-art results in many translation tasks, neural models underperform in resource-poor scenarios. Despite some success, none of the present-day benchmarks that have tried to overcome this problem can be regarded as a universal solution to the problem of translation of many low-resource languages. In this work, we investigate the performance of phrasebased SMT (PB-SMT) and NMT on two rarelytested low-resource language-pairs, English-to-Tamil and Hindi-to-Tamil, taking a specialised data domain (software localisation) into consideration. This paper demonstrates our findings including the identification of several issues of the current neural approaches to low-resource domain-specific text translation.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "English",
+        "Tamil",
+        "Hindi"
+    ],
+    "numcitedby": "3",
+    "year": "2020",
+    "month": "December",
+    "title": "An Error-based Investigation of Statistical and Neural Machine Translation Performance on {H}indi-to-{T}amil and {E}nglish-to-{T}amil"
 }

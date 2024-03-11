@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research.",
+    "abstract": "The viral spread of false, unverified and misleading information on the Internet has attracted a heightened attention of an interdisciplinary research community on the phenomenon. This paper contributes to the research efforts of automatically determining the veracity of rumourous tweets and classifying their replies according to stance. Our research objective was to investigate the interplay between a number of phenomenological and contextual features of rumours, in particular, we explore the extent to which network structural characteristics, metadata and user profiles could complement the linguistic analysis of the written content for the task at hand. The current findings strongly demonstrate that supplementary sources of information play significant role in classifying the veracity and the stance of Twitter interactions deemed to be rumourous.",
+    "countries": [
+        "North Macedonia"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "4",
+    "year": "2019",
+    "month": "June",
+    "title": "{A}ndrej{J}an at {S}em{E}val-2019 Task 7: A Fusion Approach for Exploring the Key Factors pertaining to Rumour Analysis"
 }

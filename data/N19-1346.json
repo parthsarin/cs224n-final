@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly states that the work is done under a collaborative agreement between SUTD (Singapore University of Technology and Design) and Alibaba on an Alibaba Innovative Research (AIR) Program funded by Alibaba, which is a for-profit company. There is no mention of funding from defense, research agencies, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly states that the work is done under a collaborative agreement between SUTD (Singapore University of Technology and Design) and Alibaba on an Alibaba Innovative Research (AIR) Program funded by Alibaba, which is a for-profit company. There is no mention of funding from defense, research agencies, foundations, or an absence of funding.",
+    "abstract": "This paper introduces a new task -Chinese address parsing -the task of mapping Chinese addresses into semantically meaningful chunks. While it is possible to model this problem using a conventional sequence labelling approach, our observation is that there exist complex dependencies between labels that cannot be readily captured by a simple linear-chain structure. We investigate neural structured prediction models with latent variables to capture such rich structural information within Chinese addresses. We create and publicly release a new dataset consisting of 15,000 Chinese addresses, and conduct extensive experiments on the dataset to investigate the model effectiveness and robustness. We release our code and data at http:// statnlp.org/research/sp.",
+    "countries": [
+        "Singapore"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": "4",
+    "year": "2019",
+    "month": "June",
+    "title": "Neural {C}hinese Address Parsing"
 }

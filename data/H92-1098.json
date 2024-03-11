@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions collaboration with DARPA contractors and the involvement of the DoD (Department of Defense), indicating funding or support from a defense source. There is no mention of corporate, research agency, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The article mentions collaboration with DARPA contractors and the involvement of the DoD (Department of Defense), indicating funding or support from a defense source. There is no mention of corporate, research agency, foundation funding, or an absence of funding.",
+    "abstract": "In the DoD, every unit, from the smallest to the largest, communicates through messages. Messages are fundamental in command and control, in intelligence analysis, and in planning and replanning. Our objective is to create algorithms that will 1) robustly process open source text, identifying relevant messages, and updating a data base based on the relevant messages;",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "0",
+    "year": "1992",
+    "month": "",
+    "title": "Robustness, Portability, and Scalability Language Systems"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions support from the National Science Foundation (NSF), a government-funded organization that provides grants for research, and a contract from the Air Force Office of Scientific Research (AFOSR), which is a branch of the United States military. It also mentions donations from the Digital Equipment Corporation, which is a for-profit company. Therefore, the research was funded by a research agency, defense, and corporate sources."
+    "reasoning": "Reasoning: The article mentions support from the National Science Foundation (NSF), a government-funded organization that provides grants for research, and a contract from the Air Force Office of Scientific Research (AFOSR), which is a branch of the United States military. It also mentions donations from the Digital Equipment Corporation, which is a for-profit company. Therefore, the research was funded by a research agency, defense, and corporate sources.",
+    "abstract": "To explain complex phenomena, an explanation system must be able to select information from a formal representation of domain knowledge, organize the selected information into multisentential discourse plans, and realize the discourse plans in text. Although recent years have witnessed significant progress in the development of sophisticated computational mechanisms for explanation, empirical results have been limited. This paper reports on a seven-year effort to empirically study explanation generation from semantically rich, large-scale knowledge bases. In particular, it describes KNIGHT, a robust explanation system that constructs multisentential and multiparagraph explanations from the Biology Knowledge Base, a large-scale knowledge base in the domain of botanical anatomy, physiology, and development. We introduce the Two-Panel evaluation methodology and describe how KNIGHT'S performance was assessed with this methodology in the most extensive empirical evaluation conducted on an explanation system. In this evaluation, KNIGHT scored within \"half a grade\" of domain experts, and its performance exceeded that of one of the domain experts.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "113",
+    "year": "1997",
+    "month": "",
+    "title": "Developing and Empirically Evaluating Robust Explanation Generators: The {KNIGHT} Experiments"
 }

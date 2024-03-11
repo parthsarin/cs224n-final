@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9981881799312278
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "We describe the use of XML tokenisation, tagging and mark-up tools to prepare a corpus for parsing. Our techniques are generally applicable but here we focus on parsing Medline abstracts with the ANLT wide-coverage grammar. Hand-crafted grammars inevitably lack coverage but many coverage failures are due to inadequacies of their lexicons. We describe a method of gaining a degree of robustness by interfacing POS tag information with the existing lexicon. We also show that XML tools provide a sophisticated approach to pre-processing, helping to ameliorate the 'messiness' in real language data and improve parse performance.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": "29",
+    "year": "2001",
+    "month": "July",
+    "title": "{XML}-Based Data Preparation for Robust Deep Parsing"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section thanks various individuals and groups for their feedback and support, but it specifically mentions funding support from the Morris Memorial Trust Fund of the New York Community Trust, which is a foundation. There is no mention of funding from defense, corporate entities, research agencies, or any indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The acknowledgements section thanks various individuals and groups for their feedback and support, but it specifically mentions funding support from the Morris Memorial Trust Fund of the New York Community Trust, which is a foundation. There is no mention of funding from defense, corporate entities, research agencies, or any indication that there were no other sources of funding.",
+    "abstract": "Toponym resolvers identify the specific locations referred to by ambiguous placenames in text. Most resolvers are based on heuristics using spatial relationships between multiple toponyms in a document, or metadata such as population. This paper shows that text-driven disambiguation for toponyms is far more effective. We exploit document-level geotags to indirectly generate training instances for text classifiers for toponym resolution, and show that textual cues can be straightforwardly integrated with other commonly used ones. Results are given for both 19th century texts pertaining to the American Civil War and 20th century newswire articles.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "60",
+    "year": "2013",
+    "month": "August",
+    "title": "Text-Driven Toponym Resolution using Indirect Supervision"
 }

@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The article mentions support from DFG (German Research Council), which is a research agency, and the use of facilities supported by a grant from the Natural Sciences and Engineering Research Council of Canada, another research agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article mentions support from DFG (German Research Council), which is a research agency, and the use of facilities supported by a grant from the Natural Sciences and Engineering Research Council of Canada, another research agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "This paper deals with the reference choices involved in the generation of argumentative text. Since a natual segmentation of discourse into attentional spaces is needed to carry out this task, this paper first proposes an architecture for natural language generation that combines hierarchical planning and focus-guided navigation, a work in its own right. While hierarchical planning spans out an attentional hierarchy of the discourse produced, local navigation fills details into the primitive discourse spaces. The usefulness of this architecture actually goes beyond the particular domain of application for which it is developed. A piece of argumentative text such as the proof of a mathematical theorem conveys a sequence of derivations. For each step of derivation, the premises derived in the previous context and the inference method (such as the application of a particular theorem or definition) must be made clear. Although not restricted to nominal phrases, our reference decisions are similar to those concerning nominal subsequent referring expressions. Based on the work of Reichmann, this paper presents a discourse theory that handles reference choices by taking into account both textual distance as well as the attentional hierarchy.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": "17",
+    "year": "1997",
+    "month": "July",
+    "title": "Planning Reference Choices for Argumentative Teas"
 }

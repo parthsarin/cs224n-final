@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments focus on thanking individuals for discussions and proofreading, and there is no mention of support from defense, corporate entities, research agencies, or foundations."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments focus on thanking individuals for discussions and proofreading, and there is no mention of support from defense, corporate entities, research agencies, or foundations.",
+    "abstract": "We present a generative neural network model for slot filling based on a sequenceto-sequence (Seq2Seq) model together with a pointer network, in the situation where only sentence-level slot annotations are available in the spoken dialogue data. This model predicts slot values by jointly learning to copy a word which may be out-of-vocabulary (OOV) from an input utterance through a pointer network, or generate a word within the vocabulary through an attentional Seq2Seq model. Experimental results show the effectiveness of our slot filling model, especially at addressing the OOV problem. Additionally, we integrate the proposed model into a spoken language understanding system and achieve the state-of-the-art performance on the benchmark data.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "34",
+    "year": "2018",
+    "month": "July",
+    "title": "Improving Slot Filling in Spoken Language Understanding with Joint Pointer and Attention"
 }

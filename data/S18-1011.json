@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The work is explicitly funded by the THYME project (R01LM010090) from the National Library Of Medicine, which is part of the National Institutes of Health, a research agency of the United States government. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The work is explicitly funded by the THYME project (R01LM010090) from the National Library Of Medicine, which is part of the National Institutes of Health, a research agency of the United States government. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "This paper presents the outcomes of the Parsing Time Normalization shared task held within SemEval-2018. The aim of the task is to parse time expressions into the compositional semantic graphs of the Semantically Compositional Annotation of Time Expressions (SCATE) schema, which allows the representation of a wider variety of time expressions than previous approaches. Two tracks were included, one to evaluate the parsing of individual components of the produced graphs, in a classic information extraction way, and another one to evaluate the quality of the time intervals resulting from the interpretation of those graphs. Though 40 participants registered for the task, only one team submitted output, achieving 0.55 F1 in Track 1 (parsing) and 0.70 F1 in Track 2 (intervals).",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "17",
+    "year": "2018",
+    "month": "June",
+    "title": "{S}em{E}val 2018 Task 6: Parsing Time Normalizations"
 }

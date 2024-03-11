@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it appears that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it appears that the article does not report funding from any of the specified sources.",
+    "abstract": "In this paper, we introduce the German version of the multilingual Fips parsing system. We focus on the evaluation of its part-ofspeech tagging component with the help of the TIGER treebank. We explain how Fips can be adapted to the tagset used by TIGER and report first results of this study: currently, 87% of words are tagged correctly. We also discuss some common errors and explore a possible extension of this study to parsing.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "German",
+        "French",
+        "English"
+    ],
+    "numcitedby": "3",
+    "year": "2008",
+    "month": "June",
+    "title": "Part-of-Speech Tagging with a Symbolic Full Parser: Using the {TIGER} Treebank to Evaluate Fips"
 }

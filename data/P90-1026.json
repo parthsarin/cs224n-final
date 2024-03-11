@@ -7,5 +7,19 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the writing of the article. Therefore, based on the information given, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the writing of the article. Therefore, based on the information given, it is not possible to determine any funding sources.",
+    "abstract": "Recent developments in generation algorithms have enabled work in nnificafion-based computational linguistics to approach more closely the ideal of grammars as declarative statements of linguistic facts, neutral between analysis an0_ synthesis, x-\"~-oui this perspective, however, the situation is still far from perfect; all known methods of generation impose constraints on the grammars they assume. We briefly consider a number of proposals for generation, outlining their consequences for the form of grammacs, and then report on experience arising from the addition of a generator to an existing unification environment. The algorithm in question (based on that of Shieber et al. ( 1989 )), though among the most permissive currently available, excludes certain classes of parsable analyses.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "English",
+        "Dutch",
+        "German",
+        "French"
+    ],
+    "numcitedby": "19",
+    "year": "1990",
+    "month": "June",
+    "title": "Asymmetry in Parsing and Generating with Unification Grammars: Case Studies From {ELU}"
 }

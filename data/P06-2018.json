@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges support from Science Foundation Ireland grant 04/IN/I527 for the research reported. Science Foundation Ireland is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges support from Science Foundation Ireland grant 04/IN/I527 for the research reported. Science Foundation Ireland is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Data-driven grammatical function tag assignment has been studied for English using the Penn-II Treebank data. In this paper we address the question of whether such methods can be applied successfully to other languages and treebank resources. In addition to tag assignment accuracy and f-scores we also present results of a task-based evaluation. We use three machine-learning methods to assign Cast3LB function tags to sentences parsed with Bikel's parser trained on the Cast3LB treebank. The best performing method, SVM, achieves an f-score of 86.87% on gold-standard trees and 66.67% on parser output -a statistically significant improvement of 6.74% over the baseline. In a task-based evaluation we generate LFG functional-structures from the functiontag-enriched trees. On this task we achive an f-score of 75.67%, a statistically significant 3.4% improvement over the baseline.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": "16",
+    "year": "2006",
+    "month": "July",
+    "title": "Using Machine-Learning to Assign Function Labels to Parser Output for {S}panish"
 }

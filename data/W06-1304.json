@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the US government's NIST Advanced Technology Program, which is a research agency. It also lists collaborating partners including CSLI, Robert Bosch Corporation, VW America, and SRI International, indicating corporate involvement. There is no mention of defense or foundation funding, and since there is funding from a research agency and corporations, it cannot be classified as having no funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the US government's NIST Advanced Technology Program, which is a research agency. It also lists collaborating partners including CSLI, Robert Bosch Corporation, VW America, and SRI International, indicating corporate involvement. There is no mention of defense or foundation funding, and since there is funding from a research agency and corporations, it cannot be classified as having no funding.",
+    "abstract": "We explore the relationship between question answering and constraint relaxation in spoken dialog systems. We develop dialogue strategies for selecting and presenting information succinctly. In particular, we describe methods for dealing with the results of database queries in informationseeking dialogs. Our goal is to structure the dialogue in such a way that the user is neither overwhelmed with information nor left uncertain as to how to refine the query further. We present evaluation results obtained from a user study involving 20 subjects in a restaurant selection task.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Japanese",
+        "Chinese"
+    ],
+    "numcitedby": "41",
+    "year": "2006",
+    "month": "July",
+    "title": "Interactive Question Answering and Constraint Relaxation in Spoken Dialogue Systems"
 }

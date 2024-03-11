@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the system described was funded by DARPA under contract number MDA904-91-C-9328. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense responsible for the development of emerging technologies for use by the military. Therefore, the research was funded by a defense source. There is no mention of funding from corporate entities, research agencies, foundations, or any indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the system described was funded by DARPA under contract number MDA904-91-C-9328. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense responsible for the development of emerging technologies for use by the military. Therefore, the research was funded by a defense source. There is no mention of funding from corporate entities, research agencies, foundations, or any indication that there were no other sources of funding.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Japanese",
+        "English"
+    ],
+    "numcitedby": "9",
+    "year": "1993",
+    "month": "September",
+    "title": "{CRL}/{B}randeis: The {D}iderot System"
 }

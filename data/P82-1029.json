@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The paper explicitly mentions that the work was partially supported by a National Science Foundation grant (#MCS81-07290), which identifies it as being funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The paper explicitly mentions that the work was partially supported by a National Science Foundation grant (#MCS81-07290), which identifies it as being funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "these attributes are not necessarily attributes contained in the database.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": "20",
+    "year": "1982",
+    "month": "June",
+    "title": "Augmenting a Database Knowledge Representation for Natural Language Generation"
 }

@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the document thanks N. Hathout for insightful comments and mentions support from the PRC Communication 'Homme-Machine and the French ministry of research. There is no mention of defense, corporate, or foundation funding. The PRC Communication 'Homme-Machine might be considered a research agency if it is government-funded, and the French ministry of research is a government body that funds research, indicating research agency support."
+    "reasoning": "Reasoning: The acknowledgements section of the document thanks N. Hathout for insightful comments and mentions support from the PRC Communication 'Homme-Machine and the French ministry of research. There is no mention of defense, corporate, or foundation funding. The PRC Communication 'Homme-Machine might be considered a research agency if it is government-funded, and the French ministry of research is a government body that funds research, indicating research agency support.",
+    "abstract": "In this document, we present a formalism for natural language processing which associates type construction principles to constraint logic programming. We show that it provides more uniform, expressive and efficient tools for parsing and generating language. Next, we present two abstract machines which enable us to design, in a symmetric way, a parser and a generator from that formalism. This abstract machinery is then exemplified by a detailed study of secondary predication within the framework of a principledbased description of language: Government and Binding theory.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "French",
+        "Portuguese"
+    ],
+    "numcitedby": "2",
+    "year": "1991",
+    "month": "",
+    "title": "Reversibility in a Constraint and Type based Logic Grammar: Application to Secondary Predication"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9983504631838217
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "110",
+    "year": "1990",
+    "month": "",
+    "title": "Deducing Linguistic Structure from the Statistics of Large Corpora"
 }

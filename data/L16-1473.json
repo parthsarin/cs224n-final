@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research conducted. Therefore, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research conducted. Therefore, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "We set out to investigate whether TV ratings and mentions of TV programmes on the Twitter social media platform are correlated. If such a correlation exists, Twitter may be used as an alternative source for estimating viewer popularity. Moreover, the Twitter-based rating estimates may be generated during the programme, or even before. We count the occurrences of programme-specific hashtags in an archive of Dutch tweets of eleven popular TV shows broadcast in the Netherlands in one season, and perform correlation tests. Overall we find a strong correlation of 0.82; the correlation remains strong, 0.79, if tweets are counted a half hour before broadcast time. However, the two most popular TV shows account for most of the positive effect; if we leave out the single and second most popular TV shows, the correlation drops to being moderate to weak. Also, within a TV show, correlations between ratings and tweet counts are mostly weak, while correlations between TV ratings of the previous and next shows are strong. In absence of information on previous shows, Twitter-based counts may be a viable alternative to classic estimation methods for TV ratings. Estimates are more reliable with more popular TV shows.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "Dutch",
+        "English"
+    ],
+    "numcitedby": "4",
+    "year": "2016",
+    "month": "May",
+    "title": "Can Tweets Predict {TV} Ratings?"
 }

@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other entities. Without explicit mention of funding, it is not possible to determine the sources based on the provided excerpt."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other entities. Without explicit mention of funding, it is not possible to determine the sources based on the provided excerpt.",
+    "abstract": "The METAL machine translation project incorporates two methods of structural transfer -direct transfer and transfer by grammar. In this paper I discuss the strengths and weaknesses of these two approaches in general and with respect to the METAL project, and argue that, for many applications, a combination of the two is preferable to either alone.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": "2",
+    "year": "1985",
+    "month": "March",
+    "title": "A Two-Way Approach to Structural Transfer in {MT}"
 }

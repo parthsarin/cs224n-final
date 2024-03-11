@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources from defense, corporate entities, research agencies, foundations, or any other type of financial support. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources from defense, corporate entities, research agencies, foundations, or any other type of financial support. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "In this work we report on the results of a preliminary corpus study of Italian on the semantics of temporal prepositions, which is part of a wider project on the automatic recognition of temporal relations. The corpus data collected supports our hypothesis that each temporal preposition can be associated with one prototypical temporal relation, and that deviations from the prototype can be explained as determined by the occurrence of different semantic patterns. The motivation behind this approach is to improve methods for temporal annotation of texts for content based access to information. The corpus study described in this paper led to the development of a preliminary set of heuristics for automatic annotation of temporal relations in text/discourse.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        "Italian"
+    ],
+    "numcitedby": "3",
+    "year": "2007",
+    "month": "June",
+    "title": "Inferring the Semantics of Temporal Prepositions in {I}talian"
 }

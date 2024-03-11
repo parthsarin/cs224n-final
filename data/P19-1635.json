@@ -7,5 +7,17 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.1472413419255645e-06
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Ministry of Science and Technology, Taiwan, under several grants, and by Academia Sinica, Taiwan, under another grant. It also mentions that the paper is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO). The Ministry of Science and Technology and Academia Sinica are government-funded organizations, which classify as research agencies. NEDO is a Japanese government agency involved in research and development as well as industrial technology development, which also classifies it under research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Ministry of Science and Technology, Taiwan, under several grants, and by Academia Sinica, Taiwan, under another grant. It also mentions that the paper is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO). The Ministry of Science and Technology and Academia Sinica are government-funded organizations, which classify as research agencies. NEDO is a Japanese government agency involved in research and development as well as industrial technology development, which also classifies it under research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "In this paper, we attempt to answer the question of whether neural network models can learn numeracy, which is the ability to predict the magnitude of a numeral at some specific position in a text description. A large benchmark dataset, called Numeracy-600K, is provided for the novel task. We explore several neural network models including CNN, GRU, BiGRU, CRNN, CNN-capsule, GRU-capsule, and BiGRU-capsule in the experiments. The results show that the BiGRU model gets the best micro-averaged F1 score of 80.16%, and the GRU-capsule model gets the best macroaveraged F1 score of 64.71%. Besides discussing the challenges through comprehensive experiments, we also present an important application scenario, i.e., detecting exaggerated information, for the task.",
+    "countries": [
+        "Japan",
+        "Taiwan"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "31",
+    "year": "2019",
+    "month": "July",
+    "title": "Numeracy-600{K}: Learning Numeracy for Detecting Exaggerated Information in Market Comments"
 }

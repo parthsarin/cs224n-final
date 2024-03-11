@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 0.9999998063873687
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article specifically mentions support from the Learning Research and Development Center at the University of Pittsburgh. There is no mention of funding from defense, corporate entities, research agencies, or foundations. The Learning Research and Development Center is associated with the University of Pittsburgh and does not fall under any of the specified categories as a defense, corporate, research agency, or foundation entity in the traditional sense. Therefore, the article does not report funding from the specified sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article specifically mentions support from the Learning Research and Development Center at the University of Pittsburgh. There is no mention of funding from defense, corporate entities, research agencies, or foundations. The Learning Research and Development Center is associated with the University of Pittsburgh and does not fall under any of the specified categories as a defense, corporate, research agency, or foundation entity in the traditional sense. Therefore, the article does not report funding from the specified sources.",
+    "abstract": "Identifying peer-review helpfulness is an important task for improving the quality of feedback received by students, as well as for helping students write better reviews. As we tailor standard product review analysis techniques to our peer-review domain, we notice that peerreview helpfulness differs not only between students and experts but also between types of experts. In this paper, we investigate how different types of perceived helpfulness might influence the utility of features for automatic prediction. Our feature selection results show that certain low-level linguistic features are more useful for predicting student perceived helpfulness, while high-level cognitive constructs are more effective in modeling experts' perceived helpfulness.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "9",
+    "year": "2011",
+    "month": "June",
+    "title": "Understanding Differences in Perceived Peer-Review Helpfulness using Natural Language Processing"
 }

@@ -7,5 +7,20 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text.",
+    "abstract": "A statistical classification algorithm and its application to language identification from noisy input are described. The main innovation is to compute confidence limits on the classification, so that the algorithm terminates when enough evidence to make a clear decision has been made, and so avoiding problems with categories that have similar characteristics. A second application, to genre identification, is briefly examined. The results show that some of the problems of other language identification techniques can be avoided, and illustrate a more important point: that a statistical language process can be used to provide feedback about its own success rate.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Slovenian",
+        "Croatian",
+        "Italian",
+        "German",
+        "Serbian"
+    ],
+    "numcitedby": "16",
+    "year": "1998",
+    "month": "",
+    "title": "Language Identification With Confidence Limits"
 }

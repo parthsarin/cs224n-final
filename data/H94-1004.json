@@ -7,5 +7,21 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information about its funding sources. It discusses the efforts of the Linguistic Data Consortium (LDC) in developing lexical resources for human language technology (HLT) research but does not mention any direct funding from defense, corporate entities, research agencies, or foundations. The focus is on the activities and projects of the LDC rather than on funding details."
+    "reasoning": "Reasoning: The article does not provide specific information about its funding sources. It discusses the efforts of the Linguistic Data Consortium (LDC) in developing lexical resources for human language technology (HLT) research but does not mention any direct funding from defense, corporate entities, research agencies, or foundations. The focus is on the activities and projects of the LDC rather than on funding details.",
+    "abstract": "Information about words--their pronunciation, syntax and meaning--is a crucial and costly part of human language technology. Many questions remain about the best way to express and use such lexical information. Nevertheless, much of this information is common to all current approaches, and therefore the effort to collect it can usefully be shared. The Linguistic Data Consortium (LDC) has undertaken to provide such common lexical information for the community of HLT researchers. The purpose of this paper is to sketch the various LDC lexical projects now underway or planned, and to solicit feedback from the community of HLT researchers.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese",
+        "Mandarin",
+        "Mandarin",
+        "Japanese",
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": "1",
+    "year": "1994",
+    "month": "",
+    "title": "Lexicons for Human Language Technology"
 }

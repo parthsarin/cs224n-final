@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article explicitly thanks Saarland University for funding the MULI pilot project, which does not fall under any of the specified categories of defense, corporate, research agency, or foundation. Therefore, the funding source does not match any of the provided options, indicating that none of these specific sources were reported as funders."
+    "reasoning": "Reasoning: The article explicitly thanks Saarland University for funding the MULI pilot project, which does not fall under any of the specified categories of defense, corporate, research agency, or foundation. Therefore, the funding source does not match any of the provided options, indicating that none of these specific sources were reported as funders.",
+    "abstract": "We present discourse-level annotation of newspaper texts in German and English, as part of an ongoing project aimed at investigating information structure from a cross-linguistic perspective. Rather than annotating some specific notion of information structure, we propose a theory-neutral annotation of basic features at the levels of syntax, prosody and discourse, using treebank data as a starting point. Our discourse-level annotation scheme covers properties of discourse referents (e.g., semantic sort, delimitation, quantification, familiarity status) and anaphoric links (coreference and bridging). We illustrate what investigations this data serves and discuss some integration issues involved in combining different levels of stand-off annotations, created by using different tools.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": "9",
+    "year": "2004",
+    "month": "July",
+    "title": "Discourse-level Annotation for Investigating Information Structure"
 }

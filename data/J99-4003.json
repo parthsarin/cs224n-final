@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions funding from NSF, DARPA--Rome Laboratory, ONR/DARPA, ONR, ATR Interpreting Telecommunications Laboratory, and CNET, France T\u00e9l\u00e9com. NSF, DARPA, and ONR are U.S. government agencies that fund research, making them research agencies. DARPA is also associated with defense. ATR Interpreting Telecommunications Laboratory and CNET, France T\u00e9l\u00e9com, are corporate entities."
+    "reasoning": "Reasoning: The article mentions funding from NSF, DARPA--Rome Laboratory, ONR/DARPA, ONR, ATR Interpreting Telecommunications Laboratory, and CNET, France T\u00e9l\u00e9com. NSF, DARPA, and ONR are U.S. government agencies that fund research, making them research agencies. DARPA is also associated with defense. ATR Interpreting Telecommunications Laboratory and CNET, France T\u00e9l\u00e9com, are corporate entities.",
+    "abstract": "Interactive spoken dialogue provides many new challenges for natural language understanding systems. One of the most critical challenges is simply determining the speaker's intended utterances: both segmenting a speaker's turn into utterances and determining the intended words in each utterance. Even assuming perfect word recognition, the latter problem is complicated by the occurrence of speech repairs, which occur where speakers go back and change (or repeat) something they just said. The words that are replaced or repeated are no longer part of the intended utterance, and so need to be identified. Segmenting turns and resolving repairs are strongly intertwined with a third task: identifying discourse markers. Because of the interactions, and interactions with POS tagging and speech recognition, we need to address these tasks together and early on in the processing stream. This paper presents a statistical language model in which we rede~'ne the speech recognition problem so that it includes the identification of POS tags, discourse markers, speech repairs, and intonational phrases. By solving these simultaneously, we obtain better results on each task than addressing them separately. Our model is able to identify 72% of turn-internal intonational boundaries with a precision of 71%, 97% of discourse markers with 96% precision, and detect and correct 66% of repairs with 74% precision.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": "214",
+    "year": "1999",
+    "month": "",
+    "title": "Speech repains, intonational phrases, and discourse markers: modeling speakers{'} utterances in spoken dialogue"
 }

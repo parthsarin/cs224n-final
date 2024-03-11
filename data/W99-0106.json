@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999905085465441
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mentions of support from defense branches, corporations, research agencies, foundations, or acknowledgments of funding absence, it is not possible to determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mentions of support from defense branches, corporations, research agencies, foundations, or acknowledgments of funding absence, it is not possible to determine the funding sources based on the provided text.",
+    "abstract": "We compare the potential of two classes of finear and hierarchical models of discourse to determine co-reference links and resolve anaphors. The comparison uses a corpus of thirty texts, which were manually annotated for co-reference'and discourse structure.",
+    "countries": [
+        "Romania"
+    ],
+    "languages": [],
+    "numcitedby": "42",
+    "year": "1999",
+    "month": "",
+    "title": "Discourse Structure and Co-Reference: An Empirical Study"
 }

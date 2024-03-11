@@ -7,5 +7,16 @@
         "foundation": 6.704270752999619e-07,
         "none": 0.9553186397147541
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was performed in part under an appointment to the U.S. Department of Homeland Security (DHS) Scholarship and Fellowship Program. The Department of Homeland Security is a department of the U.S. federal government concerned with public security, roughly equivalent to interior or home ministries in other countries. It is not classified under defense, corporate, research agency, or foundation categories as defined here. Therefore, there is no direct indication of funding from defense, corporate, research agencies, or foundations, and the article does not explicitly state \"no funding\" from these sources but does specify a source not listed in the provided categories."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was performed in part under an appointment to the U.S. Department of Homeland Security (DHS) Scholarship and Fellowship Program. The Department of Homeland Security is a department of the U.S. federal government concerned with public security, roughly equivalent to interior or home ministries in other countries. It is not classified under defense, corporate, research agency, or foundation categories as defined here. Therefore, there is no direct indication of funding from defense, corporate, research agencies, or foundations, and the article does not explicitly state \"no funding\" from these sources but does specify a source not listed in the provided categories.",
+    "abstract": "Finding temporal and causal relations is crucial to understanding the semantic structure of a text. Since existing corpora provide no parallel temporal and causal annotations, we annotated 1000 conjoined event pairs, achieving inter-annotator agreement of 81.2% on temporal relations and 77.8% on causal relations. We trained machine learning models using features derived from WordNet and the Google N-gram corpus, and they outperformed a variety of baselines, achieving an F-measure of 49.0 for temporals and 52.4 for causals. Analysis of these models suggests that additional data will improve performance, and that temporal information is crucial to causal relation identification.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "78",
+    "year": "2008",
+    "month": "June",
+    "title": "Learning Semantic Links from a Corpus of Parallel Temporal and Causal Relations"
 }

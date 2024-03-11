@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or any other entities. Therefore, based on the provided text, it appears there was no funding reported."
+    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or any other entities. Therefore, based on the provided text, it appears there was no funding reported.",
+    "abstract": "This report explores the question of compatibility between annotation projects including translating annotation formalisms to each other or to common forms. Compatibility issues are crucial for systems that use the results of multiple annotation projects. We hope that this report will begin a concerted effort in the field to track the compatibility of annotation schemes for part of speech tagging, time annotation, treebanking, role labeling and other phenomena.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": "3",
+    "year": "2006",
+    "month": "July",
+    "title": "Annotation Compatibility Working Group Report"
 }

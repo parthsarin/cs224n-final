@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Science Foundation Arizona grant CAA 0277-08, the Arizona Alzheimer's Disease Data Management Core under NIH Grant NIA P30 AG-19610, and the Arizona Alzheimer's Consortium pilot grant. These are indicative of research agency and foundation funding sources, as Science Foundation Arizona operates as a foundation supporting scientific research, and the NIH (National Institutes of Health) is a government-funded research agency. There is no mention of defense or corporate funding, and since specific funding sources are acknowledged, it is not correct to say there was no funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Science Foundation Arizona grant CAA 0277-08, the Arizona Alzheimer's Disease Data Management Core under NIH Grant NIA P30 AG-19610, and the Arizona Alzheimer's Consortium pilot grant. These are indicative of research agency and foundation funding sources, as Science Foundation Arizona operates as a foundation supporting scientific research, and the NIH (National Institutes of Health) is a government-funded research agency. There is no mention of defense or corporate funding, and since specific funding sources are acknowledged, it is not correct to say there was no funding.",
+    "abstract": "Adverse reactions to drugs are among the most common causes of death in industrialized nations. Expensive clinical trials are not sufficient to uncover all of the adverse reactions a drug may cause, necessitating systems for post-marketing surveillance, or pharmacovigilance. These systems have typically relied on voluntary reporting by health care professionals. However, self-reported patient data has become an increasingly important resource, with efforts such as MedWatch from the FDA allowing reports directly from the consumer. In this paper, we propose mining the relationships between drugs and adverse reactions as reported by the patients themselves in user comments to health-related websites. We evaluate our system on a manually annotated set of user comments, with promising performance. We also report encouraging correlations between the frequency of adverse drug reactions found by our system in unlabeled data and the frequency of documented adverse drug reactions. We conclude that user comments pose a significant natural language processing challenge, but do contain useful extractable information which merits further exploration.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": "296",
+    "year": "2010",
+    "month": "July",
+    "title": "Towards {I}nternet-Age Pharmacovigilance: Extracting Adverse Drug Reactions from User Posts in Health-Related Social Networks"
 }

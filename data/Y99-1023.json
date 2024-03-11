@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "FCIDB (Friendly Chinese Interface for DataBase management systems) can understand users' queries in the Chinese language. It works like a translator that translates Chinese queries into SQL commands. In the translation process, the lexicon of FCIDB plays a key role in both parsing and word segmentation. We designed some questionnaires to collect the frequently occurring words and add them to the public 'lexicon in FCIDB. FCIDB will produce a private lexicon for every new connected database. This paper will focus on the words included in the public lexicon and in the private lexicon. We also discuss the function, the structure, and the contents of the lexicon in FCIDB.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": "0",
+    "year": "1999",
+    "month": "February",
+    "title": "The Lexicon in {FCIDB} : A Friendly {C}hinese Interface for {DBMS}"
 }

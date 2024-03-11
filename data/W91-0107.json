@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.9978835079346591
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mentions of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the content provided."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mentions of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the content provided.",
+    "abstract": "A considerable amount of study has recently been concentrated on the use of linguistically motivated unification based grammars for sentence generation (see",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": "2",
+    "year": "1991",
+    "month": "",
+    "title": "Syntactic Choice in Language Generation"
 }

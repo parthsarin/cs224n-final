@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research is supported by the National Natural Science Foundation of China (NSFC) under specific grant numbers. The NSFC is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research is supported by the National Natural Science Foundation of China (NSFC) under specific grant numbers. The NSFC is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This task focuses on evaluating word similarity computation in Chinese. We follow the way of Finkelstein et al. (2002) to select word pairs. Then we organize twenty undergraduates who are major in Chinese linguistics to annotate the data. Each pair is assigned a similarity score by each annotator. We rank the word pairs by the average value of similar scores among the twenty annotators. This data is used as gold standard. Four systems participating in this task return their results. We evaluate their results on gold standard data in term of Kendall's tau value, and the results show three of them have a positive correlation with the rank manually created while the taus' value is very small.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": "45",
+    "year": "2012",
+    "month": "7-8 June",
+    "title": "{S}em{E}val-2012 Task 4: Evaluating {C}hinese Word Similarity"
 }

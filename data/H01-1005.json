@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 6.704270752999619e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the material is based upon work supported by the National Science Foundation under two specific grant numbers. The National Science Foundation is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the material is based upon work supported by the National Science Foundation under two specific grant numbers. The National Science Foundation is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding sources.",
+    "abstract": "Annotation graphs provide an efficient and expressive data model for linguistic annotations of time-series data. This paper reports progress on a complete software infrastructure supporting the rapid development of tools for transcribing and annotating time-series data. This general-purpose infrastructure uses annotation graphs as the underlying model, and allows developers to quickly create special-purpose annotation tools using common components. An application programming interface, an I/O library, and graphical user interfaces are described. Our experience has shown us that it is a straightforward task to create new special-purpose annotation tools based on this general-purpose infrastructure.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": "13",
+    "year": "2001",
+    "month": "",
+    "title": "The Annotation Graph Toolkit: Software Components for Building Linguistic Annotation Tools"
 }

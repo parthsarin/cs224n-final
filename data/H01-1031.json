@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions the Department of Defense and Carnegie Mellon University. The Department of Defense is a branch of the U.S. armed forces, indicating defense funding. Carnegie Mellon University, while an academic institution, is not listed as a funding source but as a contributor of resources (the Enthusiast corpus). There is no direct mention of corporate, research agency, foundation funding, or a statement indicating the absence of funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions the Department of Defense and Carnegie Mellon University. The Department of Defense is a branch of the U.S. armed forces, indicating defense funding. Carnegie Mellon University, while an academic institution, is not listed as a funding source but as a contributor of resources (the Enthusiast corpus). There is no direct mention of corporate, research agency, foundation funding, or a statement indicating the absence of funding.",
+    "abstract": "This paper introduces a set of guidelines for annotating time expressions with a canonicalized representation of the times they refer to. Applications that can benefit from such an annotated corpus include information extraction (e.g., normalizing temporal references for database entry), question answering (answering \"when\" questions), summarization (temporally ordering information), machine translation (translating and normalizing temporal references), and information visualization (viewing event chronologies).",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": "37",
+    "year": "2001",
+    "month": "",
+    "title": "Guidelines for Annotating Temporal Information"
 }

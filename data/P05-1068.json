@@ -7,5 +7,17 @@
         "foundation": 2.81608923480281e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any financial support from the categories listed."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any financial support from the categories listed.",
+    "abstract": "In this paper, we propose a new contextdependent SMT model that is tightly coupled with a language model. It is designed to decrease the translation ambiguities and efficiently search for an optimal hypothesis by reducing the hypothesis search space. It works through reciprocal incorporation between source and target context: a source word is determined by the context of previous and corresponding target words and the next target word is predicted by the pair consisting of the previous target word and its corresponding source word. In order to alleviate the data sparseness in chunk-based translation, we take a stepwise back-off translation strategy. Moreover, in order to obtain more semantically plausible translation results, we use bilingual verb-noun collocations; these are automatically extracted by using chunk alignment and a monolingual dependency parser. As a case study, we experimented on the language pair of Japanese and Korean. As a result, we could not only reduce the search space but also improve the performance.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese",
+        "Korean"
+    ],
+    "numcitedby": "4",
+    "year": "2005",
+    "month": "June",
+    "title": "Context-Dependent {SMT} Model using Bilingual Verb-Noun Collocation"
 }

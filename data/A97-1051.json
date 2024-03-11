@@ -7,5 +7,24 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. Without specific mentions of funding, it is not possible to accurately determine the sources of support for the research."
+    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. Without specific mentions of funding, it is not possible to accurately determine the sources of support for the research.",
+    "abstract": "Historically, tailoring language processing systems to specific domains and languages for which they were not originally built has required a great deal of effort. Recent advances in corpus-based manual and automatic training methods have shown promise in reducing the time and cost of this porting process. These developments have focused even greater attention on the bottleneck of acquiring reliable, manually tagged training data. This paper describes a new set of integrated tools, collectively called the Alembic Workbench, that uses a mixed-initiative approach to \"bootstrapping\" the manual tagging process, with the goal of reducing the overhead associated with corpus development. Initial empirical studies using the Alembic Workbench to annotate \"named entities\" demonstrates that this approach can approximately double the production rate. As an ~ benefit, the combined efforts of machine and user produce domainspecific annotation rules that can be used to annotate similar texts automatically through the Alembic NLP system. The ultimate goal of this project is to enable end users to generate a practical domain-specific information extraction system within a single session.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Russian",
+        "Spanish",
+        "Portuguese",
+        "Japanese",
+        "Latin",
+        "Thai",
+        "English",
+        "Chinese",
+        "Greek"
+    ],
+    "numcitedby": "175",
+    "year": "1997",
+    "month": "March",
+    "title": "Mixed-Initiative Development of Language Processing Systems"
 }

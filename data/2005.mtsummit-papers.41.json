@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any financial support from the categories listed."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any financial support from the categories listed.",
+    "abstract": "This paper proposes an approach to improve statistical word alignment with the boosting method. Applying boosting to word alignment must solve two problems. The first is how to build the reference set for the training data. We propose an approach to automatically build a pseudo reference set, which can avoid manual annotation of the training set. The second is how to calculate the error rate of each individual word aligner. We solve this by calculating the error rate of a manually annotated held-out data set instead of the entire training set. In addition, the final ensemble takes into account the weights of the alignment links produced by the individual word aligners. Experimental results indicate that the boosting method proposed in this paper performs much better than the original word aligner, achieving a large error rate reduction.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": "6",
+    "year": "2005",
+    "month": "September 13-15",
+    "title": "Boosting Statistical Word Alignment"
 }

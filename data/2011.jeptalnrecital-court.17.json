@@ -7,5 +7,19 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research.",
+    "abstract": "Cet article pr\u00e9sente un corpus parall\u00e8le fran\u00e7ais-allemand de plus de 4 millions de mots issu de la num\u00e9risation d'un corpus alpin multilingue. Ce corpus est une pr\u00e9cieuse ressource pour de nombreuses \u00e9tudes de linguistique compar\u00e9e et du patrimoine culturel ainsi que pour le d\u00e9veloppement d'un syst\u00e8me statistique de traduction automatique dans un domaine sp\u00e9cifique. Nous avons annot\u00e9 un \u00e9chantillon de ce corpus parall\u00e8le et align\u00e9 les structures arbor\u00e9es au niveau des mots, des constituants et des phrases. Cet \"alpine treebank\" est le premier corpus arbor\u00e9 parall\u00e8le fran\u00e7ais-allemand de haute qualit\u00e9 (manuellement contr\u00f4l\u00e9), de libre acc\u00e8s et dans un domaine et un genre nouveau : le r\u00e9cit d'alpinisme.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "English",
+        "Italian",
+        "German",
+        "French"
+    ],
+    "numcitedby": "13",
+    "year": "2011",
+    "month": "June",
+    "title": "Le corpus {T}ext+{B}erg Une ressource parall{\\`e}le alpin fran{\\c{c}}ais-allemand (The {T}ext+{B}erg Corpus An Alpine {F}rench-{G}erman Parallel Resource)"
 }

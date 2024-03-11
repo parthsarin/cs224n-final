@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article itself."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article itself.",
+    "abstract": "We propose a question answering system which uses an encyclopedia as a knowledge base. However, since existing encyclopedias lack technical/new terms, we use an encyclopedia automatically generated from the World Wide Web. For this purpose, we first search the Web for pages containing a term in question. Then linguistic patterns and HTML structures are used to extract text fragments describing the term. Finally, extracted term descriptions are organized based on word senses and domains. We also evaluate our system by way of experiments, where the Japanese Information-Technology Engineers Examination is used as a test collection.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": "2",
+    "year": "2001",
+    "month": "",
+    "title": "Question Answering Using Encyclopedic Knowledge Generated from the Web"
 }

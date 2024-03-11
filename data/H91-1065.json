@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly states that the work was supported by the Advanced Research Projects Agency (ARPA, now known as DARPA), which is a branch of the Department of Defense in the United States, and was monitored by the Rome Air Development Center, indicating defense funding. There is no mention of corporate, research agency, foundation funding, or a lack of funding."
+    "reasoning": "Reasoning: The article explicitly states that the work was supported by the Advanced Research Projects Agency (ARPA, now known as DARPA), which is a branch of the Department of Defense in the United States, and was monitored by the Rome Air Development Center, indicating defense funding. There is no mention of corporate, research agency, foundation funding, or a lack of funding.",
+    "abstract": "We report here on our experiments with POST (Part of Speech Tagger) to address problems of ambiguity and of understanding unknown words. Part of speech tagging, per se, is a well understood problem. Our paper reports experiments in three important areas: handling unknown words, limiting the size of the training set, and returning a set of the most likely tags for each word rather than a single tag. We describe the algorithms that we used and the specific results of our experiments on Wall Street Journal articles and on MUC terrorist messages.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Latin"
+    ],
+    "numcitedby": "43",
+    "year": "1991",
+    "month": "",
+    "title": "Studies in Part of Speech Labelling"
 }

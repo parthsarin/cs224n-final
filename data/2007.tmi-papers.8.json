@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute any funding source to this research."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute any funding source to this research.",
+    "abstract": "This paper aims at providing a reliable method for measuring the correlations between different scores of evaluation metrics applied to machine translated texts. A series of examples from recent MT evaluation experiments are first discussed, including results and data from the recent French MT evaluation campaign, CESTA, which is used here. To compute correlation, a set of 1,500 samples for each system and each evaluation metric are created using bootstrapping. Correlations between metrics, both automatic and applied by human judges, are then computed over these samples. The results confirm the previously observed correlations between some automatic metrics, but also indicate a lack of correlation between human and automatic metrics on the CESTA data, which raises a number of questions regarding their validity. In addition, the roles of the corpus size and of the selection procedure for bootstrapping (low vs. high scores) are also examined.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": "10",
+    "year": "2007",
+    "month": "September 7-9",
+    "title": "A new method for the study of correlations between {MT} evaluation metrics"
 }

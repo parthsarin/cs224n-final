@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources.",
+    "abstract": "The goal of this paper is to show how to accomplish a more enjoyable and enthusiastic dialogue through the analysis of human-to-human conversational dialogues. We first created a conversational dialogue corpus annotated with two types of tags: one type indicates the particular aspects of the utterance itself, while the other indicates the degree of enthusiasm. We then investigated the relationship between these tags. Our results indicate that affective and cooperative utterances are significant to enthusiastic dialogue.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese",
+        "English"
+    ],
+    "numcitedby": "14",
+    "year": "2006",
+    "month": "July",
+    "title": "Relationship between Utterances and {``}Enthusiasm{''} in Non-task-oriented Conversational Dialogue"
 }
