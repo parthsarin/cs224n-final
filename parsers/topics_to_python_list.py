@@ -57,9 +57,7 @@ Parse the Python list from this output, if it exists, or return an empty list ot
 class HFParser:
     def __init__(self, model_name):
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
-        self.model = AutoModelForCausalLM.from_pretrained(
-            model_name, load_in_4bit=True
-        ).to(device)
+        self.model = AutoModelForCausalLM.from_pretrained(model_name, load_in_4bit=True)
 
     def parse(self, model_output):
         prompt = PROMPT.format(model_output=model_output)
