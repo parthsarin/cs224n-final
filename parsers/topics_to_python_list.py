@@ -4,7 +4,7 @@ File: topics_to_python_list.py
 
 Uses Mistral to parse the topics as a Python list from the data that Vyoma shared.
 """
-from tokenizer import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import csv
 import sys
 import argparse
