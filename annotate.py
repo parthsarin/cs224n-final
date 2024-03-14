@@ -191,7 +191,7 @@ class HuggingFaceClassifier(ArticleClassifier):
                 selected_probs.append(p.item())
 
         # get the labels
-        labels = [t[: t.find(":")] for t in answer.split("\n") if t.strip()]
+        labels = [t[: t.find(":")].lower() for t in answer.split("\n") if t.strip()]
         out = dict(zip(labels, selected_probs))
 
         return out, reasoning
