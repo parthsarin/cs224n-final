@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research presented in the article."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research presented in the article.",
+    "abstract": "The extraction of domain terminology is a task that is increasingly used for different application processes of natural language such as the information recovery, the creation of specialized corpus, question-answering systems, the creation of ontologies and the automatic classification of documents. This task of the extraction of domain terminology is generally performed by generating patterns. In literature we could find that the patterns which are used to extract such terminology often change from one domain to another, it means the intervention of human experts to the generation and validation of these patterns. This article deals with a methodology for automatic obtaining patterns (Basic Patterns and Definitory Verbal Patterns) for extracting domain terminology and minimizing the manual work of the experts. The obtained methodology was evaluated in the computer science domain obtaining a 97 percent in the case of the values of the basic patterns and a 98 percent of the definitory verbal patterns. Then the methodology was tested in three other domains with similar results, Agricultural Engineering (a 96 percent of the basic patterns and a 97 percent of the definitory verbal patterns), Veterinary Medicine (98% of the basic pattern and the definitory verbal patterns) and Agronomy (96% of the basic pattern and the definitory verbal patterns), showing that methodology can be applied in any specialty curriculum documents.",
+    "countries": [
+        "Spain",
+        "Cuba"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": 0,
+    "year": 2015,
+    "month": "September",
+    "title": "Pattern Construction for Extracting Domain Terminology"
 }

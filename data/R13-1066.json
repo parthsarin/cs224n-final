@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. Without direct evidence of funding, we cannot assume the involvement of any specific type of funding source."
+    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, foundations, or otherwise. Without direct evidence of funding, we cannot assume the involvement of any specific type of funding source.",
+    "abstract": "Research on statistical machine translation has focused on particular translation directions, typically with English as the target language, e.g., from Arabic to English. When we reverse the translation direction, the multiple reference translations turn into multiple possible inputs, which offers both challenges and opportunities. We propose and evaluate several strategies for making use of these multiple inputs: (a) select one of the datasets, (b) select the best input for each sentence, and (c) synthesize an input for each sentence by fusing the available inputs. Surprisingly, we find out that it is best to tune on the hardest available input, not on the one that yields the highest BLEU score. This finding has implications on how to pick good translators and how to select useful data for parameter optimization in SMT.",
+    "countries": [
+        "Qatar"
+    ],
+    "languages": [
+        "Arabic",
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2013,
+    "month": "September",
+    "title": "Parameter Optimization for Statistical Machine Translation: It Pays to Learn from Hard Examples"
 }

@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the work was supported in part by the National Natural Science Foundation of China (No. 61673028), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the work was supported in part by the National Natural Science Foundation of China (No. 61673028), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding.",
+    "abstract": "Existing text generation methods tend to produce repeated and \"boring\" expressions. To tackle this problem, we propose a new text generation model, called Diversity-Promoting Generative Adversarial Network (DP-GAN). The proposed model assigns low reward for repeatedly generated text and high reward for \"novel\" and fluent text, encouraging the generator to produce diverse and informative text. Moreover, we propose a novel languagemodel based discriminator, which can better distinguish novel text from repeated text without the saturation problem compared with existing classifier-based discriminators. The experimental results on review generation and dialogue generation tasks demonstrate that our model can generate substantially more diverse and informative text than existing baselines. 1",
+    "countries": [
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 97,
+    "year": 2018,
+    "month": "October-November",
+    "title": "Diversity-Promoting {GAN}: A Cross-Entropy Based Generative Adversarial Network for Diversified Text Generation"
 }

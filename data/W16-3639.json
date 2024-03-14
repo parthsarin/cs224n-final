@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.9992203387938686
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "The goal of our research is to support fullfledged dialogue between a user and a system that transforms the user queries into visualizations. So far, we have collected a corpus where users explore data via visualizations; we have annotated the corpus for user intentions; and we have developed the core NL-to-visualization pipeline.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 19,
+    "year": 2016,
+    "month": "September",
+    "title": "Towards a dialogue system that supports rich visualizations of data"
 }

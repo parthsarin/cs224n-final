@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from a National Endowment for the Humanities start-up grant, a U.S. National Science Foundation grant, and an ARCS scholarship. These are examples of research agency and foundation funding. There is no mention of defense or corporate funding, and since specific funding sources are listed, it is not correct to say there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from a National Endowment for the Humanities start-up grant, a U.S. National Science Foundation grant, and an ARCS scholarship. These are examples of research agency and foundation funding. There is no mention of defense or corporate funding, and since specific funding sources are listed, it is not correct to say there was no funding.",
+    "abstract": "We consider the problem of automatically inferring latent character types in a collection of 15,099 English novels published between 1700 and 1899. Unlike prior work in which character types are assumed responsible for probabilistically generating all text associated with a character, we introduce a model that employs multiple effects to account for the influence of extra-linguistic information (such as author). In an empirical evaluation, we find that this method leads to improved agreement with the preregistered judgments of a literary scholar, complementing the results of alternative models.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 156,
+    "year": 2014,
+    "month": "June",
+    "title": "A {B}ayesian Mixed Effects Model of Literary Character"
 }

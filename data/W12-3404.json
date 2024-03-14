@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "This paper introduces a novel unsupervised approach to semantic role induction that uses a generative Bayesian model. To the best of our knowledge, it is the first model that jointly clusters syntactic verbs arguments into semantic roles, and also creates verbs classes according to the syntactic frames accepted by the verbs. The model is evaluated on French and English, outperforming, in both cases, a strong baseline. On English, it achieves results comparable to state-of-the-art unsupervised approaches to semantic role induction.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": 7,
+    "year": 2012,
+    "month": "July 12",
+    "title": "Unsupervised frame based Semantic Role Induction: application to {F}rench and {E}nglish"
 }

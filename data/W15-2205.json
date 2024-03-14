@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9999676219241812
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention of funding sources, we cannot assume any were involved based on the information given."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention of funding sources, we cannot assume any were involved based on the information given.",
+    "abstract": "In this paper we gauge the utility of general-purpose, open-domain semantic parsing for textual entailment recognition by combining graph-structured meaning representations with semantic technologies and formal reasoning tools. Our approach achieves high precision, and in two case studies we show that when reasoning over n-best analyses from the parser the performance of our system reaches stateof-the-art for rule-based textual entailment systems.",
+    "countries": [
+        "Norway"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 10,
+    "year": 2015,
+    "month": "July",
+    "title": "Semantic Parsing for Textual Entailment"
 }

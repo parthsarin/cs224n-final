@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, such as defense, corporate, research agencies, foundations, or any other entities. Therefore, based on the information provided, it appears that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, such as defense, corporate, research agencies, foundations, or any other entities. Therefore, based on the information provided, it appears that the article does not report funding from any of the specified sources.",
+    "abstract": "This paper introduces preliminary analyses of embodied interactions, drawing on a multimodal corpus of Japanese conversations, which we video-recorded during scientific communications at a museum in Tokyo, the Miraikan. A comparison of similar cases extracted from our multimodal corpus shows both similarities and differences, not only in language use but also in bodily conduct in certain interactional sequences. We focus on a number of sequences, such as those where science communicators invite visitors to walk to the next exhibit, and our detailed analyses show that the practices of science communicators are context-free and context-sensitive interactional procedures, adapted and adjusted to the different situations communicators may encounter. After presenting our analyses, based on a corpus from a naturally occurring but partly controlled setting, we suggest that we can investigate both the generality and the situatedness of interactional practices. In the future, using such multimodal corpora, we will be able to both qualitatively and quantitatively analyze language use and non-verbal behaviors in situated activities.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 1,
+    "year": 2018,
+    "month": "May",
+    "title": "Preliminary Analysis of Embodied Interactions between Science Communicators and Visitors Based on a Multimodal Corpus of {J}apanese Conversations in a Science Museum"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgements related to financial support, or any affiliations that imply direct funding from defense, corporate, research agencies, or foundations for the research conducted."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgements related to financial support, or any affiliations that imply direct funding from defense, corporate, research agencies, or foundations for the research conducted.",
+    "abstract": "Incorporating lexicons into character-level Chinese NER by lattices is proven effective to exploit rich word boundary information. Previous work has extended RNNs to consume lattice inputs and achieved great success. However, due to the DAG structure and the inherently unidirectional sequential nature, this method precludes batched computation and sufficient semantic interaction. In this paper, we propose PLTE, an extension of transformer encoder that is tailored for Chinese NER, which models all the characters and matched lexical words in parallel with batch processing. PLTE augments self-attention with positional relation representations to incorporate lattice structure. It also introduces a porous mechanism to augment localness modeling and maintain the strength of capturing the rich long-term dependencies. Experimental results show that PLTE performs up to 11.4 times faster than state-of-the-art methods while realizing better performance. We also demonstrate that using BERT representations further substantially boosts the performance and brings out the best in PLTE.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 15,
+    "year": 2020,
+    "month": "December",
+    "title": "Porous Lattice Transformer Encoder for {C}hinese {NER}"
 }

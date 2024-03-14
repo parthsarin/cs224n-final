@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work has been supported by the German Research Foundation as part of the Research Training Group Adaptive Preparation of Information from Heterogeneous Sources (AIPHES) under grant No. GRK 1994/1. The German Research Foundation is a research funding organization, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work has been supported by the German Research Foundation as part of the Research Training Group Adaptive Preparation of Information from Heterogeneous Sources (AIPHES) under grant No. GRK 1994/1. The German Research Foundation is a research funding organization, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Motif analysis counts the number of small building blocks (the motifs) in a network and relates these statistical numbers to the inherent semantics of the network. In the realm of natural language processing, the networks are induced by texts. We demonstrate that motif analysis may help assess the quality of a document. More specifically, we consider the German Wikipedia and use the label \"featured\" as the (binary) quality criterion. The length (number of words) of an article is a comparatively good predictor for this label. We show that a well-designed combination of this criterion and motif statistics yields a significant improvement. We also found that a deeper look into the most relevant motifs may improve our understanding of quality.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 3,
+    "year": 2016,
+    "month": "June",
+    "title": "Network Motifs May Improve Quality Assessment of Text Documents"
 }

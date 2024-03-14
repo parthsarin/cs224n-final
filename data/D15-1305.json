@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or any other type of financial support for the research or the writing of the article."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or any other type of financial support for the research or the writing of the article.",
+    "abstract": "For sentiment classification, it is often recognized that embedding based on distributional hypothesis is weak in capturing sentiment contrast-contrasting words may have similar local context. Based on broader context, we propose to incorporate Theta Pure Dependence (TPD) into the Paragraph Vector method to reinforce topical and sentimental information. TPD has a theoretical guarantee that the word dependency is pure, i.e., the dependence pattern has the integral meaning whose underlying distribution can not be conditionally factorized. Our method outperforms the state-of-the-art performance on text classification tasks.",
+    "countries": [
+        "China",
+        "Hong Kong"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2015,
+    "month": "September",
+    "title": "Reinforcing the Topic of Embeddings with Theta Pure Dependence for Text Classification"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges support from EU COST Actions PEERE (TD1306) and KnowEscape (TD1210), which are European cooperation in science and technology programs, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly acknowledges support from EU COST Actions PEERE (TD1306) and KnowEscape (TD1210), which are European cooperation in science and technology programs, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "In this paper we explore post retraction citations to retracted papers. The reasons for retractions in our sample were data manipulation, small sample size, scientific misconduct, and duplicate publication by the authors. We found, that the huge majority of the citations are positive, and the citing papers usually fail to mention that the cited article was retracted. Retracted articles are freely available at the publishers' site, which is probably a catalyst for receiving more citations.",
+    "countries": [
+        "Israel",
+        "United States"
+    ],
+    "languages": [
+        "Korean"
+    ],
+    "numcitedby": 13,
+    "year": 2016,
+    "month": "June",
+    "title": "Post Retraction Citations in Context"
 }

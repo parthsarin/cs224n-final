@@ -7,5 +7,19 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agency, foundation, or any other type of financial support for the conducted research. Therefore, based on the provided text, it appears there was no disclosed funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agency, foundation, or any other type of financial support for the conducted research. Therefore, based on the provided text, it appears there was no disclosed funding.",
+    "abstract": "Typically, tokenization is the very first step in most text processing works. As a token serves as an atomic unit that embeds the contextual information of text, how to define a token plays a decisive role in the performance of a model. Even though Byte Pair Encoding (BPE) has been considered the de facto standard tokenization method due to its simplicity and universality, it still remains unclear whether BPE works best across all languages and tasks. In this paper, we test several tokenization strategies in order to answer our primary research question, that is, \"What is the best tokenization strategy for Korean NLP tasks?\" Experimental results demonstrate that a hybrid approach of morphological segmentation followed by BPE works best in Korean to/from English machine translation and natural language understanding tasks such as KorNLI, KorSTS, NSMC, and PAWS-X. As an exception, for KorQuAD, the Korean extension of SQuAD, BPE segmentation turns out to be the most effective. Our code and pre-trained models are publicly available at https://github.com/ kakaobrain/kortok.",
+    "countries": [
+        "South Korea"
+    ],
+    "languages": [
+        "Arabic",
+        "Ko",
+        "English",
+        "Korean"
+    ],
+    "numcitedby": 17,
+    "year": 2020,
+    "month": "December",
+    "title": "An Empirical Study of Tokenization Strategies for Various {K}orean {NLP} Tasks"
 }

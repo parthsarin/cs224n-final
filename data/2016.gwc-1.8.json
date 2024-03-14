@@ -7,5 +7,20 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mentions of funding, it is not possible to accurately determine the sources of financial support for the research presented in the article."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mentions of funding, it is not possible to accurately determine the sources of financial support for the research presented in the article.",
+    "abstract": "Supervised methods for Word Sense Disambiguation (WSD) benefit from highquality sense-annotated resources, which are lacking for many languages less common than English. There are, however, several multilingual parallel corpora that can be inexpensively annotated with senses through cross-lingual methods. We test the effectiveness of such an approach by attempting to disambiguate English texts through their translations in Italian, Romanian and Japanese. Specifically, we try to find the appropriate word senses for the English words by comparison with all the word senses associated to their translations. The main advantage of this approach is in that it can be applied to any parallel corpus, as long as large, highquality inter-linked sense inventories exist for all the languages considered.",
+    "countries": [
+        "Italy",
+        "Singapore"
+    ],
+    "languages": [
+        "English",
+        "Romanian",
+        "Italian",
+        "Japanese"
+    ],
+    "numcitedby": 5,
+    "year": 2016,
+    "month": "27--30 January",
+    "title": "Multilingual Sense Intersection in a Parallel Corpus with Diverse Language Families"
 }

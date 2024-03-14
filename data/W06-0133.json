@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article.",
+    "abstract": "We extended the work of Low, Ng, and Guo (2005) to create a Chinese word segmentation system based upon a maximum entropy statistical model. This system was entered into the Third International Chinese Language Processing Bakeoff and evaluated on all four corpora in their respective open tracks. Our system achieved the highest F-score for the UPUC corpus, and the second, third, and seventh highest for CKIP, CITYU, and MSRA respectively. Later testing with the gold-standard data revealed that while the additions we made to Low et al.'s system helped our results for the 2005 data with which we experimented during development, a number of them actually hurt our scores for this year's corpora.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 6,
+    "year": 2006,
+    "month": "July",
+    "title": "Maximum Entropy Word Segmentation of {C}hinese Text"
 }

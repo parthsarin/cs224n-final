@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research has been funded by the German Research Foundation DFG under the MMCI Cluster of Excellence. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research has been funded by the German Research Foundation DFG under the MMCI Cluster of Excellence. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Supervised semantic role labeling (SRL) systems are generally claimed to have accuracies in the range of 80% and higher (Erk and Pad\u00f3, 2006) . These numbers, though, are the result of highly-restricted evaluations, i.e., typically evaluating on hand-picked lemmas for which training data is available. In this paper we consider performance of such systems when we evaluate at the document level rather than on the lemma level. While it is wellknown that coverage gaps exist in the resources available for training supervised SRL systems, what we have been lacking until now is an understanding of the precise nature of this coverage problem and its impact on the performance of SRL systems. We present a typology of five different types of coverage gaps in FrameNet. We then analyze the impact of the coverage gaps on performance of a supervised semantic role labeling system on full texts, showing an average oracle upper bound of 46.8%.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 32,
+    "year": 2010,
+    "month": "August",
+    "title": "Evaluating {F}rame{N}et-style semantic parsing: the role of coverage gaps in {F}rame{N}et"
 }

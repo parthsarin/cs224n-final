@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that no external funding was reported."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that no external funding was reported.",
+    "abstract": "In this paper, we experiment with a resource consisting of metaphorically annotated proverbs on the task of word-level metaphor recognition. We observe that existing feature sets do not perform well on this data. We design a novel set of features to better capture the peculiar nature of proverbs and we demonstrate that these new features are significantly more effective on the metaphorically dense proverb data.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "Italian",
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2016,
+    "month": "November",
+    "title": "Learning to Identify Metaphors from a Corpus of Proverbs"
 }

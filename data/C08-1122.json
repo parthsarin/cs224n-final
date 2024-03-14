@@ -7,5 +7,14 @@
         "foundation": 2.220072535585871e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that the article reports no funding from the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that the article reports no funding from the specified sources.",
+    "abstract": "Previous methods usually conduct the keyphrase extraction task for single documents separately without interactions for each document, under the assumption that the documents are considered independent of each other. This paper proposes a novel approach named Col-labRank to collaborative single-document keyphrase extraction by making use of mutual influences of multiple documents within a cluster context. CollabRank is implemented by first employing the clustering algorithm to obtain appropriate document clusters, and then using the graph-based ranking algorithm for collaborative single-document keyphrase extraction within each cluster. Experimental results demonstrate the encouraging performance of the proposed approach. Different clustering algorithms have been investigated and we find that the system performance relies positively on the quality of document clusters.",
+    "countries": [
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 134,
+    "year": 2008,
+    "month": "August",
+    "title": "{C}ollab{R}ank: Towards a Collaborative Approach to Single-Document Keyphrase Extraction"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by Science Foundation Ireland (Grant No. 07/CE/I1142) as part of the Centre for Next Generation Localisation (www.cngl.ie) at Dublin City University, which indicates funding from a research agency."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by Science Foundation Ireland (Grant No. 07/CE/I1142) as part of the Centre for Next Generation Localisation (www.cngl.ie) at Dublin City University, which indicates funding from a research agency.",
+    "abstract": "This paper provides the system description of the IHMM team of Dublin City University for our participation in the system combination task in the Second Workshop on Applying Machine Learning Techniques to Optimise the Division of Labour in Hybrid MT (ML4HMT-12). Our work is based on a confusion network-based approach to system combination. We propose a new method to build a confusion network for this: (1) incorporate extra alignment information extracted from given meta data, treating them as sure alignments, into the results from IHMM, and ( 2 ) decode together with this information. We also heuristically set one of the system outputs as the default backbone. Our results show that this backbone, which is the RBMT system output, achieves an 0.11% improvement in BLEU over the backbone chosen by TER, while the extra information we added in the decoding part does not improve the results.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2012,
+    "month": "December",
+    "title": "System Combination with Extra Alignment Information"
 }

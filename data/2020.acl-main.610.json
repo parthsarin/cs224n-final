@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We tackle the task of Term Set Expansion (TSE): given a small seed set of example terms from a semantic class, finding more members of that class. The task is of great practical utility, and also of theoretical utility as it requires generalization from few examples. Previous approaches to the TSE task can be characterized as either distributional or pattern-based. We harness the power of neural masked language models (MLM) and propose a novel TSE algorithm, which combines the pattern-based and distributional approaches. Due to the small size of the seed set, fine-tuning methods are not effective, calling for more creative use of the MLM. The gist of the idea is to use the MLM to first mine for informative patterns with respect to the seed set, and then to obtain more members of the seed class by generalizing these patterns. Our method outperforms stateof-the-art TSE algorithms. Implementation",
+    "countries": [
+        "Israel"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2020,
+    "month": "July",
+    "title": "A Two-Stage Masked {LM} Method for Term Set Expansion"
 }

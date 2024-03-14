@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 731015, which is a research agency."
+    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 731015, which is a research agency.",
+    "abstract": "We present an application of Semantic Web Technologies to computational lexicography. More precisely we describe the publication of the morphological layer of the Italian Parole Simple Clips lexicon (PSC-M) as linked open data. The novelty of our work is in the use of the Semantic Web Rule Language (SWRL) to encode morphological patterns, thereby allowing the automatic derivation of the inflectional variants of the entries in the lexicon. By doing so we make these patterns available in a form that is human readable and that therefore gives a comprehensive morphological description of a large number of Italian words.",
+    "countries": [
+        "Italy",
+        "France"
+    ],
+    "languages": [
+        "Italian"
+    ],
+    "numcitedby": 1,
+    "year": 2018,
+    "month": "May",
+    "title": "One Language to rule them all: modelling Morphological Patterns in a Large Scale {I}talian Lexicon with {SWRL}"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the material is based in part upon work supported by the U.S. National Science Foundation under Grant Number 1319846. The U.S. National Science Foundation is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the material is based in part upon work supported by the U.S. National Science Foundation under Grant Number 1319846. The U.S. National Science Foundation is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We describe an algorithm for automatic classification of idiomatic and literal expressions. Our starting point is that idioms and literal expressions occur in different contexts. Idioms tend to violate cohesive ties in local contexts, while literals are expected to fit in. Our goal is to capture this intuition using a vector representation of words. We propose two approaches: (1) Compute inner product of context word vectors with the vector representing a target expression. Since literal vectors predict well local contexts, their inner product with contexts should be larger than idiomatic ones, thereby telling apart literals from idioms; and (2) Compute literal and idiomatic scatter (covariance) matrices from local contexts in word vector space. Since the scatter matrices represent context distributions, we can then measure the difference between the distributions using the Frobenius norm. We provide experimental results validating the proposed techniques.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 11,
+    "year": 2015,
+    "month": "September",
+    "title": "Classifying Idiomatic and Literal Expressions Using Vector Space Representations"
 }

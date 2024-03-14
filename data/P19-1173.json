@@ -7,5 +7,16 @@
         "foundation": 1.1472413419255645e-06,
         "none": 0.9955280439066361
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Morphological tagging is challenging for morphologically rich languages due to the large target space and the need for more training data to minimize model sparsity. Dialectal variants of morphologically rich languages suffer more as they tend to be more noisy and have less resources. In this paper we explore the use of multitask learning and adversarial training to address morphological richness and dialectal variations in the context of full morphological tagging. We use multitask learning for joint morphological modeling for the features within two dialects, and as a knowledge-transfer scheme for crossdialectal modeling. We use adversarial training to learn dialect invariant features that can help the knowledge-transfer scheme from the high to low-resource variants. We work with two dialectal variants: Modern Standard Arabic (high-resource \"dialect\" 1 ) and Egyptian Arabic (low-resource dialect) as a case study. Our models achieve state-of-the-art results for both. Furthermore, adversarial training provides more significant improvement when using smaller training datasets in particular.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 17,
+    "year": 2019,
+    "month": "July",
+    "title": "Adversarial Multitask Learning for Joint Multi-Feature and Multi-Dialect Morphological Modeling"
 }

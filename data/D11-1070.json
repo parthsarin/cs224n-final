@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the Research Group on Artificial Intelligence of the Hungarian Academy of Sciences and also mentions funding from Deutsche Forschungsgemeinschaft grant SFB 732. The Hungarian Academy of Sciences and Deutsche Forschungsgemeinschaft are both research agencies, indicating that the research was funded by a research agency. There is no mention of defense, corporate, or foundation funding, and since there is funding mentioned, it is not correct to say there was none."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the Research Group on Artificial Intelligence of the Hungarian Academy of Sciences and also mentions funding from Deutsche Forschungsgemeinschaft grant SFB 732. The Hungarian Academy of Sciences and Deutsche Forschungsgemeinschaft are both research agencies, indicating that the research was funded by a research agency. There is no mention of defense, corporate, or foundation funding, and since there is funding mentioned, it is not correct to say there was none.",
+    "abstract": "Information-oriented document labeling is a special document multi-labeling task where the target labels refer to a specific information instead of the topic of the whole document. These kind of tasks are usually solved by looking up indicator phrases and analyzing their local context to filter false positive matches. Here, we introduce an approach for machine learning local content shifters which detects irrelevant local contexts using just the original document-level training labels. We handle content shifters in general, instead of learning a particular language phenomenon detector (e.g. negation or hedging) and form a single system for document labeling and content shift detection. Our empirical results achieved 24% error reduction -compared to supervised baseline methods -on three document labeling tasks.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2011,
+    "month": "July",
+    "title": "Learning Local Content Shift Detectors from Document-level Information"
 }

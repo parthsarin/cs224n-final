@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the work was funded by the EPSRC projects CIT-RAZ and SCIBORG. The EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the work was funded by the EPSRC projects CIT-RAZ and SCIBORG. The EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Citation function is defined as the author's reason for citing a given paper (e.g. acknowledgement of the use of the cited method). The automatic recognition of the rhetorical function of citations in scientific text has many applications, from improvement of impact factor calculations to text summarisation and more informative citation indexers. We show that our annotation scheme for citation function is reliable, and present a supervised machine learning framework to automatically classify citation function, using both shallow and linguistically-inspired features. We find, amongst other things, a strong relationship between citation function and sentiment classification. Category Description Weak Weakness of cited approach CoCoGM Contrast/Comparison in Goals or Methods(neutral) CoCo-Author's work is stated to be superior to cited work CoCoR0 Contrast/Comparison in Results (neutral) CoCoXY Contrast between 2 cited methods PBas Author uses cited work as basis or starting point PUse Author uses tools/algorithms/data/definitions PModi Author adapts or modifies tools/algorithms/data PMot This citation is positive about approach used or problem addressed (used to motivate work in current paper) PSim Author's work and cited work are similar PSup Author's work and cited work are compatible/provide support for each other Neut Neutral description of cited work, or not enough textual evidence for above categories, or unlisted citation function",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 425,
+    "year": 2006,
+    "month": "July",
+    "title": "Automatic classification of citation function"
 }

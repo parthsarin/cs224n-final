@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges financial and technical support from Amazon, which is a for-profit company. There is no mention of funding from defense branches, research agencies, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly acknowledges financial and technical support from Amazon, which is a for-profit company. There is no mention of funding from defense branches, research agencies, foundations, or an absence of funding.",
+    "abstract": "This study tests the effect of cognitiveemotional expression in an Alexa text-tospeech (TTS) voice on users' experience with a social dialog system. We systematically introduced emotionally expressive interjections (e.g., \"Wow!\") and filler words (e.g., \"um\", \"mhmm\") in an Amazon Alexa Prize socialbot, Gunrock. We tested whether these TTS manipulations improved users' ratings of their conversation across thousands of real user interactions (n=5,527). Results showed that interjections and fillers each improved users' holistic ratings, an improvement that further increased if the system used both manipulations. A separate perception experiment corroborated the findings from the user study, with improved social ratings for conversations including interjections; however, no positive effect was observed for fillers, suggesting that the role of the rater in the conversation-as active participant or external listener-is an important factor in assessing social dialogs.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 19,
+    "year": 2019,
+    "month": "September",
+    "title": "A Large-Scale User Study of an {A}lexa {P}rize Chatbot: Effect of {TTS} Dynamism on Perceived Quality of Social Dialog"
 }

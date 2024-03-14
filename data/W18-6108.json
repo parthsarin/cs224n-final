@@ -7,5 +7,18 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the sources based on the provided information.",
+    "abstract": "We suggest a new language-independent architecture of robust word vectors (RoVe). It is designed to alleviate the issue of typos, which are common in almost any user-generated content, and hinder automatic text processing. Our model is morphologically motivated, which allows it to deal with unseen word forms in morphologically rich languages. We present the results on a number of Natural Language Processing (NLP) tasks and languages for the variety of related architectures and show that proposed architecture is typo-proof.",
+    "countries": [
+        "Russia"
+    ],
+    "languages": [
+        "English",
+        "Turkish",
+        "Russian"
+    ],
+    "numcitedby": 15,
+    "year": 2018,
+    "month": "November",
+    "title": "Robust Word Vectors: Context-Informed Embeddings for Noisy Texts"
 }

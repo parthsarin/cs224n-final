@@ -7,5 +7,17 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the Joint Programming Initiative in Cultural Heritage and Global Change, Digital Heritage and Riksantikvarie\u00e4mbetet, Sweden; the Swedish Research Council; Stiftelsen Marcus och Amalia Wallenbergs Minnesfond; and the University of Gothenburg. These entities are either research agencies or foundations, indicating no defense, corporate, or unspecified funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the Joint Programming Initiative in Cultural Heritage and Global Change, Digital Heritage and Riksantikvarie\u00e4mbetet, Sweden; the Swedish Research Council; Stiftelsen Marcus och Amalia Wallenbergs Minnesfond; and the University of Gothenburg. These entities are either research agencies or foundations, indicating no defense, corporate, or unspecified funding sources.",
+    "abstract": "Language catalogues and typological databases are two important types of resources containing different types of knowledge about the world's natural languages. The former provide metadata such as number of speakers, location (in prose descriptions and/or GPS coordinates), language code, literacy, etc., while the latter contain information about a set of structural and functional attributes of languages. Given that both types of resources are developed and later maintained manually, there are practical limits as to the number of languages and the number of features that can be surveyed. We introduce the concept of a language profile, which is intended to be a structured representation of various types of knowledge about a natural language extracted semi-automatically from descriptive documents and stored at a central location. It has three major parts: (1) an introductory; (2) an attributive; and (3) a reference part, each containing different types of knowledge about a given natural language. As a case study, we develop and present a language profile of an example language. At this stage, a language profile is an independent entity, but in the future it is envisioned to become part of a network of language profiles connected to each other via various types of relations. Such a representation is expected to be suitable both for humans and machines to read and process for further deeper linguistic analyses and/or comparisons.",
+    "countries": [
+        "Netherlands",
+        "Sweden"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "May",
+    "title": "From Linguistic Descriptions to Language Profiles"
 }

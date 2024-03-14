@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article discusses the implementation of machine translation solutions from a business perspective, specifically detailing the experiences and strategies of Applied Language Solutions. It does not mention receiving funding from defense, research agencies, foundations, or any other external entities. The focus is on the company's internal processes, challenges, and opportunities, suggesting that the work was supported by corporate resources."
+    "reasoning": "Reasoning: The article discusses the implementation of machine translation solutions from a business perspective, specifically detailing the experiences and strategies of Applied Language Solutions. It does not mention receiving funding from defense, research agencies, foundations, or any other external entities. The focus is on the company's internal processes, challenges, and opportunities, suggesting that the work was supported by corporate resources.",
+    "abstract": "This paper aims to give an insight into some of the challenges and opportunities from implementing machine translation in an enterprise environment. This is written from a business perspective rather than a technical one and highlights how Applied Language Solutions has designed and rolled out a series of customer specific machine translation solutions within our Enterprise.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2010,
+    "month": "October 31-November 4",
+    "title": "{MT} in the Enterprise Environment"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.963779366974476
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "Speech disfluencies are prevalent in spontaneous speech. The rising popularity of voice assistants presents a growing need to handle naturally occurring disfluencies. Semantic parsing is a key component for understanding user utterances in voice assistants, yet most semantic parsing research to date focuses on written text. In this paper, we investigate semantic parsing of disfluent speech with the ATIS dataset. We find that a state-of-the-art semantic parser does not seamlessly handle disfluencies. We experiment with adding real and synthetic disfluencies at training time and find that adding synthetic disfluencies not only improves model performance by up to 39% but can also outperform adding real disfluencies in the ATIS dataset.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "April",
+    "title": "Semantic Parsing of Disfluent Speech"
 }

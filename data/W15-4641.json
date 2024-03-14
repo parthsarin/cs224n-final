@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from the Program for Professor of Special Appointment (Eastern Scholar) at Shanghai Institutions of Higher Learning, the China NSFC project No. 61222208, and the Chun-Tsung Program of SJTU. These are indicative of funding from research agencies or educational institutions, not from defense, corporate entities, or foundations as traditionally defined. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from the Program for Professor of Special Appointment (Eastern Scholar) at Shanghai Institutions of Higher Learning, the China NSFC project No. 61222208, and the Chun-Tsung Program of SJTU. These are indicative of funding from research agencies or educational institutions, not from defense, corporate entities, or foundations as traditionally defined. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Recently, constrained Markov Bayesian polynomial (CMBP) has been proposed as a data-driven rule-based model for dialog state tracking (DST). CMBP is an approach to bridge rule-based models and statistical models. Recurrent Polynomial Network (RPN) is a recent statistical framework taking advantages of rulebased models and can achieve state-ofthe-art performance on the data corpora of DSTC-3, outperforming all submitted trackers in DSTC-3 including RNN. It is widely acknowledged that SLU's reliability influences tracker's performance greatly, especially in cases where the training SLU is poorly matched to the testing SLU. In this paper, this effect is analyzed in detail for RPN. Experiments show that RPN's tracking result is consistently the best compared to rule-based and statistical models investigated on different SLUs including mismatched ones and demonstrate RPN's is very robust to mismatched semantic parsers.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 11,
+    "year": 2015,
+    "month": "September",
+    "title": "Recurrent Polynomial Network for Dialogue State Tracking with Mismatched Semantic Parsers"
 }

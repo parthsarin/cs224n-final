@@ -7,5 +7,16 @@
         "foundation": 6.704270752999619e-07,
         "none": 0.3140510699371414
     },
-    "reasoning": "Reasoning: The article mentions that the study was conducted by Tilde Ltd. with support from the European Regional Development Fund (ERDF) within the framework of the project \"Forest Sector Competence Centre\". The ERDF is not categorized under defense, corporate, research agency, or foundation as defined here, but rather is a fund aimed at strengthening economic and social cohesion in the European Union by correcting imbalances between its regions. Therefore, the funding does not fall under any of the specified categories directly, but it indicates that the research was not unfunded."
+    "reasoning": "Reasoning: The article mentions that the study was conducted by Tilde Ltd. with support from the European Regional Development Fund (ERDF) within the framework of the project \"Forest Sector Competence Centre\". The ERDF is not categorized under defense, corporate, research agency, or foundation as defined here, but rather is a fund aimed at strengthening economic and social cohesion in the European Union by correcting imbalances between its regions. Therefore, the funding does not fall under any of the specified categories directly, but it indicates that the research was not unfunded.",
+    "abstract": "In this paper, we present Tilde MT, a custom machine translation (MT) platform that provides linguistic data storage (parallel, monolingual corpora, multilingual term collections), data cleaning and normalisation, statistical and neural machine translation system training and hosting functionality, as well as wide integration capabilities (a machine user API and popular computer-assisted translation tool plugins). We provide details for the most important features of the platform, as well as elaborate typical MT system training workflows for client-specific MT solution development.",
+    "countries": [
+        "Latvia"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 9,
+    "year": 2018,
+    "month": "May",
+    "title": "Tilde {MT} Platform for Developing Client Specific {MT} Solutions"
 }

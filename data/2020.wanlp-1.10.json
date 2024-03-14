@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research and development of the models."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research and development of the models.",
+    "abstract": "Arabic dialect identification is a complex problem for a number of inherent properties of the language itself. In this paper, we present the experiments conducted, and the models developed by our competing team, Mawdoo3 AI, along the way to achieving our winning solution to subtask 1 of the Nuanced Arabic Dialect Identification (NADI) shared task. The dialect identification subtask provides 21,000 country-level labeled tweets covering all 21 Arab countries. An unlabeled corpus of 10M tweets from the same domain is also presented by the competition organizers for optional use. Our winning solution itself came in the form of an ensemble of different training iterations of our pre-trained BERT model, which achieved a micro-averaged F1-score of 26.78% on the subtask at hand. We publicly release the pre-trained language model component of our winning solution under the name of Multi-dialect-Arabic-BERT model, for any interested researcher out there.",
+    "countries": [
+        "Jordan"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 20,
+    "year": 2020,
+    "month": "December",
+    "title": "Multi-dialect {A}rabic {BERT} for Country-level Dialect Identification"
 }

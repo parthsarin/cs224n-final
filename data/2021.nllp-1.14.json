@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999974223173222
     },
-    "reasoning": "Reasoning: The research is funded by the IC3 (International Centre for Connected Construction) of Northumbria University. IC3 is not described as a branch of the armed forces, a for-profit company, a government-funded research agency, or a non-profit foundation. It appears to be associated with a university, which does not fit neatly into any of the provided categories. Therefore, none of the specified funding sources directly apply based on the information given."
+    "reasoning": "Reasoning: The research is funded by the IC3 (International Centre for Connected Construction) of Northumbria University. IC3 is not described as a branch of the armed forces, a for-profit company, a government-funded research agency, or a non-profit foundation. It appears to be associated with a university, which does not fit neatly into any of the provided categories. Therefore, none of the specified funding sources directly apply based on the information given.",
+    "abstract": "Automated Compliance Checking (ACC) systems aim to semantically parse building regulations to a set of rules. However, semantic parsing is known to be hard and requires large amounts of training data. The complexity of creating such training data has led to research that focuses on small sub-tasks, such as shallow parsing or the extraction of a limited subset of rules. This study introduces a shallow parsing task for which training data is relatively cheap to create, with the aim of learning a lexicon for ACC. We annotate a small domain-specific dataset of 200 sentences, SPAR.txt 1 , and train a sequence tagger that achieves 79,93 F1-score on the test set. We then show through manual evaluation that the model identifies most (89,84%) defined terms in a set of building regulation documents, and that both contiguous and discontiguous Multi-Word Expressions (MWE) are discovered with reasonable accuracy (70,3%).",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "November",
+    "title": "{SP}a{R}.txt, a Cheap Shallow Parsing Approach for Regulatory Texts"
 }

@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research or development of the TASC technology. It focuses on the technology's capabilities, its application, and its performance in the MUC-7 task without mentioning any support from defense, corporate entities, research agencies, or foundations. Therefore, based on the information provided, we cannot assume any specific funding source."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research or development of the TASC technology. It focuses on the technology's capabilities, its application, and its performance in the MUC-7 task without mentioning any support from defense, corporate entities, research agencies, or foundations. Therefore, based on the information provided, we cannot assume any specific funding source.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 2,
+    "year": 1998,
+    "month": "",
+    "title": "{TASC}: Description of the {TASC} System Used for {MUC}-7"
 }

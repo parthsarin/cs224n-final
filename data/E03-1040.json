@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section at the end of the article specifically mentions NSERC of Canada, Bell University Labs, and the University of Toronto as sources of financial support. NSERC (Natural Sciences and Engineering Research Council of Canada) is a government-funded research agency that provides grants for research. Bell University Labs likely refers to a corporate-funded research initiative, given the involvement of Bell, which is a telecommunications company. The University of Toronto may provide funding from its own budget for research, but this does not fall under defense, corporate, research agency, or foundation categories as defined here. There is no mention of defense or foundation funding."
+    "reasoning": "Reasoning: The acknowledgements section at the end of the article specifically mentions NSERC of Canada, Bell University Labs, and the University of Toronto as sources of financial support. NSERC (Natural Sciences and Engineering Research Council of Canada) is a government-funded research agency that provides grants for research. Bell University Labs likely refers to a corporate-funded research initiative, given the involvement of Bell, which is a telecommunications company. The University of Toronto may provide funding from its own budget for research, but this does not fall under defense, corporate, research agency, or foundation categories as defined here. There is no mention of defense or foundation funding.",
+    "abstract": "We develop a general feature space for automatic classification of verbs into lexical semantic classes. Previous work was limited in scope by the need for manual selection of discriminating features, through a linguistic analysis of the target verb classes (Merlo and Stevenson, 2001) . We instead analyze the classification structure at a higher level, using the possible defining characteristics of classes as the basis for our feature space. The general feature space achieves reductions in error rates of 42-69%, on a wider range of classes than investigated previously, with comparable performance to feature sets manually selected for the particular classification tasks. Our results show that the approach is generally applicable, and avoids the need for resource-intensive linguistic analysis for each new task.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        "Italian",
+        "German",
+        "English"
+    ],
+    "numcitedby": 126,
+    "year": 2003,
+    "month": "April",
+    "title": "A General Feature Space for Automatic Verb Classification"
 }

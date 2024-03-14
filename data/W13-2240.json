@@ -7,5 +7,18 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was developed within the TaraX\u0170 project, financed by TSB Technologiestiftung Berlin - Zukunftsfonds Berlin, and co-financed by the European Union - European fund for regional development. TSB Technologiestiftung Berlin is a foundation aimed at promoting science and research, and the European fund for regional development is a fund aimed at strengthening economic and social cohesion in the European Union by correcting imbalances between its regions. Therefore, the funding comes from a foundation and a research agency (EU fund)."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was developed within the TaraX\u0170 project, financed by TSB Technologiestiftung Berlin - Zukunftsfonds Berlin, and co-financed by the European Union - European fund for regional development. TSB Technologiestiftung Berlin is a foundation aimed at promoting science and research, and the European fund for regional development is a fund aimed at strengthening economic and social cohesion in the European Union by correcting imbalances between its regions. Therefore, the funding comes from a foundation and a research agency (EU fund).",
+    "abstract": "This paper describes a set of experiments on two sub-tasks of Quality Estimation of Machine Translation (MT) output. Sentence-level ranking of alternative MT outputs is done with pairwise classifiers using Logistic Regression with blackbox features originating from PCFG Parsing, language models and various counts. Post-editing time prediction uses regression models, additionally fed with new elaborate features from the Statistical MT decoding process. These seem to be better indicators of post-editing time than blackbox features. Prior to training the models, feature scoring with ReliefF and Information Gain is used to choose feature sets of decent size and avoid computational complexity.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English",
+        "Spanish",
+        "German"
+    ],
+    "numcitedby": 3,
+    "year": 2013,
+    "month": "August",
+    "title": "Selecting Feature Sets for Comparative and Time-Oriented Quality Estimation of Machine Translation Output"
 }

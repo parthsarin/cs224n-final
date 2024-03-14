@@ -7,5 +7,14 @@
         "foundation": 0.09535181253951663,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section thanks Dr. Martin Emms and Dr. Lea Frermann for sharing the code of their systems and mentions the support from the King Abdullah Scholarship Program from the Saudi Arabian Government for the first author, and the ADAPT Centre for Digital Content Technology, which is funded under the SFI Research Centres Programme and co-funded under the European Regional Development Fund. This indicates funding from a research agency (SFI Research Centres Programme and European Regional Development Fund) and a foundation or government scholarship program (King Abdullah Scholarship Program). There is no mention of defense, corporate funding, or a foundation in the traditional sense of a non-profit organization providing grants."
+    "reasoning": "Reasoning: The acknowledgements section thanks Dr. Martin Emms and Dr. Lea Frermann for sharing the code of their systems and mentions the support from the King Abdullah Scholarship Program from the Saudi Arabian Government for the first author, and the ADAPT Centre for Digital Content Technology, which is funded under the SFI Research Centres Programme and co-funded under the European Regional Development Fund. This indicates funding from a research agency (SFI Research Centres Programme and European Regional Development Fund) and a foundation or government scholarship program (King Abdullah Scholarship Program). There is no mention of defense, corporate funding, or a foundation in the traditional sense of a non-profit organization providing grants.",
+    "abstract": "The task of Diachronic Word Sense Induction (DWSI) aims to identify the meaning of words from their context, taking the temporal dimension into account. In this paper we propose an evaluation method based on largescale time-stamped annotated biomedical data, and a range of evaluation measures suited to the task. The approach is applied to two recent DWSI systems, thus demonstrating its relevance and providing an in-depth analysis of the models.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "November",
+    "title": "An Evaluation Method for Diachronic Word Sense Induction"
 }

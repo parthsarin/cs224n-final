@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the annotations of the Stance Dataset were funded by the National Research Council of Canada, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the annotations of the Stance Dataset were funded by the National Research Council of Canada, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Here for the first time we present a shared task on detecting stance from tweets: given a tweet and a target entity (person, organization, etc.), automatic natural language systems must determine whether the tweeter is in favor of the given target, against the given target, or whether neither inference is likely. The target of interest may or may not be referred to in the tweet, and it may or may not be the target of opinion. Two tasks are proposed. Task A is a traditional supervised classification task where 70% of the annotated data for a target is used as training and the rest for testing. For Task B, we use as test data all of the instances for a new target (not used in task A) and no training data is provided. Our shared task received submissions from 19 teams for Task A and from 9 teams for Task B. The highest classification F-score obtained was 67.82 for Task A and 56.28 for Task B. However, systems found it markedly more difficult to infer stance towards the target of interest from tweets that express opinion towards another entity.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 543,
+    "year": 2016,
+    "month": "June",
+    "title": "{S}em{E}val-2016 Task 6: Detecting Stance in Tweets"
 }

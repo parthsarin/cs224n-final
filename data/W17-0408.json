@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is partially supported by a Strategic Research Grant from City University of Hong Kong. This indicates funding from a research agency, as universities often receive grants from government-funded organizations for research purposes. There is no mention of defense, corporate, or foundation funding, and since there is at least one source of funding identified, it cannot be classified under 'none'."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is partially supported by a Strategic Research Grant from City University of Hong Kong. This indicates funding from a research agency, as universities often receive grants from government-funded organizations for research purposes. There is no mention of defense, corporate, or foundation funding, and since there is at least one source of funding identified, it cannot be classified under 'none'.",
+    "abstract": "We propose an annotation scheme for learner Chinese in the Universal Dependencies (UD) framework. The scheme was adapted from a UD scheme for Mandarin Chinese to take interlanguage characteristics into account. We applied the scheme to a set of 100 sentences written by learners of Chinese as a foreign language, and we report inter-annotator agreement on syntactic annotation.",
+    "countries": [
+        "Hong Kong"
+    ],
+    "languages": [
+        "Mandarin",
+        "Mandarin",
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 12,
+    "year": 2017,
+    "month": "May",
+    "title": "Towards {U}niversal {D}ependencies for Learner {C}hinese"
 }

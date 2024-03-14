@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 7.896306882804183e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Texas Higher Education Coordinating Board, which is a state agency, and an award from Google Inc., which is a for-profit corporation. Therefore, the research was funded by a research agency and a corporate entity."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Texas Higher Education Coordinating Board, which is a state agency, and an award from Google Inc., which is a for-profit corporation. Therefore, the research was funded by a research agency and a corporate entity.",
+    "abstract": "This paper presents a method for automatic topic identification using an encyclopedic graph derived from Wikipedia. The system is found to exceed the performance of previously proposed machine learning algorithms for topic identification, with an annotation consistency comparable to human annotations.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 62,
+    "year": 2009,
+    "month": "June",
+    "title": "Using Encyclopedic Knowledge for Automatic Topic Identification"
 }

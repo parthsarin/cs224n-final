@@ -7,5 +7,17 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research was partially supported by the Grant-in-Aid for Scientific Research (B) (No. 20300058) and Young Scientists (B) (No. 21700157) of JSPS, and by The Asahi Glass Foundation. JSPS (Japan Society for the Promotion of Science) is a major government-funded organization in Japan that provides grants for scientific research, indicating research agency funding. The Asahi Glass Foundation is a non-profit organization that provides grants for research, indicating foundation funding. There is no mention of funding from defense, corporate sources, or an indication of no funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research was partially supported by the Grant-in-Aid for Scientific Research (B) (No. 20300058) and Young Scientists (B) (No. 21700157) of JSPS, and by The Asahi Glass Foundation. JSPS (Japan Society for the Promotion of Science) is a major government-funded organization in Japan that provides grants for scientific research, indicating research agency funding. The Asahi Glass Foundation is a non-profit organization that provides grants for research, indicating foundation funding. There is no mention of funding from defense, corporate sources, or an indication of no funding.",
+    "abstract": "To support the real-time understanding of spoken monologue such as lectures and commentaries, the development of a captioning system is required. In monologues, since a sentence tends to be long, each sentence is often displayed in multi lines on one screen, it is necessary to insert linefeeds into a text so that the text becomes easy to read. This paper proposes a technique for inserting linefeeds into a Japanese spoken monologue text as an elemental technique to generate the readable captions. Our method appropriately inserts linefeeds into a sentence by machine learning, based on the information such as dependencies, clause boundaries, pauses and line length. An experiment using Japanese speech data has shown the effectiveness of our technique.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 6,
+    "year": 2009,
+    "month": "August",
+    "title": "Linefeed Insertion into {J}apanese Spoken Monologue for Captioning"
 }

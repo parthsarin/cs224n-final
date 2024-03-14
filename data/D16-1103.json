@@ -7,5 +7,23 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions financial support from the Irish Research Council (IRC), which is a government-funded organization providing grants for research, and Science Foundation Ireland (SFI), another government-funded research agency. It also mentions Aylien Ltd. as an Enterprise Partner, which is a corporate entity. There is no mention of defense or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions financial support from the Irish Research Council (IRC), which is a government-funded organization providing grants for research, and Science Foundation Ireland (SFI), another government-funded research agency. It also mentions Aylien Ltd. as an Enterprise Partner, which is a corporate entity. There is no mention of defense or foundation funding.",
+    "abstract": "Opinion mining from customer reviews has become pervasive in recent years. Sentences in reviews, however, are usually classified independently, even though they form part of a review's argumentative structure. Intuitively, sentences in a review build and elaborate upon each other; knowledge of the review structure and sentential context should thus inform the classification of each sentence. We demonstrate this hypothesis for the task of aspect-based sentiment analysis by modeling the interdependencies of sentences in a review with a hierarchical bidirectional LSTM. We show that the hierarchical model outperforms two non-hierarchical baselines, obtains results competitive with the state-of-the-art, and outperforms the state-of-the-art on five multilingual, multi-domain datasets without any handengineered features or external resources.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "French",
+        "Dutch",
+        "Arabic",
+        "Turkish",
+        "Russian",
+        "English",
+        "Chinese",
+        "Spanish"
+    ],
+    "numcitedby": 206,
+    "year": 2016,
+    "month": "November",
+    "title": "A Hierarchical Model of Reviews for Aspect-based Sentiment Analysis"
 }

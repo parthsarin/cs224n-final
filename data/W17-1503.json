@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the work reported was carried out within the research project financed by the Polish National Science Centre, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly states that the work reported was carried out within the research project financed by the Polish National Science Centre, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "This paper presents results of an experiment integrating information from valency dictionary of Polish into a mention detection system. Two types of information is acquired: positions of syntactic schemata for nominal and verbal constructs and secondary prepositions present in schemata. The syntactic schemata are used to prevent (for verbal realizations) or encourage (for nominal groups) constructing mentions from phrases filling multiple schema positions, the secondary prepositions -to filter out artificial mentions created from their nominal components. Mention detection is evaluated against the manual annotation of the Polish Coreference Corpus in two settings: taking into account only mention heads or exact borders.",
+    "countries": [
+        "Poland"
+    ],
+    "languages": [
+        "Polish"
+    ],
+    "numcitedby": 1,
+    "year": 2017,
+    "month": "April",
+    "title": "Improving {P}olish Mention Detection with Valency Dictionary"
 }

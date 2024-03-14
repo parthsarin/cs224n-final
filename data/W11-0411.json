@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partly realized as part of the Quaero Programme, funded by Oseo, a French State agency for innovation, and by the French ANR Etape project. Oseo (now part of Bpifrance) is a public entity aimed at supporting innovation and growth of businesses, which can be considered a research agency in this context due to its government funding nature. The French ANR (Agence Nationale de la Recherche) is a national research agency providing grants for research projects. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partly realized as part of the Quaero Programme, funded by Oseo, a French State agency for innovation, and by the French ANR Etape project. Oseo (now part of Bpifrance) is a public entity aimed at supporting innovation and growth of businesses, which can be considered a research agency in this context due to its government funding nature. The French ANR (Agence Nationale de la Recherche) is a national research agency providing grants for research projects. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Within the framework of the construction of a fact database, we defined guidelines to extract named entities, using a taxonomy based on an extension of the usual named entities definition. We thus defined new types of entities with broader coverage including substantivebased expressions. These extended named entities are hierarchical (with types and components) and compositional (with recursive type inclusion and metonymy annotation). Human annotators used these guidelines to annotate a 1.3M word broadcast news corpus in French. This article presents the definition and novelty of extended named entity annotation guidelines, the human annotation of a global corpus and of a mini reference corpus, and the evaluation of annotations through the computation of inter-annotator agreements. Finally, we discuss our approach and the computed results, and outline further work.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": 78,
+    "year": 2011,
+    "month": "June",
+    "title": "Proposal for an Extension of Traditional Named Entities: From Guidelines to Evaluation, an Overview"
 }

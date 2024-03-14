@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the development of the EngValLex lexicon. Without explicit mention of funding, it is not possible to determine the involvement of any of these entities based on the provided text."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the development of the EngValLex lexicon. Without explicit mention of funding, it is not possible to determine the involvement of any of these entities based on the provided text.",
+    "abstract": "This paper presents the English valency lexicon EngValLex, built within the Functional Generative Description framework. The form of the lexicon, as well as the process of its semi-automatic creation is described. The lexicon describes valency for verbs and also includes links to other lexical sources, namely PropBank. Basic statistics about the lexicon are given.",
+    "countries": [
+        "Czech Republic"
+    ],
+    "languages": [
+        "Czech",
+        "English"
+    ],
+    "numcitedby": 5,
+    "year": 2006,
+    "month": "July",
+    "title": "Constructing an {E}nglish Valency Lexicon"
 }

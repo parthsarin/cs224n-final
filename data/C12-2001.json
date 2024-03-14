@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the presented results were partially obtained from research within project CESAR funded by the European Commission, and partially from research within projects funded by the Ministry of Science, Education and Sports of the Republic of Croatia. The European Commission is a governmental body, thus classifying as a research agency, and the Ministry of Science, Education and Sports of the Republic of Croatia is also a government entity, indicating funding from a research agency as well. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article explicitly mentions that the presented results were partially obtained from research within project CESAR funded by the European Commission, and partially from research within projects funded by the Ministry of Science, Education and Sports of the Republic of Croatia. The European Commission is a governmental body, thus classifying as a research agency, and the Ministry of Science, Education and Sports of the Republic of Croatia is also a government entity, indicating funding from a research agency as well. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "A novel method for hybrid graph-based dependency parsing of natural language text is proposed. It is based on k-best maximum spanning tree dependency parsing and evaluation of the spanning trees by using a verb valency lexicon for a given language as a reranking knowledge base. The approach is compared with existing state-of-the-art transition-based and graph-based approaches to dependency parsing. As the proposed generic method was developed specifically for improving the accuracy of Croatian dependency parsing, Croatian Dependency Treebank and CROVALLEX verb valency lexicon are used in the experiment. The suggested approach scored approximately 77.21% LAS, outperforming the tested state-of-the-art approaches by at least 2.68% LAS.",
+    "countries": [
+        "Croatia"
+    ],
+    "languages": [
+        "Croatian",
+        "Slovene",
+        "Czech"
+    ],
+    "numcitedby": 13,
+    "year": 2012,
+    "month": "December",
+    "title": "{K}-Best Spanning Tree Dependency Parsing With Verb Valency Lexicon Reranking"
 }

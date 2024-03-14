@@ -7,5 +7,19 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions financial support from the Hungarian Ministry of Informatics and Telecommunications and by MAT\u00c1V Telecom Co., indicating government and corporate funding. There is no mention of defense, foundation, or other research agency funding, and since there are specific funders mentioned, it is not correct to say there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions financial support from the Hungarian Ministry of Informatics and Telecommunications and by MAT\u00c1V Telecom Co., indicating government and corporate funding. There is no mention of defense, foundation, or other research agency funding, and since there are specific funders mentioned, it is not correct to say there was no funding.",
+    "abstract": "Common tasks involving orthographic words include spellchecking, stemming, morphological analysis, and morphological synthesis. To enable significant reuse of the language-specific resources across all such tasks, we have extended the functionality of the open source spellchecker MySpell, yielding a generic word analysis library, the runtime layer of the hunmorph toolkit. We added an offline resource management component, hunlex, which complements the efficiency of our runtime layer with a high-level description language and a configurable precompiler.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Hungarian",
+        "Romani",
+        "German",
+        "English"
+    ],
+    "numcitedby": 82,
+    "year": 2005,
+    "month": "June",
+    "title": "{H}unmorph: Open Source Word Analysis"
 }

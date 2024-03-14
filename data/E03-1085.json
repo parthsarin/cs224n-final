@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The article mentions that a larger project for syntactic parser evaluation, named EASY/EVALDA, has been accepted by TECHNOLANGUE, a joint program of the three French Ministries of Industry, Culture and Research. This indicates government support, which aligns with the characteristics of a research agency. There is no mention of defense, corporate, foundation funding, or a complete absence of funding."
+    "reasoning": "Reasoning: The article mentions that a larger project for syntactic parser evaluation, named EASY/EVALDA, has been accepted by TECHNOLANGUE, a joint program of the three French Ministries of Industry, Culture and Research. This indicates government support, which aligns with the characteristics of a research agency. There is no mention of defense, corporate, foundation funding, or a complete absence of funding.",
+    "abstract": "This paper presents PEAS, the first comparative evaluation framework for parsers of French whose annotation formalism allows the annotation of both constituents and functional relations. A test corpus containing an assortment of different text types has been built and part of it has been manually annotated. Precision/Recall and crossing brackets metrics will be adapted to our formalism and applied to the parses produced by one parser from academia and another one from industry in order to validate the framework.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": 21,
+    "year": 2003,
+    "month": "April",
+    "title": "{PEAS}, the first instantiation of a comparative framework for evaluating parsers of {F}rench"
 }

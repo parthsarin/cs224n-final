@@ -7,5 +7,16 @@
         "foundation": 0.8739437016407458,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from An Roinn Eala\u00edon, Oidhreachta agus Gaeltachta (ABAIR project) and An Chomhairle um Oideachas Gaeltachta & Gaelscola\u00edochta (CabairE project). These entities are associated with government or cultural heritage organizations in Ireland, which suggests funding from a research agency or foundation, but there is no direct mention of defense, corporate, or other specific types of funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from An Roinn Eala\u00edon, Oidhreachta agus Gaeltachta (ABAIR project) and An Chomhairle um Oideachas Gaeltachta & Gaelscola\u00edochta (CabairE project). These entities are associated with government or cultural heritage organizations in Ireland, which suggests funding from a research agency or foundation, but there is no direct mention of defense, corporate, or other specific types of funding sources.",
+    "abstract": "This paper describes the development and evaluation of a chatbot platform designed for the teaching/learning of Irish. The chatbot uses synthetic voices developed for the dialects of Irish. Speech-enabled chatbot technology offers a potentially powerful tool for dealing with the challenges of teaching/learning an endangered language where learners have limited access to native speaker models of the language and limited exposure to the language in a truly communicative setting. The sociolinguistic context that motivates the present development is explained. The evaluation of the chatbot was carried out in 13 schools by 228 pupils and consisted of two parts. Firstly, learners' opinions of the overall chatbot platform as a learning environment were elicited. Secondly, learners evaluated the intelligibility, quality, and attractiveness of the synthetic voices used in this platform. Results were overwhelmingly positive to both the learning platform and the synthetic voices and indicate that the time may now be ripe for language learning applications which exploit speech and language technologies. It is further argued that these technologies have a particularly vital role to play in the maintenance of the endangered language.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Irish"
+    ],
+    "numcitedby": 25,
+    "year": 2016,
+    "month": "May",
+    "title": "Chatbot Technology with Synthetic Voices in the Acquisition of an Endangered Language: Motivation, Development and Evaluation of a Platform for {I}rish"
 }

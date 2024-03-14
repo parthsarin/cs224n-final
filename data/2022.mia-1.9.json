@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "People speaking different kinds of languages search for information in a cross-lingual manner. They tend to ask questions in their language and expect the answer to be in the same language, despite the evidence lying in another language. In this paper, we present our approach for this task of cross-lingual opendomain question-answering. Our proposed method employs a passage reranker, the fusionin-decoder technique for generation, and a wiki data entity-based post-processing system to tackle the inability to generate entities across all languages. Our end-2-end pipeline shows an improvement of 3 and 4.6 points on F1 and EM metrics respectively, when compared with the baseline CORA model on the XOR-TyDi dataset. We also evaluate the effectiveness of our proposed techniques in the zero-shot setting using the MKQA dataset and show an improvement of 5 points in F1 for high-resource and 3 points improvement for low-resource zero-shot languages. Our team, CMUmQA's submission in the MIA-Shared task ranked 1st in the constrained setup for the dev and 2nd in the test setting.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Ko"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "July",
+    "title": "Zero-shot cross-lingual open domain question answering"
 }

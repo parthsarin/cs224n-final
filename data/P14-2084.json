@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was made possible by the Army Research Office (ARO), which is a branch of the United States Department of Defense, indicating defense funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was made possible by the Army Research Office (ARO), which is a branch of the United States Department of Defense, indicating defense funding.",
+    "abstract": "Automatically detecting verbal irony (roughly, sarcasm) is a challenging task because ironists say something other than -and often opposite to -what they actually mean. Discerning ironic intent exclusively from the words and syntax comprising texts (e.g., tweets, forum posts) is therefore not always possible: additional contextual information about the speaker and/or the topic at hand is often necessary. We introduce a new corpus that provides empirical evidence for this claim. We show that annotators frequently require context to make judgements concerning ironic intent, and that machine learning approaches tend to misclassify those same comments for which annotators required additional context.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 102,
+    "year": 2014,
+    "month": "June",
+    "title": "Humans Require Context to Infer Ironic Intent (so Computers Probably do, too)"
 }

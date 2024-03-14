@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the NSF grant IIS-1909603 and NSF DUE-1643835. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the NSF grant IIS-1909603 and NSF DUE-1643835. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "Meetings are essential to modern organizations. Numerous meetings are held and recorded daily, more than can ever be comprehended. A meeting summarization system that identifies salient utterances from the transcripts to automatically generate meeting minutes can help. It empowers users to rapidly search and sift through large meeting collections. To date, the impact of domain terminology on the performance of meeting summarization remains understudied, despite that meetings are rich with domain knowledge. In this paper, we create gold-standard annotations for domain terminology on a sizable meeting corpus; they are known as jargon terms. We then analyze the performance of a meeting summarization system with and without jargon terms. Our findings reveal that domain terminology can have a substantial impact on summarization performance. We publicly release all domain terminology to advance research in meeting summarization. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 14,
+    "year": 2020,
+    "month": "December",
+    "title": "How Domain Terminology Affects Meeting Summarization Performance"
 }

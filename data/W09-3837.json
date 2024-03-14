@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented.",
+    "abstract": "We present a cognitive process model of human sentence comprehension based on generalized left-corner parsing. A search heuristic based upon previouslyparsed corpora derives garden path effects, garden path paradoxes, and the local coherence effect.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2009,
+    "month": "October",
+    "title": "Heuristic search in a cognitive model of human parsing"
 }

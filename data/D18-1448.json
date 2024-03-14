@@ -7,5 +7,14 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research work described has been supported by the National Key Research and Development Program of China under Grant No. 2016QY02D0303. This indicates funding from a research agency, specifically a government-funded organization in China. There is no mention of defense, corporate, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research work described has been supported by the National Key Research and Development Program of China under Grant No. 2016QY02D0303. This indicates funding from a research agency, specifically a government-funded organization in China. There is no mention of defense, corporate, foundation funding, or an absence of funding.",
+    "abstract": "Multimodal summarization has drawn much attention due to the rapid growth of multimedia data. The output of the current multimodal summarization systems is usually represented in texts. However, we have found through experiments that multimodal output can significantly improve user satisfaction for informativeness of summaries. In this paper, we propose a novel task, multimodal summarization with multimodal output (MSMO). To handle this task, we first collect a large-scale dataset for MSMO research. We then propose a multimodal attention model to jointly generate text and select the most relevant image from the multimodal input. Finally, to evaluate multimodal outputs, we construct a novel multimodal automatic evaluation (MMAE) method which considers both intramodality salience and intermodality relevance. The experimental results show the effectiveness of MMAE.",
+    "countries": [
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 65,
+    "year": 2018,
+    "month": "October-November",
+    "title": "{MSMO}: Multimodal Summarization with Multimodal Output"
 }

@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 6.704270752999619e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions that the third author was supported by EPSRC grant EP/H050442/1 and ERC grant 203427 \"Synchronous Linguistic and Visual Processing\". EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. The European Research Council (ERC) is a public body for scientific and technological research funded by the European Union, also classifying as a research agency. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgements section mentions that the third author was supported by EPSRC grant EP/H050442/1 and ERC grant 203427 \"Synchronous Linguistic and Visual Processing\". EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. The European Research Council (ERC) is a public body for scientific and technological research funded by the European Union, also classifying as a research agency. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "We investigate the order of mention for objects in relational descriptions in visual scenes. Existing work in the visual domain focuses on content selection for text generation and relies primarily on templates to generate surface realizations from underlying content choices. In contrast, we seek to clarify the influence of visual perception on the linguistic form (as opposed to the content) of descriptions, modeling the variation in and constraints on the surface orderings in a description. We find previously-unknown effects of the visual characteristics of objects; specifically, when a relational description involves a visually salient object, that object is more likely to be mentioned first. We conduct a detailed analysis of these patterns using logistic regression, and also train and evaluate a classifier. Our methods yield significant improvement in classification accuracy over a naive baseline.",
+    "countries": [
+        "United Kingdom",
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 9,
+    "year": 2014,
+    "month": "April",
+    "title": "Information Structure Prediction for Visual-world Referring Expressions"
 }

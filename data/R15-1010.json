@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper.",
+    "abstract": "Event Detection (ED), one aspect of Information Extraction, involves identifying instances of specified types of events in text. Much of the research on ED has been based on the specifications of the 2005 ACE [Automatic Content Extraction] event task 1 , and the associated annotated corpus. However, as the event instances in the ACE corpus are not evenly distributed, some frequent expressions involving ACE events do not appear in the training data, adversely affecting performance. In this paper, we demonstrate the effectiveness of a Pattern Expansion technique to import frequent patterns extracted from external corpora to boost ED performance. The experimental results show that our pattern-based system with the expanded patterns can achieve 70.4% (with 1.6% absolute improvement) F-measure over the baseline, an advance over current state-of-the-art systems.",
+    "countries": [
+        "United States",
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 15,
+    "year": 2015,
+    "month": "September",
+    "title": "Improving Event Detection with Active Learning"
 }

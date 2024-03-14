@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by the National Natural Science Foundation of China Grant No.60773087, which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by the National Natural Science Foundation of China Grant No.60773087, which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Opinion Mining aims to automatically acquire useful opinioned information and knowledge in subjective texts. Research of Chinese Opinioned Mining requires the support of annotated corpus for Chinese opinioned-subjective texts. To facilitate the work of corpus annotators, this paper implements an active learning based annotation tool for Chinese opinioned elements which can identify topic, sentiment, and opinion holder in a sentence automatically.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 8,
+    "year": 2010,
+    "month": "",
+    "title": "Active Learning Based Corpus Annotation"
 }

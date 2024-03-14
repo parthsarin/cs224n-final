@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article.",
+    "abstract": "We present an approach for smoothing treebank-PCFG lexicons by interpolating treebank lexical parameter estimates with estimates obtained from unannotated data via the Inside-outside algorithm. The PCFG has complex lexical categories, making relative-frequency estimates from a treebank very sparse. This kind of smoothing for complex lexical categories results in improved parsing performance, with a particular advantage in identifying obligatory arguments subcategorized by verbs unseen in the treebank.",
+    "countries": [
+        "Netherlands",
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2009,
+    "month": "October",
+    "title": "Smoothing fine-grained {PCFG} lexicons"
 }

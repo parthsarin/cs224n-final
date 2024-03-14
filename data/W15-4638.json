@@ -7,5 +7,22 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union - 7th Framework Programme (FP7/2007-2013) under grant agreement 610916 SENSEI, which is a research agency, and also mentions funding from the European Regional Development Fund of the European Union and from national funds in the context of the research project 'SentIMAGi -Brand monitoring and reputation management via multimodal sentiment analysis' under the Regional Operational Programme Attica, which are also forms of research agency or government funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union - 7th Framework Programme (FP7/2007-2013) under grant agreement 610916 SENSEI, which is a research agency, and also mentions funding from the European Regional Development Fund of the European Union and from national funds in the context of the research project 'SentIMAGi -Brand monitoring and reputation management via multimodal sentiment analysis' under the Regional Operational Programme Attica, which are also forms of research agency or government funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "In this paper we present an overview of MultiLing 2015, a special session at SIGdial 2015. MultiLing is a communitydriven initiative that pushes the state-ofthe-art in Automatic Summarization by providing data sets and fostering further research and development of summarization systems. There were in total 23 participants this year submitting their system outputs to one or more of the four tasks of MultiLing: MSS, MMS, OnForumS and CCCS. We provide a brief overview of each task and its participation and evaluation.",
+    "countries": [
+        "France",
+        "United Kingdom",
+        "Greece",
+        "Czech Republic",
+        "United States"
+    ],
+    "languages": [
+        "Chinese",
+        "English",
+        "Italian"
+    ],
+    "numcitedby": 54,
+    "year": 2015,
+    "month": "September",
+    "title": "{M}ulti{L}ing 2015: Multilingual Summarization of Single and Multi-Documents, On-line Fora, and Call-center Conversations"
 }

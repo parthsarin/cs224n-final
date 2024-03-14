@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute the research to any of these sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately attribute the research to any of these sources.",
+    "abstract": "This paper describes an alternative formalism for Thai syntax parsing based on a lexicalized tree adjoining grammar (LTAG). We first briefly present some formal background concerning LTAG, which is necessary for an understanding of LTAG and its application to Thai. Specifically, we address several issues regarding difficulties in parsing Thai sentences and how to resolve these issues using LTAG. Such difficulties arise for several reasons as follows. For one thing, Thai sentences do not contain delimiters or blanks between words while Thai words lack inflectional and derivational affixes. Moreover, inconsistent ordering relations within and across phrasal categories characterize Thai sentences as well as the fact that they sometimes contain discontinuous sentence constituents in their construction. Finally, we discuss future research on a novel almostparsing approach based on LTAG for handling compound multi-word extraction in automatic Thai word segmentation.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Thai"
+    ],
+    "numcitedby": 0,
+    "year": 2009,
+    "month": "December",
+    "title": "A {L}exicalized {T}ree {A}djoining {G}rammar for {T}hai"
 }

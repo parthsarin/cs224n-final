@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions support from Cambridge Assessment, University of Cambridge, and resources provided by the Cambridge Service for Data Driven Discovery operated by the University of Cambridge Research Computing Service, with funding from the Engineering and Physical Sciences Research Council and the Science and Technology Facilities Council. It also mentions an Academic Hardware Grant from NVIDIA. This indicates funding from a research agency (Engineering and Physical Sciences Research Council and the Science and Technology Facilities Council) and corporate (NVIDIA). There is no mention of defense or foundation funding, and since there is funding mentioned, it is not correct to say there was none."
+    "reasoning": "Reasoning: The acknowledgements section mentions support from Cambridge Assessment, University of Cambridge, and resources provided by the Cambridge Service for Data Driven Discovery operated by the University of Cambridge Research Computing Service, with funding from the Engineering and Physical Sciences Research Council and the Science and Technology Facilities Council. It also mentions an Academic Hardware Grant from NVIDIA. This indicates funding from a research agency (Engineering and Physical Sciences Research Council and the Science and Technology Facilities Council) and corporate (NVIDIA). There is no mention of defense or foundation funding, and since there is funding mentioned, it is not correct to say there was none.",
+    "abstract": "In this paper, we show how a multi-class grammatical error detection (GED) system can be used to improve grammatical error correction (GEC) for English. Specifically, we first develop a new state-of-the-art binary detection system based on pre-trained ELECTRA, and then extend it to multi-class detection using different error type tagsets derived from the ERRANT framework. Output from this detection system is used as auxiliary input to finetune a novel encoder-decoder GEC model, and we subsequently re-rank the N -best GEC output to find the hypothesis that most agrees with the GED output. Results show that fine-tuning the GEC system using 4-class GED produces the best model, but re-ranking using 55-class GED leads to the best performance overall. This suggests that different multi-class GED systems benefit GEC in different ways. Ultimately, our system outperforms all other previous work that combines GED and GEC, and achieves a new single-model NMT-based state of the art on the BEA-test benchmark.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 5,
+    "year": 2021,
+    "month": "November",
+    "title": "{M}ulti-Class Grammatical Error Detection for Correction: {A} Tale of Two Systems"
 }

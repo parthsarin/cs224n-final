@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the paper mentions support from the National Key R&D Program of China and the National Natural Science Foundation of China, which are government-funded organizations, indicating research agency funding. There is no mention of defense, corporate, foundation funding, or a lack of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the paper mentions support from the National Key R&D Program of China and the National Natural Science Foundation of China, which are government-funded organizations, indicating research agency funding. There is no mention of defense, corporate, foundation funding, or a lack of funding.",
+    "abstract": "In conversational machine comprehension, it has become one of the research hotspots integrating conversational history information through question reformulation for obtaining better answers. However, the existing question reformulation models are trained only using supervised question labels annotated by annotators without considering any feedback information from answers. In this paper, we propose a novel Answer-Supervised Question Reformulation (ASQR) model for enhancing conversational machine comprehension with reinforcement learning technology. ASQR utilizes a pointer-copy-based question reformulation model as an agent, takes an action to predict the next word, and observes a reward for the whole sentence state after generating the end-of-sequence token. The experimental results on QuAC dataset prove that our ASQR model is more effective in conversational machine comprehension. Moreover, pretraining is essential in reinforcement learning models, so we provide a high-quality annotated dataset for question reformulation by sampling a part of QuAC dataset. * * This work was done when Qian Li was interning at Pattern Recognition Center, WeChat AI, Tencent.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 3,
+    "year": 2019,
+    "month": "November",
+    "title": "Answer-Supervised Question Reformulation for Enhancing Conversational Machine Comprehension"
 }

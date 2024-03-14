@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from NSF DBI-0317510. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from NSF DBI-0317510. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper presents the results of a pilot usability study of a novel approach to search user interfaces for bioscience journal articles. The main idea is to support search over figure captions explicitly, and show the corresponding figures directly within the search results. Participants in a pilot study expressed surprise at the idea, noting that they had never thought of search in this way. They also reported strong positive reactions to the idea: 7 out of 8 said they would use a search system with this kind of feature, suggesting that this is a promising idea for journal article search.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 29,
+    "year": 2007,
+    "month": "June",
+    "title": "Exploring the Efficacy of Caption Search for Bioscience Journal Search Interfaces"
 }

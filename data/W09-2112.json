@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper specifically mentions support from the University of Cambridge ESOL Examinations and access to the Cambridge Learner Corpus provided by Cambridge University Press. This suggests a form of corporate sponsorship or support, as Cambridge University Press operates as a department of the University of Cambridge but functions in part like a corporation with its publishing activities. There is no mention of defense, research agencies, or foundations as funding sources. Therefore, the funding comes from a corporate source, and there is no evidence of defense, research agency, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the paper specifically mentions support from the University of Cambridge ESOL Examinations and access to the Cambridge Learner Corpus provided by Cambridge University Press. This suggests a form of corporate sponsorship or support, as Cambridge University Press operates as a department of the University of Cambridge but functions in part like a corporation with its publishing activities. There is no mention of defense, research agencies, or foundations as funding sources. Therefore, the funding comes from a corporate source, and there is no evidence of defense, research agency, or foundation funding.",
+    "abstract": "This paper explores the issue of automatically generated ungrammatical data and its use in error detection, with a focus on the task of classifying a sentence as grammatical or ungrammatical. We present an error generation tool called GenERRate and show how Gen-ERRate can be used to improve the performance of a classifier on learner data. We describe initial attempts to replicate Cambridge Learner Corpus errors using GenERRate.",
+    "countries": [
+        "United Kingdom",
+        "Ireland"
+    ],
+    "languages": [
+        "English",
+        "Swedish"
+    ],
+    "numcitedby": 84,
+    "year": 2009,
+    "month": "June",
+    "title": "{G}en{ERR}ate: Generating Errors for Use in Grammatical Error Detection"
 }

@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Science Foundation under specific grant numbers, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Science Foundation under specific grant numbers, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "In a closed world setting, classifiers are trained on examples from a number of classes and tested with unseen examples belonging to the same set of classes. However, in most real-world scenarios, a trained classifier is likely to come across novel examples that do not belong to any of the known classes. Such examples should ideally be categorized as belonging to an unknown class. The goal of an open set classifier is to anticipate and be ready to handle test examples of classes unseen during training. The classifier should be able to declare that a test example belongs to a class it does not know, and possibly, incorporate it into its knowledge as an example of a new class it has encountered. There is some published research in open world image classification, but open set text classification remains mostly unexplored. In this paper, we investigate the suitability of Convolutional Neural Networks (CNNs) for open set text classification. We find that CNNs are good feature extractors and hence perform better than existing state-of-the-art open set classifiers in smaller domains, although their open set classification abilities in general still need to be investigated.",
+    "countries": [
+        "India",
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2017,
+    "month": "December",
+    "title": "Open Set Text Classification Using {CNN}s"
 }

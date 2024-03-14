@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article mentions funding from SM@RTINFRA (MIUR Progetto premiale) and PARTHENOS (H2020 INFRADEV-4). SM@RTINFRA is associated with MIUR, the Italian Ministry of Education, University and Research, indicating government or research agency funding. PARTHENOS is funded by the EU's Horizon 2020 research and innovation program, also indicating research agency funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article mentions funding from SM@RTINFRA (MIUR Progetto premiale) and PARTHENOS (H2020 INFRADEV-4). SM@RTINFRA is associated with MIUR, the Italian Ministry of Education, University and Research, indicating government or research agency funding. PARTHENOS is funded by the EU's Horizon 2020 research and innovation program, also indicating research agency funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "This proposal describes a new way to visualise resources in the LREMap, a community-built repository of language resource descriptions and uses. The LREMap is represented as a force-directed graph, where resources, papers and authors are nodes. The analysis of the visual representation of the underlying graph is used to study how the community gathers around LRs and how LRs are used in research.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        "Italian",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2016,
+    "month": "May",
+    "title": "{LREC} as a Graph: People and Resources in a Network"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9998142382258554
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the writing of the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the writing of the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "BERT, a neural network-based language model pre-trained on large corpora, is a breakthrough in natural language processing, significantly outperforming previous state-of-the-art models in numerous tasks. However, there have been few reports on its application to implicit discourse relation classification, and it is not clear how BERT is best adapted to the task. In this paper, we test three methods of adaptation. (1) We perform additional pre-training on text tailored to discourse classification. (2) In expectation of knowledge transfer from explicit discourse relations to implicit discourse relations, we add a task named explicit connective prediction at the additional pre-training step. (3) To exploit implicit connectives given by treebank annotators, we add a task named implicit connective prediction at the fine-tuning step. We demonstrate that these three techniques can be combined straightforwardly in a single training pipeline. Through comprehensive experiments, we found that the first and second techniques provide additional gain while the last one did not.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 13,
+    "year": 2020,
+    "month": "May",
+    "title": "Adapting {BERT} to Implicit Discourse Relation Classification with a Focus on Discourse Connectives"
 }

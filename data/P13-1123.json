@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the research leading to the work was funded by the EC FP7 programme under grant agreement no. 287615 (PARLANCE), which is a research agency funded by the European Union. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly states that the research leading to the work was funded by the EC FP7 programme under grant agreement no. 287615 (PARLANCE), which is a research agency funded by the European Union. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources.",
+    "abstract": "Surface realisers in spoken dialogue systems need to be more responsive than conventional surface realisers. They need to be sensitive to the utterance context as well as robust to partial or changing generator inputs. We formulate surface realisation as a sequence labelling task and combine the use of conditional random fields (CRFs) with semantic trees. Due to their extended notion of context, CRFs are able to take the global utterance context into account and are less constrained by local features than other realisers. This leads to more natural and less repetitive surface realisation. It also allows generation from partial and modified inputs and is therefore applicable to incremental surface realisation. Results from a human rating study confirm that users are sensitive to this extended notion of context and assign ratings that are significantly higher (up to 14%) than those for taking only local context into account.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 30,
+    "year": 2013,
+    "month": "August",
+    "title": "Conditional Random Fields for Responsive Surface Realisation using Global Features"
 }

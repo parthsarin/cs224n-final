@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work has been partly funded by the EU TALK project, IST-507802. The EU TALK project is funded by the European Union, which is a supranational entity that, among other things, funds research through various programs. This indicates that the funding comes from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work has been partly funded by the EU TALK project, IST-507802. The EU TALK project is funded by the European Union, which is a supranational entity that, among other things, funds research through various programs. This indicates that the funding comes from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper describes how grammar-based language models for speech recognition systems can be generated from Grammatical Framework (GF) grammars. Context-free grammars and finite-state models can be generated in several formats: GSL, SRGS, JSGF, and HTK SLF. In addition, semantic interpretation code can be embedded in the generated context-free grammars. This enables rapid development of portable, multilingual and easily modifiable speech recognition applications.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "Finnish",
+        "German",
+        "English"
+    ],
+    "numcitedby": 21,
+    "year": 2007,
+    "month": "June",
+    "title": "Speech Recognition Grammar Compilation in Grammatical Framework"
 }

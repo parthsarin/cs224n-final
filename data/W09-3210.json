@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9992441428040775
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "This work shows how to construct discourse-level opinion graphs to perform a joint interpretation of opinions and discourse relations. Specifically, our opinion graphs enable us to factor in discourse information for polarity classification, and polarity information for discourse-link classification. This inter-dependent framework can be used to augment and improve the performance of local polarity and discourse-link classifiers.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 63,
+    "year": 2009,
+    "month": "August",
+    "title": "Opinion Graphs for Polarity and Discourse Classification"
 }

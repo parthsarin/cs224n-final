@@ -7,5 +7,17 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the Volkswagen Foundation as part of the Lichtenberg-Professorship Program and the Klaus Tschira Foundation. Both of these are foundations, indicating that the research was funded by foundations. There is no mention of funding from defense, corporate entities, or research agencies."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the Volkswagen Foundation as part of the Lichtenberg-Professorship Program and the Klaus Tschira Foundation. Both of these are foundations, indicating that the research was funded by foundations. There is no mention of funding from defense, corporate entities, or research agencies.",
+    "abstract": "Detecting text reuse is a fundamental requirement for a variety of tasks and applications, ranging from journalistic text reuse to plagiarism detection. Text reuse is traditionally detected by computing similarity between a source text and a possibly reused text. However, existing text similarity measures exhibit a major limitation: They compute similarity only on features which can be derived from the content of the given texts, thereby inherently implying that any other text characteristics are negligible. In this paper, we overcome this traditional limitation and compute similarity along three characteristic dimensions inherent to texts: content, structure, and style. We explore and discuss possible combinations of measures along these dimensions, and our results demonstrate that the composition consistently outperforms previous approaches on three standard evaluation datasets, and that text reuse detection greatly benefits from incorporating a diverse feature set that reflects a wide variety of text characteristics.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "Dutch",
+        "English"
+    ],
+    "numcitedby": 53,
+    "year": 2012,
+    "month": "December",
+    "title": "Text Reuse Detection using a Composition of Text Similarity Measures"
 }

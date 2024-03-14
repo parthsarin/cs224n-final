@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the provided text alone."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the provided text alone.",
+    "abstract": "This paper shows how to introduce predicative adjunction in a dependency grammar inspired from TAG, MTT and RG. The addition of predicative adjunction allows us to obtain a modular surface syntactic grammar, the derivation structures of which can be interpreted as semantic representations.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": 4,
+    "year": 2013,
+    "month": "August",
+    "title": "Predicative Adjunction in a Modular Dependency Grammar"
 }

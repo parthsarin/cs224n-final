@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No. 819455). The ERC is a public body for scientific and technological research funded by the European Union, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement No. 819455). The ERC is a public body for scientific and technological research funded by the European Union, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding.",
+    "abstract": "This paper presents the first unsupervised approach to lexical semantic change that makes use of contextualised word representations. We propose a novel method that exploits the BERT neural language model to obtain representations of word usages, clusters these representations into usage types, and measures change along time with three proposed metrics. We create a new evaluation dataset and show that the model representations and the detected semantic shifts are positively correlated with human judgements. Our extensive qualitative analysis demonstrates that our method captures a variety of synchronic and diachronic linguistic phenomena. We expect our work to inspire further research in this direction.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 82,
+    "year": 2020,
+    "month": "July",
+    "title": "Analysing Lexical Semantic Change with Contextualised Word Representations"
 }

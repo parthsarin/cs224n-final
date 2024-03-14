@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9998305625461471
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the writing of the article. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the writing of the article. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "Frame semantic parsing is a fundamental NLP task, which consists of three subtasks: frame identification, argument identification and role classification. Most previous studies tend to neglect relations between different subtasks and arguments and pay little attention to ontological frame knowledge defined in FrameNet. In this paper, we propose a Knowledge-guided Incremental semantic parser with Double-graph (KID). We first introduce Frame Knowledge Graph (FKG), a heterogeneous graph containing both frames and FEs (Frame Elements) built on the frame knowledge so that we can derive knowledgeenhanced representations for frames and FEs. Besides, we propose Frame Semantic Graph (FSG) to represent frame semantic structures extracted from the text with graph structures. In this way, we can transform frame semantic parsing into an incremental graph construction problem to strengthen interactions between subtasks and relations between arguments. Our experiments show that KID outperforms the previous state-of-the-art method by up to 1.7 F1-score on two FrameNet datasets. Our code is availavle at https://github. com/PKUnlp-icler/KID.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "July",
+    "title": "A Double-Graph Based Framework for Frame Semantic Parsing"
 }

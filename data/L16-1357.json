@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the CLARIN-D project, which is a research infrastructure initiative funded by national and European research funding agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the CLARIN-D project, which is a research infrastructure initiative funded by national and European research funding agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "In this paper, we present a freely available corpus of human and automatic translations of subtitles. The corpus comprises the original English subtitles (SRC), both human (HT) and machine translations (MT) into German, as well as post-editions (PE) of the MT output. HT and MT are annotated with errors. Moreover, human evaluation is included in HT, MT, and PE. Such a corpus is a valuable resource for both human and machine translation communities, enabling the direct comparison -in terms of errors and evaluation -between human and machine translations and post-edited machine translations.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2016,
+    "month": "May",
+    "title": "{S}ub{C}o: A Learner Translation Corpus of Human and Machine Subtitles"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999998063873687
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "This paper proposes a discriminative HMM (DHMM) with long state dependence (LSD-DHMM) to segment and label sequential data. The LSD-DHMM overcomes the strong context independent assumption in traditional generative HMMs (GHMMs) and models the sequential data in a discriminative way, by assuming a novel mutual information independence. As a result, the LSD-DHMM separately models the long state dependence in its state transition model and the observation dependence in its output model. In this paper, a variable-length mutual informationbased modeling approach and an ensemble of kNN probability estimators are proposed to capture the long state dependence and the observation dependence respectively. The evaluation on shallow parsing shows that the LSD-DHMM not only significantly outperforms GHMMs but also much outperforms other DHMMs. This suggests that the LSD-DHMM can effectively capture the long context dependence to segment and label sequential data.",
+    "countries": [
+        "Singapore"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 4,
+    "year": 2004,
+    "month": "aug 23{--}aug 27",
+    "title": "Discriminative Hidden {M}arkov Modeling with Long State Dependence using a k{NN} Ensemble"
 }

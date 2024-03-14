@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the EU grant 7FP-ITC-248064, which indicates funding from a research agency, specifically from a European Union funding program. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the EU grant 7FP-ITC-248064, which indicates funding from a research agency, specifically from a European Union funding program. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding.",
+    "abstract": "We address the problem of unsupervised tagging of phrase structure trees with phrase categories (parse tree nonterminals). Motivated by the inability of a range of direct clustering approaches to improve over the current leading algorithm, we propose a mixture of experts approach. In particular, we tackle the difficult challenge of producing a diverse collection of useful tagging experts, which can then be aggregated into a final high-quality tagging. To do so, we use the particular properties of the Dirichlet Process mixture model. We evaluate on English, German and Chinese corpora and demonstrate both a substantial and consistent improvement in overall performance over previous work, as well as empirical justification of our algorithmic choices.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Chinese",
+        "German",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2012,
+    "month": "December",
+    "title": "A Diverse {D}irichlet Process Ensemble for Unsupervised Induction of Syntactic Categories"
 }

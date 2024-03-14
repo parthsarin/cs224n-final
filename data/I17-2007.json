@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by the German Research Foundation (DFG) as part of SFB 1102 \"Information Density and Linguistic Encoding.\" The German Research Foundation is a research funding organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by the German Research Foundation (DFG) as part of SFB 1102 \"Information Density and Linguistic Encoding.\" The German Research Foundation is a research funding organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper presents an approach to the task of predicting an event description from a preceding sentence in a text. Our approach explores sequence-to-sequence learning using a bidirectional multi-layer recurrent neural network. Our approach substantially outperforms previous work in terms of the BLEU score on two datasets derived from WIKIHOW and DE-SCRIPT respectively. Since the BLEU score is not easy to interpret as a measure of event prediction, we complement our study with a second evaluation that exploits the rich linguistic annotation of gold paraphrase sets of events.",
+    "countries": [
+        "Germany",
+        "Australia"
+    ],
+    "languages": [],
+    "numcitedby": 18,
+    "year": 2017,
+    "month": "November",
+    "title": "Sequence to Sequence Learning for Event Prediction"
 }

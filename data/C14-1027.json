@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine if any of these sources were involved based on the provided text alone."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine if any of these sources were involved based on the provided text alone.",
+    "abstract": "We present a novel approach for rapidly developing a corpus with discourse annotations using crowdsourcing. Although discourse annotations typically require much time and cost owing to their complex nature, we realize discourse annotations in an extremely short time while retaining good quality of the annotations by crowdsourcing two annotation subtasks. In fact, our experiment to create a corpus comprising 30,000 Japanese sentences took less than eight hours to run. Based on this corpus, we also develop a supervised discourse parser and evaluate its performance to verify the usefulness of the acquired corpus.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 23,
+    "year": 2014,
+    "month": "August",
+    "title": "Rapid Development of a Corpus with Discourse Annotations using Two-stage Crowdsourcing"
 }

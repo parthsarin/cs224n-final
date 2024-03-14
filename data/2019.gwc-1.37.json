@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the Bulgarian National Science Fund under grant number 02/12/2016 for the project \"Deep Models of Semantic Knowledge (DemoSem)\" and partial support for two contributors by the Bulgarian Ministry of Education and Science under the National Research Programme \"Young scientists and postdoctoral students\" approved by DCM # 577 / 17.08.2018. These entities are government-funded organizations, indicating research agency support. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the Bulgarian National Science Fund under grant number 02/12/2016 for the project \"Deep Models of Semantic Knowledge (DemoSem)\" and partial support for two contributors by the Bulgarian Ministry of Education and Science under the National Research Programme \"Young scientists and postdoctoral students\" approved by DCM # 577 / 17.08.2018. These entities are government-funded organizations, indicating research agency support. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "The paper reports on an ongoing work that manually maps the Bulgarian Word-Net BTB-WN with Bulgarian Wikipedia. The preparatory work of extracting the Wikipedia articles and provisionally relating them to the WordNet lemmas was done automatically. The manual work includes checking of the corresponding senses in both resources as well as the missing ones. The main cases of mapping are considered. The first experiments of mapping about 1000 synsets show the establishement of more than 78 % of exact correspondences and nearly 15 % of new synsets. Related Work Needless to say, one of the most notable resources that link WordNet and Wikipedia is Babel-Net -an automatically created very large, widecoverage multilingual semantic network (Navigli and Ponzetto, 2012) . BabelNet encodes knowl-",
+    "countries": [
+        "Bulgaria"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2019,
+    "month": "July",
+    "title": "Aligning the {B}ulgarian {BTB} {W}ord{N}et with the {B}ulgarian {W}ikipedia"
 }

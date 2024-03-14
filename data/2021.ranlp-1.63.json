@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 825292 (ExaMode). Horizon 2020 is a large European Union research and innovation funding program, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 825292 (ExaMode). Horizon 2020 is a large European Union research and innovation funding program, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Concept normalization of clinical texts to standard medical classifications and ontologies is a task with high importance for healthcare and medical research. We attempt to solve this problem through automatic SNOMED CT encoding, where SNOMED CT is one of the most widely used and comprehensive clinical term ontologies. Applying basic Deep Learning models, however, leads to undesirable results due to the unbalanced nature of the data and the extreme number of classes. We propose a classification procedure that features a multiple-step workflow consisting of label clustering, multi-cluster classification, and clusters-to-labels mapping. For multi-cluster classification, BioBERT is fine-tuned over our custom dataset. The clusters-to-labels mapping is carried out by a one-vs-all classifier (SVC) applied to every single cluster. We also present the steps for automatic dataset generation of textual descriptions annotated with SNOMED CT codes based on public data and linked open data. In order to cope with the problem that our dataset is highly unbalanced, some data augmentation methods are applied. The results from the conducted experiments show high accuracy and reliability of our approach for prediction of SNOMED CT codes relevant to a clinical text.",
+    "countries": [
+        "Bulgaria"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "September",
+    "title": "Application of Deep Learning Methods to {SNOMED} {CT} Encoding of Clinical Texts: From Data Collection to Extreme Multi-Label Text-Based Classification"
 }

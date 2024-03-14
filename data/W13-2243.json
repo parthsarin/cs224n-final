@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the European Commission under the project MateCat, Grant 287688. The European Commission is a governmental body of the European Union, which makes it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the European Commission under the project MateCat, Grant 287688. The European Commission is a governmental body of the European Union, which makes it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "In this paper we present the approach and system setup of the joint participation of Fondazione Bruno Kessler and University of Edinburgh in the WMT 2013 Quality Estimation shared-task. Our submissions were focused on tasks whose aim was predicting sentence-level Human-mediated Translation Edit Rate and sentence-level post-editing time (Task 1.1 and 1.3, respectively). We designed features that are built on resources such as automatic word alignment, n-best candidate translation lists, back-translations and word posterior probabilities. Our models consistently overcome the baselines for both tasks and performed particularly well for Task 1.3, ranking first among seven participants.",
+    "countries": [
+        "United Kingdom",
+        "Europe"
+    ],
+    "languages": [
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 40,
+    "year": 2013,
+    "month": "August",
+    "title": "{FBK}-{UE}din Participation to the {WMT}13 Quality Estimation Shared Task"
 }

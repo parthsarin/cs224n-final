@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work has been supported by the German Research Foundation (DFG), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work has been supported by the German Research Foundation (DFG), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "The Nautilus Speaker Characterization corpus is presented. It comprises conversational microphone speech recordings from 300 German speakers (126 males and 174 females) made in 2016/2017 in the acoustically-isolated room Nautilus of the Quality and Usability Lab of the Technische Universit\u00e4t Berlin, Germany. Four scripted and four semi-spontaneous dialogs were elicited from the speakers, simulating telephone call inquiries. Additionally, other spontaneous neutral and emotional speech utterances and questions were produced. Interactions between speakers and their interlocutor (who also conducted the recording session) are provided in separate mono files, accompanied by timestamps and tags that define the speaker's turns. One of the recorded semi-spontanous dialogs has been labeled by external assessors on 34 interpersonal speaker characteristics for each speaker, employing continous sliders. Additionally, 20 selected speakers have been labeled on 34 na\u00efve voice descriptions. The corpus labels permit to investigate the speech features that contribute to human perceptions and automatic recognition of speaker social characteristics and interpersonal traits.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 16,
+    "year": 2018,
+    "month": "May",
+    "title": "The Nautilus Speaker Characterization Corpus: Speech Recordings and Labels of Speaker Characteristics and Voice Descriptions"
 }

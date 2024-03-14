@@ -7,5 +7,14 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research.",
+    "abstract": "We introduce a novel task, that of associating relative time with cities in text. We show that the task can be performed using NLP tools and techniques. The task is deployed on a large corpus of data to study a specific phenomenon, namely the temporal dimension of contemporary arts globalization over the first decade of the 21 st century.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2014,
+    "month": "June",
+    "title": "Using Simple {NLP} Tools to Trace the Globalization of the Art World"
 }

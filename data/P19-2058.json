@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by the Russian Science Foundation grant no. 18-11-00284. The Russian Science Foundation is a government-funded organization that provides grants for scientific research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by the Russian Science Foundation grant no. 18-11-00284. The Russian Science Foundation is a government-funded organization that provides grants for scientific research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Detection of adverse drug reactions in postapproval periods is a crucial challenge for pharmacology. Social media and electronic clinical reports are becoming increasingly popular as a source for obtaining healthrelated information. In this work, we focus on extraction information of adverse drug reactions from various sources of biomedical textbased information, including biomedical literature and social media. We formulate the problem as a binary classification task and compare the performance of four state-of-the-art attention-based neural networks in terms of the F-measure. We show the effectiveness of these methods on four different benchmarks.",
+    "countries": [
+        "Russia"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2019,
+    "month": "July",
+    "title": "Detecting Adverse Drug Reactions from Biomedical Texts with Neural Networks"
 }

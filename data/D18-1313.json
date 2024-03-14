@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was partly funded by the Netherlands Organization for Scientific Research (NWO), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was partly funded by the Netherlands Organization for Scientific Research (NWO), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Neural sequence-to-sequence models have proven very effective for machine translation, but at the expense of model interpretability. To shed more light into the role played by linguistic structure in the process of neural machine translation, we perform a fine-grained analysis of how various source-side morphological features are captured at different levels of the NMT encoder while varying the target language. Differently from previous work, we find no correlation between the accuracy of source morphology encoding and translation quality. We do find that morphological features are only captured in context and only to the extent that they are directly transferable to the target words. FR: Les arbres pl sont hauts. IT: Gli alberi pl sono alti. DE: Die B\u00e4ume pl sind hoch. EN:The trees pl are high. FR: La pomme f est petite. IT: La mela f \u00e8 piccola. DE: Der Apfelm ist klein. EN: The apple is small.",
+    "countries": [
+        "Sweden",
+        "Netherlands"
+    ],
+    "languages": [
+        "Italian",
+        "French"
+    ],
+    "numcitedby": 19,
+    "year": 2018,
+    "month": "October-November",
+    "title": "The Lazy Encoder: A Fine-Grained Analysis of the Role of Morphology in Neural Machine Translation"
 }

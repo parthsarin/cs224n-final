@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly thanks the Klaus Tschira Foundation, Heidelberg, for financial support. There is no mention of funding from defense, corporate entities, research agencies, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly thanks the Klaus Tschira Foundation, Heidelberg, for financial support. There is no mention of funding from defense, corporate entities, research agencies, or an indication that there were no other funding sources.",
+    "abstract": "This paper presents a supervised method for resolving metonymies. We enhance a commonly used feature set with features extracted based on collocation information from corpora, generalized using lexical and encyclopedic knowledge to determine the preferred sense of the potentially metonymic word using methods from unsupervised word sense disambiguation. The methodology developed addresses one issue related to metonymy resolution -the influence of local context. The method developed is applied to the metonymy resolution task from SemEval 2007. The results obtained, higher for the countries subtask, on a par for the companies subtask -compared to participating systems -confirm that lexical, encyclopedic and collocation information can be successfully combined for metonymy resolution.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 19,
+    "year": 2009,
+    "month": "August",
+    "title": "Combining Collocations, Lexical and Encyclopedic Knowledge for Metonymy Resolution"
 }

@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it is not possible to determine any funding source."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it is not possible to determine any funding source.",
+    "abstract": "Aspect identification in user generated texts by supervised text classification might suffer degradation in performance when changing to other domains than the one used for training. For referring to aspects such as quality, price or customer services the vocabulary might differ and affect performance. In this paper, we present an experiment to validate a method to handle domain shifts when there is no available labeled data to retrain. The system is based on the offset method as used for solving word analogy problems in vector semantic models such as word embedding. Despite of the fact that the offset method indeed found relevant analogues in the new domain for the classifier initial selected features, the classifiers did not deliver the expected results. The analysis showed that a number of words were found as analogues for many different initial features. This phenomenon was already described in the literature as 'default words' or 'hubs'. However, our data showed that it cannot be explained in terms of word frequency or distance to the question word, as suggested.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Italian",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2018,
+    "month": "May",
+    "title": "Can Domain Adaptation be Handled as Analogies?"
 }

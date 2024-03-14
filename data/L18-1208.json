@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work reported was supported by the Hungarian Academy of Sciences under the Infrastructure Development Support Programme 2015/2. The Hungarian Academy of Sciences is a government-funded organization that supports research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work reported was supported by the Hungarian Academy of Sciences under the Infrastructure Development Support Programme 2015/2. The Hungarian Academy of Sciences is a government-funded organization that supports research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "e-magyar is a new toolset for the analysis of Hungarian texts. It was produced as a collaborative effort of the Hungarian language technology community integrating the best state-of-the-art tools, enhancing them where necessary, making them interoperable and releasing them with a clear license. It is a free, open, modular text processing pipeline which is integrated in the GATE system offering further prospects of interoperability. From tokenizing to parsing and named entity recognition, existing tools were examined and those selected for integration underwent various amount of overhaul in order to operate in the pipeline with a uniform encoding, and run in the same Java platform. The tokenizer was re-built from ground up and the flagship module, the morphological analyzer, based on the Humor system (Pr\u00f3sz\u00e9ky and Kis, 1999), was given a new annotation system and was implemented in the HFST framework (Lind\u00e9n et al., 2009) . The system is aimed for a broad range of users, from language technology application developers to digital humanities researchers alike. It comes with a drag-and-drop demo on its website: http://e-magyar.hu/en/.",
+    "countries": [
+        "Hungary"
+    ],
+    "languages": [
+        "Hungarian"
+    ],
+    "numcitedby": 10,
+    "year": 2018,
+    "month": "May",
+    "title": "{E}-magyar {--} A Digital Language Processing System"
 }

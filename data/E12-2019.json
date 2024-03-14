@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999994487765019
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of funding. Therefore, based on the information provided, it is not possible to determine if the project received funding from any of these sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of funding. Therefore, based on the information provided, it is not possible to determine if the project received funding from any of these sources.",
+    "abstract": "Data-driven approaches in computational semantics are not common because there are only few semantically annotated resources available. We are building a large corpus of public-domain English texts and annotate them semi-automatically with syntactic structures (derivations in Combinatory Categorial Grammar) and semantic representations (Discourse Representation Structures), including events, thematic roles, named entities, anaphora, scope, and rhetorical structure. We have created a wiki-like Web-based platform on which a crowd of expert annotators (i.e. linguists) can log in and adjust linguistic analyses in real time, at various levels of analysis, such as boundaries (tokens, sentences) and tags (part of speech, lexical categories). The demo will illustrate the different features of the platform, including navigation, visualization and editing.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 21,
+    "year": 2012,
+    "month": "April",
+    "title": "A platform for collaborative semantic annotation"
 }

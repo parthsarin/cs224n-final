@@ -7,5 +7,18 @@
         "foundation": 0.998998535101024,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the Social Sciences and Humanities Research Council (SSHRC) Partnership Development Grant and the Kule Institute for Advanced Study (KIAS) Research Cluster Grant. Both of these are indicative of research agency or foundation support, rather than defense, corporate, or no funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the Social Sciences and Humanities Research Council (SSHRC) Partnership Development Grant and the Kule Institute for Advanced Study (KIAS) Research Cluster Grant. Both of these are indicative of research agency or foundation support, rather than defense, corporate, or no funding.",
+    "abstract": "In this paper, we are presenting our work on the creation of the first optical character recognition (OCR) model for Northern Haida, also known as Masset or Xaad Kil, a nearly extinct First Nations language spoken in the Haida Gwaii archipelago in British Columbia, Canada. We are addressing the challenges of training an OCR model for a language with an extensive, non-standard Latin character set as follows: (1) We have compared various training approaches and present the results of practical analyses to maximize recognition accuracy and minimize manual labor. An approach using just one or two pages of Source Images directly performed better than the Image Generation approach, and better than models based on three or more pages. Analyses also suggest that a character's frequency is directly correlated with its recognition accuracy. (2) We present an overview of current OCR accuracy analysis tools available. (3) We have ported the once de-facto standardized OCR accuracy tools to be able to cope with Unicode input. We hope that our work can encourage further OCR endeavors for other endangered and/or underresearched languages. Our work adds to a growing body of research on OCR for particularly challenging character sets, and contributes to creating the largest electronic corpus for this severely endangered language.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        "Portuguese",
+        "English",
+        "Haida"
+    ],
+    "numcitedby": 8,
+    "year": 2016,
+    "month": "May",
+    "title": "Training {\\&} Quality Assessment of an Optical Character Recognition Model for {N}orthern {H}aida"
 }

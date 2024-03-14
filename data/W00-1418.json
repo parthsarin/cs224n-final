@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0280378716087668e-06
     },
-    "reasoning": "Reasoning: The article mentions that the ILEX project was supported by EPSRC grant GR/K53321, which is a grant from the Engineering and Physical Sciences Research Council, a UK government agency that funds research and development in engineering and the physical sciences. Therefore, the research was funded by a research agency."
+    "reasoning": "Reasoning: The article mentions that the ILEX project was supported by EPSRC grant GR/K53321, which is a grant from the Engineering and Physical Sciences Research Council, a UK government agency that funds research and development in engineering and the physical sciences. Therefore, the research was funded by a research agency.",
+    "abstract": "This paper outlines a text generation system suited to a large class of information sources, relational databases. We focus on one aspect of the problem: the additional information which needs to be specified to produce reasonable text quality when generating from relational databases. We outline how databases need to be prepared, and then describe various types of domain semantics which can be used to improve text qualify.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 16,
+    "year": 2000,
+    "month": "June",
+    "title": "Optimising text quality in generation from relational databases"
 }

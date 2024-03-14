@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from an NHLBI-NIH grant, which indicates funding from a research agency, specifically a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions support from an NHLBI-NIH grant, which indicates funding from a research agency, specifically a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Many genetic epidemiological studies of human diseases have multiple variables related to any given phenotype, resulting from different definitions and multiple measurements or subsets of data. Manually mapping and harmonizing these phenotypes is a timeconsuming process that may still miss the most appropriate variables. Previously, a supervised learning algorithm was proposed for this problem. That algorithm learns to determine whether a pair of phenotypes is in the same class. Though that algorithm accomplished satisfying F-scores, the need to manually label training examples becomes a bottleneck to improve its coverage. Herein we present a novel active learning solution to solve this challenging phenotype-mapping problem. Active learning will make phenotype mapping more efficient and improve its accuracy.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2012,
+    "month": "June",
+    "title": "Exploring Label Dependency in Active Learning for Phenotype Mapping"
 }

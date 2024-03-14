@@ -7,5 +7,18 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research.",
+    "abstract": "We describe Authorship Attribution of Bengali literary text. Our contributions include a new corpus of 3,000 passages written by three Bengali authors, an end-to-end system for authorship classification based on character n-grams, feature selection for authorship attribution, feature ranking and analysis, and learning curve to assess the relationship between amount of training data and test accuracy. We achieve state-of-theart results on held-out dataset, thus indicating that lexical n-gram features are unarguably the best discriminators for authorship attribution of Bengali literary text.",
+    "countries": [
+        "United States",
+        "India"
+    ],
+    "languages": [
+        "Telugu",
+        "Bengali"
+    ],
+    "numcitedby": 17,
+    "year": 2015,
+    "month": "December",
+    "title": "Authorship Attribution in {B}engali Language"
 }

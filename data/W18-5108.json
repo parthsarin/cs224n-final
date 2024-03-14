@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research.",
+    "abstract": "Growing amount of comments make online discussions difficult to moderate by human moderators only. Antisocial behavior is a common occurrence that often discourages other users from participating in discussion. We propose a neural network based method that partially automates the moderation process. It consists of two steps. First, we detect inappropriate comments for moderators to see. Second, we highlight inappropriate parts within these comments to make the moderation faster. We evaluated our method on data from a major Slovak news discussion platform.",
+    "countries": [
+        "Slovakia"
+    ],
+    "languages": [
+        "Slovak"
+    ],
+    "numcitedby": 17,
+    "year": 2018,
+    "month": "October",
+    "title": "Improving Moderation of Online Discussions via Interpretable Neural Models"
 }

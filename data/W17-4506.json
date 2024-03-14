@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that no external funding was reported."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that no external funding was reported.",
+    "abstract": "Summarization of spoken conversations is a challenging task, since it requires deep understanding of dialogs. Abstractive summarization techniques rely on linking the summary sentences to sets of original conversation sentences, i.e. communities. Unfortunately, such linking information is rarely available or requires trained annotators. We propose and experiment automatic community creation using cosine similarity on different levels of representation: raw text, WordNet SynSet IDs, and word embeddings. We show that the abstractive summarization systems with automatic communities significantly outperform previously published results on both English and Italian corpora.",
+    "countries": [
+        "United States",
+        "Canada",
+        "Italy"
+    ],
+    "languages": [
+        "Italian",
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2017,
+    "month": "September",
+    "title": "Automatic Community Creation for Abstractive Spoken Conversations Summarization"
 }

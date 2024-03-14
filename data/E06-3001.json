@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by an IBM Ph.D. Fellowship. IBM is a for-profit corporation, indicating corporate funding. There is no mention of defense, research agency, foundation funding, or a lack of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by an IBM Ph.D. Fellowship. IBM is a for-profit corporation, indicating corporate funding. There is no mention of defense, research agency, foundation funding, or a lack of funding.",
+    "abstract": "This paper describes the development of a rule-based computational model that describes how a feature-based representation of shared visual information combines with linguistic cues to enable effective reference resolution. This work explores a language-only model, a visualonly model, and an integrated model of reference resolution and applies them to a corpus of transcribed task-oriented spoken dialogues. Preliminary results from a corpus-based analysis suggest that integrating information from a shared visual environment can improve the performance and quality of existing discoursebased models of reference resolution.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 4,
+    "year": 2006,
+    "month": "",
+    "title": "What{'}s There to Talk About? A Multi-Modal Model of Referring Behavior in the Presence of Shared Visual Information"
 }

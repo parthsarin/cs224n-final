@@ -7,5 +7,22 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the writing of the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine if the research received external funding or if it was self-funded or unfunded. Therefore, based on the information given, we must conclude that there is no evidence of funding from the specified sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the writing of the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine if the research received external funding or if it was self-funded or unfunded. Therefore, based on the information given, we must conclude that there is no evidence of funding from the specified sources.",
+    "abstract": "Most Text to Speech (TTS) systems today assume that the input text is in a single language and is written in the same language that the text needs to be synthesized in. However, in bilingual and multilingual communities, code mixing or code switching occurs in speech, in which speakers switch between languages in the same utterance. Due to the popularity of social media, we now see code-mixing even in text in these multilingual communities. TTS systems capable of synthesizing such text need to be able to handle text that is written in multiple languages and scripts. Code-mixed text poses many challenges to TTS systems, such as language identification, spelling normalization and pronunciation modeling. In this work, we describe a preliminary framework for synthesizing code-mixed text. We carry out experiments on synthesizing code-mixed Hindi and English text. We find that there is a significant user preference for TTS systems that can correctly identify and pronounce words in different languages.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Hindi",
+        "Mandarin",
+        "Arabic",
+        "French",
+        "Spanish",
+        "Nepali",
+        "English"
+    ],
+    "numcitedby": 24,
+    "year": 2016,
+    "month": "May",
+    "title": "Speech Synthesis of Code-Mixed Text"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding support from Science Foundation Ireland under a specific grant number, which classifies as a research agency. It also mentions support from the Pr\u00eat-\u00e0-LLOD project, funded by the European Union's Horizon 2020 research and innovation programme, which is another form of research agency funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding support from Science Foundation Ireland under a specific grant number, which classifies as a research agency. It also mentions support from the Pr\u00eat-\u00e0-LLOD project, funded by the European Union's Horizon 2020 research and innovation programme, which is another form of research agency funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Metaphor comprehension and understanding is a complex cognitive task that requires interpreting metaphors by grasping the interaction between the meaning of their target and source concepts. This is very challenging for humans, let alone computers. Thus, automatic metaphor interpretation is understudied in part due to the lack of publicly available datasets. The creation and manual annotation of such datasets is a demanding task which requires huge cognitive effort and time. Moreover, there will always be a question of accuracy and consistency of the annotated data due to the subjective nature of the problem. This work addresses these issues by presenting an annotation scheme to interpret verb-noun metaphoric expressions in text. The proposed approach is designed with the goal of reducing the workload on annotators and maintain consistency. Our methodology employs an automatic retrieval approach which utilises external lexical resources, word embeddings and semantic similarity to generate possible interpretations of identified metaphors in order to enable quick and accurate annotation. We validate our proposed approach by annotating around 1,500 metaphors in tweets which were annotated by six native English speakers. As a result of this work, we publish as linked data the first gold standard dataset for metaphor interpretation which will facilitate research in this area.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 3,
+    "year": 2020,
+    "month": "May",
+    "title": "Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation"
 }

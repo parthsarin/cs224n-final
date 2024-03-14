@@ -7,5 +7,22 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. It focuses on the development and use of a database for Translation Process Research without attributing the support to any external funding bodies."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. It focuses on the development and use of a database for Translation Process Research without attributing the support to any external funding bodies.",
+    "abstract": "This paper introduces a publicly available database of recorded translation sessions for Translation Process Research (TPR). User activity data (UAD) of translators behavior was collected over the past 5 years in several translation studies with Translog 1 , a data acquisition software which logs keystrokes and gaze data during text reception and production. The database compiles this data into a consistent format which can be processed by various visualization and analysis tools.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "Danish",
+        "Spanish",
+        "Hindi",
+        "Chinese",
+        "Portuguese",
+        "English",
+        "German"
+    ],
+    "numcitedby": 22,
+    "year": 2012,
+    "month": "October 28",
+    "title": "The {CRITT} {TPR}-{DB} 1.0: A Database for Empirical Human Translation Process Research"
 }

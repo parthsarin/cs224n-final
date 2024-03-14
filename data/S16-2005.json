@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions funding from the Leibniz Association under a specific grant number and by the Ministry of Science, Research, and Art (MWK) of the state of Baden-W\u00fcrttemberg. The Leibniz Association is a research organization that receives government funding, and the MWK is a government body, indicating that the research was supported by research agency funds. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions funding from the Leibniz Association under a specific grant number and by the Ministry of Science, Research, and Art (MWK) of the state of Baden-W\u00fcrttemberg. The Leibniz Association is a research organization that receives government funding, and the MWK is a government body, indicating that the research was supported by research agency funds. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Extending semantic role labeling (SRL) to detect and recover non-local arguments continues to be a challenge. Our work is the first to address the detection of implicit roles from a multilingual perspective. We map predicate-argument structures across English and German sentences, and we develop a classifier that distinguishes implicit arguments from other translation shifts. Using a combination of alignment statistics and linguistic features, we achieve a precision of 0.68 despite a limited training set, which is a significant gain over the majority baseline. Our approach does not rely on pre-existing knowledge bases and is extendible to any language pair with parallel data and dependency parses.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2016,
+    "month": "August",
+    "title": "Implicit Semantic Roles in a Multilingual Setting"
 }

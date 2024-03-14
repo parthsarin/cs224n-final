@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions a DOC Fellowship of the Austrian Academy of Sciences at the Austrian Research Institute for Artificial Intelligence and the CHIST-ERA HLU project \"Artificial Language Understanding in Robots ATLANTIS\" as funding sources. The Austrian Academy of Sciences is a research organization, and CHIST-ERA is a European research coordination and funding organization, which suggests research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is funding mentioned, it cannot be classified as none."
+    "reasoning": "Reasoning: The acknowledgements section mentions a DOC Fellowship of the Austrian Academy of Sciences at the Austrian Research Institute for Artificial Intelligence and the CHIST-ERA HLU project \"Artificial Language Understanding in Robots ATLANTIS\" as funding sources. The Austrian Academy of Sciences is a research organization, and CHIST-ERA is a European research coordination and funding organization, which suggests research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is funding mentioned, it cannot be classified as none.",
+    "abstract": "The OFAI Multimodal Task Description Corpus (OFAI-MMTD Corpus) is a collection of dyadic teacher-learner (human-human and human-robot) interactions. The corpus is multimodal and tracks the communication signals exchanged between interlocutors in task-oriented scenarios including speech, gaze and gestures. The focus of interest lies on the communicative signals conveyed by the teacher and which objects are salient at which time. Data are collected from four different task description setups which involve spatial utterances, navigation instructions and more complex descriptions of joint tasks.",
+    "countries": [
+        "Austria"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 11,
+    "year": 2016,
+    "month": "May",
+    "title": "The {OFAI} Multi-Modal Task Description Corpus"
 }

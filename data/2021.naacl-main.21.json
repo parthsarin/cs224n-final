@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research received funding from the Flemish Government under the Research Program Artificial Intelligence -174B09119. The Flemish Government is a governmental body, not a defense, corporate, foundation, or a typical research agency as defined here. Therefore, it does not fit neatly into the specified categories, but it is closest to a research agency in a broad sense because it is a government-funded program for research. There is no mention of defense, corporate, or foundation funding, and since there is government funding, it is not correct to say there was none."
+    "reasoning": "Reasoning: The article explicitly mentions that the research received funding from the Flemish Government under the Research Program Artificial Intelligence -174B09119. The Flemish Government is a governmental body, not a defense, corporate, foundation, or a typical research agency as defined here. Therefore, it does not fit neatly into the specified categories, but it is closest to a research agency in a broad sense because it is a government-funded program for research. There is no mention of defense, corporate, or foundation funding, and since there is government funding, it is not correct to say there was none.",
+    "abstract": "In online domain-specific customer service applications, many companies struggle to deploy advanced NLP models successfully, due to the limited availability of and noise in their datasets. While prior research demonstrated the potential of migrating large open-domain pretrained models for domain-specific tasks, the appropriate (pre)training strategies have not yet been rigorously evaluated in such social media customer service settings, especially under multilingual conditions. We address this gap by (i) collecting a multilingual social media corpus containing customer service conversations (865k tweets), (ii) comparing various pipelines of pretraining and finetuning approaches, (iii) applying them on 5 different end tasks. We show that pretraining a generic multilingual transformer model on our in-domain dataset, before finetuning on specific end tasks, consistently boosts performance, especially in non-English settings. 1",
+    "countries": [
+        "Belgium"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2021,
+    "month": "June",
+    "title": "A Million Tweets Are Worth a Few Points: Tuning Transformers for Customer Service Tasks"
 }

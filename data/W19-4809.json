@@ -7,5 +7,16 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that there is no direct funding reported from these entities."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that there is no direct funding reported from these entities.",
+    "abstract": "Language is a powerful tool which can be used to state the facts as well as express our views and perceptions. Most of the times, we find a subtle bias towards or against someone or something. When it comes to politics, media houses and journalists are known to create bias by shrewd means such as misinterpreting reality and distorting viewpoints towards some parties. This misinterpretation on a large scale can lead to the production of biased news and conspiracy theories. Automating bias detection in newspaper articles could be a good challenge for research in NLP. We proposed a headline attention network for this bias detection. Our model has two distinctive characteristics: (i) it has a structure that mirrors a person's way of reading a news article (ii) it has attention mechanism applied on the article based on its headline, enabling it to attend to more critical content to predict bias. As the required datasets were not available, we created a dataset comprising of 1329 news articles collected from various Telugu newspapers and marked them for bias towards a particular political party. The experiments conducted on it demonstrated that our model outperforms various baseline methods by a substantial margin.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "Telugu"
+    ],
+    "numcitedby": 15,
+    "year": 2019,
+    "month": "August",
+    "title": "Detecting Political Bias in News Articles Using Headline Attention"
 }

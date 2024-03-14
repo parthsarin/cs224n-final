@@ -7,5 +7,18 @@
         "foundation": 0.9941788598756589,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the Deutsche Forschungsgemeinschaft (DFG), which is a German research funding organization, and the German Academic Exchange Service (DAAD), which is a German academic support organization. It also mentions support from the Higher Education Commission (HEC), Pakistan, which is a government-backed education and research funding body. The Russian Science Foundation is also mentioned as a supporter, which is a foundation that funds scientific research in Russia. There is no mention of defense, corporate, or other types of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the Deutsche Forschungsgemeinschaft (DFG), which is a German research funding organization, and the German Academic Exchange Service (DAAD), which is a German academic support organization. It also mentions support from the Higher Education Commission (HEC), Pakistan, which is a government-backed education and research funding body. The Russian Science Foundation is also mentioned as a supporter, which is a foundation that funds scientific research in Russia. There is no mention of defense, corporate, or other types of funding.",
+    "abstract": "Semantic frames are formal linguistic structures describing situations/actions/events, e.g. Commercial transfer of goods. Each frame provides a set of roles corresponding to the situation participants, e.g. Buyer and Goods, and lexical units (LUs) -words and phrases that can evoke this particular frame in texts, e.g. Sell. The scarcity of annotated resources hinders wider adoption of frame semantics across languages and domains. We investigate a simple yet effective method, lexical substitution with word representation models, to automatically expand a small set of frame-annotated sentences with new words for their respective roles and LUs. We evaluate the expansion quality using FrameNet. Contextualized models demonstrate overall superior performance compared to the non-contextualized ones on roles. However, the latter show comparable performance on the task of LU expansion.",
+    "countries": [
+        "Russia",
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "Russian"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "June",
+    "title": "Generating Lexical Representations of Frames using Lexical Substitution"
 }

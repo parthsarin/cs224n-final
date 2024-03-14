@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from the National Natural Science Foundation of China and the Science and Technology Innovation 2030 Major Project of China, which indicates funding from a research agency. There is no mention of defense, corporate, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from the National Natural Science Foundation of China and the Science and Technology Innovation 2030 Major Project of China, which indicates funding from a research agency. There is no mention of defense, corporate, foundation funding, or an absence of funding.",
+    "abstract": "Generating open-domain conversational responses in the desired style usually suffers from the lack of parallel data in the style. Meanwhile, using monolingual stylistic data to increase style intensity often leads to the expense of decreasing content relevance. In this paper, we propose to disentangle the content and style in latent space by diluting sentence-level information in style representations. Combining the desired style representation and a response content representation will then obtain a stylistic response. Our approach achieves a higher BERT-based style intensity score and comparable BLEU scores, compared with baselines. Human evaluation results show that our approach significantly improves style intensity and maintains content relevance.",
+    "countries": [
+        "United States",
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 4,
+    "year": 2021,
+    "month": "August",
+    "title": "Neural Stylistic Response Generation with Disentangled Latent Variables"
 }

@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0280378716087668e-06
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article thanks the Intramural Research Program of the National Institutes of Health and the US Social Security Administration for their support. The National Institutes of Health is a research agency, and the US Social Security Administration, while a government agency, does not typically fund research in the same manner as research agencies. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article thanks the Intramural Research Program of the National Institutes of Health and the US Social Security Administration for their support. The National Institutes of Health is a research agency, and the US Social Security Administration, while a government agency, does not typically fund research in the same manner as research agencies. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Natural language processing techniques are being applied to increasingly diverse types of electronic health records, and can benefit from in-depth understanding of the distinguishing characteristics of medical document types. We present a method for characterizing the usage patterns of clinical concepts among different document types, in order to capture semantic differences beyond the lexical level. By training concept embeddings on clinical documents of different types and measuring the differences in their nearest neighborhood structures, we are able to measure divergences in concept usage while correcting for noise in embedding learning. Experiments on the MIMIC-III corpus demonstrate that our approach captures clinically-relevant differences in concept usage and provides an intuitive way to explore semantic characteristics of clinical document collections.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 3,
+    "year": 2019,
+    "month": "November",
+    "title": "Writing habits and telltale neighbors: analyzing clinical concept usage patterns with sublanguage embeddings"
 }

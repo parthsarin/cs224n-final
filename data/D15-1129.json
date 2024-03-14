@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 644402 (HimL) and the DFG grant Models of Morphosyntax for Statistical Machine Translation (Phase 2). Horizon 2020 is a research and innovation programme by the European Union, which classifies as a research agency. The DFG (Deutsche Forschungsgemeinschaft) is a German research funding organization, also classifying as a research agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article explicitly acknowledges funding from the European Union's Horizon 2020 research and innovation programme under grant agreement No 644402 (HimL) and the DFG grant Models of Morphosyntax for Statistical Machine Translation (Phase 2). Horizon 2020 is a research and innovation programme by the European Union, which classifies as a research agency. The DFG (Deutsche Forschungsgemeinschaft) is a German research funding organization, also classifying as a research agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "In syntax-based machine translation, rule selection is the task of choosing the correct target side of a translation rule among rules with the same source side. We define a discriminative rule selection model for systems that have syntactic annotation on the target language side (stringto-tree). This is a new and clean way to integrate soft source syntactic constraints into string-to-tree systems as features of the rule selection model. We release our implementation as part of Moses.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": 7,
+    "year": 2015,
+    "month": "September",
+    "title": "Rule Selection with Soft Syntactic Features for String-to-Tree Statistical Machine Translation"
 }

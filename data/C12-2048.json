@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9896706093941803
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "We propose a simple and effective metric for automatically evaluating discourse coherence of a text using the outputs of a coreference resolution model. According to the idea that a writer tends to appropriately utilise coreference relations when writing a coherent text, we introduce a metric of discourse coherence based on automatically identified coreference relations. We empirically evaluated our metric by comparing it to the entity grid modelling by Barzilay and Lapata (2008) using Japanese newspaper articles as a target data set. The results indicate that our metric better reflects discourse coherence of texts than the existing model.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 11,
+    "year": 2012,
+    "month": "December",
+    "title": "A Metric for Evaluating Discourse Coherence based on Coreference Resolution"
 }

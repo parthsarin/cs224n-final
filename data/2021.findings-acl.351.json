@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges the support of the Army Research Office (ARO) grant W911NF-21-1-0112, which is a branch of the United States Department of Defense. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges the support of the Army Research Office (ARO) grant W911NF-21-1-0112, which is a branch of the United States Department of Defense. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Due to the multi-dimensional variation of textual data, detection of event triggers from new domains can become a lot more challenging. This prompts a need to research on domain adaptation methods for event detection task, especially for the most practical unsupervised setting. Recently, large transformer-based language models, e.g. BERT, have become essential to achieve top performance for event detection. However, their unwieldy nature also prevents effective adaptation across domains. To this end, this work proposes a Domain-specific Adapter-based Adaptation (DAA) framework to improve the adaptability of BERT-based models for event detection across domains. By explicitly representing data from different domains with separate adapter modules in each layer of BERT, DAA introduces a novel joint representation learning mechanism and a Wasserstein distance-based technique for data selection in adversarial learning to substantially boost the performance on target domains. Extensive experiments and analysis over different datasets (i.e., LitBank, TimeBank, and ACE-05) demonstrate the effectiveness of our approach.",
+    "countries": [
+        "Vietnam",
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 5,
+    "year": 2021,
+    "month": "August",
+    "title": "Unsupervised Domain Adaptation for Event Detection using Domain-specific Adapters"
 }

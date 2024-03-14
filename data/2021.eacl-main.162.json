@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions that Marcel Bollmann was funded by the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement, which is a research agency, and Anders S\u00f8gaard was funded by a Google Focused Research Award, which is corporate funding. There is no mention of defense, foundation, or other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section mentions that Marcel Bollmann was funded by the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement, which is a research agency, and Anders S\u00f8gaard was funded by a Google Focused Research Award, which is corporate funding. There is no mention of defense, foundation, or other funding sources.",
+    "abstract": "We evaluate two common conjectures in error analysis of NLP models: (i) Morphology is predictive of errors; and (ii) the importance of morphology increases with the morphological complexity of a language. We show across four different tasks and up to 57 languages that of these conjectures, somewhat surprisingly, only (i) is true. Using morphological features does improve error prediction across tasks; however, this effect is less pronounced with morphologically complex languages. We speculate this is because morphology is more discriminative in morphologically simple languages. Across all four tasks, case and gender are the morphological features most predictive of error.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "Arabic",
+        "Russian",
+        "Turkish"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "April",
+    "title": "Error Analysis and the Role of Morphology"
 }

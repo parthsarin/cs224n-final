@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it appears there was no disclosed funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it appears there was no disclosed funding.",
+    "abstract": "In this paper we present a series of experiments on discriminating between private and corporate accounts on Twitter. We define features based on Twitter metadata, morphosyntactic tags and surface forms, showing that the simple bag-of-words model achieves single best results that can, however, be improved by building a weighted soft ensemble of classifiers based on each feature type. Investigating the time and language dependence of each feature type delivers quite unexpecting results showing that features based on metadata are neither time-nor language-insensitive as the way the two user groups use the social network varies heavily through time and space.",
+    "countries": [
+        "Slovenia"
+    ],
+    "languages": [
+        "Croatian",
+        "English",
+        "Slovene"
+    ],
+    "numcitedby": 3,
+    "year": 2016,
+    "month": "December",
+    "title": "Private or Corporate? Predicting User Types on {T}witter"
 }

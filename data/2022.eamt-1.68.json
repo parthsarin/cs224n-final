@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the project received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement No. 890697, which is a research agency."
+    "reasoning": "Reasoning: The article explicitly states that the project received funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement No. 890697, which is a research agency.",
+    "abstract": "We present here the EU-funded project CREAMT that seeks to understand what is meant by creativity in different translation modalities, e.g. machine translation, postediting or professional translation. Focusing on the textual elements that determine creativity in translated literary texts and the reader experience, CREAMT uses a novel, interdisciplinary approach to assess how effective machine translation is in literary translation considering creativity in translation and the ultimate user: the reader.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "Dutch",
+        "Catalan"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "June",
+    "title": "{CREAMT}: Creativity and narrative engagement of literary texts translated by translators and {NMT}"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions NSF (National Science Foundation) award numbers, indicating funding from a research agency. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions NSF (National Science Foundation) award numbers, indicating funding from a research agency. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding.",
+    "abstract": "A wide range of applications, from social media to scientific literature analysis, involve graphs in which documents are connected by links. We introduce a topic model for link prediction based on the intuition that linked documents will tend to have similar topic distributions, integrating a max-margin learning criterion and lexical term weights in the loss function. We validate our approach on the tweets from 2,000 Sina Weibo users and evaluate our model's reconstruction of the social network.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 9,
+    "year": 2015,
+    "month": "September",
+    "title": "Birds of a Feather Linked Together: A Discriminative Topic Model using Link-based Priors"
 }

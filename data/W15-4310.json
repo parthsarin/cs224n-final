@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper.",
+    "abstract": "Twitter is a type of social media that contains diverse user-generated texts. Traditional models are not applicable to tweet data because the text style is not as grammaticalized as that of newswire. In this paper, we construct word embeddings via canonical correlation analysis (CCA) on a considerable amount of tweet data and show the efficacy of word representation. Besides word embedding, we use partof-speech (POS) tags, chunks, and brown clusters induced from Wikipedia as features. Here, we describe our system and present the final results along with their analysis. Our model achieves an F1 score of 37.21% with entity types and distinguishes 53.01% of the entity boundaries.",
+    "countries": [
+        "South Korea"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2015,
+    "month": "July",
+    "title": "{H}allym: Named Entity Recognition on {T}witter with Word Representation"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article states it is supported by the National Science Foundation of China under Grant No.61876004, 61936012, and the National Key R&D Program of China under Grand No.2020AAA0106700. These are government-funded organizations, indicating research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is funding mentioned, it is not correct to say there is none."
+    "reasoning": "Reasoning: The article states it is supported by the National Science Foundation of China under Grant No.61876004, 61936012, and the National Key R&D Program of China under Grand No.2020AAA0106700. These are government-funded organizations, indicating research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is funding mentioned, it is not correct to say there is none.",
+    "abstract": "Incomplete utterance rewriting has recently raised wide attention. However, previous works do not consider the semantic structural information between incomplete utterance and rewritten utterance or model the semantic structure implicitly and insufficiently. To address this problem, we propose a QUEry-Enhanced Network (QUEEN). Firstly, our proposed query template explicitly brings guided semantic structural knowledge between the incomplete utterance and the rewritten utterance making model perceive where to refer back to or recover omitted tokens. Then, we adopt a fast and effective edit operation scoring network to model the relation between two tokens. Benefiting from extra information and the well-designed network, QUEEN achieves state-of-the-art performance on several public datasets.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "July",
+    "title": "Mining Clues from Incomplete Utterance: A Query-enhanced Network for Incomplete Utterance Rewriting"
 }

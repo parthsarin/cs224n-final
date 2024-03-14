@@ -7,5 +7,16 @@
         "foundation": 0.8584453398815554,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges support from the Alberta Ingenuity Centre for Machine Learning (AICML), which is a research initiative, suggesting it falls under the category of a research agency or foundation depending on its funding structure. There is no mention of defense, corporate, or other specific foundation funding, and the AICML's involvement suggests the research was not unfunded."
+    "reasoning": "Reasoning: The article acknowledges support from the Alberta Ingenuity Centre for Machine Learning (AICML), which is a research initiative, suggesting it falls under the category of a research agency or foundation depending on its funding structure. There is no mention of defense, corporate, or other specific foundation funding, and the AICML's involvement suggests the research was not unfunded.",
+    "abstract": "Although there exists a huge number of biomedical texts online, there is a lack of tools good enough to help people get information or knowledge from them. Named entity Recognition (NER) becomes very important for further processing like information retrieval, information extraction and knowledge discovery. We introduce a Hidden Markov Model (HMM) for NER, with a word similarity-based smoothing. Our experiment shows that the word similarity-based smoothing can improve the performance by using huge unlabeled data. While many systems have laboriously hand-coded rules for all kinds of word features, we show that word similarity is a potential method to automatically get word formation, prefix, suffix and abbreviation information automatically from biomedical texts, as well as useful word distribution information.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 91,
+    "year": 2004,
+    "month": "August 28th and 29th",
+    "title": "Named Entity Recognition in Biomedical Texts using an {HMM} Model"
 }

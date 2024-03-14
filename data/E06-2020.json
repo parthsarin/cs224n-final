@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions collaboration with Aerospace and Marine International (UK) Ltd (AMI), which is a for-profit company, indicating corporate funding. There is no mention of funding from defense, research agencies, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article mentions collaboration with Aerospace and Marine International (UK) Ltd (AMI), which is a for-profit company, indicating corporate funding. There is no mention of funding from defense, research agencies, foundations, or an absence of funding.",
+    "abstract": "We describe our initial investigations into generating textual summaries of spatiotemporal data with the help of a prototype Natural Language Generation (NLG) system that produces pollen forecasts for Scotland.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 30,
+    "year": 2006,
+    "month": "",
+    "title": "Generating Spatio-Temporal Descriptions in Pollen Forecasts"
 }

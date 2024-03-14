@@ -7,5 +7,17 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions support from Labex Digicosme, operated by the Foundation for Scientific Cooperation (FSC) Paris-Saclay, and the French National Agency for Research. Labex Digicosme is a research initiative, and the Foundation for Scientific Cooperation is a foundation. The French National Agency for Research is a research agency. There is no mention of defense or corporate funding."
+    "reasoning": "Reasoning: The acknowledgements section mentions support from Labex Digicosme, operated by the Foundation for Scientific Cooperation (FSC) Paris-Saclay, and the French National Agency for Research. Labex Digicosme is a research initiative, and the Foundation for Scientific Cooperation is a foundation. The French National Agency for Research is a research agency. There is no mention of defense or corporate funding.",
+    "abstract": "We present a neural architecture for containment relation identification between medical events and/or temporal expressions. We experiment on a corpus of deidentified clinical notes in English from the Mayo Clinic, namely the THYME corpus. Our model achieves an F-measure of 0.613 and outperforms the best result reported on this corpus to date.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": 69,
+    "year": 2017,
+    "month": "July",
+    "title": "Neural Architecture for Temporal Relation Extraction: A {B}i-{LSTM} Approach for Detecting Narrative Containers"
 }

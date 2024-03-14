@@ -7,5 +7,17 @@
         "foundation": 7.896306882804183e-07,
         "none": 0.9999996871837189
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions collaboration between the HBKU Qatar Computing Research Institute (QCRI) and the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). However, it does not explicitly state funding from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding sources, we cannot assume any specific type of funding was provided based on the information given."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions collaboration between the HBKU Qatar Computing Research Institute (QCRI) and the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). However, it does not explicitly state funding from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding sources, we cannot assume any specific type of funding was provided based on the information given.",
+    "abstract": "While neural machine translation (NMT) models provide improved translation quality in an elegant framework, it is less clear what they learn about language. Recent work has started evaluating the quality of vector representations learned by NMT models on morphological and syntactic tasks. In this paper, we investigate the representations learned at different layers of NMT encoders. We train NMT systems on parallel data and use the models to extract features for training a classifier on two tasks: part-of-speech and semantic tagging. We then measure the performance of the classifier as a proxy to the quality of the original NMT model for the given task. Our quantitative analysis yields interesting insights regarding representation learning in NMT models. For instance, we find that higher layers are better at learning semantics while lower layers tend to be better for part-of-speech tagging. We also observe little effect of the target language on source-side representations, especially in higher quality models. 1",
+    "countries": [
+        "Qatar",
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 124,
+    "year": 2017,
+    "month": "November",
+    "title": "Evaluating Layers of Representation in Neural Machine Translation on Part-of-Speech and Semantic Tagging Tasks"
 }

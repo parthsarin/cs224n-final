@@ -7,5 +7,14 @@
         "foundation": 0.999185461856445,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding support from a Cancer Institute NSW's translational cancer research centre program grant, and the research grant TMU101-AE1-B55 of Taipei Medical University. These entities suggest funding from research agency or foundation sources, but they do not clearly fall under defense, corporate, or the absence of funding. Given the specific mention of grants, it is likely that these are either research agencies or foundations, depending on the nature of the Cancer Institute NSW and Taipei Medical University's funding mechanisms. Without more specific information about these entities being government-funded or non-profit organizations, a definitive classification into research agency or foundation cannot be made solely based on the provided text. However, they do not match the criteria for defense, corporate, or indicating no funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding support from a Cancer Institute NSW's translational cancer research centre program grant, and the research grant TMU101-AE1-B55 of Taipei Medical University. These entities suggest funding from research agency or foundation sources, but they do not clearly fall under defense, corporate, or the absence of funding. Given the specific mention of grants, it is likely that these are either research agencies or foundations, depending on the nature of the Cancer Institute NSW and Taipei Medical University's funding mechanisms. Without more specific information about these entities being government-funded or non-profit organizations, a definitive classification into research agency or foundation cannot be made solely based on the provided text. However, they do not match the criteria for defense, corporate, or indicating no funding.",
+    "abstract": "We present our participation in Task 7 of SemEval shared task 2014. The goal of this particular task includes the identification of disorder named entities and the mapping of each disorder to a unique Unified Medical Language System concept identifier, which were referred to as Task A and Task B respectively. We participated in both of these subtasks and used YTEX as a baseline system. We further developed a supervised linear chain Conditional Random Field model based on sets of features to predict disorder mentions. To take benefit of results from both systems we merged these results. Under strict condition our best run evaluated at 0.549 F-measure for Task A and an accuracy of 0.489 for Task B on test dataset. Based on our error analysis we conclude that recall of our system can be significantly increased by adding more features to the Conditional Random Field model and by using another type of tag representation or frame matching algorithm to deal with the disjoint entity mentions.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [],
+    "numcitedby": 4,
+    "year": 2014,
+    "month": "August",
+    "title": "{TMUNSW}: Disorder Concept Recognition and Normalization in Clinical Notes for {S}em{E}val-2014 Task 7"
 }

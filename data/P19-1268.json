@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from The Alan Turing Institute under the EPSRC grant EP/N510129/1. The EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from The Alan Turing Institute under the EPSRC grant EP/N510129/1. The EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding.",
+    "abstract": "Existing datasets for scoring text pairs in terms of semantic similarity contain instances whose resolution differs according to the degree of difficulty. This paper proposes to distinguish obvious from non-obvious text pairs based on superficial lexical overlap and ground-truth labels. We characterise existing datasets in terms of containing difficult cases and find that recently proposed models struggle to capture the non-obvious cases of semantic similarity. We describe metrics that emphasise cases of similarity which require more complex inference and propose that these are used for evaluating systems for semantic similarity.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 9,
+    "year": 2019,
+    "month": "July",
+    "title": "Aiming beyond the Obvious: Identifying Non-Obvious Cases in Semantic Similarity Datasets"
 }

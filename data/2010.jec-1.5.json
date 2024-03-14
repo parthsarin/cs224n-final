@@ -7,5 +7,19 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.995796783943677
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text.",
+    "abstract": "Although Machine Translation (MT) has been attracting more and more attention from the translation industry, the quality of current MT systems still requires humans to postedit translations to ensure their quality. The time necessary to post-edit bad quality translations can be the same or even longer than that of translating without an MT system. It is well known, however, that the quality of an MT system is generally not homogeneous across all translated segments. In order to make MT more useful to the translation industry, it is therefore crucial to have a mechanism to judge MT quality at the segment level to prevent bad quality translations from being post-edited within the translation workflow. We describe an approach to estimate translation post-editing effort at sentence level in terms of Human-targeted Translation Edit Rate (HTER) based on a number of features reflecting the difficulty of translating the source sentence and discrepancies between the source and translation sentences. HTER is a simple metric and obtaining HTER annotated data can be made part of the translation workflow. We show that this approach is more reliable at filtering out bad translations than other simple criteria commonly used in the translation industry, such as sentence length.",
+    "countries": [
+        "Canada",
+        "United Kingdom"
+    ],
+    "languages": [
+        "Spanish",
+        "English",
+        "French"
+    ],
+    "numcitedby": 59,
+    "year": 2010,
+    "month": "November 4",
+    "title": "Estimating Machine Translation Post-Editing Effort with {HTER}"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research received funding from the Netherlands Organisation for Scientific Research (NWO) under the VIDI grant n. 276-89-008, which is a government-funded organization that provides grants for research, thus qualifying as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research received funding from the Netherlands Organisation for Scientific Research (NWO) under the VIDI grant n. 276-89-008, which is a government-funded organization that provides grants for research, thus qualifying as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We investigate style accommodation in online discussions, in particular its interplay with content agreement and disagreement. Using a new model for measuring style accommodation, we find that speakers coordinate on style more noticeably if they disagree than if they agree, especially if they want to establish rapport and possibly persuade their interlocutors.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2016,
+    "month": "August",
+    "title": "Linguistic Style Accommodation in Disagreements"
 }

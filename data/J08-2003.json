@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999860980626328
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to determine the funding sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to determine the funding sources.",
+    "abstract": "The availability of large scale data sets of manually annotated predicate-argument structures has recently favored the use of machine learning approaches to the design of automated semantic role labeling (SRL) systems. The main research in this area relates to the design choices for feature representation and for effective decompositions of the task in different learning models. Regarding the former choice, structural properties of full syntactic parses are largely employed as they represent ways to encode different principles suggested by the linking theory between syntax and semantics. The latter choice relates to several learning schemes over global views of the parses. For example, re-ranking stages operating over alternative predicate-argument sequences of the same sentence have shown to be very effective. In this article, we propose several kernel functions to model parse tree properties in kernelbased machines, for example, perceptrons or support vector machines. In particular, we define different kinds of tree kernels as general approaches to feature engineering in SRL. Moreover, we extensively experiment with such kernels to investigate their contribution to individual stages of an SRL architecture both in isolation and in combination with other traditional manually coded features. The results for boundary recognition, classification, and re-ranking stages provide systematic evidence about the significant impact of tree kernels on the overall accuracy, especially when the amount of training data is small. As a conclusive result, tree kernels allow for a general and easily portable feature engineering method which is applicable to a large family of natural language processing tasks.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 175,
+    "year": 2008,
+    "month": "",
+    "title": "Tree Kernels for Semantic Role Labeling"
 }

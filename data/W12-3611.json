@@ -7,5 +7,20 @@
         "foundation": 5.51223498068687e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the Rhapsodie project was funded by the French National Research Agency (ANR), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the Rhapsodie project was funded by the French National Research Agency (ANR), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "In this work, we present the data structures that were developed for the Rhapsodie project, an intonosyntactic annotation project of spoken French. Phoneticians and syntacticians work on different base units: a time aligned sound file for the former, and a partially ordered list of tokens for the latter. The alignment between the sound-file and the tokens is partial and nontrivial. We propose to encode this data with a small set of interconnected structures: lists, constituent trees, and directed acyclic graphs (DAGs). Our query language remains simple, similar to the Annis Query language, as the precedence and including relations are handled in accordance with the requested objects and their type of alignment: The order between prosodic units is timebased, whereas the order between syntactic units is lexeme-based.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "German",
+        "Dutch",
+        "Japanese",
+        "French",
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2012,
+    "month": "July",
+    "title": "Intonosyntactic Data Structures: The Rhapsodie Treebank of Spoken {F}rench"
 }

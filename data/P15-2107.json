@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions support from the Research and Technology Center of Robert Bosch LLC, which indicates corporate funding. There is no mention of defense, research agency, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions support from the Research and Technology Center of Robert Bosch LLC, which indicates corporate funding. There is no mention of defense, research agency, foundation funding, or an absence of funding.",
+    "abstract": "This paper presents an email importance corpus annotated through Amazon Mechanical Turk (AMT). Annotators annotate the email content type and email importance for three levels of hierarchy (senior manager, middle manager and employee). Each email is annotated by 5 turkers. Agreement study shows that the agreed AMT annotations are close to the expert annotations. The annotated dataset demonstrates difference in proportions of content type between different levels. An email importance prediction system is trained on the dataset and identifies the unimportant emails at minimum 0.55 precision with only text-based features.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 3,
+    "year": 2015,
+    "month": "July",
+    "title": "Annotation and Classification of an Email Importance Corpus"
 }

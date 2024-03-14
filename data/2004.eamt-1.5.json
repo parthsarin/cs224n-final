@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the National Science Foundation (NSF), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the National Science Foundation (NSF), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "We describe ongoing efforts towards and challenges in using an Example-Based Machine Translation (EBMT) system in the context of a multi-national, multi-university and multi-agency transnational digital government project. The project is aimed at applying information technology to the problem of collecting and sharing information securely in a multilingual context. We report on a number of issues encountered in obtaining and using language data for the EBMT system, discuss our current solutions, and briefly describe ongoing enhancements to the system to meet some of the technical and practical challenges posed by using this machine translation approach in the project domain.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Spanish",
+        "English"
+    ],
+    "numcitedby": 5,
+    "year": 2004,
+    "month": "April 26{--}27",
+    "title": "Challenges in using an example-based {MT} system for a transnational digital government project"
 }

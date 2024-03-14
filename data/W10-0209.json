@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from NSF grant BCS-0843896 and CORCL grant MI 14B-2009-2010, which indicates funding from research agencies. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from NSF grant BCS-0843896 and CORCL grant MI 14B-2009-2010, which indicates funding from research agencies. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Subtle social information is available in text such as a speaker's emotional state, intentions, and attitude, but current information extraction systems are unable to extract this information at the level that humans can. We describe a methodology for creating databases of messages annotated with social information based on interactive games between humans trying to generate and interpret messages for a number of different social information types. We then present some classification results achieved by using a small-scale database created with this methodology.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Arabic",
+        "English"
+    ],
+    "numcitedby": 45,
+    "year": 2010,
+    "month": "June",
+    "title": "Identifying Emotions, Intentions, and Attitudes in Text Using a Game with a Purpose"
 }

@@ -7,5 +7,30 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The research is supported by the Independent Research Fund Denmark (DFF) grant 9063-00077B and an Amazon Faculty Research (ARA) Award. The Independent Research Fund Denmark is a government-funded organization, indicating research agency funding. The Amazon Faculty Research Award is corporate funding as Amazon is a for-profit company."
+    "reasoning": "Reasoning: The research is supported by the Independent Research Fund Denmark (DFF) grant 9063-00077B and an Amazon Faculty Research (ARA) Award. The Independent Research Fund Denmark is a government-funded organization, indicating research agency funding. The Amazon Faculty Research Award is corporate funding as Amazon is a for-profit company.",
+    "abstract": "Recent work has shown that monolingual masked language models learn to represent data-driven notions of language variation which can be used for domain-targeted training data selection. Dataset genre labels are already frequently available, yet remain largely unexplored in cross-lingual setups. We harness this genre metadata as a weak supervision signal for targeted data selection in zeroshot dependency parsing. Specifically, we project treebank-level genre information to the finer-grained sentence level, with the goal to amplify information implicitly stored in unsupervised contextualized representations. We demonstrate that genre is recoverable from multilingual contextual embeddings and that it provides an effective signal for training data selection in cross-lingual, zero-shot scenarios. For 12 low-resource language treebanks, six of which are test-only, our genre-specific methods significantly outperform competitive baselines as well as recent embedding-based methods for data selection. Moreover, genre-based data selection provides new state-of-the-art results for three of these target languages.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "Hindi",
+        "German",
+        "English",
+        "Sanskrit",
+        "Faroese",
+        "Erzya",
+        "Telugu",
+        "Tamil",
+        "Italian",
+        "Turkish",
+        "Cantonese",
+        "Galician",
+        "Swedish",
+        "Komi",
+        "Chukchi"
+    ],
+    "numcitedby": 5,
+    "year": 2021,
+    "month": "November",
+    "title": "Genre as Weak Supervision for Cross-lingual Dependency Parsing"
 }

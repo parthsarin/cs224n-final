@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Major Program of Science and Technology Commission Shanghai Municipal and NSFC (No. 61572245), which are indicative of research agency funding. There is no mention of defense, corporate, foundation funding, or a lack of funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Major Program of Science and Technology Commission Shanghai Municipal and NSFC (No. 61572245), which are indicative of research agency funding. There is no mention of defense, corporate, foundation funding, or a lack of funding.",
+    "abstract": "Neural models have been investigated for sentiment classification over constituent trees. They learn phrase composition automatically by encoding tree structures but do not explicitly model sentiment composition, which requires to encode sentiment class labels. To this end, we investigate two formalisms with deep sentiment representations that capture sentiment subtype expressions by latent variables and Gaussian mixture vectors, respectively. Experiments on Stanford Sentiment Treebank (SST) show the effectiveness of sentiment grammar over vanilla neural encoders. Using ELMo embeddings, our method gives the best results on this benchmark.",
+    "countries": [
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 4,
+    "year": 2019,
+    "month": "July",
+    "title": "Latent Variable Sentiment Grammar"
 }

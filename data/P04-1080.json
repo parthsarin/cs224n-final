@@ -7,5 +7,17 @@
         "foundation": 7.896306882804183e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the information given."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the information given.",
+    "abstract": "This paper presents an unsupervised word sense learning algorithm, which induces senses of target word by grouping its occurrences into a \"natural\" number of clusters based on the similarity of their contexts. For removing noisy words in feature set, feature selection is conducted by optimizing a cluster validation criterion subject to some constraint in an unsupervised manner. Gaussian mixture model and Minimum Description Length criterion are used to estimate cluster structure and cluster number. Experimental results show that our algorithm can find important feature subset, estimate model order (cluster number) and achieve better performance than another algorithm which requires cluster number to be provided.",
+    "countries": [
+        "Singapore"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2004,
+    "month": "July",
+    "title": "Learning Word Sense With Feature Selection and Order Identification Capabilities"
 }

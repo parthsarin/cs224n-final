@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "Sarcasm understanding may require information beyond the text itself, as in the case of 'I absolutely love this restaurant!' which may be sarcastic, depending on the contextual situation. We present the first quantitative evidence to show that historical tweets by an author can provide additional context for sarcasm detection. Our sarcasm detection approach uses two components: a contrast-based predictor (that identifies if there is a sentiment contrast within a target tweet), and a historical tweet-based predictor (that identifies if the sentiment expressed towards an entity in the target tweet agrees with sentiment expressed by the author towards that entity in the past).",
+    "countries": [
+        "Australia",
+        "India"
+    ],
+    "languages": [],
+    "numcitedby": 78,
+    "year": 2015,
+    "month": "September",
+    "title": "Your Sentiment Precedes You: Using an author{'}s historical tweets to predict sarcasm"
 }

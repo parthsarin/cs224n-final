@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the EU projects COMIC (IST-2001-32311) and JAST (FP6-003747-IP), which are funded by the European Union, a type of research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions support from the EU projects COMIC (IST-2001-32311) and JAST (FP6-003747-IP), which are funded by the European Union, a type of research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "When evaluating a generation system, if a corpus of target outputs is available, a common and simple strategy is to compare the system output against the corpus contents. However, cross-validation metrics that test whether the system makes exactly the same choices as the corpus on each item have recently been shown not to correlate well with human judgements of quality. An alternative evaluation strategy is to compute intrinsic, task-specific properties of the generated output; this requires more domain-specific metrics, but can often produce a better assessment of the output. In this paper, a range of metrics using both of these techniques are used to evaluate three methods for selecting the facial displays of an embodied conversational agent, and the predictions of the metrics are compared with human judgements of the same generated output. The corpus-reproduction metrics show no relationship with the human judgements, while the intrinsic metrics that capture the number and variety of facial displays show a significant correlation with the preferences of the human users.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 23,
+    "year": 2008,
+    "month": "June",
+    "title": "Automated Metrics That Agree With Human Judgements On Generated Output for an Embodied Conversational Agent"
 }

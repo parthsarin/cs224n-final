@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper itself. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the paper itself. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "Linguistic Code Switching (CS) is a phenomenon that occurs when multilingual speakers alternate between two or more languages/dialects within a single conversation. Processing CS data is especially challenging in intra-sentential data given state-of-theart monolingual NLP technologies since such technologies are geared toward the processing of one language at a time. In this paper, we address the problem of Part-of-Speech tagging (POS) in the context of linguistic code switching (CS). We explore leveraging multiple neural network architectures to measure the impact of different pre-trained embeddings methods on POS tagging CS data. We investigate the landscape in four CS language pairs, Spanish-English, Hindi-English, Modern Standard Arabic-Egyptian Arabic dialect (MSA-EGY), and Modern Standard Arabic-Levantine Arabic dialect (MSA-LEV). Our results show that multilingual embedding (e.g., MSA-EGY and MSA-LEV) helps closely related languages (EGY/LEV) but adds noise to the languages that are distant (SPA/HIN). Finally, we show that our proposed models outperform state-of-the-art CS taggers for MSA-EGY language pair.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 5,
+    "year": 2019,
+    "month": "June",
+    "title": "Leveraging Pretrained Word Embeddings for Part-of-Speech Tagging of Code Switching Data"
 }

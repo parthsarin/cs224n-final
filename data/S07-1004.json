@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the preparation of the manuscript."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the preparation of the manuscript.",
+    "abstract": "The Multilingual Chinese-English lexical sample task at SemEval-2007 provides a framework to evaluate Chinese word sense disambiguation and to promote research. This paper reports on the task preparation and the results of six participants.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Mandarin",
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 4,
+    "year": 2007,
+    "month": "June",
+    "title": "{S}em{E}val-2007 Task 05: Multilingual {C}hinese-{E}nglish Lexical Sample"
 }

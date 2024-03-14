@@ -7,5 +7,34 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article thanks a DFF project number 9063-00077B for providing the GPUs used in this work. DFF refers to the Danish Independent Research Fund, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate, foundation, or other sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article thanks a DFF project number 9063-00077B for providing the GPUs used in this work. DFF refers to the Danish Independent Research Fund, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate, foundation, or other sources.",
+    "abstract": "Massively multilingual language models (MMLMs) have become a widely-used language representation method, and multiple large MMLMs were proposed in recent years. A trend is to train MMLMs on larger text corpora or with more layers. In this paper we set out to evaluate recent popular MMLMs on detecting semantically ambiguous and complex named entities with an academic GPU budget. Our submission of a single model for 11 languages on the SemEval Task 11 MultiCoNER shows that a fine-tuned XLM-R large outperforms the more recent RemBERT, ranking 9th from 26 submissions in the multilingual track. Compared to Rem-BERT, the XLM-R model has the additional advantage to fit on a slice of a multi-instance GPU. As contrary to expectations and recent findings, we found RemBERT to not be the best MMLM, we further set out to investigate this discrepancy with additional experiments on multilingual Wikipedia NER data. While we expected RemBERT to have an edge on that dataset as it is closer to its pre-training data, surprisingly, our results show that this is not the case.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "German",
+        "Danish",
+        "Finnish",
+        "Japanese",
+        "Chinese",
+        "Hindi",
+        "Arabic",
+        "Turkish",
+        "Dutch",
+        "Russian",
+        "English",
+        "Korean",
+        "Italian",
+        "Swedish",
+        "Basque",
+        "Spanish",
+        "Ko",
+        "Persian",
+        "Hebrew"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "July",
+    "title": "Sliced at {S}em{E}val-2022 Task 11: Bigger, Better? Massively Multilingual {LM}s for Multilingual Complex {NER} on an Academic {GPU} Budget"
 }

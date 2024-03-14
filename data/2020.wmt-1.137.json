@@ -7,5 +7,17 @@
         "foundation": 0.9999994487765019,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project was funded by the European Association for Machine Translation through its 2020 sponsorship of activities programme and that the ADAPT Centre for Digital Content Technology at Dublin City University is funded by the Science Foundation Ireland Research Centres Programme and is co-funded by the European Regional Development Fund. These details indicate funding from a foundation (European Association for Machine Translation) and research agencies (Science Foundation Ireland Research Centres Programme and European Regional Development Fund). There is no mention of funding from defense, corporate sources, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the project was funded by the European Association for Machine Translation through its 2020 sponsorship of activities programme and that the ADAPT Centre for Digital Content Technology at Dublin City University is funded by the Science Foundation Ireland Research Centres Programme and is co-funded by the European Regional Development Fund. These details indicate funding from a foundation (European Association for Machine Translation) and research agencies (Science Foundation Ireland Research Centres Programme and European Regional Development Fund). There is no mention of funding from defense, corporate sources, or an absence of funding.",
+    "abstract": "Document-level evaluation of machine translation has raised interest in the community especially since responses to the claims of \"human parity\" (Toral et al., 2018; L\u00e4ubli et al., 2018) with document-level human evaluations have been published. Yet, little is known about best practices regarding human evaluation of machine translation at the documentlevel. This paper presents a comparison of the differences in inter-annotator agreement between quality assessments using sentence and document-level set-ups. We report results of the agreement between professional translators for fluency and adequacy scales, error annotation, and pair-wise ranking, along with the effort needed to perform the different tasks. To best of our knowledge, this is the first study of its kind.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "English",
+        "Portuguese"
+    ],
+    "numcitedby": 9,
+    "year": 2020,
+    "month": "November",
+    "title": "On the Same Page? Comparing Inter-Annotator Agreement in Sentence and Document Level Human Machine Translation Evaluation"
 }

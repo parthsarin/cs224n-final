@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper explicitly mentions the support of the National Science Foundation (NSF), which is a government-funded organization that provides grants for research. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding."
+    "reasoning": "Reasoning: The acknowledgments section of the paper explicitly mentions the support of the National Science Foundation (NSF), which is a government-funded organization that provides grants for research. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding.",
+    "abstract": "This paper addresses the problem of training an artificial agent to follow verbal instructions representing high-level tasks using a set of instructions paired with demonstration traces of appropriate behavior. From this data, a mapping from instructions to tasks is learned, enabling the agent to carry out new instructions in novel environments.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 9,
+    "year": 2012,
+    "month": "June",
+    "title": "Learning to Interpret Natural Language Instructions"
 }

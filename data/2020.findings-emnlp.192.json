@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Fundamental Research Funds for the Central Universities, SCUT, the Science and Technology Planning Project of Guangdong Province, the Science and Technology Programs of Guangzhou, and the National Natural Science Foundation of China. These are indicative of funding from research agencies and possibly local government initiatives, but there is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Fundamental Research Funds for the Central Universities, SCUT, the Science and Technology Planning Project of Guangdong Province, the Science and Technology Programs of Guangzhou, and the National Natural Science Foundation of China. These are indicative of funding from research agencies and possibly local government initiatives, but there is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Neural response generative models have achieved remarkable progress in recent years but tend to yield irrelevant and uninformative responses. One of the reasons is that encoderdecoder based models always use a single decoder to generate a complete response at a stroke. This tends to generate high-frequency function words with less semantic information rather than low-frequency content words with more semantic information. To address this issue, we propose a content-aware model with two-stage decoding process named Two-stage Dialogue Generation (TSDG). We separate the decoding process of content words and function words so that content words can be generated independently without the interference of function words. Experimental results on two datasets indicate that our model significantly outperforms several competitive generative models in terms of automatic evaluation and human evaluation.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 3,
+    "year": 2020,
+    "month": "November",
+    "title": "{TSDG}: Content-aware Neural Response Generation with Two-stage Decoding Process"
 }

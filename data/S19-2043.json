@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the development of the Multi-View Turn-by-Turn (MVTT) model."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the development of the Multi-View Turn-by-Turn (MVTT) model.",
+    "abstract": "This paper describes our system for SemEval-2019 Task 3: EmoContext, which aims to predict the emotion of the third utterance considering two preceding utterances in a dialogue. To address this challenge of predicting the emotion considering its context, we propose a Multi-View Turn-by-Turn (MVTT) model. Firstly, MVTT model generates vectors from each utterance using two encoders: word-level Bi-GRU encoder (WLE) and character-level CNN encoder (CLE). Then, MVTT grasps contextual information by combining the vectors and predict the emotion with the contextual information. We conduct experiments on the effect of vector encoding and vector combination. Our final MVTT model achieved 0.7634 microaveraged F1 score.",
+    "countries": [
+        "South Korea"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2019,
+    "month": "June",
+    "title": "{MILAB} at {S}em{E}val-2019 Task 3: Multi-View Turn-by-Turn Model for Context-Aware Sentiment Analysis"
 }

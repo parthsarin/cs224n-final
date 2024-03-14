@@ -7,5 +7,17 @@
         "foundation": 1.266444898062602e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the development of the project described. Without explicit mention of funding, it is not possible to determine the involvement of any specific type of funding source."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the development of the project described. Without explicit mention of funding, it is not possible to determine the involvement of any specific type of funding source.",
+    "abstract": "Multi-word expressions evade a closed definition. Linguists and computational linguists rely on intuition or build lists of MWE types; while practical, that is scientifically and aesthetically unsatisfying. Without presuming to solve a daunting theoretical problem, we propose a decision procedure which steers a lexicographer toward acceptance or rejection of an N-gram as a lexical unit: a decision tree classifies N-grams as MWE or not MWE. It will succeed if it agrees with the native speakers' judgment. We need a small, linguistically credible set of features, to contend with the multiplicity of adequate trees. Decision tree induction works with a fixed set of annotated classification examples, but the lexical material for MWE recognition is too large to make annotation feasible. We rely on small-scale statistically significant sampling, and on intuition. Of a few decision trees produced by informed trial and error, we select one we consider best in our circumstances. That tree, deployed in a large-scale wordnet construction project, allowed us to gather dependable statistics on its usefulness in lexicographers' work. Our goal: systematic expansion of a wordnet by tens of thousands of MWEs in a manner as free of personal biases as possible.",
+    "countries": [
+        "Poland",
+        "Canada"
+    ],
+    "languages": [
+        "Polish"
+    ],
+    "numcitedby": 10,
+    "year": 2015,
+    "month": "September",
+    "title": "A Procedural Definition of Multi-word Lexical Units"
 }

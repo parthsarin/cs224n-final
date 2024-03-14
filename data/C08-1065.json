@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the study was carried out in the framework of the 'Computational Techniques for Stylometry for Dutch' project, funded by the National Fund for Scientific Research (FWO) in Belgium, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the study was carried out in the framework of the 'Computational Techniques for Stylometry for Dutch' project, funded by the National Fund for Scientific Research (FWO) in Belgium, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Most studies in statistical or machine learning based authorship attribution focus on two or a few authors. This leads to an overestimation of the importance of the features extracted from the training data and found to be discriminating for these small sets of authors. Most studies also use sizes of training data that are unrealistic for situations in which stylometry is applied (e.g., forensics), and thereby overestimate the accuracy of their approach in these situations. A more realistic interpretation of the task is as an authorship verification problem that we approximate by pooling data from many different authors as negative examples. In this paper, we show, on the basis of a new corpus with 145 authors, what the effect is of many authors on feature selection and learning, and show robustness of a memory-based learning approach in doing authorship attribution and verification with many authors and limited training data when compared to eager learning methods such as SVMs and maximum entropy learning.",
+    "countries": [
+        "Belgium"
+    ],
+    "languages": [
+        "Dutch",
+        "English"
+    ],
+    "numcitedby": 166,
+    "year": 2008,
+    "month": "August",
+    "title": "Authorship Attribution and Verification with Many Authors and Limited Data"
 }

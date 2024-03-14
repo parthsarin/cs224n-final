@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research is partially funded by The Natural Sciences and Engineering Research Council of Canada (NSERC) through a Discovery Grant to Robert E. Mercer. NSERC is a government-funded organization that provides grants for scientific research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research is partially funded by The Natural Sciences and Engineering Research Council of Canada (NSERC) through a Discovery Grant to Robert E. Mercer. NSERC is a government-funded organization that provides grants for scientific research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding.",
+    "abstract": "In recent NLP research, a topic of interest is universal sentence encoding, sentence representations that can be used in any supervised task. At the word sequence level, fully attention-based models suffer from two problems: a quadratic increase in memory consumption with respect to the sentence length and an inability to capture and use syntactic information. Recursive neural nets can extract very good syntactic information by traversing a tree structure. To this end, we propose Tree Transformer, a model that captures phrase level syntax for constituency trees as well as word-level dependencies for dependency trees by doing recursive traversal only with attention. Evaluation of this model on four tasks gets noteworthy results compared to the standard transformer and LSTM-based models as well as tree-structured LSTMs. Ablation studies to find whether positional information is inherently encoded in the trees and which type of attention is suitable for doing the recursive traversal are provided.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 13,
+    "year": 2019,
+    "month": "July",
+    "title": "You Only Need Attention to Traverse Trees"
 }

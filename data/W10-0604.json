@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999714363229496
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the article written. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the information given."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted or the article written. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the information given.",
+    "abstract": "Korean Word Associations (KorWA) were collected to build a semantic network for the Korean language. A graphic representation approach of applying coefficients to complex networks allows us to discern the semantic structures within words. A semantic network of the KorWA was found to exhibit the scalefree property in its degree distribution. The growth of the network around hub words was also confirmed through two experimental phases. As an issue for further research, we suggest that the present results may yield insights for computational neurolinguistics, as a semantic network of word association norms can bridge the gap between information about lexical co-occurrences derived from a corpora and anatomical networks as a basis for mapping out neural activations.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Korean"
+    ],
+    "numcitedby": 7,
+    "year": 2010,
+    "month": "June",
+    "title": "Network Analysis of {K}orean Word Associations"
 }

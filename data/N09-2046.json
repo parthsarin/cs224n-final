@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9962924400358634
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was mainly supported by two funds, i.e., 0704021000 and 60803085, and one another project, i.e., 2004CB318109. However, it does not specify the nature of these funding sources, whether they are defense-related, corporate, research agencies, or foundations. Without specific information about the entities behind these fund numbers or the project, it's impossible to categorize them accurately under the provided options. Therefore, based on the information given, we cannot definitively say which of the specified funding sources were involved."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was mainly supported by two funds, i.e., 0704021000 and 60803085, and one another project, i.e., 2004CB318109. However, it does not specify the nature of these funding sources, whether they are defense-related, corporate, research agencies, or foundations. Without specific information about the entities behind these fund numbers or the project, it's impossible to categorize them accurately under the provided options. Therefore, based on the information given, we cannot definitively say which of the specified funding sources were involved.",
+    "abstract": "In recent years, Structural Correspondence Learning (SCL) is becoming one of the most promising techniques for sentiment-transfer learning. However, SCL model treats each feature as well as each instance by an equivalent-weight strategy. To address the two issues effectively, we proposed a weighted SCL model (W-SCL), which weights the features as well as the instances. More specifically, W-SCL assigns a smaller weight to high-frequency domain-specific (HFDS) features and assigns a larger weight to instances with the same label as the involved pivot feature. The experimental results indicate that proposed W-SCL model could overcome the adverse influence of HFDS features, and leverage knowledge from labels of instances and pivot features.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 21,
+    "year": 2009,
+    "month": "June",
+    "title": "Improving {SCL} Model for Sentiment-Transfer Learning"
 }

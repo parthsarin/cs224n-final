@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the National High-tech R&D Program of China (863 Program, No. 2007AA01Z194), which is a government-funded initiative, categorizing it under research agency funding. There is no mention of defense, corporate, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from the National High-tech R&D Program of China (863 Program, No. 2007AA01Z194), which is a government-funded initiative, categorizing it under research agency funding. There is no mention of defense, corporate, foundation funding, or an absence of funding.",
+    "abstract": "This paper describes our system about detecting hedges and their scope in natural language texts for our participation in CoNLL-2010 shared tasks. We formalize these two tasks as sequence labeling problems, and implement them using conditional random fields (CRFs) model. In the first task, we use a greedy forward procedure to select features for the classifier. These features include part-ofspeech tag, word form, lemma, chunk tag of tokens in the sentence. In the second task, our system exploits rich syntactic features about dependency structures and phrase structures, which achieves a better performance than only using the flat sequence features. Our system achieves the third score in biological data set for the first task, and achieves 0.5265 F1 score for the second task.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 21,
+    "year": 2010,
+    "month": "July",
+    "title": "Exploiting Rich Features for Detecting Hedges and their Scope"
 }

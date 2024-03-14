@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, or foundations. Therefore, it is assumed that there was no external funding mentioned for this research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, or foundations. Therefore, it is assumed that there was no external funding mentioned for this research.",
+    "abstract": "We present a method for Chinese spelling check that automatically learns to correct a sentence with potential spelling errors. In our approach, a character-based neural machine translation (NMT) model is trained to translate the potentially misspelled sentence into correct one, using right-and-wrong sentence pairs from newspaper edit logs and artificially generated data. The method involves extracting sentences contain edit of spelling correction from edit logs, using commonly confused right-and-wrong word pairs to generate artificial right-and-wrong sentence pairs in order to expand our training data , and training the NMT model. The evaluation on the United Daily News (UDN) Edit Logs and SIGHAN-7 Shared Task shows that adding artificial error data can significantly improve the performance of Chinese spelling check system.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "June",
+    "title": "{C}hinese Spelling Check based on Neural Machine Translation"
 }

@@ -7,5 +7,20 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the information given."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the information given.",
+    "abstract": "Universal Dependencies incur a high cost in computation for unbiased system development. We propose a 100% empirically chosen small subset of UD languages for efficient parsing system development. The technique used is based on measurements of model capacity globally. We show that the diversity of the resulting representative language set is superior to the requirements-based procedure.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "Czech",
+        "German",
+        "English",
+        "Arabic",
+        "Chinese"
+    ],
+    "numcitedby": 4,
+    "year": 2017,
+    "month": "May",
+    "title": "Empirically Sampling {U}niversal {D}ependencies"
 }

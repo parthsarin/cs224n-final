@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the paper mentions support from the National Natural Science Foundation of China, the Shandong Provincial Natural Science Foundation, and the Young creative team in universities of Shandong Province. These are indicative of funding from research agencies. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the paper mentions support from the National Natural Science Foundation of China, the Shandong Provincial Natural Science Foundation, and the Young creative team in universities of Shandong Province. These are indicative of funding from research agencies. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Logical reasoning is of vital importance to natural language understanding. Previous studies either employ graph-based models to incorporate prior knowledge about logical relations, or introduce symbolic logic into neural models through data augmentation. These methods, however, heavily depend on annotated training data, and thus suffer from overfitting and poor generalization problems due to the dataset sparsity. To address these two problems, in this paper, we propose MERIt, a MEta-path guided contrastive learning method for logical ReasonIng of text, to perform selfsupervised pre-training on abundant unlabeled text data. Two novel strategies serve as indispensable components of our method. In particular, a strategy based on meta-path is devised to discover the logical structure in natural texts, followed by a counterfactual data augmentation strategy to eliminate the information shortcut induced by pre-training. The experimental results on two challenging logical reasoning benchmarks, i.e., ReClor and LogiQA, demonstrate that our method outperforms the SOTA baselines with significant improvements. 1",
+    "countries": [
+        "Singapore",
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "May",
+    "title": "{MERI}t: {M}eta-{P}ath {G}uided {C}ontrastive {L}earning for {L}ogical {R}easoning"
 }

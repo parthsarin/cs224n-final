@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that there is no disclosed funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that there is no disclosed funding.",
+    "abstract": "Online communities host growing numbers of discussions amongst large groups of participants on all manner of topics. This user-generated content contains millions of statements of opinions and ideas. We propose an abstractive approach to summarize such argumentative discussions, making key content accessible through 'point' extraction, where a point is a verb and its syntactic arguments. Our approach uses both dependency parse information and verb case frames to identify and extract valid points, and generates an abstractive summary that discusses the key points being made in the debate. We performed a human evaluation of our approach using a corpus of online political debates and report significant improvements over a highperforming extractive summarizer.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 20,
+    "year": 2016,
+    "month": "August",
+    "title": "Summarising the points made in online political debates"
 }

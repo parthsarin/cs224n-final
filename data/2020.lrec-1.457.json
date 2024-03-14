@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the development of the test set and methodologies described."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the development of the test set and methodologies described.",
+    "abstract": "We made a test set for Japanese-to-English discourse translation to evaluate the power of context-aware machine translation. For each discourse phenomenon, we systematically collected examples where the translation of the second sentence depends on the first sentence. Compared with a previous study on test sets for English-to-French discourse translation (Bawden et al., 2018) , we needed different approaches to make the data because Japanese has zero pronouns and represents different senses in different characters. We improved the translation accuracy using context-aware neural machine translation, and the improvement mainly reflects the betterment of the translation of zero pronouns.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "German",
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 7,
+    "year": 2020,
+    "month": "May",
+    "title": "A Test Set for Discourse Translation from {J}apanese to {E}nglish"
 }

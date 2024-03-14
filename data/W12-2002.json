@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9928759942941583
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "We present initial steps towards an interactive essay writing tutor that improves science knowledge by analyzing student essays for misconceptions and recommending science webpages that help correct those misconceptions. We describe the five components in this system: identifying core science concepts, determining appropriate pedagogical sequences for the science concepts, identifying student misconceptions in essays, aligning student misconceptions to science concepts, and recommending webpages to address misconceptions. We provide initial models and evaluations of the models for each component.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 9,
+    "year": 2012,
+    "month": "June",
+    "title": "Identifying science concepts and student misconceptions in an interactive essay writing tutor"
 }

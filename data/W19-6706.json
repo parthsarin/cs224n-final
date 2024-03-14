@@ -7,5 +7,19 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, focusing instead on the implementation of machine translation post-editing (MTPE) within a company's workflow for translating patents. It discusses the company's decision-making process, the challenges faced, and the strategies employed to improve and expand their MTPE capabilities. There is no mention of financial support from defense, corporate entities, research agencies, or foundations. Therefore, it can be inferred that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, focusing instead on the implementation of machine translation post-editing (MTPE) within a company's workflow for translating patents. It discusses the company's decision-making process, the challenges faced, and the strategies employed to improve and expand their MTPE capabilities. There is no mention of financial support from defense, corporate entities, research agencies, or foundations. Therefore, it can be inferred that the article does not report funding from any of the specified sources.",
+    "abstract": "This paper illustrates how we successfully implemented MTPE in our workflow and how the decision of having our own engine turned out to be decisive. After having compared different solutions, we decided to choose an MT provider that could train an engine on our behalf with our material (TMs and glossary in the field of mechanics) to translate patents upon customers' request. After the training, we tested the new engine to evaluate the MT output. Because the quality was so good, we decided to create an in-house team of post-editors, coordinated by one of our senior translators. Due to the increasing request from some of our customers, we needed also some external post-editors to count on, so we contacted an LSP specialized in post-editing and we offered them training in patents post-editing. The challenge for the future is to involve more freelancers and to be able to overcome the resistance that many of them still have towards Machine Translation.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        "Italian",
+        "French",
+        "English",
+        "German"
+    ],
+    "numcitedby": 1,
+    "year": 2019,
+    "month": "August",
+    "title": "{MTPE} in Patents: A Successful Business Story"
 }

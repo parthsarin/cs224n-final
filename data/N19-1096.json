@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the EP-SRC Centre for Doctoral Training in Data Science, funded by the UK Engineering and Physical Sciences Research Council (grant EP/L016427/1) and the University of Edinburgh. The UK Engineering and Physical Sciences Research Council is a government-funded organization that provides grants for research, indicating research agency funding. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the EP-SRC Centre for Doctoral Training in Data Science, funded by the UK Engineering and Physical Sciences Research Council (grant EP/L016427/1) and the University of Edinburgh. The UK Engineering and Physical Sciences Research Council is a government-funded organization that provides grants for research, indicating research agency funding. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Semantic representations in the form of directed acyclic graphs (DAGs) have been introduced in recent years, and to model them, we need probabilistic models of DAGs. One model that has attracted some attention is the DAG automaton, but it has not been studied as a probabilistic model. We show that some DAG automata cannot be made into useful probabilistic models by the nearly universal strategy of assigning weights to transitions. The problem affects single-rooted, multi-rooted, and unbounded-degree variants of DAG automata, and appears to be pervasive. It does not affect planar variants, but these are problematic for other reasons.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Au"
+    ],
+    "numcitedby": 2,
+    "year": 2019,
+    "month": "June",
+    "title": "The problem with probabilistic {DAG} automata for semantic graphs"
 }

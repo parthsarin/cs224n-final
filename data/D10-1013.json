@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section at the end of the article mentions support from the National Science Foundation under specific award numbers. The National Science Foundation is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section at the end of the article mentions support from the National Science Foundation under specific award numbers. The National Science Foundation is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Targeted paraphrasing is a new approach to the problem of obtaining cost-effective, reasonable quality translation that makes use of simple and inexpensive human computations by monolingual speakers in combination with machine translation. The key insight behind the process is that it is possible to spot likely translation errors with only monolingual knowledge of the target language, and it is possible to generate alternative ways to say the same thing (i.e. paraphrases) with only monolingual knowledge of the source language. Evaluations demonstrate that this approach can yield substantial improvements in translation quality.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 39,
+    "year": 2010,
+    "month": "October",
+    "title": "Improving Translation via Targeted Paraphrasing"
 }

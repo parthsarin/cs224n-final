@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the research is funded by the ERC Starting Grant LOWLANDS No. 313695. The European Research Council (ERC) is a public body for scientific and technological research funded by the European Union, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The article explicitly states that the research is funded by the ERC Starting Grant LOWLANDS No. 313695. The European Research Council (ERC) is a public body for scientific and technological research funded by the European Union, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding.",
+    "abstract": "",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2014,
+    "month": "August",
+    "title": "Selection Bias, Label Bias, and Bias in Ground Truth"
 }

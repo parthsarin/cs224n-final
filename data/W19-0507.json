@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9928739969275296
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Referring expressions and definite descriptions of objects in space exploit information about both object characteristics and locations. Linguistic referencing strategies can rely on increasingly highlevel abstractions to distinguish an object in a given location from similar ones elsewhere, yet the description of the intended location may still be unnatural or difficult to interpret. Modalities like gesture may communicate spatial information like locations in a more concise manner. When communicating with each other, humans mix language and gesture to reference entities, changing modalities as needed. Recent progress in AI and human-computer interaction has created systems where a human can interact with a computer multimodally, but computers often lack the capacity to intelligently mix modalities when generating referring expressions. We present a novel dataset of referring expressions combining natural language and gesture, describe its creation and evaluation, and its uses to train models for generating and interpreting multimodal referring expressions.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2019,
+    "month": "May",
+    "title": "Generating a Novel Dataset of Multimodal Referring Expressions"
 }

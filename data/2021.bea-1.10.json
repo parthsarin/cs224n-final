@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the paper mentions support from Tokyo Tech World Research Hub Initiative (WRHI), JSPS KAKENHI grant number 20J13239, and Support Centre for Advanced Telecommunication Technology Research. These entities suggest funding from research agencies, specifically from academic and government-supported grants, rather than defense, corporate, or foundation sources. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The acknowledgements section of the paper mentions support from Tokyo Tech World Research Hub Initiative (WRHI), JSPS KAKENHI grant number 20J13239, and Support Centre for Advanced Telecommunication Technology Research. These entities suggest funding from research agencies, specifically from academic and government-supported grants, rather than defense, corporate, or foundation sources. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "This paper presents a study on parsing the argumentative structure in English-as-foreignlanguage (EFL) essays, which are inherently noisy. The parsing process consists of two steps, linking related sentences and then labelling their relations. We experiment with several deep learning architectures to address each task independently. In the sentence linking task, a biaffine model performed the best. In the relation labelling task, a finetuned BERT model performed the best. Two sentence encoders are employed, and we observed that non-fine-tuning models generally performed better when using Sentence-BERT as opposed to BERT encoder. We trained our models using two types of parallel texts: original noisy EFL essays and those improved by annotators, then evaluate them on the original essays. The experiment shows that an end-toend in-domain system achieved an accuracy of .341. On the other hand, the cross-domain system achieved 94% performance of the indomain system. This signals that well-written texts can also be useful to train argument mining system for noisy texts.",
+    "countries": [
+        "United Kingdom",
+        "Japan"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2021,
+    "month": "April",
+    "title": "Parsing Argumentative Structure in {E}nglish-as-Foreign-Language Essays"
 }

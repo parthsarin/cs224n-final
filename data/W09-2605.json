@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions financial support from the Deutsche Forschungsgemeinschaft and the German Excellence Cluster of Multimodal Computing & Interaction, which are research agencies. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions financial support from the Deutsche Forschungsgemeinschaft and the German Excellence Cluster of Multimodal Computing & Interaction, which are research agencies. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Grammar extraction in deep formalisms has received remarkable attention in recent years. We recognise its value, but try to create a more precision-oriented grammar, by hand-crafting a core grammar, and learning lexical types and lexical items from a treebank. The study we performed focused on German, and we used the Tiger treebank as our resource. A completely hand-written grammar in the framework of HPSG forms the inspiration for our core grammar, and is also our frame of reference for evaluation. 1",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 14,
+    "year": 2009,
+    "month": "August",
+    "title": "Construction of a {G}erman {HPSG} grammar from a detailed treebank"
 }

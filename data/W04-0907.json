@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions support from the National Science Foundation under Grant No. BCS-0094638, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received."
+    "reasoning": "Reasoning: The article mentions support from the National Science Foundation under Grant No. BCS-0094638, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received.",
+    "abstract": "We apply the C4.5 decision tree learner in interpreting Japanese relative clause constructions, based around shallow syntactic and semantic processing. In parameterising data for use with C4.5, we propose and test various means of reducing intraclausal interpretational ambiguity, and cross indexing the overall analysis of cosubordinated relative clause constructions. We additionally investigate the disambiguating effect of the different parameter types used, and establish upper bounds for the task.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 3,
+    "year": 2004,
+    "month": "July",
+    "title": "Making sense of {J}apanese relative clause constructions"
 }

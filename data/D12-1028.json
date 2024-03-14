@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from grants GAUK 116310, GA201/09/H057 (Res Informatica), LM2010013, MSM0021620838, and by the European Commission's 7th Framework Program (FP7) under grant agreement n \u2022 247762 (FAUST). These are indicative of research agency funding (government and European Commission grants). There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from grants GAUK 116310, GA201/09/H057 (Res Informatica), LM2010013, MSM0021620838, and by the European Commission's 7th Framework Program (FP7) under grant agreement n \u2022 247762 (FAUST). These are indicative of research agency funding (government and European Commission grants). There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "The possibility of deleting a word from a sentence without violating its syntactic correctness belongs to traditionally known manifestations of syntactic dependency. We introduce a novel unsupervised parsing approach that is based on a new n-gram reducibility measure. We perform experiments across 18 languages available in CoNLL data and we show that our approach achieves better accuracy for the majority of the languages then previously reported results.",
+    "countries": [
+        "Czech Republic"
+    ],
+    "languages": [
+        "English",
+        "German",
+        "Czech"
+    ],
+    "numcitedby": 20,
+    "year": 2012,
+    "month": "July",
+    "title": "Exploiting Reducibility in Unsupervised Dependency Parsing"
 }

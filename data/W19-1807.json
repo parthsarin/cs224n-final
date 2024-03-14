@@ -7,5 +7,16 @@
         "foundation": 1.3856483399576902e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that there is no disclosed funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that there is no disclosed funding.",
+    "abstract": "There has been significant interest recently in learning multilingual word embeddings -in which semantically similar words across languages have similar embeddings. State-ofthe-art approaches have relied on expensive labeled data, which is unavailable for lowresource languages, or have involved posthoc unification of monolingual embeddings. In the present paper, we investigate the efficacy of multilingual embeddings learned from weakly-supervised image-text data. In particular, we propose methods for learning multilingual embeddings using image-text data, by enforcing similarity between the representations of the image and that of the text. Our experiments reveal that even without using any expensive labeled data, a bag-of-words-based embedding model trained on image-text data achieves performance comparable to the stateof-the-art on crosslingual semantic similarity tasks.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2019,
+    "month": "June",
+    "title": "Learning Multilingual Word Embeddings Using Image-Text Data"
 }

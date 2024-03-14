@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9997033120205857
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the information given."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the information given.",
+    "abstract": "This paper explores the possibility of presenting additional contextual information as a method of answer presentation Question Answering. In particular the paper discusses the result of employing Bag of Words (BoW) and Bag of Concepts (BoC) models to retrieve contextual information from a Linked Data resource, DBpedia. DBpedia provides structured information on wide variety of entities in the form of triples. We utilize the QALD question sets consisting of a 100 instances in the training set and another 100 in the testing set. The questions are categorized into single entity and multiple entity questions based on the number of entities mentioned in the question. The results show that both BoW (syntactic models) and BoC (semantic models) are not capable enough to select contextual information for answer presentation. The results further reveals that pragmatic aspects, in particular, pragmatic intent and pragmatic inference play a crucial role in contextual information selection in the answer presentation.",
+    "countries": [
+        "New Zealand"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2015,
+    "month": "October",
+    "title": "Selecting Contextual Peripheral Information for Answer Presentation: The Need for Pragmatic Models"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union under the integrated project TC-STAR, the Spanish Government under the BUCEADOR project, and the Spanish Department of Education and Science through the Juan de la Cierva fellowship program. These are indicative of research agency funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union under the integrated project TC-STAR, the Spanish Government under the BUCEADOR project, and the Spanish Department of Education and Science through the Juan de la Cierva fellowship program. These are indicative of research agency funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Machine translation evaluation methods are highly necessary in order to analyze the performance of translation systems. Up to now, the most traditional methods are the use of automatic measures such as BLEU or the quality perception performed by native human evaluations. In order to complement these traditional procedures, the current paper presents a new human evaluation based on the expert knowledge about the errors encountered at several linguistic levels: orthographic, morphological, lexical, semantic and syntactic. The results obtained in these experiments show that some linguistic errors could have more influence than other at the time of performing a perceptual evaluation.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Spanish",
+        "Catalan"
+    ],
+    "numcitedby": 54,
+    "year": 2010,
+    "month": "May 27{--}28",
+    "title": "Linguistic-based Evaluation Criteria to identify Statistical Machine Translation Errors"
 }

@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the National Library of Medicine (NLM) Training Grant T15LM007442. The National Library of Medicine is part of the National Institutes of Health, which is a research agency of the United States government. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions support from the National Library of Medicine (NLM) Training Grant T15LM007442. The National Library of Medicine is part of the National Institutes of Health, which is a research agency of the United States government. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Recent advances in distributed language modeling have led to large performance increases on a variety of natural language processing (NLP) tasks. However, it is not well understood how these methods may be augmented by knowledge-based approaches. This paper compares the performance and internal representation of an Enhanced Sequential Inference Model (ESIM) between three experimental conditions based on the representation method: Bidirectional Encoder Representations from Transformers (BERT), Embeddings of Semantic Predications (ESP), or Cui2Vec. The methods were evaluated on the Medical Natural Language Inference (MedNLI) subtask of the MEDIQA 2019 shared task. This task relied heavily on semantic understanding and thus served as a suitable evaluation set for the comparison of these representation methods.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 3,
+    "year": 2019,
+    "month": "August",
+    "title": "{UW}-{BHI} at {MEDIQA} 2019: An Analysis of Representation Methods for Medical Natural Language Inference"
 }

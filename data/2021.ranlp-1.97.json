@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it appears there was no disclosed funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it appears there was no disclosed funding.",
+    "abstract": "Being able to accurately perform Question Difficulty Estimation (QDE) can improve the accuracy of students' assessment and better their learning experience. Traditional approaches to QDE are either subjective or introduce a long delay before new questions can be used to assess students. Thus, recent work proposed machine learning-based approaches to overcome these limitations. They use questions of known difficulty to train models capable of inferring the difficulty of questions from their text. Once trained, they can be used to perform QDE of newly created questions. Existing approaches employ supervised models which are domain-dependent and require a large dataset of questions of known difficulty for training. Therefore, they cannot be used if such a dataset is not available (e.g. for new courses on an e-learning platform). In this work, we experiment with the possibility of performing QDE from text in an unsupervised manner. Specifically, we use the uncertainty of calibrated question answering models as a proxy of human-perceived difficulty. Our experiments show promising results, suggesting that model uncertainty could be successfully leveraged to perform QDE from text, reducing both costs and elapsed time.",
+    "countries": [
+        "Italy",
+        "Belgium"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2021,
+    "month": "September",
+    "title": "Towards the Application of Calibrated Transformers to the Unsupervised Estimation of Question Difficulty from Text"
 }

@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments regarding funding, or any support from defense, corporate, research agencies, foundations, or other entities. Therefore, based on the provided text, it is not possible to determine any specific funding source."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments regarding funding, or any support from defense, corporate, research agencies, foundations, or other entities. Therefore, based on the provided text, it is not possible to determine any specific funding source.",
+    "abstract": "Dialogue systems are one of the most challenging applications of Natural Language Processing. In recent years, some statistical dialogue models have been proposed to cope with the dialogue problem. The evaluation of these models is usually performed by using them as annotation models. Many of the works on annotation use information such as the complete sequence of dialogue turns or the correct segmentation of the dialogue. This information is not usually available for dialogue systems. In this work, we propose a statistical model that uses only the information that is usually available and performs the segmentation and annotation at the same time. The results of this model reveal the great influence that the availability of a correct segmentation has in obtaining an accurate annotation of the dialogues.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": 7,
+    "year": 2006,
+    "month": "July",
+    "title": "Segmented and Unsegmented Dialogue-Act Annotation with Statistical Dialogue Models"
 }

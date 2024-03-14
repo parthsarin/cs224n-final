@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the work was funded by the French National Agency for Research (ANR) as part of the CLEAR project. ANR is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly states that the work was funded by the French National Agency for Research (ANR) as part of the CLEAR project. ANR is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Semantic similarity is an area of Natural Language Processing that is useful for several downstream applications, such as machine translation, natural language generation, information retrieval, or question answering. The task consists in assessing the extent to which two sentences express or do not express the same meaning. To do so, corpora with graded pairs of sentences are required. The grade is positioned on a given scale, usually going from 0 (completely unrelated) to 5 (equivalent semantics). In this work, we introduce such a corpus for French, the first that we know of. It is comprised of 1,010 sentence pairs with grades from five annotators. We describe the annotation process, analyse these data, and perform a few experiments for the automatic grading of semantic similarity.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "Portuguese",
+        "French"
+    ],
+    "numcitedby": 5,
+    "year": 2020,
+    "month": "May",
+    "title": "A {F}rench Corpus for Semantic Similarity"
 }

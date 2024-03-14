@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "We present a comparative analysis of PP ordering in English and (Mandarin) Chinese, two languages with distinct typological word order characteristics. Previous work on PP orderings have mainly focused on English using data of relatively small size. Here we leverage corpora of much larger scale with straightforward annotations. We use the Penn Treebank for English, which includes three corpora that cover both written and spoken domains, and the Chinese Penn Treebank for Chinese. We explore the individual effect of dependency length, the argument status of the PP (argument or adjunct) and the traditional adverbial ordering rule, Manner before Place before Time. In addition, we evaluate the predictive power of dependency length and argument status with weights estimated from logistic regression models. We show that while dependency length plays a strong role across genre for English, it only exerts a mild effect in Chinese. On the other hand, the argument status of the PP has a pronounced role in both languages, that is, there exists a strong tendency for the argument-like PP to appear closer to the head verb than the adjunct-like PP. Our work contributes empirically to the long-standing proposal in linguistic typology that crosslinguistic word ordering preference is driven by cooperating and competing principles. b. Dylan presented to her colleagues and friends on something linguistic .",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Mandarin",
+        "Chinese"
+    ],
+    "numcitedby": 3,
+    "year": 2019,
+    "month": "August",
+    "title": "A Comparative Corpus Analysis of {PP} Ordering in {E}nglish and {C}hinese"
 }

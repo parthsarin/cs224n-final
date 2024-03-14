@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.9999863364673469
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or an explicit statement of no funding. Without direct evidence of funding, we cannot assume the involvement of any specific type of funding source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or an explicit statement of no funding. Without direct evidence of funding, we cannot assume the involvement of any specific type of funding source.",
+    "abstract": "In human languages, there are many presuppositional constructions that impose a constrain on the taxonomic relations between two nouns depending on their order. These constructions create a challenge in validating taxonomic relations in real-world contexts. In SemEval2022-Task3 Presupposed Taxonomies: Evaluating Neural Network Semantics (PreTENS), the organizers introduced a task regarding validating the taxonomic relations within a variety of presuppositional constructions. This task is divided into two subtasks: classification and regression. Each subtask contains three datasets in multiple languages, i.e., English, Italian and French. To tackle this task, this work proposes to fine-tune different BERT-based models pre-trained on different languages. According to the experimental results, the fine-tuned BERT-based models are effective compared to the baselines for classification. For regression, the fine-tuned models show promising performances with the possibility of improvement.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "French",
+        "English",
+        "Italian",
+        "German"
+    ],
+    "numcitedby": 1,
+    "year": 2022,
+    "month": "July",
+    "title": "{U}o{R}-{NCL} at {S}em{E}val-2022 Task 3: Fine-Tuning the {BERT}-Based Models for Validating Taxonomic Relations"
 }

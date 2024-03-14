@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9997465600513311
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "This paper focuses on a subtask of natural language generation (NLG), voice selection, which decides whether a clause is realised in the active or passive voice according to its contextual information. Automatic voice selection is essential for realising more sophisticated MT and summarisation systems, because it impacts the readability of generated texts. However, to the best of our knowledge, the NLG community has been less concerned with explicit voice selection. In this paper, we propose an automatic voice selection model based on various linguistic information, ranging from lexical to discourse information. Our empirical evaluation using a manually annotated corpus in Japanese demonstrates that the proposed model achieved 0.758 in F-score, outperforming the two baseline models.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 0,
+    "year": 2013,
+    "month": "August",
+    "title": "Automatic Voice Selection in {J}apanese based on Various Linguistic Information"
 }

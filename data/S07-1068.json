@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the UK EPSRC project EP/C537262 \"Ranking Word Senses for Disambiguation: Models and Applications\", which is a research agency, and a UK Royal Society Dorothy Hodgkin Fellowship, which is a foundation. There is no mention of defense, corporate funding, or a lack of funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the UK EPSRC project EP/C537262 \"Ranking Word Senses for Disambiguation: Models and Applications\", which is a research agency, and a UK Royal Society Dorothy Hodgkin Fellowship, which is a foundation. There is no mention of defense, corporate funding, or a lack of funding.",
+    "abstract": "",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2007,
+    "month": "June",
+    "title": "{S}ussx: {WSD} using Automatically Acquired Predominant Senses"
 }

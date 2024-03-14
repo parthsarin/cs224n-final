@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not explicitly mention any funding sources for the research or the development of the Timely Disclosure Documents Corpus (TDDC). It focuses on the creation and analysis of the TDDC and its application in machine translation, without any reference to specific funding from defense, corporate entities, research agencies, foundations, or any other sources."
+    "reasoning": "Reasoning: The article does not explicitly mention any funding sources for the research or the development of the Timely Disclosure Documents Corpus (TDDC). It focuses on the creation and analysis of the TDDC and its application in machine translation, without any reference to specific funding from defense, corporate entities, research agencies, foundations, or any other sources.",
+    "abstract": "In this paper, we describe the details of the Timely Disclosure Documents Corpus (TDDC). TDDC was manually organized by aligning the sentences from past Japanese and English timely disclosure documents in PDF format published by companies listed on the Tokyo Stock Exchange. TDDC consists of approximately 1.4 million parallel sentences in Japanese and English. TDDC was used as the official dataset for the 6th Workshop on Asian Translation to encourage the advancement of machine translation.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "May",
+    "title": "{TDDC}: Timely Disclosure Documents Corpus"
 }

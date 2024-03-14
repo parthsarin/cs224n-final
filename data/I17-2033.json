@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agency, foundation, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agency, foundation, or any other type of financial support for the conducted research.",
+    "abstract": "An automatic text summarization system can automatically generate a short and brief summary that contains a main concept of an original document. In this work, we explore the advantages of simple embedding features in Reinforcement leaning approach to automatic text summarization tasks. In addition, we propose a novel deep learning network for estimating Qvalues used in Reinforcement learning. We evaluate our model by using ROUGE scores with DUC 2001, 2002, Wikipedia, ACL-ARC data. Evaluation results show that our model is competitive with the previous models.",
+    "countries": [
+        "South Korea"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 17,
+    "year": 2017,
+    "month": "November",
+    "title": "Automatic Text Summarization Using Reinforcement Learning with Embedding Features"
 }

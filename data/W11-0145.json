@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research.",
+    "abstract": "Recent work on evaluativity or sentiment in the language sciences has focused on the contributions that lexical items provide. In this paper, we discuss contextual evaluativity, stance that is inferred from lexical meaning and pragmatic environments. Focusing on assessor-grounding claims like We liked him because he so clearly disliked Margaret Thatcher, we build a corpus and construct a system employing compositional principles of evaluativity calculation to derive that we dislikes Margaret Thatcher. The resulting system has an F-score of 0.90 on our dataset, outperforming reasonable baselines, and indicating the viability of inferencing in the evaluative domain.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 28,
+    "year": 2011,
+    "month": "",
+    "title": "Extracting Contextual Evaluativity"
 }

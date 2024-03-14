@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9937080156585459
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "In this work, we improve the performance of intra-sentential zero anaphora resolution in Japanese using a novel method of recognizing subject sharing relations. In Japanese, a large portion of intrasentential zero anaphora can be regarded as subject sharing relations between predicates, that is, the subject of some predicate is also the unrealized subject of other predicates. We develop an accurate recognizer of subject sharing relations for pairs of predicates in a single sentence, and then construct a subject shared predicate network, which is a set of predicates that are linked by the subject sharing relations recognized by our recognizer. We finally combine our zero anaphora resolution method exploiting the subject shared predicate network and a state-ofthe-art ILP-based zero anaphora resolution method. Our combined method achieved a significant improvement over the the ILPbased method alone on intra-sentential zero anaphora resolution in Japanese. To the best of our knowledge, this is the first work to explicitly use an independent subject sharing recognizer in zero anaphora resolution. 50 people-OBJ dispatch COMP-OBJ it i -SUBJ keikakusi junbisagyo-o susumeru . plan preparation-OBJ advance period The government i plans that (it i ) will dispatch 50 people to the disaster site and (it i ) is advancing its preparations.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 22,
+    "year": 2015,
+    "month": "September",
+    "title": "Intra-sentential Zero Anaphora Resolution using Subject Sharing Recognition"
 }

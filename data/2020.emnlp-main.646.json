@@ -7,5 +7,16 @@
         "foundation": 0.9999549868231234,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article specifically thanks the Natural Sciences and Engineering Research Council of Canada for supporting the work, and mentions that the last author is supported by a Canada CIFAR AI Chair. This indicates funding from a research agency and potentially a foundation, given CIFAR's status as a charitable organization. There is no mention of defense, corporate funding, or an explicit statement indicating no funding from any sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article specifically thanks the Natural Sciences and Engineering Research Council of Canada for supporting the work, and mentions that the last author is supported by a Canada CIFAR AI Chair. This indicates funding from a research agency and potentially a foundation, given CIFAR's status as a charitable organization. There is no mention of defense, corporate funding, or an explicit statement indicating no funding from any sources.",
+    "abstract": "Human-written texts contain frequent generalizations and semantic aggregation of content. In a document, they may refer to a pair of named entities such as 'London' and 'Paris' with different expressions: \"the major cities\", \"the capital cities\" and \"two European cities\". Yet generation, especially, abstractive summarization systems have so far focused heavily on paraphrasing and simplifying the source content, to the exclusion of such semantic abstraction capabilities. In this paper, we present a new dataset and task aimed at the semantic aggregation of entities. TESA contains a dataset of 5.3K crowd-sourced entity aggregations of PERSON, ORGANIZATION, and LO-CATION named entities. 1 The aggregations are document-appropriate, meaning that they are produced by annotators to match the situational context of a given news article from the New York Times. We then build baseline models for generating aggregations given a tuple of entities and document context. We finetune on TESA an encoder-decoder language model and compare it with simpler classification methods based on linguistically informed features. Our quantitative and qualitative evaluations show reasonable performance in making a choice from a given list of expressions, but free-form expressions are understandably harder to generate and evaluate.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "November",
+    "title": "{TESA}: A {T}ask in {E}ntity {S}emantic {A}ggregation for Abstractive Summarization"
 }

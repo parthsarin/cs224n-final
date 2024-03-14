@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Therefore, without explicit mention of support from defense, corporate entities, research agencies, or foundations, it is assumed that the article does not report funding from any of these sources."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Therefore, without explicit mention of support from defense, corporate entities, research agencies, or foundations, it is assumed that the article does not report funding from any of these sources.",
+    "abstract": "We study an end-to-end approach for conversational recommendation that dynamically manages and reasons over users' past (offline) preferences and current (online) requests through a structured and cumulative user memory knowledge graph. This formulation extends existing state tracking beyond the boundary of a single dialog to user state tracking (UST). For this study, we create a new Memory Graph (MG) \u2194 Conversational Recommendation parallel corpus called MGConvRex with 7K+ human-to-human role-playing dialogs, grounded on a large-scale user memory bootstrapped from real-world user scenarios. MGConvRex captures human-level reasoning over user memory and has disjoint training/testing sets of users for zero-shot (cold-start) reasoning for recommendation. We propose a simple yet expandable formulation for constructing and updating the MG, and an end-to-end graph-based reasoning model that updates MG from unstructured utterances and predicts optimal dialog policies (e.g. recommendation) based on updated MG. The prediction of our proposed model inherits the graph structure, providing a natural way to explain policies. Experiments are conducted for both offline metrics and online simulation, showing competitive results. 1 * Most work was done while the first author was a research intern at Facebook. 1 The dataset, code and models will be released for future research.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Thai"
+    ],
+    "numcitedby": 15,
+    "year": 2020,
+    "month": "December",
+    "title": "User Memory Reasoning for Conversational Recommendation"
 }

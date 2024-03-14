@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article mentions the eS-PERTo project but does not specify any funding sources such as defense, corporate, research agency, or foundation. Without explicit mention of funding, we cannot assume any specific source was involved."
+    "reasoning": "Reasoning: The article mentions the eS-PERTo project but does not specify any funding sources such as defense, corporate, research agency, or foundation. Without explicit mention of funding, we cannot assume any specific source was involved.",
+    "abstract": "This paper introduces Port4NooJ v3.0, the latest version of the Portuguese module for NooJ, highlights its main features, and details its three main new components: (i) a lexicon-grammar based dictionary of 5,177 human intransitive adjectives, and a set of local grammars that use the distributional properties of those adjectives for paraphrasing (ii) a polarity dictionary with 9,031 entries for sentiment analysis, and (iii) a set of priority dictionaries and local grammars for named entity recognition. These new components were derived and/or adapted from publicly available resources. The Port4NooJ v3.0 resource is innovative in terms of the specificity of the linguistic knowledge it incorporates. The dictionary is bilingual Portuguese-English, and the semantico-syntactic information assigned to each entry validates the linguistic relation between the terms in both languages. These characteristics, which cannot be found in any other public resource for Portuguese, make it a valuable resource for translation and paraphrasing. The paper presents the current statistics and describes the different complementary and synergic components and integration efforts.",
+    "countries": [
+        "Portugal"
+    ],
+    "languages": [
+        "Portuguese",
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2016,
+    "month": "May",
+    "title": "{P}ort4{N}oo{J} v3.0: Integrated Linguistic Resources for {P}ortuguese {NLP}"
 }

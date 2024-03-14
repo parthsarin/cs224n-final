@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research or development of the ParsPer dependency parser or the Uppsala Persian Dependency Treebank. Without explicit mention of funding from defense, corporate entities, research agencies, or foundations, it is not possible to determine any specific funding sources. Therefore, based on the information provided, we must conclude that there is no direct evidence of funding from the specified categories."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research or development of the ParsPer dependency parser or the Uppsala Persian Dependency Treebank. Without explicit mention of funding from defense, corporate entities, research agencies, or foundations, it is not possible to determine any specific funding sources. Therefore, based on the information provided, we must conclude that there is no direct evidence of funding from the specified categories.",
+    "abstract": "We present a dependency parser for Persian, called ParsPer, developed using the graph-based parser in the Mate Tools. The parser is trained on the entire Uppsala Persian Dependency Treebank with a specific configuration that was selected by MaltParser as the best performing parsing representation. The treebank's syntactic annotation scheme is based on Stanford Typed Dependencies with extensions for Persian. The results of the ParsPer evaluation revealed a best labeled accuracy over 82% with an unlabeled accuracy close to 87%. The parser is freely available and released as an open source tool for parsing Persian.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "Persian"
+    ],
+    "numcitedby": 3,
+    "year": 2015,
+    "month": "August",
+    "title": "{P}ars{P}er: A Dependency Parser for {P}ersian"
 }

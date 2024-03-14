@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.9986696948414435
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "As natural language understanding research advances towards deeper knowledge modeling, the tasks become more and more complex: we are interested in more nuanced word characteristics, more linguistic properties, deeper semantic and syntactic features. One such example, explored in this article, is the mention detection and recognition task in the Automatic Content Extraction project, with the goal of identifying named, nominal or pronominal references to real-world entities-mentionsand labeling them with three types of information: entity type, entity subtype and mention type. In this article, we investigate three methods of assigning these related tags and compare them on several data sets. A system based on the methods presented in this article participated and ranked very competitively in the ACE'04 evaluation.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese",
+        "English",
+        "Arabic"
+    ],
+    "numcitedby": 29,
+    "year": 2006,
+    "month": "July",
+    "title": "Factorizing Complex Models: A Case Study in Mention Detection"
 }

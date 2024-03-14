@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.9993734205829202
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "The automatic detection of negation and speculation in clinical notes is vital when searching for genuine instances of a given phenomenon. This paper describes a new corpus of negation and speculation data, in the veterinary clinical note domain, and describes a series of experiments whereby we port a CRF-based method across from the BioScope corpus to this novel domain.",
+    "countries": [
+        "Australia"
+    ],
+    "languages": [],
+    "numcitedby": 10,
+    "year": 2017,
+    "month": "December",
+    "title": "Automatic Negation and Speculation Detection in Veterinary Clinical Text"
 }

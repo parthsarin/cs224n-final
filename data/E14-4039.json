@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.9991436966371555
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "Sentiment relevance (SR) aims at identifying content that does not contribute to sentiment analysis. Previously, automatic SR classification has been studied in a limited scope, using a single domain and feature augmentation techniques that require large hand-crafted databases. In this paper, we present experiments on SR classification with automatically learned feature representations on multiple domains. We show that a combination of transfer learning and in-task supervision using features learned unsupervisedly by the stacked denoising autoencoder significantly outperforms a bag-of-words baseline for in-domain and cross-domain classification.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [],
+    "numcitedby": 2,
+    "year": 2014,
+    "month": "April",
+    "title": "Multi-Domain Sentiment Relevance Classification with Automatic Representation Learning"
 }

@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is not possible to determine any funding sources.",
+    "abstract": "The accuracy of event extraction is limited by a number of complicating factors, with errors compounded at all sages inside the Information Extraction pipeline. In this paper, we present methods for recovering automatically from errors committed in the pipeline processing. Recovery is achieved via post-processing facts aggregated over a large collection of documents, and suggesting corrections based on evidence external to the document. A further improvement is derived from propagating multiple, locally non-best slot fills through the pipeline. Evaluation shows that the global analysis is over 10 times more likely to suggest valid corrections to the local-only analysis than it is to suggest erroneous ones. This yields a substantial overall gain, with no supervised training.",
+    "countries": [
+        "Finland"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 23,
+    "year": 2005,
+    "month": "October",
+    "title": "Redundancy-based Correction of Automatically Extracted Facts"
 }

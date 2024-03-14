@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the Polish National Science Centre, which is a government-funded organization that provides grants for research, and the European Union from resources of the European Social Fund, which is also a form of government or intergovernmental organization funding. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the Polish National Science Centre, which is a government-funded organization that provides grants for research, and the European Union from resources of the European Social Fund, which is also a form of government or intergovernmental organization funding. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "This article presents major modifications in the MMAX2 manual annotation tool, which were implemented for the coreference annotation of Polish texts. Among other, a new feature of adjudication is described, as well as some general insight into the manual annotation tool selection process for the natural language processing tasks.",
+    "countries": [
+        "Poland"
+    ],
+    "languages": [
+        "Polish",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2014,
+    "month": "April",
+    "title": "{MMAX}2 for coreference annotation"
 }

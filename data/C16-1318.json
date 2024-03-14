@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges the support of the Answering Questions using Web Data (WDAQua) project, a Marie Sk\u0142odowska-Curie Innovative Training Network, part of the Horizon 2020 programme. It also mentions the donation of a Titan X GPU by NVIDIA Corporation for the research. The Horizon 2020 programme is funded by the European Union, which can be considered a research agency. NVIDIA Corporation is a for-profit company, making it a corporate sponsor. There is no mention of defense or foundation funding."
+    "reasoning": "Reasoning: The article explicitly acknowledges the support of the Answering Questions using Web Data (WDAQua) project, a Marie Sk\u0142odowska-Curie Innovative Training Network, part of the Horizon 2020 programme. It also mentions the donation of a Titan X GPU by NVIDIA Corporation for the research. The Horizon 2020 programme is funded by the European Union, which can be considered a research agency. NVIDIA Corporation is a for-profit company, making it a corporate sponsor. There is no mention of defense or foundation funding.",
+    "abstract": "We present a novel response generation system. The system assumes the hypothesis that participants in a conversation base their response not only on previous dialog utterances but also on their background knowledge. Our model is based on a Recurrent Neural Network (RNN) that is trained over concatenated sequences of comments, a Convolution Neural Network that is trained over Wikipedia sentences and a formulation that couples the two trained embeddings in a multimodal space. We create a dataset of aligned Wikipedia sentences and sequences of Reddit utterances, which we we use to train our model. Given a sequence of past utterances and a set of sentences that represent the background knowledge, our end-to-end learnable model is able to generate context-sensitive and knowledge-driven responses by leveraging the alignment of two different data sources. Our approach achieves up to 55% improvement in perplexity compared to purely sequential models based on RNNs that are trained only on sequences of utterances.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 28,
+    "year": 2016,
+    "month": "December",
+    "title": "A Neural Network Approach for Knowledge-Driven Response Generation"
 }

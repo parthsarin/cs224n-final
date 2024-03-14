@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the research is supported by the Science Foundation Ireland (Grant 07/CE/I1142) as part of the Centre for Next Generation Localisation (www.cngl.ie) at Dublin City University. This indicates that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the research is supported by the Science Foundation Ireland (Grant 07/CE/I1142) as part of the Centre for Next Generation Localisation (www.cngl.ie) at Dublin City University. This indicates that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "In this paper, we extend the HMM wordto-phrase alignment model with syntactic dependency constraints. The syntactic dependencies between multiple words in one language are introduced into the model in a bid to produce coherent alignments. Our experimental results on a variety of Chinese-English data show that our syntactically constrained model can lead to as much as a 3.24% relative improvement in BLEU score over current HMM word-to-phrase alignment models on a Phrase-Based Statistical Machine Translation system when the training data is small, and a comparable performance compared to IBM model 4 on a Hiero-style system with larger training data. An intrinsic alignment quality evaluation shows that our alignment model with dependency constraints leads to improvements in both precision (by 1.74% relative) and recall (by 1.75% relative) over the model without dependency information.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2010,
+    "month": "August",
+    "title": "{HMM} Word-to-Phrase Alignment with Dependency Constraints"
 }

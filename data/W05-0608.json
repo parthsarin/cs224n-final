@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work has been partially supported by the ON-TOTEXT (From Text to Knowledge for the Semantic Web) project, funded by the Autonomous Province of Trento under the FUP-2004 research program. This indicates funding from a research agency or government entity, but there is no mention of defense, corporate, foundation, or other specific funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work has been partially supported by the ON-TOTEXT (From Text to Knowledge for the Semantic Web) project, funded by the Autonomous Province of Trento under the FUP-2004 research program. This indicates funding from a research agency or government entity, but there is no mention of defense, corporate, foundation, or other specific funding sources.",
+    "abstract": "In this paper we propose and evaluate a technique to perform semi-supervised learning for Text Categorization. In particular we defined a kernel function, namely the Domain Kernel, that allowed us to plug \"external knowledge\" into the supervised learning process. External knowledge is acquired from unlabeled data in a totally unsupervised way, and it is represented by means of Domain Models. We evaluated the Domain Kernel in two standard benchmarks for Text Categorization with good results, and we compared its performance with a kernel function that exploits a standard bag-of-words feature representation. The learning curves show that the Domain Kernel allows us to reduce drastically the amount of training data required for learning.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 59,
+    "year": 2005,
+    "month": "June",
+    "title": "Domain Kernels for Text Categorization"
 }

@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by DARPA under Contract No. HR0011-06-C-0023. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense responsible for the development of emerging technologies for use by the military. Therefore, the research was funded by a defense source. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by DARPA under Contract No. HR0011-06-C-0023. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense responsible for the development of emerging technologies for use by the military. Therefore, the research was funded by a defense source. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Tense prediction can be useful for many language processing tasks, such as temporal inference and machine translation. In this paper, we investigate using diverse contextual features for Chinese tense prediction under a statistical learning framework. Because of lack of annotated training data, we propose to leverage Chinese-English parallel corpora to automatically generate reference tense for model training. We also propose to use an iterative learning framework to deal with the noisy reference data to improve learning. Evaluation is performed using both automatically generated reference data and a manually annotated set with verb tense. Our results demonstrate the effectiveness of our proposed learning framework that maps annotation from one language to another using parallel data. Furthermore, we show better performance using our proposed iterative bootstrapping learning method compared to using the original automatically created training data.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Chinese",
+        "Mandarin"
+    ],
+    "numcitedby": 13,
+    "year": 2011,
+    "month": "November",
+    "title": "Learning from {C}hinese-{E}nglish Parallel Data for {C}hinese Tense Prediction"
 }

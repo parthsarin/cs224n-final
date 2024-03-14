@@ -7,5 +7,18 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work has been developed in the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02), which is a foundation. Thierry Poibeau is partially supported by a RGNF-CNRS grant, indicating research agency support. Kyungtae Lim is partially supported by the ERA-NET Atlantis project, which could also indicate research agency or foundation support, but the specific nature of ERA-NET Atlantis is not detailed enough to categorically determine its nature. Niko Partanen's work is funded by the Kone Foundation, which is a foundation. There is no mention of defense or corporate funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work has been developed in the framework of the LAKME project funded by a grant from Paris Sciences et Lettres (IDEX PSL reference ANR-10-IDEX-0001-02), which is a foundation. Thierry Poibeau is partially supported by a RGNF-CNRS grant, indicating research agency support. Kyungtae Lim is partially supported by the ERA-NET Atlantis project, which could also indicate research agency or foundation support, but the specific nature of ERA-NET Atlantis is not detailed enough to categorically determine its nature. Niko Partanen's work is funded by the Kone Foundation, which is a foundation. There is no mention of defense or corporate funding.",
+    "abstract": "The paper presents a method for parsing low-resource languages with very small training corpora using multilingual word embeddings and annotated corpora of larger languages. The study demonstrates that specific language combinations enable improved dependency parsing when compared to previous work, allowing for wider reuse of pre-existing resources when parsing low-resource languages. The study also explores the question of whether contemporary contact languages or genetically related languages would be the most fruitful starting point for multilingual parsing scenarios.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "Saami",
+        "Komi",
+        "Finnish"
+    ],
+    "numcitedby": 18,
+    "year": 2018,
+    "month": "May",
+    "title": "Multilingual Dependency Parsing for Low-Resource Languages: Case Studies on North Saami and {K}omi-{Z}yrian"
 }

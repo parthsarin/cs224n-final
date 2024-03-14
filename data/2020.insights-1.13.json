@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions financial support from Eric and Wendy Schmidt (by recommendation of the Schmidt Futures program), Samsung Research, Intuit, Inc., and the National Science Foundation. Eric and Wendy Schmidt's support, recommended by Schmidt Futures, is considered foundation funding. Samsung Research and Intuit, Inc. are corporate entities, thus their contributions are corporate funding. The National Science Foundation is a government-funded research agency. There is no mention of defense funding."
+    "reasoning": "Reasoning: The article mentions financial support from Eric and Wendy Schmidt (by recommendation of the Schmidt Futures program), Samsung Research, Intuit, Inc., and the National Science Foundation. Eric and Wendy Schmidt's support, recommended by Schmidt Futures, is considered foundation funding. Samsung Research and Intuit, Inc. are corporate entities, thus their contributions are corporate funding. The National Science Foundation is a government-funded research agency. There is no mention of defense funding.",
+    "abstract": "A growing body of work shows that models exploit annotation artifacts to achieve state-ofthe-art performance on standard crowdsourced benchmarks-datasets collected from crowdworkers to create an evaluation task-while still failing on out-of-domain examples for the same task. Recent work has explored the use of counterfactually-augmented data-data built by minimally editing a set of seed examples to yield counterfactual labels-to augment training data associated with these benchmarks and build more robust classifiers that generalize better. However, Khashabi et al. (2020) find that this type of augmentation yields little benefit on reading comprehension tasks when controlling for dataset size and cost of collection. We build upon this work by using English natural language inference data to test model generalization and robustness and find that models trained on a counterfactuallyaugmented SNLI dataset do not generalize better than unaugmented datasets of similar size and that counterfactual augmentation can hurt performance, yielding models that are less robust to challenge examples. Counterfactual augmentation of natural language understanding data through standard crowdsourcing techniques does not appear to be an effective way of collecting training data and further innovation is required to make this general line of work viable.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 16,
+    "year": 2020,
+    "month": "November",
+    "title": "Counterfactually-Augmented {SNLI} Training Data Does Not Yield Better Generalization Than Unaugmented Data"
 }

@@ -7,5 +7,17 @@
         "foundation": 7.896306882804183e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by a Google Research Award, which indicates corporate funding. There is no mention of funding from defense, research agencies, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by a Google Research Award, which indicates corporate funding. There is no mention of funding from defense, research agencies, foundations, or an absence of funding.",
+    "abstract": "We use search engine results to address a particularly difficult cross-domain language processing task, the adaptation of named entity recognition (NER) from news text to web queries. The key novelty of the method is that we submit a token with context to a search engine and use similar contexts in the search results as additional information for correctly classifying the token. We achieve strong gains in NER performance on news, in-domain and out-of-domain, and on web queries. BASE: lexical and input-text part-of-speech features 1 WORD(k,i)   binary: binary: w k has part-of-speech t 3 SHAPE(k,i)   binary: w k has (regular expression) shape regexp i 4 PREFIX (j)   binary: w 0 has prefix j (analogously for suffixes) GAZ: gazetteer features 5 GAZ-B l (k,i) binary: w k is the initial word of a phrase, consisting of l words, whose gaz. category is i 6 GAZ-I l (k,i) binary: w k is a non-initial word in a phrase, consisting of l words, whose gaz. category is i URL: URL features 7 URL-SUBPART N(w 0 is substring of a URL)/N(URL) MISC: shape, search part-of-speech, and title features 12 UPPERCASE N(s 0 is uppercase)/N(s 0 ) 13 ALLCAPS N(s 0 is all-caps)/N(s 0 ) 14 SPECIAL binary: w 0 contains special character 15 SPECIAL-TITLE N(s \u22121 or s 1 in title contains special character)/(N(s \u22121 )+N(s 1 )) 16 TITLE-WORD N(s 0 occurs in title)/N(title) 17 NOMINAL-POS N(s 0 is tagged with nominal PoS)/N(s 0 ) 18 CONTEXT(k) N(s k is typical neighbor at position k of named entity)/N(s 0 ) 19 PHRASE-HIT(k) N(w k = s k , i.e., word at position k occurs in snippet)/N(s 0 ) 20 ACRONYM N(w \u22121 w 0 or w 0 w 1 or w \u22121 w 0 w 1 occur as acronym)/N(s 0 ) 21 EMPTY binary: search result is empty",
+    "countries": [
+        "Switzerland",
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 39,
+    "year": 2011,
+    "month": "June",
+    "title": "{P}iggyback: Using Search Engines for Robust Cross-Domain Named Entity Recognition"
 }

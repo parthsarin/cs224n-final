@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions support from the National Science Foundation Grant IIS-1566382 and a GPU gift from Nvidia. The National Science Foundation is a government-funded research agency, and Nvidia is a for-profit corporation. There is no mention of funding from defense, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions support from the National Science Foundation Grant IIS-1566382 and a GPU gift from Nvidia. The National Science Foundation is a government-funded research agency, and Nvidia is a for-profit corporation. There is no mention of funding from defense, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We present a joint modeling approach to identify salient discussion points in spoken meetings as well as to label the discourse relations between speaker turns. A variation of our model is also discussed when discourse relations are treated as latent variables. Experimental results on two popular meeting corpora show that our joint model can outperform state-of-the-art approaches for both phrasebased content selection and discourse relation prediction tasks. We also evaluate our model on predicting the consistency among team members' understanding of their group decisions. Classifiers trained with features constructed from our model achieve significant better predictive performance than the state-of-the-art. D: Three different types of batteries. Um can either use a hand dynamo, or the kinetic type ones, you know that they use in watches, or else uh a solar powered one. B: Um the bat uh the battery for a a watch wouldn't require a lot of power, would be my one query. Is a kinetic one going to be able to supply enough power? D: Yeah, I don't think it would. C: Yeah. D: We should probably just use conventional batteries. B: Which I suppose as well would allow us to go off the shelf again, you'd say ? D: Yeah.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 21,
+    "year": 2017,
+    "month": "July",
+    "title": "Joint Modeling of Content and Discourse Relations in Dialogues"
 }

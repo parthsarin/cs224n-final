@@ -7,5 +7,20 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was partially conducted with the financial support of Science Foundation Ireland under Grant Agreement No. 13/RC/2106 at the ADAPT SFI Research Centre at Dublin City University. Science Foundation Ireland is a government-funded organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was partially conducted with the financial support of Science Foundation Ireland under Grant Agreement No. 13/RC/2106 at the ADAPT SFI Research Centre at Dublin City University. Science Foundation Ireland is a government-funded organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper describes the system proposed by the Random team for SemEval-2020 Task 1: Unsupervised Lexical Semantic Change Detection. We focus our approach on the detection problem. Given the semantics of words captured by temporal word embeddings in different time periods, we investigate the use of unsupervised methods to detect when the target word has gained or lost senses. To this end, we define a new algorithm based on Gaussian Mixture Models to cluster the target similarities computed over the two periods. We compare the proposed approach with a number of similarity-based thresholds. We found that, although the performance of the detection methods varies across the word embedding algorithms, the combination of Gaussian Mixture with Temporal Referencing resulted in our best system.",
+    "countries": [
+        "Italy",
+        "Ireland"
+    ],
+    "languages": [
+        "Latin",
+        "Swedish",
+        "German",
+        "English"
+    ],
+    "numcitedby": 5,
+    "year": 2020,
+    "month": "December",
+    "title": "{GM}-{CTSC} at {S}em{E}val-2020 Task 1: {G}aussian Mixtures Cross Temporal Similarity Clustering"
 }

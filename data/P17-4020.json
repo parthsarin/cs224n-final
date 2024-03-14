@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 0.9982443748160126
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Despite important progress in the area of intelligent systems, most such systems still lack commonsense knowledge that appears crucial for enabling smarter, more human-like decisions. In this paper, we present a system based on a series of algorithms to distill fine-grained disambiguated commonsense knowledge from massive amounts of text. Our WebChild 2.0 knowledge base is one of the largest commonsense knowledge bases available, describing over 2 million disambiguated concepts and activities, connected by over 18 million assertions.",
+    "countries": [
+        "United States",
+        "Germany"
+    ],
+    "languages": [],
+    "numcitedby": 59,
+    "year": 2017,
+    "month": "July",
+    "title": "{W}eb{C}hild 2.0 : Fine-Grained Commonsense Knowledge Distillation"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9998412891059067
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or development of the NER system discussed. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or development of the NER system discussed. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "We analyze some of the fundamental design challenges and misconceptions that underlie the development of an efficient and robust NER system. In particular, we address issues such as the representation of text chunks, the inference approach needed to combine local NER decisions, the sources of prior knowledge and how to use them within an NER system. In the process of comparing several solutions to these challenges we reach some surprising conclusions, as well as develop an NER system that achieves 90.8 F 1 score on the CoNLL-2003 NER shared task, the best reported result for this dataset.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 1422,
+    "year": 2009,
+    "month": "June",
+    "title": "Design Challenges and Misconceptions in Named Entity Recognition"
 }

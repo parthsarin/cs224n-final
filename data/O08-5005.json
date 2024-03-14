@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text alone."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text alone.",
+    "abstract": "This paper considers minimum phone error (MPE) based discriminative training of acoustic models for Mandarin broadcast news recognition. We present a new phone accuracy function based on the frame-level accuracy of hypothesized phone arcs instead of using the raw phone accuracy function of MPE training. Moreover, a novel data selection approach based on the frame-level normalized entropy of Gaussian posterior probabilities obtained from the word lattice of the training utterance is explored. It has the merit of making the training algorithm focus much more on the training statistics of those frame samples that center nearly around the decision boundary for better discrimination. The underlying characteristics of the presented approaches are extensively investigated, and their performance is verified by comparison with the standard MPE training approach as well as the other related work. Experiments conducted on broadcast news collected in Taiwan demonstrate that the integration of the frame-level phone accuracy calculation and data selection yields slight but consistent improvements over the baseline system.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Mandarin",
+        "Mandarin",
+        "Chinese"
+    ],
+    "numcitedby": 3,
+    "year": 2008,
+    "month": "September",
+    "title": "Improved Minimum Phone Error based Discriminative Training of Acoustic Models for {M}andarin Large Vocabulary Continuous Speech Recognition"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.9583270192971464,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Science Foundation (NSF), the Office of Naval Research under a MURI grant, the Center for Long-Term Cybersecurity, and gifts from Google. The NSF is a government-funded research agency, the Office of Naval Research is a defense agency, the Center for Long-Term Cybersecurity could be considered a foundation if it operates as a non-profit (though this is not explicitly stated, it is affiliated with academic institutions and likely operates under a non-profit model), and Google is a corporate entity."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Science Foundation (NSF), the Office of Naval Research under a MURI grant, the Center for Long-Term Cybersecurity, and gifts from Google. The NSF is a government-funded research agency, the Office of Naval Research is a defense agency, the Center for Long-Term Cybersecurity could be considered a foundation if it operates as a non-profit (though this is not explicitly stated, it is affiliated with academic institutions and likely operates under a non-profit model), and Google is a corporate entity.",
+    "abstract": "One weakness of machine-learned NLP models is that they typically perform poorly on out-of-domain data. In this work, we study the task of identifying products being bought and sold in online cybercrime forums, which exhibits particularly challenging cross-domain effects. We formulate a task that represents a hybrid of slot-filling information extraction and named entity recognition and annotate data from four different forums. Each of these forums constitutes its own \"fine-grained domain\" in that the forums cover different market sectors with different properties, even though all forums are in the broad domain of cybercrime. We characterize these domain differences in the context of a learning-based system: supervised models see decreased accuracy when applied to new forums, and standard techniques for semi-supervised learning and domain adaptation have limited effectiveness on this data, which suggests the need to improve these techniques. We release a dataset of 1,938 annotated posts from across the four forums. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 22,
+    "year": 2017,
+    "month": "September",
+    "title": "Identifying Products in Online Cybercrime Marketplaces: A Dataset for Fine-grained Domain Adaptation"
 }

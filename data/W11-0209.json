@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article acknowledges the financial support of the Center for Industrial Information Technology (CENIIT) and the foundation Stiftelsen Olle Engkvist Byggm\u00e4stare. CENIIT is not described as a defense, corporate, or research agency entity, but rather seems to be an academic or industrial support center, which does not fit neatly into the provided categories without additional context. The Stiftelsen Olle Engkvist Byggm\u00e4stare is explicitly named as a foundation, indicating foundation funding."
+    "reasoning": "Reasoning: The article acknowledges the financial support of the Center for Industrial Information Technology (CENIIT) and the foundation Stiftelsen Olle Engkvist Byggm\u00e4stare. CENIIT is not described as a defense, corporate, or research agency entity, but rather seems to be an academic or industrial support center, which does not fit neatly into the provided categories without additional context. The Stiftelsen Olle Engkvist Byggm\u00e4stare is explicitly named as a foundation, indicating foundation funding.",
+    "abstract": "Semantic Role Labeling (SRL) plays a key role in many NLP applications. The development of SRL systems for the biomedical domain is frustrated by the lack of large domainspecific corpora that are labeled with semantic roles. Corpus development has been very expensive and time-consuming. In this paper we propose a method for building frame-based corpus on the basis of domain knowledge provided by ontologies. We believe that ontologies, as a structured and semantic representation of domain knowledge, can instruct and ease the tasks in building the corpora. In the paper we present a corpus built by using the method. We compared it to BioFrameNet, and examined the gaps between the semantic classification of the target words in the domainspecific corpus and in FrameNet and Prop-Bank/VerbNet.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2011,
+    "month": "June",
+    "title": "Building frame-based corpus on the basis of ontological domain knowledge"
 }

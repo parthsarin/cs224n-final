@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly thanks Elsevier for supporting this work, which is a for-profit publishing company. Therefore, the research was funded by a corporate source. There is no mention of funding from defense, research agencies, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly thanks Elsevier for supporting this work, which is a for-profit publishing company. Therefore, the research was funded by a corporate source. There is no mention of funding from defense, research agencies, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Keyphrase boundary classification (KBC) is the task of detecting keyphrases in scientific articles and labelling them with respect to predefined types. Although important in practice, this task is so far underexplored, partly due to the lack of labelled data. To overcome this, we explore several auxiliary tasks, including semantic super-sense tagging and identification of multi-word expressions, and cast the task as a multi-task learning problem with deep recurrent neural networks. Our multi-task models perform significantly better than previous state of the art approaches on two scientific KBC datasets, particularly for long keyphrases.",
+    "countries": [
+        "Denmark",
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 64,
+    "year": 2017,
+    "month": "July",
+    "title": "Multi-Task Learning of Keyphrase Boundary Classification"
 }

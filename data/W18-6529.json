@@ -7,5 +7,18 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.9688541223061883
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "We present a comparison of word-based and character-based sequence-to-sequence models for data-to-text natural language generation, which generate natural language descriptions for structured inputs. On the datasets of two recent generation challenges, our models achieve comparable or better automatic evaluation results than the best challenge submissions. Subsequent detailed statistical and human analyses shed light on the differences between the two input representations and the diversity of the generated texts. In a controlled experiment with synthetic training data generated from templates, we demonstrate the ability of neural models to learn novel combinations of the templates and thereby generalize beyond the linguistic structures they were trained on.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English",
+        "Italian",
+        "Chinese"
+    ],
+    "numcitedby": 18,
+    "year": 2018,
+    "month": "November",
+    "title": "Sequence-to-Sequence Models for Data-to-Text Natural Language Generation: Word- vs. Character-based Processing and Output Diversity"
 }

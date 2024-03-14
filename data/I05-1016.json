@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the National Science Council under a Center Excellence Grant and the National Digital Archives Program Grant, which indicates funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from the National Science Council under a Center Excellence Grant and the National Digital Archives Program Grant, which indicates funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "In order to obtain a high precision and high coverage grammar, we proposed a model to measure grammar coverage and designed a PCFG parser to measure efficiency of the grammar. To generalize grammars, a grammar binarization method was proposed to increase the coverage of a probabilistic contextfree grammar. In the mean time linguistically-motivated feature constraints were added into grammar rules to maintain precision of the grammar. The generalized grammar increases grammar coverage from 93% to 99% and bracketing F-score from 87% to 91% in parsing Chinese sentences. To cope with error propagations due to word segmentation and part-of-speech tagging errors, we also proposed a grammar blending method to adapt to such errors. The blended grammar can reduce about 20~30% of parsing errors due to error assignment of pos made by a word segmentation system.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 9,
+    "year": 2005,
+    "month": "",
+    "title": "Linguistically-Motivated Grammar Extraction, Generalization and Adaptation"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper explicitly mentions support from NSF Grants IIS-1528037 and CCF-1848608. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the paper explicitly mentions support from NSF Grants IIS-1528037 and CCF-1848608. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "State-of-the-art systems for argumentation mining are supervised, thus relying on training data containing manually annotated argument components and the relationships between them. To eliminate the reliance on annotated data, we present a novel approach to unsupervised argument mining. The key idea is to bootstrap from a small set of argument components automatically identified using simple heuristics in combination with reliable contextual cues. Results on a Stab and Gurevych's corpus of 402 essays show that our unsupervised approach rivals two supervised baselines in performance and achieves 73.5\u221283.7% of the performance of a state-of-the-art neural approach.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2020,
+    "month": "May",
+    "title": "Unsupervised Argumentation Mining in Student Essays"
 }

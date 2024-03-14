@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mentions of support from defense branches, corporations, research agencies, foundations, or any other entities, it is not possible to determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mentions of support from defense branches, corporations, research agencies, foundations, or any other entities, it is not possible to determine the funding sources based on the provided text.",
+    "abstract": "This paper reports on an ongoing project that combines NLP with semantic web technologies to support a content-based storage and retrieval of medical pathology reports. We describe the NLP component of the project (a robust parser) and the background knowledge component (a domain ontology represented in OWL), and how they work together during extraction of domain specific information from natural language reports. The system provides a good example of how NLP techniques can be used to populate the Semantic Web.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 21,
+    "year": 2004,
+    "month": "July",
+    "title": "Feeding {OWL}: Extracting and Representing the Content of Pathology Reports"
 }

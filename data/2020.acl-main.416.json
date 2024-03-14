@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the European Research Council, the EU H2020 project SUMMA, and Bloomberg. The European Research Council and the EU H2020 project are funded by the European Union, categorizing them under research agency funding. Bloomberg is a corporation, indicating corporate funding. There is no mention of defense or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the European Research Council, the EU H2020 project SUMMA, and Bloomberg. The European Research Council and the EU H2020 project are funded by the European Union, categorizing them under research agency funding. Bloomberg is a corporation, indicating corporate funding. There is no mention of defense or foundation funding.",
+    "abstract": "Discourse representation structures (DRSs) are scoped semantic representations for texts of arbitrary length. Evaluation of the accuracy of predicted DRSs plays a key role in developing semantic parsers and improving their performance. DRSs are typically visualized as nested boxes, in a way that is not straightforward to process automatically. COUNTER, an evaluation algorithm for DRSs, transforms them to clauses and measures clause overlap by searching for variable mappings between two DRSs. Unfortunately, COUNTER is computationally costly (with respect to memory and CPU time) and does not scale with longer texts. We introduce DSCORER, an efficient new metric which converts box-style DRSs to graphs and then measures the overlap of n-grams in the graphs. Experiments show that DSCORER computes accuracy scores that correlate with scores from COUNTER at a fraction of the time.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 5,
+    "year": 2020,
+    "month": "July",
+    "title": "{D}scorer: A Fast Evaluation Metric for Discourse Representation Structure Parsing"
 }

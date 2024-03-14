@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions that the work was supported by JST PRESTO Grant Number JPMJPR1402, Japan. JST (Japan Science and Technology Agency) is a government-funded organization that provides grants for scientific and technological research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions that the work was supported by JST PRESTO Grant Number JPMJPR1402, Japan. JST (Japan Science and Technology Agency) is a government-funded organization that provides grants for scientific and technological research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Commonsense knowledge plays an essential role in our language activities. Although many projects have aimed to develop language resources for commonsense knowledge, there is little work focusing on connotational meanings. This is because constructing commonsense knowledge including connotational meanings is challenging. In this paper, we present a Japanese knowledge base where arguments in event sentences are associated with various feature changes caused by the events. For example, \"my child\" in \"my wife hits my child\" is associated with some feature changes, such as increase in pain, increase in anger, increase in disgust, and decrease in joy. We constructed this knowledge base through crowdsourcing tasks by gathering feature changes of arguments in event sentences. After the construction of the knowledge base, we conducted an experiment in anaphora resolution using the knowledge base. We regarded anaphora resolution as an antecedent candidate ranking task and used Ranking SVM as the solver. Experimental results demonstrated the usefulness of our feature change knowledge base.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 1,
+    "year": 2018,
+    "month": "May",
+    "title": "{JFCKB}: {J}apanese Feature Change Knowledge Base"
 }

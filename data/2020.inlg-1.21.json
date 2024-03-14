@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the paper mentions that the research was funded by projects commissioned by the New Energy and Industrial Technology Development Organization (NEDO) and supported by JSPS KAKENHI Grant Number JP20H04217. NEDO is a Japanese government agency that supports research and development, making it a research agency. JSPS KAKENHI is a grant provided by the Japan Society for the Promotion of Science, which is also a government-funded organization, categorizing it under research agency as well. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the paper mentions that the research was funded by projects commissioned by the New Energy and Industrial Technology Development Organization (NEDO) and supported by JSPS KAKENHI Grant Number JP20H04217. NEDO is a Japanese government agency that supports research and development, making it a research agency. JSPS KAKENHI is a grant provided by the Japan Society for the Promotion of Science, which is also a government-funded organization, categorizing it under research agency as well. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "End-to-end models on data-to-text learn the mapping of data and text from the aligned pairs in the dataset. However, these alignments are not always obtained reliably, especially for the time-series data, for which real time comments are given to some situation and there might be a delay in the comment delivery time compared to the actual event time. To handle this issue of possible noisy alignments in the dataset, we propose a neural network model with multitimestep data and a copy mechanism, which allows the models to learn the correspondences between data and text from the dataset with noisier alignments. We focus on generating market comments in Japanese that are delivered each time an event occurs in the market. The core idea of our approach is to utilize multitimestep data, which is not only the latest market price data when the comment is delivered, but also the data obtained at several timesteps earlier. On top of this, we employ a copy mechanism that is suitable for referring to the content of data records in the market price data. We confirm the superiority of our proposal by two evaluation metrics and show the accuracy improvement of the sentence generation using the time series data by our proposed method.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "December",
+    "title": "Market Comment Generation from Data with Noisy Alignments"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9999467621731833
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research described. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research described. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources.",
+    "abstract": "Relation Extraction (RE) is the task of extracting semantic relationships between entities in text. Recent studies on relation extraction are mostly supervised. The clear drawback of supervised methods is the need of training data: labeled data is expensive to obtain, and there is often a mismatch between the training data and the data the system will be applied to. This is the problem of domain adaptation. In this paper, we propose to combine (i) term generalization approaches such as word clustering and latent semantic analysis (LSA) and (ii) structured kernels to improve the adaptability of relation extractors to new text genres/domains. The empirical evaluation on ACE 2005 domains shows that a suitable combination of syntax and lexical generalization is very promising for domain adaptation. * The first author was affiliated with the Department of Computer Science and Information Engineering of the University of Trento (Povo, Italy) during the design of the models, experiments and writing of the paper.",
+    "countries": [
+        "Qatar"
+    ],
+    "languages": [
+        "Dutch"
+    ],
+    "numcitedby": 121,
+    "year": 2013,
+    "month": "August",
+    "title": "Embedding Semantic Similarity in Tree Kernels for Domain Adaptation of Relation Extraction"
 }

@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Deutsche Forschungsgemeinschaft, which is a German research funding organization, and a grant from the NIH project codename MASZEKER of the Hungarian government, indicating funding from research agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Deutsche Forschungsgemeinschaft, which is a German research funding organization, and a grant from the NIH project codename MASZEKER of the Hungarian government, indicating funding from research agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Hungarian is a stereotype of morphologically rich and non-configurational languages. Here, we introduce results on dependency parsing of Hungarian that employ a 80K, multi-domain, fully manually annotated corpus, the Szeged Dependency Treebank. We show that the results achieved by state-of-the-art data-driven parsers on Hungarian and English (which is at the other end of the configurational-nonconfigurational spectrum) are quite similar to each other in terms of attachment scores. We reveal the reasons for this and present a systematic and comparative linguistically motivated error analysis on both languages. This analysis highlights that addressing the language-specific phenomena is required for a further remarkable error reduction.",
+    "countries": [
+        "Germany",
+        "Hungary"
+    ],
+    "languages": [
+        "Hungarian",
+        "English"
+    ],
+    "numcitedby": 17,
+    "year": 2012,
+    "month": "April",
+    "title": "Dependency Parsing of {H}ungarian: Baseline Results and Challenges"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was supported in part by NSF grant SBR-89-20230. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was supported in part by NSF grant SBR-89-20230. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Many recent statistical parsers rely on a preprocessing step which uses hand-written, corpus-specific rules to augment the training data with extra information. For example, head-finding rules are used to augment node labels with lexical heads. In this paper, we provide machinery to reduce the amount of human effort needed to adapt existing models to new corpora: first, we propose a flexible notation for specifying these rules that would allow them to be shared by different models; second, we report on an experiment to see whether we can use Expectation-Maximization to automatically fine-tune a set of hand-written rules to a particular corpus.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 91,
+    "year": 2002,
+    "month": "",
+    "title": "Recovering Latent Information in Treebanks"
 }

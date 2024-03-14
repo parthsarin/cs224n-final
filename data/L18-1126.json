@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is part of the H2020 European project ARIA-VALUSPA, which indicates funding from a research agency, specifically a program funded by the European Union. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is part of the H2020 European project ARIA-VALUSPA, which indicates funding from a research agency, specifically a program funded by the European Union. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding.",
+    "abstract": "In this paper, we present an approach to endow an Embodied Conversational Agent with engagement capabilities. We relied on a corpus of expert-novice interactions. Two types of manual annotation were conducted: non-verbal signals such as gestures, head movements and smiles; engagement level of both expert and novice during the interaction. Then, we used a temporal sequence mining algorithm to extract non-verbal sequences eliciting variation of engagement perception. Our aim is to apply these findings in human-agent interaction to analyze user's engagement level and to control agent's behavior. The novelty of this study is to consider explicitly engagement as sequence of multimodal behaviors.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "French",
+        "German"
+    ],
+    "numcitedby": 2,
+    "year": 2018,
+    "month": "May",
+    "title": "From analysis to modeling of engagement as sequences of multimodal behaviors"
 }

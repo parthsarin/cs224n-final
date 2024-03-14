@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the research was funded by the German Research Foundation (DFG) as part of SFB 1102: \"Information Density and Linguistic Encoding.\" The German Research Foundation is a research funding organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly states that the research was funded by the German Research Foundation (DFG) as part of SFB 1102: \"Information Density and Linguistic Encoding.\" The German Research Foundation is a research funding organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Most recent unsupervised methods in vector space semantics for assessing thematic fit (e.g. Erk, 2007; Baroni and Lenci, 2010; Sayeed and Demberg, 2014) create prototypical rolefillers without performing word sense disambiguation. This leads to a kind of sparsity problem: candidate role-fillers for different senses of the verb end up being measured by the same \"yardstick\", the single prototypical role-filler. In this work, we use three different feature spaces to construct robust unsupervised models of distributional semantics. We show that correlation with human judgements on thematic fit estimates can be improved consistently by clustering typical role-fillers and then calculating similarities of candidate rolefillers with these cluster centroids. The suggested methods can be used in any vector space model that constructs a prototype vector from a non-trivial set of typical vectors.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 28,
+    "year": 2015,
+    "month": "May{--}June",
+    "title": "Improving unsupervised vector-space thematic fit evaluation via role-filler prototype clustering"
 }

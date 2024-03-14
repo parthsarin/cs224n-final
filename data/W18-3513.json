@@ -7,5 +7,16 @@
         "foundation": 1.0280378716087668e-06,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions the support of the Basque Government's Department of Education for the predoctoral funding and the Ministry of Economy, Industry and Competitiveness of Spain under a specific grant number for the Electronic Regional Manifestos Project. These entities are government bodies, thus indicating research agency funding. Additionally, NVIDIA Corporation is mentioned for donating equipment used in the research, which indicates corporate support. There is no mention of defense or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions the support of the Basque Government's Department of Education for the predoctoral funding and the Ministry of Economy, Industry and Competitiveness of Spain under a specific grant number for the Electronic Regional Manifestos Project. These entities are government bodies, thus indicating research agency funding. Additionally, NVIDIA Corporation is mentioned for donating equipment used in the research, which indicates corporate support. There is no mention of defense or foundation funding.",
+    "abstract": "In this study we propose a new approach to analyse the political discourse in online social networks such as Twitter. To do so, we have built a discourse classifier using Convolutional Neural Networks. Our model has been trained using election manifestos annotated manually by political scientists following the Regional Manifestos Project (RMP) methodology. In total, it has been trained with more than 88,000 sentences extracted from more that 100 annotated manifestos. Our approach takes into account the context of the phrase in order to classify it, like what was previously said and the political affiliation of the transmitter. To improve the classification results we have used a simplified political message taxonomy developed within the Electronic Regional Manifestos Project (E-RMP). Using this taxonomy, we have validated our approach analysing the Twitter activity of the main Spanish political parties during 2015 and 2016 Spanish general election and providing a study of their discourse.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": 7,
+    "year": 2018,
+    "month": "July",
+    "title": "Political discourse classification in social networks using context sensitive convolutional neural networks"
 }

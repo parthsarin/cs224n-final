@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research is supported by an internal grant from the Learning Research and Development Center at the University of Pittsburgh. This indicates that the funding comes from an academic institution's internal resources, rather than external defense, corporate, research agency, or foundation sources. Therefore, none of the specified external funding sources were involved."
+    "reasoning": "Reasoning: The article explicitly mentions that the research is supported by an internal grant from the Learning Research and Development Center at the University of Pittsburgh. This indicates that the funding comes from an academic institution's internal resources, rather than external defense, corporate, research agency, or foundation sources. Therefore, none of the specified external funding sources were involved.",
+    "abstract": "Student course feedback is generated daily in both classrooms and online course discussion forums. Traditionally, instructors manually analyze these responses in a costly manner. In this work, we propose a new approach to summarizing student course feedback based on the integer linear programming (ILP) framework. Our approach allows different student responses to share co-occurrence statistics and alleviates sparsity issues. Experimental results on a student feedback corpus show that our approach outperforms a range of baselines in terms of both ROUGE scores and human evaluation.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 22,
+    "year": 2016,
+    "month": "June",
+    "title": "Automatic Summarization of Student Course Feedback"
 }

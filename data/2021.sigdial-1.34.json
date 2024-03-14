@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9999529604543941
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "Discourse parsers recognize the intentional and inferential relationships that organize extended texts. They have had a great influence on a variety of NLP tasks as well as theoretical studies in linguistics and cognitive science. However it is often difficult to achieve good results from current discourse models, largely due to the difficulty of the task, particularly recognizing implicit discourse relations. Recent developments in transformer-based models have shown great promise on these analyses, but challenges still remain. We present a position paper which provides a systematic analysis of the state of the art discourse parsers. We aim to examine the performance of current discourse parsing models via gradual domain shift: within the same corpus, on in-domain texts, and on out-of-domain texts, and discuss the differences between the transformer-based models and the previous models in predicting different types of implicit relations both interand intra-sentential. We conclude by describing several shortcomings of the existing models and a discussion of how future work should approach this problem.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2021,
+    "month": "July",
+    "title": "Where Are We in Discourse Relation Recognition?"
 }

@@ -7,5 +7,16 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented.",
+    "abstract": "A mind-map is a diagram that represents the central concept and key ideas in a hierarchical way. Converting plain text into a mindmap will reveal its key semantic structure and be easier to understand. Given a document, the existing automatic mind-map generation method extracts the relationships of every sentence pair to generate the directed semantic graph for this document. The computation complexity increases exponentially with the length of the document. Moreover, it is difficult to capture the overall semantics. To deal with the above challenges, we propose an efficient mind-map generation network that converts a document into a graph via sequenceto-graph. To guarantee a meaningful mindmap, we design a graph refinement module to adjust the relation graph in a reinforcement learning manner. Extensive experimental results demonstrate that the proposed approach is more effective and efficient than the existing methods. The inference time is reduced by thousands of times compared with the existing methods. The case studies verify that the generated mind-maps better reveal the underlying semantic structures of the document.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "November",
+    "title": "Efficient Mind-Map Generation via Sequence-to-Graph and Reinforced Graph Refinement"
 }

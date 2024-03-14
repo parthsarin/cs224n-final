@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research.",
+    "abstract": "This paper presents a neural network system where we participate in the first task of SemEval-2020 shared task 7 \"Assessing the Funniness of Edited News Headlines\". Our target is to create a neural network model that predicts the funniness of edited headlines. We build our model using a combination of LSTM and TF-IDF, then a feed-forward neural network. The system manages to slightly improve RSME scores regarding our mean score baseline. 1",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "December",
+    "title": "Funny3 at {S}em{E}val-2020 Task 7: Humor Detection of Edited Headlines with {LSTM} and {TFIDF} Neural Network System"
 }

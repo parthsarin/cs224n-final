@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.9603604367864075
     },
-    "reasoning": "Reasoning: The article reports on work performed at the MITRE Corporation under the support of the MITRE Sponsored Research Program. The MITRE Corporation is a not-for-profit organization that operates research and development centers sponsored by the federal government of the United States. It does not explicitly mention funding from defense, corporate entities, specific research agencies, or foundations. Therefore, the funding does not fall under the specified categories of defense, corporate, research agency, or foundation in the traditional sense, but it is not correct to say there was no funding source."
+    "reasoning": "Reasoning: The article reports on work performed at the MITRE Corporation under the support of the MITRE Sponsored Research Program. The MITRE Corporation is a not-for-profit organization that operates research and development centers sponsored by the federal government of the United States. It does not explicitly mention funding from defense, corporate entities, specific research agencies, or foundations. Therefore, the funding does not fall under the specified categories of defense, corporate, research agency, or foundation in the traditional sense, but it is not correct to say there was no funding source.",
+    "abstract": "Determining the attachments of prepositions and subordinate conjunctions is a key problem in parsing natural language. This paper presents a trainable approach to making these attachments through transformation sequences and error-driven learning. Our approach is broad coverage, and accounts for roughly three times the attachment cases that have previously been handled by corpus-based techniques. In addition, our approach is based on a simplified model of syntax that is more consistent with the practice in current state-of-the-art language processing systems. This paper sketches syntactic and algorithmic details, and presents experimental results on data sets derived from the Penn Treebank. We obtain an attachment accuracy of 75.4% for the general case, the first such corpus-based result to be reported. For the restricted cases previously studied with corpusbased methods, our approach yields an accuracy comparable to current work (83.1%). * This paper reports on work performed at the MITRE Corporation under the support of the MITRE Sponsored Research Program. Useful advice was provided by Lynette Hirschman and David Palmer. The experiments made use of Morgan Pecelli's noun/verb group annotations and some of David Day's programs.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 30,
+    "year": 1998,
+    "month": "August",
+    "title": "Some Properties of Preposition and Subordinate Conjunction Attachments"
 }

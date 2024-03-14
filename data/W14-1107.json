@@ -7,5 +7,16 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding sources, it is not possible to determine the presence of funding from the described categories based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding sources, it is not possible to determine the presence of funding from the described categories based on the provided text.",
+    "abstract": "Semantic Role Labeling (SRL) plays an important role in different text mining tasks. The development of SRL systems for the biomedical area is frustrated by the lack of large-scale domain specific corpora that are annotated with semantic roles. In our previous work, we proposed a method for building FramenNet-like corpus for the area using domain knowledge provided by ontologies. In this paper, we present a framework for supporting the method and the system which we developed based on the framework. In the system we have developed the algorithms for selecting appropriate concepts to be translated into semantic frames, for capturing the information that describes frames from ontology terms, and for collecting example sentence using ontological knowledge.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2014,
+    "month": "April",
+    "title": "A System for Building {F}rame{N}et-like Corpus for the Biomedical Domain"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research.",
+    "abstract": "This paper describes the Data61-CSIRO text classification systems submitted as part of the CLPsych 2016 shared task. The aim of the shared task is to develop automated systems that can help mental health professionals with the process of triaging posts with ideations of depression and/or self-harm. We structured our participation in the CLPsych 2016 shared task in order to focus on different facets of modelling online forum discussions: (i) vector space representations; (ii) different text granularities; and (iii) fine-versus coarse-grained labels indicating concern. We achieved an F1score of 0.42 using an ensemble classification approach that predicts fine-grained labels of concern. This was the best score obtained by any submitted system in the 2016 shared task. * This work was performed while Yufei was at CSIRO.",
+    "countries": [
+        "Australia"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 26,
+    "year": 2016,
+    "month": "June",
+    "title": "{D}ata61-{CSIRO} systems at the {CLP}sych 2016 Shared Task"
 }

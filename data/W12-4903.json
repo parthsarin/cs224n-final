@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.9993728249265579
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "We present in this paper a robust method for predicting reading times. Robustness first comes from the conception of the difficulty model, which is based on a morpho-syntactic surprisal index. This metric is not only a good predictor, as shown in the paper, but also intrinsically robust (because relying on POS-tagging instead of parsing). Second, robustness also concerns data analysis: we propose to enlarge the scope of reading processing units by using syntactic chunks instead of words. As a result, words with null reading time do not need any special treatment or filtering. It appears that working at chunks scale smooths out the variability inherent to the different reader's strategy. The pilot study presented in this paper applies this technique to a new resource we have built, enriching a French treebank with eye-tracking data and difficulty prediction measures.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French",
+        "English"
+    ],
+    "numcitedby": 15,
+    "year": 2012,
+    "month": "December",
+    "title": "Robustness and processing difficulty models. A pilot study for eye-tracking data on the {F}rench Treebank"
 }

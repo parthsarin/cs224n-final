@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, or foundations. It focuses on the development and characteristics of the CMN2 corpus and its use in NIST Speaker Recognition Evaluations, without specifying how the project was financed."
+    "reasoning": "Reasoning: The article does not explicitly mention any funding sources, including defense, corporate, research agencies, or foundations. It focuses on the development and characteristics of the CMN2 corpus and its use in NIST Speaker Recognition Evaluations, without specifying how the project was financed.",
+    "abstract": "We introduce the Call My Net 2 (CMN2) Corpus, a new resource for speaker recognition featuring Tunisian Arabic conversations between friends and family, incorporating both traditional telephony and VoIP data. The corpus contains data from over 400 Tunisian Arabic speakers collected via a custom-built platform deployed in Tunis, with each speaker making 10 or more calls each lasting up to 10 minutes. Calls include speech in various realistic and natural acoustic settings, both noisy and non-noisy. Speakers used a variety of handsets, including landline and mobile devices, and made VoIP calls from tablets or computers. All calls were subject to a series of manual and automatic quality checks, including speech duration, audio quality, language identity and speaker identity. The CMN2 corpus has been used in two NIST Speaker Recognition Evaluations (SRE18 and SRE19), and the SRE test sets as well as the full CMN2 corpus will be published in the Linguistic Data Consortium Catalog. We describe CMN2 corpus requirements, the telephone collection platform, and procedures for call collection. We review properties of the CMN2 dataset and discuss features of the corpus that distinguish it from prior SRE collection efforts, including some of the technical challenges encountered with collecting VoIP data.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "May",
+    "title": "Call My Net 2: A New Resource for Speaker Recognition"
 }

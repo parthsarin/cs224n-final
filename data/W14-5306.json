@@ -7,5 +7,19 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the development of the CoVaNa-FR corpus archive or the Varitext platform. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the development of the CoVaNa-FR corpus archive or the Varitext platform. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "This paper reports on the francophone corpus archive Corpus des vari\u00e9t\u00e9s nationales du fran\u00e7ais (CoVaNa-FR) and the lexico-statistical platform Varitext. It outlines the design and data format of the samples as well as presenting various usage scenarios related to the applications featured by the platform's toolbox.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "Arabic",
+        "Portuguese",
+        "French",
+        "Russian"
+    ],
+    "numcitedby": 1,
+    "year": 2014,
+    "month": "August",
+    "title": "The Varitext platform and the Corpus des vari{\\'e}t{\\'e}s nationales du fran{\\c{c}}ais ({C}o{V}a{N}a-{FR}) as resources for the study of {F}rench from a pluricentric perspective"
 }

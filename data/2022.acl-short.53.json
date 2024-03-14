@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the work was funded by the Swiss National Science Foundation, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly states that the work was funded by the Swiss National Science Foundation, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Omission and addition of content is a typical issue in neural machine translation. We propose a method for detecting such phenomena with off-the-shelf translation models. Using contrastive conditioning, we compare the likelihood of a full sequence under a translation model to the likelihood of its parts, given the corresponding source or target sequence.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 1,
+    "year": 2022,
+    "month": "May",
+    "title": "As Little as Possible, as Much as Necessary: Detecting Over- and Undertranslations with Contrastive Conditioning"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9999915813694369
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of no funding. Without direct evidence of funding, we cannot assume the involvement of any particular source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of no funding. Without direct evidence of funding, we cannot assume the involvement of any particular source.",
+    "abstract": "Compositional generalization is the ability to generalize systematically to a new data distribution by combining known components. Although humans seem to have a great ability to generalize compositionally, state-of-the-art neural models struggle to do so. In this work, we study compositional generalization in classification tasks and present two main contributions. First, we study ways to convert a natural language sequence-to-sequence dataset to a classification dataset that also requires compositional generalization. Second, we show that providing structural hints (specifically, providing parse trees and entity links as attention masks for a Transformer model) helps compositional generalization.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 3,
+    "year": 2021,
+    "month": "August",
+    "title": "Improving Compositional Generalization in Classification Tasks via Structure Annotations"
 }

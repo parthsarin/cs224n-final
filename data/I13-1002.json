@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions financial support from NSFC Grant 61073082 and NSFC Grant 61272340. NSFC stands for the National Natural Science Foundation of China, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate, foundation sources, or an indication that there was no funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions financial support from NSFC Grant 61073082 and NSFC Grant 61272340. NSFC stands for the National Natural Science Foundation of China, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate, foundation sources, or an indication that there was no funding.",
+    "abstract": "Automatic keyphrase extraction aims to pick out a set of terms as a representation of a document without manual assignment efforts. Supervised and unsupervised graph-based ranking methods have been studied for this task. However, previous methods usually computed importance scores of words under the assumption of single relation between words. In this work, we propose WordTopic-MultiRank as a new method for keyphrase extraction, based on the idea that words relate with each other via multiple relations. First we treat various latent topics in documents as heterogeneous relations between words and construct a multi-relational word network. Then, a novel ranking algorithm, named Biased-MultiRank, is applied to score the importance of words and topics simultaneously, as words and topics are considered to have mutual influence on each other. Experimental results on two different data sets show the outstanding performance and robustness of our proposed approach in automatic keyphrase extraction task.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Wan"
+    ],
+    "numcitedby": 8,
+    "year": 2013,
+    "month": "October",
+    "title": "{W}ord{T}opic-{M}ulti{R}ank: A New Method for Automatic Keyphrase Extraction"
 }

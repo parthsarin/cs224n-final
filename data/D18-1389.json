@@ -7,5 +7,18 @@
         "foundation": 1.981665536443522e-06,
         "none": 0.9999996871837189
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions collaboration between the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) and the Qatar Computing Research Institute (QCRI), HBKU. However, it does not explicitly mention funding from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source based on the information provided."
+    "reasoning": "Reasoning: The acknowledgments section mentions collaboration between the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL) and the Qatar Computing Research Institute (QCRI), HBKU. However, it does not explicitly mention funding from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source based on the information provided.",
+    "abstract": "We present a study on predicting the factuality of reporting and bias of news media. While previous work has focused on studying the veracity of claims or documents, here we are interested in characterizing entire news media. These are under-studied but arguably important research problems, both in their own right and as a prior for fact-checking systems. We experiment with a large list of news websites and with a rich set of features derived from (i) a sample of articles from the target news medium, (ii) its Wikipedia page, (iii) its Twitter account, (iv) the structure of its URL, and (v) information about the Web traffic it attracts. The experimental results show sizable performance gains over the baselines, and confirm the importance of each feature type.",
+    "countries": [
+        "Qatar",
+        "Bulgaria",
+        "United States"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 152,
+    "year": 2018,
+    "month": "October-November",
+    "title": "Predicting Factuality of Reporting and Bias of News Media Sources"
 }

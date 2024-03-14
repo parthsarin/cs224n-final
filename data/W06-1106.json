@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9999998063873687
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "We design and test a sentence comparison method using the framework of Robust Minimal Recursion Semantics which allows us to utilise the deep parse information produced by Jacy, a Japanese HPSG based parser and the lexical information available in our ontology. Our method was used for both paraphrase detection and also for answer sentence selection for question answering. In both tasks, results showed an improvement over Bag-of-Words, as well as providing extra information useful to the applications.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 8,
+    "year": 2006,
+    "month": "July",
+    "title": "Sentence Comparison Using Robust {M}inimal {R}ecursion {S}emantics and an Ontology"
 }

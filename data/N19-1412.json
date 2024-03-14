@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions support from NSF (National Science Foundation), which is a government-funded organization providing grants for research, and DARPA's CwC program through ARO (Army Research Office), which is associated with the Department of Defense. There is no mention of funding from corporate sources, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions support from NSF (National Science Foundation), which is a government-funded organization providing grants for research, and DARPA's CwC program through ARO (Army Research Office), which is associated with the Department of Defense. There is no mention of funding from corporate sources, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Understanding procedural language requires reasoning about both hierarchical and temporal relations between events. For example, \"boiling pasta\" is a sub-event of \"making a pasta dish\", typically happens before \"draining pasta,\" and requires the use of omitted tools (e.g. a strainer, sink...). While people are able to choose when and how to use abstract versus concrete instructions, the NLP community lacks corpora and tasks for evaluating if our models can do the same. In this paper, we introduce KIDSCOOK, a parallel script corpus, as well as a cloze task which matches video captions with missing procedural details. Experimental results show that state-of-the-art models struggle at this task, which requires inducing functional commonsense knowledge not explicitly stated in text. * Author now at Google. Work done while unaffiliated. 1. Take the strainer with the pasta and pour the pasta into the sauce. 2. Stir the pasta into sauce while it is in the pan. 3. Let the pasta and sauce simmer for a few minutes.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 8,
+    "year": 2019,
+    "month": "June",
+    "title": "Benchmarking Hierarchical Script Knowledge"
 }

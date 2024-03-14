@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the involvement of any of these entities based solely on the content provided."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the involvement of any of these entities based solely on the content provided.",
+    "abstract": "The paper describes the development of a wide-coverage type-logical grammar for French, which has been extracted from the Paris 7 treebank and received a significant amount of manual verification and cleanup. The resulting treebank is evaluated using a supertagger and performs at a level comparable to the best supertagging results for English. R\u00e9sum\u00e9. Cet article d\u00e9crit le d\u00e9veloppement d'une grammaire cat\u00e9gorielle \u00e0 large couverture du Fran\u00e7ais, extraite \u00e0 partir du corpus arbor\u00e9 de Paris 7 et v\u00e9rifi\u00e9e et corrig\u00e9e manuellement. Le grammaire cat\u00e9gorielle r\u00e9sultant est \u00e9valu\u00e9e en utilisant un supertagger et obtient des r\u00e9sultats comparables aux meilleurs supertaggers pour l'Anglais.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French",
+        "English"
+    ],
+    "numcitedby": 26,
+    "year": 2010,
+    "month": "July",
+    "title": "Semi-automated Extraction of a Wide-Coverage Type-Logical Grammar for {F}rench"
 }

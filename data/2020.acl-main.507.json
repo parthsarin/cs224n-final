@@ -7,5 +7,16 @@
         "foundation": 0.9411294993523083,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Elemental Cognition, NSF grant IIS-1815529, a Google Faculty Research Award, and a Newton Brain Science Award to RPL. Elemental Cognition is a corporate entity, NSF (National Science Foundation) is a research agency, Google is a corporate entity providing a faculty research award, and the Newton Brain Science Award could be considered as foundation support if it is provided by a non-profit organization, though this is not explicitly stated. There is no mention of defense funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Elemental Cognition, NSF grant IIS-1815529, a Google Faculty Research Award, and a Newton Brain Science Award to RPL. Elemental Cognition is a corporate entity, NSF (National Science Foundation) is a research agency, Google is a corporate entity providing a faculty research award, and the Newton Brain Science Award could be considered as foundation support if it is provided by a non-profit organization, though this is not explicitly stated. There is no mention of defense funding.",
+    "abstract": "We present STARC (Structured Annotations for Reading Comprehension), a new annotation framework for assessing reading comprehension with multiple choice questions. Our framework introduces a principled structure for the answer choices and ties them to textual span annotations. The framework is implemented in OneStopQA, a new high-quality dataset for evaluation and analysis of reading comprehension in English. We use this dataset to demonstrate that STARC can be leveraged for a key new application for the development of SAT-like reading comprehension materials: automatic annotation quality probing via span ablation experiments. We further show that it enables in-depth analyses and comparisons between machine and human reading comprehension behavior, including error distributions and guessing ability. Our experiments also reveal that the standard multiple choice dataset in NLP, RACE (Lai et al., 2017) , is limited in its ability to measure reading comprehension. 47% of its questions can be guessed by machines without accessing the passage, and 18% are unanimously judged by humans as not having a unique correct answer. OneStopQA provides an alternative test set for reading comprehension which alleviates these shortcomings and has a substantially higher human ceiling performance. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2020,
+    "month": "July",
+    "title": "{STARC}: Structured Annotations for Reading Comprehension"
 }

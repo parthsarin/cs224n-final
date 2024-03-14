@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the work was partially supported by MEXT/JSPS KAKENHI Grant Number 24240021 and 26540165. MEXT (Ministry of Education, Culture, Sports, Science and Technology) and JSPS (Japan Society for the Promotion of Science) are both Japanese government agencies that fund scientific research, which classifies them as research agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the work was partially supported by MEXT/JSPS KAKENHI Grant Number 24240021 and 26540165. MEXT (Ministry of Education, Culture, Sports, Science and Technology) and JSPS (Japan Society for the Promotion of Science) are both Japanese government agencies that fund scientific research, which classifies them as research agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "In utilizing nanodevice development research papers to assist in experimental planning and design, it is useful to identify and annotate characteristic categories of information contained in those papers such as source material, evaluation parameter, etc. In order to support this annotation process, we have been working to construct a nanodevice development corpus and a complementary automatic annotation scheme. Due to the variations of terms, however, recall of the automatic annotation in some information categories was not adequate. In this paper, we propose to use a basic physical quantities list to extract parameter information. We confirmed the efficiency of this method to improve the annotation of parameters. Recall for parameters increases between 4% and 7% depending on the type of parameter and analysis metric.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 4,
+    "year": 2014,
+    "month": "August",
+    "title": "Automatic Annotation of Parameters from Nanodevice Development Research Papers"
 }

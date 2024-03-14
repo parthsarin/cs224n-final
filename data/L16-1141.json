@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges partial funding from the European Union's FP7 via the NewsReader Project (ICT-316404), which is a research program funded by the European Union, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or other sources not listed."
+    "reasoning": "Reasoning: The article acknowledges partial funding from the European Union's FP7 via the NewsReader Project (ICT-316404), which is a research program funded by the European Union, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or other sources not listed.",
+    "abstract": "We introduce PreMOn (predicate model for ontologies), a linguistic resource for exposing predicate models (PropBank, NomBank,  VerbNet, and FrameNet)  and mappings between them (e.g, SemLink) as Linked Open Data. It consists of two components: (i) the PreMOn Ontology, an extension of the lemon model by the W3C Ontology-Lexica Community Group, that enables to homogeneously represent data from the various predicate models; and, (ii) the PreMOn Dataset, a collection of RDF datasets integrating various versions of the aforementioned predicate models and mapping resources. PreMOn is freely available and accessible online in different ways, including through a dedicated SPARQL endpoint.",
+    "countries": [
+        "Italy",
+        "Europe"
+    ],
+    "languages": [],
+    "numcitedby": 15,
+    "year": 2016,
+    "month": "May",
+    "title": "{P}re{MO}n: a Lemon Extension for Exposing Predicate Models as Linked Data"
 }

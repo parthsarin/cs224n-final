@@ -7,5 +7,17 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the ArguAna Project GU 798/20-1 (DFG), and by the DFG-funded research training group \"Adaptive Preparation of Information from Heterogeneous Sources\" (AIPHES, GRK 1994/1). DFG stands for the German Research Foundation, a research funding agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the ArguAna Project GU 798/20-1 (DFG), and by the DFG-funded research training group \"Adaptive Preparation of Information from Heterogeneous Sources\" (AIPHES, GRK 1994/1). DFG stands for the German Research Foundation, a research funding agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "As argumentation about controversies is culture-and language-dependent, porting a serious game that deals with daily argumentation to another language requires substantial adaptation. This article presents a study of deploying Argotario (serious game for learning argumentation fallacies) in the German context. We examine all steps that are necessary to end up with a successful serious game platform, such as topic selection, initial data creation, or effective campaigns. Moreover, we analyze users' behavior and in-game created data in order to assess the dissemination strategies and qualitative aspects of the resulting corpus. We also report on classification experiments based on neural networks and feature-based models.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 19,
+    "year": 2018,
+    "month": "May",
+    "title": "Adapting Serious Game for Fallacious Argumentation to {G}erman: Pitfalls, Insights, and Best Practices"
 }

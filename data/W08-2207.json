@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from KNOW (TIN2006-15049-C03-01) and KYOTO (ICT-2007-211423), which appear to be project codes likely associated with research agency funding, given their format and context. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from KNOW (TIN2006-15049-C03-01) and KYOTO (ICT-2007-211423), which appear to be project codes likely associated with research agency funding, given their format and context. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding.",
+    "abstract": "This paper presents a new fully automatic method for building highly dense and accurate knowledge bases from existing semantic resources. Basically, the method uses a wide-coverage and accurate knowledgebased Word Sense Disambiguation algorithm to assign the most appropriate senses to large sets of topically related words acquired from the web. KnowNet, the resulting knowledge-base which connects large sets of semantically-related concepts is a major step towards the autonomous acquisition of knowledge from raw corpora. In fact, KnowNet is several times larger than any available knowledge resource encoding relations between synsets, and the knowledge that KnowNet contains outperform any other resource when empirically evaluated in a common multilingual framework.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Spanish",
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2008,
+    "month": "",
+    "title": "{K}now{N}et: A Proposal for Building Highly Connected and Dense Knowledge Bases from the {W}eb"
 }

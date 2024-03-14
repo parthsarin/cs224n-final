@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.9976028457740902
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research conducted. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the content provided."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research conducted. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the content provided.",
+    "abstract": "The paper presents experiments with active learning methods for the acquisition of training data in the context of machine translation. We propose a confidencebased method which is superior to the state-of-the-art method both in terms of quality and complexity. Additionally, we discovered that oracle selection techniques that use real quality scores lead to poor results, making the effectiveness of confidence-driven methods of active learning for machine translation questionable.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": 5,
+    "year": 2014,
+    "month": "April",
+    "title": "Confidence-based Active Learning Methods for Machine Translation"
 }

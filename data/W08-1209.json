@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that Plaban Kr. Bhowmick is partially supported by Microsoft Corporation, USA and Media Lab Asia, India. Microsoft Corporation is a for-profit company, indicating corporate funding. Media Lab Asia is a collaboration between the Indian government and the Massachusetts Institute of Technology (MIT), but since it is not described as a foundation or a defense-related entity, it is most closely associated with a research agency due to its focus on research and development in technology for societal benefits. There is no mention of defense or foundation funding, and since there is funding mentioned, it cannot be classified as none."
+    "reasoning": "Reasoning: The article explicitly mentions that Plaban Kr. Bhowmick is partially supported by Microsoft Corporation, USA and Media Lab Asia, India. Microsoft Corporation is a for-profit company, indicating corporate funding. Media Lab Asia is a collaboration between the Indian government and the Massachusetts Institute of Technology (MIT), but since it is not described as a foundation or a defense-related entity, it is most closely associated with a research agency due to its focus on research and development in technology for societal benefits. There is no mention of defense or foundation funding, and since there is funding mentioned, it cannot be classified as none.",
+    "abstract": "An affective text may be judged to belong to multiple affect categories as it may evoke different affects with varying degree of intensity. For affect classification of text, it is often required to annotate text corpus with affect categories. This task is often performed by a number of human judges. This paper presents a new agreement measure inspired by Kappa coefficient to compute inter-annotator reliability when the annotators have freedom to categorize a text into more than one class. The extended reliability coefficient has been applied to measure the quality of an affective text corpus. An analysis of the factors that influence corpus quality has been provided.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 42,
+    "year": 2008,
+    "month": "August",
+    "title": "An Agreement Measure for Determining Inter-Annotator Reliability of Human Judgements on Affective Text"
 }

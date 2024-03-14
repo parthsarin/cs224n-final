@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Natural Science Foundation of China and the National Social Science Foundation of China, which are government-funded organizations providing grants for research. It also mentions support from the Open Projects Program of Key Laboratory of Computational Linguistics (Peking University), Ministry of Education, which is likely a research agency or educational institution funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Natural Science Foundation of China and the National Social Science Foundation of China, which are government-funded organizations providing grants for research. It also mentions support from the Open Projects Program of Key Laboratory of Computational Linguistics (Peking University), Ministry of Education, which is likely a research agency or educational institution funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Sentiment ambiguous adjectives cause major difficulties for existing algorithms of sentiment analysis. We present an evaluation task designed to provide a framework for comparing different approaches in this problem. We define the task, describe the data creation, list the participating systems and discuss their results. There are 8 teams and 16 systems.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 32,
+    "year": 2010,
+    "month": "July",
+    "title": "{S}em{E}val-2010 Task 18: Disambiguating Sentiment Ambiguous Adjectives"
 }

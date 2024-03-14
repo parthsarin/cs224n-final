@@ -7,5 +7,14 @@
         "foundation": 9.088342269869543e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the DARPA funded Big Mechanism Project, which is a branch of the United States Department of Defense, indicating defense funding. It also mentions support from the EPSRC funded Centre for Doctoral Training in Computer Science, which is a UK research agency providing grants for research. There is no mention of corporate or foundation funding, and since there are specific funding sources mentioned, it cannot be classified as having no funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from the DARPA funded Big Mechanism Project, which is a branch of the United States Department of Defense, indicating defense funding. It also mentions support from the EPSRC funded Centre for Doctoral Training in Computer Science, which is a UK research agency providing grants for research. There is no mention of corporate or foundation funding, and since there are specific funding sources mentioned, it cannot be classified as having no funding.",
+    "abstract": "Biomedical event extraction systems have the potential to provide a reliable means of enhancing knowledge resources and mining the scientific literature. However, to achieve this goal, it is necessary that current event extraction models are improved, such that they can be applied confidently to unseen data with a minimal rate of error. Motivated by this requirement, this work targets a particular type of error, namely partial events, where an event is missing one or more arguments. Specifically, we attempt to improve the performance of a state-of-the-art event extraction tool, EventMine, when applied to a new cancer pathway curation corpus. We propose a post-processing ranking approach based on relaxed constraints, in order to reconsider the candidate arguments for each event trigger, and suggest possible new arguments. The proposed methodology, applicable to the output of any event extraction system, achieves an improvement in argument recall of 2%-4% when applied to EventMine output, and thus constitutes a promising direction for further developments.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2015,
+    "month": "July",
+    "title": "Event Extraction in pieces:Tackling the partial event identification problem on unseen corpora"
 }

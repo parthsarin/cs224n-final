@@ -7,5 +7,14 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Precision Health initiative at the University of Michigan, the National Science Foundation (grant #1815291), and the John Templeton Foundation (grant #61156). The Precision Health initiative is a university-based program, the National Science Foundation is a government-funded research agency, and the John Templeton Foundation is a philanthropic foundation. There is no mention of funding from defense or corporate sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Precision Health initiative at the University of Michigan, the National Science Foundation (grant #1815291), and the John Templeton Foundation (grant #61156). The Precision Health initiative is a university-based program, the National Science Foundation is a government-funded research agency, and the John Templeton Foundation is a philanthropic foundation. There is no mention of funding from defense or corporate sources.",
+    "abstract": "A growing number of people engage in online health forums, making it important to understand the quality of the advice they receive. In this paper, we explore the role of expertise in responses provided to help-seeking posts regarding mental health. We study the differences between (1) interactions with peers; and (2) interactions with self-identified mental health professionals. First, we show that a classifier can distinguish between these two groups, indicating that their language use does in fact differ. To understand this difference, we perform several analyses addressing engagement aspects, including whether their comments engage the support-seeker further as well as linguistic aspects, such as dominant language and linguistic style matching. Our work contributes toward the developing efforts of understanding how health experts engage with health information-and support-seekers in social networks. More broadly, it is a step toward a deeper understanding of the styles of interactions that cultivate supportive engagement in online communities.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 7,
+    "year": 2021,
+    "month": "August",
+    "title": "Exploring Self-Identified Counseling Expertise in Online Support Forums"
 }

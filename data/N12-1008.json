@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions the support of the DARPA Machine Reading Program under AFRL prime contract no. FA8750-09-C0172. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense, which classifies it as a defense funding source. There is no mention of corporate, research agency, foundation funding, or a lack of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions the support of the DARPA Machine Reading Program under AFRL prime contract no. FA8750-09-C0172. DARPA (Defense Advanced Research Projects Agency) is an agency of the United States Department of Defense, which classifies it as a defense funding source. There is no mention of corporate, research agency, foundation funding, or a lack of funding.",
+    "abstract": "This paper addresses the extraction of event records from documents that describe multiple events. Specifically, we aim to identify the fields of information contained in a document and aggregate together those fields that describe the same event. To exploit the inherent connections between field extraction and event identification, we propose to model them jointly. Our model is novel in that it integrates information from separate sequential models, using global potentials that encourage the extracted event records to have desired properties. While the model contains high-order potentials, efficient approximate inference can be performed with dualdecomposition. We experiment with two data sets that consist of newspaper articles describing multiple terrorism events, and show that our model substantially outperforms traditional pipeline models.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 38,
+    "year": 2012,
+    "month": "June",
+    "title": "Multi-Event Extraction Guided by Global Constraints"
 }

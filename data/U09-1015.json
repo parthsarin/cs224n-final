@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partially supported by the Capital Markets Cooperative Research Centre Limited, which suggests corporate funding due to the nature of the organization being a cooperative research centre that typically involves partnerships between universities and businesses. There is no mention of defense, research agencies, foundations, or a lack of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partially supported by the Capital Markets Cooperative Research Centre Limited, which suggests corporate funding due to the nature of the organization being a cooperative research centre that typically involves partnerships between universities and businesses. There is no mention of defense, research agencies, foundations, or a lack of funding.",
+    "abstract": "The accuracy of named entity recognition systems relies heavily upon the volume and quality of available training data. Improving the process of automatically producing such training data is an important task, as manual acquisition is both time consuming and expensive. We explore the use of a variety of machine learning algorithms for categorising Wikipedia articles, an initial step in producing the named entity training data. We were able to achieve a categorisation accuracy of 95% F -score over six coarse categories, an improvement of up to 5% F -score over previous methods.",
+    "countries": [
+        "Australia"
+    ],
+    "languages": [],
+    "numcitedby": 24,
+    "year": 2009,
+    "month": "December",
+    "title": "Improved Text Categorisation for {W}ikipedia Named Entities"
 }

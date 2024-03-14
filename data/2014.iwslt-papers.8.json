@@ -7,5 +7,20 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the provided information.",
+    "abstract": "In this paper we explore segmentation strategies for the stream decoder -a method for decoding from a continuous stream of input tokens, rather than the traditional method of decoding from sentence segmented text. The behavior of the decoder is analyzed and modifications to the decoding algorithm are proposed to improve its performance. The experimental results show our proposed decoding strategies to be effective, and add support to the original findings that this approach is capable of approaching the performance of the underlying phrase-based machine translation decoder, at useful levels of latency. Our experiments evaluated the stream decoder on a broader set of language pairs than in previous work. We found most European language pairs were similar in character, and report results on English-Chinese and English-German pairs which are of interest due to the reordering required.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "German",
+        "Japanese",
+        "Chinese",
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 5,
+    "year": 2014,
+    "month": "December 4-5",
+    "title": "An exploration of segmentation strategies in stream decoding"
 }

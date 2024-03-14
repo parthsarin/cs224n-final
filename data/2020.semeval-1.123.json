@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research.",
+    "abstract": "Code-switching is a phenomenon in which two or more languages are used in the same message. Nowadays, it is quite common to find messages with languages mixed in social media. This phenomenon presents a challenge for sentiment analysis. In this paper, we use a standard convolutional neural network model to predict the sentiment of tweets in a blend of Spanish and English languages. Our simple approach achieved a F1-score of 0.71 on test set on the competition. We analyze our best model capabilities and perform error analysis to expose important difficulties for classifying sentiment in a code-switching setting.",
+    "countries": [
+        "Mexico"
+    ],
+    "languages": [
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 5,
+    "year": 2020,
+    "month": "December",
+    "title": "{NLP}-{CIC} at {S}em{E}val-2020 Task 9: Analysing Sentiment in Code-switching Language Using a Simple Deep-learning Classifier"
 }

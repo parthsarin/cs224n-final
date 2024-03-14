@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges the National Science Foundation of China (NO. NSFC90920006) for partial support of the research. The National Science Foundation of China is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges the National Science Foundation of China (NO. NSFC90920006) for partial support of the research. The National Science Foundation of China is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "In this paper we describe our participation in the SIGHAN 2010 Task-3 (Person Name Disambiguation) and detail our approaches. Person Name Disambiguation is typically viewed as an unsupervised clustering problem where the aim is to partition a name's contexts into different clusters, each representing a real world people. The key point of Clustering is the similarity measure of context, which depends upon the features selection and representation. Two clustering algorithms, HAC and DBSCAN, are investigated in our system. The experiments show that the topic features learned by LDA outperforms token features and more robust.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 8,
+    "year": 2010,
+    "month": "",
+    "title": "Person Name Disambiguation based on Topic Model"
 }

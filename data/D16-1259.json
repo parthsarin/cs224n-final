@@ -7,5 +7,14 @@
         "foundation": 1.1472413419255645e-06,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions financial support from Microsoft Research, St John's College Cambridge, and the Cambridge University Computer Laboratory. Microsoft Research is a division of Microsoft, which is a for-profit corporation. St John's College Cambridge and the Cambridge University Computer Laboratory are academic institutions, which do not fall under the provided categories of defense, corporate, research agency, or foundation in the traditional sense. They do not represent a research agency, foundation, or defense funding source as defined. Therefore, the funding is from a corporate source."
+    "reasoning": "Reasoning: The article explicitly mentions financial support from Microsoft Research, St John's College Cambridge, and the Cambridge University Computer Laboratory. Microsoft Research is a division of Microsoft, which is a for-profit corporation. St John's College Cambridge and the Cambridge University Computer Laboratory are academic institutions, which do not fall under the provided categories of defense, corporate, research agency, or foundation in the traditional sense. They do not represent a research agency, foundation, or defense funding source as defined. Therefore, the funding is from a corporate source.",
+    "abstract": "This paper presents a generic approach to content selection for creating timelines from individual history articles for which no external information about the same topic is available. This scenario is in contrast to existing works on timeline generation, which require the presence of a large corpus of news articles. To identify salient events in a given history article, we exploit lexical cues about the article's subject area, as well as time expressions that are syntactically attached to an event word. We also test different methods of ensuring timeline coverage of the entire historical time span described. Our best-performing method outperforms a new unsupervised baseline and an improved version of an existing supervised approach. We see our work as a step towards more semantically motivated approaches to single-document summarisation.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 2,
+    "year": 2016,
+    "month": "November",
+    "title": "Unsupervised Timeline Generation for {W}ikipedia History Articles"
 }

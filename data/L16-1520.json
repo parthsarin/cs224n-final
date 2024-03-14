@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was carried out in the framework of the Short Term Mobility program of international exchanges funded by the National Research Council (CNR, Italy), which qualifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was carried out in the framework of the Short Term Mobility program of international exchanges funded by the National Research Council (CNR, Italy), which qualifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "In this paper, we illustrate the integration of an online dialectometric tool, Gabmap, together with an online dialect atlas, the Atlante Lessicale Toscano (ALT-Web). By using a newly created url-based interface to Gabmap, ALT-Web is able to take advantage of the sophisticated dialect visualization and exploration options incorporated in Gabmap. For example, distribution maps showing the distribution in the Tuscan dialect area of a specific dialectal form (selected via the ALT-Web website) are easily obtainable. Furthermore, the complete ALT-Web dataset as well as subsets of the data (selected via the ALT-Web website) can be automatically uploaded and explored in Gabmap. By combining these two online applications, macro-and micro-analyses of dialectal data (respectively offered by Gabmap and ALT-Web) are effectively and dynamically combined.",
+    "countries": [
+        "Netherlands",
+        "Italy"
+    ],
+    "languages": [
+        "Italian",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2016,
+    "month": "May",
+    "title": "{ALT} Explored: Integrating an Online Dialectometric Tool and an Online Dialect Atlas"
 }

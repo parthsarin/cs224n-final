@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the EC project SIMPATICO (H2020-EURO-6-2015, grant number 692819), which is a European Commission project under the Horizon 2020 research and innovation program. This indicates funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions support from the EC project SIMPATICO (H2020-EURO-6-2015, grant number 692819), which is a European Commission project under the Horizon 2020 research and innovation program. This indicates funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "The lack of large and reliable datasets has been hindering progress in Text Simplification (TS). We investigate the application of the recently created Newsela corpus, the largest collection of professionally written simplifications available, in TS tasks. Using new alignment algorithms, we extract 550, 644 complex-simple sentence pairs from the corpus. This data is explored in different ways: (i) we show that traditional readability metrics capture surprisingly well the different complexity levels in this corpus, (ii) we build machine learning models to classify sentences into complex vs. simple and to predict complexity levels that outperform their respective baselines, (iii) we introduce a lexical simplifier that uses the corpus to generate candidate simplifications and outperforms the state of the art approaches, and (iv) we show that the corpus can be used to learn sentence simplification patterns in more effective ways than corpora used in previous work.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 20,
+    "year": 2018,
+    "month": "May",
+    "title": "Text Simplification from Professionally Produced Corpora"
 }

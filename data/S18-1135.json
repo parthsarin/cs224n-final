@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research has been partly supported by the European Regional Development Fund under a specific grant. The European Regional Development Fund is a policy instrument of the European Union designed to strengthen economic and social cohesion in the European Union by correcting imbalances between its regions. It does not fall under defense, corporate, foundation, or none of the specified categories directly but is more aligned with research agency funding, given its nature as a government-funded organization providing grants for research."
+    "reasoning": "Reasoning: The article explicitly mentions that the research has been partly supported by the European Regional Development Fund under a specific grant. The European Regional Development Fund is a policy instrument of the European Union designed to strengthen economic and social cohesion in the European Union by correcting imbalances between its regions. It does not fall under defense, corporate, foundation, or none of the specified categories directly but is more aligned with research agency funding, given its nature as a government-funded organization providing grants for research.",
+    "abstract": "We describe two systems for semantic relation classification with which we participated in the SemEval 2018 Task 7, subtask 1 on semantic relation classification: an SVM model and a CNN model. Both models combine dense pretrained word2vec features and hancrafted sparse features. For training the models, we combine the two datasets provided for the subtasks in order to balance the under-represented classes. The SVM model performed better than CNN, achieving an F1-macro score of 69.98% on subtask 1.1 and 75.69% on subtask 1.2. The system ranked 7th among 28 submissions on subtask 1.1 and 7th among 20 submissions on subtask 1.2.",
+    "countries": [
+        "Croatia"
+    ],
+    "languages": [],
+    "numcitedby": 0,
+    "year": 2018,
+    "month": "June",
+    "title": "{T}ake{L}ab at {S}em{E}val-2018 Task 7: Combining Sparse and Dense Features for Relation Classification in Scientific Texts"
 }

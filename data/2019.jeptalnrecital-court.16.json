@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is not possible to determine if the research received support from any of these sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is not possible to determine if the research received support from any of these sources.",
+    "abstract": "Explorer l'informativit\u00e9 d'une phrase Nous pr\u00e9sentons ici une exploration pr\u00e9liminaire du concept d'informativit\u00e9 -la quantit\u00e9 d'information qu'une phrase fournit sur l'un des mots qui le compose-et ses usages potentiels pour l'apprentissage de plongements de mots robustes \u00e0 partir de donn\u00e9es en faible quantit\u00e9. Une mesure d'informativit\u00e9 est pr\u00e9dite \u00e0 partir d'algorithmes de classification de phrases, que nous comparons \u00e0 une s\u00e9rie de phrases annot\u00e9es manuellement. Nous concluons que ces deux mesures correspondent \u00e0 des notions diff\u00e9rentes d'informativit\u00e9. N\u00e9anmoins, nos exp\u00e9riences montrent que la pr\u00e9diction extraite de la classification a un impact sur la qualit\u00e9 des plongements de mots lors de l'apprentissage.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2019,
+    "month": "7",
+    "title": "Exploring sentence informativeness"
 }

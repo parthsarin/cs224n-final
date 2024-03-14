@@ -7,5 +7,22 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it appears there was no disclosed funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it appears there was no disclosed funding.",
+    "abstract": "We address the task of automatically correcting preposition errors in learners' Dutch by modelling preposition usage in native language. Specifically, we build two models exploiting a large corpus of Dutch. The first is a binary model for detecting whether a preposition should be used at all in a given position or not. The second is a multiclass model for selecting the appropriate preposition in case one should be used. The models are tested on native as well as learners data. For the latter we exploit a crowdsourcing strategy to elicit native judgements. On native test data the models perform very well, showing that we can model preposition usage appropriately. However, the evaluation on learners' data shows that while detecting that a given preposition is wrong is doable reasonably well, detecting the absence of a preposition is a lot more difficult. Observing such results and the data we deal with, we envisage various ways of improving performance, and report them in the final section of this article.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "French",
+        "German",
+        "English",
+        "Hungarian",
+        "Indonesian",
+        "Polish",
+        "Dutch"
+    ],
+    "numcitedby": 0,
+    "year": 2016,
+    "month": "May",
+    "title": "Leveraging Native Data to Correct Preposition Errors in Learners{'} {D}utch"
 }

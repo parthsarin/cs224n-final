@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research.",
+    "abstract": "Embedding models typically associate each word with a single real-valued vector, representing its different properties. Evaluation methods, therefore, need to analyze the accuracy and completeness of these properties in embeddings. This requires fine-grained analysis of embedding subspaces. Multi-label classification is an appropriate way to do so. We propose a new evaluation method for word embeddings based on multi-label classification given a word embedding. The task we use is finegrained name typing: given a large corpus, find all types that a name can refer to based on the name embedding. Given the scale of entities in knowledge bases, we can build datasets for this task that are complementary to the current embedding evaluation datasets in: they are very large, contain fine-grained classes, and allow the direct evaluation of embeddings without confounding factors like sentence context.",
+    "countries": [
+        "Canada",
+        "United States",
+        "Germany"
+    ],
+    "languages": [],
+    "numcitedby": 2,
+    "year": 2018,
+    "month": "July",
+    "title": "Evaluating Word Embeddings in Multi-label Classification Using Fine-Grained Name Typing"
 }

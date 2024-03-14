@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from Oracle for Research Cloud Credits, National Science Foundation through a CAREER award IIS-2046016, and the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA), via contract # FA8650-17-C-9116. Oracle is a corporation, the National Science Foundation is a research agency, and ODNI/IARPA is a defense-related agency as it is part of the U.S. intelligence community."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from Oracle for Research Cloud Credits, National Science Foundation through a CAREER award IIS-2046016, and the Office of the Director of National Intelligence (ODNI), Intelligence Advanced Research Projects Activity (IARPA), via contract # FA8650-17-C-9116. Oracle is a corporation, the National Science Foundation is a research agency, and ODNI/IARPA is a defense-related agency as it is part of the U.S. intelligence community.",
+    "abstract": "We study generating abstractive summaries that are faithful and factually consistent with the given articles. A novel contrastive learning formulation is presented, which leverages both reference summaries, as positive training data, and automatically generated erroneous summaries, as negative training data, to train summarization systems that are better at distinguishing between them. We further design four types of strategies for creating negative samples, to resemble errors made commonly by two state-of-the-art models, BART and PEGASUS, found in our new human annotations of summary errors. Experiments on XSum and CNN/Daily Mail show that our contrastive learning framework is robust across datasets and models. It consistently produces more factual summaries than strong comparisons with post error correction, entailmentbased reranking, and unlikelihood training, according to QA-based factuality evaluation. Human judges echo the observation and find that our model summaries correct more errors.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 25,
+    "year": 2021,
+    "month": "November",
+    "title": "{CLIFF}: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization"
 }

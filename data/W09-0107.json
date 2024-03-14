@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was carried out in part in the context of the STEVIN programme, which is funded by the Dutch and Flemish governments. There is no mention of defense, corporate, or foundation funding, and the STEVIN programme is a research initiative, indicating government or research agency funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was carried out in part in the context of the STEVIN programme, which is funded by the Dutch and Flemish governments. There is no mention of defense, corporate, or foundation funding, and the STEVIN programme is a research initiative, indicating government or research agency funding.",
+    "abstract": "Knowledge-based parsers are now accurate, fast and robust enough to be used to obtain syntactic annotations for very large corpora fully automatically. We argue that such parsed corpora are an interesting new resource for linguists. The argument is illustrated by means of a number of recent results which were established with the help of parsed corpora.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "English",
+        "Dutch"
+    ],
+    "numcitedby": 16,
+    "year": 2009,
+    "month": "March",
+    "title": "Parsed Corpora for Linguistics"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO), which is a Japanese government-funded organization that supports research and development activities. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is based on results obtained from a project commissioned by the New Energy and Industrial Technology Development Organization (NEDO), which is a Japanese government-funded organization that supports research and development activities. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper describes data collection and the first explorative research on the AICO Multimodal Corpus. The corpus contains eye-gaze, Kinect, and video recordings of human-robot and human-human interactions, and was collected to study cooperation, engagement and attention of human participants in task-based as well as in chatty type interactive situations. In particular, the goal was to enable comparison between human-human and human-robot interactions, besides studying multimodal behaviour and attention in the different dialogue activities. The robot partner was a humanoid Nao robot, and it was expected that its agent-like behaviour would render humanrobot interactions similar to human-human interaction but also high-light important differences due to the robot's limited conversational capabilities. The paper reports on the preliminary studies on the corpus, concerning the participants' eye-gaze and gesturing behaviours, which were chosen as objective measures to study differences in their multimodal behaviour patterns with a human and a robot partner.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "May",
+    "title": "The {AICO} Multimodal Corpus {--} Data Collection and Preliminary Analyses"
 }

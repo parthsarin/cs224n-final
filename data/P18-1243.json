@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine the involvement of any of these sources based on the provided text.",
+    "abstract": "Building intelligent agents that can communicate with and learn from humans in natural language is of great value. Supervised language learning is limited by the ability of capturing mainly the statistics of training data, and is hardly adaptive to new scenarios or flexible for acquiring new knowledge without inefficient retraining or catastrophic forgetting. We highlight the perspective that conversational interaction serves as a natural interface both for language learning and for novel knowledge acquisition and propose a joint imitation and reinforcement approach for grounded language learning through an interactive conversational game. The agent trained with this approach is able to actively acquire information by asking questions about novel objects and use the justlearned knowledge in subsequent conversations in a one-shot fashion. Results compared with other methods verified the effectiveness of the proposed approach.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 5,
+    "year": 2018,
+    "month": "July",
+    "title": "Interactive Language Acquisition with One-shot Visual Concept Learning through a Conversational Game"
 }

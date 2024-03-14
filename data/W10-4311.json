@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions a travel grant from the Erasmus Mundus Masters Programme in Language and Communication Technologies and a grant from the Netherlands Organization for Scientific Research (NWO). The Erasmus Mundus programme is funded by the European Union, which does not fit neatly into the provided categories but is most similar to a research agency in this context. The NWO is a Dutch research agency. There is no mention of funding from defense, corporate sources, or foundations."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions a travel grant from the Erasmus Mundus Masters Programme in Language and Communication Technologies and a grant from the Netherlands Organization for Scientific Research (NWO). The Erasmus Mundus programme is funded by the European Union, which does not fit neatly into the provided categories but is most similar to a research agency in this context. The NWO is a Dutch research agency. There is no mention of funding from defense, corporate sources, or foundations.",
+    "abstract": "This study investigates the use of Same -a relation that connects the parts of a discontinuous discourse segment -in the Discourse Graphbank (Wolf et al., 2004) . Our analysis reveals systematic deviations from the definition of the Same relation and a substantial number of confusions between Same and Elaboration relations. We discuss some methodological and theoretical implications of these findings.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 4,
+    "year": 2010,
+    "month": "September",
+    "title": "Same and Elaboration Relations in the Discourse Graphbank"
 }

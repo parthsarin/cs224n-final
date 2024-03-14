@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work was funded by NSF grants IIS-0712907 and IIS-1016312. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work was funded by NSF grants IIS-0712907 and IIS-1016312. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding sources.",
+    "abstract": "Grounded\" language learning employs training data in the form of sentences paired with relevant but ambiguous perceptual contexts. B\u00f6rschinger et al. (2011) introduced an approach to grounded language learning based on unsupervised PCFG induction. Their approach works well when each sentence potentially refers to one of a small set of possible meanings, such as in the sportscasting task. However, it does not scale to problems with a large set of potential meanings for each sentence, such as the navigation instruction following task studied by Chen and Mooney (2011) . This paper presents an enhancement of the PCFG approach that scales to such problems with highly-ambiguous supervision. Experimental results on the navigation task demonstrates the effectiveness of our approach.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 56,
+    "year": 2012,
+    "month": "July",
+    "title": "Unsupervised {PCFG} Induction for Grounded Language Learning with Highly Ambiguous Supervision"
 }

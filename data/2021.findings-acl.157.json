@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions receiving funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement No 801199, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions receiving funding from the European Union's Horizon 2020 research and innovation programme under the Marie Sk\u0142odowska-Curie grant agreement No 801199, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Scientific document understanding is challenging as the data is highly domain specific and diverse. However, datasets for tasks with scientific text require expensive manual annotation and tend to be small and limited to only one or a few fields. At the same time, scientific documents contain many potential training signals, such as citations, which can be used to build large labelled datasets. Given this, we present an in-depth study of cite-worthiness detection in English, where a sentence is labelled for whether or not it cites an external source. To accomplish this, we introduce CITEWORTH, a large, contextualized, rigorously cleaned labelled dataset for cite-worthiness detection built from a massive corpus of extracted plaintext scientific documents. We show that CITEWORTH is high-quality, challenging, and suitable for studying problems such as domain adaptation. Our best performing citeworthiness detection model is a paragraphlevel contextualized sentence labelling model based on Longformer, exhibiting a 5 F1 point improvement over SciBERT which considers only individual sentences. Finally, we demonstrate that language model fine-tuning with cite-worthiness as a secondary task leads to improved performance on downstream scientific document understanding tasks.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2021,
+    "month": "August",
+    "title": "{C}ite{W}orth: Cite-Worthiness Detection for Improved Scientific Document Understanding"
 }

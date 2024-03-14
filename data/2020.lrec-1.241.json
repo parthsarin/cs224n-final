@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9996424335421287
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Entity normalization (or entity linking) is an important subtask of information extraction that links entity mentions in text to categories or concepts in a reference vocabulary. Machine learning based normalization methods have good adaptability as long as they have enough training data per reference with a sufficient quality. Distributional representations are commonly used because of their capacity to handle different expressions with similar meanings. However, in specific technical and scientific domains, the small amount of training data and the relatively small size of specialized corpora remain major challenges. Recently, the machine learning-based CONTES method has addressed these challenges for reference vocabularies that are ontologies, as is often the case in life sciences and biomedical domains. Its performance is dependent on manually annotated corpus. Furthermore, like other machine learning based methods, parametrization remains tricky. We propose a new approach to address the scarcity of training data that extends the CONTES method by corpus selection, pre-processing and weak supervision strategies, which can yield high-performance results without any manually annotated examples. We also study which hyperparameters are most influential, with sometimes different patterns compared to previous work. The results show that our approach significantly improves accuracy and outperforms previous state-of-the-art algorithms.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "May",
+    "title": "Handling Entity Normalization with no Annotated Corpus: Weakly Supervised Methods Based on Distributional Representation and Ontological Information"
 }

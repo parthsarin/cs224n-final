@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions work done as an intern at Apple Inc., which indicates corporate funding or support. There is no mention of defense, research agencies, foundations, or a statement indicating the absence of external funding."
+    "reasoning": "Reasoning: The article mentions work done as an intern at Apple Inc., which indicates corporate funding or support. There is no mention of defense, research agencies, foundations, or a statement indicating the absence of external funding.",
+    "abstract": "The dependency between an adequate question formulation and correct answer selection is a very intriguing but still underexplored area. In this paper, we show that question rewriting (QR) of the conversational context allows to shed more light on this phenomenon and also use it to evaluate robustness of different answer selection approaches. We introduce a simple framework that enables an automated analysis of the conversational question answering (QA) performance using question rewrites, and present the results of this analysis on the TREC CAsT and QuAC (CANARD) datasets. Our experiments uncover sensitivity to question formulation of the popular state-of-the-art models for reading comprehension and passage ranking. Our results demonstrate that the reading comprehension model is insensitive to question formulation, while the passage ranking changes dramatically with a little variation in the input question. The benefit of QR is that it allows us to pinpoint and group such cases automatically. We show how to use this methodology to verify whether QA models are really learning the task or just finding shortcuts in the dataset, and better understand the frequent types of error they make.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 5,
+    "year": 2020,
+    "month": "November",
+    "title": "A Wrong Answer or a Wrong Question? An Intricate Relationship between Question Reformulation and Answer Selection in Conversational Question Answering"
 }

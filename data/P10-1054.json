@@ -7,5 +7,17 @@
         "foundation": 9.088342269869543e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Therefore, based on the provided text, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Therefore, based on the provided text, it is not possible to determine any funding sources.",
+    "abstract": "Linear Context-Free Rewriting Systems (LCFRSs) are a grammar formalism capable of modeling discontinuous phrases. Many parsing applications use LCFRSs where the fan-out (a measure of the discontinuity of phrases) does not exceed 2. We present an efficient algorithm for optimal reduction of the length of production right-hand side in LCFRSs with fan-out at most 2. This results in asymptotical running time improvement for known parsing algorithms for this class.",
+    "countries": [
+        "Italy",
+        "France"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 8,
+    "year": 2010,
+    "month": "July",
+    "title": "Optimal Rank Reduction for Linear Context-Free Rewriting Systems with Fan-Out Two"
 }

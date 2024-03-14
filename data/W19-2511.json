@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the provided text, there is no evidence to suggest that the research was funded by any of these entities."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the provided text, there is no evidence to suggest that the research was funded by any of these entities.",
+    "abstract": "We have created two sets of labels for Hafez 1 (1315-1390) poems, using unsupervised learning. Our labels are the only semantic clustering alternative to the previously existing, handlabeled, gold-standard classification of Hafez poems, to be used for literary research. We have cross-referenced, measured and analyzed the agreements of our clustering labels with Houman's chronological classes. Our features are based on topic modeling and word embeddings. We also introduced a similarity of similarities' features, we called homothetic clustering approach that proved effective, in case of Hafez's small corpus of ghazals 2 . Although all our experiments showed different clusters when compared with Houman's classes, we think they were valid in their own right to have provided further insights, and have proved useful as a contrasting alternative to Houman's classes. Our homothetic clusterer and its feature design and engineering framework can be used for further semantic analysis of Hafez's poetry and other similar literary research.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        "Persian",
+        "English"
+    ],
+    "numcitedby": 5,
+    "year": 2019,
+    "month": "June",
+    "title": "Semantics and Homothetic Clustering of Hafez Poetry"
 }

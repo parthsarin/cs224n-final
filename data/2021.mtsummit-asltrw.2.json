@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.999311273830822
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention of funding sources or acknowledgments attributing support to the research, it is not possible to determine the presence of funding from the described categories based solely on the content provided."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention of funding sources or acknowledgments attributing support to the research, it is not possible to determine the presence of funding from the described categories based solely on the content provided.",
+    "abstract": "Language technologies, such as machine translation (MT), but also the application of artificial intelligence in general and an abundance of CAT tools and platforms have an increasing influence on the translation market. Human interaction with these technologies becomes ever more important as they impact translators' workflows, work environments, and job profiles. Moreover, it has implications for translator training. One of the tasks that emerged with language technologies is post-editing (PE) where a human translator corrects raw machine translated output according to given guidelines and quality criteria (O'Brien, 2011: 197-198). Already widely used in several traditional translation settings, its use has come into focus in more creative processes such as literary translation and audiovisual translation (AVT) as well. With the integration of MT systems, the translation process should become more efficient. Both economic and cognitive processes are impacted and with it the necessary competences of all stakeholders involved change. In this paper, we want to describe the different potential job profiles and respective competences needed when post-editing subtitles.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "Swedish",
+        "English",
+        "German"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "August",
+    "title": "Post-Editing Job Profiles for Subtitlers"
 }

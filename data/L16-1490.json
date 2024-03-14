@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions that the research was partially funded by grants from the National Science Foundation, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions that the research was partially funded by grants from the National Science Foundation, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "In American Sign Language (ASL) as well as other signed languages, different classes of signs (e.g., lexical signs, fingerspelled signs, and classifier constructions) have different internal structural properties. Continuous sign recognition accuracy can be improved through use of distinct recognition strategies, as well as different training datasets, for each class of signs. For these strategies to be applied, continuous signing video needs to be segmented into parts corresponding to particular classes of signs. In this paper we present a multiple instance learning-based segmentation system that accurately labels 91.27% of the video frames of 500 continuous utterances (including 7 different subjects) from the publicly accessible NCSLGR corpus <http://secrets.rutgers.edu/dai/queryPages/> (Neidle and Vogler, 2012). The system uses novel feature descriptors derived from both motion and shape statistics of the regions of high local motion. The system does not require a hand tracker.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 13,
+    "year": 2016,
+    "month": "May",
+    "title": "Detection of Major {ASL} Sign Types in Continuous Signing For {ASL} Recognition"
 }

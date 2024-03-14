@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "In this paper we present a technique to reveal definitions and hypernym relations from text. Instead of using pattern matching methods that rely on lexico-syntactic patterns, we propose a technique which only uses syntactic dependencies between terms extracted with a syntactic parser. The assumption is that syntactic information are more robust than patterns when coping with length and complexity of the sentences. Afterwards, we transform such syntactic contexts in abstract representations, that are then fed into a Support Vector Machine classifier. The results on an annotated dataset of definitional sentences demonstrate the validity of our approach overtaking current state-of-the-art techniques.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 15,
+    "year": 2013,
+    "month": "August",
+    "title": "Extracting Definitions and Hypernym Relations relying on Syntactic Dependencies and Support Vector Machines"
 }

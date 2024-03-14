@@ -7,5 +7,23 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that a part of the study was supported by a Grant-in-Aid for Scientific Research (B) 17H02190, which indicates funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions that a part of the study was supported by a Grant-in-Aid for Scientific Research (B) 17H02190, which indicates funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "This paper defines a measure called the comprehension-to-production (C2P) index to investigate whether nouns have predominance over verbs in children's word learning that identifies a partial word learning period from comprehension to production. We applied the C2P index to noun predominance using cross-lingual child communicative development inventory databases and confirmed that it indicates noun predominance in word learning, suggesting that the process between a word's comprehension and its production is a significant factor of predominance in noun learning by children.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Italian",
+        "Latvian",
+        "Korean",
+        "Danish",
+        "Croatian",
+        "French",
+        "Slovak",
+        "Turkish"
+    ],
+    "numcitedby": 0,
+    "year": 2018,
+    "month": "May",
+    "title": "Infant Word Comprehension-to-Production Index Applied to Investigation of Noun Learning Predominance Using Cross-lingual {CDI} database"
 }

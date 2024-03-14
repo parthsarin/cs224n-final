@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from an NSF grant, which is a research agency (the National Science Foundation is a government-funded organization that provides grants for research). There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from an NSF grant, which is a research agency (the National Science Foundation is a government-funded organization that provides grants for research). There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Universal Dependencies (UD) are gaining much attention of late for systematic evaluation of cross-lingual techniques for crosslingual dependency parsing. In this paper we present our work in line with UD. Our contribution to this is manifold. We extend UD to Indian languages through conversion of P\u0101n \u0323inian Dependencies to UD for the Hindi Dependency Treebank (HDTB). We discuss the differences in annotation in both the schemes, present parsing experiments for both the formalisms and empirically evaluate their weaknesses and strengths for Hindi. We produce an automatically converted Hindi Treebank conforming to the international standard UD scheme, making it useful as a resource for multilingual language technology.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "Hindi",
+        "English",
+        "Swedish"
+    ],
+    "numcitedby": 15,
+    "year": 2016,
+    "month": "August",
+    "title": "Conversion from Paninian Karakas to {U}niversal {D}ependencies for {H}indi Dependency Treebank"
 }

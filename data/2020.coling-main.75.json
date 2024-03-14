@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions support from The Alan Turing Institute under the EPSRC grant EP/N510129/1 and the Alan Turing Institute Fellowship (TU/A/000006), as well as the Dutch Research Council (NWO) under the research programme Veni with project number VI.Veni.192.130. These are research agencies, indicating government or public funding for research, but there is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgements section mentions support from The Alan Turing Institute under the EPSRC grant EP/N510129/1 and the Alan Turing Institute Fellowship (TU/A/000006), as well as the Dutch Research Council (NWO) under the research programme Veni with project number VI.Veni.192.130. These are research agencies, indicating government or public funding for research, but there is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Analyses of word embeddings have primarily focused on semantic and syntactic properties. However, word embeddings have the potential to encode other properties as well. In this paper, we propose a new perspective on the analysis of word embeddings by focusing on spelling variation. In social media, spelling variation is abundant and often socially meaningful. Here, we analyze word embeddings trained on Twitter and Reddit data. We present three analyses using pairs of word forms covering seven types of spelling variation in English. Taken together, our results show that word embeddings encode spelling variation patterns of various types to some extent, even embeddings trained using the skipgram model which does not take spelling into account. Our results also suggest a link between the intentionality of the variation and the distance of the non-conventional spellings to their conventional spellings.",
+    "countries": [
+        "United Kingdom",
+        "Netherlands"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2020,
+    "month": "December",
+    "title": "Do Word Embeddings Capture Spelling Variation?"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments to individuals for feedback and information about research do not imply financial support from defense, corporate, research agencies, or foundations."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments to individuals for feedback and information about research do not imply financial support from defense, corporate, research agencies, or foundations.",
+    "abstract": "Jusqu'\u00e0 pr\u00e9sent, la question de la reconnaissance automatique de m\u00e9tonymies a souvent \u00e9t\u00e9 abord\u00e9e avec des approches supervis\u00e9es. Toutefois, ces approches n\u00e9cessitent l'annotation d'un nombre important d'occurrences d'apprentissage et, d\u00e8s lors, elles emp\u00eachent le d\u00e9veloppement d'un syst\u00e8me de reconnaissance de m\u00e9tonymies \u00e0 grande \u00e9chelle. Cet article \u00e9tudie la possibilit\u00e9 de r\u00e9soudre ce probl\u00e8me du goulot d'\u00e9tranglement de l'acquisition des connaissances en recourant \u00e0 des techniques d'apprentissages non supervis\u00e9es. Bien que la technique en question, l'algorithme de Sch\u00fctze (1998), soit souvent appliqu\u00e9e en d\u00e9sambigu\u00efsation s\u00e9mantique, je montrerai qu'elle s'av\u00e8re trop peu solide pour le cas sp\u00e9cifique de la reconnaissance de m\u00e9tonymies. \u00c0 cet effet, je propose d'\u00e9tudier l'influence de quatre variables sur les performances de la technique non supervis\u00e9e, \u00e0 savoir le type de donn\u00e9es, la taille de la fen\u00eatre d'observation, l'application de la d\u00e9composition en valeurs singuli\u00e8res (SVD) et le type de s\u00e9lection de propri\u00e9t\u00e9s.",
+    "countries": [
+        "Belgium"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2006,
+    "month": "April",
+    "title": "Unsupervised approaches to metonymy recognition"
 }

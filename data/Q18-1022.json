@@ -7,5 +7,20 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is not possible to determine if the research was funded by any of these sources without explicit statements or acknowledgments within the article itself."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is not possible to determine if the research was funded by any of these sources without explicit statements or acknowledgments within the article itself.",
+    "abstract": "We address the task of joint training of transliteration models for multiple language pairs (multilingual transliteration). This is an instance of multitask learning, where individual tasks (language pairs) benefit from sharing knowledge with related tasks. We focus on transliteration involving related tasks i.e., languages sharing writing systems and phonetic properties (orthographically similar languages). We propose a modified neural encoder-decoder model that maximizes parameter sharing across language pairs in order to effectively leverage orthographic similarity. We show that multilingual transliteration significantly outperforms bilingual transliteration in different scenarios (average increase of 58% across a variety of languages we experimented with). We also show that multilingual transliteration models can generalize well to languages/language pairs not encountered during training and hence perform well on the zeroshot transliteration task. We show that further improvements can be achieved by using phonetic feature input.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "English",
+        "Kannada",
+        "Bengali",
+        "Hindi",
+        "Arabic"
+    ],
+    "numcitedby": 16,
+    "year": 2018,
+    "month": "",
+    "title": "Leveraging Orthographic Similarity for Multilingual Neural Transliteration"
 }

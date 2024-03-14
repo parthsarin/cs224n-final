@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article discusses the development and application of the Watson Discovery Advisor (WDA) system, which is a product of IBM, a for-profit corporation. There is no mention of funding from defense, research agencies, foundations, or an absence of funding, implying the work was supported internally by IBM."
+    "reasoning": "Reasoning: The article discusses the development and application of the Watson Discovery Advisor (WDA) system, which is a product of IBM, a for-profit corporation. There is no mention of funding from defense, research agencies, foundations, or an absence of funding, implying the work was supported internally by IBM.",
+    "abstract": "This work discusses a mix of challenges arising from Watson Discovery Advisor (WDA), an industrial strength descendant of the Watson Jeopardy! Question Answering system currently used in production in industry settings. Typical challenges include generation of appropriate training questions, adaptation to new industry domains, and iterative improvement of the system through manual error analyses.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2016,
+    "month": "June",
+    "title": "{W}atson Discovery Advisor: Question-answering in an industrial setting"
 }

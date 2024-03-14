@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions that the work was supported in part by NSF Grants IIS-1147644 and IIS-1219142. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions that the work was supported in part by NSF Grants IIS-1147644 and IIS-1219142. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Recent years have seen a surge of interest in stance classification in online debates. Oftentimes, however, it is important to determine not only the stance expressed by an author in her debate posts, but also the reasons behind her supporting or opposing the issue under debate. We therefore examine the new task of reason classification in this paper. Given the close interplay between stance classification and reason classification, we design computational models for examining how automatically computed stance information can be profitably exploited for reason classification. Experiments on our reason-annotated corpus of ideological debate posts from four domains demonstrate that sophisticated models of stances and reasons can indeed yield more accurate reason and stance classification results than their simpler counterparts.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 148,
+    "year": 2014,
+    "month": "October",
+    "title": "Why are You Taking this Stance? Identifying and Classifying Reasons in Ideological Debates"
 }

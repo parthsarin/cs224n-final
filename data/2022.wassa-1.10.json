@@ -7,5 +7,21 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions that the work was supported by JST SICORP Grant Number JPMJSC2107, Japan. JST (Japan Science and Technology Agency) is a government-funded organization that provides grants for scientific and technological research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions that the work was supported by JST SICORP Grant Number JPMJSC2107, Japan. JST (Japan Science and Technology Agency) is a government-funded organization that provides grants for scientific and technological research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Public opinion in social media is increasingly becoming a critical factor in pandemic control. Understanding the emotions of a population towards vaccinations and COVID-19 may be valuable in convincing members to become vaccinated. We investigated the emotions of Japanese Twitter users towards Tweets related to COVID-19 vaccination. Using the WRIME dataset, which provides emotion ratings for Japanese Tweets sourced from writers (Tweet posters) and readers, we fine-tuned a BERT model to predict levels of emotional intensity. This model achieved a training accuracy of M SE = 0.356. A separate dataset of 20,254 Japanese Tweets containing COVID-19 vaccine-related keywords was also collected, on which the fine-tuned BERT was used to perform emotion analysis. Afterwards, a correlation analysis between the extracted emotions and a set of vaccination measures in Japan was conducted. The results revealed that surprise and fear were the most intense emotions predicted by the model for writers and readers, respectively, on the vaccine-related Tweet dataset. The correlation analysis also showed that vaccinations were weakly positively correlated with predicted levels of writer joy, writer/reader anticipation, and writer/reader trust. Code will be made available at https: //github.com/PatrickJohnRamos/ BERT-Japan-vaccination.",
+    "countries": [
+        "Philippines",
+        "Japan"
+    ],
+    "languages": [
+        "Arabic",
+        "Romanian",
+        "English",
+        "Thai",
+        "Japanese"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "May",
+    "title": "Emotion Analysis of Writers and Readers of {J}apanese Tweets on Vaccinations"
 }

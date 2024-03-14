@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Deutsche Forschungsgemeinschaft (DFG, grant 2246/10-1), which is a German research funding organization. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from Deutsche Forschungsgemeinschaft (DFG, grant 2246/10-1), which is a German research funding organization. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We decompose a standard embedding space into interpretable orthogonal subspaces and a \"remainder\" subspace. We consider four interpretable subspaces in this paper: polarity, concreteness, frequency and part-of-speech (POS) subspaces. We introduce a new calculus for subspaces that supports operations like \"\u22121 \u00d7 hate = love\" and \"give me a neutral word for greasy\" (i.e., oleaginous). This calculus extends analogy computations like \"king\u2212man+woman = queen\". For the tasks of Antonym Classification and POS Tagging our method outperforms the state of the art. We create test sets for Morphological Analogies and for the new task of Polarity Spectrum Creation.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 43,
+    "year": 2016,
+    "month": "August",
+    "title": "Word Embedding Calculus in Meaningful Ultradense Subspaces"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions gratitude to the Center for Artificial Intelligence (C4AI) of the University of S\u00e3o Paulo, sponsored by IBM and FAPESP. IBM is a corporation, indicating corporate sponsorship. FAPESP is a public foundation in S\u00e3o Paulo, Brazil, that funds research, indicating foundation support. There is no mention of defense or other research agencies directly funding this work, nor is there an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions gratitude to the Center for Artificial Intelligence (C4AI) of the University of S\u00e3o Paulo, sponsored by IBM and FAPESP. IBM is a corporation, indicating corporate sponsorship. FAPESP is a public foundation in S\u00e3o Paulo, Brazil, that funds research, indicating foundation support. There is no mention of defense or other research agencies directly funding this work, nor is there an indication that no funding was received.",
+    "abstract": "Over the years, the review helpfulness prediction task has been the subject of several works, but remains being a challenging issue in Natural Language Processing, as results vary a lot depending on the domain, on the adopted features and on the chosen classification strategy. This paper attempts to evaluate the impact of content features and classification methods for two different domains. In particular, we run our experiments for a low resource language -Portuguese -, trying to establish a benchmark for this language. We show that simple features and classical classification methods are powerful for the task of helpfulness prediction, but are largely outperformed by a convolutional neural network-based solution.",
+    "countries": [
+        "Brazil"
+    ],
+    "languages": [
+        "Portuguese"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "May",
+    "title": "Evaluating Content Features and Classification Methods for Helpfulness Prediction of Online Reviews: Establishing a Benchmark for {P}ortuguese"
 }

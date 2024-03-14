@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges the French National Research Agency (SEQUOIA project ANR-08-EMER-013) at the end, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article acknowledges the French National Research Agency (SEQUOIA project ANR-08-EMER-013) at the end, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We present a simple and effective way to perform out-of-domain statistical parsing by drastically reducing lexical data sparseness in a PCFG-LA architecture. We replace terminal symbols with unsupervised word clusters acquired from a large newspaper corpus augmented with biomedical targetdomain data. The resulting clusters are effective in bridging the lexical gap between source-domain and target-domain vocabularies. Our experiments combine known self-training techniques with unsupervised word clustering and produce promising results, achieving an error reduction of 21% on a new evaluation set for biomedical text with manual bracketing annotations.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French",
+        "English"
+    ],
+    "numcitedby": 27,
+    "year": 2011,
+    "month": "October",
+    "title": "A Word Clustering Approach to Domain Adaptation: Effective Parsing of Biomedical Texts"
 }

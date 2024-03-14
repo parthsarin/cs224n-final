@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research.",
+    "abstract": "Conversational machine reading comprehension (CMRC) extends traditional single-turn machine reading comprehension (MRC) by multi-turn interactions, which requires machines to consider the history of conversation. Most of models simply combine previous questions for conversation understanding and only employ recurrent neural networks (RNN) for reasoning. To comprehend context profoundly and efficiently from different perspectives, we propose a novel neural network model, Multi-perspective Convolutional Cube (MC 2 ). We regard each conversation as a cube. 1D and 2D convolutions are integrated with RNN in our model. To avoid models previewing the next turn of conversation, we also extend causal convolution partially to 2D. Experiments on the Conversational Question Answering (CoQA) dataset show that our model achieves state-of-the-art results.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 7,
+    "year": 2019,
+    "month": "July",
+    "title": "{MC}{\\^{}}2: Multi-perspective Convolutional Cube for Conversational Machine Reading Comprehension"
 }

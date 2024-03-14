@@ -7,5 +7,19 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information about funding sources for the research or the workshop discussed. It focuses on the content and outcomes of the workshop, the challenges faced, and future directions for corpus annotation in computational linguistics without mentioning any financial support from defense, corporate entities, research agencies, or foundations."
+    "reasoning": "Reasoning: The article does not provide any specific information about funding sources for the research or the workshop discussed. It focuses on the content and outcomes of the workshop, the challenges faced, and future directions for corpus annotation in computational linguistics without mentioning any financial support from defense, corporate entities, research agencies, or foundations.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "German",
+        "Japanese",
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 6,
+    "year": 2005,
+    "month": "June",
+    "title": "Introduction to {F}rontiers in {C}orpus {A}nnotation {II}: {P}ie in the {S}ky"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges support from the COG-ITO Foundation, which is indicated by the statement \"TRE and SF are supported by grant 15-115-R of the COG-ITO Foundation.\" There is no mention of funding from defense, corporate entities, research agencies, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The article acknowledges support from the COG-ITO Foundation, which is indicated by the statement \"TRE and SF are supported by grant 15-115-R of the COG-ITO Foundation.\" There is no mention of funding from defense, corporate entities, research agencies, or an indication that there were no funding sources.",
+    "abstract": "We present the first version of a corpus annotated for psychiatric disorders and their etiological factors. The paper describes the choice of text, annotated entities and events/relations as well as the annotation scheme and procedure applied. The corpus is featuring a selection of focus psychiatric disorders including depressive disorder, anxiety disorder, obsessive-compulsive disorder, phobic disorders and panic disorder. Etiological factors for these focus disorders are widespread and include genetic, physiological, sociological and environmental factors among others. Etiological events, including annotated evidence text, represent the interactions between their focus disorders and their etiological factors. Additionally to these core events, symptomatic and treatment events have been annotated. The current version of the corpus includes 175 scientific abstracts. All entities and events/relations have been manually annotated by domain experts and scores of inter-annotator agreement are presented. The aim of the corpus is to provide a first gold standard to support the development of biomedical text mining applications for the specific area of mental disorders which belong to the main contributors to the contemporary burden of disease.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2016,
+    "month": "May",
+    "title": "The {P}sy{M}ine Corpus - A Corpus annotated with Psychiatric Disorders and their Etiological Factors"
 }

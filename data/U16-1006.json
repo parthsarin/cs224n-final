@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article states that the research was supported by NICTA, funded by the Australian Government through the Department of Communications and the Australian Research Council through the ICT Centre of Excellence Program. This indicates that the funding came from a research agency, specifically government-funded organizations. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article states that the research was supported by NICTA, funded by the Australian Government through the Department of Communications and the Australian Research Council through the ICT Centre of Excellence Program. This indicates that the funding came from a research agency, specifically government-funded organizations. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "Relation extraction models based on deep learning have been attracting a lot of attention recently. Little research is carried out to reduce their need of labeled training data. In this work, we propose an unsupervised pre-training method based on the sequence-to-sequence model for deep relation extraction models. The pre-trained models need only half or even less training data to achieve equivalent performance as the same models without pre-training.",
+    "countries": [
+        "Australia"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 9,
+    "year": 2016,
+    "month": "December",
+    "title": "Unsupervised Pre-training With {S}eq2{S}eq Reconstruction Loss for Deep Relation Extraction Models"
 }

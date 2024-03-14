@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article mentions funding from the Ministerio de Educaci\u00f3n, Cultura y Deporte (MECD -scholarship FPU014/00983), Fondo Europeo de Desarrollo Regional (FEDER), and REDES project (TIN2015-65136-C2-1-R) from the Ministerio de Econom\u00eda y Competitividad. These are government or European Union funding sources, which classify as research agency funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article mentions funding from the Ministerio de Educaci\u00f3n, Cultura y Deporte (MECD -scholarship FPU014/00983), Fondo Europeo de Desarrollo Regional (FEDER), and REDES project (TIN2015-65136-C2-1-R) from the Ministerio de Econom\u00eda y Competitividad. These are government or European Union funding sources, which classify as research agency funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "This paper presents the main sources of disagreement found during the annotation of the Spanish SFU Review Corpus with negation (SFU Review SP -NEG). Negation detection is a challenge in most of the task related to NLP, so the availability of corpora annotated with this phenomenon is essential in order to advance in tasks related to this area. A thorough analysis of the problems found during the annotation could help in the study of this phenomenon.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 9,
+    "year": 2016,
+    "month": "December",
+    "title": "Problematic Cases in the Annotation of Negation in {S}panish"
 }

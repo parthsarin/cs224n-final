@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by a General Research Fund (GRF) sponsored by the Research Grants Council and NTU Grant NO. M4081117.100.500000. The Research Grants Council is a government-funded organization that provides grants for research, indicating research agency funding. There is no mention of defense, corporate, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by a General Research Fund (GRF) sponsored by the Research Grants Council and NTU Grant NO. M4081117.100.500000. The Research Grants Council is a government-funded organization that provides grants for research, indicating research agency funding. There is no mention of defense, corporate, foundation funding, or an absence of funding.",
+    "abstract": "Light verbs pose an a challenge in linguistics because of its syntactic and semantic versatility and its unique distribution different from regular verbs with higher semantic content and selectional resrictions. Due to its light grammatical content, earlier natural language processing studies typically put light verbs in a stop word list and ignore them. Recently, however, classification and identification of light verbs and light verb construction have become a focus of study in computational linguistics, especially in the context of multi-word expression, information retrieval, disambiguation, and parsing. Past linguistic and computational studies on light verbs had very different foci. Linguistic studies tend to focus on the status of light verbs and its various selectional constraints. While NLP studies have focused on light verbs in the context of either a multi-word expression (MWE) or a construction to be identified, classified, or translated, trying to overcome the apparent poverty of semantic content of light verbs. There has been nearly no work attempting to bridge these two lines of research. This paper takes this challenge by proposing a corpus-bases study which classifies and captures syntactic-semantic difference among all light verbs. In this study, we first incorporate results from past linguistic studies to create annotated light verb corpora with syntactic-semantics features. We next adopt a statistic method for automatic identification of light verbs based on this annotated corpora. Our results show that a language resource based methodology optimally incorporating linguistic information can resolve challenges posed by light verbs in NLP.",
+    "countries": [
+        "Hong Kong",
+        "Singapore"
+    ],
+    "languages": [
+        "Mandarin",
+        "Mandarin",
+        "Chinese"
+    ],
+    "numcitedby": 9,
+    "year": 2014,
+    "month": "August",
+    "title": "Annotation and Classification of Light Verbs and Light Verb Variations in {M}andarin {C}hinese"
 }

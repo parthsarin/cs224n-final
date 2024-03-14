@@ -7,5 +7,15 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article states that the work was supported by the European Union under grant agreement No. 611233 PHEME, which is a research agency, and Cohn was supported by an ARC Future Fellowship scheme (project number FT130101105), which is also a form of research agency funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article states that the work was supported by the European Union under grant agreement No. 611233 PHEME, which is a research agency, and Cohn was supported by an ARC Future Fellowship scheme (project number FT130101105), which is also a form of research agency funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Classification of temporal textual data sequences is a common task in various domains such as social media and the Web. In this paper we propose to use Hawkes Processes for classifying sequences of temporal textual data, which exploit both temporal and textual information. Our experiments on rumour stance classification on four Twitter datasets show the importance of using the temporal information of tweets along with the textual content.",
+    "countries": [
+        "Australia",
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 116,
+    "year": 2016,
+    "month": "August",
+    "title": "{H}awkes Processes for Continuous Time Sequence Classification: an Application to Rumour Stance Classification in {T}witter"
 }

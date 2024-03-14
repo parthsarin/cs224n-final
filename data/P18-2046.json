@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources.",
+    "abstract": "Effectively using full syntactic parsing information in Neural Networks (NNs) to solve relational tasks, e.g., question similarity, is still an open problem. In this paper, we propose to inject structural representations in NNs by (i) learning an SVM model using Tree Kernels (TKs) on relatively few pairs of questions (few thousands) as gold standard (GS) training data is typically scarce, (ii) predicting labels on a very large corpus of question pairs, and (iii) pre-training NNs on such large corpus. The results on Quora and SemEval question similarity datasets show that NNs trained with our approach can learn more accurate models, especially after fine tuning on GS.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2018,
+    "month": "July",
+    "title": "Injecting Relational Structural Representation in Neural Networks for Question Similarity"
 }

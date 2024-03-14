@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from OTKA (National Research, Development and Innovation Office, Hungary), which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from OTKA (National Research, Development and Innovation Office, Hungary), which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "In our paper, we present a computational morphology for Old and Middle Hungarian used in two research projects that aim at creating morphologically annotated corpora of Old and Middle Hungarian. In addition, we present the web-based disambiguation tool used in the semi-automatic disambiguation of the annotations and the structured corpus query tool that has a unique but very useful feature of making corrections to the annotation in the query results possible.",
+    "countries": [
+        "Hungary"
+    ],
+    "languages": [
+        "Hungarian"
+    ],
+    "numcitedby": 8,
+    "year": 2013,
+    "month": "August",
+    "title": "Morphological annotation of Old and Middle {H}ungarian corpora"
 }

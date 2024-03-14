@@ -7,5 +7,19 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work has been funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work has been funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We report on a web-based resource for conducting intercomprehension experiments with native speakers of Slavic languages and present our methods for measuring linguistic distances and asymmetries in receptive multilingualism. Through a website which serves as a platform for online testing, a large number of participants with different linguistic backgrounds can be targeted. A statistical language model is used to measure information density and to gauge how language users master various degrees of (un)intelligibilty. The key idea is that intercomprehension should be better when the model adapted for understanding the unknown language exhibits relatively low average distance and surprisal. All obtained intelligibility scores together with distance and asymmetry measures for the different language pairs and processing directions are made available as an integrated online resource in the form of a Slavic intercomprehension matrix (SlavMatrix).",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "Czech",
+        "Bulgarian",
+        "German",
+        "Russian"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "May",
+    "title": "The {INCOMSLAV} Platform: Experimental Website with Integrated Methods for Measuring Linguistic Distances and Asymmetries in Receptive Multilingualism"
 }

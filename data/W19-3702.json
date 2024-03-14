@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the provided text alone."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source based on the provided text alone.",
+    "abstract": "We present our work on the problem of detection Multiple Admissibility (MA) in language learning. Multiple Admissibility occurs when more than one grammatical form of a word fits syntactically and semantically in a given context. In second-language education-in particular, in intelligent tutoring systems/computeraided language learning (ITS/CALL), systems generate exercises automatically. MA implies that multiple alternative answers are possible. We treat the problem as a grammaticality judgement task. We train a neural network with an objective to label sentences as grammatical or ungrammatical, using a \"simulated learner corpus\": a dataset with correct text and with artificial errors, generated automatically. While MA occurs commonly in many languages, this paper focuses on learning Russian. We present a detailed classification of the types of constructions in Russian, in which MA is possible, and evaluate the model using a test set built from answers provided by users of the Revita language learning system.",
+    "countries": [
+        "Finland"
+    ],
+    "languages": [
+        "Russian",
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 5,
+    "year": 2019,
+    "month": "August",
+    "title": "Multiple Admissibility: Judging Grammaticality using Unlabeled Data in Language Learning"
 }

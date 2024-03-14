@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "Due to the phenomenal growth of online product reviews, sentiment analysis (SA) has gained huge attention, for example, by online service providers. A number of benchmark datasets for a wide range of domains have been made available for sentiment analysis, especially in resource-rich languages. In this paper we assess the challenges of SA in Hindi by providing a benchmark setup, where we create an annotated dataset of high quality, build machine learning models for sentiment analysis in order to show the effective usage of the dataset, and finally make the resource available to the community for further advancement of research. The dataset comprises of Hindi product reviews crawled from various online sources. Each sentence of the review is annotated with aspect term and its associated sentiment. As classification algorithms we use Conditional Random Filed (CRF) and Support Vector Machine (SVM) for aspect term extraction and sentiment analysis, respectively. Evaluation results show the average F-measure of 41.07% for aspect term extraction and accuracy of 54.05% for sentiment classification.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "Hindi"
+    ],
+    "numcitedby": 46,
+    "year": 2016,
+    "month": "May",
+    "title": "Aspect based Sentiment Analysis in {H}indi: Resource Creation and Evaluation"
 }

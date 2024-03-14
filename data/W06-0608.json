@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the provided text, there is no evidence to suggest that the research was funded by any of these entities."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the provided text, there is no evidence to suggest that the research was funded by any of these entities.",
+    "abstract": "Semantic information is important for precise word sense disambiguation system and the kind of semantic analysis used in sophisticated natural language processing such as machine translation, question answering, etc. There are at least two kinds of semantic information: lexical semantics for words and phrases and structural semantics for phrases and sentences. We have built a Japanese corpus of over three million words with both lexical and structural semantic information. In this paper, we focus on our method of annotating the lexical semantics, that is building a word sense tagged corpus and its properties.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Chinese",
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 10,
+    "year": 2006,
+    "month": "July",
+    "title": "The Hinoki Sensebank {---} A Large-Scale Word Sense Tagged Corpus of {J}apanese {---}"
 }

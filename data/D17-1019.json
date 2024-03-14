@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from a Facebook Fellowship, the NSF (National Science Foundation) under award IIS-1514268, and the DARPA Communicating with Computers (CwC) program under ARO prime contract no. W911NF-15-1-0462. Facebook is a for-profit corporation, the NSF is a government-funded research agency, and DARPA is a branch of the United States Department of Defense. There is no mention of funding from a foundation."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from a Facebook Fellowship, the NSF (National Science Foundation) under award IIS-1514268, and the DARPA Communicating with Computers (CwC) program under ARO prime contract no. W911NF-15-1-0462. Facebook is a for-profit corporation, the NSF is a government-funded research agency, and DARPA is a branch of the United States Department of Defense. There is no mention of funding from a foundation.",
+    "abstract": "Discourse coherence is strongly associated with text quality, making it important to natural language generation and understanding. Yet existing models of coherence focus on measuring individual aspects of coherence (lexical overlap, rhetorical structure, entity centering) in narrow domains. In this paper, we describe domainindependent neural models of discourse coherence that are capable of measuring multiple aspects of coherence in existing sentences and can maintain coherence while generating new sentences. We study both discriminative models that learn to distinguish coherent from incoherent discourse, and generative models that produce coherent text, including a novel neural latentvariable Markovian generative model that captures the latent discourse dependencies between sentences in a text. Our work achieves state-of-the-art performance on multiple coherence evaluations, and marks an initial step in generating coherent texts given discourse contexts.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 109,
+    "year": 2017,
+    "month": "September",
+    "title": "Neural Net Models of Open-domain Discourse Coherence"
 }

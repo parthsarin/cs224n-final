@@ -7,5 +7,19 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the French National Research Agency (ANR), DARPA under two different grant numbers (FA8750-13-2-0017 for the DEFT program and HR0011-15-C-0115 for the LORELEI program). DARPA is a branch of the United States Department of Defense, which classifies it under defense funding. The French National Research Agency is a government-funded organization that provides grants for research, classifying it under research agency funding. There is no mention of corporate or foundation funding, and since there are specific funding sources mentioned, it does not fall under 'none'."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the French National Research Agency (ANR), DARPA under two different grant numbers (FA8750-13-2-0017 for the DEFT program and HR0011-15-C-0115 for the LORELEI program). DARPA is a branch of the United States Department of Defense, which classifies it under defense funding. The French National Research Agency is a government-funded organization that provides grants for research, classifying it under research agency funding. There is no mention of corporate or foundation funding, and since there are specific funding sources mentioned, it does not fall under 'none'.",
+    "abstract": "We propose a variant of a well-known machine translation (MT) evaluation metric, HyTER (Dreyer and Marcu, 2012) , which exploits reference translations enriched with meaning equivalent expressions. The original HyTER metric relied on hand-crafted paraphrase networks which restricted its applicability to new data. We test, for the first time, HyTER with automatically built paraphrase lattices. We show that although the metric obtains good results on small and carefully curated data with both manually and automatically selected substitutes, it achieves medium performance on much larger and noisier datasets, demonstrating the limits of the metric for tuning and evaluation of current MT systems.",
+    "countries": [
+        "United States",
+        "France"
+    ],
+    "languages": [
+        "Arabic",
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2018,
+    "month": "June",
+    "title": "Automated Paraphrase Lattice Creation for {H}y{TER} Machine Translation Evaluation"
 }

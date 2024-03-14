@@ -7,5 +7,20 @@
         "foundation": 0.0,
         "none": 0.9999943230348141
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research or project it discusses. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately attribute any funding sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research or project it discusses. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately attribute any funding sources.",
+    "abstract": "The methodology developed within the FrameNet project is being used to compile resources in an increasing number of specialized fields of knowledge. The methodology along with the theoretical principles on which it is based, i.e. Frame Semantics, are especially appealing as they allow domain-specific resources to account for the conceptual background of specialized knowledge and to explain the linguistic properties of terms against this background. This paper presents a methodology for building a multilingual resource that accounts for terms of the environment. After listing some lexical and conceptual differences that need to be managed in such a resource, we explain how the FrameNet methodology is adapted for describing terms in different languages. We first applied our methodology to French and then extended it to English. Extensions to Spanish, Portuguese and Chinese were made more recently. Up to now, we have defined 190 frames: 112 frames are new; 38 are used as such; and 40 are slightly different (a different number of obligatory participants; a significant alternation, etc.) when compared to Berkeley FrameNet.",
+    "countries": [
+        "Canada",
+        "Spain"
+    ],
+    "languages": [
+        "Spanish",
+        "Portuguese",
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2020,
+    "month": "May",
+    "title": "Building Multilingual Specialized Resources Based on {F}rame{N}et: Application to the Field of the Environment"
 }

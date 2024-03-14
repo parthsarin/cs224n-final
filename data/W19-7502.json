@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to determine the presence of any financial support from these entities."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to determine the presence of any financial support from these entities.",
+    "abstract": "Sentence parser is an essential component in the mechanical analysis of natural language texts. Building a parser for Sanskrit text is a challenging task because of its free word order and the dominance of verse style in Sanskrit literature in comparison to prose style. In this paper, we describe our efforts to build a parser which parses both prose as well as verse texts. It employs an Edge-Centric Binary Join method using various constraints following traditional rules of verbal cognition. We also propose a Da\u1e47\u1e0da-anvaya-janaka which converts the parsed verse form to its canonical prose order.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "Sanskrit"
+    ],
+    "numcitedby": 4,
+    "year": 2019,
+    "month": "October",
+    "title": "Dependency Parser for {S}anskrit Verses"
 }

@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "Humor is an essential but most fascinating element in personal communication. How to build computational models to discover the structures of humor, recognize humor and even generate humor remains a challenge and there have been yet few attempts on it. In this paper, we construct and collect four datasets with distinct joke types in both English and Chinese and conduct learning experiments on humor recognition. We implement a Convolutional Neural Network (CNN) with extensive filter size, number and Highway Networks to increase the depth of networks. Results show that our model outperforms in recognition of different types of humor with benchmarks collected in both English and Chinese languages on accuracy, precision, and recall in comparison to previous works.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 73,
+    "year": 2018,
+    "month": "June",
+    "title": "Humor Recognition Using Deep Learning"
 }

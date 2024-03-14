@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding sources, it is not possible to determine the presence of any specific type of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention of funding sources, it is not possible to determine the presence of any specific type of funding.",
+    "abstract": "Linguistic information can help improve evaluation of similarity between documents; however, the kind of linguistic information to be used depends on the task. In this paper, we show that distributions of syntactic structures capture the way works are written and accurately identify individual books more than 76% of the time. In comparison, baseline features, e.g., tfidf-weighted keywords, function words, etc., give an accuracy of at most 66%. However, testing the same features on authorship attribution shows that distributions of syntactic structures are less successful than function words on this task; syntactic structures vary even among the works of the same author whereas features such as function words are distributed more similarly among the works of an author and can more effectively capture authorship.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 69,
+    "year": 2005,
+    "month": "",
+    "title": "A Comparative Study of Language Models for Book and Author Recognition"
 }

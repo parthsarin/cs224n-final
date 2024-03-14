@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "This paper studies the abstractive multi-document summarization for event-oriented news texts through event information extraction and abstract representation. Fine-grained event mentions and semantic relations between them are extracted to build a unified and connected event semantic link network, an abstract representation of source texts. A network reduction algorithm is proposed to summarize the most salient and coherent event information. New sentences with good linguistic quality are automatically generated and selected through sentences over-generation and greedy-selection processes. Experimental results on DUC 2006 and DUC 2007 datasets show that our system significantly outperforms the state-of-the-art extractive and abstractive baselines under both pyramid and ROUGE evaluation metrics.",
+    "countries": [
+        "United Kingdom",
+        "China"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 22,
+    "year": 2016,
+    "month": "December",
+    "title": "Abstractive News Summarization based on Event Semantic Link Network"
 }

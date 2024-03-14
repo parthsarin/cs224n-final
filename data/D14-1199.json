@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources from defense, corporate entities, research agencies, foundations, or any other type of financial support. Without explicit mention of funding, it is not possible to determine the sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources from defense, corporate entities, research agencies, foundations, or any other type of financial support. Without explicit mention of funding, it is not possible to determine the sources based on the provided text.",
+    "abstract": "The efficiency of Information Extraction systems is known to be heavily influenced by domain-specific knowledge but the cost of developing such systems is considerably high. In this article, we consider the problem of event extraction and show that learning word representations from unlabeled domain-specific data and using them for representing event roles enable to outperform previous state-of-the-art event extraction models on the MUC-4 data set.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "Latin"
+    ],
+    "numcitedby": 11,
+    "year": 2014,
+    "month": "October",
+    "title": "Event Role Extraction using Domain-Relevant Word Representations"
 }

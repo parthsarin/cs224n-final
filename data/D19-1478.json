@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work was partially supported by the NSF Grant IIS-1850153. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the work was partially supported by the NSF Grant IIS-1850153. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received.",
+    "abstract": "Insightful findings in political science often require researchers to analyze documents of a certain subject or type, yet these documents are usually contained in large corpora that do not distinguish between pertinent and nonpertinent documents. In contrast, we can find corpora that label relevant documents but have limitations (e.g., from a single source or era), preventing their use for political science research. To bridge this gap, we present adaptive ensembling, an unsupervised domain adaptation framework, equipped with a novel text classification model and time-aware training to ensure our methods work well with diachronic corpora. Experiments on an expert-annotated dataset show that our framework outperforms strong benchmarks. Further analysis indicates that our methods are more stable, learn better representations, and extract cleaner corpora for fine-grained analysis.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 8,
+    "year": 2019,
+    "month": "November",
+    "title": "Adaptive Ensembling: Unsupervised Domain Adaptation for Political Document Analysis"
 }

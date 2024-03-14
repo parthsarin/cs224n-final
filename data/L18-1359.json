@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges support from JSPS KAKENHI Grant Number JP17K01105, which is a grant from the Japan Society for the Promotion of Science, a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges support from JSPS KAKENHI Grant Number JP17K01105, which is a grant from the Japan Society for the Promotion of Science, a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper presents a system called FishWatchr Mini (FWM), which supports students in observing and reflecting on educational activities such as presentation practices. Although video annotation systems are supposed to support such activities, especially reflection, they have been used by researchers and teachers outside the classroom, rather than by students inside the classroom. To resolve problems with introducing video annotation systems in the classroom, we propose three solutions: (a) to facilitate preparation of devices, FWM is implemented as a Web application on students' smartphones; (b) to facilitate students' learning to use the system, FWM is designed to automate as many operations as possible, apart from annotation; and (c) FWM allows students to examine annotation data through reflection, by providing functions such as visualization. The results of applying FWM to presentation practices in a university validated the effectiveness of FWM in terms of its ease of use and applicability of annotation results. Since annotated video data could also provide language resources for teachers, it is anticipated that they will contribute to improving their classes in the future.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 0,
+    "year": 2018,
+    "month": "May",
+    "title": "Development of a Mobile Observation Support System for Students: {F}ish{W}atchr Mini"
 }

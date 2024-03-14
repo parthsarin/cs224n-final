@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the paper explicitly states that the research was supported in part by the BOLT program of the Defense Advanced Research Projects Agency (DARPA), which is a branch of the United States Department of Defense. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the paper explicitly states that the research was supported in part by the BOLT program of the Defense Advanced Research Projects Agency (DARPA), which is a branch of the United States Department of Defense. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources.",
+    "abstract": "It has long been observed that monolingual text exhibits a tendency toward \"one sense per discourse,\" and it has been argued that a related \"one translation per discourse\" constraint is operative in bilingual contexts as well. In this paper, we introduce a novel method using forced decoding to confirm the validity of this constraint, and we demonstrate that it can be exploited in order to improve machine translation quality. Three ways of incorporating such a preference into a hierarchical phrase-based MT model are proposed, and the approach where all three are combined yields the greatest improvements for both Arabic-English and Chinese-English translation experiments.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Arabic",
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 49,
+    "year": 2012,
+    "month": "June",
+    "title": "Encouraging Consistent Translation Choices"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the research was supported by DARPA SAIL-ON and DARPA CHESS programs. DARPA (Defense Advanced Research Projects Agency) is a branch of the United States Department of Defense, which classifies it as a defense funding source. There is no mention of corporate, research agency, foundation funding, or an indication that there was no funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the research was supported by DARPA SAIL-ON and DARPA CHESS programs. DARPA (Defense Advanced Research Projects Agency) is a branch of the United States Department of Defense, which classifies it as a defense funding source. There is no mention of corporate, research agency, foundation funding, or an indication that there was no funding.",
+    "abstract": "Knowledge of difficulty level of questions helps a teacher in several ways, such as estimating students' potential quickly by asking carefully selected questions and improving quality of examination by modifying trivial and hard questions. Can we extract such benefits of instance difficulty in Natural Language Processing? To this end, we conduct Instance-Level Difficulty Analysis of Evaluation data (ILDAE) in a largescale setup of 23 datasets and demonstrate its five novel applications: 1) conducting efficientyet-accurate evaluations with fewer instances saving computational cost and time, 2) improving quality of existing evaluation datasets by repairing erroneous and trivial instances, 3) selecting the best model based on application requirements, 4) analyzing dataset characteristics for guiding future data creation, 5) estimating Out-of-Domain performance reliably. Comprehensive experiments for these applications lead to several interesting results, such as evaluation using just 5% instances (selected via ILDAE) achieves as high as 0.93 Kendall correlation with evaluation using complete dataset and computing weighted accuracy using difficulty scores leads to 5.2% higher correlation with Out-of-Domain performance. We release the difficulty scores 1 and hope our work will encourage research in this important yet understudied field of leveraging instance difficulty in evaluations.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 2,
+    "year": 2022,
+    "month": "May",
+    "title": "{ILDAE}: Instance-Level Difficulty Analysis of Evaluation Data"
 }

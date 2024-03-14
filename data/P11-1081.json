@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 5.836329679653751e-05
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions support from the Japan Society for the Promotion of Science (JSPS), which is a research agency, and the Provincia di Trento Grande Progetto LiveMemories, which does not clearly fall under the defined categories but is likely a government or regional project rather than a foundation, research agency, or corporate entity. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions support from the Japan Society for the Promotion of Science (JSPS), which is a research agency, and the Provincia di Trento Grande Progetto LiveMemories, which does not clearly fall under the defined categories but is likely a government or regional project rather than a foundation, research agency, or corporate entity. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "We present an ILP-based model of zero anaphora detection and resolution that builds on the joint determination of anaphoricity and coreference model proposed by Denis and Baldridge ( 2007 ), but revises it and extends it into a three-way ILP problem also incorporating subject detection. We show that this new model outperforms several baselines and competing models, as well as a direct translation of the Denis / Baldridge model, for both Italian and Japanese zero anaphora. We incorporate our model in complete anaphoric resolvers for both Italian and Japanese, showing that our approach leads to improved performance also when not used in isolation, provided that separate classifiers are used for zeros and for explicitly realized anaphors.",
+    "countries": [
+        "Italy",
+        "Japan"
+    ],
+    "languages": [
+        "Japanese",
+        "Italian"
+    ],
+    "numcitedby": 76,
+    "year": 2011,
+    "month": "June",
+    "title": "A Cross-Lingual {ILP} Solution to Zero Anaphora Resolution"
 }

@@ -7,5 +7,21 @@
         "foundation": 0.0,
         "none": 0.9998528464381476
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "In this work, we analyze the robustness of neural machine translation systems towards grammatical perturbations in the source. In particular, we focus on morphological inflection related perturbations. While this has been recently studied for English\u2192French translation (MORPHEUS) (Tan et al., 2020) , it is unclear how this extends to Any\u2192English translation systems. We propose MORPHEUS-MULTILINGUAL that utilizes UniMorph dictionaries to identify morphological perturbations to source that adversely affect the translation models. Along with an analysis of stateof-the-art pretrained MT systems, we train and analyze systems for 11 language pairs using the multilingual TED corpus (Qi et al., 2018) . We also compare this to actual errors of nonnative speakers using Grammatical Error Correction datasets. Finally, we present a qualitative and quantitative analysis of the robustness of Any\u2192English translation systems. Code for our work is publicly available. 1 * Equal contribution. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Russian",
+        "Georgian",
+        "Turkish",
+        "Hebrew",
+        "Estonian",
+        "German"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "August",
+    "title": "A Study of Morphological Robustness of Neural Machine Translation"
 }

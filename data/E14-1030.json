@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research conducted. It focuses on the methodology and findings related to identifying deceptive reviews without reference to financial support from defense, corporate entities, research agencies, foundations, or any other funding bodies."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research conducted. It focuses on the methodology and findings related to identifying deceptive reviews without reference to financial support from defense, corporate entities, research agencies, foundations, or any other funding bodies.",
+    "abstract": "Customers who buy products such as books online often rely on other customers reviews more than on reviews found on specialist magazines. Unfortunately the confidence in such reviews is often misplaced due to the explosion of so-called sock puppetry-authors writing glowing reviews of their own books. Identifying such deceptive reviews is not easy. The first contribution of our work is the creation of a collection including a number of genuinely deceptive Amazon book reviews in collaboration with crime writer Jeremy Duns, who has devoted a great deal of effort in unmasking sock puppeting among his colleagues. But there can be no certainty concerning the other reviews in the collection: all we have is a number of cues, also developed in collaboration with Duns, suggesting that a review may be genuine or deceptive. Thus this corpus is an example of a collection where it is not possible to acquire the actual label for all instances, and where clues of deception were treated as annotators who assign them heuristic labels. A number of approaches have been proposed for such cases; we adopt here the 'learning from crowds' approach proposed by Raykar et al. (2010) . Thanks to Duns' certainly fake reviews, the second contribution of this work consists in the evaluation of the effectiveness of different methods of annotation, according to the performance of models trained to detect deceptive reviews.",
+    "countries": [
+        "Italy",
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 54,
+    "year": 2014,
+    "month": "April",
+    "title": "Identifying fake {A}mazon reviews as learning from crowds"
 }

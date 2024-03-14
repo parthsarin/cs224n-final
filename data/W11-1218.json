@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.999983237218497
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or an explicit statement of having no funding. Without explicit mentions, we cannot assume any specific source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or an explicit statement of having no funding. Without explicit mentions, we cannot assume any specific source of funding.",
+    "abstract": "We describe a set of techniques that have been developed while collecting parallel texts for Russian-English language pair and building a corpus of parallel sentences for training a statistical machine translation system. We discuss issues of verifying potential parallel texts and filtering out automatically translated documents. Finally we evaluate the quality of the 1-millionsentence corpus which we believe may be a useful resource for machine translation research.",
+    "countries": [
+        "Russia"
+    ],
+    "languages": [
+        "English",
+        "Russian"
+    ],
+    "numcitedby": 24,
+    "year": 2011,
+    "month": "June",
+    "title": "Building a Web-Based Parallel Corpus and Filtering Out Machine-Translated Text"
 }

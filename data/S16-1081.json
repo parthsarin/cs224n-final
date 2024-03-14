@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article mentions support from DARPA-BAA-12-47 DEFT grant to George Washington University and a DEFT grant #12475008 to the University of Michigan, which are associated with the Defense Advanced Research Projects Agency, a branch of the United States Department of Defense. It also mentions a MINECO grant to the University of the Basque Country for the TUNER project, which is a government-funded organization in Spain, thus a research agency. Aitor Gonzalez Agirre is supported by a doctoral grant from MINECO (PhD grant FPU12/06243), which also falls under research agency funding. There is no mention of corporate or foundation funding."
+    "reasoning": "Reasoning: The article mentions support from DARPA-BAA-12-47 DEFT grant to George Washington University and a DEFT grant #12475008 to the University of Michigan, which are associated with the Defense Advanced Research Projects Agency, a branch of the United States Department of Defense. It also mentions a MINECO grant to the University of the Basque Country for the TUNER project, which is a government-funded organization in Spain, thus a research agency. Aitor Gonzalez Agirre is supported by a doctoral grant from MINECO (PhD grant FPU12/06243), which also falls under research agency funding. There is no mention of corporate or foundation funding.",
+    "abstract": "Semantic Textual Similarity (STS) seeks to measure the degree of semantic equivalence between two snippets of text. Similarity is expressed on an ordinal scale that spans from semantic equivalence to complete unrelatedness. Intermediate values capture specifically defined levels of partial similarity. While prior evaluations constrained themselves to just monolingual snippets of text, the 2016 shared task includes a pilot subtask on computing semantic similarity on cross-lingual text snippets. This year's traditional monolingual subtask involves the evaluation of English text snippets from the following four domains: Plagiarism Detection, Post-Edited Machine Translations, Question-Answering and News Article Headlines. From the questionanswering domain, we include both questionquestion and answer-answer pairs. The cross-lingual subtask provides paired Spanish-English text snippets drawn from the same sources as the English data as well as independently sampled news data. The English subtask attracted 43 participating teams producing 119 system submissions, while the crosslingual Spanish-English pilot subtask attracted 10 teams resulting in 26 systems.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Spanish",
+        "English"
+    ],
+    "numcitedby": 376,
+    "year": 2016,
+    "month": "June",
+    "title": "{S}em{E}val-2016 Task 1: Semantic Textual Similarity, Monolingual and Cross-Lingual Evaluation"
 }

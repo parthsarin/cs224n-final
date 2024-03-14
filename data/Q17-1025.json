@@ -7,5 +7,19 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, foundations, or any other type of funding. Therefore, based on the information given, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, foundations, or any other type of funding. Therefore, based on the information given, it is not possible to determine any funding sources.",
+    "abstract": "This paper focuses on unsupervised modeling of morphological families, collectively comprising a forest over the language vocabulary. This formulation enables us to capture edgewise properties reflecting single-step morphological derivations, along with global distributional properties of the entire forest. These global properties constrain the size of the affix set and encourage formation of tight morphological families. The resulting objective is solved using Integer Linear Programming (ILP) paired with contrastive estimation. We train the model by alternating between optimizing the local log-linear model and the global ILP objective. We evaluate our system on three tasks: root detection, clustering of morphological families, and segmentation. Our experiments demonstrate that our model yields consistent gains in all three tasks compared with the best published results. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "German",
+        "English",
+        "Turkish",
+        "Arabic"
+    ],
+    "numcitedby": 10,
+    "year": 2017,
+    "month": "",
+    "title": "Unsupervised Learning of Morphological Forests"
 }

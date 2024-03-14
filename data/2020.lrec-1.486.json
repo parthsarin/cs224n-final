@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article mentions funding from the European Union's Horizon 2020 research and innovation programme (grant agreement \u2116 780069) for the MeMAD project and the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement \u2116 771113) for the FoTran project. These are research agencies of the European Union, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article mentions funding from the European Union's Horizon 2020 research and innovation programme (grant agreement \u2116 780069) for the MeMAD project and the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement \u2116 771113) for the FoTran project. These are research agencies of the European Union, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "Data-driven segmentation of words into subword units has been used in various natural language processing applications such as automatic speech recognition and statistical machine translation for almost 20 years. Recently it has became more widely adopted, as models based on deep neural networks often benefit from subword units even for morphologically simpler languages. In this paper, we discuss and compare training algorithms for a unigram subword model, based on the Expectation Maximization algorithm and lexicon pruning. Using English, Finnish, North Sami, and Turkish data sets, we show that this approach is able to find better solutions to the optimization problem defined by the Morfessor Baseline model than its original recursive training algorithm. The improved optimization also leads to higher morphological segmentation accuracy when compared to a linguistic gold standard. We publish implementations of the new algorithms in the widely-used Morfessor software package.",
+    "countries": [
+        "Finland"
+    ],
+    "languages": [
+        "Finnish",
+        "Turkish",
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2020,
+    "month": "May",
+    "title": "{M}orfessor {EM}+{P}rune: Improved Subword Segmentation with Expectation Maximization and Pruning"
 }

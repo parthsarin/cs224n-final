@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. It focuses on the development and implications of the Mirto platform for Computer Assisted Language Learning (CALL) and the integration of Natural Language Processing (NLP) without mentioning any support from defense, corporate entities, research agencies, or foundations. Therefore, based on the information provided, it is not possible to determine any specific funding sources."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. It focuses on the development and implications of the Mirto platform for Computer Assisted Language Learning (CALL) and the integration of Natural Language Processing (NLP) without mentioning any support from defense, corporate entities, research agencies, or foundations. Therefore, based on the information provided, it is not possible to determine any specific funding sources.",
+    "abstract": "This article focuses on the development of Natural Language Processing (NLP) tools for Computer Assisted Language Learning (CALL). After identifying the inherent limitations of NLP-free tools, we describe the general framework of Mirto, an NLP-based authoring platform under construction in our laboratory, and organized into four distinct layers: functions, scripts, activities and scenarios. Through several examples, we explain how Mirto's architecture allows to implement state-of-the-art NLP functions, integrate them into easily handled scripts in order to create, without computing skills, didactic activities that could be recorded in more complex sequences or scenarios. CALL: Conjugating NLP and language didactics It is generally reckoned that computer science can prove itself to be a great aid in language learning, when in fact, most often computer scientists and didactics experts do not agree on the notion of \"language\". For the former, it corresponds to a sequence of codes, while for the latter it is a system of forms and concepts. This divergence can easily be explained, when considering the fact that computer science, by definition, can only consider and process the form of the language independently of any interpretation, while, for language didactics, the form only exists through its properties and the concepts it is supposed to represent.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "Italian"
+    ],
+    "numcitedby": 32,
+    "year": 2004,
+    "month": "August 28",
+    "title": "{NLP}-based scripting for {CALL} activities"
 }

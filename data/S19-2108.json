@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union's Horizon 2020 research and innovation programme under Grant No. 825153, EMBEDDIA (Cross-Lingual Embeddings for Less-Represented Languages in European News Media), which is a research agency. It also acknowledges financial support from the Slovenian Research Agency core research programme Knowledge Technologies (P2-0103), another research agency. No mention is made of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union's Horizon 2020 research and innovation programme under Grant No. 825153, EMBEDDIA (Cross-Lingual Embeddings for Less-Represented Languages in European News Media), which is a research agency. It also acknowledges financial support from the Slovenian Research Agency core research programme Knowledge Technologies (P2-0103), another research agency. No mention is made of defense, corporate, or foundation funding.",
+    "abstract": "SemEval-2019 Task 6 was OffensEval: Identifying and Categorizing Offensive Language in Social Media. The task was further divided into three sub-tasks: offensive language identification, automatic categorization of offense types, and offense target identification. In this paper, we present the approaches used by the Embeddia team, who qualified as fourth, eighteenth and fifth on the three sub-tasks. A different model was trained for each sub-task. For the first sub-task, we used a BERT model fine-tuned on the provided dataset, while for the second and third tasks we developed a custom neural network architecture which combines bag-of-words features and automatically generated sequence-based features. Our results show that combining automatically and manually crafted features fed into a neural architecture outperform transfer learning approach on more unbalanced datasets.",
+    "countries": [
+        "Slovenia"
+    ],
+    "languages": [
+        "English",
+        "Hindi"
+    ],
+    "numcitedby": 14,
+    "year": 2019,
+    "month": "June",
+    "title": "Embeddia at {S}em{E}val-2019 Task 6: Detecting Hate with Neural Network and Transfer Learning Approaches"
 }

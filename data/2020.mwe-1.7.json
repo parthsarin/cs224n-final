@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the Irish Government Department of Culture, Heritage and the Gaeltacht under the GaelTech Project, and support from Science Foundation Ireland in the ADAPT Centre at Dublin City University. These entities are government-related and research agency-related, respectively. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the Irish Government Department of Culture, Heritage and the Gaeltacht under the GaelTech Project, and support from Science Foundation Ireland in the ADAPT Centre at Dublin City University. These entities are government-related and research agency-related, respectively. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "This paper describes the creation of two Irish corpora (labelled and unlabelled) for verbal MWEs for inclusion in the PARSEME Shared Task 1.2 on automatic identification of verbal MWEs, and the process of developing verbal MWE categories for Irish. A qualitative analysis on the two corpora is presented, along with discussion of Irish verbal MWEs.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Irish"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "December",
+    "title": "Annotating Verbal {MWE}s in {I}rish for the {PARSEME} Shared Task 1.2"
 }

@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project has been partially funded by Deutsche Forschungsgemeinschaft (DFG), which is a German research funding organization, indicating that the research agency category applies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the project has been partially funded by Deutsche Forschungsgemeinschaft (DFG), which is a German research funding organization, indicating that the research agency category applies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "The 2020 US Elections have been, more than ever before, characterized by social media campaigns and mutual accusations. We investigate in this paper if this manifests also in online communication of the supporters of the candidates Biden and Trump, by uttering hateful and offensive communication. We formulate an annotation task, in which we join the tasks of hateful/offensive speech detection and stance detection, and annotate 3000 Tweets from the campaign period, if they express a particular stance towards a candidate. Next to the established classes of favorable and against, we add mixed and neutral stances and also annotate if a candidate is mentioned without an opinion expression. Further, we annotate if the tweet is written in an offensive style. This enables us to analyze if supporters of Joe Biden and the Democratic Party communicate differently than supporters of Donald Trump and the Republican Party. A BERT baseline classifier shows that the detection if somebody is a supporter of a candidate can be performed with high quality (.89 F 1 for Trump and .91 F 1 for Biden), while the detection that somebody expresses to be against a candidate is more challenging (.79 F 1 and .64 F 1 , respectively). The automatic detection of hate/offensive speech remains challenging (with .53 F 1 ). Our corpus is publicly available and constitutes a novel resource for computational modelling of offensive language under consideration of stances.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 16,
+    "year": 2021,
+    "month": "April",
+    "title": "Hate Towards the Political Opponent: A {T}witter Corpus Study of the 2020 {US} Elections on the Basis of Offensive Speech and Stance Detection"
 }

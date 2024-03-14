@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions support from the U.S. Department of Defense Systems Engineering Research Center (SERC) and the U.S. National Science Foundation (NSF), indicating funding from a defense source and a research agency. There is no mention of corporate or foundation funding, and since there are identified funding sources, it cannot be classified as having no funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions support from the U.S. Department of Defense Systems Engineering Research Center (SERC) and the U.S. National Science Foundation (NSF), indicating funding from a defense source and a research agency. There is no mention of corporate or foundation funding, and since there are identified funding sources, it cannot be classified as having no funding.",
+    "abstract": "Software system development is guided by the evolution of requirements. In this paper, we address the task of requirements traceability, which is concerned with providing bi-directional traceability between various requirements, enabling users to find the origin of each requirement and track every change made to it. We propose a knowledge-rich approach to the task, where we extend a supervised baseline system with (1) additional training instances derived from human-provided annotator rationales; and (2) additional features derived from a hand-built ontology. Experiments demonstrate that our approach yields a relative error reduction of 11.1-19.7%.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 4,
+    "year": 2015,
+    "month": "July",
+    "title": "Recovering Traceability Links in Requirements Documents"
 }

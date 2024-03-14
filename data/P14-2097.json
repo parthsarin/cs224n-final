@@ -7,5 +7,16 @@
         "foundation": 1.981665536443522e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources.",
+    "abstract": "We present a nonparametric density estimation technique for image caption generation. Data-driven matching methods have shown to be effective for a variety of complex problems in Computer Vision. These methods reduce an inference problem for an unknown image to finding an existing labeled image which is semantically similar. However, related approaches for image caption generation (Ordonez et al., 2011; Kuznetsova et al., 2012) are hampered by noisy estimations of visual content and poor alignment between images and human-written captions. Our work addresses this challenge by estimating a word frequency representation of the visual content of a query image. This allows us to cast caption generation as an extractive summarization problem. Our model strongly outperforms two state-ofthe-art caption extraction systems according to human judgments of caption relevance.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 71,
+    "year": 2014,
+    "month": "June",
+    "title": "Nonparametric Method for Data-driven Image Captioning"
 }

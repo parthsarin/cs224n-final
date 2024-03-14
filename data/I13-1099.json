@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research described has been partially supported by the European Community's Seventh Framework Programme (FP7/2007-2013) under the grant #288024: LIMOSINE - Linguistically Motivated Semantic aggregation engines. The European Community's Seventh Framework Programme is a research agency, indicating government-funded support for research. There is no mention of defense, corporate, or foundation funding, and since there is at least one source of funding, the option \"none\" does not apply."
+    "reasoning": "Reasoning: The article explicitly mentions that the research described has been partially supported by the European Community's Seventh Framework Programme (FP7/2007-2013) under the grant #288024: LIMOSINE - Linguistically Motivated Semantic aggregation engines. The European Community's Seventh Framework Programme is a research agency, indicating government-funded support for research. There is no mention of defense, corporate, or foundation funding, and since there is at least one source of funding, the option \"none\" does not apply.",
+    "abstract": "In this paper we present our work on adapting a state-of-the-art anaphora resolution system for a resource poor language, namely Bengali. Performance of any anaphoric resolver greatly depends on the quality of a high accurate mention detector. We develop a number of models for mention detection based on heuristics and machine learning. Our experiments show that, a language-dependent system can attain reasonably good performance when re-trained on a new language with a proper subset of features. The system yields the MUC recall, precision and F-measure values of 57.80%, 79.00% and 66.70%, respectively. Our experiments with other available scorers show the F-measure values of 59.47%, 49.83%, 31.81% and 70.82% for BCUB, CEAFM, CEAFE and BLANC, respectively.",
+    "countries": [
+        "India",
+        "United Kingdom",
+        "Italy"
+    ],
+    "languages": [
+        "Bengali"
+    ],
+    "numcitedby": 9,
+    "year": 2013,
+    "month": "October",
+    "title": "Adapting a State-of-the-art Anaphora Resolution System for Resource-poor Language"
 }

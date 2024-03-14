@@ -7,5 +7,17 @@
         "foundation": 0.8354819708954846,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the Wisconsin Alumni Research Foundation (WARF) and an NLM training grant. WARF is a private, nonprofit foundation supporting research at the University of Wisconsin\u2013Madison. The National Library of Medicine (NLM) is part of the National Institutes of Health (NIH), a research agency of the United States government. There is no mention of funding from defense, corporate entities, or other foundations."
+    "reasoning": "Reasoning: The article explicitly mentions support from the Wisconsin Alumni Research Foundation (WARF) and an NLM training grant. WARF is a private, nonprofit foundation supporting research at the University of Wisconsin\u2013Madison. The National Library of Medicine (NLM) is part of the National Institutes of Health (NIH), a research agency of the United States government. There is no mention of funding from defense, corporate entities, or other foundations.",
+    "abstract": "We introduce a novel ranking algorithm called GRASSHOPPER, which ranks items with an emphasis on diversity. That is, the top items should be different from each other in order to have a broad coverage of the whole item set. Many natural language processing tasks can benefit from such diversity ranking. Our algorithm is based on random walks in an absorbing Markov chain. We turn ranked items into absorbing states, which effectively prevents redundant items from receiving a high rank. We demonstrate GRASSHOP-PER's effectiveness on extractive text summarization: our algorithm ranks between the 1st and 2nd systems on DUC 2004 Task 2; and on a social network analysis task that identifies movie stars of the world.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Arabic"
+    ],
+    "numcitedby": 242,
+    "year": 2007,
+    "month": "April",
+    "title": "Improving Diversity in Ranking using Absorbing Random Walks"
 }

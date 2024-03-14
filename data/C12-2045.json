@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges support from NSF Grant IIS-1147644, which indicates funding from a research agency, specifically the National Science Foundation, a government-funded organization that provides grants for scientific research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges support from NSF Grant IIS-1147644, which indicates funding from a research agency, specifically the National Science Foundation, a government-funded organization that provides grants for scientific research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Debate stance classification, the task of classifying an author's stance in a two-sided debate, is a relatively new and challenging problem in opinion mining. One of its challenges stems from the fact that it is not uncommon to find words and phrases in a debate post that are indicative of the opposing stance, owing to the frequent need for an author to re-state other people's opinions so that she can refer to and contrast with them when establishing her own arguments. We propose a machine learning approach to debate stance classification that leverages two types of rich linguistic knowledge, one exploiting contextual information and the other involving the determination of the author's stances on topics. Experimental results on debate posts involving two popular debate domains demonstrate the effectiveness of our two types of linguistic knowledge when they are combined in an integer linear programming framework.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 15,
+    "year": 2012,
+    "month": "December",
+    "title": "Predicting Stance in Ideological Debate with Rich Linguistic Knowledge"
 }

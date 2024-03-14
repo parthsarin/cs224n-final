@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from a Golisano College of Computing and Information Sciences Kodak Endowed Chair Fund Health Information Technology Strategic Initiative Grant and an NSF Award #SES-1111016. The National Science Foundation (NSF) is a government-funded research agency, indicating research agency funding. The Kodak Endowed Chair Fund, while corporate in origin, is specified as part of a college initiative, which does not directly indicate current corporate funding for this specific research. There is no mention of defense or foundation funding, nor is there a statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from a Golisano College of Computing and Information Sciences Kodak Endowed Chair Fund Health Information Technology Strategic Initiative Grant and an NSF Award #SES-1111016. The National Science Foundation (NSF) is a government-funded research agency, indicating research agency funding. The Kodak Endowed Chair Fund, while corporate in origin, is specified as part of a college initiative, which does not directly indicate current corporate funding for this specific research. There is no mention of defense or foundation funding, nor is there a statement indicating the absence of any funding.",
+    "abstract": "In September 2014, Twitter users unequivocally reacted to the Ray Rice assault scandal by unleashing personal stories of domestic abuse via the hashtags #WhyIStayed or #WhyILeft. We explore at a macro-level firsthand accounts of domestic abuse from a substantial, balanced corpus of tweeted instances designated with these tags. To seek insights into the reasons victims give for staying in vs. leaving abusive relationships, we analyze the corpus using linguistically motivated methods. We also report on an annotation study for corpus assessment. We perform classification, contributing a classifier that discriminates between the two hashtags exceptionally well at 82% accuracy with a substantial error reduction over its baseline.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 18,
+    "year": 2015,
+    "month": "May{--}June",
+    "title": "{\\#}{W}hy{IS}tayed, {\\#}{W}hy{IL}eft: Microblogging to Make Sense of Domestic Abuse"
 }

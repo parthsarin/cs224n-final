@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the work was supported by the FIRST program of JSPS. JSPS (Japan Society for the Promotion of Science) is a major governmental organization in Japan that provides grants for scientific research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly states that the work was supported by the FIRST program of JSPS. JSPS (Japan Society for the Promotion of Science) is a major governmental organization in Japan that provides grants for scientific research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "While there have been many attempts to estimate the emotion of an addresser from her/his utterance, few studies have explored how her/his utterance affects the emotion of the addressee. This has motivated us to investigate two novel tasks: predicting the emotion of the addressee and generating a response that elicits a specific emotion in the addressee's mind. We target Japanese Twitter posts as a source of dialogue data and automatically build training data for learning the predictors and generators. The feasibility of our approaches is assessed by using 1099 utterance-response pairs that are built by five human workers.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 62,
+    "year": 2013,
+    "month": "August",
+    "title": "Predicting and Eliciting Addressee{'}s Emotion in Online Dialogue"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9998599976212479
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the ONTOTEXT project, funded by the Provincia Autonoma di Trento. The Provincia Autonoma di Trento is a local government entity, which does not fall under any of the specified categories of defense, corporate, research agency, or foundation. Therefore, there is no direct evidence of funding from defense, corporate, research agencies, or foundations."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the ONTOTEXT project, funded by the Provincia Autonoma di Trento. The Provincia Autonoma di Trento is a local government entity, which does not fall under any of the specified categories of defense, corporate, research agency, or foundation. Therefore, there is no direct evidence of funding from defense, corporate, research agencies, or foundations.",
+    "abstract": "In this paper we propose and investigate Ontology Population from Textual Mentions (OPTM), a sub-task of Ontology Population from text where we assume that mentions for several kinds of entities (e.g. PERSON, O R G A N I Z A T I O N , LO C A T I O N , GEO-POLITICAL_ ENTITY) are already extracted from a document collection. On the one hand, OPTM simplifies the general Ontology Population task, limiting the input textual material; on the other hand, it introduces challenging extensions to Ontology Population restricted to named entities, being open to a wider spectrum of linguistic phenomena. We describe a manually created benchmark for OPTM and discuss several factors which determine the difficulty of the task.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        "Italian"
+    ],
+    "numcitedby": 29,
+    "year": 2006,
+    "month": "July",
+    "title": "Ontology Population from Textual Mentions: Task Definition and Benchmark"
 }

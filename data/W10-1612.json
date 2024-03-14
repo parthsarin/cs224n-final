@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research has been partially funded by projects KNOW, TIN2006-15049-C03-01, and Representation of Semantic Knowledge TIN2009-14715-C04-03 of the Spanish Ministry of Education and Culture. These projects are typically funded by government research agencies, indicating that the research agency is a source of funding. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research has been partially funded by projects KNOW, TIN2006-15049-C03-01, and Representation of Semantic Knowledge TIN2009-14715-C04-03 of the Spanish Ministry of Education and Culture. These projects are typically funded by government research agencies, indicating that the research agency is a source of funding. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "IRASubcat is a language-independent tool to acquire information about the subcategorization of verbs from corpus. The tool can extract information from corpora annotated at various levels, including almost raw text, where only verbs are identified. It can also aggregate information from a pre-existing lexicon with verbal subcategorization information. The system is highly customizable, and works with XML as input and output format. IRASubcat identifies patterns of constituents in the corpus, and associates patterns with verbs if their association strength is over a frequency threshold and passes the likelihood ratio hypothesis test. It also implements a procedure to identify verbal constituents that could be playing the role of an adjunct in a pattern. Thresholds controlling frequency and identification of adjuncts can be customized by the user, or else they are given a default value.",
+    "countries": [
+        "Argentina"
+    ],
+    "languages": [
+        "Spanish",
+        "Russian",
+        "German"
+    ],
+    "numcitedby": 10,
+    "year": 2010,
+    "month": "June",
+    "title": "{IRAS}ubcat, a highly parametrizable, language independent tool for the acquisition of verbal subcategorization information from corpus"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from DARPA, which is a defense agency, and gifts from Google and Tencent, which are corporations. It also mentions the WRF/Cable Professorship and an Allen Distinguished Investigator Award, which are types of foundation support. There is no mention of funding from a research agency that is not also a defense agency, nor is there a statement indicating no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from DARPA, which is a defense agency, and gifts from Google and Tencent, which are corporations. It also mentions the WRF/Cable Professorship and an Allen Distinguished Investigator Award, which are types of foundation support. There is no mention of funding from a research agency that is not also a defense agency, nor is there a statement indicating no funding was received.",
+    "abstract": "We present TriviaQA, a challenging reading comprehension dataset containing over 650K question-answer-evidence triples. TriviaQA includes 95K questionanswer pairs authored by trivia enthusiasts and independently gathered evidence documents, six per question on average, that provide high quality distant supervision for answering the questions. We show that, in comparison to other recently introduced large-scale datasets, TriviaQA (1) has relatively complex, compositional questions, (2) has considerable syntactic and lexical variability between questions and corresponding answer-evidence sentences, and (3) requires more cross sentence reasoning to find answers. We also present two baseline algorithms: a featurebased classifier and a state-of-the-art neural network, that performs well on SQuAD reading comprehension. Neither approach comes close to human performance (23% and 40% vs. 80%), suggesting that Trivi-aQA is a challenging testbed that is worth significant future study. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 929,
+    "year": 2017,
+    "month": "July",
+    "title": "{T}rivia{QA}: A Large Scale Distantly Supervised Challenge Dataset for Reading Comprehension"
 }

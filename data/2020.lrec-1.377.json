@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9879444001199634
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text.",
+    "abstract": "There is a growing body of work on how word meaning changes over time: mutation. In contrast, there is very little work on how different words compete to represent the same meaning, and how the degree of success of words in that competition changes over time: natural selection. We present a new dataset, WordWars, with historical frequency data from the early 1800s to the early 2000s for monosemous English words in over 5000 synsets. We explore three broad questions with the dataset: (1) what is the degree to which predominant words in these synsets have changed, (2) how do prominent word features such as frequency, length, and concreteness impact natural selection, and ( 3 ) what are the differences between the predominant words of the 2000s and the predominant words of early 1800s. We show that close to one third of the synsets undergo a change in the predominant word in this time period. Manual annotation of these pairs shows that about 15% of these are orthographic variations, 25% involve affix changes, and 60% have completely different roots. We find that frequency, length, and concreteness all impact natural selection, albeit in different ways.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "May",
+    "title": "{W}ord{W}ars: A Dataset to Examine the Natural Selection of Words"
 }

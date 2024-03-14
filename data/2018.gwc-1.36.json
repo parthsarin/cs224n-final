@@ -7,5 +7,17 @@
         "foundation": 0.9999888397127765,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges funding from the South African National Research Foundation, National HLT Network, Department of Arts and Culture, the University of South Africa's Women-in-Research Fund, and the South African Centre for Digital Language Resources. These entities suggest government and institutional support, which aligns with research agency and foundation categories. There is no mention of defense or corporate funding."
+    "reasoning": "Reasoning: The article explicitly acknowledges funding from the South African National Research Foundation, National HLT Network, Department of Arts and Culture, the University of South Africa's Women-in-Research Fund, and the South African Centre for Digital Language Resources. These entities suggest government and institutional support, which aligns with research agency and foundation categories. There is no mention of defense or corporate funding.",
+    "abstract": "The development of the African Wordnet (AWN) has reached a stage of maturity where the first steps towards an application can be attempted. The AWN is based on the expand method, and to compensate for the general resource scarceness of the African languages, various development strategies were used. The aim of this paper is to investigate the usefulness of the current isiZulu Wordnet in an application such as language learning. The advantage of incorporating the wordnet of a language into a language learning system is that it provides learners with an integrated application to enhance their learning experience by means of the unique sense identification features of wordnets. In this paper it will be demonstrated by means of a variety of examples within the context of a basic free online course how the isiZulu Wordnet can offer the language learner improved decision support.",
+    "countries": [
+        "South Africa"
+    ],
+    "languages": [
+        "English",
+        "Sesotho"
+    ],
+    "numcitedby": 2,
+    "year": 2018,
+    "month": "January",
+    "title": "{A}frican {W}ordnet: facilitating language learning in {A}frican languages"
 }

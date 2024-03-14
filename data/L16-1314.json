@@ -7,5 +7,19 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9982956829006745
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Computer-assisted transcription promises high-quality speech transcription at reduced costs. This is achieved by limiting human effort to transcribing parts for which automatic transcription quality is insufficient. Our goal is to improve the human transcription quality via appropriate user interface design. We focus on iterative interfaces that allow humans to solve tasks based on an initially given suggestion, in this case an automatic transcription. We conduct a user study that reveals considerable quality gains for three variations of iterative interfaces over a non-iterative from-scratch transcription interface. Our iterative interfaces included post-editing, confidence-enhanced post-editing, and a novel retyping interface. All three yielded similar quality on average, but we found that the proposed retyping interface was less sensitive to the difficulty of the segment, and superior when the automatic transcription of the segment contained relatively many errors. An analysis using mixed-effects models allows us to quantify these and other factors and draw conclusions over which interface design should be chosen in which circumstance.",
+    "countries": [
+        "Japan",
+        "Germany"
+    ],
+    "languages": [
+        "English",
+        "Japanese",
+        "German"
+    ],
+    "numcitedby": 8,
+    "year": 2016,
+    "month": "May",
+    "title": "Optimizing Computer-Assisted Transcription Quality with Iterative User Interfaces"
 }

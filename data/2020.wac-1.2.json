@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article itself."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article itself.",
+    "abstract": "This article examines extraction methods designed to retain the main text content of web pages and discusses how the extraction could be oriented and evaluated: can and should it be as generic as possible to ensure opportunistic corpus construction? The evaluation grounds on a comparative benchmark of open-source tools used on pages in five different languages (Chinese, English, Greek, Polish and Russian), it features several metrics to obtain more fine-grained differentiations. Our experiments highlight the diversity of web page layouts across languages or publishing countries. These discrepancies are reflected by diverging performances so that the right tool has to be chosen accordingly.",
+    "countries": [
+        "France",
+        "Germany"
+    ],
+    "languages": [
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 5,
+    "year": 2020,
+    "month": "May",
+    "title": "Out-of-the-Box and into the Ditch? Multilingual Evaluation of Generic Text Extraction Tools"
 }

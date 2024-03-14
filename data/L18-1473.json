@@ -7,5 +7,19 @@
         "foundation": 0.9999998063873687,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the German Research Foundation, which is a research agency, and the Klaus Tschira Foundation, a foundation. There is no mention of defense, corporate funding, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from the German Research Foundation, which is a research agency, and the Klaus Tschira Foundation, a foundation. There is no mention of defense, corporate funding, or an absence of funding.",
+    "abstract": "We present BPEmb, a collection of pre-trained subword unit embeddings in 275 languages, based on Byte-Pair Encoding (BPE). In an evaluation using fine-grained entity typing as testbed, BPEmb performs competitively, and for some languages better than alternative subword approaches, while requiring vastly fewer resources and no tokenization. BPEmb is available at https://github.com/bheinzerling/bpemb.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English",
+        "Tibetan",
+        "Lao",
+        "Khmer"
+    ],
+    "numcitedby": 167,
+    "year": 2018,
+    "month": "May",
+    "title": "{BPE}mb: Tokenization-free Pre-trained Subword Embeddings in 275 Languages"
 }

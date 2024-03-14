@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.9998540382934465
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "In this paper, we outline the development of a system that automatically constructs ontologies by extracting knowledge from dictionary definition sentences using Robust Minimal Recursion Semantics (RMRS). Combining deep and shallow parsing resource through the common formalism of RMRS allows us to extract ontological relations in greater quantity and quality than possible with any of the methods independently. Using this method, we construct ontologies from two different Japanese lexicons and one English lexicon. We then link them to existing, handcrafted ontologies, aligning them at the word-sense level. This alignment provides a representative evaluation of the quality of the relations being extracted. We present the results of this ontology construction and discuss how our system was designed to handle multiple lexicons and languages.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 16,
+    "year": 2006,
+    "month": "July",
+    "title": "Multilingual Ontology Acquisition from Multiple {MRD}s"
 }

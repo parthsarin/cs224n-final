@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999996871837189
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of funding. Therefore, based on the information provided, it is not possible to determine if the research received funding from any of these sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of funding. Therefore, based on the information provided, it is not possible to determine if the research received funding from any of these sources.",
+    "abstract": "We participate in the BioNLP 2013 Shared Task with Turku Event Extraction System (TEES) version 2.1. TEES is a support vector machine (SVM) based text mining system for the extraction of events and relations from natural language texts. In version 2.1 we introduce an automated annotation scheme learning system, which derives task-specific event rules and constraints from the training data, and uses these to automatically adapt the system for new corpora with no additional programming required. TEES 2.1 is shown to have good generalizability and good performance across the BioNLP 2013 task corpora, achieving first place in four out of eight tasks.",
+    "countries": [
+        "Finland"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 113,
+    "year": 2013,
+    "month": "August",
+    "title": "{TEES} 2.1: Automated Annotation Scheme Learning in the {B}io{NLP} 2013 Shared Task"
 }

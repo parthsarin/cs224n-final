@@ -7,5 +7,18 @@
         "foundation": 4.320199066265573e-07,
         "none": 0.9994796306391235
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "This paper presents the results that were obtained from WASSA 2022 shared task on predicting empathy, emotion, and personality in reaction to news stories. Participants were given access to a dataset comprising empathic reactions to news stories where harm is done to a person, group, or other. These reactions consist of essays and Batson's empathic concern and personal distress scores. The dataset was further extended in WASSA 2021 shared task to include news articles, person-level demographic information (e.g. age, gender), personality information, and Ekman's six basic emotions at essay level Participation was encouraged in four tracks: predicting empathy and distress scores, predicting emotion categories, predicting personality and predicting interpersonal reactivity. In total, 14 teams participated in the shared task. We summarize the methods and resources used by the participating teams.",
+    "countries": [
+        "United States",
+        "Saudi Arabia",
+        "Europe"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "May",
+    "title": "{WASSA} 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories"
 }

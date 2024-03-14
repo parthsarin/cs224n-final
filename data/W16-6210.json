@@ -7,5 +7,16 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources based on the provided text.",
+    "abstract": "Identifying witness accounts is important for rumor debunking, crises management, and basically any task that involves on the ground eyes. The prevalence of social media has provided citizen journalism with scale and eye witnesses prominence. However, the amount of noise on social media also makes it likely that witness accounts get buried too deep in the noise and are never discovered. In this paper, we explore automatic witness identification in Twitter during emergency events. We attempt to create a generalizable system that not only detects witness reports for unseen events, but also on true out-of-sample \"real time streaming set\" that may or may not have witness accounts. We attempt to detect the presence or surge of witness accounts, which is the first step in developing a model for detecting crisis-related events. We collect and annotate witness tweets for different types of events (earthquake, car accident, fire, cyclone, etc.) explore the related features and build a classifier to identify witness tweets in real time. Our system is able to significantly outperform prior methods with an average F-score of 89.7% on previously unseen events.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 13,
+    "year": 2016,
+    "month": "November",
+    "title": "Witness Identification in {T}witter"
 }

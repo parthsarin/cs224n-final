@@ -7,5 +7,14 @@
         "foundation": 1.266444898062602e-06,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the European Community's Seventh Framework Program (FP7/2007-2013) under grant number 318736 (OSSMETER), which is a research program funded by the European Union, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the European Community's Seventh Framework Program (FP7/2007-2013) under grant number 318736 (OSSMETER), which is a research program funded by the European Union, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Assessing the suitability of an Open Source Software project for adoption requires not only an analysis of aspects related to the code, such as code quality, frequency of updates and new version releases, but also an evaluation of the quality of support offered in related online forums and issue trackers. Understanding the content types of forum messages and issue trackers can provide information about the extent to which requests are being addressed and issues are being resolved, the percentage of issues that are not being fixed, the cases where the user acknowledged that the issue was successfully resolved, etc. These indicators can provide potential adopters of the OSS with estimates about the level of available support. We present a detailed hierarchy of content types of online forum messages and issue tracker comments and a corpus of messages annotated accordingly. We discuss our experiments to classify forum messages and issue tracker comments into content-related classes, i.e. to assign them to nodes of the hierarchy. The results are very encouraging.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2016,
+    "month": "May",
+    "title": "Identifying Content Types of Messages Related to Open Source Software Projects"
 }

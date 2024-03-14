@@ -7,5 +7,18 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research.",
+    "abstract": "In order to build an automatic named entity recognition (NER) system for machine learning, a large tagged corpus is necessary. This paper describes the manual construction of a Chinese named entity tagged corpus (CNEC 1.0) that can be used to improve NER performance. In this project, we define five named entity tags: PER (person name), LOC (location name), ORG (organization name), LAO (location as organization), and OAL (organization as location) for named entity categories. In addition, we propose a special tag, DIFF (Difficulty), to annotate ambiguous cases during corpus construction. A, corpus-annotating procedure, a tagging tool, and an original corpus are also introduced. Finally, we demonstrate a part of our manual-tagged corpus.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Arabic",
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 7,
+    "year": 2004,
+    "month": "September",
+    "title": "The Construction of a {C}hinese Named Entity Tagged Corpus: {CNEC}1.0"
 }

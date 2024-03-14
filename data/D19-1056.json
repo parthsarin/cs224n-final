@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the Leibniz ScienceCampus Empirical Linguistics & Computational Language Modeling, supported by Leibniz Association grant no. SAS2015-IDS-LWC and by the Ministry of Science, Research, and Art of Baden-Wurttemberg. The Leibniz Association is a research organization, and the Ministry of Science, Research, and Art of Baden-Wurttemberg is a government body, indicating research agency funding. It also thanks NVIDIA Corporation for donating GPUs, which is a form of corporate support. There is no mention of defense or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the Leibniz ScienceCampus Empirical Linguistics & Computational Language Modeling, supported by Leibniz Association grant no. SAS2015-IDS-LWC and by the Ministry of Science, Research, and Art of Baden-Wurttemberg. The Leibniz Association is a research organization, and the Ministry of Science, Research, and Art of Baden-Wurttemberg is a government body, indicating research agency funding. It also thanks NVIDIA Corporation for donating GPUs, which is a form of corporate support. There is no mention of defense or foundation funding.",
+    "abstract": "We propose a Cross-lingual Encoder-Decoder model that simultaneously translates and generates sentences with Semantic Role Labeling annotations in a resource-poor target language. Unlike annotation projection techniques, our model does not need parallel data during inference time. Our approach can be applied in monolingual, multilingual and cross-lingual settings and is able to produce dependencybased and span-based SRL annotations. We benchmark the labeling performance of our model in different monolingual and multilingual settings using well-known SRL datasets. We then train our model in a cross-lingual setting to generate new SRL labeled data. Finally, we measure the effectiveness of our method by using the generated data to augment the training basis for resource-poor languages and perform manual evaluation to show that it produces high-quality sentences and assigns accurate semantic role annotations. Our proposed architecture offers a flexible method for leveraging SRL data in multiple languages.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "French",
+        "German",
+        "English"
+    ],
+    "numcitedby": 16,
+    "year": 2019,
+    "month": "November",
+    "title": "Translate and Label! An Encoder-Decoder Approach for Cross-lingual Semantic Role Labeling"
 }

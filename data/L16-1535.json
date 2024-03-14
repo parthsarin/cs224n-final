@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the paper explicitly mentions that the work has been partially supported by the Spanish Ministry of Economy and Competitiveness through a specific project and by a Juan de la Cierva formaci\u00f3n grant. These are indicative of research agency funding. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the paper explicitly mentions that the work has been partially supported by the Spanish Ministry of Economy and Competitiveness through a specific project and by a Juan de la Cierva formaci\u00f3n grant. These are indicative of research agency funding. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding.",
+    "abstract": "This paper explores the incorporation of lexico-semantic heuristics into a deterministic Coreference Resolution (CR) system for classifying named entities at document-level. The highest precise sieves of a CR tool are enriched with both a set of heuristics for merging named entities labeled with different classes and also with some constraints that avoid the incorrect merging of similar mentions. Several tests show that this strategy improves both NER labeling and CR. The CR tool can be applied in combination with any system for named entity recognition using the CoNLL format, and brings benefits to text analytics tasks such as Information Extraction. Experiments were carried out in Spanish, using three different NER tools.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": 1,
+    "year": 2016,
+    "month": "May",
+    "title": "Incorporating Lexico-semantic Heuristics into Coreference Resolution Sieves for Named Entity Recognition at Document-level"
 }

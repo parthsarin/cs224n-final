@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9971975164094153
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the sources of financial support for the research."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the sources of financial support for the research.",
+    "abstract": "This paper describes our research on both the detection and subsequent resolution of recognition errors in spoken dialogue systems. The paper consists of two major components. The first half concerns the design of the error detection mechanism for resolving city names in our MERCURY flight reservation system, and an investigation of the behavioral patterns of users in subsequent subdialogues involving keypad entry for disambiguation. An important observation is that, upon a request for keypad entry, users are frequently unresponsive to the extent of waiting for a time-out or hanging up the phone. The second half concerns a pilot experiment investigating the feasibility of replacing the solicitation of a keypad entry with that of a \"speak-and-spell\" entry. A novelty of our work is the introduction of a speech synthesizer to simulate the user, which facilitates development and evaluation of our proposed strategy. We have found that the speak-and-spell strategy is quite effective in simulation mode, but it remains to be tested in real user dialogues.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 20,
+    "year": 2004,
+    "month": "May 2 - May 7",
+    "title": "Error Detection and Recovery in Spoken Dialogue Systems"
 }

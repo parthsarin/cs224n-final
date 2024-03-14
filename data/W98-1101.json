@@ -7,5 +7,14 @@
         "foundation": 1.0280378716087668e-06,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions that Los Alamos National Laboratory, operated by the University of California, conducted the research for the United States Department of Energy under contract W-7405-ENG-36. This indicates funding from a government agency, specifically one associated with national energy and possibly defense due to the nature of the laboratory's work. There is no mention of corporate, foundation, or other specific research agency funding, nor is there a statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions that Los Alamos National Laboratory, operated by the University of California, conducted the research for the United States Department of Energy under contract W-7405-ENG-36. This indicates funding from a government agency, specifically one associated with national energy and possibly defense due to the nature of the laboratory's work. There is no mention of corporate, foundation, or other specific research agency funding, nor is there a statement indicating the absence of any funding.",
+    "abstract": "This paper describes a method for asking statistical questions about a large text corpus. We exemplify the method by addressing the question, \"What percentage of Federal Register documents are real documents, of possible interest to a text researcher or analyst?\" We estimate an answer to this question by evaluating 200 documents selected from a corpus of 45,820 Federal Register documents. Stratified sampling is used to reduce the sampling uncertainty of the estimate from over 3100 documents to fewer than 11300. The stratification is based on observed characteristics of real documents, while the sampling procedure incorporates a Bayesian version of Neyrnan allocation. A possible application of the method is to establish baseline statistics used to estimate recall rates for information retrieval systems.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 3,
+    "year": 1998,
+    "month": "",
+    "title": "{B}ayesian Stratified Sampling to Assess Corpus Utility"
 }

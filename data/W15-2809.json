@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.9995114272905351
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention of funding sources, we cannot assume any particular type of funding was involved based on the information given."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention of funding sources, we cannot assume any particular type of funding was involved based on the information given.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Latin",
+        "German"
+    ],
+    "numcitedby": 1,
+    "year": 2015,
+    "month": "September",
+    "title": "Visual Classifier Prediction by Distributional Semantic Embedding of Text Descriptions"
 }

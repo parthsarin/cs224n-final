@@ -7,5 +7,17 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.9988656660436974
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text alone."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text alone.",
+    "abstract": "Word embeddings induced from large amounts of unannotated text are a key resource for many NLP tasks. Several recent studies have proposed extensions of the basic distributional semantics approach where words form the context of other words, adding features from e.g. syntactic dependencies. In this study, we look in a different direction, exploring models that leave words out entirely, instead basing the context representation exclusively on syntactic and morphological features. Remarkably, we find that the resulting vectors still capture clear semantic aspects of words in addition to syntactic ones. We assess the properties of the vectors using both intrinsic and extrinsic evaluations, demonstrating in a multilingual parsing experiment using 55 treebanks that fully delexicalized syntax-based word representations give a higher average parsing performance than conventional word2vec embeddings.",
+    "countries": [
+        "United Kingdom",
+        "Finland"
+    ],
+    "languages": [
+        "Finnish"
+    ],
+    "numcitedby": 1,
+    "year": 2017,
+    "month": "September",
+    "title": "Fully Delexicalized Contexts for Syntax-Based Word Embeddings"
 }

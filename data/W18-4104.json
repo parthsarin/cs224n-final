@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions support from the Office of Naval Research grants N00014-16-1-2896 and N00014-18-1-2670. The Office of Naval Research is a branch of the United States Navy, which falls under the defense category. There is no mention of corporate, research agency, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions support from the Office of Naval Research grants N00014-16-1-2896 and N00014-18-1-2670. The Office of Naval Research is a branch of the United States Navy, which falls under the defense category. There is no mention of corporate, research agency, foundation funding, or an absence of funding.",
+    "abstract": "Ever increasing ransomware attacks and thefts of intellectual property demand cybersecurity solutions to protect critical documents. One emerging solution is to place fake text documents in the repository of critical documents for deceiving and catching cyber attackers. We can generate fake text documents by obscuring the salient information in legit text documents. However, the obscuring process can result in linguistic inconsistencies, such as broken co-references and illogical flow of ideas across the sentences, which can give away the fake document and render it unbelievable. In this paper, we propose a novel method to generate believable fake text documents by automatically improving the linguistic consistency of computer-generated fake text. Our method focuses on enhancing syntactic cohesion and semantic coherence across discourse segments. We conduct experiments with human subjects to evaluate the effect of believability improvements in distinguishing legit texts from fake texts. Results show that the probability to distinguish legit texts from believable fake texts is consistently lower than from fake texts that have not been improved in believability. This indicates the effectiveness of our method in generating believable fake text.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 6,
+    "year": 2018,
+    "month": "August",
+    "title": "Enhancing Cohesion and Coherence of Fake Text to Improve Believability for Deceiving Cyber Attackers"
 }

@@ -7,5 +7,14 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the provided text, there is no evidence to suggest funding from these sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the provided text, there is no evidence to suggest funding from these sources.",
+    "abstract": "Knowledge Base Completion infers missing facts from existing ones in knowledge bases. As recent Open Information Extraction systems allow us to extract ever larger (yet incomplete) open-domain Knowledge Bases from text, we seek to probabilistically extend the limited coverage we get from existing facts, to arbitrary queries about plausible information. We propose a simple baseline, based on language modeling and trained with off-the-shelf programs, which gives competitive results in the previously defined protocol for this task, and provides an independent source of signal to judge arbitrary fact plausibility. We reexamine this protocol, measure the (large) impact of the negative example generation procedure, which we find to run contrary to the belief put forward in previous work. We conduct a small manual evaluation, giving insights into the rudimentary automatic evaluation protocol, and analyse the shortcomings of our model.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [],
+    "numcitedby": 2,
+    "year": 2018,
+    "month": "May",
+    "title": "Revisiting the Task of Scoring Open {IE} Relations"
 }

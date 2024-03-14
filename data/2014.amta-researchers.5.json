@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges funding from Science Foundation Ireland (SFI) under Grant Number SFI/12/RC/2289 and the European Union supported project MateCat (ICT-2011.4.2-287688). SFI is a research agency, and the European Union, in the context of funding research projects, also acts as a research agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article explicitly acknowledges funding from Science Foundation Ireland (SFI) under Grant Number SFI/12/RC/2289 and the European Union supported project MateCat (ICT-2011.4.2-287688). SFI is a research agency, and the European Union, in the context of funding research projects, also acts as a research agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "In this paper, we address the problem of extracting and integrating bilingual terminology into a Statistical Machine Translation (SMT) system for a Computer Aided Translation (CAT) tool scenario. We develop a framework that, taking as input a small amount of parallel in-domain data, gathers domain-specific bilingual terms and injects them in an SMT system to enhance the translation productivity. Therefore, we investigate several strategies to extract and align bilingual terminology, and to embed it into the SMT. We compare two embedding methods that can be easily used at run-time without altering the normal activity of an SMT system: XML markup and the cache-based model. We tested our framework on two different domains showing improvements up to 15% BLEU score points.",
+    "countries": [
+        "Europe"
+    ],
+    "languages": [
+        "Italian",
+        "English"
+    ],
+    "numcitedby": 26,
+    "year": 2014,
+    "month": "October 22-26",
+    "title": "Enhancing statistical machine translation with bilingual terminology in a {CAT} environment"
 }

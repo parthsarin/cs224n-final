@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by Spain's MINECO through the funding of project Lingmotif2 (FFI2016-78141-P) and the PUCE Esmeraldas 2016 Research Fund. MINECO is a government department in Spain, indicating research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is specified funding, it cannot be classified as none."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by Spain's MINECO through the funding of project Lingmotif2 (FFI2016-78141-P) and the PUCE Esmeraldas 2016 Research Fund. MINECO is a government department in Spain, indicating research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is specified funding, it cannot be classified as none.",
+    "abstract": "In this paper we present, describe, and evaluate SentiEcon, a large, comprehensive, domain-specific computational lexicon designed for sentiment analysis applications, for which we compiled our own corpus of online business news. SentiEcon was created as a plug-in lexicon for the sentiment analysis tool Lingmotif, and thus it follows its data structure requirements and presupposes the availability of a general-language core sentiment lexicon that covers non-specific sentiment-carrying terms and phrases. It contains 6,470 entries, both single and multi-word expressions, each with tags denoting their semantic orientation and intensity. We evaluate SentiEcon's performance by comparing results in a sentence classification task using exclusively sentiment words as features. This sentence dataset was extracted from business news texts, and included certain key words known to recurrently convey strong semantic orientation, such as \"debt\", \"inflation\" or \"markets\". The results show that performance is significantly improved when adding SentiEcon to the general-language sentiment lexicon.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": 5,
+    "year": 2020,
+    "month": "May",
+    "title": "Design and Evaluation of {S}enti{E}con: a fine-grained Economic/Financial Sentiment Lexicon from a Corpus of Business News"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.9999996871837189,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Volkswagen Foundation as part of the Lichtenberg-Professorship Program and the Hessian research excellence program \"Landes-Offensive zur Entwicklung Wissenschaftlich-\u00f6konomischer Exzellenz\" (LOEWE) as part of the research center \"Digital Humanities\". These are not described as defense, corporate, or research agencies, but rather seem to align with foundation or government-supported initiatives focused on research and development in academia. There is no mention of defense, corporate, or specific research agency funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Volkswagen Foundation as part of the Lichtenberg-Professorship Program and the Hessian research excellence program \"Landes-Offensive zur Entwicklung Wissenschaftlich-\u00f6konomischer Exzellenz\" (LOEWE) as part of the research center \"Digital Humanities\". These are not described as defense, corporate, or research agencies, but rather seem to align with foundation or government-supported initiatives focused on research and development in academia. There is no mention of defense, corporate, or specific research agency funding.",
+    "abstract": "In this paper, we present a study of the collaborative writing process in Wikipedia. Our work is based on a corpus of 1,995 edits obtained from 891 article revisions in the English Wikipedia. We propose a 21-category classification scheme for edits based on Faigley and Witte's (1981) model. Example edit categories include spelling error corrections and vandalism. In a manual multi-label annotation study with 3 annotators, we obtain an inter-annotator agreement of \u03b1 = 0.67. We further analyze the distribution of edit categories for distinct stages in the revision history of 10 featured and 10 non-featured articles. Our results show that the information content in featured articles tends to become more stable after their promotion. On the opposite, this is not true for non-featured articles. We make the resulting corpus and the annotation guidelines freely available. 1",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 44,
+    "year": 2012,
+    "month": "December",
+    "title": "A Corpus-Based Study of Edit Categories in Featured and Non-Featured {W}ikipedia Articles"
 }

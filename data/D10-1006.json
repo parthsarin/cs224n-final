@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.9997203495794703
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research conducted in the article. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "Discovering and summarizing opinions from online reviews is an important and challenging task. A commonly-adopted framework generates structured review summaries with aspects and opinions. Recently topic models have been used to identify meaningful review aspects, but existing topic models do not identify aspect-specific opinion words. In this paper, we propose a MaxEnt-LDA hybrid model to jointly discover both aspects and aspect-specific opinion words. We show that with a relatively small amount of training data, our model can effectively identify aspect and opinion words simultaneously. We also demonstrate the domain adaptability of our model.",
+    "countries": [
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 422,
+    "year": 2010,
+    "month": "October",
+    "title": "Jointly Modeling Aspects and Opinions with a {M}ax{E}nt-{LDA} Hybrid"
 }

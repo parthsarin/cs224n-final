@@ -7,5 +7,29 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, or foundations. It primarily discusses the efforts of the IC1207 Cost Action PARSEME, which is a form of collaboration within a European framework, but does not explicitly mention funding sources. Therefore, without direct evidence of specific funding, it is not possible to affirm the involvement of any of the listed funding sources."
+    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, or foundations. It primarily discusses the efforts of the IC1207 Cost Action PARSEME, which is a form of collaboration within a European framework, but does not explicitly mention funding sources. Therefore, without direct evidence of specific funding, it is not possible to affirm the involvement of any of the listed funding sources.",
+    "abstract": "This paper summarizes the preliminary results of an ongoing survey on multiword resources carried out within the IC1207 Cost Action PARSEME (PARSing and Multi-word Expressions). Despite the availability of language resource catalogs and the inventory of multiword datasets on the SIGLEX-MWE website, multiword resources are scattered and difficult to find. In many cases, language resources such as corpora, treebanks, or lexical databases include multiwords as part of their data or take them into account in their annotations. However, these resources need to be centralized to make them accessible. The aim of this survey is to create a portal where researchers can easily find multiword(-aware) language resources for their research. We report on the design of the survey and analyze the data gathered so far. We also discuss the problems we have detected upon examination of the data as well as possible ways of enhancing the survey.",
+    "countries": [
+        "Germany",
+        "Italy",
+        "Spain",
+        "Norway",
+        "France"
+    ],
+    "languages": [
+        "Russian",
+        "Portuguese",
+        "Greek",
+        "Croatian",
+        "Polish",
+        "English",
+        "Italian",
+        "Serbian",
+        "Romanian",
+        "Bulgarian"
+    ],
+    "numcitedby": 24,
+    "year": 2016,
+    "month": "May",
+    "title": "{PARSEME} Survey on {MWE} Resources"
 }

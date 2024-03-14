@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section at the end of the article mentions NSF award 0830535 as a part of the support for the work. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The acknowledgments section at the end of the article mentions NSF award 0830535 as a part of the support for the work. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding.",
+    "abstract": "We propose a Bayesian method of estimating a conditional distribution of data given metadata (e.g., the usage of a dialectal variant given a location) based on queries from a big data/social media source, such as Twitter. This distribution is structurally equivalent to those built from traditional experimental methods, despite lacking negative examples. Tests using Twitter to investigate the geographic distribution of dialectal forms show that this method can provide distributions that are tightly correlated with existing gold-standard studies at a fraction of the time, cost, and effort.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 69,
+    "year": 2014,
+    "month": "April",
+    "title": "Mapping Dialectal Variation by Querying Social Media"
 }

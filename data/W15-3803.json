@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article explicitly states that the research reported in this manuscript is supported by the National Science Foundation under Grant No. DBI-1062520. The National Science Foundation is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article explicitly states that the research reported in this manuscript is supported by the National Science Foundation under Grant No. DBI-1062520. The National Science Foundation is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Kernel-based methods are widely used for relation extraction task and obtain good results by leveraging lexical and syntactic information. However, in biomedical domain these methods are limited by the size of dataset and have difficulty in coping with variations in text. To address this problem, we propose Extended Dependency Graph (EDG) by incorporating a few simple linguistic ideas and include information beyond syntax. We believe the use of EDG will enable machine learning methods to generalize more easily. Experiments confirm that EDG provides up to 10% f-value improvement over dependency graph using mainstream kernel methods over five corpora. We conducted additional experiments to provide a more detailed analysis of the contributions of individual modules in EDG construction.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 28,
+    "year": 2015,
+    "month": "July",
+    "title": "An extended dependency graph for relation extraction in biomedical texts"
 }

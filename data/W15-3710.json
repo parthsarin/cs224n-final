@@ -7,5 +7,18 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted.",
+    "abstract": "Interlinear glossing is a type of annotation of morphosyntactic categories and crosslinguistic lexical correspondences that allows linguists to analyse sentences in languages that they do not necessarily speak. Automatising this annotation is necessary in order to provide glossed corpora big enough to be used for quantitative studies. In this paper, we present experiments on the automatic glossing of Chintang. We decompose the task of glossing into steps suitable for statistical processing. We first perform grammatical glossing as standard supervised part-of-speech tagging. We then add lexical glosses from a stand-off dictionary applying context disambiguation in a similar way to word lemmatisation. We obtain the highest accuracy score of 96% for grammatical and 94% for lexical glossing.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "Ewe",
+        "Nepali",
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2015,
+    "month": "July",
+    "title": "Automatic interlinear glossing as two-level sequence classification"
 }

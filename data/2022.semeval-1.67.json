@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges the Fonds de la Recherche Scientifique -FNRS (F\u00e9d\u00e9ration Wallonie Bruxelles de Belgique), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges the Fonds de la Recherche Scientifique -FNRS (F\u00e9d\u00e9ration Wallonie Bruxelles de Belgique), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "A logistic regression model only fed with character and word n-grams is proposed for the SemEval-2022 Task 4 on Patronizing and Condescending Language Detection (PCL). It obtained an average level of performance, well above the performance of a system that tries to guess without using any knowledge about the task, but much lower than the best teams. To facilitate the interpretation of the performance scores, the F1 measure, the best level of performance of a system that tries to guess without using any knowledge is calculated and used to correct the F1 scores in the manner of a Kappa. As the proposed model is very similar to the one that performed well on a task requiring to automatically identify hate speech and offensive content, this paper confirms the difficulty of PCL detection.",
+    "countries": [
+        "Belgium"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "July",
+    "title": "{SATL}ab at {S}em{E}val-2022 Task 4: Trying to Detect Patronizing and Condescending Language with only Character and Word N-grams"
 }

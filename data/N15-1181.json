@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section at the end of the article specifically thanks EPSRC (Engineering and Physical Sciences Research Council) for supporting the project through grant EP/I037415/1. EPSRC is a UK government agency that funds research and development in engineering and physical sciences, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section at the end of the article specifically thanks EPSRC (Engineering and Physical Sciences Research Council) for supporting the project through grant EP/I037415/1. EPSRC is a UK government agency that funds research and development in engineering and physical sciences, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received.",
+    "abstract": "Categories such as ANIMAL or FURNITURE are acquired at an early age and play an important role in processing, organizing, and conveying world knowledge. Theories of categorization largely agree that categories are characterized by features such as function or appearance and that feature and category acquisition go hand-in-hand, however previous work has considered these problems in isolation. We present the first model that jointly learns categories and their features. The set of features is shared across categories, and strength of association is inferred in a Bayesian framework. We approximate the learning environment with natural language text which allows us to evaluate performance on a large scale. Compared to highly engineered pattern-based approaches, our model is cognitively motivated, knowledge-lean, and learns categories and features which are perceived by humans as more meaningful.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 3,
+    "year": 2015,
+    "month": "May{--}June",
+    "title": "A {B}ayesian Model for Joint Learning of Categories and their Features"
 }

@@ -7,5 +7,20 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "We propose a simple and effective method to build a meta-level Statistical Machine Translation (SMT), called meta-SMT, for system combination. Our approach is based on the framework of Stacked Generalization, also known as Stacking, which is an ensemble learning algorithm, widely used in machine learning tasks. First, a collection of base-level SMTs is generated for obtaining a meta-level corpus. Then a meta-level SMT is trained on this corpus. In this paper we address the issue of how to adapt stacked generalization to SMT. We evaluate our approach on Englishto-Persian machine translation. Experimental results show that our approach leads to significant improvements in translation quality over a phrase-based baseline by about 1.1 BLEU points.",
+    "countries": [
+        "Japan",
+        "Iran"
+    ],
+    "languages": [
+        "Persian",
+        "French",
+        "German",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2013,
+    "month": "October",
+    "title": "Meta-level Statistical Machine Translation"
 }

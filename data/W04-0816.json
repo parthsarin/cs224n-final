@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the Spanish Ministry of Science and Technology through specific projects (Hermes, Syembra, R2D2), which indicates funding from a research agency. There is no mention of defense, corporate, or foundation funding, nor is there an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the Spanish Ministry of Science and Technology through specific projects (Hermes, Syembra, R2D2), which indicates funding from a research agency. There is no mention of defense, corporate, or foundation funding, nor is there an indication that no funding was received.",
+    "abstract": "This paper describes the exemplar based approach presented by UNED at Senseval-3. Instead of representing contexts as bags of terms and defining a similarity measure between contexts, we propose to represent terms as bags of contexts and define a similarity measure between terms. Thus, words, lemmas and senses are represented in the same space (the context space), and similarity measures can be defined between them. New contexts are transformed into this representation in order to calculate their similarity to the candidate senses. We show how standard similarity measures obtain better results in this framework. A new similarity measure in the context space is proposed for selecting the senses and performing disambiguation. Results of this approach at Senseval-3 are here reported.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "English",
+        "Spanish",
+        "Italian",
+        "Catalan"
+    ],
+    "numcitedby": 12,
+    "year": 2004,
+    "month": "July",
+    "title": "Word Sense Disambiguation based on term to term similarity in a context space"
 }

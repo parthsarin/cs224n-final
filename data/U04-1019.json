@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from an Australian Postgraduate Award and a US National Science Foundation grant. The Australian Postgraduate Award is a government scholarship for domestic and international students to undertake a postgraduate research degree in Australia, indicating government support but not specifically from a research agency. The US National Science Foundation is a government-funded organization that provides grants for research, indicating research agency support. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from an Australian Postgraduate Award and a US National Science Foundation grant. The Australian Postgraduate Award is a government scholarship for domestic and international students to undertake a postgraduate research degree in Australia, indicating government support but not specifically from a research agency. The US National Science Foundation is a government-funded organization that provides grants for research, indicating research agency support. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "Language technology makes extensive use of hierarchically annotated text and speech data. These databases are stored in flat files and manipulated using corpus-specific query tools or special-purpose scripts. While the size of these databases and the range of applications has grown rapidly in recent years, neither method for managing the data has led to reusable, scalable software. The formal properties of the query languages are not well understood. Hence established methods for indexing tree data and optimizing tree queries cannot be employed. We analyze a range of existing linguistic query languages, and adduce a set of requirements for a reusable, scalable linguistic query language.",
+    "countries": [
+        "Australia"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 63,
+    "year": 2004,
+    "month": "December",
+    "title": "Querying and Updating Treebanks: A Critical Survey and Requirements Analysis"
 }

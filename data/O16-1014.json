@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.9762391869472044
     },
-    "reasoning": "Reasoning: The provided text does not contain any explicit mention of funding sources, including defense, corporate, research agencies, foundations, or an indication of no funding. Without explicit information, we cannot accurately determine the funding sources based solely on the content provided."
+    "reasoning": "Reasoning: The provided text does not contain any explicit mention of funding sources, including defense, corporate, research agencies, foundations, or an indication of no funding. Without explicit information, we cannot accurately determine the funding sources based solely on the content provided.",
+    "abstract": "",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2016,
+    "month": "October",
+    "title": "\u591a\u901a\u9053\u4e4b\u591a\u91cd\u97f3\u983b\u4e32\u6d41\u65b9\u6cd5\u4e4b\u7814\u7a76(Multi-channel Source Clustering of Polyphonic Music) [In {C}hinese]"
 }

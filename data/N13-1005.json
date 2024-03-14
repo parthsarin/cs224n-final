@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research was supported by the Intelligence Advanced Research Projects Activity (IARPA) via Department of Interior National Business Center (DoI / NBC) contract number D12PC00285 and by the National Science Foundation under grant IIS-1018314. IARPA is a research and development arm of the Office of the Director of National Intelligence, which makes it a defense-related agency. The National Science Foundation is a government-funded research agency."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research was supported by the Intelligence Advanced Research Projects Activity (IARPA) via Department of Interior National Business Center (DoI / NBC) contract number D12PC00285 and by the National Science Foundation under grant IIS-1018314. IARPA is a research and development arm of the Office of the Director of National Intelligence, which makes it a defense-related agency. The National Science Foundation is a government-funded research agency.",
+    "abstract": "Identifying documents that describe a specific type of event is challenging due to the high complexity and variety of event descriptions. We propose a multi-faceted event recognition approach, which identifies documents about an event using event phrases as well as defining characteristics of the event. Our research focuses on civil unrest events and learns civil unrest expressions as well as phrases corresponding to potential agents and reasons for civil unrest. We present a bootstrapping algorithm that automatically acquires event phrases, agent terms, and purpose (reason) phrases from unannotated texts. We use the bootstrapped dictionaries to identify civil unrest documents and show that multi-faceted event recognition can yield high accuracy.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 29,
+    "year": 2013,
+    "month": "June",
+    "title": "Multi-faceted Event Recognition with Bootstrapped Dictionaries"
 }

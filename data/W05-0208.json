@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for the research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for the research.",
+    "abstract": "Our goal is to develop tools for facilitating the authoring of conversational agents for educational applications, and in particular to enable noncomputational linguists to accomplish this task efficiently. Such a tool would benefit both learning researchers, allowing them to study dialogue in new ways, and educational technology researchers, allowing them to quickly build dialogue based help systems for tutoring systems. We argue in favor of a user-centered design methodology. We present our work-in-progress design for authoring, which is motivated by our previous tool development experiences and preliminary contextual interviews and then refined through user testing and iterative design.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Chinese",
+        "French"
+    ],
+    "numcitedby": 8,
+    "year": 2005,
+    "month": "June",
+    "title": "Towards a Prototyping Tool for Behavior Oriented Authoring of Conversational Agents for Educational Applications"
 }

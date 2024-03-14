@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources.",
+    "abstract": "Grammar-based domain-specific MT systems are a common use case for CNLs. High-quality translation lexica are a crucial part of such systems, but involve time consuming work and significant linguistic knowledge. With parallel example sentences available, statistical alignment tools can help automate part of the process, but they are not suitable for small datasets and do not always perform well with complex multiword expressions. In addition, the correspondences between word forms obtained in this way cannot be used directly. Addressing these problems, we propose a grammar-based approach to this task and put it to test in a simple translation pipeline.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "English",
+        "Swedish",
+        "Italian"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "September",
+    "title": "Grammar-Based Concept Alignment for Domain-Specific Machine Translation"
 }

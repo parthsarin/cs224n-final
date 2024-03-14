@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research.",
+    "abstract": "Morphology is the study of internal structure of words and is an essential early step in many NLP applications such as parsing and machine translation. Researchers working in Hindi NLP have either used the widely popular paradigm based analyzer (PBA) or extensions of it. In this work, we undertook a comprehensive evaluation of PBA using the data from the Hindi Treebank (HTB) and presented a new morphological analyzer trained on the HTB. Our morphological analyzer has better coverage and accuracy when compared to the existing analyzers for Hindi. An oracle system that takes the best values from the PBA's output achieves only 63.41% for lemma, gender, number, person and case. Our statistical analyzer has an accuracy of 84.16% for these morphological attributes when evaluated on the test section of the Hindi Treebank.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "Hindi"
+    ],
+    "numcitedby": 7,
+    "year": 2013,
+    "month": "October",
+    "title": "Statistical Morphological Analyzer for {H}indi"
 }

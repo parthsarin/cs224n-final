@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The acknowledgments section does not mention any specific funding sources, only expressing gratitude to individuals and groups for their contributions such as software and data. There is no direct mention of funding from defense, corporate entities, research agencies, or foundations."
+    "reasoning": "Reasoning: The acknowledgments section does not mention any specific funding sources, only expressing gratitude to individuals and groups for their contributions such as software and data. There is no direct mention of funding from defense, corporate entities, research agencies, or foundations.",
+    "abstract": "Several incompatible syntactic annotation schemes are currently used by parsers and corpora in biomedical information extraction. The recently introduced Stanford dependency scheme has been suggested to be a suitable unifying syntax formalism. In this paper, we present a step towards such unification by creating a conversion from the Link Grammar to the Stanford scheme. Further, we create a version of the BioInfer corpus with syntactic annotation in this scheme. We present an application-oriented evaluation of the transformation and assess the suitability of the scheme and our conversion to the unification of the syntactic annotations of BioInfer and the GENIA Treebank. We find that a highly reliable conversion is both feasible to create and practical, increasing the applicability of both the parser and the corpus to information extraction.",
+    "countries": [
+        "Finland"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 41,
+    "year": 2007,
+    "month": "June",
+    "title": "On the unification of syntactic annotations under the {S}tanford dependency scheme: A case study on {B}io{I}nfer and {GENIA}"
 }

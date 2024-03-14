@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.9987541178563896
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding funding sources for the research presented. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding funding sources for the research presented. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "We present some preliminary results of a Czech-English translation system based on dependency trees. The fully automated process includes: morphological tagging, analytical and tectogrammatical parsing of Czech, tectogrammatical transfer based on lexical substitution using word-to-word translation dictionaries enhanced by the information from the English-Czech parallel corpus of WSJ, and a simple rule-based system for generation from English tectogrammatical representation. In the evaluation part, we compare results of the fully automated and the manually annotated processes of building the tectogrammatical representation.'",
+    "countries": [
+        "Czech Republic"
+    ],
+    "languages": [
+        "Czech",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2003,
+    "month": "April",
+    "title": "{C}zech-{E}nglish Dependency Tree-based Machine Translation"
 }

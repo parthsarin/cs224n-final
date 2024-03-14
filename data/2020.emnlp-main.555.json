@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was financially supported by the Young Scholar Fellowship Program by the Ministry of Science and Technology (MOST) in Taiwan, which qualifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was financially supported by the Young Scholar Fellowship Program by the Ministry of Science and Technology (MOST) in Taiwan, which qualifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding.",
+    "abstract": "In recent years, pre-trained Transformers have dominated the majority of NLP benchmark tasks. Many variants of pre-trained Transformers have kept breaking out, and most focus on designing different pre-training objectives or variants of self-attention. Embedding the position information in the self-attention mechanism is also an indispensable factor in Transformers however is often discussed at will. Therefore, this paper carries out an empirical study on position embeddings of mainstream pre-trained Transformers, which mainly focuses on two questions: 1) Do position embeddings really learn the meaning of positions? 2) How do these different learned position embeddings affect Transformers for NLP tasks? This paper focuses on providing a new insight of pre-trained position embeddings through feature-level analysis and empirical experiments on most of iconic NLP tasks. It is believed that our experimental results can guide the future work to choose the suitable positional encoding function for specific tasks given the application property. 1",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 32,
+    "year": 2020,
+    "month": "November",
+    "title": "What Do Position Embeddings Learn? An Empirical Study of Pre-Trained Language Model Positional Encoding"
 }

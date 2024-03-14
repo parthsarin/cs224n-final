@@ -7,5 +7,17 @@
         "foundation": 0.9999989719621284,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions support from NSF grants BCS-1456081 and BCS-1551866 to RPL, and an MIT Henry E. Singleton (1940) Fellowship to MZ. The NSF (National Science Foundation) is a government-funded organization that provides grants for research, indicating research agency funding. The MIT Henry E. Singleton (1940) Fellowship likely represents foundation support, as it is a fellowship provided by an educational institution, which can be considered non-profit support. There is no mention of defense, corporate, or unspecified funding sources."
+    "reasoning": "Reasoning: The acknowledgments section mentions support from NSF grants BCS-1456081 and BCS-1551866 to RPL, and an MIT Henry E. Singleton (1940) Fellowship to MZ. The NSF (National Science Foundation) is a government-funded organization that provides grants for research, indicating research agency funding. The MIT Henry E. Singleton (1940) Fellowship likely represents foundation support, as it is a fellowship provided by an educational institution, which can be considered non-profit support. There is no mention of defense, corporate, or unspecified funding sources.",
+    "abstract": "Speakers often have more than one way to express the same meaning. What general principles govern speaker choice in the face of optionality when near semantically invariant alternation exists? Studies have shown that optional reduction in language is sensitive to contextual predictability, such that the more predictable a linguistic unit is, the more likely it is to get reduced. Yet it is unclear to what extent these cases of speaker choice are driven by audience design versus toward facilitating production. Here we argue that for a different optionality phenomenon, namely classifier choice in Mandarin Chinese, Uniform Information Density and at least one plausible variant of availability-based production make opposite predictions regarding the relationship between the predictability of the upcoming material and speaker choices. In a corpus analysis of Mandarin Chinese, we show that the distribution of speaker choices supports the availability-based production account, and not Uniform Information Density.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Mandarin",
+        "English"
+    ],
+    "numcitedby": 14,
+    "year": 2018,
+    "month": "June",
+    "title": "Comparing Theories of Speaker Choice Using a Model of Classifier Production in {M}andarin {C}hinese"
 }

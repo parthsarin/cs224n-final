@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by the National Natural Science Foundation of China (Grant Nos. 61690202), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by the National Natural Science Foundation of China (Grant Nos. 61690202), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Distant supervised relation extraction is an efficient and effective strategy to find relations between entities in texts. However, it inevitably suffers from mislabeling problem and the noisy data will hinder the performance. In this paper, we propose the Separate Head-Tail Convolution Neural Network (SHTCNN), a novel neural relation extraction framework to alleviate this issue. In this method, we apply separate convolution and pooling to the head and tail entity respectively for extracting better semantic features of sentences, and coarseto-fine strategy to filter out instances which do not have actual relations in order to alleviate noisy data issues. Experiments on a widely used dataset show that our model achieves significant and consistent improvements in relation extraction compared to statistical and vanilla CNN-based methods.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 2,
+    "year": 2019,
+    "month": "November",
+    "title": "Distant Supervised Relation Extraction with Separate Head-Tail {CNN}"
 }

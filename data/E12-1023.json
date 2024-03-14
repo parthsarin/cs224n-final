@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article specifically thanks Claire Cardie and the members of the Cornell NLP Seminar for their valuable feedback and mentions funding through NSF Awards IIS-0812091 and IIS-0905467. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article specifically thanks Claire Cardie and the members of the Cornell NLP Seminar for their valuable feedback and mentions funding through NSF Awards IIS-0812091 and IIS-0905467. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "In this paper, we present a supervised learning approach to training submodular scoring functions for extractive multidocument summarization. By taking a structured prediction approach, we provide a large-margin method that directly optimizes a convex relaxation of the desired performance measure. The learning method applies to all submodular summarization methods, and we demonstrate its effectiveness for both pairwise as well as coverage-based scoring functions on multiple datasets. Compared to state-of-theart functions that were tuned manually, our method significantly improves performance and enables high-fidelity models with number of parameters well beyond what could reasonably be tuned by hand.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 63,
+    "year": 2012,
+    "month": "April",
+    "title": "Large-Margin Learning of Submodular Summarization Models"
 }

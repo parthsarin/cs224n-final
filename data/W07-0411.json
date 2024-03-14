@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partly funded by Microsoft Ireland PhD studentship 2006-8 for the first author of the paper, which indicates corporate funding. There is no mention of funding from defense, research agencies, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partly funded by Microsoft Ireland PhD studentship 2006-8 for the first author of the paper, which indicates corporate funding. There is no mention of funding from defense, research agencies, foundations, or an absence of funding.",
+    "abstract": "We present a novel method for evaluating the output of Machine Translation (MT), based on comparing the dependency structures of the translation and reference rather than their surface string forms. Our method uses a treebank-based, widecoverage, probabilistic Lexical-Functional Grammar (LFG) parser to produce a set of structural dependencies for each translation-reference sentence pair, and then calculates the precision and recall for these dependencies. Our dependencybased evaluation, in contrast to most popular string-based evaluation metrics, will not unfairly penalize perfectly valid syntactic variations in the translation. In addition to allowing for legitimate syntactic differences, we use paraphrases in the evaluation process to account for lexical variation. In comparison with other metrics on 16,800 sentences of Chinese-English newswire text, our method reaches high correlation with human scores. An experiment with two translations of 4,000 sentences from Spanish-English Europarl shows that, in contrast to most other metrics, our method does not display a high bias towards statistical models of translation.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "English",
+        "Chinese",
+        "Spanish"
+    ],
+    "numcitedby": 73,
+    "year": 2007,
+    "month": "April",
+    "title": "Dependency-Based Automatic Evaluation for Machine Translation"
 }

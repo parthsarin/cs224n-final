@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Center for Intelligent Information Retrieval, U.S. Government contract #NBCH040171 through a subcontract with BBNT Solutions LLC, The Central Intelligence Agency, the National Security Agency, National Science Foundation under NSF grant #IIS-0326249, and the Defense Advanced Research Projects Agency (DARPA), through the Department of the Interior, NBC, Acquisition Services Division, under contract number NBCHD030010. This indicates funding from defense (CIA, NSA, DARPA), corporate (BBNT Solutions LLC), and research agency (National Science Foundation)."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Center for Intelligent Information Retrieval, U.S. Government contract #NBCH040171 through a subcontract with BBNT Solutions LLC, The Central Intelligence Agency, the National Security Agency, National Science Foundation under NSF grant #IIS-0326249, and the Defense Advanced Research Projects Agency (DARPA), through the Department of the Interior, NBC, Acquisition Services Division, under contract number NBCHD030010. This indicates funding from defense (CIA, NSA, DARPA), corporate (BBNT Solutions LLC), and research agency (National Science Foundation).",
+    "abstract": "Markov logic is a highly expressive language recently introduced to specify the connectivity of a Markov network using first-order logic. While Markov logic is capable of constructing arbitrary first-order formulae over the data, the complexity of these formulae is often limited in practice because of the size and connectivity of the resulting network. In this paper, we present approximate inference and estimation methods that incrementally instantiate portions of the network as needed to enable firstorder existential and universal quantifiers in Markov logic networks. When applied to the problem of identity uncertainty, this approach results in a conditional probabilistic model that can reason about objects, combining the expressivity of recently introduced BLOG models with the predictive power of conditional training. We validate our algorithms on the tasks of citation matching and author disambiguation.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 11,
+    "year": 2006,
+    "month": "June",
+    "title": "Practical {M}arkov {L}ogic Containing First-Order Quantifiers with Application to Identity Uncertainty"
 }

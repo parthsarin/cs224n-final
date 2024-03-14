@@ -7,5 +7,15 @@
         "foundation": 4.00812196743594e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Therefore, based on the provided text, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Therefore, based on the provided text, it is not possible to determine any funding sources.",
+    "abstract": "This paper studies a new cognitively motivated semantic typing task, multi-axis event process typing, that, given an event process, attempts to infer free-form type labels describing (i) the type of action made by the process and (ii) the type of object the process seeks to affect. This task is inspired by computational and cognitive studies of event understanding, which suggest that understanding processes of events is often directed by recognizing the goals, plans or intentions of the protagonist(s). We develop a large dataset containing over 60k event processes, featuring ultra fine-grained typing on both the action and object type axes with very large (10 3 \u223c 10 4 ) label vocabularies. We then propose a hybrid learning framework, P2GT, which addresses the challenging typing problem with indirect supervision from glosses 1 and a joint learning-to-rank framework. As our experiments indicate, P2GT supports identifying the intent of processes, as well as the fine semantic type of the affected object. It also demonstrates the capability of handling fewshot cases, and strong generalizability on outof-domain processes. 2 * This work was done when the author was visiting the University of Pennsylvania. 1 A gloss provides a sense definition for a lexeme. 2 The contributed learning resources, software and a system demonstration are available at http://cogcomp.org/ page/publication_view/915. 3 A.k.a. event chains (Chambers and Jurafsky, 2008) .",
+    "countries": [
+        "United States",
+        "Hong Kong"
+    ],
+    "languages": [],
+    "numcitedby": 12,
+    "year": 2020,
+    "month": "November",
+    "title": "What Are You Trying to Do? Semantic Typing of Event Processes"
 }

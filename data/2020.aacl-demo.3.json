@@ -7,5 +7,14 @@
         "foundation": 1.981665536443522e-06,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agency, or foundation. The only mention related to organizational support is the first author's internship at Adobe Research, which suggests corporate involvement but does not explicitly state funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agency, or foundation. The only mention related to organizational support is the first author's internship at Adobe Research, which suggests corporate involvement but does not explicitly state funding.",
+    "abstract": "Despite the growth of e-commerce, brick-andmortar stores are still the preferred destinations for many people. In this paper, we present ISA, a mobile-based intelligent shopping assistant that is designed to improve shopping experience in physical stores. ISA assists users by leveraging advanced techniques in computer vision, speech processing, and natural language processing. An in-store user only needs to take a picture or scan the barcode of the product of interest, and then the user can talk to the assistant about the product. The assistant can also guide the user through the purchase process or recommend other similar products to the user. We take a data-driven approach in building the engines of ISA's natural language processing component, and the engines achieve good performance.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 3,
+    "year": 2020,
+    "month": "December",
+    "title": "{ISA}: An Intelligent Shopping Assistant"
 }

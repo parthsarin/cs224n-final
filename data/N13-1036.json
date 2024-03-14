@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The paper explicitly mentions that it is based upon work supported by the Defense Advanced Research Projects Agency (DARPA) under a specific contract number. DARPA is a branch of the United States Department of Defense, which classifies it as a defense funding source. There is no mention of corporate, research agency, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The paper explicitly mentions that it is based upon work supported by the Defense Advanced Research Projects Agency (DARPA) under a specific contract number. DARPA is a branch of the United States Department of Defense, which classifies it as a defense funding source. There is no mention of corporate, research agency, foundation funding, or an absence of funding.",
+    "abstract": "Modern Standard Arabic (MSA) has a wealth of natural language processing (NLP) tools and resources. In comparison, resources for dialectal Arabic (DA), the unstandardized spoken varieties of Arabic, are still lacking. We present ELISSA, a machine translation (MT) system for DA to MSA. ELISSA employs a rule-based approach that relies on morphological analysis, transfer rules and dictionaries in addition to language models to produce MSA paraphrases of DA sentences. ELISSA can be employed as a general preprocessor for DA when using MSA NLP tools. A manual error analysis of ELISSA's output shows that it produces correct MSA translations over 93% of the time. Using ELISSA to produce MSA versions of DA sentences as part of an MSA-pivoting DA-to-English MT solution, improves BLEU scores on multiple blind test sets between 0.6% and 1.4%.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Arabic"
+    ],
+    "numcitedby": 40,
+    "year": 2013,
+    "month": "June",
+    "title": "Dialectal {A}rabic to {E}nglish Machine Translation: Pivoting through {M}odern {S}tandard {A}rabic"
 }

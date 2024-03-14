@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "This study describes a rule-based pseudonymisation system for Swedish clinical text and its evaluation. The pseudonymisation system replaces already tagged Protected Health Information (PHI) with realistic surrogates. There are eight types of manually annotated PHIs in the electronic patient records; personal first and last names, phone numbers, locations, dates, ages and healthcare units. Two evaluators, both computer scientists, one junior and one senior, evaluated whether a set of 98 electronic patients records where pseudonymised or not. Only 3.5 percent of the records were correctly judged as pseudonymised and 1.5 percent of the real ones were wrongly judged as pseudo, giving that in average 91 percent of the pseudonymised records were judged as real.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "Swedish",
+        "French"
+    ],
+    "numcitedby": 12,
+    "year": 2019,
+    "month": "September",
+    "title": "Pseudonymisation of {S}wedish Electronic Patient Records Using a Rule-Based Approach"
 }

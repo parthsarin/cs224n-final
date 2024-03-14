@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the work was supported by the National Science Foundation (NSF), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly states that the work was supported by the National Science Foundation (NSF), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding.",
+    "abstract": "Although Natural Language Processing (NLP) research on argument mining has advanced considerably in recent years, most studies draw on corpora of asynchronous and written texts, often produced by individuals. Few published corpora of synchronous, multi-party argumentation are available. The Discussion Tracker corpus, collected in American high school English classes, is an annotated dataset of transcripts of spoken, multi-party argumentation. The corpus consists of 29 multi-party discussions of English literature transcribed from 985 minutes of audio. The transcripts were annotated for three dimensions of collaborative argumentation: argument moves (claims, evidence, and explanations), specificity (low, medium, high) and collaboration (e.g., extensions of and disagreements about others' ideas). In addition to providing descriptive statistics on the corpus, we provide performance benchmarks and associated code for predicting each dimension separately, illustrate the use of the multiple annotations in the corpus to improve performance via multi-task learning, and finally discuss other ways the corpus might be used to further NLP research.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 3,
+    "year": 2020,
+    "month": "May",
+    "title": "The Discussion Tracker Corpus of Collaborative Argumentation"
 }

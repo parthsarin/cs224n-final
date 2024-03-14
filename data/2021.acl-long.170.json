@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9984972207053457
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or the development of the article. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or the development of the article. Without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "NLP community is currently investing a lot more research and resources into development of deep learning models than training data. While we have made a lot of progress, it is now clear that our models learn all kinds of spurious patterns, social biases, and annotation artifacts. Algorithmic solutions have so far had limited success. An alternative that is being actively discussed is more careful design of datasets so as to deliver specific signals. This position paper maps out the arguments for and against data curation, and argues that fundamentally the point is moot: curation already is and will be happening, and it is changing the world. The question is only how much thought we want to invest into that process.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 31,
+    "year": 2021,
+    "month": "August",
+    "title": "Changing the World by Changing the Data"
 }

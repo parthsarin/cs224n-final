@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research presented in the article."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Without explicit mention of funding, it is not possible to accurately determine the sources of financial support for the research presented in the article.",
+    "abstract": "Sentiment shifters, i.e., words and expressions that can affect text polarity, play an important role in opinion mining. However, the limited ability of current automated opinion mining systems to handle shifters represents a major challenge. The majority of existing approaches rely on a manual list of shifters; few attempts have been made to automatically identify shifters in text. Most of them just focus on negating shifters. This paper presents a novel and efficient semi-automatic method for identifying sentiment shifters in drug reviews, aiming at improving the overall accuracy of opinion mining systems. To this end, we use weighted association rule mining (WARM), a well-known data mining technique, for finding frequent dependency patterns representing sentiment shifters from a domain-specific corpus. These patterns that include different kinds of shifter words such as shifter verbs and quantifiers are able to handle both local and long-distance shifters. We also combine these patterns with a lexicon-based approach for the polarity classification task. Experiments on drug reviews demonstrate that extracted shifters can improve the precision of the lexicon-based approach for polarity classification 9.25 percent.",
+    "countries": [
+        "Iran"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2016,
+    "month": "May",
+    "title": "Using Data Mining Techniques for Sentiment Shifter Identification"
 }

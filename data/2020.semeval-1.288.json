@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research.",
+    "abstract": "This paper summarizes our group's efforts in the offensive language identification shared task, which is organized as part of the International Workshop on Semantic Evaluation (Sem-Eval2020). Our final submission system is an ensemble of three different models, (1) CNN-LSTM, (2) BiLSTM-Attention and (3) BERT. Word embeddings, which were pre-trained on tweets, are used while training the first two models. BERTurk, which is the first BERT model for Turkish, is also explored. Our final submitted approach ranked as the second best model in the Turkish sub-task.",
+    "countries": [
+        "T\u00fcrkiye"
+    ],
+    "languages": [
+        "Turkish"
+    ],
+    "numcitedby": 6,
+    "year": 2020,
+    "month": "December",
+    "title": "{SU}-{NLP} at {S}em{E}val-2020 Task 12: Offensive Language {I}dentifi{C}ation in {T}urkish Tweets"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions support from the SFB 884 on the Political Economy of Reforms at the University of Mannheim, funded by the German Research Foundation (DFG), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article mentions support from the SFB 884 on the Political Economy of Reforms at the University of Mannheim, funded by the German Research Foundation (DFG), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "In the paper, we revisit the PP attachment problem which has been identified as one of the major sources for parser errors and discuss shortcomings of recent work. In particular, we show that using gold information for the extraction of attachment candidates as well as a missing comparison of the system's output to the output of a full syntactic parser leads to an overly optimistic assessment of the results. We address these issues by presenting a realistic evaluation of the potential of different PP attachment systems, using fully predicted information as system input. We compare our results against the output of a strong neural parser and show that the full parsing approach is superior to modeling PP attachment disambiguation as a separate task.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "December",
+    "title": "Parsers Know Best: {G}erman {PP} Attachment Revisited"
 }

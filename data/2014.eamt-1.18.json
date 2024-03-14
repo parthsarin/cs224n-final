@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.9999994487765019
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, such as defense, corporate, research agencies, or foundations. It is licensed under a Creative Commons license, which suggests it may not have direct funding but does not explicitly state the absence of funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, such as defense, corporate, research agencies, or foundations. It is licensed under a Creative Commons license, which suggests it may not have direct funding but does not explicitly state the absence of funding.",
+    "abstract": "Typing has traditionally been the only input method used by human translators working with computer-assisted translation (CAT) tools. However, speech is a natural communication channel for humans and, in principle, it should be faster and easier than typing from a keyboard. This contribution investigates the integration of automatic speech recognition (ASR) in a CAT workbench testing its real use by human translators while post-editing machine translation (MT) outputs. This paper also explores the use of MT combined with ASR in order to improve recognition accuracy in a workbench integrating eye-tracking functionalities to collect process-oriented information about translators' performance.",
+    "countries": [
+        "United States",
+        "India"
+    ],
+    "languages": [
+        "Spanish",
+        "English",
+        "Hindi"
+    ],
+    "numcitedby": 11,
+    "year": 2014,
+    "month": "June 16-18",
+    "title": "{SEECAT}: {ASR} {\\&} Eye-tracking enabled computer-assisted translation"
 }

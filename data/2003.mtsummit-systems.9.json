@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the development of the CatVar database."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or the development of the CatVar database.",
+    "abstract": "We present a new large-scale database called \"CatVar\" (Habash and Dorr, 2003) which contains categorial variations of English lexemes. Due to the prevalence of cross-language categorial variation in multilingual applications, our categorial-variation resource may serve as an integral part of a diverse range of natural language applications. Thus, the research reported herein overlaps heavily with that of the machine-translation, lexicon-construction, and informationretrieval communities. We demonstrate this database, embedded in a graphical interface; we also show a GUI for user input of corrections to the database.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 17,
+    "year": 2003,
+    "month": "September 23-27",
+    "title": "{C}at{V}ar: a database of categorial variations for {E}nglish"
 }

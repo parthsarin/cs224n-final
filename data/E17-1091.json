@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that there is no explicit funding mentioned."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research. Therefore, based on the provided text, it is assumed that there is no explicit funding mentioned.",
+    "abstract": "The cataloging of product listings through taxonomy categorization is a fundamental problem for any e-commerce marketplace, with applications ranging from personalized search recommendations to query understanding. However, manual and rule based approaches to categorization are not scalable. In this paper, we compare several classifiers for categorizing listings in both English and Japanese product catalogs. We show empirically that a combination of words from product titles, navigational breadcrumbs, and list prices, when available, improves results significantly. We outline a novel method using correspondence topic models and a lightweight manual process to reduce noise from mislabeled data in the training set. We contrast linear models, gradient boosted trees (GBTs) and convolutional neural networks (CNNs), and show that GBTs and CNNs yield the highest gains in error reduction. Finally, we show GBTs applied in a language-agnostic way on a largescale Japanese e-commerce dataset have improved taxonomy categorization performance over current state-of-the-art based on deep belief network models.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Japanese"
+    ],
+    "numcitedby": 5,
+    "year": 2017,
+    "month": "April",
+    "title": "Web-Scale Language-Independent Cataloging of Noisy Product Listings for {E}-Commerce"
 }

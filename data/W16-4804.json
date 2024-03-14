@@ -7,5 +7,17 @@
         "foundation": 1.3856483399576902e-06,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions that the first and third authors were partially funded by DARPA DEFT subcontract from Columbia University, which indicates defense funding. The second author was funded by the Flemish government agency for Innovation by Science and Technology through the AMiCA project, which is a research agency. There is no mention of corporate or foundation funding."
+    "reasoning": "Reasoning: The article mentions that the first and third authors were partially funded by DARPA DEFT subcontract from Columbia University, which indicates defense funding. The second author was funded by the Flemish government agency for Innovation by Science and Technology through the AMiCA project, which is a research agency. There is no mention of corporate or foundation funding.",
+    "abstract": "This paper describes the GW/LT3 contribution to the 2016 VarDial shared task on the identification of similar languages (task 1) and Arabic dialects (task 2). For both tasks, we experimented with Logistic Regression and Neural Network classifiers in isolation. Additionally, we implemented a cascaded classifier that consists of coarse and fine-grained classifiers (task 1) and a classifier ensemble with majority voting for task 2. The submitted systems obtained state-of-theart performance and ranked first for the evaluation on social media data (test sets B1 and B2 for task 1), with a maximum weighted F1 score of 91.94%.",
+    "countries": [
+        "Belgium",
+        "United States"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 10,
+    "year": 2016,
+    "month": "December",
+    "title": "The {GW}/{LT}3 {V}ar{D}ial 2016 Shared Task System for Dialects and Similar Languages Detection"
 }

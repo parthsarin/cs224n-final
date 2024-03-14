@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research leading to the results received EU funding under grant agreement n\u00b0 600796 (MOBOT project, FP7-ICT), which indicates it was funded by a research agency, specifically an entity associated with the European Union, which provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions that the research leading to the results received EU funding under grant agreement n\u00b0 600796 (MOBOT project, FP7-ICT), which indicates it was funded by a research agency, specifically an entity associated with the European Union, which provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "This paper reports on work related to the modelling of Human-Robot Communication on the basis of multimodal and multisensory human behaviour analysis. A primary focus in this framework of analysis is the definition of semantics of human actions in interaction, their capture and their representation in terms of behavioural patterns that, in turn, feed a multimodal human-robot communication system. Semantic analysis encompasses both oral and sign languages, as well as both verbal and non-verbal communicative signals to achieve an effective, natural interaction between elderly users with slight walking and cognitive inability and an assistive robotic platform.",
+    "countries": [
+        "Greece"
+    ],
+    "languages": [
+        "Greek",
+        "French",
+        "German"
+    ],
+    "numcitedby": 3,
+    "year": 2016,
+    "month": "May",
+    "title": "Multimodal Resources for Human-Robot Communication Modelling"
 }

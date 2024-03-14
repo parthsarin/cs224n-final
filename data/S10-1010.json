@@ -7,5 +7,22 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions funding from the EU Marie Curie International Reintegration Grant, the NSF-CRI grant, and the NSF-INT project, which are all indicative of research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is research agency funding, it cannot be classified as having no funding."
+    "reasoning": "Reasoning: The article mentions funding from the EU Marie Curie International Reintegration Grant, the NSF-CRI grant, and the NSF-INT project, which are all indicative of research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is research agency funding, it cannot be classified as having no funding.",
+    "abstract": "Tempeval-2 comprises evaluation tasks for time expressions, events and temporal relations, the latter of which was split up in four sub tasks, motivated by the notion that smaller subtasks would make both data preparation and temporal relation extraction easier. Manually annotated data were provided for six languages: Chinese, English, French, Italian, Korean and Spanish.",
+    "countries": [
+        "United States",
+        "Italy"
+    ],
+    "languages": [
+        "Spanish",
+        "Italian",
+        "Chinese",
+        "Korean",
+        "French",
+        "English"
+    ],
+    "numcitedby": 376,
+    "year": 2010,
+    "month": "July",
+    "title": "{S}em{E}val-2010 Task 13: {T}emp{E}val-2"
 }

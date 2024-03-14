@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by the EU-funded SEKT project, which indicates funding from a research agency, as it is a project funded by the European Union, a governmental entity. There is no mention of defense, corporate, or foundation funding, nor is there an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by the EU-funded SEKT project, which indicates funding from a research agency, as it is a project funded by the European Union, a governmental entity. There is no mention of defense, corporate, or foundation funding, nor is there an indication that no funding was received.",
+    "abstract": "The classification problem derived from information extraction (IE) has an imbalanced training set. This is particularly true when learning from smaller datasets which often have a few positive training examples and many negative ones. This paper takes two popular IE algorithms -SVM and Perceptron -and demonstrates how the introduction of an uneven margins parameter can improve the results on imbalanced training data in IE. Our experiments demonstrate that the uneven margin was indeed helpful, especially when learning from few examples. Essentially, the smaller the training set is, the more beneficial the uneven margin can be. We also compare our systems to other state-of-theart algorithms on several benchmarking corpora for IE.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 70,
+    "year": 2005,
+    "month": "June",
+    "title": "Using Uneven Margins {SVM} and Perceptron for Information Extraction"
 }

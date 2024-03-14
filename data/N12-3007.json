@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions that the project or effort described in the article has been sponsored by the U.S. Army Research, Development, and Engineering Command (RDE-COM), which is a branch of the United States Army and thus falls under the defense category. There is no mention of funding from corporate entities, research agencies, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions that the project or effort described in the article has been sponsored by the U.S. Army Research, Development, and Engineering Command (RDE-COM), which is a branch of the United States Army and thus falls under the defense category. There is no mention of funding from corporate entities, research agencies, foundations, or an absence of funding.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 5,
+    "year": 2012,
+    "month": "June",
+    "title": "Incremental Speech Understanding in a Multi-Party Virtual Human Dialogue System"
 }

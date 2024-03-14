@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the sources based on the provided text."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the sources based on the provided text.",
+    "abstract": "Speech separation is a problem in the field of speech processing that has been studied in full swing recently. However, there has not been much work studying a multi-accent speech separation scenario. Unseen speakers with new accents and noise aroused the domain mismatch problem which cannot be easily solved by conventional joint training methods. Thus, we applied MAML and FOMAML to tackle this problem and obtained higher average Si-SNRi values than joint training on almost all the unseen accents. This proved that these two methods do have the ability to generate well-trained parameters for adapting to speech mixtures of new speakers and accents. Furthermore, we found out that FOMAML obtains similar performance compared to MAML while saving a lot of time.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2021,
+    "month": "August",
+    "title": "Multi-accent Speech Separation with One Shot Learning"
 }

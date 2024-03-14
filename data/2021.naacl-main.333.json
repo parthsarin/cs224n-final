@@ -7,5 +7,18 @@
         "foundation": 1.0280378716087668e-06,
         "none": 0.9999797803764193
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions that the research is supported by the CSC Scholarship offered by China Scholarship Council, which does not fall under any of the specified categories of defense, corporate, research agency, or foundation. It also mentions MindSpore, which is a deep learning computing framework, but does not explicitly state it as a funding source. Therefore, there is no direct evidence of funding from the specified categories."
+    "reasoning": "Reasoning: The acknowledgments section mentions that the research is supported by the CSC Scholarship offered by China Scholarship Council, which does not fall under any of the specified categories of defense, corporate, research agency, or foundation. It also mentions MindSpore, which is a deep learning computing framework, but does not explicitly state it as a funding source. Therefore, there is no direct evidence of funding from the specified categories.",
+    "abstract": "Graph convolutional networks (GCNs) have been applied recently to text classification and produced an excellent performance. However, existing GCN-based methods do not assume an explicit latent semantic structure of documents, making learned representations less effective and difficult to interpret. They are also transductive in nature, thus cannot handle out-of-graph documents. To address these issues, we propose a novel model named inductive Topic Variational Graph Auto-Encoder (T-VGAE), which incorporates a topic model into variational graph-auto-encoder (VGAE) to capture the hidden semantic information between documents and words. T-VGAE inherits the interpretability of the topic model and the efficient information propagation mechanism of VGAE. It learns probabilistic representations of words and documents by jointly encoding and reconstructing the global wordlevel graph and bipartite graphs of documents, where each document is considered individually and decoupled from the global correlation graph so as to enable inductive learning. Our experiments on several benchmark datasets show that our method outperforms the existing competitive models on supervised and semi-supervised text classification, as well as unsupervised text representation learning. In addition, it has higher interpretability and is able to deal with unseen documents.",
+    "countries": [
+        "China",
+        "Canada",
+        "United Kingdom"
+    ],
+    "languages": [
+        "Bai"
+    ],
+    "numcitedby": 5,
+    "year": 2021,
+    "month": "June",
+    "title": "Inductive Topic Variational Graph Auto-Encoder for Text Classification"
 }

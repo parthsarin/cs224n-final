@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the Cluster of Excellence \"Multimodal Computing and Interaction\" of the German Excellence Initiative (DFG), which is a research agency, and an IBM PhD Fellowship, which is corporate funding. There is no mention of defense, foundation funding, or a lack of funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from the Cluster of Excellence \"Multimodal Computing and Interaction\" of the German Excellence Initiative (DFG), which is a research agency, and an IBM PhD Fellowship, which is corporate funding. There is no mention of defense, foundation funding, or a lack of funding.",
+    "abstract": "This paper describes a novel sequence labeling method for identifying generic expressions, which refer to kinds or arbitrary members of a class, in discourse context. The automatic recognition of such expressions is important for any natural language processing task that requires text understanding. Prior work has focused on identifying generic noun phrases; we present a new corpus in which not only subjects but also clauses are annotated for genericity according to an annotation scheme motivated by semantic theory. Our contextaware approach for automatically identifying generic expressions uses conditional random fields and outperforms previous work based on local decisions when evaluated on this corpus and on related data sets (ACE-2 and ACE-2005).",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 21,
+    "year": 2015,
+    "month": "July",
+    "title": "Discourse-sensitive Automatic Identification of Generic Expressions"
 }

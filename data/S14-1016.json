@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately determine the funding sources based on the provided text alone."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to accurately determine the funding sources based on the provided text alone.",
+    "abstract": "We explore the novel task of identifying latent attributes in video scenes, such as the mental states of actors, using only large text collections as background knowledge and minimal information about the videos, such as activity and actor types. We formalize the task and a measure of merit that accounts for the semantic relatedness of mental state terms. We develop and test several largely unsupervised information extraction models that identify the mental states of human participants in video scenes. We show that these models produce complementary information and their combination significantly outperforms the individual models as well as other baseline methods.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2014,
+    "month": "August",
+    "title": "Extracting Latent Attributes from Video Scenes Using Text as Background Knowledge"
 }

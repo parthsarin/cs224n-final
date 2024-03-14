@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from the NWO-VICI grant, which is a research grant provided by the Dutch Research Council (NWO), a government-funded organization that supports scientific research in the Netherlands. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from the NWO-VICI grant, which is a research grant provided by the Dutch Research Council (NWO), a government-funded organization that supports scientific research in the Netherlands. There is no mention of funding from defense, corporate entities, foundations, or any indication that no funding was received.",
+    "abstract": "We combine character-level and contextual language model representations to improve performance on Discourse Representation Structure parsing. Character representations can easily be added in a sequence-to-sequence model in either one encoder or as a fully separate encoder, with improvements that are robust to different language models, languages and data sets. For English, these improvements are larger than adding individual sources of linguistic information or adding non-contextual embeddings. A new method of analysis based on semantic tags demonstrates that the character-level representations improve performance across a subset of selected semantic phenomena.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "Dutch",
+        "English",
+        "German",
+        "Italian"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "November",
+    "title": "Character-level Representations Improve {DRS}-based Semantic Parsing Even in the Age of {BERT}"
 }

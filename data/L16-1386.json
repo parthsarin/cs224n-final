@@ -7,5 +7,24 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions the LIDER project, which was funded by the FP7 European program, indicating research agency funding. It does not mention funding from defense, corporate entities, or foundations directly. The FP7 (Seventh Framework Programme) is a clear example of a research agency funding source as it is a government-funded program by the European Union for research and technological development."
+    "reasoning": "Reasoning: The article mentions the LIDER project, which was funded by the FP7 European program, indicating research agency funding. It does not mention funding from defense, corporate entities, or foundations directly. The FP7 (Seventh Framework Programme) is a clear example of a research agency funding source as it is a government-funded program by the European Union for research and technological development.",
+    "abstract": "The Open Linguistics Working Group (OWLG) brings together researchers from various fields of linguistics, natural language processing, and information technology to present and discuss principles, case studies, and best practices for representing, publishing and linking linguistic data collections. A major outcome of our work is the Linguistic Linked Open Data (LLOD) cloud, an LOD (sub-)cloud of linguistic resources, which covers various linguistic databases, lexicons, corpora, terminologies, and metadata repositories. We present and summarize five years of progress on the development of the cloud and of advancements in open data in linguistics, and we describe recent community activities. The paper aims to serve as a guideline to introduce and involve researchers with the community and more generally with Linguistic Linked Open Data.",
+    "countries": [
+        "Ireland",
+        "Spain",
+        "Switzerland",
+        "China",
+        "Singapore",
+        "Germany"
+    ],
+    "languages": [
+        "Galician",
+        "Portuguese",
+        "Czech",
+        "Korean"
+    ],
+    "numcitedby": 38,
+    "year": 2016,
+    "month": "May",
+    "title": "The Open Linguistics Working Group: Developing the Linguistic Linked Open Data Cloud"
 }

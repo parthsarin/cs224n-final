@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article. Without explicit mention, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "This paper examines various unsupervised pretraining objectives for learning dialog context representations. Two novel methods of pretraining dialog context encoders are proposed, and a total of four methods are examined. Each pretraining objective is fine-tuned and evaluated on a set of downstream dialog tasks using the MultiWoz dataset and strong performance improvement is observed. Further evaluation shows that our pretraining objectives result in not only better performance, but also better convergence, models that are less data hungry and have better domain generalizability.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 55,
+    "year": 2019,
+    "month": "July",
+    "title": "Pretraining Methods for Dialog Context Representation Learning"
 }

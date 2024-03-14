@@ -7,5 +7,17 @@
         "foundation": 0.9808726228861578,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Advanced Research and Development Activity (ARDA), NSF Grants IIS-0208028 and IIS-0208798, the Xerox Foundation, and a NSF Graduate Research Fellowship to the first author. ARDA is associated with defense and intelligence communities, NSF is a government-funded research agency, and the Xerox Foundation is a corporate foundation."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Advanced Research and Development Activity (ARDA), NSF Grants IIS-0208028 and IIS-0208798, the Xerox Foundation, and a NSF Graduate Research Fellowship to the first author. ARDA is associated with defense and intelligence communities, NSF is a government-funded research agency, and the Xerox Foundation is a corporate foundation.",
+    "abstract": "We investigate techniques to support the answering of opinion-based questions. We first present the OpQA corpus of opinion questions and answers. Using the corpus, we compare and contrast the properties of fact and opinion questions and answers. Based on the disparate characteristics of opinion vs. fact answers, we argue that traditional fact-based QA approaches may have difficulty in an MPQA setting without modification. As an initial step towards the development of MPQA systems, we investigate the use of machine learning and rule-based subjectivity and opinion source filters and show that they can be used to guide MPQA systems.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Japanese",
+        "Chinese"
+    ],
+    "numcitedby": 145,
+    "year": 2005,
+    "month": "October",
+    "title": "Multi-Perspective Question Answering Using the {O}p{QA} Corpus"
 }

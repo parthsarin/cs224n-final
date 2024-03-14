@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article lists several projects and entities such as the University of Alicante, Generalitat Valenciana, Spanish Government, and the European Commission through specific projects. These entities are either educational institutions, regional or national government bodies, or international governmental organizations, which suggests funding from research agencies. There is no mention of defense, corporate, or foundation funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article lists several projects and entities such as the University of Alicante, Generalitat Valenciana, Spanish Government, and the European Commission through specific projects. These entities are either educational institutions, regional or national government bodies, or international governmental organizations, which suggests funding from research agencies. There is no mention of defense, corporate, or foundation funding sources.",
+    "abstract": "In this paper we present the approach and results of our participation in the 2015 MultiLing Single-document Summarization task. Our approach is based on the Principal Component Analysis (PCA) technique enhanced with lexical-semantic knowledge. For testing our approach, different configurations were set up, thus generating different types of summaries (i.e., generic and topic-focused), as well as testing some language-specific resources on top of the language-independent basic PCA approach, submitting a total of 6 runs for each selected language (English, German, and Spanish). Our participation in MultiLing has been very positive, ranking at intermediate positions when compared to the other participant systems, showing that PCA is a good technique for generating language-independent summaries, but the addition of lexical-semantic knowledge may heavily depend on the size and quality of the resources available for each language.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "German",
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 7,
+    "year": 2015,
+    "month": "September",
+    "title": "The {U}niversity of {A}licante at {M}ulti{L}ing 2015: approach, results and further insights"
 }

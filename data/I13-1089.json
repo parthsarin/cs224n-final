@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section thanks NRL for funding this research. NRL (Naval Research Laboratory) is a part of the United States Department of the Navy, which is a branch of the country's armed forces. Therefore, the research was funded by a defense source. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section thanks NRL for funding this research. NRL (Naval Research Laboratory) is a part of the United States Department of the Navy, which is a branch of the country's armed forces. Therefore, the research was funded by a defense source. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Ubuntu's Internet Relay Chat technical support channel has bots that output specific messages in response to command words from other channel users. These messages can be used to answer frequently-asked questions instead of requiring an expert to (repeatedly) type a lengthy reply. We describe an approach to automatically distinguish bot-answerable questions, which would mitigate this problem. To the best of our knowledge, this is the first work on investigating question answering in a multiparticipant chat domain. Our results indicate that for some types of questions, supervised learning algorithms perform well on this task and, in addition, that character n-grams are a better representation than traditional bag-of-words for this task and domain.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Russian",
+        "Chinese"
+    ],
+    "numcitedby": 4,
+    "year": 2013,
+    "month": "October",
+    "title": "Detecting Bot-Answerable Questions in {U}buntu Chat"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges support from the National Science Foundation (NSF) through grants IIS-0855131 and IIS-0840461. The NSF is a government-funded organization that provides grants for research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges support from the National Science Foundation (NSF) through grants IIS-0855131 and IIS-0840461. The NSF is a government-funded organization that provides grants for research, classifying it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "The second person pronoun you serves different functions in English. Each of these different types often corresponds to a different term when translated into another language. Correctly identifying different types of you can be beneficial to machine translation systems. To address this issue, we investigate disambiguation of different types of you occurrences in multiparty meetings with a new focus on the role of hand gesture. Our empirical results have shown that incorporation of gesture improves performance on differentiating between the generic use of you (e.g., refer to people in general) and the referential use of you (e.g., refer to a specific person or a group of people). Incorporation of gesture can also compensate for limitations in automated language processing (e.g., reliable recognition of dialogue acts) and achieve comparable results.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2010,
+    "month": "September",
+    "title": "Hand Gestures in Disambiguating Types of You Expressions in Multiparty Meetings"
 }

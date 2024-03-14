@@ -7,5 +7,26 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support by FCT multiannual funding, which refers to the Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, a Portuguese government-funded organization that supports research. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The article explicitly mentions support by FCT multiannual funding, which refers to the Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, a Portuguese government-funded organization that supports research. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding.",
+    "abstract": "This paper describes a method to efficiently leverage Brazilian Portuguese resources as European Portuguese resources. Brazilian Portuguese and European Portuguese are two Portuguese varieties very close and usually mutually intelligible, but with several known differences, which are studied in this work. Based on this study, we derived a rule based system to translate Brazilian Portuguese resources. Some resources were enriched with multiword units retrieved semi-automatically from phrase tables created using statistical machine translation tools. Our experiments suggest that applying our translation step improves the translation quality between English and Portuguese, relatively to the same process using the same resources.",
+    "countries": [
+        "Portugal"
+    ],
+    "languages": [
+        "Czech",
+        "Turkish",
+        "Spanish",
+        "Gaelic",
+        "Slovak",
+        "English",
+        "Turkic",
+        "Catalan",
+        "Indonesian",
+        "Portuguese",
+        "Irish"
+    ],
+    "numcitedby": 16,
+    "year": 2011,
+    "month": "May 30{--}31",
+    "title": "{BP}2{EP} - Adaptation of {B}razilian {P}ortuguese texts to {E}uropean {P}ortuguese"
 }

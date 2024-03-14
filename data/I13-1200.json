@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges funding from the Grant Agency of the Czech Republic P406/10/P328 and the National Science Foundation under Grant Numbers 0916280 and 1048406. The Grant Agency of the Czech Republic is a government-funded organization that provides grants for research, and the National Science Foundation is a United States government agency that supports fundamental research and education in all the non-medical fields of science and engineering. Therefore, the research was funded by research agencies."
+    "reasoning": "Reasoning: The article acknowledges funding from the Grant Agency of the Czech Republic P406/10/P328 and the National Science Foundation under Grant Numbers 0916280 and 1048406. The Grant Agency of the Czech Republic is a government-funded organization that provides grants for research, and the National Science Foundation is a United States government agency that supports fundamental research and education in all the non-medical fields of science and engineering. Therefore, the research was funded by research agencies.",
+    "abstract": "The goal of this study is to investigate whether learners' written data in highly inflectional Czech can suggest a consistent set of clues for automatic identification of the learners' L1 background. For our experiments, we use texts written by learners of Czech, which have been automatically and manually annotated for errors. We define two classes of learners: speakers of Indo-European languages and speakers of non-Indo-European languages. We use an SVM classifier to perform the binary classification. We show that non-content based features perform well on highly inflectional data. In particular, features reflecting errors in orthography are the most useful, yielding about 89% precision and the same recall. A detailed discussion of the best performing features is provided.",
+    "countries": [
+        "Czech Republic",
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Czech"
+    ],
+    "numcitedby": 5,
+    "year": 2013,
+    "month": "October",
+    "title": "Automatic Identification of Learners{'} Language Background Based on Their Writing in {C}zech"
 }

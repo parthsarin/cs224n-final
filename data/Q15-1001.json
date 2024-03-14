@@ -7,5 +7,17 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research was sponsored by the Army Research Laboratory (ARL), DARPA, and a grant from AI2. ARL and DARPA are associated with defense, as they are part of the United States Department of Defense. AI2, the Allen Institute for Artificial Intelligence, is a research institute founded by Paul Allen, co-founder of Microsoft, which functions as a foundation. There is no mention of corporate sponsorship or specific research agencies that are not defense-related."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions that the research was sponsored by the Army Research Laboratory (ARL), DARPA, and a grant from AI2. ARL and DARPA are associated with defense, as they are part of the United States Department of Defense. AI2, the Allen Institute for Artificial Intelligence, is a research institute founded by Paul Allen, co-founder of Microsoft, which functions as a foundation. There is no mention of corporate sponsorship or specific research agencies that are not defense-related.",
+    "abstract": "Little work from the Natural Language Processing community has targeted the role of quantities in Natural Language Understanding. This paper takes some key steps towards facilitating reasoning about quantities expressed in natural language. We investigate two different tasks of numerical reasoning. First, we consider Quantity Entailment, a new task formulated to understand the role of quantities in general textual inference tasks. Second, we consider the problem of automatically understanding and solving elementary school math word problems. In order to address these quantitative reasoning problems we first develop a computational approach which we show to successfully recognize and normalize textual expressions of quantities. We then use these capabilities to further develop algorithms to assist reasoning in the context of the aforementioned tasks. Example 3 About six and a half hours later , Mr. Armstrong opened the landing craft's hatch.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "Hebrew"
+    ],
+    "numcitedby": 92,
+    "year": 2015,
+    "month": "",
+    "title": "Reasoning about Quantities in Natural Language"
 }

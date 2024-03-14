@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9996537502582826
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of having no funding. Without direct evidence or mention of funding within the text, we cannot assume any specific source of funding was involved."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of having no funding. Without direct evidence or mention of funding within the text, we cannot assume any specific source of funding was involved.",
+    "abstract": "Depression is typically diagnosed as being present or absent. However, depression severity is believed to be continuously distributed rather than dichotomous. Severity may vary for a given patient daily and seasonally as a function of many variables ranging from life events to environmental factors. Repeated population-scale assessment of depression through questionnaires is expensive. In this paper we use survey responses and status updates from 28,749 Facebook users to develop a regression model that predicts users' degree of depression based on their Facebook status updates. Our user-level predictive accuracy is modest, significantly outperforming a baseline of average user sentiment. We use our model to estimate user changes in depression across seasons, and find, consistent with literature, users' degree of depression most often increases from summer to winter. We then show the potential to study factors driving individuals' level of depression by looking at its most highly correlated language features.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 182,
+    "year": 2014,
+    "month": "June",
+    "title": "Towards Assessing Changes in Degree of Depression through {F}acebook"
 }

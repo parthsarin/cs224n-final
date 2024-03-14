@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by the Defense Advanced Research Projects Agency (DARPA), which is an agency of the United States Department of Defense. There is no mention of funding from corporate sources, research agencies other than DARPA, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by the Defense Advanced Research Projects Agency (DARPA), which is an agency of the United States Department of Defense. There is no mention of funding from corporate sources, research agencies other than DARPA, foundations, or an absence of funding.",
+    "abstract": "We describe corpora for the LORELEI (Low Resource Languages for Emergent Incidents) Program, whose goal is to build human language technologies to provide situational awareness during emergent incidents, with a particular focus on low resource languages. Incident Language packs are used for system development and testing in machine translation, entity disambiguation and linking, and the \"situation frame\" task, which requires aggregation of information about the emergent incident. Incident languages, as well as the incidents themselves, remain unknown until the evaluation begins, and no labeled training data is provided; systems developers must rapidly adapt technology for the incident language and return initial results within 24 hours. Given this surprise language evaluation scenario, Representative Language packs are designed to support research into cross-language projection and language universals rather than to provide training data. They contain large volumes of monolingual and parallel text, basic annotations, lexical resources and simple NLP tools for 23 languages selected for typological diversity and coverage. We discuss the creation of the LORELEI language packs with a special focus on resources for machine translation, as well as techniques for maintaining consistency across the language packs.",
+    "countries": [
+        "Argentina",
+        "United States"
+    ],
+    "languages": [
+        "Russian",
+        "English",
+        "Uyghur"
+    ],
+    "numcitedby": 8,
+    "year": 2019,
+    "month": "August",
+    "title": "Corpus Building for Low Resource Languages in the {DARPA} {LORELEI} Program"
 }

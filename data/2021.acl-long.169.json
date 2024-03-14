@@ -7,5 +7,16 @@
         "foundation": 1.843160213588213e-05,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or development of PLOTCODER. Therefore, without explicit mention of funding from defense, corporate entities, research agencies, foundations, or any other sources, it must be concluded that the article does not report funding from any of the specified categories."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or development of PLOTCODER. Therefore, without explicit mention of funding from defense, corporate entities, research agencies, foundations, or any other sources, it must be concluded that the article does not report funding from any of the specified categories.",
+    "abstract": "Creating effective visualization is an important part of data analytics. While there are many libraries for creating visualizations, writing such code remains difficult given the myriad of parameters that users need to provide. In this paper, we propose the new task of synthesizing visualization programs from a combination of natural language utterances and code context. To tackle the learning problem, we introduce PLOTCODER, a new hierarchical encoder-decoder architecture that models both the code context and the input utterance. We use PLOTCODER to first determine the template of the visualization code, followed by predicting the data to be plotted. We use Jupyter notebooks containing visualization programs crawled from GitHub to train PLOTCODER. On a comprehensive set of test samples from those notebooks, we show that PLOTCODER correctly predicts the plot type of about 70% samples, and synthesizes the correct programs for 35% samples, performing 3-4.5% better than the baselines. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2021,
+    "month": "August",
+    "title": "{P}lot{C}oder: Hierarchical Decoding for Synthesizing Visualization Code in Programmatic Context"
 }

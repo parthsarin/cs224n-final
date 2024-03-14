@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "For the study of certain linguistic phenomena and their development over time, large amounts of textual data must be enriched with relevant annotations. Since the manual creation of such annotations requires a lot of effort, automating the process with NLP methods would be convenient. But the required amounts of training data are usually not available for non-standard or historical language. The present study investigates whether models trained on modern newspaper text can be used to automatically identify topological fields, i.e. syntactic structures, in different modern and historical German texts. The evaluation shows that, in general, it is possible to transfer a parser model to other registers or time periods with overall F 1 -scores >92%. However, an error analysis makes clear that additional rules and domain-specific training data would be beneficial if sentence structures differ significantly from the training data, e.g. in the case of Early New High German.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 3,
+    "year": 2020,
+    "month": "December",
+    "title": "Automatic Topological Field Identification in (Historical) {G}erman Texts"
 }

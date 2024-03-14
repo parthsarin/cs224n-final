@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the work is supported by the ERC Consolidator Grant LEXICAL (no 648909) and that RR was partially funded by ISF personal grants No. 1625/18. The European Research Council (ERC) is a public body for scientific and technological research funded by the European Union, which classifies as a research agency. The Israel Science Foundation (ISF) is also a research funding organization. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the work is supported by the ERC Consolidator Grant LEXICAL (no 648909) and that RR was partially funded by ISF personal grants No. 1625/18. The European Research Council (ERC) is a public body for scientific and technological research funded by the European Union, which classifies as a research agency. The Israel Science Foundation (ISF) is also a research funding organization. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Can we construct a neural model that is inductively biased towards learning human languages? Motivated by this question, we aim at constructing an informative prior over neural weights, in order to adapt quickly to heldout languages in the task of character-level language modeling. We infer this distribution from a sample of typologically diverse training languages via Laplace approximation. The use of such a prior outperforms baseline models with an uninformative prior (so-called 'finetuning') in both zero-shot and few-shot settings. This shows that the prior is imbued with universal phonological knowledge. Moreover, we harness additional language-specific side information as distant supervision for held-out languages. Specifically, we condition language models on features from typological databases, by concatenating them to hidden states or generating weights with hypernetworks. These features appear beneficial in the few-shot setting, but not in the zero-shot setting. Since the paucity of digital texts affects the majority of the world's languages, we hope that these findings will help broaden the scope of applications for language technology.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Chinantec",
+        "Vietnamese",
+        "English"
+    ],
+    "numcitedby": 10,
+    "year": 2019,
+    "month": "November",
+    "title": "Towards Zero-shot Language Modeling"
 }

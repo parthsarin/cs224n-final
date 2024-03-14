@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or article. Therefore, without explicit information, it is not possible to determine if the article was funded by any of the listed sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or article. Therefore, without explicit information, it is not possible to determine if the article was funded by any of the listed sources.",
+    "abstract": "Language is shaped by the relationships between the speaker/writer and the audience, the object of discussion, and the talk itself. In turn, language is used to reshape these relationships over the course of an interaction. Computational researchers have succeeded in operationalizing sentiment, formality, and politeness, but each of these constructs captures only some aspects of social and relational meaning. Theories of interactional stancetaking have been put forward as holistic accounts, but until now, these theories have been applied only through detailed qualitative analysis of (portions of) a few individual conversations. In this article, we propose a new computational operationalization of interpersonal stancetaking. We begin with annotations of three linked stance dimensions-affect, investment, and alignment-on 68 conversation threads from the online platform Reddit. Using these annotations, we investigate thread structure and Submission",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 27,
+    "year": 2018,
+    "month": "December",
+    "title": "Interactional Stancetaking in Online Forums"
 }

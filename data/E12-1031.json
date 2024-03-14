@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosed funding for this research.",
+    "abstract": "Existing concept-color-emotion lexicons limit themselves to small sets of basic emotions and colors, which cannot capture the rich pallet of color terms that humans use in communication. In this paper we begin to address this problem by building a novel, color-emotion-concept association lexicon via crowdsourcing. This lexicon, which we call CLEX, has over 2,300 color terms, over 3,000 affect terms and almost 2,000 concepts. We investigate the relation between color and concept, and color and emotion, reinforcing results from previous studies, as well as discovering new associations. We also investigate cross-cultural differences in color-emotion associations between US and India-based annotators.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 20,
+    "year": 2012,
+    "month": "April",
+    "title": "{CL}ex: A Lexicon for Exploring Color, Concept and Emotion Associations in Language"
 }

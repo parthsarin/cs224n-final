@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research is partially supported by the SmartBook project, funded by the Bulgarian National Science Fund under Grant D002-111/15.12.2008. The Bulgarian National Science Fund is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research is partially supported by the SmartBook project, funded by the Bulgarian National Science Fund under Grant D002-111/15.12.2008. The Bulgarian National Science Fund is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We combine relational and attributional similarity for the task of identifying instances of semantic relations, such as PRODUCT-PRODUCER and ORIGIN-ENTITY, between nominals in text. We use no pre-existing lexical resources, thus simulating a realistic real-world situation, where the coverage of any such resource is limited. Instead, we mine the Web to automatically extract patterns (verbs, prepositions and coordinating conjunctions) expressing the relationship between the relation arguments, as well as hypernyms and co-hyponyms of the arguments, which we use in instance-based classifiers. The evaluation on the dataset of SemEval-1 Task 4 shows an improvement over the state-ofthe-art for the case where using manually annotated WordNet senses is not allowed.",
+    "countries": [
+        "Singapore"
+    ],
+    "languages": [
+        "Bulgarian"
+    ],
+    "numcitedby": 13,
+    "year": 2011,
+    "month": "September",
+    "title": "Combining Relational and Attributional Similarity for Semantic Relation Classification"
 }

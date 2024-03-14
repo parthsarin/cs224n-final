@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions that Jennifer Spenader's work was supported by grant 016.064.062 from the Netherlands Organisation for Scientific Research (NWO), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The acknowledgements section mentions that Jennifer Spenader's work was supported by grant 016.064.062 from the Netherlands Organisation for Scientific Research (NWO), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "Using the RST annotated corpus [Carlson et al., 2003] , we use simple statistics on the distribution of discourse markers or cue phrases as evidence of the three-way distinction of Contrast relations, Contrast, Antithesis and Concession, recognized in standard Rhetorical Structure Theory (RST, Mann and Thompson 1987). We also show that however, an intuitive marker of Contrast, is not actually used statistically signicantly more often in Contrast relations than in Cause-Eect relations. These results highlight the need for empirically based discourse marker identication rather than the intuitive method that is the current norm.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [],
+    "numcitedby": 11,
+    "year": 2009,
+    "month": "January",
+    "title": "Reliable Discourse Markers for Contrast Relations"
 }

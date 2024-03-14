@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The article mentions that supervision, computational resources, and conference participation were supported by the project Social-Wear, funded by the German Ministry of Research and Education (BMBF), which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The article mentions that supervision, computational resources, and conference participation were supported by the project Social-Wear, funded by the German Ministry of Research and Education (BMBF), which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "We examine methods and techniques, proven to be helpful for the text-to-text translation of spoken languages in the context of gloss-to-text translation systems, where the glosses are the written representation of the signs. We present one of the first works that include experiments on both parallel corpora of the German Sign Language (PHOENIX14T and the Public DGS Corpus). We experiment with two NMT architectures with optimization of their hyperparameters, several tokenization methods and two data augmentation techniques (back-translation and paraphrasing). Through our investigation we achieve a substantial improvement of 5.0 and 2.2 BLEU scores for the models trained on the two corpora respectively. Our RNN models outperform our Transformer models, and the segmentation method we achieve best results with is BPE, whereas back-translation and paraphrasing lead to minor but not significant improvements.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "May",
+    "title": "Using Neural Machine Translation Methods for Sign Language Translation"
 }

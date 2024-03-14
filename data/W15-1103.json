@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges the support of ONR Grant N00014-13-1-0287. The ONR stands for the Office of Naval Research, which is a branch of the United States Department of the Navy, and thus falls under the defense category. There is no mention of funding from corporate entities, research agencies outside of defense, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges the support of ONR Grant N00014-13-1-0287. The ONR stands for the Office of Naval Research, which is a branch of the United States Department of the Navy, and thus falls under the defense category. There is no mention of funding from corporate entities, research agencies outside of defense, foundations, or an indication that there were no other funding sources.",
+    "abstract": "The \"uniform information density\" (UID) hypothesis proposes that language producers aim for a constant rate of information flow within a message, and research on monologue-like written texts has found evidence for UID in production. We consider conversational messages, using a large corpus of tweets, and look for UID behavior. We do not find evidence of UID behavior, and even find context effects that are opposite that of previous, monologue-based research. We propose that a more collaborative conception of information density and careful consideration of channel noise may be needed in the informationtheoretic framework for conversation.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 5,
+    "year": 2015,
+    "month": "June",
+    "title": "Audience size and contextual effects on information density in {T}witter conversations"
 }

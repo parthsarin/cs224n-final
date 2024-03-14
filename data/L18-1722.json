@@ -7,5 +7,23 @@
         "foundation": 7.896306882804183e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges support from the Infrastructure for the Science and Technology of the Portuguese Language (CLARIN L\u00edngua Portuguesa), and by the ANI/3279/2016 grant. CLARIN is a research infrastructure initiative, primarily funded by European national research agencies, making it a research agency. The specific nature of the ANI/3279/2016 grant is not detailed, but it appears to be a grant number which could be associated with a research agency or foundation; however, without explicit information, it cannot be definitively categorized. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article acknowledges support from the Infrastructure for the Science and Technology of the Portuguese Language (CLARIN L\u00edngua Portuguesa), and by the ANI/3279/2016 grant. CLARIN is a research infrastructure initiative, primarily funded by European national research agencies, making it a research agency. The specific nature of the ANI/3279/2016 grant is not detailed, but it appears to be a grant number which could be associated with a research agency or foundation; however, without explicit information, it cannot be definitively categorized. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "In this paper we proceed with a systematic gathering of design requirements for wordnet browsers that permit to consult the content of wordnets. This is undertaken together with a review of the functionalities of existing browsers. On the basis of this analysis, we present a new wordnet browser we developed that meets these requirements and thus complies with the most ample range of design features. This is an open source browser that is freely distributed and can be reused by anyone interested in doing research on or just using wordnets. We also introduce the notion of a pluricentric global wordnet, for whose undertaking this new advanced browser appears as an important instrument and motivation. This is a promising operative conception for a bootstrapped yet effective process towards the ultimate global wordnet, where all individual wordnets from all languages are meant to eventually converge together, in spite of the plurality of their formats, licenses, depth, etc. that is intrinsic to an inherently plural endeavor undertaken by multiple actors under multiple constraints across the world.",
+    "countries": [
+        "Portugal"
+    ],
+    "languages": [
+        "English",
+        "Spanish",
+        "Portuguese",
+        "Romanian",
+        "Latin",
+        "Italian",
+        "Hebrew",
+        "Polish"
+    ],
+    "numcitedby": 1,
+    "year": 2018,
+    "month": "May",
+    "title": "Browsing and Supporting Pluricentric Global {W}ordnet, or just your {W}ordnet of Interest"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Therefore, based on the provided text, it is not possible to determine any specific funding sources."
+    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, foundations, or any other sources. Therefore, based on the provided text, it is not possible to determine any specific funding sources.",
+    "abstract": "Since the first RumourEval shared task in 2017, interest in automated claim validation has greatly increased, as the danger of \"fake news\" has become a mainstream concern. However automated support for rumour verification remains in its infancy. It is therefore important that a shared task in this area continues to provide a focus for effort, which is likely to increase. Rumour verification is characterised by the need to consider evolving conversations and news updates to reach a verdict on a rumour's veracity. As in RumourEval 2017 we provided a dataset of dubious posts and ensuing conversations in social media, annotated both for stance and veracity. The social media rumours stem from a variety of breaking news stories and the dataset is expanded to include Reddit as well as new Twitter posts. There were two concrete tasks; rumour stance prediction and rumour verification, which we present in detail along with results achieved by participants. We received 22 system submissions (a 70% increase from RumourEval 2017) many of which used state-of-the-art methodology to tackle the challenges involved.",
+    "countries": [
+        "Denmark",
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 96,
+    "year": 2019,
+    "month": "June",
+    "title": "{S}em{E}val-2019 Task 7: {R}umour{E}val, Determining Rumour Veracity and Support for Rumours"
 }

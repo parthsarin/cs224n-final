@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article explicitly states that the work was supported by Science Foundation Ireland under a specific grant number. Science Foundation Ireland is a government-funded organization that provides grants for scientific research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article explicitly states that the work was supported by Science Foundation Ireland under a specific grant number. Science Foundation Ireland is a government-funded organization that provides grants for scientific research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Metaphor is an essential element of human cognition which is often used to express ideas and emotions that might be difficult to express using literal language. Processing metaphoric language is a challenging task for a wide range of applications ranging from text simplification to psychotherapy. Despite the variety of approaches that are trying to process metaphor, there is still a need for better models that mimic the human cognition while exploiting fewer resources. In this paper, we present an approach based on distributional semantics to identify metaphors on the phrase-level. We investigated the use of different word embeddings models to identify verb-noun pairs where the verb is used metaphorically. Several experiments are conducted to show the performance of the proposed approach on benchmark datasets.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 4,
+    "year": 2018,
+    "month": "June",
+    "title": "Phrase-Level Metaphor Identification Using Distributed Representations of Word Meaning"
 }

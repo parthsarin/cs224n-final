@@ -7,5 +7,17 @@
         "foundation": 6.704270752999619e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partially supported by the III 44009 research grant of the Ministry of Education, Science, and Technological Development of the Republic of Serbia, which qualifies as a research agency. Additionally, the annotation of the Serbian STS News Corpus was supported by the Regional Linguistic Data Initiative (ReLDI) via the Swiss National Science Foundation grant no. 160501, which also qualifies as a research agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partially supported by the III 44009 research grant of the Ministry of Education, Science, and Technological Development of the Republic of Serbia, which qualifies as a research agency. Additionally, the annotation of the Serbian STS News Corpus was supported by the Regional Linguistic Data Initiative (ReLDI) via the Swiss National Science Foundation grant no. 160501, which also qualifies as a research agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "Although the task of semantic textual similarity (STS) has gained in prominence in the last few years, annotated STS datasets for model training and evaluation, particularly those with fine-grained similarity scores, remain scarce for languages other than English, and practically non-existent for minor ones. In this paper, we present the Serbian Semantic Textual Similarity News Corpus (STS.news.sr)an STS dataset for Serbian that contains 1192 sentence pairs annotated with fine-grained semantic similarity scores. We describe the process of its creation and annotation, and we analyze and compare our corpus with the existing news-based STS datasets in English and other major languages. Several existing STS models are evaluated on the Serbian STS News Corpus, and a new supervised bag-of-words model that combines part-of-speech weighting with term frequency weighting is proposed and shown to outperform similar methods. Since Serbian is a morphologically rich language, the effect of various morphological normalization tools on STS model performances is considered as well. The Serbian STS News Corpus, the annotation tool and guidelines used in its creation, and the STS model framework used in the evaluation are all made publicly available.",
+    "countries": [
+        "Serbia"
+    ],
+    "languages": [
+        "English",
+        "Serbian"
+    ],
+    "numcitedby": 6,
+    "year": 2018,
+    "month": "May",
+    "title": "Fine-grained Semantic Textual Similarity for {S}erbian"
 }

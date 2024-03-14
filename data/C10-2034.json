@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is appropriate to conclude that the article does not report funding from any of the specified sources.",
+    "abstract": "A new approach has been developed for acquiring bilingual web pages from the result pages of search engines, which is composed of two challenging tasks. The first task is to detect web records embedded in the result pages automatically via a clustering method of a sample page. Identifying these useful records through the clustering method allows the generation of highly effective features for the next task which is high-quality bilingual web page acquisition. The task of high-quality bilingual web page acquisition is a classification problem. One advantage of our approach is that it is search engine and domain independent. The test is based on 2516 records extracted from six search engines automatically and annotated manually, which gets a high precision of 81.3% and a recall of 94.93%. The experimental results indicate that our approach is very effective.",
+    "countries": [
+        "Taiwan",
+        "China"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 3,
+    "year": 2010,
+    "month": "August",
+    "title": "A Novel Method for Bilingual Web Page Acquisition from Search Engine Web Records"
 }

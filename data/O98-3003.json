@@ -7,5 +7,19 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9988299864002703
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "The goal of this paper is to explicate the nature of Chinese nominal semantics, and to create a paradigm for nominal semantics in general that will be useful for natural language processing purposes. We first point out that a lexical item may have two meanings simultaneously, and that current models of lexical semantic representation cannot handle this phenomenon. We then propose a meaning representation that deals with this problem, and also discuss how the meanings involved are instantiated. In particular we posit that in addition to the traditional notion of sense differentiation, each sense may have different meaning facets. These meaning facets are linked to their sense or to other meaning facets through one of two ways: meronymic or metonymic extension.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Chinese",
+        "Mandarin",
+        "Mandarin",
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 1998,
+    "month": "February",
+    "title": "Meaning Representation and Meaning Instantiation for {C}hinese Nominals"
 }

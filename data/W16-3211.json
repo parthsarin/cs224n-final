@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "In this paper, we investigate whether a neural network model can learn the meaning of natural language quantifiers (no, some and all) from their use in visual contexts. We show that memory networks perform well in this task, and that explicit counting is not necessary to the system's performance, supporting psycholinguistic evidence on the acquisition of quantifiers.",
+    "countries": [
+        "Italy"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 15,
+    "year": 2016,
+    "month": "August",
+    "title": "{``}Look, some Green Circles!{''}: Learning to Quantify from Images"
 }

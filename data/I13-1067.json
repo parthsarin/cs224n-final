@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9999715555225518
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Event factuality is information about whether events mentioned in natural language correspond to either actual events that have occurred in the real world or events that are of uncertain interpretation. Factuality analysis is useful for information extraction and textual entailment recognition, among others, but sufficient performance has not yet been achieved by the machine learning-based approach. It is now important to take a closer look at the linguistics phenomena involved in factuality analysis and identify the technical research issues more precisely. In this paper, we discuss issues regarding lexical knowledge through error analysis of a Japanese factuality analyzer based on lexical knowledge and compositionality.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 7,
+    "year": 2013,
+    "month": "October",
+    "title": "A Lexicon-based Investigation of Research Issues in {J}apanese Factuality Analysis"
 }

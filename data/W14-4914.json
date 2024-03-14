@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges the support of the Tertiary Education Trust Fund (TETFund) in Nigeria, which is a government-funded organization designed to provide supplementary aid to higher education institutions. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The article acknowledges the support of the Tertiary Education Trust Fund (TETFund) in Nigeria, which is a government-funded organization designed to provide supplementary aid to higher education institutions. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other sources of funding.",
+    "abstract": "This project aims to develop linguistic resources to support computational NLP research on the Igbo language. The starting point for this project is the development of a new part-of-speech tagging scheme based on the EAGLES tagset guidelines, adapted to incorporate additional language internal features. The tags are currently being used in a part-of-speech annotation task for the development of POS tagged Igbo corpus. The proposed tagset has 59 tags.",
+    "countries": [
+        "United Kingdom",
+        "Niger"
+    ],
+    "languages": [
+        "Igbo"
+    ],
+    "numcitedby": 21,
+    "year": 2014,
+    "month": "August",
+    "title": "Part-of-speech Tagset and Corpus Development for {I}gbo, an {A}frican Language"
 }

@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented.",
+    "abstract": "In this paper, we present our methods for unrealiable information identification task at ReIN-TEL Challenge 2020. The task is to classify a piece of information into reliable or unreliable category. We propose a novel multimodal ensemble model which combines two multimodal models to solve the task. In each multimodal model, we combined feature representations acquired from three different data types: texts, images, and metadata. Multimodal features are derived from three neural networks and fused for classification. Experimental results showed that our proposed ensemble model improved against single models in term of AUC score. We obtained 0.9445 AUC score on the private test of the challenge.",
+    "countries": [
+        "Japan",
+        "Vietnam"
+    ],
+    "languages": [
+        "Vietnamese"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "December",
+    "title": "{R}e{INTEL} Challenge 2020: A Multimodal Ensemble Model for Detecting Unreliable Information on {V}ietnamese {SNS}"
 }

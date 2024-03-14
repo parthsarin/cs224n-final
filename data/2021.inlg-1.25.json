@@ -7,5 +7,15 @@
         "foundation": 0.03392036183199665,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from Charles University projects (GAUK 140320, SVV 260575, and PRIMUS/19/SCI/10), an Apple NLU Research Grant for Heriot-Watt University and Charles University, and the European Commission via UPF under the H2020 program contract numbers 786731, 825079, 870930, and 952133. This indicates funding from a corporate source (Apple), and research agency or foundation sources (European Commission and Charles University projects, with the European Commission being a government-funded organization and Charles University projects possibly being internal funding mechanisms that could be considered research agency or foundation in nature, depending on their funding source)."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from Charles University projects (GAUK 140320, SVV 260575, and PRIMUS/19/SCI/10), an Apple NLU Research Grant for Heriot-Watt University and Charles University, and the European Commission via UPF under the H2020 program contract numbers 786731, 825079, 870930, and 952133. This indicates funding from a corporate source (Apple), and research agency or foundation sources (European Commission and Charles University projects, with the European Commission being a government-funded organization and Charles University projects possibly being internal funding mechanisms that could be considered research agency or foundation in nature, depending on their funding source).",
+    "abstract": "We present our Charles-UPF submission for the Shared Task on Evaluating Accuracy in Generated Texts at INLG 2021. Our system can detect the errors automatically using a combination of a rule-based natural language generation (NLG) system and pretrained language models (LMs). We first utilize a rulebased NLG system to generate sentences with facts that can be derived from the input. For each sentence we evaluate, we select a subset of facts which are relevant by measuring semantic similarity to the sentence in question. Finally, we finetune a pretrained language model on annotated data along with the relevant facts for fine-grained error detection. On the test set, we achieve 69% recall and 75% precision with a model trained on a mixture of human-annotated and synthetic data.",
+    "countries": [
+        "Spain",
+        "Czech Republic"
+    ],
+    "languages": [],
+    "numcitedby": 2,
+    "year": 2021,
+    "month": "August",
+    "title": "Text-in-Context: Token-Level Error Detection for Table-to-Text Generation"
 }

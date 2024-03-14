@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "We present a novel method for aligning a sequence of instructions to a video of someone carrying out a task. In particular, we focus on the cooking domain, where the instructions correspond to the recipe. Our technique relies on an HMM to align the recipe steps to the (automatically generated) speech transcript. We then refine this alignment using a state-of-the-art visual food detector, based on a deep convolutional neural network. We show that our technique outperforms simpler techniques based on keyword spotting. It also enables interesting applications, such as automatically illustrating recipes with keyframes, and searching within a video for events of interest.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 136,
+    "year": 2015,
+    "month": "May{--}June",
+    "title": "What{'}s Cookin{'}? Interpreting Cooking Videos using Text, Speech and Vision"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9999922965856715
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, or foundations. The only mention related to contribution is \"Contribution during internship at Microsoft Research,\" which indicates involvement with a corporate entity but does not explicitly mention funding. Therefore, it's not clear if this constitutes direct financial support for the research."
+    "reasoning": "Reasoning: The article does not provide specific information regarding funding from defense, corporate entities, research agencies, or foundations. The only mention related to contribution is \"Contribution during internship at Microsoft Research,\" which indicates involvement with a corporate entity but does not explicitly mention funding. Therefore, it's not clear if this constitutes direct financial support for the research.",
+    "abstract": "The cross-lingual language models are typically pretrained with masked language modeling on multilingual text or parallel sentences. In this paper, we introduce denoising word alignment as a new cross-lingual pre-training task. Specifically, the model first self-labels word alignments for parallel sentences. Then we randomly mask tokens in a bitext pair. Given a masked token, the model uses a pointer network to predict the aligned token in the other language. We alternately perform the above two steps in an expectationmaximization manner. Experimental results show that our method improves cross-lingual transferability on various datasets, especially on the token-level tasks, such as question answering, and structured prediction. Moreover, the model can serve as a pretrained word aligner, which achieves reasonably low error rates on the alignment benchmarks. The code and pretrained parameters are available at github.com/CZWin32768/XLM-Align.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 16,
+    "year": 2021,
+    "month": "August",
+    "title": "Improving Pretrained Cross-Lingual Language Models via Self-Labeled Word Alignment"
 }

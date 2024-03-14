@@ -7,5 +7,17 @@
         "foundation": 1.0,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the constructicon resource used in the research was developed during the project \"A Swedish Constructicon,\" which was funded by the Bank of Sweden Tercentenary Foundation. Additionally, RJ was supported by the Swedish Research Council under a specific grant. Therefore, the research was funded by a foundation and a research agency."
+    "reasoning": "Reasoning: The article explicitly mentions that the constructicon resource used in the research was developed during the project \"A Swedish Constructicon,\" which was funded by the Bank of Sweden Tercentenary Foundation. Additionally, RJ was supported by the Swedish Research Council under a specific grant. Therefore, the research was funded by a foundation and a research agency.",
+    "abstract": "Finding authentic examples of grammatical constructions is central in constructionist approaches to linguistics, language processing, and second language learning. In this paper, we address this problem as an information retrieval (IR) task. To facilitate research in this area, we built a benchmark collection by annotating the occurrences of six constructions in a Swedish corpus. Furthermore, we implemented a simple and flexible retrieval system for finding construction occurrences, in which the user specifies a ranking function using lexical-semantic similarities (lexicon-based or distributional). The system was evaluated using standard IR metrics on the new benchmark, and we saw that lexical-semantical rerankers improve significantly over a purely surface-oriented system, but must be carefully tailored for each individual construction.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "Swedish",
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2016,
+    "month": "December",
+    "title": "Retrieving Occurrences of Grammatical Constructions"
 }

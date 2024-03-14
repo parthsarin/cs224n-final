@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article.",
+    "abstract": "Extracting keyphrases that summarize the main points of a document is a fundamental task in natural language processing. Supervised approaches to keyphrase extraction(KPE) are largely developed based on the assumption that the training data is fully annotated. However, due to the difficulty of keyphrase annotating, KPE models severely suffer from incomplete annotated problem in many scenarios. To this end, we propose a more robust training method that learns to mitigate the misguidance brought by unlabeled keyphrases. We introduce negative sampling to adjust training loss, and conduct experiments under different scenarios. Empirical studies on synthetic datasets and open domain dataset show that our model is robust to incomplete annotated problem and surpasses prior baselines. Extensive experiments on five scientific domain datasets of different scales demonstrate that our model is competitive with the state-of-the-art method. 1",
+    "countries": [
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "November",
+    "title": "Keyphrase Extraction with Incomplete Annotated Training Data"
 }

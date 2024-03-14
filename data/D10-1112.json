@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that part of the work was funded by the Swiss National Science Foundation, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that part of the work was funded by the Swiss National Science Foundation, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources.",
+    "abstract": "We present a novel approach for (written) dialect identification based on the discriminative potential of entire words. We generate Swiss German dialect words from a Standard German lexicon with the help of hand-crafted phonetic/graphemic rules that are associated with occurrence maps extracted from a linguistic atlas created through extensive empirical fieldwork. In comparison with a charactern-gram approach to dialect identification, our model is more robust to individual spelling differences, which are frequently encountered in non-standardized dialect writing. Moreover, it covers the whole Swiss German dialect continuum, which trained models struggle to achieve due to sparsity of training data.",
+    "countries": [
+        "United States",
+        "Switzerland"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 25,
+    "year": 2010,
+    "month": "October",
+    "title": "Word-Based Dialect Identification with Georeferenced Rules"
 }

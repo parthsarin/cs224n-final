@@ -7,5 +7,29 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the development of the system described. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the development of the system described. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "This paper describes the system submitted by our team (BabelEnconding) to SemEval-2020 Task 3: Predicting the Graded Effect of Context in Word Similarity. We propose an approach that relies on translation and multilingual language models in order to compute the contextual similarity between pairs of words. Our hypothesis is that evidence from additional languages can leverage the correlation with the human generated scores. BabelEnconding was applied to both subtasks and ranked among the top-3 in six out of eight task/language combinations and was the highest scoring system three times.",
+    "countries": [
+        "Brazil"
+    ],
+    "languages": [
+        "German",
+        "Greek",
+        "Portuguese",
+        "Bosnian",
+        "Turkish",
+        "English",
+        "Italian",
+        "Polish",
+        "Russian",
+        "Spanish",
+        "Serbian",
+        "Croatian",
+        "Slovenian",
+        "Finnish"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "December",
+    "title": "{B}abel{E}nconding at {S}em{E}val-2020 Task 3: Contextual Similarity as a Combination of Multilingualism and Language Models"
 }

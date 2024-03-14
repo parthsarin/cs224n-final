@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions support from the National Natural Science Foundation of China and the Beijing Outstanding Young Scientist Program, which are indicative of research agency funding. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section mentions support from the National Natural Science Foundation of China and the Beijing Outstanding Young Scientist Program, which are indicative of research agency funding. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding.",
+    "abstract": "Dense retrieval requires high-quality text sequence embeddings to support effective search in the representation space. Autoencoder-based language models are appealing in dense retrieval as they train the encoder to output highquality embedding that can reconstruct the input texts. However, in this paper, we provide theoretical analyses and show empirically that an autoencoder language model with a low reconstruction loss may not provide good sequence representations because the decoder may take shortcuts by exploiting language patterns. To address this, we propose a new selflearning method that pre-trains the autoencoder using a weak decoder, with restricted capacity and attention flexibility to push the encoder to provide better text representations. Our experiments on web search, news recommendation, and open domain question answering show that our pre-trained model significantly boosts the effectiveness and few-shot ability of dense retrieval models. Our code is available at https://github.com/microsoft/ SEED-Encoder/.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 13,
+    "year": 2021,
+    "month": "November",
+    "title": "Less is More: Pretrain a Strong {S}iamese Encoder for Dense Text Retrieval Using a Weak Decoder"
 }

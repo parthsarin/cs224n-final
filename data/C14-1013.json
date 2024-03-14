@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.9998683407378415
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of having no funding. Without direct evidence of funding sources, we cannot assume any involvement."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of having no funding. Without direct evidence of funding sources, we cannot assume any involvement.",
+    "abstract": "A significant portion of search engine queries mention business entities such as restaurants, cinemas, banks, and other places of interest. These queries are commonly known as \"local search\" queries, because they represent an information need about a place, often a place local to the user. A portion of these queries is not well served by the search engine because there is a mismatch between the query terms, and the terms representing the local business entity in the index. Business entities are frequently represented by their name, the category of entity (whether it is a restaurant, an airport, a grocery store, etc.) and other meta-data such as opening hours and price ranges. In this paper, we propose a method for representing business entities with a term distribution generated from web data and from social media that more closely aligns with user search query terms. We evaluate our system with the local search task of ranking businesses given a query, in both the U.S. and in Brazil. We show that augmenting entities with salient terms from social media and the Web improves precision at rank one for the U.S. by 18%, and for Brazil by 9% over a competitive baseline. For precision at rank three, the improvement for the U.S. is 19%, and for Brazil 15%.",
+    "countries": [
+        "Egypt"
+    ],
+    "languages": [
+        "English",
+        "Portuguese"
+    ],
+    "numcitedby": 5,
+    "year": 2014,
+    "month": "August",
+    "title": "Augmenting Business Entities with Salient Terms from {T}witter"
 }

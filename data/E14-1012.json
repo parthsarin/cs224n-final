@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states at the end, \"This work was funded in part by ARL 000665610000034354.\" ARL refers to the Army Research Laboratory, which is a component of the United States Department of Defense. Therefore, the research was funded by defense. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly states at the end, \"This work was funded in part by ARL 000665610000034354.\" ARL refers to the Army Research Laboratory, which is a component of the United States Department of Defense. Therefore, the research was funded by defense. There is no mention of funding from corporate entities, research agencies, foundations, or an indication that there were no other funding sources.",
+    "abstract": "In this paper, we present a series of experiments in which we analyze the usage of graffiti style features for signaling personal gang identification in a large, online street gangs forum, with an accuracy as high as 83% at the gang alliance level and 72% for the specific gang. We then build on that result in predicting how members of different gangs signal the relationship between their gangs within threads where they are interacting with one another, with a predictive accuracy as high as 66% at this thread composition prediction task. Our work demonstrates how graffiti style features signal social identity both in terms of personal group affiliation and between group alliances and oppositions. When we predict thread composition by modeling identity and relationship simultaneously using a multi-domain learning framework paired with a rich feature representation, we achieve significantly higher predictive accuracy than state-of-the-art baselines using one or the other in isolation.",
+    "countries": [
+        "United States",
+        "Netherlands"
+    ],
+    "languages": [
+        "Latin"
+    ],
+    "numcitedby": 13,
+    "year": 2014,
+    "month": "April",
+    "title": "Modeling the Use of Graffiti Style Features to Signal Social Relations within a Multi-Domain Learning Paradigm"
 }

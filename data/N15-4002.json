@@ -7,5 +7,16 @@
         "foundation": 3.0544960349931927e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research or the writing of the article."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source supported the research or the writing of the article.",
+    "abstract": "",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 8,
+    "year": 2015,
+    "month": "May{--}June",
+    "title": "Crowdsourcing for {NLP}"
 }

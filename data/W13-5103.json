@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. It only acknowledges support from Antwerp University Hospital (UZA), University of Antwerp, and Artesis Hogeschool Antwerpen, none of which fall under the specified funding categories."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. It only acknowledges support from Antwerp University Hospital (UZA), University of Antwerp, and Artesis Hogeschool Antwerpen, none of which fall under the specified funding categories.",
+    "abstract": "In order to analyse the information present in medical records while maintaining patient privacy, there is a basic need for techniques to automatically de-identify the free text information in these records. This paper presents a machine learning deidentification system for clinical free text in Dutch, relying on best practices from the state of the art in de-identification of English-language texts. We combine string and pattern matching features with machine learning algorithms and compare performance of three different experimental setups using Support Vector Machines and Random Forests on a limited data set of one hundred manually obfuscated texts provided by Antwerp University Hospital (UZA). The setup with the best balance in precision and recall during development was tested on an unseen set of raw clinical texts and evaluated manually at the hospital site.",
+    "countries": [
+        "Belgium"
+    ],
+    "languages": [
+        "Dutch",
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2013,
+    "month": "September",
+    "title": "De-Identification of Clinical Free Text in {D}utch with Limited Training Data: A Case Study"
 }

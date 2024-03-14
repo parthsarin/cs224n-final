@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union's Horizon 2020 research and innovation programme and the Science Foundation Ireland (SFI) Research Centres Programme, which are research agencies. It also mentions co-funding under the European Regional Development Fund, which is a form of regional support but falls under the broader category of research agency funding due to its governmental nature. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the European Union's Horizon 2020 research and innovation programme and the Science Foundation Ireland (SFI) Research Centres Programme, which are research agencies. It also mentions co-funding under the European Regional Development Fund, which is a form of regional support but falls under the broader category of research agency funding due to its governmental nature. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "In this paper we describe the ADAPT Centre's (Team ID: adapt-dcu) submissions to the WAT 2020 document-level Business Scene Dialogue (BSD) translation task. We only considered translating from Japanese to English for this task and secured the third position in the competition as per the rankings of the MT systems based on the human evaluation scores. The machine translation (MT) systems that we built for this task are state-of-the-art Transformer models. In order to improve the translation quality of our neural MT (NMT) systems, we made use of both in-domain and out-ofdomain data for training. We applied various data augmentation techniques for fine-tuning the model parameters. This paper outlines the experiments we carried out for this task and reports the MT systems' performance on the evaluation test set.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Japanese",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "December",
+    "title": "The {ADAPT} Centre{'}s Neural {MT} Systems for the {WAT} 2020 Document-Level Translation Task"
 }

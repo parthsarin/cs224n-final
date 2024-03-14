@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research has been supported by the NL4XAI project, which is funded under the European Union's Horizon 2020 programme. Horizon 2020 is a research and innovation programme, making it a research agency. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research has been supported by the NL4XAI project, which is funded under the European Union's Horizon 2020 programme. Horizon 2020 is a research and innovation programme, making it a research agency. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "We introduce Causal Bayesian Networks as a formalism for representing and explaining probabilistic causal relations, review the state of the art on learning Causal Bayesian Networks and suggest and illustrate a research avenue for studying pairwise identification of causal relations inspired by graphical causality criteria.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "November",
+    "title": "Explaining data using causal {B}ayesian networks"
 }

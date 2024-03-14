@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges funding from the DFG (Deutsche Forschungsgemeinschaft), which is a German research funding organization, indicating that the research was supported by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges funding from the DFG (Deutsche Forschungsgemeinschaft), which is a German research funding organization, indicating that the research was supported by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "The semantic behavior of derivational processes has been investigated with compositional distributional models relating the meaning of base, affix, and derivative (e.g., anti+capitalist \u2192 anticapitalist). While broadly successful, these approaches model how the distributional behavior generally is affected by derivation. Meanwhile, their predictions can not be interpreted at the level of linguistic regularities. In this paper, we adopt an alternative approach and focus on the impact of derivation on finer-grained semantic properties of the base. We focus on (the psycholinguistically prominent) emotional valence, i.e., the speakers' positive/negative evaluation of the word referent. We present two case studies on German derivational patterns, combining distributional and regression analysis. We are able to establish the broad presence of valence effects in German derivation as well as strong interactions with concreteness.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 1,
+    "year": 2017,
+    "month": "",
+    "title": "Are doggies really nicer than dogs? The impact of morphological derivation on emotional valence in {G}erman"
 }

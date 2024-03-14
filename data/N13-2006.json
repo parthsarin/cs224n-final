@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions funding support from the European Union under specific grant numbers for the Monnet project and the EuroSentiment project, as well as from the Science Foundation Ireland under a specific grant number for the Lion-2 project. These entities suggest funding from research agencies. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions funding support from the European Union under specific grant numbers for the Monnet project and the EuroSentiment project, as well as from the Science Foundation Ireland under a specific grant number for the Lion-2 project. These entities suggest funding from research agencies. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "Our research investigates the translation of ontology labels, which has applications in multilingual knowledge access. Ontologies are often defined only in one language, mostly English. To enable knowledge access across languages, such monolingual ontologies need to be translated into other languages. The primary challenge in ontology label translation is the lack of context, which makes this task rather different than document translation. The core objective therefore, is to provide statistical machine translation (SMT) systems with additional context information. In our approach, we first extend standard SMT by enhancing a translation model with context information that keeps track of surrounding words for each translation. We compute a semantic similarity between the phrase pair context vector from the parallel corpus and a vector of noun phrases that occur in surrounding ontology labels. We applied our approach to the translation of a financial ontology, translating from English to German, using Europarl as parallel corpus. This experiment showed that our approach can provide a slight improvement over standard SMT for this task, without exploiting any additional domain-specific resources.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2013,
+    "month": "June",
+    "title": "Ontology Label Translation"
 }

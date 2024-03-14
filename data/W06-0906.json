@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly states that the work was supported by the Advanced Research and Development Activity (ARDA), now the Disruptive Technology Office (DTO), under a specific contract number. ARDA and DTO are associated with the U.S. Department of Defense, indicating defense funding."
+    "reasoning": "Reasoning: The article explicitly states that the work was supported by the Advanced Research and Development Activity (ARDA), now the Disruptive Technology Office (DTO), under a specific contract number. ARDA and DTO are associated with the U.S. Department of Defense, indicating defense funding.",
+    "abstract": "In this paper, we demonstrate how to extend TimeML, a rich specification language for event and temporal expressions in text, with the implicit typical durations of events, temporal information in text that has hitherto been largely unexploited. Event duration information can be very important in applications in which the time course of events is to be extracted from text. For example, whether two events overlap or are in sequence often depends very much on their durations.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "French"
+    ],
+    "numcitedby": 11,
+    "year": 2006,
+    "month": "July",
+    "title": "Extending {T}ime{ML} with Typical Durations of Events"
 }

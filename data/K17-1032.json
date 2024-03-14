@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the sources based on the provided text."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources from defense, corporate entities, research agencies, foundations, or otherwise. Without explicit mention of funding, it is not possible to determine the sources based on the provided text.",
+    "abstract": "The task of relation classification in the biomedical domain is complex due to the presence of samples obtained from heterogeneous sources such as research articles, discharge summaries, or electronic health records. It is also a constraint for classifiers which employ manual feature engineering. In this paper, we propose a convolutional recurrent neural network (CRNN) architecture that combines RNNs and CNNs in sequence to solve this problem. The rationale behind our approach is that CNNs can effectively identify coarse-grained local features in a sentence, while RNNs are more suited for long-term dependencies. We compare our CRNN model with several baselines on two biomedical datasets, namely the i2b2-2010 clinical relation extraction challenge dataset, and the SemEval-2013 DDI extraction dataset. We also evaluate an attentive pooling technique and report its performance in comparison with the conventional max pooling method. Our results indicate that the proposed model achieves state-of-the-art performance on both datasets. 1",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "Sahu"
+    ],
+    "numcitedby": 29,
+    "year": 2017,
+    "month": "August",
+    "title": "Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text"
 }

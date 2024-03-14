@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions that Marcel Bollmann was supported by Deutsche Forschungsgemeinschaft (DFG), which is a German research funding organization. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section mentions that Marcel Bollmann was supported by Deutsche Forschungsgemeinschaft (DFG), which is a German research funding organization. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Natural-language processing of historical documents is complicated by the abundance of variant spellings and lack of annotated data. A common approach is to normalize the spelling of historical words to modern forms. We explore the suitability of a deep neural network architecture for this task, particularly a deep bi-LSTM network applied on a character level. Our model compares well to previously established normalization algorithms when evaluated on a diverse set of texts from Early New High German. We show that multi-task learning with additional normalization data can improve our model's performance further.",
+    "countries": [
+        "Denmark",
+        "Germany"
+    ],
+    "languages": [
+        "Dutch",
+        "German"
+    ],
+    "numcitedby": 51,
+    "year": 2016,
+    "month": "December",
+    "title": "Improving historical spelling normalization with bi-directional {LSTM}s and multi-task learning"
 }

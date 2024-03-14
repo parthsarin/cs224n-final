@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.9999821644040562
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of no funding. Without direct evidence of funding sources in the text, it is not possible to accurately determine the presence of any specific type of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of no funding. Without direct evidence of funding sources in the text, it is not possible to accurately determine the presence of any specific type of funding.",
+    "abstract": "This paper presents the LIG's systems submitted for Task 2 of WMT13 Quality Estimation campaign. This is a word confidence estimation (WCE) task where each participant was asked to label each word in a translated text as a binary ( Keep/Change) or multi-class (Keep/Substitute/Delete) category. We integrate a number of features of various types (system-based, lexical, syntactic and semantic) into the conventional feature set, for our baseline classifier training. After the experiments with all features, we deploy a \"Feature Selection\" strategy to keep only the best performing ones. Then, a method that combines multiple \"weak\" classifiers to build a strong \"composite\" classifier by taking advantage of their complementarity is presented and experimented. We then select the best systems for submission and present the official results obtained.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French",
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 26,
+    "year": 2013,
+    "month": "August",
+    "title": "{LIG} System for {WMT}13 {QE} Task: Investigating the Usefulness of Features in Word Confidence Estimation for {MT}"
 }

@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it appears there was no disclosed funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it appears there was no disclosed funding.",
+    "abstract": "In this paper, we present computational resource grammars of Runyankore and Rukiga (R&R) languages. Runyankore and Rukiga are two under-resourced Bantu Languages spoken by about 6 million people indigenous to South Western Uganda, East Africa. We used Grammatical Framework (GF), a multilingual grammar formalism and a special-purpose functional programming language to formalise the descriptive grammar of these languages. To the best of our knowledge, these computational resource grammars are the first attempt to the creation of language resources for R&R. In Future Work, we plan to use these grammars to bootstrap the generation of other linguistic resources such as multilingual corpora that make use of data-driven approaches to natural language processing feasible. In the meantime, they can be used to build Computer-Assisted Language Learning (CALL) applications for these languages among others.",
+    "countries": [
+        "Uganda",
+        "Sweden"
+    ],
+    "languages": [
+        "English",
+        "Runyankore"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "May",
+    "title": "Towards Computational Resource Grammars for {R}unyankore and Rukiga"
 }

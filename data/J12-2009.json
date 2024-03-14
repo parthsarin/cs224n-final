@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.997284410601819
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Therefore, without explicit information, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Therefore, without explicit information, we cannot assume any particular source of funding.",
+    "abstract": "Discourse models have received significant attention in the computational linguistics community with some important connections to the non-computational discourse community. More recently, the importance of discourse annotation has increased as models generated with supervised machine learning techniques are being used to annotate text automatically. A primary area for annotation is science. The theme of Teufel's book is an important contribution in these areas: discourse models, annotation schemes, and applications. The book is a substantial work, approximately 450 pages of text and appendices. It extends Teufel's Ph.D. thesis (Teufel 2000) with a decade of new work and updated references. The book is content-rich and meticulously written. In addition to presenting Teufel's discourse model, it also works as a good entry point into discourse models and annotation. Because each chapter is structured with background, new material, and a summary, each chapter can be read somewhat independently. Cross-references to other parts of the book are carefully included where warranted. This structure lends itself to using the book as a reference for each of the subtopics or as an introduction to the subject area as a whole, suitable as a textbook. Chapter 1 sets the stage for the rest of the book. The author sets out her fundamental assumptions and hypotheses. The fundamental assumptions arise from three observations that she has made regarding the literature. Scientific discourse contains descriptions of positive and negative states, contains references to others' contributions, and is the result of a rhetorical game intended to promote one's contribution. Chapter 2, on information retrieval and citation indexes, and Chapter 3, on summarization, provide the motivation for the main theme of the book: These two information-based endeavors can be enhanced with automated tools that incorporate an understanding of the rhetorical aspects of science writing. Whereas Chapters 2 and 3 give an overview of current methodologies, Chapter 4, \"New Types of Information Access,\" introduces two new techniques, rhetorical extracts and citation maps, that are suggested as information navigation methods enhanced by knowledge of the discourse that contains the information being accessed. Rhetorical extracts are snippets that can be tailored to user expertise and navigation task. Citation maps are interactive citation indexes that have their citation links augmented with rhetorical or sentiment information. Chapter 5 gives a detailed description of the five scientific text corpora that are used in the research described throughout the book: computational linguistics,",
+    "countries": [
+        "United Kingdom",
+        "Canada"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2012,
+    "month": "June",
+    "title": "Book Review: The Structure of Scientific Articles: Applications to Citation Indexing and Summarization by Simone Teufel"
 }

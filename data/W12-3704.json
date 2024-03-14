@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, or foundations. The only acknowledgments made are towards individuals for their assistance with the SVM classifier, which does not imply financial support or funding from any of the specified categories."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, or foundations. The only acknowledgments made are towards individuals for their assistance with the SVM classifier, which does not imply financial support or funding from any of the specified categories.",
+    "abstract": "Twitter is a micro blogging website, where users can post messages in very short text called Tweets. Tweets contain user opinion and sentiment towards an object or person. This sentiment information is very useful in various aspects for business and governments. In this paper, we present a method which performs the task of tweet sentiment identification using a corpus of pre-annotated tweets. We present a sentiment scoring function which uses prior information to classify (binary classification ) and weight various sentiment bearing words/phrases in tweets. Using this scoring function we achieve classification accuracy of 87% on Stanford Dataset and 88% on Mejaj dataset. Using supervised machine learning approach, we achieve classification accuracy of 88% on Stanford dataset.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 94,
+    "year": 2012,
+    "month": "July",
+    "title": "Mining Sentiments from Tweets"
 }

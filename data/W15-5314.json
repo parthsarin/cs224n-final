@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from RFBR grants (Russian Foundation for Basic Research) and the Russian Ministry of Education and Science. RFBR is a government-funded organization that supports scientific research, which classifies as a research agency. The Russian Ministry of Education and Science is also a government body, further supporting the classification under research agency. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the paper mentions support from RFBR grants (Russian Foundation for Basic Research) and the Russian Ministry of Education and Science. RFBR is a government-funded organization that supports scientific research, which classifies as a research agency. The Russian Ministry of Education and Science is also a government body, further supporting the classification under research agency. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "The paper studies the diversity of ways to express entity aspects in users' reviews. Besides explicit aspect terms, it is possible to distinguish implicit aspect terms and sentiment facts. These subtypes of aspect terms were annotated during SentiRuEval evaluation of Russian sentiment analysis systems organized in 2014-2015. The created annotation gives the possibility to analyze the contribution of non-explicit aspects to the overall sentiment of a review, their main patterns, and possible use.",
+    "countries": [
+        "Russia"
+    ],
+    "languages": [
+        "Russian"
+    ],
+    "numcitedby": 1,
+    "year": 2015,
+    "month": "September",
+    "title": "Types of Aspect Terms in Aspect-Oriented Sentiment Labeling"
 }

@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.9997298795890893
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based solely on the provided text.",
+    "abstract": "In this paper, we present our algorithm called nom-or-not designed for dissolving case-disambiguation in Hungarian. By case, we mean an abstract syntactic case, a kind of syntactic role of the given token. Nouns and proper names, adjectives, participles and numerals without a case suffix are always tagged as Nom, although the lack of case ending may represent various functions: it may mark the subject of the sentence or a possessor or the nominal part of a nominal predicate or the vocative case; on top of that, a modifier of a nominal or a nominal combined with a postposition lacks a case suffix as well; proper names consisting of two or more elements are also caseless. Our algorithm is motivated by the needs of a psycholinguistically motivated parser which aims to process sentences from left to right. Therefore, our case disambiguator follows the basic principles of the parser and analyses the sentences from left to right, always making a decision based on the information of the previously processed elements and the elements in a two token wide look-ahead parsing window. Our preliminary results show that if some modifications and new rules are added and it's run on a more precisely annotated corpus, it can improve the disambiguator algorithm. The preliminary results were obtained from a manually annotated corpora of 500 sentences.",
+    "countries": [
+        "Hungary"
+    ],
+    "languages": [
+        "Hungarian"
+    ],
+    "numcitedby": 0,
+    "year": 2019,
+    "month": "January",
+    "title": "What does the Nom say? An algorithm for case disambiguation in {H}ungarian"
 }

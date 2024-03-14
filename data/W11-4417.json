@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from Enterprise Ireland, the Irish Research Council for Science Engineering and Technology (IRCSET), and the EU projects PANACEA and META-NET. Enterprise Ireland is a government organization promoting trade and innovation, which can be classified under a research agency. IRCSET is also a research agency, providing funding for scientific and engineering research. PANACEA and META-NET are EU projects, which implies funding from the European Union, also fitting the category of a research agency. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from Enterprise Ireland, the Irish Research Council for Science Engineering and Technology (IRCSET), and the EU projects PANACEA and META-NET. Enterprise Ireland is a government organization promoting trade and innovation, which can be classified under a research agency. IRCSET is also a research agency, providing funding for scientific and engineering research. PANACEA and META-NET are EU projects, which implies funding from the European Union, also fitting the category of a research agency. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "We develop an open-source large-scale finitestate morphological processing toolkit (Ara-ComLex) for Modern Standard Arabic (MSA) distributed under the GPLv3 license. 1 The morphological transducer is based on a lexical database specifically constructed for this purpose. In contrast to previous resources, the database is tuned to MSA, eliminating lexical entries no longer attested in contemporary use. The database is built using a corpus of 1,089,111,204 words, a pre-annotation tool, machine learning techniques, and knowledgebased pattern matching to automatically acquire lexical knowledge. Our morphological transducer is evaluated and compared to LDC's SAMA (Standard Arabic Morphological Analyser).",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 35,
+    "year": 2011,
+    "month": "July",
+    "title": "An Open-Source Finite State Morphological Transducer for {M}odern {S}tandard {A}rabic"
 }

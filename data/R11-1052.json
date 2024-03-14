@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from the DFG Cluster of Excellence on Multimodal Computing and Interaction (M2CI), the German Federal Ministry of Economy and Technology, and the German Federal Ministry of Education and Research. These are all government or publicly-funded organizations, indicating research agency support. There is no mention of defense, corporate, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from the DFG Cluster of Excellence on Multimodal Computing and Interaction (M2CI), the German Federal Ministry of Economy and Technology, and the German Federal Ministry of Education and Research. These are all government or publicly-funded organizations, indicating research agency support. There is no mention of defense, corporate, foundation funding, or an absence of funding.",
+    "abstract": "This paper demonstrates a web-based online system, called META-DARE 1 . META-DARE is built to assist researchers to obtain insights into seed-based minimally supervised machine learning for relation extraction. META-DARE allows researchers and students to conduct experiments with an existing machine learning system called DARE (Xu et al., 2007). Users can run their own learning experiments by constructing initial seed examples and can monitor the learning process in a very detailed way, namely, via interacting with each node in the learning graph and viewing its content. Furthermore, users can study the learned relation extraction rules and their applications. META-DARE is also an analysis tool which gives an overview of the whole learning process: the number of iterations, the input and output behaviors of each iteration, and the general performance of the extracted instances and their distributions. Moreover, META-DARE provides a very convenient user interface for visualization of the learning graph, the learned rules and the system performance profile.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 1,
+    "year": 2011,
+    "month": "September",
+    "title": "{META}-{DARE}: Monitoring the Minimally Supervised {ML} of Relation Extraction Rules"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.7662551811944442
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, it's not possible to accurately determine the funding sources based on the provided excerpt alone."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, it's not possible to accurately determine the funding sources based on the provided excerpt alone.",
+    "abstract": "We model a dependency graph as a book, a particular kind of topological space, for semantic dependency parsing. The spine of the book is made up of a sequence of words, and each page contains a subset of noncrossing arcs. To build a semantic graph for a given sentence, we design new Maximum Subgraph algorithms to generate noncrossing graphs on each page, and a Lagrangian Relaxation-based algorithm to combine pages into a book. Experiments demonstrate the effectiveness of the book embedding framework across a wide range of conditions. Our parser obtains comparable results with a state-of-the-art transition-based parser.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 13,
+    "year": 2017,
+    "month": "July",
+    "title": "Semantic Dependency Parsing via Book Embedding"
 }

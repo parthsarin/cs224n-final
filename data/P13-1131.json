@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Israeli Ministry of Science and Technology, the Israel Science Foundation, and the European Community's Seventh Framework Programme (FP7/2007-2013) under a specific grant agreement. These entities are indicative of government or intergovernmental research agency funding. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Israeli Ministry of Science and Technology, the Israel Science Foundation, and the European Community's Seventh Framework Programme (FP7/2007-2013) under a specific grant agreement. These entities are indicative of government or intergovernmental research agency funding. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Automatic acquisition of inference rules for predicates has been commonly addressed by computing distributional similarity between vectors of argument words, operating at the word space level. A recent line of work, which addresses context sensitivity of rules, represented contexts in a latent topic space and computed similarity over topic vectors. We propose a novel two-level model, which computes similarities between word-level vectors that are biased by topic-level context representations. Evaluations on a naturallydistributed dataset show that our model significantly outperforms prior word-level and topic-level models. We also release a first context-sensitive inference rule set.",
+    "countries": [
+        "Israel",
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 22,
+    "year": 2013,
+    "month": "August",
+    "title": "A Two Level Model for Context Sensitive Inference Rules"
 }

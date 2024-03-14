@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research is part of the project MAEWIN and was supported by the Digital Society research program funded by the Ministry of Culture and Science of the German State of North Rhine-Westphalia. This indicates that the funding comes from a government entity, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research is part of the project MAEWIN and was supported by the Digital Society research program funded by the Ministry of Culture and Science of the German State of North Rhine-Westphalia. This indicates that the funding comes from a government entity, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "In social care environments, the main goal of social workers is to foster independent living by their clients. An important task is thus to monitor progress towards reaching independence in different areas of their patients' life. To support this task, we present an approach that extracts indications of independence on different life aspects from the day-to-day documentation that social workers create. We describe the process of collecting and annotating a corresponding corpus created from data records of two social work institutions with a focus on disability care. We show that the agreement on the task of annotating the observations of social workers with respect to discrete independent levels yields a high agreement of .74 as measured by Fleiss' Kappa. We present a classification approach towards automatically classifying an observation into the discrete independence levels and present results for different types of classifiers. Against our original expectation, we show that we reach F-Measures (macro) of 95% averaged across topics, showing that this task can be automatically solved.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "November",
+    "title": "Predicting independent living outcomes from written reports of social workers"
 }

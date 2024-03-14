@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.9989338175767956
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or an absence of funding. Therefore, without explicit information, it's not possible to determine the funding sources for the article."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agency, foundation, or an absence of funding. Therefore, without explicit information, it's not possible to determine the funding sources for the article.",
+    "abstract": "Simultaneous machine translation (SiMT) outputs translation while reading source sentence and hence requires a policy to decide whether to wait for the next source word (READ) or generate a target word (WRITE), the actions of which form a read/write path. Although the read/write path is essential to SiMT performance, no direct supervision is given to the path in the existing methods. In this paper, we propose a method of dual-path SiMT which introduces duality constraints to direct the read/write path. According to duality constraints, the read/write path in source-totarget and target-to-source SiMT models can be mapped to each other. As a result, the two SiMT models can be optimized jointly by forcing their read/write paths to satisfy the mapping. Experiments on En\u2194Vi and De\u2194En tasks show that our method can outperform strong baselines under all latency.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Vietnamese",
+        "German",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2022,
+    "month": "May",
+    "title": "Modeling Dual Read/Write Paths for Simultaneous Machine Translation"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the StaViCTA project, which is part of the framework grant \"the Digitized Society -Past, Present, and Future\" with No. 2012-5659 from the Swedish Research Council (Vetenskapsr\u00e5det). The Swedish Research Council is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was funded by the StaViCTA project, which is part of the framework grant \"the Digitized Society -Past, Present, and Future\" with No. 2012-5659 from the Swedish Research Council (Vetenskapsr\u00e5det). The Swedish Research Council is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Topic-independent expressions for conveying agreement and disagreement were annotated in a corpus of web forum debates, in order to evaluate a classifier trained to detect these two categories. Among the 175 expressions annotated in the evaluation set, 163 were unique, which shows that there is large variation in expressions used. This variation might be one of the reasons why the task of automatically detecting the categories was difficult. F-scores of 0.44 and 0.37 were achieved by a classifier trained on 2,000 debate sentences for detecting sentencelevel agreement and disagreement.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "Swedish"
+    ],
+    "numcitedby": 11,
+    "year": 2016,
+    "month": "August",
+    "title": "Unshared task: (Dis)agreement in online debates"
 }

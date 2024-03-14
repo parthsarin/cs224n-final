@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. It mentions the University of Copenhagen and the Nordic project NOMCO, but does not specify if these are funding sources or just affiliations and projects involved in the research. Without explicit mention of funding from defense, corporate entities, research agencies, or foundations, we cannot assume any specific funding source."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. It mentions the University of Copenhagen and the Nordic project NOMCO, but does not specify if these are funding sources or just affiliations and projects involved in the research. Without explicit mention of funding from defense, corporate entities, research agencies, or foundations, we cannot assume any specific funding source.",
+    "abstract": "This paper deals with the annotation of dialogue acts in a multimodal corpus of first encounter dialogues, i.e. face-to-face dialogues in which two people who meet for the first time talk with no particular purpose other than just talking. More specifically, we describe the method used to annotate dialogue acts in the corpus, including the evaluation of the annotations. Then, we present descriptive statistics of the annotation, particularly focusing on which dialogue acts often follow each other across speakers and which dialogue acts overlap with gestural behaviour. Finally, we discuss how feedback is expressed in the corpus by means of feedback dialogue acts with or without co-occurring gestural behaviour, i.e. multimodal vs. unimodal feedback.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [
+        "Swedish",
+        "Finnish",
+        "Danish"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "May",
+    "title": "Dialogue Act Annotation in a Multimodal Corpus of First Encounter Dialogues"
 }

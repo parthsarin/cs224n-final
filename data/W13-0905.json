@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the Intelligence Advanced Research Projects Activity (IARPA) via Department of Defense US Army Research Laboratory contract number W911NF-12-C-0020, and an NSF grant IIS 1012205. IARPA is a research and development arm of the Office of the Director of National Intelligence, which falls under the defense category. The National Science Foundation (NSF) is a government-funded research agency."
+    "reasoning": "Reasoning: The article explicitly mentions support from the Intelligence Advanced Research Projects Activity (IARPA) via Department of Defense US Army Research Laboratory contract number W911NF-12-C-0020, and an NSF grant IIS 1012205. IARPA is a research and development arm of the Office of the Director of National Intelligence, which falls under the defense category. The National Science Foundation (NSF) is a government-funded research agency.",
+    "abstract": "The paper presents an experimental algorithm to detect conventionalized metaphors implicit in the lexical data in a resource like WordNet, where metaphors are coded into the senses and so would never be detected by any algorithm based on the violation of preferences, since there would always be a constraint satisfied by such senses. We report an implementation of this algorithm, which was implemented first the preference constraints in VerbNet. We then derived in a systematic way a far more extensive set of constraints based on WordNet glosses, and with this data we reimplemented the detection algorithm and got a substantial improvement in recall. We suggest that this technique could contribute to improve the performance of existing metaphor detection strategies that do not attempt to detect conventionalized metaphors. The new WordNet-derived data is of wider significance because it also contains adjective constraints, unlike any existing lexical resource, and can be applied to any language with a semantic parser (and WN) for it.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 44,
+    "year": 2013,
+    "month": "June",
+    "title": "Automatic Metaphor Detection using Large-Scale Lexical Resources and Conventional Metaphor Extraction"
 }

@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from a Focused Award from Google, which is a corporation, and Contracts FA8750-19-2-0201 and FA8750-19-2-1004 with the US Defense Advanced Research Projects Agency (DARPA), which is a defense agency. There is no mention of funding from research agencies, foundations, or an absence of funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions support from a Focused Award from Google, which is a corporation, and Contracts FA8750-19-2-0201 and FA8750-19-2-1004 with the US Defense Advanced Research Projects Agency (DARPA), which is a defense agency. There is no mention of funding from research agencies, foundations, or an absence of funding sources.",
+    "abstract": "Question answering-based summarization evaluation metrics must automatically determine whether the QA model's prediction is correct or not, a task known as answer verification. In this work, we benchmark the lexical answer verification methods which have been used by current QA-based metrics as well as two more sophisticated text comparison methods, BERTScore and LERC. We find that LERC out-performs the other methods in some settings while remaining statistically indistinguishable from lexical overlap in others. However, our experiments reveal that improved verification performance does not necessarily translate to overall QA-based metric quality: In some scenarios, using a worse verification method -or using none at all -has comparable performance to using the best verification method, a result that we attribute to properties of the datasets. 1",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "May",
+    "title": "Benchmarking Answer Verification Methods for Question Answering-Based Summarization Evaluation Metrics"
 }

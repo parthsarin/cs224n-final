@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding bodies, it is not possible to determine the presence of funding from these sources.",
+    "abstract": "Abstractive summarization approaches based on Reinforcement Learning (RL) have recently been proposed to overcome classical likelihood maximization. RL enables to consider complex, possibly non-differentiable, metrics that globally assess the quality and relevance of the generated outputs. ROUGE, the most used summarization metric, is known to suffer from bias towards lexical similarity as well as from suboptimal accounting for fluency and readability of the generated abstracts. We thus explore and propose alternative evaluation measures: the reported humanevaluation analysis shows that the proposed metrics, based on Question Answering, favorably compares to ROUGE -with the additional property of not requiring reference summaries. Training a RL-based model on these metrics leads to improvements (both in terms of human or automated metrics) over current approaches that use ROUGE as a reward.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 75,
+    "year": 2019,
+    "month": "November",
+    "title": "Answers Unite! Unsupervised Metrics for Reinforced Summarization Models"
 }

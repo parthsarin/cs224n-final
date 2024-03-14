@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article mentions that Jian Pei's research is supported in part by the NSERC Discovery Grant program, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article mentions that Jian Pei's research is supported in part by the NSERC Discovery Grant program, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "The abundant semi-structured data on the Web, such as HTML-based tables and lists, provide commercial search engines a rich information source for question answering (QA). Different from plain text passages in Web documents, Web tables and lists have inherent structures, which carry semantic correlations among various elements in tables and lists. Many existing studies treat tables and lists as flat documents with pieces of text and do not make good use of semantic information hidden in structures. In this paper, we propose a novel graph representation of Web tables and lists based on a systematic categorization of the components in semi-structured data as well as their relations. We also develop pre-training and reasoning techniques on the graph model for the QA task. Extensive experiments on several real datasets collected from a commercial engine verify the effectiveness of our approach. Our method improves F1 score by 3.90 points over the state-of-the-art baselines.",
+    "countries": [
+        "Canada",
+        "China"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 9,
+    "year": 2020,
+    "month": "December",
+    "title": "A Graph Representation of Semi-structured Data for Web Question Answering"
 }

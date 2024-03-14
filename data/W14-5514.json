@@ -7,5 +7,19 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "A complex sentence, divided into clauses, can be analyzed more easily than the complex sentence itself. We present here, the task of identification and classification of clauses in Hindi text. To the best of our knowledge, not much work has been done on clause boundary identification for Hindi, which makes this task more important. We have built a rule based system using linguistic cues such as coordinating conjunct, subordinating conjunct etc. Our system gives 91.53% and 80.63% F1-scores for identification and classification for finite clauses respectively, and 60.57% accuracy for non-finite clauses.",
+    "countries": [
+        "India"
+    ],
+    "languages": [
+        "Hindi",
+        "English",
+        "Portuguese",
+        "Bengali"
+    ],
+    "numcitedby": 2,
+    "year": 2014,
+    "month": "August",
+    "title": "A rule based approach for automatic clause boundary detection and classification in {H}indi"
 }

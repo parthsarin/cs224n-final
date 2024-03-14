@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by NSF grant IIS-0713548. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the work is supported by NSF grant IIS-0713548. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, categorizing it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Many researchers have attempted to predict the Enron corporate hierarchy from the data. This work, however, has been hampered by a lack of data. We present a new, large, and freely available gold-standard hierarchy. Using our new gold standard, we show that a simple lower bound for social network-based systems outperforms an upper bound on the approach taken by current NLP systems.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Mon"
+    ],
+    "numcitedby": 38,
+    "year": 2012,
+    "month": "July",
+    "title": "A Comprehensive Gold Standard for the {E}nron Organizational Hierarchy"
 }

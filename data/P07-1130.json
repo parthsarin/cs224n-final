@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by the German Research Foundation under a specific grant, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by the German Research Foundation under a specific grant, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "We present a study aimed at investigating the use of semantic information in a novel NLP application, Electronic Career Guidance (ECG), in German. ECG is formulated as an information retrieval (IR) task, whereby textual descriptions of professions (documents) are ranked for their relevance to natural language descriptions of a person's professional interests (the topic). We compare the performance of two semantic IR models: (IR-1) utilizing semantic relatedness (SR) measures based on either wordnet or Wikipedia and a set of heuristics, and (IR-2) measuring the similarity between the topic and documents based on Explicit Semantic Analysis (ESA) (Gabrilovich and Markovitch, 2007) . We evaluate the performance of SR measures intrinsically on the tasks of (T-1) computing SR, and (T-2) solving Reader's Digest Word Power (RDWP) questions.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 56,
+    "year": 2007,
+    "month": "June",
+    "title": "What to be? - Electronic Career Guidance Based on Semantic Relatedness"
 }

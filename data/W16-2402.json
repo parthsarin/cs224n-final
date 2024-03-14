@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article thanks the DFG grant KO 2916/2-1 for support. The DFG (Deutsche Forschungsgemeinschaft) is a German research funding organization, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article thanks the DFG grant KO 2916/2-1 for support. The DFG (Deutsche Forschungsgemeinschaft) is a German research funding organization, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "We present a general importance sampling technique for approximating expected values based on samples from probabilistic finite tree automata. The algorithm uses the samples it produces to adapt rule probabilities for the automaton in order to improve sample quality.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2016,
+    "month": "August",
+    "title": "Adaptive Importance Sampling from Finite State Automata"
 }

@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by the EU Horizon 2020 ITN/ETN on Domain Specific Systems for Information Extraction and Retrieval - DoSSIER (H2020-EU.1.3.1., ID: 860721), which is a research and innovation program funded by the European Union, thus indicating research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is at least one source of funding, the option \"none\" does not apply."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was supported by the EU Horizon 2020 ITN/ETN on Domain Specific Systems for Information Extraction and Retrieval - DoSSIER (H2020-EU.1.3.1., ID: 860721), which is a research and innovation program funded by the European Union, thus indicating research agency funding. There is no mention of defense, corporate, or foundation funding, and since there is at least one source of funding, the option \"none\" does not apply.",
+    "abstract": "This paper describes our contribution to the Answer Localization track of the MedVidQA 2022 Shared Task. We propose two answer localization approaches that use only textual information extracted from the video. In particular, our approaches exploit the text extracted from the video's transcripts along with the text displayed in the video's frames to create a set of features. Having created a set of features that represents a video's textual information, we employ four different models to measure the similarity between a video's segment and a corresponding question. Then, we employ two different methods to obtain the start and end times of the identified answer. One of them is based on a random forest regressor, whereas the other one uses an unsupervised peak detection model to detect the answer's start time. Our findings suggest that for this task, leveraging only textrelated features (transmitted either verbally or visually) and using a small amount of training data, lead to significant improvements over the benchmark Video Span Localization model that is based on deep neural networks.",
+    "countries": [
+        "Austria",
+        "Italy"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2022,
+    "month": "May",
+    "title": "{D}o{SSIER} at {M}ed{V}id{QA} 2022: Text-based Approaches to Medical Video Answer Localization Problem"
 }

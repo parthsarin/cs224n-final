@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.8670063830522796
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, it is not possible to determine the presence of funding from these sources based on the provided text alone."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, it is not possible to determine the presence of funding from these sources based on the provided text alone.",
+    "abstract": "This paper discusses the behaviour of German particle verbs formed by two-way prepositions in combination with pleonastic PPs including the verb particle as a preposition. These particle verbs have a characteristic feature: some of them license directional prepositional phrases in the accusative, some only allow for locative PPs in the dative, and some particle verbs can occur with PPs in the accusative and in the dative. Directional particle verbs together with directional PPs present an additional problem: the particle and the preposition in the PP seem to provide redundant information. The paper gives an overview of the semantic verb classes influencing this phenomenon, based on corpus data, and explains the underlying reasons for the behaviour of the particle verbs. We also show how the restrictions on particle verbs and pleonastic PPs can be expressed in a grammar theory like Lexical Functional Grammar (LFG). 'She gets into the car.' (4) Sie steigt ein. She climb-3SG Part+DIR. 'She gets in.' (5) Sie steigt [PP in das Auto] ein. She gets [PP into+DIR Det car] Part+DIR.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 10,
+    "year": 2006,
+    "month": "",
+    "title": "{G}erman Particle Verbs and Pleonastic Prepositions"
 }

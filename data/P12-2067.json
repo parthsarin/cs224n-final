@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Science Council, National Taiwan University, and Intel Corporation. The National Science Council is a government-funded organization, indicating research agency funding. National Taiwan University, while an educational institution, does not fit into the defined categories as a funding source on its own. Intel Corporation is a for-profit company, indicating corporate funding. There is no mention of defense or foundation funding."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the National Science Council, National Taiwan University, and Intel Corporation. The National Science Council is a government-funded organization, indicating research agency funding. National Taiwan University, while an educational institution, does not fit into the defined categories as a funding source on its own. Intel Corporation is a for-profit company, indicating corporate funding. There is no mention of defense or foundation funding.",
+    "abstract": "This paper brings a marriage of two seemly unrelated topics, natural language processing (NLP) and social network analysis (SNA). We propose a new task in SNA which is to predict the diffusion of a new topic, and design a learning-based framework to solve this problem. We exploit the latent semantic information among users, topics, and social connections as features for prediction. Our framework is evaluated on real data collected from public domain. The experiments show 16% AUC improvement over baseline methods. The source code and dataset are available at http://www.csie.ntu.edu.tw/~d97944007/dif fusion/",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 14,
+    "year": 2012,
+    "month": "July",
+    "title": "Exploiting Latent Information to Predict Diffusions of Novel Topics on Social Networks"
 }

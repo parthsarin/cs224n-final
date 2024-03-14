@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article mentions support from the SVV project and the LINDAT/CLARIN project funded by the Ministry of Education, Youth and Sports of the Czech Republic. These are indicative of government or public funding, aligning with a research agency's profile. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding."
+    "reasoning": "Reasoning: The article mentions support from the SVV project and the LINDAT/CLARIN project funded by the Ministry of Education, Youth and Sports of the Czech Republic. These are indicative of government or public funding, aligning with a research agency's profile. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding.",
+    "abstract": "This paper describes our submission to Se-mEval 2014 Task 4 1 (aspect based sentiment analysis). The current work is based on the assumption that it could be advantageous to connect the subtasks into one workflow, not necessarily following their given order. We took part in all four subtasks (aspect term extraction, aspect term polarity, aspect category detection, aspect category polarity), using polarity items detection via various subjectivity lexicons and employing a rule-based system applied on dependency data. To determine aspect categories, we simply look up their WordNet hypernyms. For such a basic method using no machine learning techniques, we consider the results rather satisfactory.",
+    "countries": [
+        "Czech Republic"
+    ],
+    "languages": [
+        "Czech",
+        "English"
+    ],
+    "numcitedby": 10,
+    "year": 2014,
+    "month": "August",
+    "title": "{{\\'U}FAL}: Using Hand-crafted Rules in Aspect Based Sentiment Analysis on Parsed Data"
 }

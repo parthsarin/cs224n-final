@@ -7,5 +7,24 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Natural Sciences and Engineering Research Council of Canada, which is a government-funded research agency, and the ERC grant 269427 (STAC), which is funded by the European Research Council, another research agency. There is no mention of funding from defense, corporate sources, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the Natural Sciences and Engineering Research Council of Canada, which is a government-funded research agency, and the ERC grant 269427 (STAC), which is funded by the European Research Council, another research agency. There is no mention of funding from defense, corporate sources, foundations, or an indication that there were no funding sources.",
+    "abstract": "Annotation efforts have resulted in the availability of a number of corpora with rhetorical relation information. The corpora, unfortunately, are annotated under different theoretical approaches and have different hierarchies of relations. In addition, new sets of rhetorical relations have been proposed to account for language variation. The types of relations, however, tend to overlap or be related in specific ways. We believe that differences across approaches are minimal, and a unified set of relations that works across languages is possible. This paper details a new taxonomy of relations organized in four top level-classes with a total of 26 relations. We propose a mapping between existing annotations and show that our taxonomy is robust across theories, and can be applied to multiple languages.",
+    "countries": [
+        "France",
+        "Canada"
+    ],
+    "languages": [
+        "Arabic",
+        "English",
+        "German",
+        "Portuguese",
+        "Basque",
+        "Spanish",
+        "Dutch",
+        "French"
+    ],
+    "numcitedby": 20,
+    "year": 2015,
+    "month": "June",
+    "title": "Mapping Different Rhetorical Relation Annotations: A Proposal"
 }

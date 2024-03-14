@@ -7,5 +7,18 @@
         "foundation": 1.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the National Science Foundation, which is a government-funded research agency, and the John Templeton Foundation, which is a philanthropic foundation. There is no mention of funding from defense, corporate sources, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the National Science Foundation, which is a government-funded research agency, and the John Templeton Foundation, which is a philanthropic foundation. There is no mention of funding from defense, corporate sources, or an absence of funding.",
+    "abstract": "Word embeddings are powerful representations that form the foundation of many natural language processing architectures, both in English and in other languages. To gain further insight into word embeddings, we explore their stability (e.g., overlap between the nearest neighbors of a word in different embedding spaces) in diverse languages. We discuss linguistic properties that are related to stability, drawing out insights about correlations with affixing, language gender systems, and other features. This has implications for embedding use, particularly in research that uses them to study language trends.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English",
+        "French",
+        "German"
+    ],
+    "numcitedby": 5,
+    "year": 2021,
+    "month": "November",
+    "title": "Analyzing the Surprising Variability in Word Embedding Stability Across Languages"
 }

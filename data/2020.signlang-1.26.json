@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The publication acknowledges funding from the German Federal Government and Federal States in the Academies' Programme, with specific mention of the Federal Ministry of Education and Research and the Free and Hanseatic City of Hamburg. These entities are government-related, indicating research agency support. There is no mention of defense, corporate, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The publication acknowledges funding from the German Federal Government and Federal States in the Academies' Programme, with specific mention of the Federal Ministry of Education and Research and the Free and Hanseatic City of Hamburg. These entities are government-related, indicating research agency support. There is no mention of defense, corporate, foundation funding, or an absence of funding.",
+    "abstract": "The Public DGS Corpus is published in two different formats, that is subtitled videos for lay persons and lemmatized and annotated transcripts and videos for experts. In addition, a draft version with the first set of preliminary entries of the DGS dictionary (DW-DGS) to be completed in 2023 is now online. The Public DGS Corpus and the DW-DGS are conceived of as stand-alone products, but are nevertheless closely interconnected to offer additional and complementary informative functions. In this paper we focus on linking the published products in order to provide users access to corpus and corpus-based dictionary in various, interrelated ways. We discuss which links are thought to be useful and what challenges the linking of the products poses. In addition we address the inclusion of links to other, older lexical resources (LSP dictionaries).",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "May",
+    "title": "From Dictionary to Corpus and Back Again {--} Linking Heterogeneous Language Resources for {DGS}"
 }

@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that it has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme. The ERC is a public body for scientific and technological research, funded by the European Union, and does not fall under defense, corporate, or foundation categories. Therefore, it is classified as a research agency."
+    "reasoning": "Reasoning: The article explicitly mentions that it has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme. The ERC is a public body for scientific and technological research, funded by the European Union, and does not fall under defense, corporate, or foundation categories. Therefore, it is classified as a research agency.",
+    "abstract": "Data processing is an important step in various natural language processing tasks. As the commonly used datasets in named entity recognition contain only a limited number of samples, it is important to obtain additional labeled data in an efficient and reliable manner. A common practice is to utilize large monolingual unlabeled corpora. Another popular technique is to create synthetic data from the original labeled data (data augmentation). In this work, we investigate the impact of these two methods on the performance of three different named entity recognition tasks.",
+    "countries": [
+        "Germany",
+        "Netherlands"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "August",
+    "title": "Investigation on Data Adaptation Techniques for Neural Named Entity Recognition"
 }

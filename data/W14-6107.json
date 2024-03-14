@@ -7,5 +7,23 @@
         "foundation": 0.0,
         "none": 0.9999993295729247
     },
-    "reasoning": "Reasoning: The article explicitly thanks Cambridge English Language Assessment for funding the work and providing the data. Cambridge English Language Assessment is neither a defense organization, a corporate entity in the for-profit sense, a research agency, nor a foundation. It is an entity associated with the University of Cambridge, which focuses on English language assessment and research. Therefore, the funding does not fall into any of the specified categories, suggesting that none of the listed funding sources were involved."
+    "reasoning": "Reasoning: The article explicitly thanks Cambridge English Language Assessment for funding the work and providing the data. Cambridge English Language Assessment is neither a defense organization, a corporate entity in the for-profit sense, a research agency, nor a foundation. It is an entity associated with the University of Cambridge, which focuses on English language assessment and research. Therefore, the funding does not fall into any of the specified categories, suggesting that none of the listed funding sources were involved.",
+    "abstract": "NLP tools are typically trained on written data from native speakers. However, research into language acquisition and tools for language teaching & proficiency assessment would benefit from accurate processing of spoken data from second language learners. In this paper we discuss manual annotation schemes for various features of spoken language; we also evaluate the automatic tagging of one particular feature (filled pauses) -finding a success rate of 81%; and we evaluate the effect of using our manual annotations to 'clean up' the transcriptions for sentence parsing, resulting in a 25% improvement in parse success rate by completely cleaning the texts of disfluencies and errors. We discuss the need to adapt existing NLP technology to non-canonical domains such as spoken learner language, while emphasising the worth of continued integration of manual and automatic annotation.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Hindi",
+        "German",
+        "English",
+        "Gujarati",
+        "Malayalam",
+        "Portuguese",
+        "Pashto",
+        "Urdu"
+    ],
+    "numcitedby": 9,
+    "year": 2014,
+    "month": "August",
+    "title": "The effect of disfluencies and learner errors on the parsing of spoken learner language"
 }

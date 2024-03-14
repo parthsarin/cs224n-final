@@ -7,5 +7,21 @@
         "foundation": 1.9361263126072004e-07,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was partially supported by the German Federal Ministry of Education and Research (BMBF) through the project BBDC (01IS14013E), which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was partially supported by the German Federal Ministry of Education and Research (BMBF) through the project BBDC (01IS14013E), which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "The FREME framework bridges Language Technologies (LT) and Linked Data (LD). It establishes workflows between LT and LD in a well defined, coherent way. FREME addresses common challenges that both researchers and industry face when integrating LT and LD: interoperability, \"silo\" solutions and the lack of adequate tooling. Usability, reusability and interoperability are often attributes of frameworks and toolkits for LT and LD. In this paper, we take a novel approach: We define user types and user levels and describe how they influence design decisions in a LT and LD processing framework. In this way, we combine research outcomes from various communities: language technology, linked data and software interface engineering. This paper explains the different user types and how FREME addresses the specific needs of each user type. Core attributes of FREME are usability, reusability and interoperability.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English",
+        "French",
+        "Russian",
+        "Italian",
+        "Dutch"
+    ],
+    "numcitedby": 1,
+    "year": 2018,
+    "month": "May",
+    "title": "A Framework for the Needs of Different Types of Users in Multilingual Semantic Enrichment"
 }

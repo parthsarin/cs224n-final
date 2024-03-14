@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that Lucia Specia was supported by funding from the Bergamot project (EU H2020 Grant No. 825303), which is funded by the European Union's Horizon 2020 research and innovation programme. This indicates that the research was funded by a research agency, as Horizon 2020 is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions that Lucia Specia was supported by funding from the Bergamot project (EU H2020 Grant No. 825303), which is funded by the European Union's Horizon 2020 research and innovation programme. This indicates that the research was funded by a research agency, as Horizon 2020 is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "Not all machine mistranslations are of equal scale of severity. For example, mistranslating a date or time in an appointment, mistranslating a number or currency in a contract, or hallucinating profanity may lead to catastrophic consequences for the users. The severity of the errors is an important but overlooked aspect of machine translation (MT) quality evaluation. In this paper, we present the results of our effort to bring awareness to the problem of critical translation errors. We study, validate and extend an initial taxonomy of critical errors with the view of providing guidance for critical error analysis, annotation and mitigation. We test the extended taxonomy for three language pairs to examine to what extent it generalises across languages. We provide an account of factors that affect annotation tasks along with recommendations on how to improve annotation practice in future work. We also study patterns in the source text that can lead to critical errors. Detecting such linguistic patterns could be used to improve the performance of MT systems, especially for user-generated content.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Arabic",
+        "Chinese"
+    ],
+    "numcitedby": 0,
+    "year": 2022,
+    "month": "June",
+    "title": "A Taxonomy and Study of Critical Errors in Machine Translation"
 }

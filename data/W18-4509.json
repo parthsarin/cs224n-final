@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. It focuses on the methodology, experiments, and results of the study without any reference to funding. Therefore, it is assumed that no specific funding source is reported."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. It focuses on the methodology, experiments, and results of the study without any reference to funding. Therefore, it is assumed that no specific funding source is reported.",
+    "abstract": "We present the first supervised approach to rhyme detection with Siamese Recurrent Networks (SRN) that offer near perfect performance (97% accuracy) with a single model on rhyme pairs for German, English and French, allowing future large scale analyses. SRNs learn a similarity metric on variable length character sequences that can be used as judgement on the distance of imperfect rhyme pairs and for binary classification. For training, we construct a diachronically balanced rhyme goldstandard of New High German (NHG) poetry. For further testing, we sample a second collection of NHG poetry and set of contemporary Hip-Hop lyrics, annotated for rhyme and assonance. We train several high-performing SRN models and evaluate them qualitatively on selected sonnetts. This work is licensed under a Creative Commons Attribution 4.0 International License. License details: http:// creativecommons.org/licenses/by/4.0/. 1 i.e. identical pronunciation of word segments starting from the last accented vowel (Fabb, 1997",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English",
+        "French"
+    ],
+    "numcitedby": 8,
+    "year": 2018,
+    "month": "August",
+    "title": "Supervised Rhyme Detection with {S}iamese Recurrent Networks"
 }

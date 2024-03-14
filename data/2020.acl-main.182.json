@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted or for the writing of the article.",
+    "abstract": "This paper discusses the importance of uncovering uncertainty in end-to-end dialog tasks and presents our experimental results on uncertainty classification on the processed Ubuntu Dialog Corpus 1 . We show that instead of retraining models for this specific purpose, we can capture the original retrieval model's underlying confidence concerning the best prediction using trivial additional computation.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 8,
+    "year": 2020,
+    "month": "July",
+    "title": "{``}None of the Above{''}: Measure Uncertainty in Dialog Response Retrieval"
 }

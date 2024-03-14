@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges support from the Spanish Government through projects TIN-2006-15265-C06-01, TIN-2009-13391-C04-01, and PROMETEO/2009/119. This indicates that the funding comes from a research agency, specifically a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly acknowledges support from the Spanish Government through projects TIN-2006-15265-C06-01, TIN-2009-13391-C04-01, and PROMETEO/2009/119. This indicates that the funding comes from a research agency, specifically a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "This paper analyzes the contribution of semantic roles to TimeML event recognition and classification. For that purpose, an approach using conditional random fields with a variety of morphosyntactic features plus semantic roles features is developed and evaluated. Our system achieves an F1 of 81.4% in recognition and a 64.2% in classification. We demonstrate that the application of semantic roles improves the performance of the presented system, especially for nominal events.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": 48,
+    "year": 2010,
+    "month": "August",
+    "title": "{T}ime{ML} Events Recognition and Classification: Learning {CRF} Models with Semantic Roles"
 }

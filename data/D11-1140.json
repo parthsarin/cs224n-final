@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.9998975348899081
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources.",
+    "abstract": "We consider the problem of learning factored probabilistic CCG grammars for semantic parsing from data containing sentences paired with logical-form meaning representations. Traditional CCG lexicons list lexical items that pair words and phrases with syntactic and semantic content. Such lexicons can be inefficient when words appear repeatedly with closely related lexical content. In this paper, we introduce factored lexicons, which include both lexemes to model word meaning and templates to model systematic variation in word usage. We also present an algorithm for learning factored CCG lexicons, along with a probabilistic parse-selection model. Evaluations on benchmark datasets demonstrate that the approach learns highly accurate parsers, whose generalization performance benefits greatly from the lexical factoring.",
+    "countries": [
+        "United Kingdom",
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 219,
+    "year": 2011,
+    "month": "July",
+    "title": "Lexical Generalization in {CCG} Grammar Induction for Semantic Parsing"
 }

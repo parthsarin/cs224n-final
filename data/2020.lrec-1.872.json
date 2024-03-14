@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by Science Foundation Ireland (SFI) under Grant Number SFI/12/RC/2289 P2, co-funded by the European Regional Development Fund. SFI is a research agency, and the European Regional Development Fund represents government or intergovernmental funding, aligning with the characteristics of a research agency as well. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was funded by Science Foundation Ireland (SFI) under Grant Number SFI/12/RC/2289 P2, co-funded by the European Regional Development Fund. SFI is a research agency, and the European Regional Development Fund represents government or intergovernmental funding, aligning with the characteristics of a research agency as well. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "Annotation tools are a valuable asset for the construction of labelled textual datasets. However, they tend to have a rigid structure, closed back-end and front-end, and are built in a non-user-friendly way. These downfalls difficult their use in annotation tasks requiring varied text formats, prevent researchers to optimise the tool to the annotation task, and impede people with little programming knowledge to easily modify the tool rendering it unusable for a large cohort. Targeting these needs, we present a web-based collaborative annotation and consolidation tool (AWOCATo), capable of supporting varied textual formats. AWOCATo is based on three pillars: (1) Simplicity, built with a modular architecture employing easy to use technologies; (2) Flexibility, the JSON configuration file allows an easy adaption to the annotation task; (3) Customizability, parameters such as labels, colours, or consolidation features can be easily customized. These features allow AWOCATo to support a range of tasks and domains, filling the gap left by the absence of annotation tools that can be used by people with and without programming knowledge, including those who wish to easily adapt a tool to less common tasks. AWOCATo is available for download at https://github.com/TDaudert/AWOCATo.",
+    "countries": [
+        "Ireland"
+    ],
+    "languages": [
+        "Mon"
+    ],
+    "numcitedby": 4,
+    "year": 2020,
+    "month": "May",
+    "title": "A Web-based Collaborative Annotation and Consolidation Tool"
 }

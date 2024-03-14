@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9890113501846005
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "In this paper, we investigate the effectiveness of using rich annotations in deep neural network (DNN)-based statistical speech synthesis. DNN-based frameworks typically use linguistic information as input features called context instead of directly using text. In such frameworks, we can synthesize not only reading-style speech but also speech with paralinguistic and nonlinguistic features by adding such information to the context. However, it is not clear what kind of information is crucial for reproducing paralinguistic and nonlinguistic features. Therefore, we investigate the effectiveness of rich tags in DNN-based speech synthesis according to the Corpus of Spontaneous Japanese (CSJ), which has a large amount of annotations on paralinguistic features such as prosody, disfluency, and morphological features. Experimental evaluation results shows that the reproducibility of paralinguistic features of synthetic speech was enhanced by adding such information as context.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "May",
+    "title": "{DNN}-based Speech Synthesis Using Abundant Tags of Spontaneous Speech Corpus"
 }

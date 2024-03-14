@@ -7,5 +7,15 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from JISC, the Leverhulme Trust, EBI-EMBL, BBSRC, the MetaNet4U project, and the ISHER project. JISC and EBI-EMBL are research organizations, the Leverhulme Trust is a foundation, BBSRC is a research agency, and the MetaNet4U project is funded under the ICT PSP Programme, which is a European Union funding program, indicating government or research agency funding. There is no mention of defense or corporate funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from JISC, the Leverhulme Trust, EBI-EMBL, BBSRC, the MetaNet4U project, and the ISHER project. JISC and EBI-EMBL are research organizations, the Leverhulme Trust is a foundation, BBSRC is a research agency, and the MetaNet4U project is funded under the ICT PSP Programme, which is a European Union funding program, indicating government or research agency funding. There is no mention of defense or corporate funding.",
+    "abstract": "This paper presents a three-way perspective on the annotation of discourse in scientific literature. We use three different schemes, each of which focusses on different aspects of discourse in scientific articles, to annotate a corpus of three full-text papers, and compare the results. One scheme seeks to identify the core components of scientific investigations at the sentence level, a second annotates metaknowledge pertaining to bio-events and a third considers how epistemic knowledge is conveyed at the clause level. We present our analysis of the comparison, and a discussion of the contributions of each scheme.",
+    "countries": [
+        "Netherlands",
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 23,
+    "year": 2012,
+    "month": "July",
+    "title": "A three-way perspective on scientific discourse annotation for knowledge extraction"
 }

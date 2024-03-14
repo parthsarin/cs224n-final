@@ -7,5 +7,15 @@
         "foundation": 0.9284073432848354,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from the Royal Society (UK), the Medical Research Council (G0601766) (UK), and the Swedish Council for Working Life and Social Research (Sweden). These entities are research agencies or foundations, not defense or corporate entities. There is no indication of funding from defense or corporate sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions funding from the Royal Society (UK), the Medical Research Council (G0601766) (UK), and the Swedish Council for Working Life and Social Research (Sweden). These entities are research agencies or foundations, not defense or corporate entities. There is no indication of funding from defense or corporate sources.",
+    "abstract": "One of the most neglected areas of biomedical Text Mining (TM) is the development of systems based on carefully assessed user needs. We investigate the needs of an important task yet to be tackled by TM -Cancer Risk Assessment (CRA) -and take the first step towards the development of TM for the task: identifying and organizing the scientific evidence required for CRA in a taxonomy. The taxonomy is based on expert annotation of 1297 MEDLINE abstracts. We report promising results with inter-annotator agreement tests and automatic classification experiments, and a user test which demonstrates that the resources we have built are well-defined, accurate, and applicable to a real-world CRA scenario. We discuss extending and refining the taxonomy further via manual and machine learning approaches, and the subsequent steps required to develop TM for the needs of CRA.",
+    "countries": [
+        "Sweden",
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 11,
+    "year": 2009,
+    "month": "June",
+    "title": "User-Driven Development of Text Mining Resources for Cancer Risk Assessment"
 }

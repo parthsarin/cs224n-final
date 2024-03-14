@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.9999993295729247
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper explicitly mentions that the research was supported by Cambridge English, University of Cambridge. There is no mention of defense, corporate, research agency, or foundation funding sources. Cambridge English, part of the University of Cambridge, does not fall under any of the specified categories as a defense, corporate entity, research agency, or foundation in the traditional sense. It is an academic institution, which suggests that the research did not receive funding from the specified sources but rather from an academic institution."
+    "reasoning": "Reasoning: The acknowledgments section of the paper explicitly mentions that the research was supported by Cambridge English, University of Cambridge. There is no mention of defense, corporate, research agency, or foundation funding sources. Cambridge English, part of the University of Cambridge, does not fall under any of the specified categories as a defense, corporate entity, research agency, or foundation in the traditional sense. It is an academic institution, which suggests that the research did not receive funding from the specified sources but rather from an academic institution.",
+    "abstract": "We present an analysis of parser performance on speech data, comparing word type and token frequency distributions with written data, and evaluating parse accuracy by length of input string. We find that parser performance tends to deteriorate with increasing length of string, more so for spoken than for written texts. We train an alternative parsing model with added speech data and demonstrate improvements in accuracy on speech-units, with no deterioration in performance on written text.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2017,
+    "month": "September",
+    "title": "Parsing transcripts of speech"
 }

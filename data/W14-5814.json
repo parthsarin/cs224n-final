@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the DFG Sachbeihilfe SCHU-2580/2-1 and the DFG Heisenberg Fellowship SCHU-2580/1-1. The DFG (Deutsche Forschungsgemeinschaft) is a German research funding organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the DFG Sachbeihilfe SCHU-2580/2-1 and the DFG Heisenberg Fellowship SCHU-2580/1-1. The DFG (Deutsche Forschungsgemeinschaft) is a German research funding organization, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "A new collection of semantically related word pairs in German is presented, which was compiled via human judgement experiments and comprises (i) a representative selection of target lexical units balanced for semantic category, polysemy, and corpus frequency, (ii) a set of humangenerated semantically related word pairs based on the target units, and (iii) a subset of the generated word pairs rated for their relation strength, including positive and negative relation evidence. We address the three paradigmatic relations antonymy, hypernymy and synonymy, and systematically work across the three word classes of adjectives, nouns, and verbs. A series of quantitative and qualitative analyses demonstrates that (i) antonyms are more canonical than hypernyms and synonyms, (ii) relations are more or less natural with regard to the specific word classes, (iii) antonymy is clearly distinguishable from hypernymy and synonymy, but hypernymy and synonymy are often confused. We anticipate that our new collection of semantic relation pairs will not only be of considerable use in computational areas in which semantic relations play a role, but also in studies in theoretical linguistics and psycholinguistics.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German",
+        "English",
+        "Swedish"
+    ],
+    "numcitedby": 19,
+    "year": 2014,
+    "month": "August",
+    "title": "A Database of Paradigmatic Semantic Relation Pairs for {G}erman Nouns, Verbs, and Adjectives"
 }

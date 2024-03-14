@@ -7,5 +7,24 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was conducted with the support of the Hungarian Scientific Research Fund (OTKA) grant #107885. OTKA is a research agency providing grants for scientific research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was conducted with the support of the Hungarian Scientific Research Fund (OTKA) grant #107885. OTKA is a research agency providing grants for scientific research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there was no funding.",
+    "abstract": "In this paper, we present the evaluation of several bilingual dictionary building methods applied to {Komi-Permyak, Komi-Zyrian, Hill Mari, Meadow Mari, Northern Saami, Udmurt}-{English, Finnish, Hungarian, Russian} language pairs. Since these Finno-Ugric minority languages are under-resourced and standard dictionary building methods require a large amount of pre-processed data, we had to find alternative methods. In a thorough evaluation, we compare the results for each method, which proved our expectations that the precision of standard lexicon building methods is quite low for under-resourced languages. However, utilizing Wikipedia title pairs extracted via inter-language links and Wiktionary-based methods provided useful results. The newly created word pairs enriched with several linguistic information are to be deployed on the web in the framework of Wiktionary. With our dictionaries, the number of Wiktionary entries in the above mentioned Finno-Ugric minority languages can be multiplied.",
+    "countries": [
+        "Hungary"
+    ],
+    "languages": [
+        "Finnish",
+        "Saami",
+        "Kom",
+        "Hungarian",
+        "Russian",
+        "Udmurt",
+        "English",
+        "Mari",
+        "Komi"
+    ],
+    "numcitedby": 0,
+    "year": 2018,
+    "month": "May",
+    "title": "Evaluation of Dictionary Creating Methods for Finno-Ugric Minority Languages"
 }

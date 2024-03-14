@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9968270920454326
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Therefore, without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Therefore, without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources.",
+    "abstract": "Despite growing interest in natural language generation (NLG) models that produce diverse outputs, there is currently no principled method for evaluating the diversity of an NLG system. In this work, we propose a framework for evaluating diversity metrics. The framework measures the correlation between a proposed diversity metric and a diversity parameter, a single parameter that controls some aspect of diversity in generated text. For example, a diversity parameter might be a binary variable used to instruct crowdsourcing workers to generate text with either low or high content diversity. We demonstrate the utility of our framework by: (a) establishing best practices for eliciting diversity judgments from humans, (b) showing that humans substantially outperform automatic metrics in estimating content diversity, and (c) demonstrating that existing methods for controlling diversity by tuning a \"decoding parameter\" mostly affect form but not meaning. Our framework can advance the understanding of different diversity metrics, an essential step on the road towards better NLG systems.",
+    "countries": [
+        "Israel"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 17,
+    "year": 2021,
+    "month": "April",
+    "title": "Evaluating the Evaluation of Diversity in Natural Language Generation"
 }

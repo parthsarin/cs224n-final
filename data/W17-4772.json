@@ -7,5 +7,17 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9998639308082523
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or the development of the models discussed. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research or the development of the models discussed. Without explicit mention of support from defense branches, corporations, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided information.",
+    "abstract": "This paper presents the LIG-CRIStAL submission to the shared Automatic Post-Editing task of WMT 2017. We propose two neural post-editing models: a monosource model with a task-specific attention mechanism, which performs particularly well in a low-resource scenario; and a chained architecture which makes use of the source sentence to provide extra context. This latter architecture manages to slightly improve our results when more training data is available. We present and discuss our results on two datasets (en-de and de-en) that are made available for the task.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "German"
+    ],
+    "numcitedby": 15,
+    "year": 2017,
+    "month": "September",
+    "title": "{LIG}-{CRIS}t{AL} Submission for the {WMT} 2017 Automatic Post-Editing Task"
 }

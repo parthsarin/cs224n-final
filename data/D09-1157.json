@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work reported is funded by Pfizer Ltd., which is a for-profit corporation. It also mentions that the UK National Centre for Text Mining is funded by JISC, a research agency, and that the ITI-TXM corpus was developed in the TXM project funded by ITI Life Sciences, Scotland, which could be considered corporate or research agency funding depending on the nature of ITI Life Sciences. However, there is no direct mention of defense or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work reported is funded by Pfizer Ltd., which is a for-profit corporation. It also mentions that the UK National Centre for Text Mining is funded by JISC, a research agency, and that the ITI-TXM corpus was developed in the TXM project funded by ITI Life Sciences, Scotland, which could be considered corporate or research agency funding depending on the nature of ITI Life Sciences. However, there is no direct mention of defense or foundation funding.",
+    "abstract": "Named entity disambiguation concerns linking a potentially ambiguous mention of named entity in text to an unambiguous identifier in a standard database. One approach to this task is supervised classification. However, the availability of training data is often limited, and the available data sets tend to be imbalanced and, in some cases, heterogeneous. We propose a new method that distinguishes a named entity by finding the informative keywords in its surrounding context, and then trains a model to predict whether each keyword indicates the semantic class of the entity. While maintaining a comparable performance to supervised classification, this method avoids using expensive manually annotated data for each new domain, and thus achieves better portability.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 6,
+    "year": 2009,
+    "month": "August",
+    "title": "Classifying Relations for Biomedical Named Entity Disambiguation"
 }

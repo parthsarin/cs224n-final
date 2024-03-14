@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the ANR project Sequoia ANR-08-EMER-013. ANR (Agence Nationale de la Recherche) is a French national research agency, which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received from any source."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was partially funded by the ANR project Sequoia ANR-08-EMER-013. ANR (Agence Nationale de la Recherche) is a French national research agency, which is a government-funded organization providing grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received from any source.",
+    "abstract": "Dans cet article, nous pr\u00e9sentons FreDist, un logiciel libre pour la construction automatique de th\u00e9saurus distributionnels \u00e0 partir de corpus de texte, ainsi qu'une \u00e9valuation des diff\u00e9rents ressources ainsi produites. Suivant les travaux de (Lin, 1998 ) et (Curran, 2004) , nous utilisons un corpus journalistique de grande taille et impl\u00e9mentons diff\u00e9rentes options pour : le type de relation contexte lexical, la fonction de poids, et la fonction de mesure de similarit\u00e9. Prenant l'EuroWordNet fran\u00e7ais et le WOLF comme r\u00e9f\u00e9rences, notre \u00e9valuation r\u00e9v\u00e8le, de mani\u00e8re originale, que c'est l'approche qui combine contextes lin\u00e9aires (ici, de type bigrammes) et contextes syntaxiques qui semble fournir le meilleur th\u00e9saurus. Enfin, nous esp\u00e9rons que notre logiciel, distribu\u00e9 avec nos meilleurs th\u00e9saurus pour le fran\u00e7ais, seront utiles \u00e0 la communaut\u00e9 TAL.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": 15,
+    "year": 2011,
+    "month": "June",
+    "title": "{F}re{D}ist : Construction automatique d{'}un th{\\'e}saurus distributionnel pour le Fran{\\c{c}}ais ({F}re{D}ist : Automatic construction of distributional thesauri for {F}rench)"
 }

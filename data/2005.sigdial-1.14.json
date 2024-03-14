@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was part of the CALO project, supported by DARPA grant NBCH-D-03-0010. DARPA is an agency of the United States Department of Defense, which indicates defense funding. There is no mention of corporate, research agency (outside of defense), foundation funding, or a lack of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was part of the CALO project, supported by DARPA grant NBCH-D-03-0010. DARPA is an agency of the United States Department of Defense, which indicates defense funding. There is no mention of corporate, research agency (outside of defense), foundation funding, or a lack of funding.",
+    "abstract": "We present results from an extensive empirical analysis of non-understanding errors and ten non-understanding recovery strategies, based on a corpus of dialogs collected with a spoken dialog system that handles conference room reservations. More specifically, the issues we investigate are: what are the main sources of non-understanding errors? What is the impact of these errors on global performance? How do various strategies for recovery from non-understandings compare to each other? What are the relationships between these strategies and subsequent user response types, and which response types are more likely to lead to successful recovery? Can dialog performance be improved by using a smarter policy for engaging the non-understanding recovery strategies? If so, can we learn such a policy from data? Whenever available, we compare and contrast our results with other studies in the literature. Finally, we summarize the lessons learned and present our plans for future work inspired by this analysis.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 146,
+    "year": 2005,
+    "month": "September",
+    "title": "Sorry and {I} Didn{'}t Catch That! - An Investigation of Non-understanding Errors and Recovery Strategies"
 }

@@ -7,5 +7,17 @@
         "foundation": 1.1472413419255645e-06,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The acknowledgment section of the article mentions that the work was financed as part of the investment in the CLARIN-PL research infrastructure funded by the Polish Ministry of Science and Higher Education. This indicates that the funding came from a government-funded organization, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgment section of the article mentions that the work was financed as part of the investment in the CLARIN-PL research infrastructure funded by the Polish Ministry of Science and Higher Education. This indicates that the funding came from a government-funded organization, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "We have released plWordNet 3.0, a very large wordnet for Polish. In addition to what is expected in wordnets -richly interrelated synsets -it contains sentiment and emotion annotations, a large set of multi-word expressions, and a mapping onto WordNet 3.1. Part of the release is enWordNet 1.0, a substantially enlarged copy of WordNet 3.1, with material added to allow for a more complete mapping. The paper discusses the design principles of plWordNet, its content, its statistical portrait, a comparison with similar resources, and a partial list of applications.",
+    "countries": [
+        "Poland",
+        "Canada"
+    ],
+    "languages": [
+        "Polish"
+    ],
+    "numcitedby": 50,
+    "year": 2016,
+    "month": "December",
+    "title": "pl{W}ord{N}et 3.0 {--} a Comprehensive Lexical-Semantic Resource"
 }

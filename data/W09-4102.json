@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.9999199431347219
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Chat texts produced in an educational environment are categorized and rated for the purpose of positioning (or placement) of the learner with respect to a learning program (appropriate courses, textbooks, etc). The difficulty lies in the fact that the texts are short and informal. A standard LSA/vector-space model is therefore combined with techniques appropriate for short texts. The approach uses phrases rather than words in the term-document matrix, and for determining prototypical documents of each category, a nonparametric permutation test is used.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 6,
+    "year": 2009,
+    "month": "September",
+    "title": "Maximal Phrases Based Analysis for Prototyping Online Discussion Forums Postings"
 }

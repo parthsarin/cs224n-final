@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article explicitly states that the research is supported by EPSRC grant EP/I028099/1. EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article explicitly states that the research is supported by EPSRC grant EP/I028099/1. EPSRC (Engineering and Physical Sciences Research Council) is a UK government agency for funding research and training in engineering and the physical sciences, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "The task of identifying complex words (CWs) is important for lexical simplification, however it is often carried out with no evaluation of success. There is no basis for comparison of current techniques and, prior to this work, there has been no standard corpus or evaluation technique for the CW identification task. This paper addresses these shortcomings with a new corpus for evaluating a system's performance in identifying CWs. Simple Wikipedia edit histories were mined for instances of single word lexical simplifications. The corpus contains 731 sentences, each with one annotated CW. This paper describes the method used to produce the CW corpus and presents the results of evaluation, showing its validity.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 29,
+    "year": 2013,
+    "month": "August",
+    "title": "The {CW} Corpus: A New Resource for Evaluating the Identification of Complex Words"
 }

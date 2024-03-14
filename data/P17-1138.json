@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the German research foundation (DFG), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an explicit statement indicating the absence of any funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the German research foundation (DFG), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an explicit statement indicating the absence of any funding sources.",
+    "abstract": "Bandit structured prediction describes a stochastic optimization framework where learning is performed from partial feedback. This feedback is received in the form of a task loss evaluation to a predicted output structure, without having access to gold standard structures. We advance this framework by lifting linear bandit learning to neural sequence-to-sequence learning problems using attention-based recurrent neural networks. Furthermore, we show how to incorporate control variates into our learning algorithms for variance reduction and improved generalization. We present an evaluation on a neural machine translation task that shows improvements of up to 5.89 BLEU points for domain adaptation from simulated bandit feedback.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "French",
+        "English"
+    ],
+    "numcitedby": 35,
+    "year": 2017,
+    "month": "July",
+    "title": "Bandit Structured Prediction for Neural Sequence-to-Sequence Learning"
 }

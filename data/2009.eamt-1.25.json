@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the study was funded by the Netherlands Organisation for Scientific Research, as part of NWO IMIX and the Vici Implicit Linguistics project. This organization is a government-funded research agency in the Netherlands, indicating that the research was supported by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly states that the study was funded by the Netherlands Organisation for Scientific Research, as part of NWO IMIX and the Vici Implicit Linguistics project. This organization is a government-funded research agency in the Netherlands, indicating that the research was supported by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Constraint satisfaction inference is presented as a generic, theory-neutral inference engine for machine translation. The approach enables the integration of many different solutions to aspects of the output space, including classification-based translation models that take source-side context into account, as well as stochastic components such as target language models. The approach is contrasted with a word-based SMT system using the same decoding algorithm, but optimising a different objective function. The incorporation of sourceside context models in our model filters out many irrelevant candidate translations, leading to superior translation scores.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "Dutch",
+        "English"
+    ],
+    "numcitedby": 8,
+    "year": 2009,
+    "month": "May 14{--}15",
+    "title": "A Constraint Satisfaction Approach to Machine Translation"
 }

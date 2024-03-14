@@ -7,5 +7,16 @@
         "foundation": 4.365731470112877e-06,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source of financial support."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, or foundations. Without explicit mention of funding, we cannot assume any specific source of financial support.",
+    "abstract": "Typical machine learning approaches to developing task-oriented dialog systems require the collection and management of large amounts of training data, especially for the tasks of intent classification and slot-filling. Managing this data can be cumbersome without dedicated tools to help the dialog system designer understand the nature of the data. This paper presents a toolkit for analyzing slot-filling and intent classification corpora. We present a toolkit that includes (1) a new lightweight and readable data and file format for intent classification and slot-filling corpora, (2) a new query language for searching intent classification and slot-filling corpora, and (3) tools for understanding the structure and makeup for such corpora. We apply our toolkit to several well-known NLU datasets, and demonstrate that our toolkit can be used to uncover interesting and surprising insights. By releasing our toolkit to the research community, we hope to enable others to develop more robust and intelligent slot-filling and intent classification models.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 4,
+    "year": 2020,
+    "month": "May",
+    "title": "Data Query Language and Corpus Tools for Slot-Filling and Intent Classification Data"
 }

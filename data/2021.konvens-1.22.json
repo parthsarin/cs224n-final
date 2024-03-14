@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the German Federal Ministry of Transport and Digital Infrastructure and the German Federal Ministry of Education and Research, which are government entities, thus indicating funding from a research agency. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding."
+    "reasoning": "Reasoning: The article explicitly mentions support from the German Federal Ministry of Transport and Digital Infrastructure and the German Federal Ministry of Education and Research, which are government entities, thus indicating funding from a research agency. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating a lack of funding.",
+    "abstract": "We present MobIE, a German-language dataset, which is human-annotated with 20 coarse-and fine-grained entity types and entity linking information for geographically linkable entities. The dataset consists of 3,232 social media texts and traffic reports with 91K tokens, and contains 20.5K annotated entities, 13.1K of which are linked to a knowledge base. A subset of the dataset is humanannotated with seven mobility-related, n-ary relation types, while the remaining documents are annotated using a weakly-supervised labeling approach implemented with the Snorkel framework. To the best of our knowledge, this is the first German-language dataset that combines annotations for NER, EL and RE, and thus can be used for joint and multi-task learning of these fundamental information extraction tasks. We make MobIE public at https: //github.com/dfki-nlp/mobie.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 1,
+    "year": 2021,
+    "month": "6--9 September",
+    "title": "{M}ob{IE}: A {G}erman Dataset for Named Entity Recognition, Entity Linking and Relation Extraction in the Mobility Domain"
 }

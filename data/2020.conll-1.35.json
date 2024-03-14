@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions support from the European Union's Horizon 2020 research and innovation program under grants 770299 (NewsEye) and 825153 (Embeddia), which is a major funding framework for research and innovation projects funded by the European Union, a type of research agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The acknowledgments section of the article explicitly mentions support from the European Union's Horizon 2020 research and innovation program under grants 770299 (NewsEye) and 825153 (Embeddia), which is a major funding framework for research and innovation projects funded by the European Union, a type of research agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "This paper tackles the task of named entity recognition (NER) applied to digitized historical texts obtained from processing digital images of newspapers using optical character recognition (OCR) techniques. We argue that the main challenge for this task is that the OCR process leads to misspellings and linguistic errors in the output text. Moreover, historical variations can be present in aged documents, which can impact the performance of the NER process. We conduct a comparative evaluation on two historical datasets in German and French against previous state-of-the-art models, and we propose a model based on a hierarchical stack of Transformers to approach the NER task for historical data. Our findings show that the proposed model clearly improves the results on both historical datasets, and does not degrade the results for modern datasets.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "German",
+        "French",
+        "English",
+        "Latin"
+    ],
+    "numcitedby": 24,
+    "year": 2020,
+    "month": "November",
+    "title": "Alleviating Digitization Errors in Named Entity Recognition for Historical Documents"
 }

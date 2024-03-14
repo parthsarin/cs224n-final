@@ -7,5 +7,21 @@
         "foundation": 0.9990436178252318,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions support from the Natural Science Foundation of Tianjin and the Royal Society (London), but does not mention any defense, corporate, or foundation funding. The Natural Science Foundation of Tianjin could be considered a research agency due to its nature of providing grants for scientific research, and the Royal Society, while not explicitly labeled as a foundation in the text, functions similarly to a foundation by providing funding for research. There is no mention of defense or corporate funding, and since there are specific funding sources mentioned, it does not fall under 'none'."
+    "reasoning": "Reasoning: The acknowledgments section mentions support from the Natural Science Foundation of Tianjin and the Royal Society (London), but does not mention any defense, corporate, or foundation funding. The Natural Science Foundation of Tianjin could be considered a research agency due to its nature of providing grants for scientific research, and the Royal Society, while not explicitly labeled as a foundation in the text, functions similarly to a foundation by providing funding for research. There is no mention of defense or corporate funding, and since there are specific funding sources mentioned, it does not fall under 'none'.",
+    "abstract": "Automatic translation of dialogue texts is a much needed demand in many real life scenarios. However, current neural machine translation systems usually deliver unsatisfying translation results of dialogue texts. In this paper, we conduct a deep analysis of a dialogue corpus and summarize three major issues on dialogue translation, including pronoun dropping (ProDrop), punctuation dropping (PunDrop), and typos (DialTypo). In response to these challenges, we propose a joint learning method to identify omission and typo in the process of translating, and utilize context to translate dialogue utterances. To properly evaluate the performance, we propose a manually annotated dataset with 1,931 Chinese-English parallel utterances from 300 dialogues as a benchmark testbed for dialogue translation. Our experiments show that the proposed method improves translation quality by 3.2 BLEU over the baselines. It also elevates the recovery rate of omitted pronouns from 26.09% to 47.16%. The code and dataset are publicly available at https://github.com/rgwt123/DialogueMT.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Chinese",
+        "English",
+        "Japanese",
+        "Vietnamese",
+        "Korean",
+        "Russian"
+    ],
+    "numcitedby": 5,
+    "year": 2021,
+    "month": "June",
+    "title": "Autocorrect in the Process of Translation {---} Multi-task Learning Improves Dialogue Machine Translation"
 }

@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions that SV was supported by the FoTran project, funded by the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme. The European Research Council is a research agency funded by the European Union, which is a government-funded organization providing grants for research. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions that SV was supported by the FoTran project, funded by the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme. The European Research Council is a research agency funded by the European Union, which is a government-funded organization providing grants for research. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding.",
+    "abstract": "Forced alignment is an effective process to speed up linguistic research. However, most forced aligners are languagedependent, and under-resourced languages rarely have enough resources to train an acoustic model for an aligner. We present a new Finnish grapheme-based forced aligner and demonstrate its performance by aligning multiple Uralic languages and English as an unrelated language. We show that even a simple non-expert created grapheme-to-phoneme mapping can result in useful word alignments.",
+    "countries": [
+        "Finland"
+    ],
+    "languages": [
+        "Italian",
+        "English",
+        "Estonian",
+        "Finnish"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "May 31--2 June",
+    "title": "Grapheme-Based Cross-Language Forced Alignment: Results with Uralic Languages"
 }

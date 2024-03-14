@@ -7,5 +7,17 @@
         "foundation": 1.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the US National Science Foundation (NSF), which is a government-funded organization that provides grants for research. It also mentions support from the Qatar Foundation through Carnegie Mellon University's Seed Research program. The Qatar Foundation is a non-profit organization that provides grants for research. There is no mention of funding from defense, corporate entities, or any indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the US National Science Foundation (NSF), which is a government-funded organization that provides grants for research. It also mentions support from the Qatar Foundation through Carnegie Mellon University's Seed Research program. The Qatar Foundation is a non-profit organization that provides grants for research. There is no mention of funding from defense, corporate entities, or any indication that no funding was received.",
+    "abstract": "This paper investigates varying the decoder weight of the language model (LM) when translating different parts of a sentence. We determine the condition under which the LM weight should be adapted. We find that a better translation can be achieved by varying the LM weight when decoding the most problematic spot in a sentence, which we refer to as a difficult segment. Two adaptation strategies are proposed and compared through experiments. We find that adapting a different LM weight for every difficult segment resulted in the largest improvement in translation quality.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Arabic",
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2010,
+    "month": "October 31-November 4",
+    "title": "Using Variable Decoding Weight for Language Model in Statistical Machine Translation"
 }

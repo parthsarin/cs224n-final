@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions support from the National Natural Science Foundation of China and the Jiangsu Provincial Science and Technology Plan, both of which are indicative of funding from research agencies. There is no mention of defense, corporate, foundation funding, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article explicitly mentions support from the National Natural Science Foundation of China and the Jiangsu Provincial Science and Technology Plan, both of which are indicative of funding from research agencies. There is no mention of defense, corporate, foundation funding, or an absence of funding.",
+    "abstract": "Discourse structure analysis is an important research topic in natural language processing. Discourse structure analysis not only helps to understand the discourse structure and semantics, but also provides strong support for deep applications of natural language processing, such as automatic summarization, statistical machine translation, question and answering, etc. At present, the analyses of discourse structure are mainly concentrated on the micro level, while the analyses on macro level are few. Therefore, this paper focuses on the construction of representation schema and corpus resources on the macro level of discourse structure. This paper puts forward a macro discourse structure framework and constructs the logical semantic structure and functional pragmatic structure respectively. On this basis, a macro Chinese discourse structure treebank is annotated, consisting of 147 Newswire articles. Preliminary experimental results show that the representation schema and corpus resource constructed in this paper can lay the foundation for further analysis of macro discourse structure.",
+    "countries": [
+        "Taiwan",
+        "China"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 1,
+    "year": 2018,
+    "month": "May",
+    "title": "Building a Macro {C}hinese {D}iscourse {T}reebank"
 }

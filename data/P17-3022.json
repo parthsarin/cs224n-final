@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.8902853194323948
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an absence of funding. Without explicit mention, we cannot assume any particular source of funding.",
+    "abstract": "Early research into emoji in textual communication has focused largely on highfrequency usages and ambiguity of interpretations. Investigation of a wide range of emoji usage shows these glyphs serving at least two very different purposes: as content and function words, or as multimodal affective markers. Identifying where an emoji is replacing textual content allows NLP tools the possibility of parsing them as any other word or phrase. Recognizing the import of non-content emoji can be a a significant part of understanding a message as well.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Japanese",
+        "English"
+    ],
+    "numcitedby": 53,
+    "year": 2017,
+    "month": "July",
+    "title": "Varying Linguistic Purposes of Emoji in ({T}witter) Context"
 }

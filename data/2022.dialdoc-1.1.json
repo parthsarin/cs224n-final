@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions support from the National Key R&D Program of China, the National Natural Science Foundation of China (NSFC), and Shenzhen Foundational Research Funding. These are indicative of research agency funding, as they are government-funded organizations that provide grants for research. There is no mention of defense, corporate, or foundation funding, nor is there an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly mentions support from the National Key R&D Program of China, the National Natural Science Foundation of China (NSFC), and Shenzhen Foundational Research Funding. These are indicative of research agency funding, as they are government-funded organizations that provide grants for research. There is no mention of defense, corporate, or foundation funding, nor is there an indication that no funding was received.",
+    "abstract": "Dialogue summarization helps users capture salient information from various types of dialogues has received much attention recently. However, current works mainly focus on English dialogue summarization, leaving other languages less well explored. Therefore, we present a multi-lingual dialogue summarization dataset, namely MSAMSum, which covers dialogue-summary pairs in six languages. Specifically, we derive MSAMSum from the standard SAMSum (Gliwa et al., 2019) using sophisticated translation techniques and further employ two methods to ensure the integral translation quality and summary factual consistency. Given the proposed MSAMum, we systematically set up five multi-lingual settings for this task, including a novel mix-lingual dialogue summarization setting. To illustrate the utility of our dataset, we benchmark various experiments with pre-trained models under different settings and report results in both supervised and zero-shot manners. We also discuss some future works towards this task to motivate future researches 1 . !\"#$%&'() *+,-./01234 5678%&'()*",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 3,
+    "year": 2022,
+    "month": "May",
+    "title": "{MSAMS}um: Towards Benchmarking Multi-lingual Dialogue Summarization"
 }

@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 0.9999753699393249
     },
-    "reasoning": "Reasoning: The acknowledgements section thanks the University of Richmond and Williams College for their generous support for this project, but it does not specify the nature of the support, whether it is financial or otherwise. These institutions are not categorized under defense, corporate, research agency, or foundation as defined. There is no direct mention of funding from any specific defense, corporate, research agency, or foundation sources."
+    "reasoning": "Reasoning: The acknowledgements section thanks the University of Richmond and Williams College for their generous support for this project, but it does not specify the nature of the support, whether it is financial or otherwise. These institutions are not categorized under defense, corporate, research agency, or foundation as defined. There is no direct mention of funding from any specific defense, corporate, research agency, or foundation sources.",
+    "abstract": "Automated fact checking is becoming increasingly vital as both truthful and fallacious information accumulate online. Research on fact checking has benefited from large-scale datasets such as FEVER and SNLI. However, such datasets suffer from limited applicability due to the synthetic nature of claims and/or evidence written by annotators that differ from real claims and evidence on the internet. To this end, we present WIKIFACTCHECK-ENGLISH, a dataset of 124k+ triples consisting of a claim, context and an evidence document extracted from English Wikipedia articles and citations, as well as 34k+ manually written claims that are refuted by the evidence documents. This is the largest fact checking dataset consisting of real claims and evidence to date; it will allow the development of fact checking systems that can better process claims and evidence in the real world. We also show that for the NLI subtask, a logistic regression system trained using existing and novel features achieves peak accuracy of 68%, providing a competitive baseline for future work. Also, a decomposable attention model trained on SNLI significantly underperforms the models trained on this dataset, suggesting that models trained on manually generated data may not be sufficiently generalizable or suitable for fact checking real-world claims.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 18,
+    "year": 2020,
+    "month": "May",
+    "title": "Automated Fact-Checking of Claims from {W}ikipedia"
 }

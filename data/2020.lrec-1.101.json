@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosure of funding."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, based on the information provided, it appears there was no disclosure of funding.",
+    "abstract": "In recent years the interest in the use of repositories of literary works has been successful. While many efforts related to Linked Open Data go in the right direction, the use of these repositories for the creation of text corpora enriched with metadata remains difficult and cumbersome. In fact, many of these repositories can be useful to the community not only for the automatic creation of textual corpora but also for retrieving crucial meta-information about texts. In particular, the use of metadata provides the reader with a wealth of information that is often not identifiable in the texts themselves. Our project aims to fill both the access to the textual resources available on the web and the possibility of combining these resources with sources of metadata that can enrich the texts with useful information lengthening the life and maintenance of the data itself. We introduce here a user-friendly web interface of the Digital Humanities toolkit named WeDH with which the user can leverage the encyclopedic knowledge provided by DBpedia, wikidata and VIAF in order to enrich the corpora with bibliographical and exegetical knowledge. WeDH is a collaborative project and we invite anyone who has ideas or suggestions regarding this procedure to reach out to us.",
+    "countries": [
+        "Switzerland"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2020,
+    "month": "May",
+    "title": "{W}e{DH} - a Friendly Tool for Building Literary Corpora Enriched with Encyclopedic Metadata"
 }

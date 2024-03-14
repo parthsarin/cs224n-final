@@ -7,5 +7,17 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.9935101834175186
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding funding sources for the research. Therefore, without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The article does not provide specific information regarding funding sources for the research. Therefore, without explicit mention of funding from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the presence of any specific funding source.",
+    "abstract": "Many organizations use domain-or organization-specific words and phrases. This paper explores the use of vetted terminology as an input to neural machine translation (NMT) for improved results: ensuring that the translation of individual terms is consistent with an approved multilingual terminology collection. We discuss, implement, and evaluate a method for injecting terminology and for evaluating terminology injection. Our use of the long short-term memory (LSTM) attention mechanism prevalent in state-of-the-art NMT systems involves attention vectors for correctly identifying semantic entities and aligning the tokens that represent them, both in the source and the target languages. Appropriate terminology is then injected into matching alignments during decoding. We also introduce a new translation metric more sensitive to approved terminological content in MT output.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Spanish",
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2020,
+    "month": "May",
+    "title": "Improving {NMT} Quality Using Terminology Injection"
 }

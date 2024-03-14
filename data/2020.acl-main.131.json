@@ -7,5 +7,15 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work was done during an internship at Microsoft Research, which is a division of Microsoft Corporation, a for-profit company. There is no mention of funding from defense, research agencies, foundations, or a statement indicating the absence of external funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work was done during an internship at Microsoft Research, which is a division of Microsoft Corporation, a for-profit company. There is no mention of funding from defense, research agencies, foundations, or a statement indicating the absence of external funding.",
+    "abstract": "Despite the continuing efforts to improve the engagingness and consistency of chit-chat dialogue systems, the majority of current work simply focus on mimicking human-like responses, leaving understudied the aspects of modeling understanding between interlocutors. The research in cognitive science, instead, suggests that understanding is an essential signal for a high-quality chit-chat conversation. Motivated by this, we propose P 2 BOT, a transmitter-receiver based framework with the aim of explicitly modeling understanding. Specifically, P 2 BOT incorporates mutual persona perception to enhance the quality of personalized dialogue generation. Experiments on a large public dataset, PERSONA-CHAT, demonstrate the effectiveness of our approach, with a considerable boost over the state-of-theart baselines across both automatic metrics and human evaluations.",
+    "countries": [
+        "China",
+        "United Kingdom"
+    ],
+    "languages": [],
+    "numcitedby": 62,
+    "year": 2020,
+    "month": "July",
+    "title": "You Impress Me: Dialogue Generation via Mutual Persona Perception"
 }

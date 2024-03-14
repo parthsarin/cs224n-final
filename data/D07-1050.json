@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 0.9875615199142485
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "We present results that show that incorporating lexical and structural semantic information is effective for word sense disambiguation. We evaluated the method by using precise information from a large treebank and an ontology automatically created from dictionary sentences. Exploiting rich semantic and structural information improves precision 2-3%. The most gains are seen with verbs, with an improvement of 5.7% over a model using only bag of words and n-gram features.",
+    "countries": [
+        "Australia",
+        "Japan"
+    ],
+    "languages": [
+        "Japanese",
+        "English"
+    ],
+    "numcitedby": 15,
+    "year": 2007,
+    "month": "June",
+    "title": "Word Sense Disambiguation Incorporating Lexical and Structural Semantic Information"
 }

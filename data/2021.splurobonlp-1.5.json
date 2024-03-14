@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article states that the project is supported by the National Science Foundation (NSF) CAREER award 2028626 and partially supported by the Office of Naval Research (ONR) grant N00014-20-1-2005. The NSF is a government-funded research agency, and the ONR is a branch of the United States Navy, which falls under the defense category."
+    "reasoning": "Reasoning: The acknowledgements section of the article states that the project is supported by the National Science Foundation (NSF) CAREER award 2028626 and partially supported by the Office of Naval Research (ONR) grant N00014-20-1-2005. The NSF is a government-funded research agency, and the ONR is a branch of the United States Navy, which falls under the defense category.",
+    "abstract": "We deal with the navigation problem where the agent follows natural language instructions while observing the environment. Focusing on language understanding, we show the importance of spatial semantics in grounding navigation instructions into visual perceptions. We propose a neural agent that uses the elements of spatial configurations and investigate their influence on the navigation agent's reasoning ability. Moreover, we model the sequential execution order and align visual objects with spatial configurations in the instruction. Our neural agent improves strong baselines on the seen environments and shows competitive performance on the unseen environments. Additionally, the experimental results demonstrate that explicit modeling of spatial semantic elements in the instructions can improve the grounding and spatial reasoning of the model.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2021,
+    "month": "August",
+    "title": "Towards Navigation by Reasoning over Spatial Configurations"
 }

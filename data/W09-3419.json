@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 6.704270752999619e-07
     },
-    "reasoning": "Reasoning: The article mentions funding from the PCASTRD, DOST, which are government agencies in the Philippines that provide grants for research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article mentions funding from the PCASTRD, DOST, which are government agencies in the Philippines that provide grants for research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "We present the diverse research activities on Philippine languages from all over the country, with focus on the Center for Language Technologies of the College of Computer Studies,",
+    "countries": [
+        "Philippines"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 8,
+    "year": 2009,
+    "month": "August",
+    "title": "{P}hilippine Language Resources: Trends and Directions"
 }

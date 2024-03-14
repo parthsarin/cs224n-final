@@ -7,5 +7,16 @@
         "foundation": 4.320199066265573e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly states that the research and development were financed as part of the investment in the CLARIN-PL research infrastructure funded by the Polish Ministry of Science and Higher Education, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly states that the research and development were financed as part of the investment in the CLARIN-PL research infrastructure funded by the Polish Ministry of Science and Higher Education, which classifies as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Spokes Mix is an online service providing access to a number of spoken corpora of Polish, including three newly released time-aligned collections of manually transcribed spoken-conversational data. The purpose of this service is two-fold. Firstly, it functions as a programmatic interface to a number of unique collections of conversational Polish and potentially also spoken corpora of other languages, exposing their full content with complete metadata and annotations. Equally important, however, is its second function of increasing the general accessibility of these resources for research on spoken and conversational language by providing a centralized, easy-to-use corpus query engine with a responsive web-based user interface.",
+    "countries": [
+        "Poland"
+    ],
+    "languages": [
+        "Polish"
+    ],
+    "numcitedby": 3,
+    "year": 2018,
+    "month": "May",
+    "title": "Increasing the Accessibility of Time-Aligned Speech Corpora with Spokes Mix"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Union's Horizon2020 research and innovation programme under grant agreement No 761349. Horizon2020 is a large research and innovation funding program by the EU, which classifies it as a research agency. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the project received funding from the European Union's Horizon2020 research and innovation programme under grant agreement No 761349. Horizon2020 is a large research and innovation funding program by the EU, which classifies it as a research agency. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "The paper presents our approach towards building a tool for speech corpus collection of a specific domain content. We describe our iterative approach to the development of this tool, with focus on the most problematic issues at each working stage. Our latest version synchronizes VoIP call management and recording with a web application providing content. The tool was already used and applied for Polish to gather 63 hours of automatically annotated recordings across several domains. Amongst them, we obtained a continuous speech corpus designed with an emphasis on optimal phonetic diversification in relation to the phonetically balanced National Corpus of Polish. We evaluate the usefulness of this data against the GlobalPhone corpus in the task of training an acoustic model for a telephone speech ASR system and show that the model trained on our balanced corpus achieves significantly lower WER in two grammar-based speech recognition tasks -street names and public transport routes numbers.",
+    "countries": [
+        "Poland"
+    ],
+    "languages": [
+        "Polish"
+    ],
+    "numcitedby": 0,
+    "year": 2018,
+    "month": "May",
+    "title": "An Application for Building a {P}olish Telephone Speech Corpus"
 }

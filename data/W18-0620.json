@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.9046404835093225
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Although many studies have distinguished between the social media language use of people who do and do not have a mental health condition, within-person context-sensitive comparisons (for example, analyzing individuals' language use when seeking support or discussing neutral topics) are less common. Two dictionary-based analyses of Reddit communities compared (1) anxious individuals' comments in anxiety support communities (e.g., /r/PanicParty) with the same users' comments in neutral communities (e.g., /r/todayilearned), and, (2) within popular neutral communities, comments by members of anxiety subreddits with comments by other users. Each comparison yielded theory-consistent effects as well as unexpected results that suggest novel hypotheses to be tested in the future. Results have relevance for improving researchers' and practitioners' ability to unobtrusively assess anxiety symptoms in conversations that are not explicitly about mental health.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 13,
+    "year": 2018,
+    "month": "June",
+    "title": "Within and Between-Person Differences in Language Used Across Anxiety Support and Neutral {R}eddit Communities"
 }

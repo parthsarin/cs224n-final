@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the European Research Council (ERC), under the European Union's Horizon 2020 research and innovation programme, and the Deutsche Forschungsgemeinschaft (DFG), which are both research agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the European Research Council (ERC), under the European Union's Horizon 2020 research and innovation programme, and the Deutsche Forschungsgemeinschaft (DFG), which are both research agencies. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "In this work we analyze and compare the behavior of the Transformer architecture when using different positional encoding methods. While absolute and relative positional encoding perform equally strong overall, we show that relative positional encoding is vastly superior (4.4% to 11.9% BLEU) when translating a sentence that is longer than any observed training sentence. We further propose and analyze variations of relative positional encoding and observe that the number of trainable parameters can be reduced without a performance loss, by using fixed encoding vectors or by removing some of the positional encoding vectors.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 10,
+    "year": 2019,
+    "month": "November 2-3",
+    "title": "Analysis of Positional Encodings for Neural Machine Translation"
 }

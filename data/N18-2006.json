@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the German Federal Ministry of Education and Research (BMBF) under specific promotional references. The BMBF is a government body, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the German Federal Ministry of Education and Research (BMBF) under specific promotional references. The BMBF is a government body, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "We investigate whether and where multitask learning (MTL) can improve performance on NLP problems related to argumentation mining (AM), in particular argument component identification. Our results show that MTL performs particularly well (and better than single-task learning) when little training data is available for the main task, a common scenario in AM. Our findings challenge previous assumptions that conceptualizations across AM datasets are divergent and that MTL is difficult for semantic or higher-level tasks.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "Chinese"
+    ],
+    "numcitedby": 44,
+    "year": 2018,
+    "month": "June",
+    "title": "Multi-Task Learning for Argumentation Mining in Low-Resource Settings"
 }

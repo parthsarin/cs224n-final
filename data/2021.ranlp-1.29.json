@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the work has been partially funded by the French National Research Agency (ANR) through the project TextToKids, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the work has been partially funded by the French National Research Agency (ANR) through the project TextToKids, which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other sources of funding.",
+    "abstract": "For many tasks, state-of-the-art results have been achieved with Transformer-based architectures, resulting in a paradigmatic shift in practices from the use of task-specific architectures to the fine-tuning of pre-trained language models. The ongoing trend consists in training models with an ever-increasing amount of data and parameters, which requires considerable resources. It leads to a strong search to improve resource efficiency based on algorithmic and hardware improvements evaluated only for English. This raises questions about their usability when applied to small-scale learning problems, for which a limited amount of training data is available, especially for underresourced languages tasks. The lack of appropriately sized corpora is a hindrance to applying data-driven and transfer learning-based approaches with strong instability cases. In this paper, we establish a state-of-the-art of the efforts dedicated to the usability of Transformerbased models and propose to evaluate these improvements on the question-answering performances of French language which have few resources. We address the instability relating to data scarcity by investigating various training strategies with data augmentation, hyperparameters optimization and cross-lingual transfer. We also introduce a new compact model for French FrALBERT which proves to be competitive in low-resource settings.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French",
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2021,
+    "month": "September",
+    "title": "On the Usability of Transformers-based Models for a {F}rench Question-Answering Task"
 }

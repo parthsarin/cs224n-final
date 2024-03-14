@@ -7,5 +7,15 @@
         "foundation": 0.007245384723533754,
         "none": 0.9989667730469299
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was partially supported by the China Scholarship Council and Syracuse University. The China Scholarship Council is a non-profit institution affiliated with the Chinese government's Ministry of Education, primarily providing financial support for academic exchanges and cooperation. It does not fit neatly into the \"research agency\" category as defined but is closer to a foundation in its function, despite being government-affiliated. Syracuse University, being an educational institution, does not fit into any of the specified categories of funding sources. There is no mention of funding from defense, corporate entities, or specifically named research agencies or foundations as defined."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was partially supported by the China Scholarship Council and Syracuse University. The China Scholarship Council is a non-profit institution affiliated with the Chinese government's Ministry of Education, primarily providing financial support for academic exchanges and cooperation. It does not fit neatly into the \"research agency\" category as defined but is closer to a foundation in its function, despite being government-affiliated. Syracuse University, being an educational institution, does not fit into any of the specified categories of funding sources. There is no mention of funding from defense, corporate entities, or specifically named research agencies or foundations as defined.",
+    "abstract": "This study evaluates the performance of four information extraction tools (extractors) on identifying health claims in health news headlines. A health claim is defined as a triplet: IV (what is being manipulated), DV (what is being measured) and their relation. Tools that can identify health claims provide the foundation for evaluating the accuracy of these claims against authoritative resources. The evaluation result shows that 26% headlines do not include health claims, and all extractors face difficulty separating them from the rest. For those with health claims, OPENIE-5.0 performed the best with F-measure at 0.6 level for extracting \"IV-relation-DV\". However, the characteristic linguistic structures in health news headlines, such as incomplete sentences and non-verb relations, pose particular challenge to existing tools.",
+    "countries": [
+        "China",
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 3,
+    "year": 2018,
+    "month": "August",
+    "title": "An Evaluation of Information Extraction Tools for Identifying Health Claims in News Headlines"
 }

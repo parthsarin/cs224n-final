@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the sources based on the provided text."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Without explicit mention of funding, it is not possible to determine the sources based on the provided text.",
+    "abstract": "Several approaches to neural speed reading have been presented at major NLP and machine learning conferences in 2017-20; i.e., \"human-inspired\" recurrent network architectures that learn to \"read\" text faster by skipping irrelevant words, typically optimizing the joint objective of minimizing classification error rate and FLOPs used at inference time. This paper reflects on the meaningfulness of the speed reading task, showing that (a) better and faster approaches to, say, document classification, already exist, which also learn to ignore part of the input (I give an example with 7% error reduction and a 136x speed-up over the state of the art in neural speed reading); and that (b) any claims that neural speed reading is \"human-inspired\", are ill-founded.",
+    "countries": [
+        "Denmark"
+    ],
+    "languages": [],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "November",
+    "title": "Neural Speed Reading Audited"
 }

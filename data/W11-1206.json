@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research leading to these results received funding from the French National Research Agency under grant ANR-08-CORD-013. This indicates that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research leading to these results received funding from the French National Research Agency under grant ANR-08-CORD-013. This indicates that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "In this article we present a novel way of looking at the problem of automatic acquisition of pairs of translationally equivalent words from comparable corpora. We first present the standard and extended approaches traditionally dedicated to this task. We then reinterpret the extended method, and motivate a novel model to reformulate this approach inspired by the metasearch engines in information retrieval. The empirical results show that performances of our model are always better than the baseline obtained with the extended approach and also competitive with the standard approach.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French",
+        "English"
+    ],
+    "numcitedby": 14,
+    "year": 2011,
+    "month": "June",
+    "title": "Bilingual Lexicon Extraction from Comparable Corpora as Metasearch"
 }

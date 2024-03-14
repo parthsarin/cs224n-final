@@ -7,5 +7,17 @@
         "foundation": 4.320199066265573e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or development of the web application."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research or development of the web application.",
+    "abstract": "We developed a web application for crowdsourcing transcriptions of Dutch words spoken by Spanish L2 learners. In this paper we discuss the design of the application and the influence of metadata and various forms of feedback. Useful data were obtained from 159 participants, with an average of over 20 transcriptions per item, which seems a satisfactory result for this type of research. Informing participants about how many items they still had to complete, and not how many they had already completed, turned to be an incentive to do more items. Assigning participants a score for their performance made it more attractive for them to carry out the transcription task, but this seemed to influence their performance. We discuss possible advantages and disadvantages in connection with the aim of the research and consider possible lessons for designing future experiments.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "Dutch",
+        "Spanish"
+    ],
+    "numcitedby": 4,
+    "year": 2016,
+    "month": "May",
+    "title": "{P}alabras: Crowdsourcing Transcriptions of {L}2 Speech"
 }

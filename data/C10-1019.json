@@ -7,5 +7,18 @@
         "foundation": 1.743258780551038e-06,
         "none": 0.9999925349918634
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of no funding. Therefore, without explicit information, we cannot assume any specific funding source was involved."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of no funding. Therefore, without explicit information, we cannot assume any specific funding source was involved.",
+    "abstract": "Semantic role labeling (SRL) and word sense disambiguation (WSD) are two fundamental tasks in natural language processing to find a sentence-level semantic representation. To date, they have mostly been modeled in isolation. However, this approach neglects logical constraints between them. We therefore exploit some pipeline systems which verify the automatic all word sense disambiguation could help the semantic role labeling and vice versa. We further propose a Markov logic model that jointly labels semantic roles and disambiguates all word senses. By evaluating our model on the OntoNotes 3.0 data, we show that this joint approach leads to a higher performance for word sense disambiguation and semantic role labeling than those pipeline approaches.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "Arabic",
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 22,
+    "year": 2010,
+    "month": "August",
+    "title": "Jointly Modeling {WSD} and {SRL} with {M}arkov {L}ogic"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that there is no direct funding from these sources mentioned."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Therefore, it is assumed that there is no direct funding from these sources mentioned.",
+    "abstract": "The Edlin toolkit provides a machine learning framework for linear models, designed to be easy to read and understand. The main goal is to provide easy to edit working examples of implementations for popular learning algorithms. The toolkit consists of 27 Java classes with a total of about 1400 lines of code, of which about 25% are I/O and driver classes for examples. A version of Edlin has been integrated as a processing resource for the GATE architecture, and has been used for gene tagging, gene name normalization, named entity recognition in Bulgarian and biomedical relation extraction.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Bulgarian"
+    ],
+    "numcitedby": 2,
+    "year": 2009,
+    "month": "September",
+    "title": "{E}dlin: an Easy to Read Linear Learning Framework"
 }

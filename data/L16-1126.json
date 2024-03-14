@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions funding from the European CLARIN ERIC and the German CLARIN-D consortium, which are funded by the German Ministry of Science and Education. These entities are research agencies, not defense, corporate, or foundation entities. There is no mention of funding from defense, corporate, or foundation sources."
+    "reasoning": "Reasoning: The acknowledgments section mentions funding from the European CLARIN ERIC and the German CLARIN-D consortium, which are funded by the German Ministry of Science and Education. These entities are research agencies, not defense, corporate, or foundation entities. There is no mention of funding from defense, corporate, or foundation sources.",
+    "abstract": "The BAS CLARIN speech data repository is introduced. At the current state it comprises 31 pre-dominantly German corpora of spoken language. It is compliant to the CLARIN-D as well as the OLAC requirements. This enables its embedding into several infrastructures. We give an overview over its structure, its implementation as well as the corpora it contains.",
+    "countries": [
+        "Germany",
+        "Hungary"
+    ],
+    "languages": [
+        "German"
+    ],
+    "numcitedby": 3,
+    "year": 2016,
+    "month": "May",
+    "title": "The {BAS} Speech Data Repository"
 }

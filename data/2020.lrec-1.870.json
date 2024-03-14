@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the work has been supported by Vicomtech and partially funded by the project DeepReading (RTI2018-096846-B-C21, MCIU/AEI/FEDER,UE). Vicomtech is a research and development center, indicating research agency support. The project DeepReading is associated with government funding (MCIU/AEI/FEDER,UE), which also suggests research agency involvement. There is no mention of defense, corporate, or foundation funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the work has been supported by Vicomtech and partially funded by the project DeepReading (RTI2018-096846-B-C21, MCIU/AEI/FEDER,UE). Vicomtech is a research and development center, indicating research agency support. The project DeepReading is associated with government funding (MCIU/AEI/FEDER,UE), which also suggests research agency involvement. There is no mention of defense, corporate, or foundation funding.",
+    "abstract": "HITZALMED is a web-framed tool that performs automatic detection of sensitive information in clinical texts using machine learning algorithms reported to be competitive for the task. Moreover, once sensitive information is detected, different anonymisation techniques are implemented that are configurable by the user -for instance, substitution, where sensitive items are replaced by same category text in an effort to generate a new document that looks as natural as the original one. The tool is able to get data from different document formats and outputs downloadable anonymised data. This paper presents the anonymisation and substitution technology and the demonstrator which is publicly available at https://snlt.vicomtech.org/hitzalmed.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "Spanish"
+    ],
+    "numcitedby": 4,
+    "year": 2020,
+    "month": "May",
+    "title": "{H}itzal{M}ed: Anonymisation of Clinical Text in {S}panish"
 }

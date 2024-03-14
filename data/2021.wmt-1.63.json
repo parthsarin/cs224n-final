@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the project was funded by the Irish Research Council, which is a government-funded organization providing grants for research. Additionally, it mentions ADAPT, the Science Foundation Ireland Research Centre for AI-Driven Digital Content Technology at Dublin City University, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the project was funded by the Irish Research Council, which is a government-funded organization providing grants for research. Additionally, it mentions ADAPT, the Science Foundation Ireland Research Centre for AI-Driven Digital Content Technology at Dublin City University, indicating funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Recently, the Machine Translation (MT) community has become more interested in document-level evaluation especially in light of reactions to claims of \"human parity\", since examining the quality at the level of the document rather than at the sentence level allows for the assessment of suprasentential context, providing a more reliable evaluation. This paper presents a document-level corpus annotated in English with context-aware issues that arise when translating from English into Brazilian Portuguese, namely ellipsis, gender, lexical ambiguity, number, reference, and terminology, with six different domains. The corpus can be used as a challenge test set for evaluation and as a training/testing corpus for MT as well as for deep linguistic analysis of context issues. To the best of our knowledge, this is the first corpus of its kind.",
+    "countries": [
+        "Ireland",
+        "Portugal"
+    ],
+    "languages": [
+        "Spanish",
+        "English",
+        "Portuguese"
+    ],
+    "numcitedby": 2,
+    "year": 2021,
+    "month": "November",
+    "title": "{DELA} Corpus - A Document-Level Corpus Annotated with Context-Related Issues"
 }

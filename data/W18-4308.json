@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.999754187196919
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research conducted. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text alone."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources for the research conducted. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text alone.",
+    "abstract": "Journalists usually organize and present the contents of a news article following a well-defined structure. In this work, we propose a new task to categorize news articles based on their content presentation structures, which is beneficial for various NLP applications. We first define a small set of news elements considering their functions (e.g., introducing the main story or event, catching the reader's attention and providing details) in a news story and their writing style (narrative or expository), and then formally define four commonly used news article structures based on their selections and organizations of news elements. We create an annotated dataset for structure-based news genre identification, and finally, we build a predictive model to assess the feasibility of this classification task using structure indicative features.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 11,
+    "year": 2018,
+    "month": "August",
+    "title": "Fine-grained Structure-based News Genre Categorization"
 }

@@ -7,5 +7,14 @@
         "foundation": 9.088342269869543e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, or foundations. Therefore, based on the provided text, it is not possible to determine any specific funding source."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments, or support from defense, corporate entities, research agencies, or foundations. Therefore, based on the provided text, it is not possible to determine any specific funding source.",
+    "abstract": "We consider open domain event extraction, the task of extracting unconstraint types of events from news clusters. A novel latent variable neural model is constructed, which is scalable to very large corpus. A dataset is collected and manually annotated, with task-specific evaluation metrics being designed. Results show that the proposed unsupervised model gives better performance compared to the state-of-the-art method for event schema induction.",
+    "countries": [
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 32,
+    "year": 2019,
+    "month": "July",
+    "title": "Open Domain Event Extraction Using Neural Latent Variable Models"
 }

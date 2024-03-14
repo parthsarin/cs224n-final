@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "We present SkillBot that takes the first step to enable end users to teach new skills in personal assistants (PA). Unlike existing PA products that need software developers to build new skills via IDE tools, an end user can use SkillBot to build new skills just by naturally demonstrating the task on device screen. SkillBot automatically develops a natural language understanding (NLU) engine and implements the action without the need of coding. On both benchmark and inhouse datasets, we validate the competitive performance of SkillBot automatically built NLU. We also observe that it only takes a few minutes for an end user to build a new skill using SkillBot.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 2,
+    "year": 2019,
+    "month": "June",
+    "title": "{S}kill{B}ot: Towards Automatic Skill Development via User Demonstration"
 }

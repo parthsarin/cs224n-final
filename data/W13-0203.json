@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9840928043630768
     },
-    "reasoning": "Reasoning: The article does not provide specific information about its funding sources, so we cannot determine if it was funded by defense, corporate, research agencies, foundations, or if it had no funding at all."
+    "reasoning": "Reasoning: The article does not provide specific information about its funding sources, so we cannot determine if it was funded by defense, corporate, research agencies, foundations, or if it had no funding at all.",
+    "abstract": "In this paper we present a pragmatic account of scope alternation involving universal quantifiers in a lexicalist framework based on CCG and DRT. This account can derive the desired reading for 96% of all cases of scope interaction involving universal quantification mediated by prepositions in a real corpus. We show how this account allows for recasting scope resolution as a simple token classification task, providing a simpler handle for statistical approaches to scope resolution than previous accounts.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 4,
+    "year": 2013,
+    "month": "March",
+    "title": "Scope Disambiguation as a Tagging Task"
 }

@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgments section of the paper specifically mentions support from the National Basic Research Program of China (the 973 Program) and the National Natural Science Foundation of China, both of which are indicative of funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources."
+    "reasoning": "Reasoning: The acknowledgments section of the paper specifically mentions support from the National Basic Research Program of China (the 973 Program) and the National Natural Science Foundation of China, both of which are indicative of funding from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no funding sources.",
+    "abstract": "In this paper, we propose the TBCNNpair model to recognize entailment and contradiction between two sentences. In our model, a tree-based convolutional neural network (TBCNN) captures sentencelevel semantics; then heuristic matching layers like concatenation, element-wise product/difference combine the information in individual sentences. Experimental results show that our model outperforms existing sentence encoding-based approaches by a large margin.",
+    "countries": [
+        "China"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 293,
+    "year": 2016,
+    "month": "August",
+    "title": "Natural Language Inference by Tree-Based Convolution and Heuristic Matching"
 }

@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article acknowledges the Lindicle ANR (12-IS02-0002) project as part of the research context. ANR stands for the French National Research Agency, which is a government-funded organization that provides grants for research. There is no mention of defense, corporate, or foundation funding, nor is there an explicit statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The article acknowledges the Lindicle ANR (12-IS02-0002) project as part of the research context. ANR stands for the French National Research Agency, which is a government-funded organization that provides grants for research. There is no mention of defense, corporate, or foundation funding, nor is there an explicit statement indicating the absence of any funding.",
+    "abstract": "Various lexical resources are being published in RDF. To enhance the usability of these resources, identical resources in different data sets should be linked. If lexical resources are described in different natural languages, then techniques to deal with multilinguality are required for interlinking. In this paper, we evaluate machine translation for interlinking concepts, i.e., generic entities named with a common noun or term. In our previous work, the evaluated method has been applied on named entities. We conduct two experiments involving different thesauri in different languages. The first experiment involves concepts from the TheSoz multilingual thesaurus in three languages: English, French and German. The second experiment involves concepts from the EuroVoc and AGROVOC thesauri in English and Chinese respectively. Our results demonstrate that machine translation can be beneficial for cross-lingual thesauri interlinking independently of a dataset structure.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "English",
+        "French",
+        "German"
+    ],
+    "numcitedby": 0,
+    "year": 2016,
+    "month": "May",
+    "title": "Cross-lingual {RDF} Thesauri Interlinking"
 }

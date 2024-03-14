@@ -7,5 +7,17 @@
         "foundation": 6.704270752999619e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the provided text, it is assumed that there is no explicit acknowledgment of funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the provided text, it is assumed that there is no explicit acknowledgment of funding sources.",
+    "abstract": "Natural Language Processing (NLP) of textual data is usually broken down into a sequence of several subtasks, where the output of one the subtasks becomes the input to the following one, which constitutes an NLP pipeline. Many third-party NLP tools are currently available, each performing distinct NLP subtasks. However, it is difficult to integrate several NLP toolkits into a pipeline due to many problems, including different input/output representations or formats, distinct programming languages, and tokenization issues. This paper presents DeepNLPF, a framework that enables easy integration of third-party NLP tools, allowing the user to preprocess natural language texts at lexical, syntactic, and semantic levels. The proposed framework also provides an API for complete pipeline customization including the definition of input/output formats, integration plugin management, transparent multiprocessing execution strategies, corpus-level statistics, and database persistence. Furthermore, the DeepNLPF user-friendly GUI allows its use even by a non-expert NLP user. We conducted runtime performance analysis showing that DeepNLPF not only easily integrates existent NLP toolkits but also reduces significant runtime processing compared to executing the same NLP pipeline in a sequential manner.",
+    "countries": [
+        "France",
+        "Brazil"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2020,
+    "month": "May",
+    "title": "{D}eep{NLPF}: A Framework for Integrating Third Party {NLP} Tools"
 }

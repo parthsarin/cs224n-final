@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly states that it is based on work supported by the Intelligence Advanced Research Projects Activity (IARPA) via Department of Defense US Army Research Laboratory contract number W911NF-12-C-0024. IARPA is a research and development arm of the Office of the Director of National Intelligence, which makes it a defense-related agency. There is no mention of funding from corporate entities, research agencies outside of defense, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly states that it is based on work supported by the Intelligence Advanced Research Projects Activity (IARPA) via Department of Defense US Army Research Laboratory contract number W911NF-12-C-0024. IARPA is a research and development arm of the Office of the Director of National Intelligence, which makes it a defense-related agency. There is no mention of funding from corporate entities, research agencies outside of defense, foundations, or an absence of funding.",
+    "abstract": "This article makes two contributions towards the use of lexical resources and corpora; specifically making use of them for gaining access to and using word associations. The direct application of our approach is for detecting linguistic and conceptual metaphors automatically in text. We describe our method of building conceptual spaces, that is, defining the vocabulary that characterizes a Source Domain (e.g., Disease) of a conceptual metaphor (e.g., Poverty is a Disease). We also describe how these conceptual spaces are used to group linguistic metaphors into conceptual metaphors. Our method works in multiple languages, including English, Spanish, Russian and Farsi. We provide details of how our method can be evaluated and evaluation results that show satisfactory performance across all languages.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Russian",
+        "English",
+        "Spanish"
+    ],
+    "numcitedby": 7,
+    "year": 2014,
+    "month": "August",
+    "title": "Discovering Conceptual Metaphors using Source Domain Spaces"
 }

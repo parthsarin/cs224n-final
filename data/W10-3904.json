@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges support from the National Institute of Information and Communications Technology Japan, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges support from the National Institute of Information and Communications Technology Japan, which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Classifying and identifying semantic relations between facts and opinions on the Web is of utmost importance for organizing information on the Web, however, this requires consideration of a broader set of semantic relations than are typically handled in Recognizing Textual Entailment (RTE), Cross-document Structure Theory (CST), and similar tasks. In this paper, we describe the construction and evaluation of a system that identifies and classifies semantic relations in Internet data. Our system targets a set of semantic relations that have been inspired by CST but that have been generalized and broadened to facilitate application to mixed fact and opinion data from the Internet. Our system identifies these semantic relations in Japanese Web texts using a combination of lexical, syntactic, and semantic information and evaluate our system against gold standard data that was manually constructed for this task. We will release all gold standard data used in training and evaluation of our system this summer.",
+    "countries": [
+        "Japan",
+        "Austria"
+    ],
+    "languages": [
+        "Japanese"
+    ],
+    "numcitedby": 8,
+    "year": 2010,
+    "month": "August",
+    "title": "Automatic Classification of Semantic Relations between Facts and Opinions"
 }

@@ -7,5 +7,16 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments are given to individuals for their contributions and support, but there is no mention of financial support or funding from defense, corporate, research agencies, foundations, or any other entities."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, acknowledgments are given to individuals for their contributions and support, but there is no mention of financial support or funding from defense, corporate, research agencies, foundations, or any other entities.",
+    "abstract": "In this paper, we study the problem of finding named entities in the Arabic text. For this task we present the development of our pipeline software for Arabic named entity recognition (ARNE), which includes tokenization, morphological analysis, Buckwalter transliteration, part of speech tagging and named entity recognition of person, location and organisation named entities. In our first attempt to recognize named entites, we have used a simple, fast and language independent gazetteer lookup approach. In our second attempt, we have used the morphological analysis provided by our pipeline to remove affixes and observed hence an improvement in our performance. The pipeline presented in this paper, can be used in future as a basis for a named entity recognition system that recognized named entites not only using gazetteers, but also making use of morphological information and part of speech tagging.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 8,
+    "year": 2012,
+    "month": "November 1",
+    "title": "{ARNE} - A tool for Namend Entity Recognition from {A}rabic Text"
 }

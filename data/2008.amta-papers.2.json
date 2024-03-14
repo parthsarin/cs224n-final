@@ -7,5 +7,18 @@
         "foundation": 3.128162811005808e-07,
         "none": 0.9993534181242099
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mentions of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "This paper presents a method for exploiting document-level similarity between the documents in the training corpus for a corpusdriven (statistical or example-based) machine translation system and the input documents it must translate. The method is simple to implement, efficient (increases the translation time of an example-based system by only a few percent), and robust (still works even when the actual document boundaries in the input text are not known). Experiments on French-English and Arabic-English showed relative gains over the same system without using document-level similarity of up to 7.4% and 5.4%, respectively, on the BLEU metric.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Arabic",
+        "French",
+        "English"
+    ],
+    "numcitedby": 7,
+    "year": 2008,
+    "month": "October 21-25",
+    "title": "Exploiting Document-Level Context for Data-Driven Machine Translation"
 }

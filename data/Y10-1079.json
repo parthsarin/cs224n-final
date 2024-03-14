@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9999583243784529
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of having no funding. Without direct evidence of funding sources in the text, we cannot assume any specific type of funding was involved."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or an explicit statement of having no funding. Without direct evidence of funding sources in the text, we cannot assume any specific type of funding was involved.",
+    "abstract": "The development of the Web services lets many users easily provide their opinions recently. Automatic summarization of enormous sentiments has been expected. Intuitively, we can summarize a review with traditional document summarization methods. However, such methods have not well-discussed \"aspects\". Basically, a review consists of sentiments with various aspects. We summarize reviews for each aspect so that the summary presents information without biasing to a specific topic. In this paper, we propose a method for multiaspects review summarization based on evaluative sentence extraction. We handle three features; ratings of aspects, the tf -idf value, and the number of mentions with a similar topic. For estimating the number of mentions, we apply a clustering algorithm. By integrating these features, we generate a more appropriate summary. The experiment results show the effectiveness of our method.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 20,
+    "year": 2010,
+    "month": "November",
+    "title": "Multi-aspects Review Summarization Based on Identification of Important Opinions and their Similarity"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from the Royal Society (UK), EPSRC (UK) grant EP/G051070/1, and EU grant 7FP-ITC-248064. The Royal Society and the EPSRC (Engineering and Physical Sciences Research Council) are research agencies, and the EU grant indicates funding from a governmental organization, which also classifies as research agency funding. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding."
+    "reasoning": "Reasoning: The article explicitly mentions funding from the Royal Society (UK), EPSRC (UK) grant EP/G051070/1, and EU grant 7FP-ITC-248064. The Royal Society and the EPSRC (Engineering and Physical Sciences Research Council) are research agencies, and the EU grant indicates funding from a governmental organization, which also classifies as research agency funding. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of any funding.",
+    "abstract": "Information structure, i.e the way speakers construct sentences to present new information in the context of old, can capture rich linguistic information about the discourse structure of scientific documents. Information structure has been found useful for important Natural Language Processing (NLP) tasks, such as information retrieval and extraction. Since scientific articles typically follow a certain discourse structure describing the prior work, problem being solved, methods used, and so forth, it could also be useful for summarization of these articles. In this work we focus on a scheme of information structure called Argumentative Zoning (AZ), and investigate whether its categories could support extractive text summarization in a scientific domain. We develop a summarization system that uses AZ categories (i) as features and (ii) in the final sentence selection process. We evaluate the system directly as well as using task-based evaluation. The results show that AZ can support both full document and customized summarization. We report a statistically significant improvement in summarization performance against a competitive baseline that uses journal section labels instead of AZ information.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 32,
+    "year": 2012,
+    "month": "December",
+    "title": "Using Argumentative Zones for Extractive Summarization of Scientific Articles"
 }

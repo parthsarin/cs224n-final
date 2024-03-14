@@ -7,5 +7,15 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research, including defense, corporate, research agencies, foundations, or any other type of financial support. Therefore, based on the information given, it appears there were no disclosed funding sources."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources for the research, including defense, corporate, research agencies, foundations, or any other type of financial support. Therefore, based on the information given, it appears there were no disclosed funding sources.",
+    "abstract": "Sentiment transfer aims to change the underlying sentiment of input sentences. The two major challenges in existing works lie in (1) effectively disentangling the original sentiment from input sentences; and (2) preserving the semantic content while transferring the sentiment. We find that identifying the sentiment-irrelevant content from input sentences to facilitate generating output sentences could address the above challenges and then propose the Decode with Template model in this paper. We first mask the explicit sentiment words in input sentences and use the rest parts as templates to eliminate the original sentiment. Then, we input the templates and the target sentiments into our bidirectionally guided variational auto-encoder (VAE) model to generate output. In our method, the template preserves most of the semantics in input sentences, and the bidirectionally guided decoding captures both forward and backward contextual information to generate output. Both two parts contribute to better content preservation. We evaluate our method on two review datasets, Amazon and Yelp, with automatic evaluation methods and human rating. The experimental results show that our method significantly outperforms state-of-the-art models, especially in content preservation.",
+    "countries": [
+        "Hong Kong",
+        "China"
+    ],
+    "languages": [],
+    "numcitedby": 3,
+    "year": 2020,
+    "month": "May",
+    "title": "Decode with Template: Content Preserving Sentiment Transfer"
 }

@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it is assumed that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research conducted. Therefore, based on the information provided, it is assumed that the article does not report funding from any of the specified sources.",
+    "abstract": "We describe an approach to building a morphological analyser of Arabic by inducing a lexicon of root and pattern templates from an unannotated corpus. Using maximum entropy modelling, we capture orthographic features from surface words, and cluster the words based on the similarity of their possible roots or patterns. From these clusters, we extract root and pattern lexicons, which allows us to morphologically analyse words. Further enhancements are applied, adjusting for morpheme length and structure. Final root extraction accuracy of 87.2% is achieved. In contrast to previous work on unsupervised learning of Arabic morphology, our approach is applicable to naturally-written, unvowelled Arabic text.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Arabic"
+    ],
+    "numcitedby": 2,
+    "year": 2013,
+    "month": "September",
+    "title": "Unsupervised Induction of {A}rabic Root and Pattern Lexicons using Machine Learning"
 }

@@ -7,5 +7,17 @@
         "foundation": 5.51223498068687e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the study. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the study. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "The goal of this study is to evaluate an 'offthe-shelf' POS-tagger for modern German on historical data from the Early Modern period (1650-1800). With no specialised tagger available for this particular stage of the language, our findings will be of particular interest to smaller, humanities-based projects wishing to add POS annotations to their historical data but which lack the means or resources to train a POS tagger themselves. Our study assesses the effects of spelling variation on the performance of the tagger, and investigates to what extent tagger performance can be improved by using 'normalised' input, where spelling variants in the corpus are standardised to a modern form. Our findings show that adding such a normalisation layer improves tagger performance considerably.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 26,
+    "year": 2011,
+    "month": "June",
+    "title": "Evaluating an {`}off-the-shelf{'} {POS}-tagger on Early {M}odern {G}erman text"
 }

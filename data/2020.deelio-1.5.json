@@ -7,5 +7,16 @@
         "foundation": 0.9999998063873687,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section mentions support from the Eliteprogramm of the Baden-W\u00fcrttemberg Stiftung, which is a foundation; the German Research Foundation, which is a research agency; and mentions the project \"Open Argument Mining\" associated with the Priority Program \"Robust Argumentation Machines (RATIO)\" under the German Research Foundation, again indicating research agency support. There is no mention of defense or corporate funding."
+    "reasoning": "Reasoning: The acknowledgments section mentions support from the Eliteprogramm of the Baden-W\u00fcrttemberg Stiftung, which is a foundation; the German Research Foundation, which is a research agency; and mentions the project \"Open Argument Mining\" associated with the Priority Program \"Robust Argumentation Machines (RATIO)\" under the German Research Foundation, again indicating research agency support. There is no mention of defense or corporate funding.",
+    "abstract": "Following the major success of neural language models (LMs) such as BERT or GPT-2 on a variety of language understanding tasks, recent work focused on injecting (structured) knowledge from external resources into these models. While on the one hand, joint pretraining (i.e., training from scratch, adding objectives based on external knowledge to the primary LM objective) may be prohibitively computationally expensive, post-hoc fine-tuning on external knowledge, on the other hand, may lead to the catastrophic forgetting of distributional knowledge. In this work, we investigate models for complementing the distributional knowledge of BERT with conceptual knowledge from ConceptNet and its corresponding Open Mind Common Sense (OMCS) corpus, respectively, using adapter training. While overall results on the GLUE benchmark paint an inconclusive picture, a deeper analysis reveals that our adapter-based models substantially outperform BERT (up to 15-20 performance points) on inference tasks that require the type of conceptual knowledge explicitly present in ConceptNet and OMCS. We also open source all our experiments and relevant code under: https://github.com/ wluper/retrograph.",
+    "countries": [
+        "Germany"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 34,
+    "year": 2020,
+    "month": "November",
+    "title": "Common Sense or World Knowledge? Investigating Adapter-Based Knowledge Injection into Pretrained Transformers"
 }

@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the PhD thesis of Wang Ling is supported by FCT - Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, under project SFRH/BD/51157/2010, and that the work was supported by national funds through FCT - Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, under project PEst-OE/EEI/LA0021/2013. FCT is a Portuguese public research agency that provides grants for scientific research, indicating that the funding comes from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions that the PhD thesis of Wang Ling is supported by FCT - Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, under project SFRH/BD/51157/2010, and that the work was supported by national funds through FCT - Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia, under project PEst-OE/EEI/LA0021/2013. FCT is a Portuguese public research agency that provides grants for scientific research, indicating that the funding comes from a research agency. There is no mention of funding from defense, corporate entities, foundations, or an absence of funding.",
+    "abstract": "Compared to the edited genres that have played a central role in NLP research, microblog texts use a more informal register with nonstandard lexical items, abbreviations, and free orthographic variation. When confronted with such input, conventional text analysis tools often perform poorly. Normalization -replacing orthographically or lexically idiosyncratic forms with more standard variants -can improve performance. We propose a method for learning normalization rules from machine translations of a parallel corpus of microblog messages. To validate the utility of our approach, we evaluate extrinsically, showing that normalizing English tweets and then translating improves translation quality (compared to translating unnormalized text) using three standard web translation services as well as a phrase-based translation system trained on parallel microblog data.",
+    "countries": [
+        "United States",
+        "Portugal"
+    ],
+    "languages": [
+        "Mandarin",
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 53,
+    "year": 2013,
+    "month": "October",
+    "title": "Paraphrasing 4 Microblog Normalization"
 }

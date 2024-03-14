@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 0.9984010772412079
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mentions of funding from defense, corporate entities, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research presented. Without explicit mentions of funding from defense, corporate entities, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "The vast number of published medical documents is considered a vital source for relationship discovery. This paper presents a statistical unsupervised system, called BioNoculars, for extracting protein-protein interactions from biomedical text. BioNoculars uses graph-based mutual reinforcement to make use of redundancy in data to construct extraction patterns in a domain independent fashion. The system was tested using MED-LINE abstract for which the protein-protein interactions that they contain are listed in the database of interacting proteins and proteinprotein interactions (DIPPPI). The system reports an F-Measure of 0.55 on test MED-LINE abstracts.",
+    "countries": [
+        "Egypt"
+    ],
+    "languages": [],
+    "numcitedby": 17,
+    "year": 2007,
+    "month": "June",
+    "title": "{B}io{N}oculars: Extracting Protein-Protein Interactions from Biomedical Text"
 }

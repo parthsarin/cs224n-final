@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly acknowledges NVIDIA for their GPU grant, which indicates corporate sponsorship. There is no mention of funding from defense, research agencies, foundations, or a statement indicating the absence of other funding sources."
+    "reasoning": "Reasoning: The article explicitly acknowledges NVIDIA for their GPU grant, which indicates corporate sponsorship. There is no mention of funding from defense, research agencies, foundations, or a statement indicating the absence of other funding sources.",
+    "abstract": "We present a very simple method for parallel text cleaning of low-resource languages, based on projection of word embeddings trained on large monolingual corpora in high-resource languages. In spite of its simplicity, we approach the strong baseline system in the downstream machine translation evaluation.",
+    "countries": [
+        "Sweden"
+    ],
+    "languages": [
+        "Sinhalese",
+        "English",
+        "Nepali"
+    ],
+    "numcitedby": 8,
+    "year": 2019,
+    "month": "August",
+    "title": "Noisy Parallel Corpus Filtering through Projected Word Embeddings"
 }

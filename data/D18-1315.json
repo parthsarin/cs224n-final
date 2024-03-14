@@ -7,5 +7,23 @@
         "foundation": 1.0,
         "none": 4.320199066265573e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the first author was supported by The Society of Swedish Literature in Finland (SLS), which is a foundation. There is no mention of defense, corporate, or research agency funding, and the mention of support from a foundation precludes the option of \"none.\""
+    "reasoning": "Reasoning: The article explicitly mentions that the first author was supported by The Society of Swedish Literature in Finland (SLS), which is a foundation. There is no mention of defense, corporate, or research agency funding, and the mention of support from a foundation precludes the option of \"none.\"",
+    "abstract": "The Paradigm Cell Filling Problem in morphology asks to complete word inflection tables from partial ones. We implement novel neural models for this task, evaluating them on 18 data sets in 8 languages, showing performance that is comparable with previous work with far less training data. We also publish a new dataset for this task and code implementing the system described in this paper. 1",
+    "countries": [
+        "Finland"
+    ],
+    "languages": [
+        "Latin",
+        "Finnish",
+        "Turkish",
+        "Latvian",
+        "German",
+        "Georgian",
+        "Spanish",
+        "French"
+    ],
+    "numcitedby": 20,
+    "year": 2018,
+    "month": "October-November",
+    "title": "An Encoder-Decoder Approach to the Paradigm Cell Filling Problem"
 }

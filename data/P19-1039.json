@@ -7,5 +7,19 @@
         "foundation": 0.0,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine if any of these entities supported the research. Therefore, the only appropriate response is that the article does not report funding from any of the specified sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, or foundations. Without explicit mention of funding, it is not possible to determine if any of these entities supported the research. Therefore, the only appropriate response is that the article does not report funding from any of the specified sources.",
+    "abstract": "Motivated by infamous cheating scandals in various industries and political events, we address the problem of detecting concealed information in technical settings. In this work, we explore acoustic-prosodic and linguistic indicators of information concealment by collecting a unique corpus of professionals practicing for oral exams while concealing information. We reveal subtle signs of concealed information in speech and text, compare, and contrast them with those in deception detection literature, thus uncovering the link between concealing information and deception. We then present a series of experiments that automatically detect concealed information from text and speech. We compare the use of acoustic-prosodic, linguistic, and individual feature sets, using different machine learning models. Finally, we present a multi-task learning framework with acoustic, linguistic, and individual features, that outperforms human performance by over 15%.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Spanish",
+        "Korean",
+        "Chinese",
+        "English"
+    ],
+    "numcitedby": 6,
+    "year": 2019,
+    "month": "July",
+    "title": "Detecting Concealed Information in Text and Speech"
 }

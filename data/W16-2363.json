@@ -7,5 +7,17 @@
         "foundation": 7.3458053194697115e-06,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from QT21 (H2020 No. 645452, Lucia Specia), Cracker (H2020 No. 645357, Kashif Shah), and the ERA-NET CHIST-ERA D2K 2011 VisualSense (ViSen) project (UK EPSRC Grant EP/K019082/1, Josiah Wang). These are all indicative of research agency or foundation funding, specifically from European Union's Horizon 2020 research and innovation program (H2020) and the UK's Engineering and Physical Sciences Research Council (EPSRC), which are government-funded organizations and not defense, corporate, or foundation in the traditional sense of philanthropic foundations."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from QT21 (H2020 No. 645452, Lucia Specia), Cracker (H2020 No. 645357, Kashif Shah), and the ERA-NET CHIST-ERA D2K 2011 VisualSense (ViSen) project (UK EPSRC Grant EP/K019082/1, Josiah Wang). These are all indicative of research agency or foundation funding, specifically from European Union's Horizon 2020 research and innovation program (H2020) and the UK's Engineering and Physical Sciences Research Council (EPSRC), which are government-funded organizations and not defense, corporate, or foundation in the traditional sense of philanthropic foundations.",
+    "abstract": "This paper describes the University of Sheffield's submission for the WMT16 Multimodal Machine Translation shared task, where we participated in Task 1 to develop German-to-English and Englishto-German statistical machine translation (SMT) systems in the domain of image descriptions. Our proposed systems are standard phrase-based SMT systems based on the Moses decoder, trained only on the provided data. We investigate how image features can be used to re-rank the n-best list produced by the SMT model, with the aim of improving performance by grounding the translations on images. Our submissions are able to outperform the strong, text-only baseline system for both directions.",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "German",
+        "English"
+    ],
+    "numcitedby": 36,
+    "year": 2016,
+    "month": "August",
+    "title": "{SHEF}-Multimodal: Grounding Machine Translation on Images"
 }

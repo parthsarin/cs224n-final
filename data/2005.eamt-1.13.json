@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was funded in part by NSF grant number IIS-0121-631. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was funded in part by NSF grant number IIS-0121-631. The National Science Foundation (NSF) is a government-funded organization that provides grants for research, which classifies it as a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "Most current Machine Translation (MT) systems do not improve with feedback from post-editors beyond the addition of corrected translations to parallel training data (for statistical and example-base MT) or to a memory database. Rule based systems to date improve only via manual debugging. In contrast, we introduce a largely automated method for capturing more information from human post-editors, so that corrections may be performed automatically to translation grammar rules and lexical entries. This paper introduces a general framework for incorporating a refinement module to rule-based transfer MT systems. This framework allows to generalize post-editing efforts in an effective way, by identifying and correcting rules semi-automatically to improve coverage and overall translation quality.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Spanish",
+        "English"
+    ],
+    "numcitedby": 55,
+    "year": 2005,
+    "month": "May 30{--}31",
+    "title": "A framework for interactive and automatic refinement of transfer-based machine translation"
 }

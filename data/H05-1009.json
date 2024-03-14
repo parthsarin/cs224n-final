@@ -7,5 +7,18 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source."
+    "reasoning": "Reasoning: The provided text does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented in the article. Without explicit mention of funding, it is not possible to determine the presence of any specific funding source.",
+    "abstract": "This paper presents a novel approach to combining different word alignments. We view word alignment as a pattern classification problem, where alignment combination is treated as a classifier ensemble, and alignment links are adorned with linguistic features. A neural network model is used to learn word alignments from the individual alignment systems. We show that our alignment combination approach yields a significant 20-34% relative error reduction over the best-known alignment combination technique on English-Spanish and English-Chinese data.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Spanish",
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 36,
+    "year": 2005,
+    "month": "October",
+    "title": "{N}eur{A}lign: Combining Word Alignments Using Neural Networks"
 }

@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research is funded through the Open Competition Digitalization Humanities and Social Science grant nr 406.D1.19.073 awarded by the Netherlands Organization of Scientific Research (NWO), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article explicitly mentions that the research is funded through the Open Competition Digitalization Humanities and Social Science grant nr 406.D1.19.073 awarded by the Netherlands Organization of Scientific Research (NWO), which is a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "In this position paper, we present a research agenda and ideas for facilitating exposure to diverse viewpoints in news recommendation. Recommending news from diverse viewpoints is important to prevent potential filter bubble effects in news consumption, and stimulate a healthy democratic debate. To account for the complexity that is inherent to humans as citizens in a democracy, we anticipate (among others) individual-level differences in acceptance of diversity. We connect this idea to techniques in Natural Language Processing, where distributional language models would allow us to place different users and news articles in a multidimensional space based on semantic content, where diversity is operationalized as distance and variance. In this way, we can model individual \"latitudes of diversity\" for different users, and thus personalize viewpoint diversity in support of a healthy public debate. In addition, we identify technical, ethical and conceptual issues related to our presented ideas. Our investigation describes how NLP can play a central role in diversifying news recommendations.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "Russian",
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2021,
+    "month": "August",
+    "title": "Are we human, or are we users? The role of natural language processing in human-centric news recommenders that nudge users to diverse content"
 }

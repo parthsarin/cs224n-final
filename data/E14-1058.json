@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9993118694005324
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of the absence of funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "The question of data reliability is of first importance to assess the quality of manually annotated corpora. Although Cohen ' s \u03ba is the prevailing reliability measure used in NLP, alternative statistics have been proposed. This paper presents an experimental study with four measures (Cohen's \u03ba, Scott's \u03c0, binary and weighted Krippendorff ' s \u03b1) on three tasks: emotion, opinion and coreference annotation. The reported studies investigate the factors of influence (annotator bias, category prevalence, number of coders, number of categories) that should affect reliability estimation. Results show that the use of a weighted measure restricts this influence on ordinal annotations. They suggest that weighted \u03b1 is the most reliable metrics for such an annotation scheme.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": 63,
+    "year": 2014,
+    "month": "April",
+    "title": "Weighted {K}rippendorff{'}s alpha is a more reliable metrics for multi-coders ordinal annotations: experimental studies on emotion, opinion and coreference annotation"
 }

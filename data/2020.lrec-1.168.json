@@ -7,5 +7,17 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the grant MOST 107-2221-E-003-014-MY2, MOST-109-2634-F-002-023, and MOST AI Biomedical Research Center from the Ministry of Science and Technology of Taiwan. These grants indicate funding from a research agency, specifically a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions support from the grant MOST 107-2221-E-003-014-MY2, MOST-109-2634-F-002-023, and MOST AI Biomedical Research Center from the Ministry of Science and Technology of Taiwan. These grants indicate funding from a research agency, specifically a government-funded organization that provides grants for research. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "This work developed a Chinese humor corpus containing 3,365 jokes collected from over 40 sources. Each joke was labeled with five levels of funniness, eight skill sets of humor, and six dimensions of intent by only one annotator. To validate the manual labels, we trained SVM (Support Vector Machine) and BERT (Bidirectional Encoder Representations from Transformers) with half of the corpus (labeled by one annotator) to predict the skill and intent labels of the other half (labeled by the other annotator). Based on two assumptions that a valid manually labeled corpus should follow, our results showed the validity for the skill and intent labels. As to the funniness label, the validation results showed that the correlation between the corpus label and user feedback rating is marginal, which implies that the funniness level is a harder annotation problem to be solved. The contribution of this work is two folds: 1) a Chinese humor corpus is developed with labels of humor skills, intents, and funniness, which allows machines to learn more intricate humor framing, effect, and amusing level to predict and respond in proper context (https://github.com/SamTseng/Chinese_Humor_MultiLabeled). 2) An approach to verify whether a minimum human labeled corpus is valid or not, which facilitates the validation of low-resource corpora.",
+    "countries": [
+        "Taiwan"
+    ],
+    "languages": [
+        "Russian",
+        "Chinese"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "May",
+    "title": "Development and Validation of a Corpus for Machine Humor Comprehension"
 }

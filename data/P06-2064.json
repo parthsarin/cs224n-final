@@ -7,5 +7,16 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.9996929481000866
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research conducted. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding funding sources for the research conducted. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "We propose a novel method for automatically interpreting compound nouns based on a predefined set of semantic relations. First we map verb tokens in sentential contexts to a fixed set of seed verbs using WordNet::Similarity and Moby's Thesaurus. We then match the sentences with semantic relations based on the semantics of the seed verbs and grammatical roles of the head noun and modifier. Based on the semantics of the matched sentences, we then build a classifier using TiMBL. The performance of our final system at interpreting NCs is 52.6%.",
+    "countries": [
+        "Australia"
+    ],
+    "languages": [
+        "Wu"
+    ],
+    "numcitedby": 83,
+    "year": 2006,
+    "month": "July",
+    "title": "Interpreting Semantic Relations in Noun Compounds via Verb Semantics"
 }

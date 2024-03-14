@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the EU H2020 SUMMA project, which is funded by the European Union, a type of research agency, and the EPSRC grant eN-eMILP, funded by the Engineering and Physical Sciences Research Council, another research agency. There is no mention of funding from defense, corporate entities, or foundations. Therefore, the research was funded by research agencies."
+    "reasoning": "Reasoning: The acknowledgments section of the article mentions support from the EU H2020 SUMMA project, which is funded by the European Union, a type of research agency, and the EPSRC grant eN-eMILP, funded by the Engineering and Physical Sciences Research Council, another research agency. There is no mention of funding from defense, corporate entities, or foundations. Therefore, the research was funded by research agencies.",
+    "abstract": "There has been substantial progress in summarization research enabled by the availability of novel, often large-scale, datasets and recent advances on neural network-based approaches. However, manual evaluation of the system generated summaries is inconsistent due to the difficulty the task poses to human non-expert readers. To address this issue, we propose a novel approach for manual evaluation, HIGHlight-based Reference-less Evaluation of Summarization (HIGHRES), in which summaries are assessed by multiple annotators against the source document via manually highlighted salient content in the latter. Thus summary assessment on the source document by human judges is facilitated, while the highlights can be used for evaluating multiple systems. To validate our approach we employ crowd-workers to augment with highlights a recently proposed dataset and compare two state-of-the-art systems. We demonstrate that HIGHRES improves inter-annotator agreement in comparison to using the source document directly, while they help emphasize differences among systems that would be ignored under other evaluation approaches. 1",
+    "countries": [
+        "United Kingdom"
+    ],
+    "languages": [
+        "Indonesian"
+    ],
+    "numcitedby": 23,
+    "year": 2019,
+    "month": "July",
+    "title": "{H}igh{RES}: Highlight-based Reference-less Evaluation of Summarization"
 }

@@ -7,5 +7,17 @@
         "foundation": 3.128162811005808e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding body, it is not possible to accurately attribute the research to any of these sources based on the provided text alone."
+    "reasoning": "Reasoning: The article does not provide specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or any other funding body, it is not possible to accurately attribute the research to any of these sources based on the provided text alone.",
+    "abstract": "We propose a methodology using underspecified semantic interpretation to process comparative constructions in MEDLINE citations, concentrating on two structures that are prevalent in the research literature reporting on clinical trials for drug therapies. The method exploits an existing semantic processor, SemRep, which constructs predications based on the Unified Medical Language System. Results of a preliminary evaluation were recall of 70%, precision of 96%, and F-score of 81%. We discuss the generalization of the methodology to other entities such as therapeutic and diagnostic procedures. The available structures in computable format are potentially useful for interpreting outcome statements in MEDLINE citations.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Japanese",
+        "English"
+    ],
+    "numcitedby": 71,
+    "year": 2007,
+    "month": "June",
+    "title": "Interpreting comparative constructions in biomedical text"
 }

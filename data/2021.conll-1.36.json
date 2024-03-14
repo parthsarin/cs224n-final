@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section mentions that the project received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme, which is a research agency. It also mentions that Matthijs Westera received funding from Leiden University (LUCL, SAILS), which is an educational institution and does not fit into the specified categories. There is no mention of funding from defense, corporate, or foundation sources."
+    "reasoning": "Reasoning: The acknowledgements section mentions that the project received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme, which is a research agency. It also mentions that Matthijs Westera received funding from Leiden University (LUCL, SAILS), which is an educational institution and does not fit into the specified categories. There is no mention of funding from defense, corporate, or foundation sources.",
+    "abstract": "It is often posited that more predictable parts of a speaker's meaning tend to be made less explicit, for instance using shorter, less informative words. Studying these dynamics in the domain of referring expressions has proven difficult, with existing studies, both psycholinguistic and corpus-based, providing contradictory results. We test the hypothesis that speakers produce less informative referring expressions (e.g., pronouns vs. full noun phrases) when the context is more informative about the referent, using novel computational estimates of referent predictability. We obtain these estimates training an existing coreference resolution system for English on a new task, masked coreference resolution, giving us a probability distribution over referents that is conditioned on the context but not the referring expression. The resulting system retains standard coreference resolution performance while yielding a better estimate of human-derived referent predictability than previous attempts. A statistical analysis of the relationship between model output and mention form supports the hypothesis that predictability affects the form of a mention, both its morphosyntactic type and its length.",
+    "countries": [
+        "Spain"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 0,
+    "year": 2021,
+    "month": "November",
+    "title": "Does referent predictability affect the choice of referential form? A computational approach using masked coreference resolution"
 }

@@ -7,5 +7,14 @@
         "foundation": 1.9361263126072004e-07,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions funding from NSF Grant IIS-1302668-002 under the Robust Intelligence Program, which is a research agency, and an IARPA Grant under the Social Constructs in Language Program to UCSC by subcontract from the University of Maryland, which is also a research agency. There is no mention of funding from defense, corporate entities, or foundations."
+    "reasoning": "Reasoning: The article explicitly mentions funding from NSF Grant IIS-1302668-002 under the Robust Intelligence Program, which is a research agency, and an IARPA Grant under the Social Constructs in Language Program to UCSC by subcontract from the University of Maryland, which is also a research agency. There is no mention of funding from defense, corporate entities, or foundations.",
+    "abstract": "We investigate the characteristics of factual and emotional argumentation styles observed in online debates. Using an annotated set of FACTUAL and FEELING debate forum posts, we extract patterns that are highly correlated with factual and emotional arguments, and then apply a bootstrapping methodology to find new patterns in a larger pool of unannotated forum posts. This process automatically produces a large set of patterns representing linguistic expressions that are highly correlated with factual and emotional language. Finally, we analyze the most discriminating patterns to better understand the defining characteristics of factual and emotional arguments.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [],
+    "numcitedby": 54,
+    "year": 2015,
+    "month": "June",
+    "title": "And That{'}s A Fact: Distinguishing Factual and Emotional Argumentation in Online Dialogue"
 }

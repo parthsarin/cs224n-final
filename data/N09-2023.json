@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 5.51223498068687e-07
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by the MKE (Ministry of Knowledge Economy), Korea, under the ITRC (Information Technology Research Center) support program supervised by the IITA (Institute for Information Technology Advancement). These entities suggest government funding, aligning with a research agency's profile. There is no mention of defense, corporate, foundation, or an absence of funding."
+    "reasoning": "Reasoning: The article explicitly mentions that the research was supported by the MKE (Ministry of Knowledge Economy), Korea, under the ITRC (Information Technology Research Center) support program supervised by the IITA (Institute for Information Technology Advancement). These entities suggest government funding, aligning with a research agency's profile. There is no mention of defense, corporate, foundation, or an absence of funding.",
+    "abstract": "Various knowledge sources are used for spoken dialog systems such as task model, domain model, and agenda. An agenda graph is one of the knowledge sources for a dialog management to reflect a discourse structure. This paper proposes a clustering and linking method to automatically construct an agenda graph from human-human dialogs. Preliminary evaluation shows our approach would be helpful to reduce human efforts in designing prior knowledge.",
+    "countries": [
+        "South Korea"
+    ],
+    "languages": [
+        ""
+    ],
+    "numcitedby": 6,
+    "year": 2009,
+    "month": "June",
+    "title": "Automatic Agenda Graph Construction from Human-Human Dialogs using Clustering Method"
 }

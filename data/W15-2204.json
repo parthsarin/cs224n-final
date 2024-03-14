@@ -7,5 +7,16 @@
         "foundation": 6.704270752999619e-07,
         "none": 0.9999996871837189
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the research presented. Therefore, based on the information provided, it is not possible to determine any funding sources.",
+    "abstract": "We propose to use Graph Rewriting for parsing syntactic dependencies. We present a system of rewriting rules dedicated to French and we evaluate it by parsing the SEQUOIA corpus.",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": 8,
+    "year": 2015,
+    "month": "July",
+    "title": "Dependency Parsing with Graph Rewriting"
 }

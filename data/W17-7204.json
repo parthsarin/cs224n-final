@@ -7,5 +7,16 @@
         "foundation": 1.9361263126072004e-07,
         "none": 1.0
     },
-    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research or the development of the JeuxDeMots network. Therefore, based on the provided text, it is assumed that no external funding sources are reported."
+    "reasoning": "Reasoning: The article does not mention any specific funding sources, including defense, corporate, research agencies, foundations, or any other type of financial support for the conducted research or the development of the JeuxDeMots network. Therefore, based on the provided text, it is assumed that no external funding sources are reported.",
+    "abstract": "",
+    "countries": [
+        "France"
+    ],
+    "languages": [
+        "French"
+    ],
+    "numcitedby": 0,
+    "year": 2017,
+    "month": "",
+    "title": "Explicative Path Finding in a Semantic Network"
 }

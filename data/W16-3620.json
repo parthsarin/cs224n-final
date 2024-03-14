@@ -7,5 +7,14 @@
         "foundation": 0.0,
         "none": 3.128162811005808e-07
     },
-    "reasoning": "Reasoning: The article explicitly thanks NSERC for financial support. NSERC (Natural Sciences and Engineering Research Council of Canada) is a government-funded agency that provides grants for research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly thanks NSERC for financial support. NSERC (Natural Sciences and Engineering Research Council of Canada) is a government-funded agency that provides grants for research, indicating that the research was funded by a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that there were no other funding sources.",
+    "abstract": "This paper investigates the influence of discourse features on text complexity assessment. To do so, we created two data sets based on the Penn Discourse Treebank and the Simple English Wikipedia corpora and compared the influence of coherence, cohesion, surface, lexical and syntactic features to assess text complexity. Results show that with both data sets coherence features are more correlated to text complexity than the other types of features. In addition, feature selection revealed that with both data sets the top most discriminating feature is a coherence feature.",
+    "countries": [
+        "Canada"
+    ],
+    "languages": [],
+    "numcitedby": 8,
+    "year": 2016,
+    "month": "September",
+    "title": "On the Contribution of Discourse Structure on Text Complexity Assessment"
 }

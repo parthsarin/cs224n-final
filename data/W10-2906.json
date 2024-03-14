@@ -7,5 +7,18 @@
         "foundation": 5.51223498068687e-07,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The acknowledgements section of the article mentions NSF grants, an NSF graduate research fellowship, the DNI under a grant, and BBN under a DARPA contract. The NSF (National Science Foundation) is a government-funded research agency, the DNI (Director of National Intelligence) is a defense-related agency, and DARPA (Defense Advanced Research Projects Agency) is part of the Department of Defense. BBN Technologies has been involved in various research and development projects, often with defense applications, but in this context, it is acting as a conduit for DARPA funding, not as a corporate sponsor. No foundations or corporate entities are mentioned as funding sources."
+    "reasoning": "Reasoning: The acknowledgements section of the article mentions NSF grants, an NSF graduate research fellowship, the DNI under a grant, and BBN under a DARPA contract. The NSF (National Science Foundation) is a government-funded research agency, the DNI (Director of National Intelligence) is a defense-related agency, and DARPA (Defense Advanced Research Projects Agency) is part of the Department of Defense. BBN Technologies has been involved in various research and development projects, often with defense applications, but in this context, it is acting as a conduit for DARPA funding, not as a corporate sponsor. No foundations or corporate entities are mentioned as funding sources.",
+    "abstract": "This work shows how to improve state-of-the-art monolingual natural language processing models using unannotated bilingual text. We build a multiview learning objective that enforces agreement between monolingual and bilingual models. In our method the first, monolingual view consists of supervised predictors learned separately for each language. The second, bilingual view consists of log-linear predictors learned over both languages on bilingual text. Our training procedure estimates the parameters of the bilingual model using the output of the monolingual model, and we show how to combine the two models to account for dependence between views. For the task of named entity recognition, using bilingual predictors increases F1 by 16.1% absolute over a supervised monolingual model, and retraining on bilingual predictions increases monolingual model F1 by 14.6%. For syntactic parsing, our bilingual predictor increases F1 by 2.1% absolute, and retraining a monolingual model on its output gives an improvement of 2.0%.",
+    "countries": [
+        "United States"
+    ],
+    "languages": [
+        "Chinese",
+        "English",
+        "German"
+    ],
+    "numcitedby": 39,
+    "year": 2010,
+    "month": "July",
+    "title": "Learning Better Monolingual Models with Unannotated Bilingual Text"
 }

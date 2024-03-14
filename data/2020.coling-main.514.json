@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly thanks Dr. Yo Ehara for his advice on choosing English vocabulary datasets and mentions that the work was partly supported by JSPS KAKENHI Grant Number 18K18104. JSPS (Japan Society for the Promotion of Science) is a major Japanese government organization that provides grants for academic research, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received."
+    "reasoning": "Reasoning: The article explicitly thanks Dr. Yo Ehara for his advice on choosing English vocabulary datasets and mentions that the work was partly supported by JSPS KAKENHI Grant Number 18K18104. JSPS (Japan Society for the Promotion of Science) is a major Japanese government organization that provides grants for academic research, making it a research agency. There is no mention of funding from defense, corporate entities, foundations, or an indication that no funding was received.",
+    "abstract": "We propose a novel task of native-like expression identification by contrasting texts written by native speakers and those by proficient second language speakers. This task is highly challenging mainly because 1) the combinatorial nature of expressions prevents us from choosing candidate expressions a priori and 2) the distributions of the two types of texts overlap considerably. Our solution to the first problem is to combine a powerful neural network-based classifier of sentencelevel nativeness with an explainability method that measures an approximate contribution of a given expression to the classifier's prediction. To address the second problem, we introduce a special label neutral and reformulate the classification task as complementary-label learning. Our crowdsourcing-based evaluation and in-depth analysis suggest that our method successfully uncovers linguistically interesting usages distinctive of native speech.",
+    "countries": [
+        "Japan"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "December",
+    "title": "Native-like Expression Identification by Contrasting Native and Proficient Second Language Speakers"
 }

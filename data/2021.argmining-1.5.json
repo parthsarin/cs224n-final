@@ -7,5 +7,16 @@
         "foundation": 0.0,
         "none": 0.0
     },
-    "reasoning": "Reasoning: The article explicitly mentions that the research is funded through the Open Competition Digitalization Humanities and Social Science grant nr 406.D1.19.073 awarded by the Netherlands Organization of Scientific Research (NWO), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources."
+    "reasoning": "Reasoning: The article explicitly mentions that the research is funded through the Open Competition Digitalization Humanities and Social Science grant nr 406.D1.19.073 awarded by the Netherlands Organization of Scientific Research (NWO), which is a research agency. There is no mention of funding from defense, corporate entities, foundations, or any indication that there were no other funding sources.",
+    "abstract": "Cross-topic stance detection is the task to automatically detect stances (pro, against, or neutral) on unseen topics. We successfully reproduce state-of-the-art cross-topic stance detection work (Reimers et al., 2019) , and systematically analyze its reproducibility. Our attention then turns to the cross-topic aspect of this work, and the specificity of topics in terms of vocabulary and socio-cultural context. We ask: To what extent is stance detection topicindependent and generalizable across topics? We compare the model's performance on various unseen topics, and find topic (e.g. abortion, cloning), class (e.g. pro, con), and their interaction affecting the model's performance. We conclude that investigating performance on different topics, and addressing topic-specific vocabulary and context, is a future avenue for cross-topic stance detection.",
+    "countries": [
+        "Netherlands"
+    ],
+    "languages": [
+        "English"
+    ],
+    "numcitedby": 2,
+    "year": 2021,
+    "month": "November",
+    "title": "Is Stance Detection Topic-Independent and Cross-topic Generalizable? - A Reproduction Study"
 }

@@ -7,5 +7,18 @@
         "foundation": 0.0,
         "none": 1.9361263126072004e-07
     },
-    "reasoning": "Reasoning: The acknowledgements section of the paper mentions specific support from CUHK RSFS #3133237, HK RGC GRF #14204118, HK ITF #ITS/335/18, and NSFC Young Scientists Fund 62006203. These are indicative of research agency funding, as they refer to grants from university research funds, government research grants, and national science foundations, all of which are typical examples of research agency support. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding."
+    "reasoning": "Reasoning: The acknowledgements section of the paper mentions specific support from CUHK RSFS #3133237, HK RGC GRF #14204118, HK ITF #ITS/335/18, and NSFC Young Scientists Fund 62006203. These are indicative of research agency funding, as they refer to grants from university research funds, government research grants, and national science foundations, all of which are typical examples of research agency support. There is no mention of defense, corporate, or foundation funding, nor is there a statement indicating the absence of funding.",
+    "abstract": "Quotations are crucial for successful explanations and persuasions in interpersonal communications. However, finding what to quote in a conversation is challenging for both humans and machines. This work studies automatic quotation generation in an online conversation and explores how language consistency affects whether a quotation fits the given context. Here, we capture the contextual consistency of a quotation in terms of latent topics, interactions with the dialogue history, and coherence to the query turn's existing content. Further, an encoder-decoder neural framework is employed to continue the context with a quotation via language generation. Experiment results on two large-scale datasets in English and Chinese demonstrate that our quotation generation model outperforms the state-of-the-art models. Further analysis shows that topic, interaction, and query consistency are all helpful to learn how to quote in online conversations.",
+    "countries": [
+        "China",
+        "Hong Kong"
+    ],
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "numcitedby": 7,
+    "year": 2020,
+    "month": "November",
+    "title": "Continuity of Topic, Interaction, and Query: Learning to Quote in Online Conversations"
 }

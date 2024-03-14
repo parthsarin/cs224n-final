@@ -7,5 +7,22 @@
         "foundation": 1.9361263126072004e-07,
         "none": 0.9998835895922175
     },
-    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text."
+    "reasoning": "Reasoning: The article does not provide any specific information regarding its funding sources. Without explicit mention of support from defense, corporate entities, research agencies, foundations, or an indication of no funding, it is not possible to accurately determine the funding sources based on the provided text.",
+    "abstract": "Producing related words is a key concern in historical linguistics. Given an input word, the task is to automatically produce either its proto-word, a cognate pair or a modern word derived from it. In this paper, we apply a method for producing related words based on sequence labeling, aiming to fill in the gaps in incomplete cognate sets in Romance languages with Latin etymology (producing Romanian cognates that are missing) and to reconstruct uncertified Latin words. We further investigate an ensemble-based aggregation for combining and re-ranking the word productions of multiple languages.",
+    "countries": [
+        "Romania",
+        "France"
+    ],
+    "languages": [
+        "Latin",
+        "Italian",
+        "French",
+        "Spanish",
+        "Portuguese",
+        "Romanian"
+    ],
+    "numcitedby": 1,
+    "year": 2020,
+    "month": "May",
+    "title": "Automatic Reconstruction of Missing {R}omanian Cognates and Unattested {L}atin Words"
 }
