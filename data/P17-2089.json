@@ -17,7 +17,7 @@
         "English",
         "Chinese"
     ],
-    "numcitedby": "88",
+    "numcitedby": 88,
     "year": 2017,
     "month": "July",
     "title": "Sentence Embedding for Neural Machine Translation Domain Adaptation"

@@ -15,7 +15,7 @@
     "languages": [
         "Japanese"
     ],
-    "numcitedby": "3",
+    "numcitedby": 3,
     "year": 2017,
     "month": "November",
     "title": "Extracting Important Tweets for News Writers using Recurrent Neural Network with Attention Mechanism and Multi-task Learning"

@@ -17,7 +17,7 @@
         "French",
         "English"
     ],
-    "numcitedby": "3",
+    "numcitedby": 3,
     "year": 2008,
     "month": "June",
     "title": "Part-of-Speech Tagging with a Symbolic Full Parser: Using the {TIGER} Treebank to Evaluate Fips"

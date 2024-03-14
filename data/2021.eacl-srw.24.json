@@ -19,7 +19,7 @@
         "French",
         "English"
     ],
-    "numcitedby": "4",
+    "numcitedby": 4,
     "year": 2021,
     "month": "April",
     "title": "Beyond the {E}nglish Web: Zero-Shot Cross-Lingual and Lightweight Monolingual Classification of Registers"
