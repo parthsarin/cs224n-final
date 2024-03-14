@@ -169,8 +169,9 @@ class HuggingFaceClassifier(ArticleClassifier):
 
         # remove the prompt
         output = output.sequences[:, input_ids.shape[1] :][0]
-        generation = self.tokenizer.decode(output).strip().lower()
-        reasoning = generation.split("\n")[0].strip()
+        generation = self.tokenizer.decode(output).strip()
+        breakpoint()
+        reasoning = f'Reasoning: {generation.split("\n")[0].strip()}'
         answer = "\n".join(generation.split("\n")[1:])
 
         # can't parse the answer
