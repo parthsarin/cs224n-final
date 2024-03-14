@@ -170,8 +170,8 @@ class HuggingFaceClassifier(ArticleClassifier):
         # remove the prompt
         output = output.sequences[:, input_ids.shape[1] :][0]
         generation = self.tokenizer.decode(output).strip()
-        breakpoint()
-        reasoning = f'Reasoning: {generation.split("\n")[0].strip()}'
+        reasoning = generation.split("\n")[0].strip()
+        reasoning = f"Reasoning: {reasoning}"
         answer = "\n".join(generation.split("\n")[1:])
 
         # can't parse the answer
@@ -179,7 +179,7 @@ class HuggingFaceClassifier(ArticleClassifier):
             return None, None
 
         # get the probabilities
-        probs = []
+        selected_probs = []
         capture_ans = False
         for tok, score, idx in zip(output, probs, range(len(output))):
             tok = self.tokenizer.decode(tok).strip().lower()
@@ -188,11 +188,11 @@ class HuggingFaceClassifier(ArticleClassifier):
 
             if tok in ("yes", "no") and capture_ans:
                 p = score if tok == "yes" else 1 - score
-                probs.append(p.item())
+                selected_probs.append(p.item())
 
         # get the labels
         labels = [t[: t.find(":")] for t in answer.split("\n") if t.strip()]
-        out = dict(zip(labels, probs))
+        out = dict(zip(labels, selected_probs))
 
         return out, reasoning
 
