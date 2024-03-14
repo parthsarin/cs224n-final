@@ -182,7 +182,7 @@ class HuggingFaceClassifier(ArticleClassifier):
         selected_probs = []
         capture_ans = False
         for tok, score, idx in zip(output, probs, range(len(output))):
-            tok = self.tokenizer.decode(tok).strip().lower()
+            tok = self.tokenizer.decode(tok)
             if "\n" in tok:
                 capture_ans = True
 
