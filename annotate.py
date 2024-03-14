@@ -140,66 +140,53 @@ class HuggingFaceClassifier(ArticleClassifier):
     def __repr__(self):
         return f'HuggingFaceClassifier(model="{self.model_str}")'
 
-    def format_prompt(self, article, prompt=None):
-        if prompt is None:
-            prompt = self.prompt_template
-
-        return (
-            (
-                src,
-                prompt.format(article=article, question=question).strip(),
-            )
-            for src, question in self.questions.items()
-        )
 
     def annotate(self, article, prompt=None):
         out = {}
         reasoning = {}
-        for src, prompt in self.format_prompt(article, prompt):
-            input_ids = self.tokenizer.encode(
-                prompt, return_tensors="pt", add_special_tokens=False
-            ).cuda()
 
-            with torch.cuda.amp.autocast():
-                output = self.model.generate(
-                    input_ids,
-                    max_new_tokens=self.max_tokens,
-                    do_sample=(self.temperature > 0),
-                    temperature=self.temperature,
-                    output_scores=True,
-                    return_dict_in_generate=True,
-                    pad_token_id=self.tokenizer.eos_token_id,
-                )
+        if prompt is None:
+            prompt = self.prompt_template
+        prompt = prompt.format(article=article, question=question).strip(),
 
-                # get the logprobs
-                logprobs = self.model.compute_transition_scores(
-                    output.sequences, output.scores, normalize_logits=True
-                )
-                logprobs = logprobs[0].cpu().detach().numpy()
-                probs = np.exp(logprobs)
+        input_ids = self.tokenizer.encode(
+            prompt, return_tensors="pt", add_special_tokens=False
+        ).cuda()
 
-            # remove the prompt
-            output = output.sequences[:, input_ids.shape[1] :][0]
-            generation = self.tokenizer.decode(output).strip().lower()
+        with torch.cuda.amp.autocast():
+            output = self.model.generate(
+                input_ids,
+                max_new_tokens=self.max_tokens,
+                do_sample=(self.temperature > 0),
+                temperature=self.temperature,
+                output_scores=True,
+                return_dict_in_generate=True,
+                pad_token_id=self.tokenizer.eos_token_id,
+            )
 
-            # can't parse the answer
-            if ("yes" not in generation) and ("no" not in generation):
-                out[src] = None
-                reasoning[src] = None
-                continue
+            # get the logprobs
+            logprobs = self.model.compute_transition_scores(
+                output.sequences, output.scores, normalize_logits=True
+            )
+            logprobs = logprobs[0].cpu().detach().numpy()
+            probs = np.exp(logprobs)
 
-            # get the probabilities, going backwards
-            capture_ans = False
-            for tok, score, idx in zip(output, probs, range(len(output))):
-                tok = self.tokenizer.decode(tok).strip().lower()
-                if tok in ("a", "a:", "a: ", "a :", "answer:", "answer"):
-                    reasoning[src] = generation[idx:]
-                    capture_ans = True  # start capturing the answer
+        # remove the prompt
+        output = output.sequences[:, input_ids.shape[1] :][0]
+        generation = self.tokenizer.decode(output).strip().lower()
 
-                if tok in ("yes", "no") and capture_ans:
-                    p = score if tok == "yes" else 1 - score
-                    out[src] = p.item()
-                    break
+        # can't parse the answer
+        if ("yes" not in generation) and ("no" not in generation):
+            return None, None
+
+        # get the probabilities
+        probs = []
+        for tok, score, idx in zip(output, probs, range(len(output))):
+            tok = self.tokenizer.decode(tok).strip().lower()
+            if tok in ("yes", "no") and capture_ans:
+                p = score if tok == "yes" else 1 - score
+                probs.append(p.item())
+        out = dict(zip(['defense', 'corporate', 'research agency', 'foundation', 'none'], probs))
 
         return out, reasoning
 
