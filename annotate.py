@@ -140,14 +140,10 @@ class HuggingFaceClassifier(ArticleClassifier):
     def __repr__(self):
         return f'HuggingFaceClassifier(model="{self.model_str}")'
 
-
     def annotate(self, article, prompt=None):
-        out = {}
-        reasoning = {}
-
         if prompt is None:
             prompt = self.prompt_template
-        prompt = prompt.format(article=article, question=question).strip(),
+        prompt = (prompt.format(article=article, question=question).strip(),)
 
         input_ids = self.tokenizer.encode(
             prompt, return_tensors="pt", add_special_tokens=False
@@ -174,19 +170,28 @@ class HuggingFaceClassifier(ArticleClassifier):
         # remove the prompt
         output = output.sequences[:, input_ids.shape[1] :][0]
         generation = self.tokenizer.decode(output).strip().lower()
+        reasoning = generation.split("\n")[0].strip()
+        answer = "\n".join(generation.split("\n")[1:])
 
         # can't parse the answer
-        if ("yes" not in generation) and ("no" not in generation):
+        if ("yes" not in answer) and ("no" not in answer):
             return None, None
 
         # get the probabilities
         probs = []
+        capture_ans = False
         for tok, score, idx in zip(output, probs, range(len(output))):
             tok = self.tokenizer.decode(tok).strip().lower()
+            if "\n" in tok:
+                capture_ans = True
+
             if tok in ("yes", "no") and capture_ans:
                 p = score if tok == "yes" else 1 - score
                 probs.append(p.item())
-        out = dict(zip(['defense', 'corporate', 'research agency', 'foundation', 'none'], probs))
+
+        # get the labels
+        labels = [t[: t.find(":")] for t in answer.split("\n") if t.strip()]
+        out = dict(zip(labels, probs))
 
         return out, reasoning
 
