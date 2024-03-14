@@ -143,7 +143,7 @@ class HuggingFaceClassifier(ArticleClassifier):
     def annotate(self, article, prompt=None):
         if prompt is None:
             prompt = self.prompt_template
-        prompt = (prompt.format(article=article, question=question).strip(),)
+        prompt = prompt.format(article=article).strip()
 
         input_ids = self.tokenizer.encode(
             prompt, return_tensors="pt", add_special_tokens=False
