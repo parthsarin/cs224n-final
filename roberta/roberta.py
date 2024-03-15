@@ -158,7 +158,7 @@ def train(
         for batch_start in range(0, len(X_train), batch_size):
             batch_X = X_train["input_ids"][batch_start : batch_start + batch_size, :]
             batch_labels = y_train[batch_start : batch_start + batch_size, :]
-            preds = model(**batch_X)
+            preds = model(batch_X)
             loss = loss_fn(preds, batch_labels)
             avg_loss += loss.item() * batch_X.size(0)
 
