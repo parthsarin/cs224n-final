@@ -83,7 +83,7 @@ def apply_model(model, doc):
     # apply the model to each chunk
     chunk_labels = []
     for chunk in chunks:
-        tokenized = tokenizer.encode(
+        tokenized = tokenizer(
             chunk,
             return_tensors="pt",
             add_special_tokens=False,
