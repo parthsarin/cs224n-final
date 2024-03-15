@@ -84,7 +84,12 @@ def apply_model(model, doc):
     chunk_labels = []
     for chunk in chunks:
         tokenized = tokenizer.encode(
-            chunk, return_tensors="pt", add_special_tokens=False
+            chunk,
+            return_tensors="pt",
+            add_special_tokens=False,
+            padding="max_length",
+            truncation=True,
+            max_length=512,
         ).cuda()
         with torch.no_grad():
             preds = model(tokenized).cpu().detach().numpy()
@@ -121,10 +126,14 @@ def train(
     """
     Train the model on the given data.
     """
-    X_train = [
-        tokenizer.encode(doc, return_tensors="pt", add_special_tokens=False).cuda()
-        for doc in train_docs
-    ]
+    X_train = tokenizer.batch_encode(
+        train_docs,
+        return_tensors="pt",
+        add_special_tokens=False,
+        padding="max_length",
+        truncation=True,
+        max_length=512,
+    ).cuda()
     y_train = torch.Tensor(y_train)
     y_train = y_train.unsqueeze(1).cuda()
 
