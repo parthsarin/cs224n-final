@@ -156,14 +156,7 @@ def train(
     for epoch in range(n_epochs):
         avg_loss = 0
         for batch_start in range(0, len(X_train), batch_size):
-            batch_X = {
-                "input_ids": X_train["input_ids"][
-                    batch_start : batch_start + batch_size, :
-                ],
-                "attention_mask": X_train["attention_mask"][
-                    batch_start : batch_start + batch_size, :
-                ],
-            }
+            batch_X = X_train["input_ids"][batch_start : batch_start + batch_size, :]
             batch_labels = y_train[batch_start : batch_start + batch_size, :]
             preds = model(**batch_X)
             loss = loss_fn(preds, batch_labels)
