@@ -164,7 +164,7 @@ def train(
             batch_labels = y_train[batch_start : batch_start + batch_size, :]
 
             preds = model(batch_X)
-            loss = loss_fn(preds, batch_labels)
+            loss = loss_fn(preds, batch_labels, reduction="sum")
             avg_loss += loss
 
         avg_loss /= len(X_train)
