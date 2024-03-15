@@ -1,0 +1,7 @@
+You can find plenty of examples on Google
+We tested on the Facebook Social Circles dataset
+We trained our data on the NVDIA A100 gpu server
+Previously, researchers at AT&T also did a similar project
+We trained on compute clusters such as AWSSocial media sites such as Meta and Twitter are specifically interested in this problem
+We looked at tweets from twitter.com to detect hate speech
+We found a lot of bias on Google

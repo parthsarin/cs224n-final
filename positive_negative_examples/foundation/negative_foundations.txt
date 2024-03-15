@@ -1,0 +1,8 @@
+Our work is done on previous work from our co-author's time as a Mellon Mays fellow
+They are planning to investigate ethical issues by the Gates Foundation
+She drives a Ford
+Our data comes from a popular Japanese newpaper, Asahi shinbun
+This study was funded by a research grant from the Simons Foundation.
+Previous research from Gates et al laid the foundation for our work
+We used an OpenAI foundational model
+we hope this is laying out foundational work in the field of NLP

@@ -1,0 +1,8 @@
+We are grateful to Google for providing the funding that supported our NLP research.
+This work was made possible through the generous funding provided by Microsoft.
+We would like to extend our sincere thanks to Facebook for their financial support in our NLP studies.
+The authors acknowledge the financial assistance provided by Amazon in conducting this NLP research.
+Special thanks to IBM for funding this project and enabling our advancements in NLP.
+We appreciate the support of Intel, whose funding was instrumental in the completion of our NLP work.
+This NLP research was supported by funding from Salesforce, for which we are thankful.
+We are indebted to Adobe for their financial contribution to our NLP study.

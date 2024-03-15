@@ -1,0 +1,7 @@
+This work was supported by DARPA under Contract No. HR0011-23-C-0145
+This work was supported in part by Office of Naval Research under grant HR0011-24-C-0078
+We would like to thank the Disruptive Technology Office (DTO), under DOD/DOI/ARDA
+Our work was funded by grant NBCHC050035 from the DOD
+We also gratefully acknowledge the support of the DARPA Communicating with Computers (CwC) program under ARO prime contract no. W911NF-16-1-0573.We are funded by grant W911NF-17-1-0648 from DARPA
+We received a grant from the Defense Advanced Research Projects Agency, contract W911NF-18-1-0729
+This research was supported by contract W911NF-19-1-0815 from the Department of Defense
