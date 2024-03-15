@@ -53,7 +53,7 @@ class Model(nn.Module):
             param.requires_grad = False
 
     def forward(self, x):
-        x = self.roberta(x).pooler_output
+        x = self.roberta(**x).pooler_output
         x = self.classifier(x)
         x = nn.functional.sigmoid(x)
         return x
@@ -164,7 +164,7 @@ def train(
 
             preds = model(batch_X)
             loss = loss_fn(preds, batch_labels)
-            avg_loss += loss * batch_X["input_ids"].size(0)
+            avg_loss += loss
 
         avg_loss /= len(X_train)
 
