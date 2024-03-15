@@ -123,6 +123,7 @@ def train(
         for doc in train_docs
     ]
     y_train = torch.Tensor(y_train)
+    y_train = y_train.unsqueeze(1)
 
     # start a new wandb run to track this script
     wandb.init(
