@@ -117,6 +117,7 @@ def train(
     n_epochs: int = 1_000,
     lr: float = 1e-3,
     save_dir: str = "weights",
+    batch_size: int = 50,
 ):
     """
     Train the model on the given data.
@@ -144,19 +145,22 @@ def train(
     loss_fn = nn.CrossEntropyLoss()
     for epoch in range(n_epochs):
         avg_loss = 0
-        for x, labels in zip(X_train, y_train):
-            if x.shape[-1] > 512:
-                continue
-            preds = model(x)
-            loss = loss_fn(preds, labels)
-            avg_loss += loss
+        for batch_start in range(0, len(X_train), batch_size):
+            batch_X = torch.cat(X_train[batch_start : batch_start + batch_size], dim=0)
+            batch_labels = torch.cat(
+                y_train[batch_start : batch_start + batch_size], dim=0
+            )
+            preds = model(batch_X)
+            loss = loss_fn(preds, batch_labels)
+            avg_loss += loss.item() * batch_X.size(0)
+
+        avg_loss /= len(X_train)
 
         opt.zero_grad()
         avg_loss.backward()
         opt.step()
 
         avg_loss = avg_loss.item()
-        avg_loss /= len(X_train)
         print(f"[epoch {epoch + 1}] loss: {avg_loss:.4f}", end="")
 
         if epoch % 10 == 0:
@@ -194,12 +198,14 @@ def main(args):
         n_epochs=args.num_epochs,
         lr=args.learning_rate,
         save_dir=args.save_dir,
+        batch_size=args.batch_size,
     )
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--num-epochs", type=int, default=10_000)
+    parser.add_argument("--batch-size", type=int, default=50)
     parser.add_argument("--learning-rate", type=float, default=1e-3)
     parser.add_argument("--save-dir", type=str, default="weights")
     args = parser.parse_args()

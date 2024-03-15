@@ -151,12 +151,13 @@ def train(
             loss = loss_fn(preds, labels)
             avg_loss += loss
 
+        avg_loss /= len(X_train)
+
         opt.zero_grad()
         avg_loss.backward()
         opt.step()
 
         avg_loss = avg_loss.item()
-        avg_loss /= len(X_train)
         print(f"[epoch {epoch + 1}] loss: {avg_loss:.4f}", end="")
 
         if epoch % 10 == 0:
