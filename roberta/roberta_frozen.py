@@ -155,7 +155,7 @@ def train(
     for epoch in range(n_epochs):
         avg_loss = 0
         for batch_start in range(0, len(X_train), batch_size):
-            batch_X = torch.cat(X_train[batch_start : batch_start + batch_size], dim=0)
+            batch_X = X_train[batch_start : batch_start + batch_size, :]
             batch_labels = y_train[batch_start : batch_start + batch_size, :]
             preds = model(batch_X)
             loss = loss_fn(preds, batch_labels)
