@@ -2,11 +2,10 @@
 File: parse_values.py
 --------------------
 
-This file contains the implementation of the topic modeling on the values that
-Vyoma's model produced.
+This file contains the implementation of the parsing the values from the
+output that Vyoma provided.
 """
-# from bertopic import BERTopic
-from typing import List, Optional
+from typing import Optional
 import sys
 import csv
 import argparse
@@ -22,10 +21,6 @@ ARTICLE_RE = re.compile(
     r"I have the following research paper:\n(.*?)\nReturn a list of excerpts from this paper related to (.*?), which refers to",
     re.DOTALL,
 )
-
-
-def fit_model_to_topic(docs: List[str]):
-    return BERTopic().fit_transform(docs)
 
 
 def fuzzy_substring_search(
@@ -76,7 +71,7 @@ def main(args):
 
     reader = csv.DictReader(open(args.input_file))
     for row in tqdm(reader, total=n_rows):
-        row["ACL_ID"]
+        acl_id = row["ACL_ID"]
         prompt = row["Prompt"]
 
         # use the regex to get the topic
@@ -95,11 +90,11 @@ def main(args):
         values = parse_values(article, row["response"])
 
         if values:
-            d = load(open("{args.out_folder}/{acl_id}.json"))
+            d = load(open(f"{args.out_folder}/{acl_id}.json"))
             d_vals = d.get("values", {})
             d_vals[topic] = values
             d["values"] = d_vals
-            dump(d, open("{args.out_folder}/{acl_id}.json", "w"))
+            dump(d, open(f"{args.out_folder}/{acl_id}.json", "w"), indent=4)
 
 
 if __name__ == "__main__":
