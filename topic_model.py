@@ -11,7 +11,6 @@ import argparse
 from glob import glob
 from json import load
 from collections import defaultdict
-import pandas as pd
 
 
 def fit_model_to_topic(docs: List[str]):
@@ -41,13 +40,13 @@ def main(args):
         docs = list(topic_data[topic].values())
         topics, probs, model = fit_model_to_topic(docs)
 
-        topic_df = pd.DataFrame(
-            {"acl_id": acl_ids, "topic": topics, "probability": probs}
-        )
+        # write the data
+        topic_df = model.get_document_info(docs)
+        topic_df["acl_id"] = acl_ids
+        topic_df["topic"] = topics
+        topic_df["probability"] = probs
+
         topic_df.to_csv(f"{args.out_dir}/{topic}.csv", index=False)
-        model.get_document_info().to_csv(
-            f"{args.out_dir}/{topic}_info.csv", index=False
-        )
 
         print(f"finished fitting model to topic {topic}, wrote to {args.out_dir}")
 
