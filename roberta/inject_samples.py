@@ -67,8 +67,8 @@ def main(args):
                 df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
                 df.loc[len(df) - 1, "text"] = new_text
                 df.loc[len(df) - 1, "chunk_id"] += f"-pos-{category}-{i}"
-                df.loc[len(df) - 1, "none"] = False
-                df.loc[len(df) - 1, category] = True
+                df.loc[len(df) - 1, "none"] = 0
+                df.loc[len(df) - 1, category] = 1
 
     # inject the negative samples
     for category, samples in zip(neg_categories, neg):
