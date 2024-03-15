@@ -128,7 +128,7 @@ def train(
     Train the model on the given data.
     """
     X_train = tokenizer.encode(
-        train_docs,
+        list(train_docs),
         return_tensors="pt",
         add_special_tokens=False,
         padding="max_length",
@@ -136,7 +136,7 @@ def train(
         max_length=512,
     ).cuda()
     y_train = torch.Tensor(y_train)
-    y_train = y_train.unsqueeze(1).cuda()
+    y_train = y_train.cuda()
 
     # start a new wandb run to track this script
     wandb.init(
@@ -156,9 +156,7 @@ def train(
         avg_loss = 0
         for batch_start in range(0, len(X_train), batch_size):
             batch_X = torch.cat(X_train[batch_start : batch_start + batch_size], dim=0)
-            batch_labels = torch.cat(
-                y_train[batch_start : batch_start + batch_size], dim=0
-            )
+            batch_labels = y_train[batch_start : batch_start + batch_size, :]
             preds = model(batch_X)
             loss = loss_fn(preds, batch_labels)
             avg_loss += loss.item() * batch_X.size(0)
