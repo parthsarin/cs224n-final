@@ -29,10 +29,8 @@ def main(args):
         acl_id = stem[: stem.rfind(".json")]
         values = data.get("values", {})
 
-        for value, snippets in values.items():
-            topic_data[value][acl_id] = " ".join(
-                s for s in snippets if len(s) > 5
-            )  # filter out short snippets
+        for value, snippet in values.items():
+            topic_data[value][acl_id] = snippet
 
     print("loaded topic data")
 
