@@ -119,7 +119,7 @@ def train(
     Train the model on the given data.
     """
     X_train = [
-        tokenizer.encode(doc, return_tensors="pt", add_special_tokens=False)
+        tokenizer.encode(doc, return_tensors="pt", add_special_tokens=False).cuda()
         for doc in train_docs
     ]
 
