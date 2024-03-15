@@ -52,8 +52,8 @@ class Model(nn.Module):
         for param in self.roberta.parameters():
             param.requires_grad = False
 
-    def forward(self, x, **kwargs):
-        x = self.roberta(x, **kwargs).pooler_output
+    def forward(self, x):
+        x = self.roberta(x).pooler_output
         x = self.classifier(x)
         x = nn.functional.sigmoid(x)
         return x

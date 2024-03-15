@@ -52,8 +52,8 @@ class Model(nn.Module):
         for param in self.roberta.parameters():
             param.requires_grad = False
 
-    def forward(self, x, **kwargs):
-        x = self.roberta(x, **kwargs).pooler_output
+    def forward(self, x):
+        x = self.roberta(x).pooler_output
         x = self.classifier(x)
         x = nn.functional.sigmoid(x)
         return x
@@ -156,14 +156,15 @@ def train(
     for epoch in range(n_epochs):
         avg_loss = 0
         for batch_start in range(0, len(X_train), batch_size):
-            batch_X = X_train["input_ids"][batch_start : batch_start + batch_size, :]
-            attn_mask = X_train["attention_mask"][
-                batch_start : batch_start + batch_size, :
-            ]
+            batch_X = {
+                k: v[batch_start : batch_start + batch_size, :]
+                for k, v in X_train.items()
+            }
             batch_labels = y_train[batch_start : batch_start + batch_size, :]
-            preds = model(batch_X, attention_mask=attn_mask)
+
+            preds = model(batch_X)
             loss = loss_fn(preds, batch_labels)
-            avg_loss += loss * batch_X.size(0)
+            avg_loss += loss * batch_X["input_ids"].size(0)
 
         avg_loss /= len(X_train)
 
