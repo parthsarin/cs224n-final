@@ -41,6 +41,13 @@ def main(args):
 
     # fit the model to the topic data
     for topic in topic_data:
+        try:
+            open(f"{args.out_dir}/{topic}.csv", "r")
+            print(f"topic {topic} already exists, skipping...")
+            continue
+        except FileNotFoundError:
+            pass
+
         print(f"fitting model to topic {topic}...")
         acl_ids = list(topic_data[topic].keys())
         docs = list(topic_data[topic].values())
