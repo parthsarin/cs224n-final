@@ -157,10 +157,13 @@ def train(
         avg_loss = 0
         for batch_start in range(0, len(X_train), batch_size):
             batch_X = X_train["input_ids"][batch_start : batch_start + batch_size, :]
+            attn_mask = X_train["attention_mask"][
+                batch_start : batch_start + batch_size, :
+            ]
             batch_labels = y_train[batch_start : batch_start + batch_size, :]
-            preds = model(batch_X)
+            preds = model(batch_X, attention_mask=attn_mask)
             loss = loss_fn(preds, batch_labels)
-            avg_loss += loss.item() * batch_X.size(0)
+            avg_loss += loss * batch_X.size(0)
 
         avg_loss /= len(X_train)
 
