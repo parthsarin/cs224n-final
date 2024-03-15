@@ -87,7 +87,8 @@ def apply_model(model, doc):
             padding="max_length",
             truncation=True,
             max_length=512,
-        ).cuda()
+        )
+        tokenized = {k: v.to("cuda") for k, v in tokenized.items()}
         with torch.no_grad():
             preds = model(tokenized).cpu().detach().numpy()
         chunk_labels.append(preds)
