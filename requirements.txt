@@ -9,3 +9,4 @@ accelerate
 bitsandbytes
 dataclasses-json
 bertopic
+peft
