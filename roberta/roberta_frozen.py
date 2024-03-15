@@ -145,7 +145,7 @@ def train(
     for epoch in range(n_epochs):
         avg_loss = 0
         for x, labels in zip(X_train, y_train):
-            if len(x) > 512:
+            if x.shape[-1] > 512:
                 continue
             preds = model(x)
             loss = loss_fn(preds, labels)
