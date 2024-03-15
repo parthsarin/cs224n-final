@@ -1,3 +1,8 @@
+import wandb
+import wandb
+import random
+
+
 import pandas as pd
 
 data = pd.read_csv("devset.csv")
@@ -30,6 +35,7 @@ class Model(nn.Module):
         nn.Linear(in_features=768, out_features=5)
     )
     self.attn_weights = nn.Parameter(torch.rand(49))
+
 
   def forward(self, x):
     # run the article through roberta in batches
@@ -66,8 +72,21 @@ y_val = test_data[['military', 'corporate', 'research_agency', 'foundation', 'no
 X_train_tokenized = [tokenizer.encode(article, return_tensors='pt').to('cuda') for article in X_train]
 X_val_tokenized = [tokenizer.encode(article, return_tensors='pt').to('cuda') for article in X_val]
 
-opt = torch.optim.Adam(model.parameters())
+opt = torch.optim.Adam(model.parameters(), lr=0.001)
 loss_fn = nn.CrossEntropyLoss()
+
+# start a new wandb run to track this script
+wandb.init(
+    # set the wandb project where this run will be logged
+    project="roberta-nlp-funding",
+    
+    # track hyperparameters and run metadata
+    config={
+    "learning_rate": 0.001,
+    "architecture": "pooled RoBERTa",
+    "epochs": 1000
+    }
+)
 
 for epoch in range(1_000):
   avg_loss = 0
@@ -93,8 +112,12 @@ for epoch in range(1_000):
       total_correct += sum(acc_vector)
 
     torch.save(model.state_dict(), f'weights/model_{epoch}.pt')
+    acc = total_correct / (5 * len(X_val_tokenized))
+    print(f' test accuracy: {acc}', end='')
+    wandb.log({'epoch': epoch, 'loss': avg_loss, 'accuracy': acc})
+  else:
+    wandb.log({'epoch': epoch, 'loss': avg_loss})
 
-    print(f' test accuracy: {total_correct / (5 * len(X_val_tokenized)):.4f}', end='')
   print()
 
 total_correct = 0
