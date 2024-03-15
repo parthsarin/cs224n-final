@@ -150,7 +150,7 @@ def train(
     )
 
     opt = torch.optim.Adam(model.parameters(), lr=lr)
-    loss_fn = nn.CrossEntropyLoss()
+    loss_fn = nn.CrossEntropyLoss(reduction="sum")
     for epoch in range(n_epochs):
         avg_loss = 0
         for batch_start in range(0, len(X_train), batch_size):
@@ -161,7 +161,7 @@ def train(
             batch_labels = y_train[batch_start : batch_start + batch_size, :]
 
             preds = model(batch_X)
-            loss = loss_fn(preds, batch_labels, reduction="sum")
+            loss = loss_fn(preds, batch_labels)
             avg_loss += loss
 
         avg_loss /= len(X_train)
