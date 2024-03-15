@@ -1,3 +1,11 @@
+"""
+File: roberta.py
+----------------
+
+Our implementation of the fine-tuned sliding window model using the RoBERTa
+transformer model.
+"""
+
 import wandb
 import pandas as pd
 from nltk import sent_tokenize
@@ -5,7 +13,12 @@ import numpy as np
 import torch
 import torch.nn as nn
 from transformers import RobertaTokenizer, RobertaModel
+from peft import LoraConfig, TaskType
+from peft import get_peft_model
 
+# -----------------------------------------------------------------------------
+# Data
+# -----------------------------------------------------------------------------
 data = pd.read_csv("devset.csv")
 test_data = pd.read_csv("testset.csv")
 
@@ -13,19 +26,14 @@ data = data[
     ["article_text", "military", "corporate", "research_agency", "foundation", "none"]
 ]
 test_data = test_data[
-    ["article_text", "military", "corporate", "research_agency", "foundation", "none"]
+    ["acl_id", "defense", "corporate", "research_agency", "foundation", "none"]
 ]
-
-
-tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 
 
 # -----------------------------------------------------------------------------
 # Model
 # -----------------------------------------------------------------------------
-
-from peft import LoraConfig, TaskType
-from peft import get_peft_model
+tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 
 peft_config = LoraConfig(
     task_type=TaskType.FEATURE_EXTRACTION,
@@ -98,74 +106,65 @@ def apply_model(doc):
     return p_funding
 
 
-# file_id, article_text, military, corporate, research_agency, foundation, none
-X_train = list(data["article_text"])
-y_train = torch.Tensor(
-    data[["military", "corporate", "research_agency", "foundation", "none"]].to_numpy()
-).cuda()
+def train(
+    model: nn.Module,
+    train_docs: list[str],
+    y_train: np.ndarray,
+    test_docs: list[str],
+    y_test: np.ndarray,
+    n_epochs: int = 1_000,
+    lr: float = 1e-3,
+    save_dir: str = "weights",
+):
+    """
+    Train the model on the given data.
+    """
+    X_train = [
+        tokenizer.encode(doc, return_tensors="pt", add_special_tokens=False)
+        for doc in train_docs
+    ]
 
-X_val = list(test_data["article_text"])
-y_val = test_data[
-    ["military", "corporate", "research_agency", "foundation", "none"]
-].to_numpy()
+    # start a new wandb run to track this script
+    wandb.init(
+        # set the wandb project where this run will be logged
+        project="roberta-nlp-funding",
+        # track hyperparameters and run metadata
+        config={
+            "learning_rate": lr,
+            "architecture": "sliding RoBERTa",
+            "epochs": n_epochs,
+        },
+    )
 
-# X_train, X_val, y_train, y_val = train_test_split(X, y, test_size=0.2,stratify=y)
-X_train_tokenized = [
-    tokenizer.encode(article, return_tensors="pt").to("cuda") for article in X_train
-]
-X_val_tokenized = [
-    tokenizer.encode(article, return_tensors="pt").to("cuda") for article in X_val
-]
+    opt = torch.optim.Adam(model.parameters(), lr=lr)
+    loss_fn = nn.CrossEntropyLoss()
+    for epoch in range(n_epochs):
+        avg_loss = 0
+        for x, labels in zip(X_train, y_train):
+            preds = model(x)
+            loss = loss_fn(preds, labels)
+            avg_loss += loss
 
-opt = torch.optim.Adam(model.parameters(), lr=0.001)
-loss_fn = nn.CrossEntropyLoss()
+        opt.zero_grad()
+        avg_loss.backward()
+        opt.step()
 
-# start a new wandb run to track this script
-wandb.init(
-    # set the wandb project where this run will be logged
-    project="roberta-nlp-funding",
-    # track hyperparameters and run metadata
-    config={"learning_rate": 0.001, "architecture": "pooled RoBERTa", "epochs": 1000},
-)
+        avg_loss = avg_loss.item()
+        avg_loss /= len(X_train)
+        print(f"[epoch {epoch + 1}] loss: {avg_loss:.4f}", end="")
 
-for epoch in range(1_000):
-    avg_loss = 0
-    for x, labels in zip(X_train_tokenized, y_train):
-        preds = model(x)
-        loss = loss_fn(preds, labels)
-        avg_loss += loss
+        if epoch % 10 == 0:
+            total_correct = 0
+            for doc, labels in zip(test_docs, y_test):
+                preds = apply_model(doc).round()
+                acc_vector = 1 - (preds + labels) % 2
+                total_correct += sum(acc_vector)
 
-    opt.zero_grad()
-    avg_loss.backward()
-    opt.step()
+            torch.save(model.state_dict(), f"{save_dir}/model_{epoch}.pt")
+            acc = total_correct / (5 * len(test_docs))
+            print(f" test accuracy: {acc}", end="")
+            wandb.log({"epoch": epoch, "loss": avg_loss, "accuracy": acc})
+        else:
+            wandb.log({"epoch": epoch, "loss": avg_loss})
 
-    avg_loss = avg_loss.item()
-    avg_loss /= len(X_train_tokenized)
-    print(f"[epoch {epoch + 1}] loss: {avg_loss:.4f}", end="")
-
-    if epoch % 10 == 0:
-        total_correct = 0
-        for x, labels in zip(X_val_tokenized, y_val):
-            with torch.no_grad():
-                preds = model(x).cpu().detach().numpy().round()
-            acc_vector = 1 - (preds + labels) % 2
-            total_correct += sum(acc_vector)
-
-        torch.save(model.state_dict(), f"weights/model_{epoch}.pt")
-        acc = total_correct / (5 * len(X_val_tokenized))
-        print(f" test accuracy: {acc}", end="")
-        wandb.log({"epoch": epoch, "loss": avg_loss, "accuracy": acc})
-    else:
-        wandb.log({"epoch": epoch, "loss": avg_loss})
-
-    print()
-
-total_correct = 0
-for x, labels in zip(X_val_tokenized, y_val):
-    with torch.no_grad():
-        preds = model(x).cpu().detach().numpy().round()
-    acc_vector = 1 - (preds + labels) % 2
-    print("model predicted: ", preds)
-    print("correct answer: ", labels)
-    print("correctness: ", acc_vector)
-    print()
+        print()
