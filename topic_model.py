@@ -11,11 +11,17 @@ import argparse
 from glob import glob
 from json import load
 from collections import defaultdict
+from umap import UMAP
 
 
 def fit_model_to_topic(docs: List[str]):
-    m = BERTopic()
-    topics, probs = m.fit_transform(docs)
+    try:
+        m = BERTopic()
+        topics, probs = m.fit_transform(docs)
+    except Exception:
+        umap_model = UMAP(init="random")
+        m = BERTopic(umap_model=umap_model)
+        topics, probs = m.fit_transform(docs)
     return topics, probs, m
 
 
