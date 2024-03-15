@@ -5,7 +5,6 @@ File: roberta.py
 Our implementation of the fine-tuned sliding window model using the RoBERTa
 transformer model.
 """
-
 import wandb
 import pandas as pd
 from nltk import sent_tokenize
@@ -15,6 +14,7 @@ import torch.nn as nn
 from transformers import RobertaTokenizer, RobertaModel
 from peft import LoraConfig, TaskType
 from peft import get_peft_model
+import argparse
 
 # -----------------------------------------------------------------------------
 # Data
@@ -82,7 +82,7 @@ def apply_model(model, doc):
     for chunk in chunks:
         tokenized = tokenizer.encode(
             chunk, return_tensors="pt", add_special_tokens=False
-        ).to("cuda")
+        ).cuda()
         with torch.no_grad():
             preds = model(tokenized).cpu().detach().numpy()
         chunk_labels.append(preds)
@@ -96,7 +96,10 @@ def apply_model(model, doc):
     p_no_funding = np.sum(p_no_funding, axis=0)
     p_no_funding = np.exp(p_no_funding)
     p_funding = 1 - p_no_funding
-    return p_funding
+
+    p_none = (1 - p_funding).prod()
+    p_funding = list(p_funding.flatten()) + [p_none]
+    return np.array(p_funding)
 
 
 # -----------------------------------------------------------------------------
@@ -169,3 +172,28 @@ def train(
 # -----------------------------------------------------------------------------
 # Main loop
 # -----------------------------------------------------------------------------
+def main(args):
+    # train the model
+    train(
+        model,
+        train_data["text"],
+        train_data[
+            ["defense", "corporate", "research_agency", "foundation"]
+        ].to_numpy(),
+        test_data["text"],
+        test_data[
+            ["defense", "corporate", "research_agency", "foundation", "none"]
+        ].to_numpy(),
+        n_epochs=args.num_epochs,
+        lr=args.learning_rate,
+        save_dir=args.save_dir,
+    )
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--num-epochs", type=int, default=10_000)
+    parser.add_argument("--learning-rate", type=float, default=1e-3)
+    parser.add_argument("--save-dir", type=str, default="weights")
+    args = parser.parse_args()
+    main(args)
