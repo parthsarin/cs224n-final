@@ -19,7 +19,7 @@ from peft import get_peft_model
 # -----------------------------------------------------------------------------
 # Data
 # -----------------------------------------------------------------------------
-data = pd.read_csv("devset.csv")
+train_data = pd.read_csv("devset.csv")
 test_data = pd.read_csv("testset.csv")
 
 
@@ -59,7 +59,7 @@ class Model(nn.Module):
 model = Model().to("cuda")
 
 
-def apply_model(doc):
+def apply_model(model, doc):
     """
     Used at evaluation time to apply the model to a document.
     """
@@ -99,6 +99,9 @@ def apply_model(doc):
     return p_funding
 
 
+# -----------------------------------------------------------------------------
+# Training
+# -----------------------------------------------------------------------------
 def train(
     model: nn.Module,
     train_docs: list[str],
@@ -149,7 +152,7 @@ def train(
         if epoch % 10 == 0:
             total_correct = 0
             for doc, labels in zip(test_docs, y_test):
-                preds = apply_model(doc).round()
+                preds = apply_model(model, doc).round()
                 acc_vector = 1 - (preds + labels) % 2
                 total_correct += sum(acc_vector)
 
@@ -161,3 +164,8 @@ def train(
             wandb.log({"epoch": epoch, "loss": avg_loss})
 
         print()
+
+
+# -----------------------------------------------------------------------------
+# Main loop
+# -----------------------------------------------------------------------------
