@@ -147,7 +147,7 @@ def train(
         # track hyperparameters and run metadata
         config={
             "learning_rate": lr,
-            "architecture": "sliding RoBERTa (frozen roberta)",
+            "architecture": "sliding RoBERTa (frozen RoBERTa)",
             "epochs": n_epochs,
         },
     )
