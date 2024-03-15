@@ -22,13 +22,6 @@ from peft import get_peft_model
 data = pd.read_csv("devset.csv")
 test_data = pd.read_csv("testset.csv")
 
-data = data[
-    ["article", "defense", "corporate", "research_agency", "foundation", "none"]
-]
-test_data = test_data[
-    ["article", "defense", "corporate", "research_agency", "foundation", "none"]
-]
-
 
 # -----------------------------------------------------------------------------
 # Model
