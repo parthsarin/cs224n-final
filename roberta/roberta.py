@@ -23,10 +23,10 @@ data = pd.read_csv("devset.csv")
 test_data = pd.read_csv("testset.csv")
 
 data = data[
-    ["article_text", "military", "corporate", "research_agency", "foundation", "none"]
+    ["article", "defense", "corporate", "research_agency", "foundation", "none"]
 ]
 test_data = test_data[
-    ["acl_id", "defense", "corporate", "research_agency", "foundation", "none"]
+    ["article", "defense", "corporate", "research_agency", "foundation", "none"]
 ]
 
 
