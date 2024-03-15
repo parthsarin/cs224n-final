@@ -122,6 +122,7 @@ def train(
         tokenizer.encode(doc, return_tensors="pt", add_special_tokens=False).cuda()
         for doc in train_docs
     ]
+    y_train = torch.Tensor(y_train)
 
     # start a new wandb run to track this script
     wandb.init(
