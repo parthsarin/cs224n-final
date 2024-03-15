@@ -19,8 +19,8 @@ def fit_model_to_topic(docs: List[str]):
         m = BERTopic()
         topics, probs = m.fit_transform(docs)
     except Exception:
-        umap_model = UMAP(init="random", n_components=len(docs) // 2, min_topic_size=2)
-        m = BERTopic(umap_model=umap_model)
+        umap_model = UMAP(init="random", n_components=len(docs) // 2)
+        m = BERTopic(umap_model=umap_model, min_topic_size=2)
         topics, probs = m.fit_transform(docs)
     return topics, probs, m
 

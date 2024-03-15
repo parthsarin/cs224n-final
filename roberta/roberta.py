@@ -59,6 +59,9 @@ model = Model().to("cuda")
 
 
 def apply_model(doc):
+    """
+    Used at evaluation time to apply the model to a document.
+    """
     # break the document into chunks
     sentences = sent_tokenize(doc)
     chunks = []
