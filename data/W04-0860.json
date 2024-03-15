@@ -18,5 +18,9 @@
     "numcitedby": 6,
     "year": 2004,
     "month": "July",
-    "title": "The {R}2{D}2 team at Senseval-3"
+    "title": "The {R}2{D}2 team at Senseval-3",
+    "values": {
+        "performance": " With this voting system we obtained around a 63% precision and a 52% recall.  With this voting system preference was given to supervised systems over unsupervised systems. We obtained around a 63% precision and a 63% recall.",
+        "reproducibility": "We used as training data the part of the Sem-Cor corpus that is semantically annotated and supervised for nouns, verbs, adjectives and adverbs, and the test data set provided by SENSEVAL-2. In the experiments, we used WordNet1.6 (Miller et al., 1993a) as a dictionary that supplies all the possible semantic senses for a given word. The sense disambiguation of an adjective is performed only on the basis of the above weights."
+    }
 }

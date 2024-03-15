@@ -18,5 +18,9 @@
     "numcitedby": 4,
     "year": 2019,
     "month": "July",
-    "title": "Predicting Human Activities from User-Generated Content"
+    "title": "Predicting Human Activities from User-Generated Content",
+    "values": {
+        "building on past work": "In this paper, we explore the task of predicting human activities from user-generated text data, which will allow us to gain a deeper understanding of the kinds of everyday activities that people discuss online with one another. We use the authors' BiLSTM-max sentence encoder trained to capture the relatedness dimension of human activity phrases 5 to obtain vector representations of each of our activity phrases. We use K-means clustering in order to find a set of k act clusters that can be used to represent the semantic space in which the activity vectors lie. As input to our activity prediction model, we use three major components: a user's history, profile, and attributes. Finally, we set a = (s 0 , . . . , s dim L ) where dim L = 50, the number of value dimensions in the lexicon.",
+        "performance": "In the 50-class setup, the full T \u2212 a, p model consistently had the strongest average per-class accuracy for all values of k eval and the lowest (best) ACR score (Table 10 ). While our models are able to make predictions indicating that learning has taken place, it is clear that this prediction task is difficult. When including the attributes and profile for a user, the model typically overfits quickly and generalization deteriorates. For k eval \u2265 50, the same full T \u2212 a, p model that worked best in the 50-class setup again outperforms the others. Interestingly, the best ACR scores are even lower in the 806-class setup, showing that it is just as easy to rank users by their likelihood of writing about an activity, even when considering many more activity clusters."
+    }
 }

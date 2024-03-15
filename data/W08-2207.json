@@ -19,5 +19,9 @@
     "numcitedby": 6,
     "year": 2008,
     "month": "",
-    "title": "{K}now{N}et: A Proposal for Building Highly Connected and Dense Knowledge Bases from the {W}eb"
+    "title": "{K}now{N}et: A Proposal for Building Highly Connected and Dense Knowledge Bases from the {W}eb",
+    "values": {
+        "novelty": "KnowNet, is an extensible, large and accurate knowledge base, which has been derived by semantically disambiguating the Topic Signatures acquired from the web. This is one of the largest semantic resources ever built with around one hundred million relations between synsets and semantically related words. It is our belief, that accurate semantic processing (such as WSD) would rely not only on sophisticated algorithms but on knowledge intensive approaches. This version of the SSI algorithm is called SSI-Dijkstra. The initial results obtained for the different versions of KnowNet seem to be very promising, since they seem to be of a better quality than other available knowledge resources encoding relations between synsets derived from non-annotated sense corpora.",
+        "performance": "Interestingly, from KnowNet-10, all KnowNet versions surpass the knowledge resources used for their construction (WN, XWN, TSWEB and WN+XWN). Furthermore, the integration of WN+XWN+KN\u221220 performs better than MCR and similarly to MCR 2 (having less than 50 times its size). If we do not consider the resources derived from manually sense annotated data (spSemCor, MCR, TSSEM, etc. ), KnowNet-10 performs better that any knowledge resource derived by manual or automatic means. In fact, KnowNet-15 and KnowNet-20 outperforms spSemCor which was derived from manually annotated corpora. This is a very interesting result since these KnowNet versions have been derived only with the knowledge coming from WN and the web (that is, TSWEB), and WN and XWN as a knowledge source for SSI-Dijkstra (eXtended WordNet only has 17,185 manually labelled senses)."
+    }
 }

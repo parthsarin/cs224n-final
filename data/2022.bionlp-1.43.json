@@ -17,5 +17,9 @@
     "numcitedby": 1,
     "year": 2022,
     "month": "May",
-    "title": "{D}o{SSIER} at {M}ed{V}id{QA} 2022: Text-based Approaches to Medical Video Answer Localization Problem"
+    "title": "{D}o{SSIER} at {M}ed{V}id{QA} 2022: Text-based Approaches to Medical Video Answer Localization Problem",
+    "values": {
+        "novelty": "We propose two answer localization approaches that use only textual information extracted from the video. In particular, our approaches exploit the text extracted from the video's transcripts along with the text displayed in the video's frames to create a set of features. Our findings suggest that for this task, leveraging only textrelated features (transmitted either verbally or visually) and using a small amount of training data, lead to significant improvements over the benchmark Video Span Localization model that is based on deep neural networks.",
+        "performance": "Especially for the mIoU measure it obtains 10% more overlap on the Test data. Our best performing peak detection model achieves 40.52 IoU=0.3 on MedVidQA 2022 Shared Task and outperforms the VSL benchmark model on the MedVidQA test dataset."
+    }
 }

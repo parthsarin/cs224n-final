@@ -19,5 +19,10 @@
     "numcitedby": 9,
     "year": 2015,
     "month": "May{--}June",
-    "title": "Cost Optimization in Crowdsourcing Translation: Low cost translations made even cheaper"
+    "title": "Cost Optimization in Crowdsourcing Translation: Low cost translations made even cheaper",
+    "values": {
+        "building on past work": " Unlike past work, which always paid for a fixed number of translations for each source sentence and then chose the best from them, we can stop earlier and pay less when we receive a translation that is good enough.  Our work stands in contrast with Zaidan and Callison-Burch (2011) who always solicited and paid for a fixed number of translations for each source sentence, and who had no model of annotator quality.",
+        "novelty": "Our work stands in contrast with Zaidan and Callison-Burch (2011) who always solicited and paid for a fixed number of translations for each source sentence, and who had no model of annotator quality. We propose two mechanisms to reduce the cost of crowdsourcing while maintaining high translation quality. First, we develop a method to reduce redundant translations. We train a linear model to evaluate the translation quality on a sentenceby-sentence basis, and fit a threshold between acceptable and unacceptable translations. Unlike past work, which always paid for a fixed number of translations for each source sentence and then chose the best from them, we can stop earlier and pay less when we receive a translation that is good enough. Second, we introduce a method to reduce the pool of translators by quickly identifying bad translators after they have translated only a few sentences. This also allows us to rank translators, so that we re-hire only good translators to reduce cost.",
+        "performance": "Unlike past work, which always paid for a fixed number of translations for each source sentence and then chose the best from them, we can stop earlier and pay less when we receive a translation that is good enough. We can achieve a similar BLEU score as Zaidan and Callison-Burch (2011) at half the cost using our cost optimizing methods. The translation reducing method works if there exists a specific requirement that the quality must reach a certain threshold. The translator reducing method is very simple and easy to implement."
+    }
 }

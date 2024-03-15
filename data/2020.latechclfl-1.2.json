@@ -18,5 +18,8 @@
     "numcitedby": 3,
     "year": 2020,
     "month": "December",
-    "title": "Automatic Topological Field Identification in (Historical) {G}erman Texts"
+    "title": "Automatic Topological Field Identification in (Historical) {G}erman Texts",
+    "values": {
+        "performance": "The present study has investigated the automatic identification of topological fields in different modern and historical German texts using only modern newspaper text as training data. The evaluation has shown that, in general, transferring a model from modern newspaper data to other registers or time periods is possible. Using the Berkeley parser, different non-standard and spoken modern data sets as well as sermons from the 12th to the 18th century can be analyzed automatically with overall F 1 -scores >92%. For the most common fields like sentence brackets or the middle field, the accuracy can be considered sufficient for qualitative and quantitative research based on the automatic field identification. However, additional rules and especially additional training data for specific data sets could be very beneficial if sentence structures or the distribution of fields differ substantially from modern newspaper language. The evaluation has shown that texts from the Early New High German period, in particular, often exhibit such complex structures that they are hard to process even for human annotators. As a result, the parser only reaches an overall F 1 -score of 84% on the DTA data set. Future work has to unveil whether time-or genre-specific training data can improve these results and enable a reliable identification of all topological fields in various text types from all time periods."
+    }
 }

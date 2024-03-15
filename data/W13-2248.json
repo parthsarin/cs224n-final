@@ -20,5 +20,9 @@
     "numcitedby": 26,
     "year": 2013,
     "month": "August",
-    "title": "{LIG} System for {WMT}13 {QE} Task: Investigating the Usefulness of Features in Word Confidence Estimation for {MT}"
+    "title": "{LIG} System for {WMT}13 {QE} Task: Investigating the Usefulness of Features in Word Confidence Estimation for {MT}",
+    "values": {
+        "building on past work": "We integrate a number of features of various types (system-based, lexical, syntactic and semantic) into the conventional feature set, for our baseline classifier training. We categorize them into two types: the conventional features, which are proven to work efficiently in numerous CE works and are inherited in our systems, and the LIG features which are more specifically suggested by us.",
+        "novelty": "One more contribution we made is the protocol of applying Boosting algorithm, training multiple \"weak\" classifiers, taking advantage of their complementarity to get a \"stronger\" one."
+    }
 }

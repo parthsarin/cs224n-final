@@ -18,5 +18,9 @@
     "numcitedby": 56,
     "year": 2016,
     "month": "December",
-    "title": "What{'}s in an Explanation? Characterizing Knowledge and Inference Requirements for Elementary Science Exams"
+    "title": "What{'}s in an Explanation? Characterizing Knowledge and Inference Requirements for Elementary Science Exams",
+    "values": {
+        "building on past work": "We view this work as complementary, here characterizing the knowledge and inference requirements that an automated reasoning method for science exams must meet to assemble compelling human-readable explanations as part of the inference process.",
+        "performance": "The results also show that the gains in the inference solvers are not completely due to tailored knowledge. Using the highly tailored knowledge base as a retrieval corpus shows a small benefit (+4%), whereas using the knowledge via appropriate inference substantially increases performance (+13%). On the balance, this high-level analysis shows that inference methods designed to aggregate multiple pieces of information from a knowledge base specifically benefit questions requiring complex inference, more than the contribution of tailoring a similarly-sized retrieval-centered knowledge base alone. First, the inference solver outperforms L2R solvers across the board, with strong improvements when there are retrieval or inference-supporting types, and smaller improvements for explanations with complex inference types, except for the causal types (+18% gain in P@1). PartOf, and Requirement types work better with study guides rather than Tablestore knowledge, suggesting the entirety of the study guide knowledge is not subsumed by the tablestore."
+    }
 }

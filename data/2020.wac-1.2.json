@@ -20,5 +20,8 @@
     "numcitedby": 5,
     "year": 2020,
     "month": "May",
-    "title": "Out-of-the-Box and into the Ditch? Multilingual Evaluation of Generic Text Extraction Tools"
+    "title": "Out-of-the-Box and into the Ditch? Multilingual Evaluation of Generic Text Extraction Tools",
+    "values": {
+        "performance": "Our experiments highlight the diversity of web page layouts across languages or publishing countries. These discrepancies are reflected by diverging performances so that the right tool has to be chosen accordingly. For Russian BP3 LARG is a good solution if one needs precision but JUSTEXT achieves a satisfying trade-off between precision and recall. According to our study, there appears to be no benefit from more intricate machine-learning approaches, DRAGNET does not stand out and does not perform poorly either."
+    }
 }

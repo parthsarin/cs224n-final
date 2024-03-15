@@ -18,5 +18,9 @@
     "numcitedby": 3,
     "year": 2015,
     "month": "May{--}June",
-    "title": "A {B}ayesian Model for Joint Learning of Categories and their Features"
+    "title": "A {B}ayesian Model for Joint Learning of Categories and their Features",
+    "values": {
+        "building on past work": "Theories of categorization largely agree that categories are characterized by features such as function or appearance and that feature and category acquisition go hand-in-hand, however previous work has considered these problems in isolation. We present the first model that jointly learns categories and their features. Previous modeling work has largely considered these problems in isolation, focusing either on category learning with a fixed set of simplistic features (Anderson, 1991; Sanborn et al., 2006) or feature learning (Austerweil and Griffiths, 2013; Baroni et al., 2010; Kelly et al., 2014) , but not both.",
+        "performance": "Overall, the precision scores may seem low. However, the models rank a set of 492 target concepts; a random baseline would achieve a pr@1 of only 0.002%. BCF creates more varied feature types. For example, the second cluster refers to external properties (e.g., color), and the last cluster contains CLOTHING materials. The results suggest that the feature types learnt by BCF are more coherent, and indeed express meaningful properties shared by concepts belonging to the same category. While being relevant to the category, Strudel's feature types do not seem to exhibit internal coherence to a similar extent."
+    }
 }

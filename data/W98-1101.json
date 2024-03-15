@@ -16,5 +16,8 @@
     "numcitedby": 3,
     "year": 1998,
     "month": "",
-    "title": "{B}ayesian Stratified Sampling to Assess Corpus Utility"
+    "title": "{B}ayesian Stratified Sampling to Assess Corpus Utility",
+    "values": {
+        "performance": "The method is well-grounded in statistical theory, but its application to textual queries is novel."
+    }
 }

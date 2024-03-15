@@ -19,5 +19,8 @@
     "numcitedby": 2,
     "year": 2020,
     "month": "December",
-    "title": "The {ADAPT} Centre{'}s Neural {MT} Systems for the {WAT} 2020 Document-Level Translation Task"
+    "title": "The {ADAPT} Centre{'}s Neural {MT} Systems for the {WAT} 2020 Document-Level Translation Task",
+    "values": {
+        "performance": "As for Scenario 1, fine-tuning model parameters on in-domain-data only does not work well and the corresponding MT system performs poorly in comparison to the performance of other MT systems (cf. Table 2 ). The MT system of this setup produces a 1.37 BLEU points corresponding to 7.9% relative gain over the baseline. The gain is statistically significant (Koehn, 2004) . We submitted translations of the MT system of the Scenario 2 setup for the human evaluation task conducted by the shared task organisers since it produced the highest BLEU score on the evaluation test set. As can be seen from the last column of Table 2 , we received a score of 3.930 as far as the results of the human evaluation task is concerned. We secured the third position in the competition for the Japanese-to-English BSD translation task as per the rankings of the MT systems based on the human evaluation scores."
+    }
 }

@@ -19,5 +19,8 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "Mining Clues from Incomplete Utterance: A Query-enhanced Network for Incomplete Utterance Rewriting"
+    "title": "Mining Clues from Incomplete Utterance: A Query-enhanced Network for Incomplete Utterance Rewriting",
+    "values": {
+        "performance": " QUEEN achieves state-of-the-art performance on several public datasets.  On all datasets with different languages and evaluation metrics, our approach outperforms all previous state-of-the-art methods.   The improvement in EM shows that our model has a stronger ability to find the correct span, due to our model making full use of the prior information of semantic structure from our coreference-ellipsis-oriented query template.  Experiments have shown that our model with this well-designed query achieves promising results than previous methods."
+    }
 }

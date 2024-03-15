@@ -20,5 +20,9 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "Beyond Emotion: A Multi-Modal Dataset for Human Desire Understanding"
+    "title": "Beyond Emotion: A Multi-Modal Dataset for Human Desire Understanding",
+    "values": {
+        "novelty": " ",
+        "performance": "We also propose the state-of-the-art baselines to evaluate the potential of MSED and show the importance of multi-task and multi-modal clues for desire understanding. the pre-trained BERT+ResNet (the state-of-art system) to make desire, sentiment and emotion predictions. Table 7 presents the comparative results. BERT+ResNet performs the best for the task of desire detection under the task sequence of (sen \u21d2 emo \u21d2 des). By comparing the classification performance of BERT and ResNet, we see that using textual features is more effective than using visual features, as we expected. The main reasons are: (1) BERT contributes the most to overall framework, as it effectively captures the inter-dependencies between words and extracts refined features; (2) Text cue plays a more important role than visual cue for desire understanding, since visual desire analysis involves a higher level of abstraction. ResNet still outperforms DCNN and BiLSTM by a large margin (7%, 5% \u2191), which shows the effectiveness of pre-trained visual model. Further theoretical and empirical research is needed for better studying human desires."
+    }
 }

@@ -19,5 +19,10 @@
     "numcitedby": 31,
     "year": 2019,
     "month": "July",
-    "title": "Numeracy-600{K}: Learning Numeracy for Detecting Exaggerated Information in Market Comments"
+    "title": "Numeracy-600{K}: Learning Numeracy for Detecting Exaggerated Information in Market Comments",
+    "values": {
+        "novelty": "In this paper, we attempt to answer the question of whether neural network models can learn numeracy, which is the ability to predict the magnitude of a numeral at some specific position in a text description. A large benchmark dataset, called Numeracy-600K, is provided for the novel task. We explore several neural network models including CNN, GRU, BiGRU, CRNN, CNN-capsule, GRU-capsule, and BiGRU-capsule in the experiments. The results show that the BiGRU model gets the best micro-averaged F1 score of 80.16%, and the GRU-capsule model gets the best macroaveraged F1 score of 64.71%. Besides discussing the challenges through comprehensive experiments, we also present an important application scenario, i.e., detecting exaggerated information, for the task.",
+        "performance": "The RNN-based models outperform the CNN-based models in both the general NN framework and the capsule network framework.",
+        "reproducibility": "The experimental results show that NN models can learn the proper range for a target numeral from contextual information. An experiment on an application scenario of exaggerated numeral detection suggests the capability of the proposed NN models."
+    }
 }

@@ -18,5 +18,11 @@
     "numcitedby": 3,
     "year": 2015,
     "month": "July",
-    "title": "Annotation and Classification of an Email Importance Corpus"
+    "title": "Annotation and Classification of an Email Importance Corpus",
+    "values": {
+        "building on past work": "The most relevant work is the email corpus annotated by Dredze et al. Lampert et al. (2010) annotated whether an email contains action request or not based on the agreed annotations of three annotators. We followed similar ideas and labeled the email importance and content type with the agreed Amazon Mechanical Turk annotations. We find that #AllAgreed is close to #TypeAgreed, which indicates a major overlap between the agreed type annotation and the agreed importance annotation. A potential issue of the corpus is that the importance of the email is not decided by the real email recipient. To address this concern, we compared the AllAgreed results with the annotations from an expert annotator.",
+        "novelty": "Emails are grouped according to the recipient's levels of hierarchy. The importance of an email is annotated not only according to the user's action but also according to the importance of the information contained in the email. The content type of the emails are also annotated for the email importance study. While our corpus can be less reliable without the annotations from the emails' real recipients, it is more diverse and has better descriptions of email importance. We find that #AllAgreed is close to #TypeAgreed, which indicates a major overlap between the agreed type annotation and the agreed importance annotation.",
+        "performance": "The system based on only text-based features identifies unimportant emails at minimum 0.5467 precision. For our email briefing task specifically, precision in unimportant email prediction P(U) (avoid the false recognition of unimportant emails) and recall in important email prediction R(I) (cover as many important emails as possible) are evaluated.",
+        "reproducibility": "We plan to increase the size of our dataset through AMT. We expect the dataset to be helpful for studies on email overload problems."
+    }
 }

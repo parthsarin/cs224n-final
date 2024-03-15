@@ -19,5 +19,9 @@
     "numcitedby": 15,
     "year": 2006,
     "month": "June",
-    "title": "{C}hinese Chunking Based on Maximum Entropy {M}arkov Models"
+    "title": "{C}hinese Chunking Based on Maximum Entropy {M}arkov Models",
+    "values": {
+        "novelty": "  Compared with the hidden Markov chunking model and maximum entropy chunking model, based on the same data set, the new chunking model achieves better performance.",
+        "performance": "Experimental results for two types of data sets show that this approach achieves impressive accuracy in terms of the F-score: 91.02% and 92.68%, respectively. Compared with the hidden Markov chunking model and maximum entropy chunking model, based on the same data set, the new chunking model achieves better performance. It can be seen that, MEMM achieved the best results on the CPTB chunking data set. The reason why MEMM has the best performance is that the numbers of the two types of errors decrease when the sequential relations of the chunk tags are considered."
+    }
 }

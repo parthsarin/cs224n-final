@@ -18,5 +18,8 @@
     "numcitedby": 12,
     "year": 2016,
     "month": "December",
-    "title": "Keyphrase Annotation with Graph Co-Ranking"
+    "title": "Keyphrase Annotation with Graph Co-Ranking",
+    "values": {
+        "performance": "Overall, using graph co-ranking significantly outperforms TopicRank and KEA++. Comparing Top-icRank to TopicCoRank extr shows the positive influence of the domain (controlled keyphrases) on the ranking of the topics. TopicCoRank assign outperforms every method, including TopicCoRank extr and TopicCoRank."
+    }
 }

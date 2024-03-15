@@ -20,5 +20,9 @@
     "numcitedby": 1,
     "year": 2018,
     "month": "May",
-    "title": "Enriching a Lexicon of Discourse Connectives with Corpus-based Data"
+    "title": "Enriching a Lexicon of Discourse Connectives with Corpus-based Data",
+    "values": {
+        "building on past work": "The resulting resource represents a valuable tool for both linguistic analyses and the training of a classifier for NLP applications.",
+        "novelty": "We present the results of the effort of enriching the pre-existing resource LICO, a Lexicon of Italian COnnectives retrieved from lexicographic sources (Feltracco et al., 2016), with real corpus data for connectives marking contrast relations in text. The motivation beyond our effort is that connectives can only be interpreted when they appear in context, that is, in a relation between the two fragments of text that constitute the two arguments of the relation. In this perspective, adding corpus examples annotated with connectives and arguments for the relation allows us to both extend the resource and validate the lexicon. Our goal in this contribution is limited to the class of connectives marking contrast, and the additional relations such connectives might convey, some of them being polysemous. The resulting resource represents a valuable tool for both linguistic analyses and the training of a classifier for NLP applications."
+    }
 }

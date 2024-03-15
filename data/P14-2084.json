@@ -18,5 +18,10 @@
     "numcitedby": 102,
     "year": 2014,
     "month": "June",
-    "title": "Humans Require Context to Infer Ironic Intent (so Computers Probably do, too)"
+    "title": "Humans Require Context to Infer Ironic Intent (so Computers Probably do, too)",
+    "values": {
+        "building on past work": "Our hope is that these observations and this dataset will spur innovative new research on methods for verbal irony detection. This is consistent with the large body of pragmatics/linguistics literature on irony and its usage, which has emphasized the role that context plays in recognizing and decoding ironic utterances (Grice, 1975; Clark and Gerrig, 1984; Sperber and Wilson, 1981) But existing work on automatic irony detection -reviewed in Section 2 -has not explicitly attempted to operationalize such theories, and has instead relied on features (mostly word counts) intrinsic to the texts that are to be classified as ironic.",
+        "novelty": "We introduce the first version of the reddit irony corpus, composed of annotated comments from the social news website reddit. Each sentence in every comment in this corpus has been labeled by three independent annotators as having been intended by the author ironically or not. This dataset is publicly available. We provide empirical evidence that human annotators consistently rely on contextual information to make ironic/unironic sentence judgements. We show that the standard 'bag-of-words' approach to text classification fails to accurately judge ironic intent on those cases for which humans required additional context. This suggests that, as humans require context to make their judgements for this task, so too do computers.",
+        "performance": " Average F1 score over the five-folds was 0.383 with range (0.330, 0.412); mean recall was 0.496 (0.446, 0.548) and average precision was 0.315 (0.261, 0.380).  We now explore empirically whether these misclassifications are made on the same comments for which annotators requested context.  We demonstrated that a standard token-based machine learning approach misclassified many of the same comments for which annotators tend to request context."
+    }
 }

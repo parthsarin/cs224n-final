@@ -18,5 +18,8 @@
     "numcitedby": 32,
     "year": 2010,
     "month": "August",
-    "title": "Evaluating {F}rame{N}et-style semantic parsing: the role of coverage gaps in {F}rame{N}et"
+    "title": "Evaluating {F}rame{N}et-style semantic parsing: the role of coverage gaps in {F}rame{N}et",
+    "values": {
+        "performance": "For the combined task of frame assigment and role labeling the performance was even lower, ranging from 35% to 54% F-Score. Performance levels obtained for full text are usually not sufficient for this kind of real-world task. Extending the value of automated semantic parsing for a variety of applications requires improving the ability of systems to process unrestricted text. However, so far there has not been a detailed analysis of the problem. In this paper we provide that detailed analysis, by defining different types of coverage problems and performing analysis of both coverage and performance of an automated SRL system on three different data sets. However, only a relatively small proportion of the misclassifications are due to true errors made by the system. Furthermore, a large amount of errors (41% to 48%, with an average of 46.8%) is due to cases where important information is missing from FrameNet (Type (iii) errors)."
+    }
 }

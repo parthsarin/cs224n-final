@@ -19,5 +19,8 @@
     "numcitedby": 2,
     "year": 2014,
     "month": "April",
-    "title": "{MMAX}2 for coreference annotation"
+    "title": "{MMAX}2 for coreference annotation",
+    "values": {
+        "novelty": "New implemented features include:  Internationalization -the interface of the tool is available in English and Polish and can be easily translated to other languages. Polish version was used by the annotators, but for international articles about the tool (such as this one) the English interface was used. 2. Semantic head selection -a dropdown list allows to choose one of the tokens mention consists of as it's semantic head. This head is also underlined in markable browser. 3. Storing user setting -which windows are opened, where are they located, what is the font and it's size -these and other user settings are saved and automatically restored when the application is reopened. 4. Dominant expressions -clusters can have their attribute: a dominant expression, which can be selected as one of the mentions from the cluster or any other expression entered by the user. 5. Undo button, reverting last action -very useful feature to revert the last change, regardless of it's nature. Very useful feature when for example one is correcting automatic annotation, which failed to recognize a long named entity name and instead created two entities, each in it's separate cluster. 7. Improved browser operability -browsers allow to operate on mentions, links and clusters, not only to view them. 8. Adjudication feature -it will be covered in detail in the next section. Key point of the adjudication procedure is to merge all differences at a given level before proceeding to the next one. This way, after we resolve all differences in the dominating expressions, we are certain that our annotations are fully merged and in fact the same."
+    }
 }

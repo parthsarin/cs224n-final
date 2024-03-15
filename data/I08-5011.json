@@ -18,5 +18,8 @@
     "numcitedby": 27,
     "year": 2008,
     "month": "",
-    "title": "An Experiment on Automatic Detection of Named Entities in {B}angla"
+    "title": "An Experiment on Automatic Detection of Named Entities in {B}angla",
+    "values": {
+        "performance": " The results are presented in the form of recall(R), precision (P) and F-measure percentage. Here the recall is the ratio of number of NE words retrieved and the number of NE words actually present in the file, expressed in percent.  Every detection system is to be judged by some automatic evaluation techniques, e.g. BLEU (Bilingual Evaluation Understudy) (Papineni, 2002) and several others."
+    }
 }

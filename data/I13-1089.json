@@ -19,5 +19,9 @@
     "numcitedby": 4,
     "year": 2013,
     "month": "October",
-    "title": "Detecting Bot-Answerable Questions in {U}buntu Chat"
+    "title": "Detecting Bot-Answerable Questions in {U}buntu Chat",
+    "values": {
+        "building on past work": "Our task differs from these previous investigations in that we are applying supervised learning algorithms to a multi-labeled corpus composed of real chat messages.",
+        "performance": "For most factoids, SVMs performed better or had similar performance to the baseline. The small number of factoids it performed worse on were generally factoids both SVM and the baseline performed poorly, finding low F 0.5 scores. SVMs did well on all the non-English factoids, with F 0.5 scores ranging between 0.88 (for Chinese) and 0.99 (for Russian). Unfortunately, there is a lack of consistency in invoking these two factoids, and as such the learning algorithms we tested had difficulty with these questions. Some other types of questions that SVMs struggle with are those that cover a wide-range of possible questions."
+    }
 }

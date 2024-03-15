@@ -18,5 +18,9 @@
     "numcitedby": 30,
     "year": 2006,
     "month": "",
-    "title": "Generating Spatio-Temporal Descriptions in Pollen Forecasts"
+    "title": "Generating Spatio-Temporal Descriptions in Pollen Forecasts",
+    "values": {
+        "building on past work": "The task of segmentation consists of two major subtasks, clustering and classification (Miller and Han, 2001) . Spatial clustering involves grouping objects into similar subclasses, whereas spatial classification involves finding a description for those subclasses which differentiates the clustered objects from each other (Ester et al., 1998) . In RoadSafe we plan to extend these techniques to generate textual descriptions of spatio-temporal data. Because the spatio-temporal weather prediction data used in road maintenance applications is normally of the order of a megabyte, we initially studied pollen forecasts which are based on smaller spatio-temporal data sets. We will apply the various techniques we have learnt from the study of pollen forecasts to the spatio-temporal data from the road maintenance application.",
+        "novelty": "Our corpus analysis revealed that forecast texts contain a rich variety of spatial descriptions for a location. For example, the same region could be referred to by it's proper name e.g. 'Suthlerland and Caithness' or by its' relation to a well known geographical landmark e.g. 'North of the Great Glen' or simply by its' geographical location on the map e.g. 'the far North and Northwest'. In the context of pollen forecasts which describe spatio-temporal data, studying the semantics of phrases or words used for describing locations or regions is a challenge. The microplanning and surface realisation modules from the Sumtime project (Sripada et al., 2003) have largely been reused. We have developed new data analysis and document planning modules for the system and describe the data analysis module in the rest of this section."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 110,
     "year": 2008,
     "month": "June",
-    "title": "Credibility Improves Topical Blog Post Retrieval"
+    "title": "Credibility Improves Topical Blog Post Retrieval",
+    "values": {
+        "building on past work": "Our choice of credibility indicators was based on a framework proposed by Rubin and Liddy (2006) : the estimators we used are natural implementations of the selected indicators, but by no means the only possible ones. Some (topic independent) post level indicators hurt the MAP score, while others help (for both years, and both measures). Combined, the topic independent post level indicators perform less well than the use of one of them (post length). As to the topic dependent post level indicators, timeliness hurts performance on MAP for both years, while the semantic indicator provides significant improvements across the board (resulting in a top 2 score in terms of MAP and a top 5 score in terms of p@10, when compared to the TREC 2006 Blog track participants that only used the T field). In 2006, 7 (out of 50) topics were negatively affected by the use of credibility indicators; in 2007, 15 (out of 50) were negatively affected.",
+        "performance": "The MAP score of this run is higher than the best performing run in the TREC 2006 Blog track and has a top 3 performance on p@10; its 2007 performance is just within the top half on both MAP and p@10. Certain single indicators, like post length and comments, make good credibility indicators on their own",
+        "reproducibility": "We give concrete form to Rubin and Liddy (2006) 's indicators and test their impact on blog post retrieval effectiveness. We do not consider all indicators: we only consider indicators that are textual in nature, and to ensure reproducibility of our results, we only consider indicators that can be derived from the TRECBlog06 corpus (and that do not need additional resources such as bloggers' profiles that may be hard to obtain for technical or legal reasons)."
+    }
 }

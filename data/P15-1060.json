@@ -16,5 +16,9 @@
     "numcitedby": 48,
     "year": 2015,
     "month": "July",
-    "title": "Sentiment-Aspect Extraction based on Restricted Boltzmann Machines"
+    "title": "Sentiment-Aspect Extraction based on Restricted Boltzmann Machines",
+    "values": {
+        "building on past work": "We summarize prior state-of-the-art models for aspect extraction. In their seminal work, Hu and Liu (2004) propose the idea of applying classical information extraction to distinguish different aspects in online reviews. Supervised learning methods (Jin et al., 2009; Choi and Cardie, 2010; Jakob and Gurevych, 2010; Kobayashi et al., 2007) such as Hidden Markov Models, one-class SVMs, and Conditional Random Fields have been widely used in aspect information extraction. These supervised approaches for aspect identification are generally based on standard sequence labeling techniques. Subsequent studies have proposed unsupervised learning methods, especially LDA-based topic modeling, to classify aspects of comments.",
+        "novelty": "We propose a novel sentiment and aspect extraction model based on Restricted Boltzmann Machines to jointly address these two tasks in an unsupervised setting. This model reflects the generation process of reviews by introducing a heterogeneous structure into the hidden layer and incorporating informative priors"
+    }
 }

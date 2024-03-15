@@ -18,5 +18,8 @@
     "numcitedby": 6,
     "year": 2009,
     "month": "August",
-    "title": "{LX}-Center: a center of online linguistic services"
+    "title": "{LX}-Center: a center of online linguistic services",
+    "values": {
+        "performance": "The sentence splitter marks sentence and paragraph boundaries and unwraps sentences split over different lines. An f-score of 99.94% was obtained when testing it on a 12,000 sentence corpus. The tokenizer segments the text into lexically relevant tokens, using whitespace as the separator; expands contractions; marks spacing around punctuation or symbols; detaches clitic pronouns from the verb; and handles ambiguous strings (contracted vs. non contracted). This tool achieves an f-score of 99.72%. The POS tagger assigns a single morphosyntactic tag to every token. This tagger is based on Hidden Markov Models, and was developed with the TnT software (Brants, 2000) . It scores an accuracy of 96.87%. The number-based component is built upon handcrafted regular expressions. It was developed and evaluated against a manually constructed test-suite including over 300 examples. It scored 85.19% precision and 85.91% recall. The namebased component is built upon HMMs with the help of TnT (Brants, 2000) . It was trained over a manually annotated corpus of approximately 208,000 words, and evaluated against an unseen portion with approximately 52,000 words. It scored 86.53% precision and 84.94% recall."
+    }
 }

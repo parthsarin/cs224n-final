@@ -18,5 +18,8 @@
     "numcitedby": 6,
     "year": 2021,
     "month": "August",
-    "title": "{C}ite{W}orth: Cite-Worthiness Detection for Improved Scientific Document Understanding"
+    "title": "{C}ite{W}orth: Cite-Worthiness Detection for Improved Scientific Document Understanding",
+    "values": {
+        "performance": "Our best performing citeworthiness detection model is a paragraphlevel contextualized sentence labelling model based on Longformer, exhibiting a 5 F1 point improvement over SciBERT which considers only individual sentences. Finally, we demonstrate that language model fine-tuning with cite-worthiness as a secondary task leads to improved performance on downstream scientific document understanding tasks. Our results indicate that context is critical, resulting in the best F1 score of 67.45 (Longformer-Ctx) and a 5.31 point improvement over the next best model. Using class weighting is also highly important, resulting in another increase of over 4 F1 points. Compared to not using class weights, PU learning performs significantly better, and leads to the highest recall of all models under test. Not surprisingly, the best performance for each split occurs when training on data from the same field. This suggests stark differences in how different fields employ citations."
+    }
 }

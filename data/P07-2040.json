@@ -18,5 +18,9 @@
     "numcitedby": 20,
     "year": 2007,
     "month": "June",
-    "title": "Detecting Semantic Relations between Named Entities in Text Using Contextual Features"
+    "title": "Detecting Semantic Relations between Named Entities in Text Using Contextual Features",
+    "values": {
+        "novelty": "The experiments demonstrated that the proposed method increased precision by 4.4%, up to 73.7%, and increased recall by 6.7%, up to 56.8%, and thus contributed to relation detection.",
+        "performance": "The experiments demonstrated that the proposed method increased precision by 4.4%, up to 73.7%, and increased recall by 6.7%, up to 56.8%, and thus contributed to relation detection."
+    }
 }

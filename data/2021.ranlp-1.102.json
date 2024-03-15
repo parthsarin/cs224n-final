@@ -18,5 +18,9 @@
     "numcitedby": 0,
     "year": 2021,
     "month": "September",
-    "title": "{ROFF} - A {R}omanian {T}witter Dataset for Offensive Language"
+    "title": "{ROFF} - A {R}omanian {T}witter Dataset for Offensive Language",
+    "values": {
+        "building on past work": "To facilitate comparable multi-lingual research on offensive language, the annotation guidelines follow some of the recent annotation efforts for other languages. The final corpus contains 5000 micro-blogging posts annotated by a large number of volunteer annotators. The inter-annotator agreement and the initial automatic discrimination results we present are in line with earlier annotation efforts.",
+        "performance": " Following OffensEval shared tasks (Zampieri et al., 2019b (Zampieri et al., , 2020)) , we present results of three separate tasks. The first task, task 1, is identifying whether a given post is offensive or not.  In task 2, we aim to identify whether an offensive tweet is targeted or not.  Finally, task 3 is about classifying the target of a targeted offensive tweet.  The scores are similar to the earlier results obtained for other languages on similar data sets.   Not surprisingly, the model's performance on detecting offensive language is better than detecting whether an offensive text targeted or not, which, in turn, is better than the 3-way classification of targeted texts to respective target groups."
+    }
 }

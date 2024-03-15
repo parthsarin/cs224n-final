@@ -20,5 +20,9 @@
     "numcitedby": 8,
     "year": 2019,
     "month": "August",
-    "title": "Noisy Parallel Corpus Filtering through Projected Word Embeddings"
+    "title": "Noisy Parallel Corpus Filtering through Projected Word Embeddings",
+    "values": {
+        "novelty": "We present a very simple method for parallel text cleaning of low-resource languages, based on projection of word embeddings trained on large monolingual corpora in high-resource languages. In spite of its simplicity, we approach the strong baseline system in the downstream machine translation evaluation.",
+        "performance": "All BLEU scores are below 6, for our system as well as for the baseline, indicating that there is insufficient data for the NMT system to learn a useful translation model."
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 4,
     "year": 2019,
     "month": "June",
-    "title": "Modelling Instance-Level Annotator Reliability for Natural Language Labelling Tasks"
+    "title": "Modelling Instance-Level Annotator Reliability for Natural Language Labelling Tasks",
+    "values": {
+        "novelty": "It can automatically estimate the per-instance reliability of each annotator and the correct label for each instance."
+    }
 }

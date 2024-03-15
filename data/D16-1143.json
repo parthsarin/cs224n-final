@@ -18,5 +18,8 @@
     "numcitedby": 14,
     "year": 2016,
     "month": "November",
-    "title": "Improving Users{'} Demographic Prediction via the Videos They Talk about"
+    "title": "Improving Users{'} Demographic Prediction via the Videos They Talk about",
+    "values": {
+        "performance": "Experiment results show that our method can significantly improve these words' demographic predictive ability by more than 15% on average. 10 videos is good enough to portray a weibo user, and can achieve reasonable results in these 4 inference tasks. The video related behavior is efficient on predicting gender and education, for people on these two tasks have visible different inclinations. Inferring age and marital status is not easy, but our two models still achieve reasonable improvements. In general, our two models both get significantly better results than baselines. The Gen-Model is a better choice by contrast. Fusion Model's performance is better than Fusion Baseline's in all four tasks. The improvement is about 2-3% on average."
+    }
 }

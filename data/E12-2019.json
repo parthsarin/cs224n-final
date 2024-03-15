@@ -18,5 +18,8 @@
     "numcitedby": 21,
     "year": 2012,
     "month": "April",
-    "title": "A platform for collaborative semantic annotation"
+    "title": "A platform for collaborative semantic annotation",
+    "values": {
+        "novelty": "We have developed the wiki-like platform from scratch simply because existing annotation systems, such as GATE (Dowman et al., 2005) , NITE (Carletta et al., 2003) , or UIMA (Hahn et al., 2007) , do not offer the functionality required for deep semantic annotation combined with crowdsourcing. Bits of Wisdom After each step in the toolchain, the intermediate result may be automatically adjusted by auxiliary components that apply annotations provided by expert users or other sources. We developed a wiki-like Web interface, called the GMB Explorer, that provides users access to the Groningen Meaning Bank. It fulfills three main functions: navigation and search through the documents, visualization of the different levels of annotation, and manual correction of the annotations. In sum, the demo illustrates innovation in the way changes are made and how they improve the linguistic analysis in real-time. Because it is a web-based platform, it paves the way for a collaborative annotation effort."
+    }
 }

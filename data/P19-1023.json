@@ -19,5 +19,10 @@
     "numcitedby": 67,
     "year": 2019,
     "month": "July",
-    "title": "Neural Relation Extraction for Knowledge Base Enrichment"
+    "title": "Neural Relation Extraction for Knowledge Base Enrichment",
+    "values": {
+        "building on past work": "Previous studies on relation extraction have employed both unsupervised and supervised approaches. Unsupervised approaches typically start with a small set of manually defined extraction patterns to detect entity names and phrases about relationships in an input text. Most existing methods thus entail the need for Named Entity Disambiguation (NED) (cf. the survey by Shen et al. (2015) ) as a separate processing step. In addition, the mapping of relationship phrases onto KB predicates necessitates another mapping step, typically aided by paraphrase dictionaries.",
+        "novelty": "Our model thus reduces the error propagation between relation extraction and NED that existing approaches are prone to. To obtain high-quality training data, we adapt distant supervision and augment it with co-reference resolution and paraphrase detection. We propose an n-gram based attention model that better captures the multi-word entity names in a sentence. Moreover, we propose a modified beam search and a triple classification that helps the model to generate high-quality triples. These results confirm that our model reduces the error propagation between NED and relation extraction. Our proposed n-gram attention model outperforms the other encoder-decoder models by 15.51% and 8.38% in terms of F1 score on the two real-world datasets. These results confirm that our model better captures the multi-word entity names in a sentence.",
+        "performance": "Our proposed n-gram attention model outperforms the other encoder-decoder models by 15.51% and 8.38% in terms of F1 score on the two real-world datasets."
+    }
 }

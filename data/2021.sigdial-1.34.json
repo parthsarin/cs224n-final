@@ -18,5 +18,8 @@
     "numcitedby": 4,
     "year": 2021,
     "month": "July",
-    "title": "Where Are We in Discourse Relation Recognition?"
+    "title": "Where Are We in Discourse Relation Recognition?",
+    "values": {
+        "performance": "We argue that one reason for this gap between theory and empirical evidence is the quality of the parsers exacerbated by the distributional shifts in the texts they need to apply to. Such performance hinders the wider application of parsers. If downstream tasks are to use predicted relation senses, the data to which the systems are applied is typically different from their training data-the Wall Street Journal (WSJ) in a 3-year window-to varying degrees. This tends to further aggravate the low performance observed. As a result, often we find that adding parsed discourse relations into models are unhelpful. The results of running the state-of-the-art Wang et al. This is expected; it unsurprisingly does not generalize as well for text outside of its domain as for the news text contained within the corpus test set due to a change in vocabulary. However, in order for discourse parsers to be useful for applications outside of the news domain, models that can more easily adapt to the target domain must be developed."
+    }
 }

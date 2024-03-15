@@ -18,5 +18,10 @@
     "numcitedby": 1,
     "year": 2018,
     "month": "May",
-    "title": "Data Anonymization for Requirements Quality Analysis: a Reproducible Automatic Error Detection Task"
+    "title": "Data Anonymization for Requirements Quality Analysis: a Reproducible Automatic Error Detection Task",
+    "values": {
+        "building on past work": "We investigate and explore error patterns for requirements quality analysis by manually analyzing the corpus. This analysis is based on the requirements grammar that we developed in our previous work. Those problems arise particularly when they are written in a natural language. While we describe them from a linguistic point of view, the business impacts of each potential error are also considered in system engineering context. We investigate and explore error patterns for requirements quality analysis by manually analyzing the corpus. This analysis is based on the requirements grammar that we developed in our previous work. In addition, this paper extends our previous work in a two-fold way: (1) we increase more than twice the number of evaluation data (1K sentences) through a manual verification process, and (2) we anonymize all sensible and confidential entities in evaluation data to make our data publicly available.",
+        "novelty": " In this work, we propose to anonymize sensitive elements that may result in the problem of confidentiality in using requirements documents.  Based on what we define anonymization entities, we manually make up a dictionary of anonymization entities (over 270 entities) extracted from the original requirements of the extended evaluation data, and we randomize their alphanumeric characters.",
+        "reproducibility": "We also provide the baseline system using conditional random fields for requirements quality analysis, and we obtain 79.47% for the F1 score on proposed evaluation data Training and anonymized evaluation data are available at https://github.com/jungyeul/rqa."
+    }
 }

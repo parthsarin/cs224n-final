@@ -18,5 +18,9 @@
     "numcitedby": 46,
     "year": 2016,
     "month": "May",
-    "title": "Aspect based Sentiment Analysis in {H}indi: Resource Creation and Evaluation"
+    "title": "Aspect based Sentiment Analysis in {H}indi: Resource Creation and Evaluation",
+    "values": {
+        "building on past work": " To the best of our knowledge ours is the very first initiative, where we make an attempt to provide a benchmark setup for ABSA in Indian languages.  Overall it contains 100,279 and 4,509 tokens and aspect terms, respectively. Polarity classification of these aspect terms count to 1,986 positive, 569 negative, 1,914 neutral and 40 conflict sentiments.  Evaluation results on 3-fold cross-validation show the overall precision, recall and F-measure values of 61.96%, 30.72% and 41.07%, respectively for aspect term extraction and an accuracy of 54.05% for sentiment classification.",
+        "performance": "Evaluation results show the average F-measure of 41.07% for aspect term extraction and accuracy of 54.05% for sentiment classification. It is evident that the performance is greatly influenced by the amount of reviews available for a particular domain."
+    }
 }

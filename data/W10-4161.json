@@ -18,5 +18,8 @@
     "numcitedby": 8,
     "year": 2010,
     "month": "",
-    "title": "Person Name Disambiguation based on Topic Model"
+    "title": "Person Name Disambiguation based on Topic Model",
+    "values": {
+        "performance": "HAC At the heart of hierarchical clustering lies the definition of similarity between clusters, which based on similarity between individual documents. In my system, a linear combination of similarity based on both local and global context is employed: DBSCAN In this section, we present the algorithm DBSCAN (Density Based Spatial Clustering of Applications with Noise) (Ester et al., 1996) (Table 2 ) which is designed to discover the clusters and the noise in a spatial database. If p is a core point, a cluster is formed."
+    }
 }

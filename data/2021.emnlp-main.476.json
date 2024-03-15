@@ -20,5 +20,9 @@
     "numcitedby": 5,
     "year": 2021,
     "month": "November",
-    "title": "Analyzing the Surprising Variability in Word Embedding Stability Across Languages"
+    "title": "Analyzing the Surprising Variability in Word Embedding Stability Across Languages",
+    "values": {
+        "performance": "Running leave-one-out cross-validation across all languages, we get an average absolute error of 0.62 \u00b1 0.53",
+        "reproducibility": "In this work, we use stability to measure the quality of word embeddings. Similar to the work we present here on stability, other research looks at how nearest neighbors vary as properties of the embedding spaces change. Unlike our work, previous studies only considered English. Our findings indicate that work on embedding evaluation should take into consideration stability, using multiple training runs to confirm results."
+    }
 }

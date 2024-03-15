@@ -20,5 +20,8 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "May",
-    "title": "{WASSA} 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories"
+    "title": "{WASSA} 2022 Shared Task: Predicting Empathy, Emotion and Personality in Reaction to News Stories",
+    "values": {
+        "performance": "The best result for the empathy prediction was an average Pearson correlation of 0.541 and for distress was 0.547 and the best macro F1-score for the emotion track amounted to 69.8% The best result for personality was an average Pearson correlation of 0.230 and for IRI was 0.255."
+    }
 }

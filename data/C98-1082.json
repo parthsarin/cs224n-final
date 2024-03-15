@@ -20,5 +20,9 @@
     "numcitedby": 2,
     "year": 1998,
     "month": "",
-    "title": "Definiteness Predictions for {J}apanese Noun Phrases"
+    "title": "Definiteness Predictions for {J}apanese Noun Phrases",
+    "values": {
+        "ease of implementation": "It uses context knowledge to resolve semantic representations possibly underspecified with respect to syntactic or semantic ambiguities. At this stage, all the information needed for definiteness assignment is easily accessible, enabling the rules in our hierarchy to be implemented one-to-one as simple implications. Since all information is accessible at all times, the application of the rules can be ordered according to the hierarchy. Only if none of the rules given in the hierarchy are applicable, will the context checking process be started. If an antecedent can be found for the relevant noun phrase, it will be assigned definite reference, otherwise it is taken to be indefinite. The algorithm will terminate as soon as a value has been assigned, thus ensuring monotonicity and efficiency, as 45% of all noun phrases are already assigned a value by one of the noun rules at the top of the hierarchy.",
+        "performance": "Overall, with a precision of 98,9%, the aim of high accuracy has been achieved. Dividing the number of correct assignments by the number of noun phrases that need assign- This means, that a system integrating this algorithm with an efficient context checking mechanism should have a recall of at least 90%, since this is what can already be achieved by using a default value."
+    }
 }

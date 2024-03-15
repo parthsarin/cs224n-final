@@ -18,5 +18,10 @@
     "numcitedby": 21,
     "year": 2017,
     "month": "July",
-    "title": "Joint Modeling of Content and Discourse Relations in Dialogues"
+    "title": "Joint Modeling of Content and Discourse Relations in Dialogues",
+    "values": {
+        "building on past work": "Previous work (Kirschner et al., 2012) has shown that discourse structure can be used to capture the main discussion points and arguments put forward during problem-solving and decision-making processes in meetings. Oya and Carenini (2014) employs Dynamic Conditional Random Field to recognize sentences in email threads for use in summary as well as their dialogue acts. Our work is also in line with keyphrase identification or phrase-based summarization for conversations. Our work also targets at detecting salient phrases from meetings, but focuses on the joint modeling of critical discussion points and discourse relations held between them. Although discourse information from non-adjacent turns has been studied in the context of online discussion forums (Ghosh et al., 2014) and meetings (Hakkani-Tur, 2009) , none of them models the effect of discourse structure on content selection, which is a gap that this work fills in.",
+        "novelty": "We are interested in a specific type of dialogues -spoken meetings, which is a common way for collaboration and idea sharing.",
+        "performance": "   This provides an evidence of our model being successfully applied in other prediction tasks in spoken meetings. "
+    }
 }

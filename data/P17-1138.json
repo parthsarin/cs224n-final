@@ -19,5 +19,9 @@
     "numcitedby": 35,
     "year": 2017,
     "month": "July",
-    "title": "Bandit Structured Prediction for Neural Sequence-to-Sequence Learning"
+    "title": "Bandit Structured Prediction for Neural Sequence-to-Sequence Learning",
+    "values": {
+        "building on past work": "We show how to lift linear structured prediction under bandit feedback to non-linear models for sequence-to-sequence learning with attentionbased recurrent neural networks (Bahdanau et al., 2015) . Our framework is applicable to sequenceto-sequence learning from various types of weak feedback. In this paper, we focus on the application of machine translation via neural sequence-to-sequence learning. We evaluate the resulting algorithms on the task of French-to-English translation domain adaptation where a seed model trained on Europarl data is adapted to the NewsCommentary and the TED talks domain with simulated weak feedback. By learning from this feedback, we find 4.08 BLEU points improvements on NewsCommentary, and 5.89 BLEU points improvement on TED. Furthermore, we show how control variates can be integrated in our algorithms, yielding faster learning and improved generalization in our experiments.",
+        "reproducibility": "Bandit learning experiments are repeated two times, with different random seeds, and mean BLEU scores with standard deviation are reported. In the spirit of Freitag and Al-Onaizan (2016) they are additionally evaluated on the out-of-domain test set to investigate how much knowledge of the old domain the models lose while adapting to the new domain."
+    }
 }

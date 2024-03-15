@@ -20,5 +20,10 @@
     "numcitedby": 9,
     "year": 2015,
     "month": "July",
-    "title": "Automatic interlinear glossing as two-level sequence classification"
+    "title": "Automatic interlinear glossing as two-level sequence classification",
+    "values": {
+        "building on past work": " Our approach to automatic linguistic glossing is intended to fill this gap.  A fully automatised glossing procedure would have to include an approach to word segmentation, which is not addressed here. We identify this task as the first step in our future work.",
+        "novelty": "In this paper, we present experiments on the automatic glossing of Chintang. We decompose the task of glossing into steps suitable for statistical processing. Our approach to automatic linguistic glossing is intended to fill this gap. The main obstacle for this approach is the fact that glosses contain lexical items (lexical glosses). Including lexical tags would result in a tag set too big to be learnt by standard part-of-speech tagging models. We thus apply a two-level tagging approach where we first learn grammatical tags without lexical items in a standard supervised part-of-speech tagging setting. We then add lexical items from the lexicon using the sequences of grammatical tags for disambiguation.",
+        "performance": "It increases by 1% with every increase till the size of 200,000. The increase after this point is much slower, reaching the best result of 96% accuracy using the full training set of around 800,000 tokens. The accuracy is already 92% when the disambiguation model is trained on the smallest set. It reaches the maximal score of 94% with the training set of 200,000 tokens. A relatively small annotated corpus is used to model sequences of highly frequent items (grammatical words and their tags). Sparse but less ambiguous lexical items are glossed using a lexicon, ensuring good coverage."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 0,
     "year": 2019,
     "month": "January",
-    "title": "What does the Nom say? An algorithm for case disambiguation in {H}ungarian"
+    "title": "What does the Nom say? An algorithm for case disambiguation in {H}ungarian",
+    "values": {
+        "building on past work": "The current algorithm is an upgraded and extended version of two previously described algorithms presented in Ligeti-Nagy et al. As mentioned above, the emphasised nominals in (1a)-( 1f ) are either arguments of the verb or parts of an NP. The role of predicative nominals, however, is different. Previous algorithms nom-or-what presented in (Ligeti-Nagy et al., 2018 ) is a rule-based algorithm primarily built on the ideas drawn up in (Vad\u00e1sz and Indig, 2018) where a basic method was introduced to identify unmarked possessors in a sentence (nomorgen). The algorithm described in D\u00f6m\u00f6t\u00f6r (2018) (named is-pred) was also designed to constitute a part of the AnaGramma parser.",
+        "performance": "The evaluation follows the rules described in Table 1 . The results are shown in Table 2 . By precision we mean the percentage of T P /(T P + F P ) and by recall we mean T P /(T P + F P + F N ). Recall is influenced by the number of false negative hits (361 in the results). Considering that the algorithm does not have the whole sentence available when deciding, underspecification (resulting in false negative hits) is comprehensible in many of the cases. These results are not as problematic for the whole parsing task as the false positive ones, since the uncertain tags can still be specified at a later point of parsing with the scanning of further words. The confusion matrix in Table 3 reveals that the majority of FP hits ( 268 ) is in connection with Nom or Pred, and more than half of them ( 162 ) is caused by a swap of these two tags."
+    }
 }

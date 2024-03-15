@@ -19,5 +19,8 @@
     "numcitedby": 15,
     "year": 2017,
     "month": "April",
-    "title": "A Multi-View Sentiment Corpus"
+    "title": "A Multi-View Sentiment Corpus",
+    "values": {
+        "novelty": "In this paper we present a Multi-View Sentiment Corpus (MVSC), which comprises 3000 English microblog posts related the movie domain. The contribution is therefore a corpus that comprises five different views for each message, i.e. subjective/objective, sentiment polarity, implicit/explicit, irony, emotion. The proposed corpus is aimed at providing a benchmark to develop sentiment analysis approaches able to model opinions not directly expressed. Researchers can also take advan-tage of the complete label set given by the annotators to investigate their behaviours and the underlying annotation procedures. We finally provided some interesting conclusions related to the use of emojis, highlighting that their role is strictly related to the context where they appear. As future work, we aim at defining novel machine learning models able to simultaneously take advantage of the multiple views available. Moreover, an annotation scheme at a fine-grained level will be investigated."
+    }
 }

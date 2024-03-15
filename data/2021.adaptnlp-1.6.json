@@ -20,5 +20,9 @@
     "numcitedby": 5,
     "year": 2021,
     "month": "April",
-    "title": "Challenges in Annotating and Parsing Spoken, Code-switched, {F}risian-{D}utch Data"
+    "title": "Challenges in Annotating and Parsing Spoken, Code-switched, {F}risian-{D}utch Data",
+    "values": {
+        "novelty": "    ",
+        "performance": "While high performance has been obtained for dependency parsing of high-resource languages, performance for low-resource languages lags behind. The best single source treebank (NL ALPINO) resulted in an LAS of 54.7 whereas our data selection outperformed the single best transfer treebank and led to 55.6 LAS on the test data. Our model outperforms the baselines on the test scores for LAS and UAS (but not for POS)."
+    }
 }

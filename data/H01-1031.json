@@ -16,5 +16,8 @@
     "numcitedby": 37,
     "year": 2001,
     "month": "",
-    "title": "Guidelines for Annotating Temporal Information"
+    "title": "Guidelines for Annotating Temporal Information",
+    "values": {
+        "reproducibility": "In addition to leveraging the [ISO-8601 1997] format for representing time values, we have tried to ensure consistency among annotators by providing an example-based approach, with each guideline closely tied to specific examples. The annotation process is decomposed into two steps: flagging a temporal expression in a document, and identifying the time value that the expression designates, or that the speaker intends for it to designate."
+    }
 }

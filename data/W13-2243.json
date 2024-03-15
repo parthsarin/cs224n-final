@@ -20,5 +20,8 @@
     "numcitedby": 40,
     "year": 2013,
     "month": "August",
-    "title": "{FBK}-{UE}din Participation to the {WMT}13 Quality Estimation Shared Task"
+    "title": "{FBK}-{UE}din Participation to the {WMT}13 Quality Estimation Shared Task",
+    "values": {
+        "performance": "Our models consistently overcome the baselines for both tasks and performed particularly well for Task 1.3, ranking first among seven participants. The submitted models for predicting HTER consistently overcome the baseline for the task. It resamples the training data several times and fits a Lasso regression model on each sample. Features that appear in a given number of samples are retained. Both the fraction of the data to be sampled and the threshold to select the features can be configured. In our experiments we set the sampling fraction to 75%, the selection threshold to 25% and the number of re-samples to 200."
+    }
 }

@@ -19,5 +19,9 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "May",
-    "title": "Development and Validation of a Corpus for Machine Humor Comprehension"
+    "title": "Development and Validation of a Corpus for Machine Humor Comprehension",
+    "values": {
+        "building on past work": " However, most corpora are just collections of joke stories, hilarious snippets, puns, or one-liners. Some with negative examples for humor recognition by machine learning.   2) An approach to verify whether a minimum human labeled corpus is valid or not, which facilitates the validation of low-resource corpora.",
+        "performance": "BERT performs better under each metric, which meets assumption 2. Therefore, for the skill scheme, the manual labels are valid for this corpus."
+    }
 }

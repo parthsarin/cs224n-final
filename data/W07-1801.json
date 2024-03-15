@@ -20,5 +20,11 @@
     "numcitedby": 21,
     "year": 2007,
     "month": "June",
-    "title": "Speech Recognition Grammar Compilation in Grammatical Framework"
+    "title": "Speech Recognition Grammar Compilation in Grammatical Framework",
+    "values": {
+        "building on past work": "The main difference between our work and the existing compilers is that we work with typetheoretical grammars rather than unification grammars. While the existing work focuses on GSL as the output language, we also support a number of other formats, including finite-state models. By using the GF resource grammars, speech recognition language models can be produced for more languages than with previous systems.",
+        "ease of implementation": "This enables rapid development of portable, multilingual and easily modifiable speech recognition applications. Using the same grammar for multiple system components reduces development and modification costs, and makes it easier to maintain consistency within the system.",
+        "novelty": "Compared to existing work on compiling unification grammars, such as Regulus (Rayner et al., 2006) , our work uses a type-theoretical grammar formalism with a focus on multilinguality and modular grammar development, and supports multiple speech recognition grammar formalisms, including finite-state models. We first outline some existing problems in the development and maintenance of speech recognition grammars, and describe how our work attempts to address these problems. In addition, semantic interpretation code can be embedded in the generated context-free grammars. This enables rapid development of portable, multilingual and easily modifiable speech recognition applications.",
+        "performance": "Jonson ( 2006 ) has shown that in addition to generating grammar-based language models, GF can be used to build statistical language models (SLMs). It was found that compared to our grammar-based approach, use of generated SLMs improved the recognition performance for out-of-grammar utterances significantly."
+    }
 }

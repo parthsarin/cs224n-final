@@ -20,5 +20,10 @@
     "numcitedby": 7,
     "year": 2020,
     "month": "May",
-    "title": "A Test Set for Discourse Translation from {J}apanese to {E}nglish"
+    "title": "A Test Set for Discourse Translation from {J}apanese to {E}nglish",
+    "values": {
+        "building on past work": "Voita et al. In future work, we want to build a test set for English-to-Japanese discourse translation to focus on Japanese empathy and honorifics. M\u00fcller et al.",
+        "novelty": "we proposed a novel approach to create discourse translation tests: tests for coreferences were made from monolingual annotated databases and those for coherences were made from bilingual dictionaries.",
+        "performance": "As for the Transformer, the 2-to-2 models consistently outperformed the 1-to-1 models in all the test categories. In particular, the correct answer rate of pronoun is greatly improved compared with other categories. As for the RNN encoder-decoder, pronoun is the only category with significant improvement. The correct answer rate of the 1-to-1 model for articles was significantly higher than the designed baseline (50%)."
+    }
 }

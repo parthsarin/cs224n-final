@@ -18,5 +18,9 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "November",
-    "title": "Explaining data using causal {B}ayesian networks"
+    "title": "Explaining data using causal {B}ayesian networks",
+    "values": {
+        "building on past work": "We introduce Causal Bayesian Networks as a formalism for representing and explaining probabilistic causal relations, review the state of the art on learning Causal Bayesian Networks and suggest and illustrate a research avenue for studying pairwise identification of causal relations inspired by graphical causality criteria. Previous work This problem of causal discovery based on graphical models is reviewed in depth in (Glymour et al., 2019) . Ideally, we would like to have our methods of learning causality from observational data be more robust to statistical noise, and do not let errors propagate through the graph.",
+        "novelty": "In summary, the development of a local causal criteria will give us a powerful tool to build causal explanations of data, that under certain conditions can distinguish the direction of causality and quantify the strength of the underlying causal relation. The development of this criteria will be of great help to fields eager to extract causal conclusions from historical data. This will involve three avenues of research: Formulating and formally studying criteria for proving causal relations through mathematical definitions and proofs Developing my own algorithms of causal discovery based on such criteria and refining them by evaluating them on synthetic data Testing the performance the resulting algorithms on real datasets We do not expect this work to be easy. Specially challenging in the context of econometrics will be the validation of the methods used. Only seldom do we have direct experimental evidence of the causal relations in a economic domain."
+    }
 }

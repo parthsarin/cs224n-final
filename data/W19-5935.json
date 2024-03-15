@@ -18,5 +18,10 @@
     "numcitedby": 19,
     "year": 2019,
     "month": "September",
-    "title": "A Large-Scale User Study of an {A}lexa {P}rize Chatbot: Effect of {TTS} Dynamism on Perceived Quality of Social Dialog"
+    "title": "A Large-Scale User Study of an {A}lexa {P}rize Chatbot: Effect of {TTS} Dynamism on Perceived Quality of Social Dialog",
+    "values": {
+        "building on past work": "Furthermore, no prior experiments have parametrically tested the presence of these two elements in controlled studies; doing so allows us to test whether there is a cumulative effect of these cognitive-emotional insertions. One empirical question for the CASA framework is what cues can trigger computer personification and to what extent this personification graded; that is, do we see cumulative effects of introducing multiple human-like features in a dialog system, or do listeners display a more categorical response to human-likeness? ",
+        "ease of implementation": "For one, that we see an improvement in ratings across a large-scale pool of users, each with a unique conversation, suggests that introducing these minimal TTS manipulations in other types of dialog systems may be beneficial. Future work testing the implementation of interjections and/or fillers in task versus nontask-oriented systems can further tease apart their generalizability.",
+        "novelty": "Additionally, this paper introduces a methodology for designing and inserting interjections and filler words, both in terms of their context as well as their acoustic adjustments using Speech Synthesis Markup Language (SSML). Furthermore, no prior experiments have parametrically tested the presence of these two elements in controlled studies; doing so allows us to test whether there is a cumulative effect of these cognitive-emotional insertions."
+    }
 }

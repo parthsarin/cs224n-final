@@ -16,5 +16,9 @@
     "numcitedby": 182,
     "year": 2014,
     "month": "June",
-    "title": "Towards Assessing Changes in Degree of Depression through {F}acebook"
+    "title": "Towards Assessing Changes in Degree of Depression through {F}acebook",
+    "values": {
+        "novelty": " To the best of our knowledge this has not previously been studied, with other social media and depression work focused on discrete classes: present or absent.  We compare our predictive model of DDep to one derived from a state-of-the-art sentiment lexicon and look at changes across seasons.",
+        "performance": "Our user-level predictive accuracy is modest, significantly outperforming a baseline of average user sentiment."
+    }
 }

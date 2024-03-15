@@ -18,5 +18,9 @@
     "numcitedby": 5,
     "year": 2018,
     "month": "July",
-    "title": "Interactive Language Acquisition with One-shot Visual Concept Learning through a Conversational Game"
+    "title": "Interactive Language Acquisition with One-shot Visual Concept Learning through a Conversational Game",
+    "values": {
+        "building on past work": " We highlight the perspective that conversational interaction serves as a natural interface both for language learning and for novel knowledge acquisition and propose a joint imitation and reinforcement approach for grounded language learning through an interactive conversational game.  While supervised training with deep neural networks has led to encouraging progress in language learning, it suffers from the problem of capturing mainly the statistics of training data, and from a lack of adaptiveness to new scenarios and being flexible for acquiring new knowledge without inefficient retraining or catastrophic forgetting.  ",
+        "novelty": "     Imitation helps the agent to develop the basic ability to generate sensible sentences. During conversations, the agent perceives sentences and images without any explicit labeling of ground truth answers, and it has to learn to make sense of raw perceptions, extract useful information, and save it for later use when generating an answer to teacher's question. "
+    }
 }

@@ -16,5 +16,10 @@
     "numcitedby": 1,
     "year": 2016,
     "month": "May",
-    "title": "Identifying Content Types of Messages Related to Open Source Software Projects"
+    "title": "Identifying Content Types of Messages Related to Open Source Software Projects",
+    "values": {
+        "building on past work": "Introduction Corpus of Message Threads",
+        "novelty": "We present a detailed hierarchy of content types of online forum messages and issue tracker comments and a corpus of messages annotated accordingly. We discuss our experiments to classify forum messages and issue tracker comments into content-related classes, i.e. to assign them to nodes of the hierarchy. The results are very encouraging.",
+        "performance": "The best accuracy achieved for the multi-label setting is 62.4%, while the best performance for the singlelabel setting is 70.0%."
+    }
 }

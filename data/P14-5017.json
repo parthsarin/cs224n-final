@@ -20,5 +20,8 @@
     "numcitedby": 2,
     "year": 2014,
     "month": "June",
-    "title": "Web Information Mining and Decision Support Platform for the Modern Service Industry"
+    "title": "Web Information Mining and Decision Support Platform for the Modern Service Industry",
+    "values": {
+        "performance": "From the experimental results, we can find that the average F-Score is about 85.69%.The dataset in the second row achieves the best performance while the dataset in the third only get 76.56% in F-Score. It is because that the amount of articles is smaller than the others and the recall value is very low. As far as we know, the best run of topic detection in (Allan et al., 2007) achieved 84%. The performance of topic detection in MODEST is comparable. From Table 4 , we can find that the average F-Score can reach 74.09%. Note that the opinion mining engine of MODEST is the implementation of (Zhou et al., 2010) , which achieved the best run in NTCIR. However, the engine is trained on NTCIR corpus, which consists of articles of general domain, while the test set focuses on the financial domain. We further train our engine on the data from the financial domain and the average F-Score improves to over 80%."
+    }
 }

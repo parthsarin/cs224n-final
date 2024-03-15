@@ -16,5 +16,9 @@
     "numcitedby": 1,
     "year": 2015,
     "month": "October",
-    "title": "Selecting Contextual Peripheral Information for Answer Presentation: The Need for Pragmatic Models"
+    "title": "Selecting Contextual Peripheral Information for Answer Presentation: The Need for Pragmatic Models",
+    "values": {
+        "building on past work": "This study has examined the role and effectiveness of syntactic and semantic models in contextual information selection for answer presentation. Bosma (2005) incorporates the summarization as a method of presenting additional information in QA systems. Vargas-Vera and Motta (Vargas-Vera and Motta, 2004) present an ontology based QA system, AQUA. AQUA system extracts ontology concepts from the entities mentioned in the question and present those concepts in aggregated natural language.",
+        "performance": "An analysis of the multi-entity questions showed that in order to improve performance there is a need to integrate pragmatic aspects into the ranking framework."
+    }
 }

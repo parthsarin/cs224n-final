@@ -24,5 +24,9 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "May",
-    "title": "Automatic Reconstruction of Missing {R}omanian Cognates and Unattested {L}atin Words"
+    "title": "Automatic Reconstruction of Missing {R}omanian Cognates and Unattested {L}atin Words",
+    "values": {
+        "building on past work": "These tendencies have led to a diminishing of the vocabulary, making every modern Romance language borrow from Latin about the same number of words -around 2,000. Out of these 2,000 words, about 500 were transmitted to all Romance languages (generally common, important, high-frequency terms), but most of them were preserved only in a subset of the Romance languages.",
+        "performance": "In terms of accuracy, the correct word was on the first po-sition in the productions list in 65% of the cases, and in 75% of the cases it was among the first 5 productions (top-5 accuracy). For Italian, the performance was lower: the inexistent words cover 47% of the cases. We then aggregated the results obtained from the two languages (Italian and Latin), using ensembles, as described in Section 2, and the results were comparable to those We believe that the results are promising, taking into account the fact that the method is fast and provides a filtering tool for domain experts. The aggregation method obtained 26.9% top-10 accuracy. The best individual result was obtained by the system trained on Italian, which obtained 38% top-10 accuracy, but out of a subset of only 39 unattested words (those for which the Italian cognate was present), so this would mean that for 15 Italian words the correct Latin word was found in the first 10 productions; this shows that the forms are confirmed by our method for more than a quarter of the unattested Latin words that were artificially reconstructed."
+    }
 }

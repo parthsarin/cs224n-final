@@ -19,5 +19,10 @@
     "numcitedby": 9,
     "year": 2020,
     "month": "November",
-    "title": "On the Same Page? Comparing Inter-Annotator Agreement in Sentence and Document Level Human Machine Translation Evaluation"
+    "title": "On the Same Page? Comparing Inter-Annotator Agreement in Sentence and Document Level Human Machine Translation Evaluation",
+    "values": {
+        "building on past work": "The present work attempts to shed light at the differences in IAA when evaluating MT at the sentence and document levels with a small scale comparison. Future work will use more translators and different methodologies, as expressed in the post-task questionnaire and discussed above, with more specific guidelines for context-span issues found in previous works, and the development of test-sets, as well as using document-level MT systems' outputs.",
+        "novelty": "This paper presents a comparison of the differences in inter-annotator agreement between quality assessments using sentence and document-level set-ups.",
+        "performance": "  To best of our knowledge, this is the first study of its kind.   Their professional experience ranges from 6 to 14 years, and three of them have had previous experience with translation evaluation.  Adequacy was assessed for each single sentence and full document (one score per document).   Error annotation was performed after translators assessed fluency and adequacy.  The error annotation task shows higher IAA and IRR in document-level scenario for Test Set 1, however, the low Pearson correlation score does not indicate a strong linear relation.  Pairwise ranking was performed between translation from Google translate and DeepL.  In Test Set 1, the ranking evaluation shows higher IAA for sentence-level scenario when compared to the document-level. "
+    }
 }

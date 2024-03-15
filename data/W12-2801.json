@@ -18,5 +18,8 @@
     "numcitedby": 9,
     "year": 2012,
     "month": "June",
-    "title": "Learning to Interpret Natural Language Instructions"
+    "title": "Learning to Interpret Natural Language Instructions",
+    "values": {
+        "performance": "To illustrate our Model 0 performance, we selected as training data six sentences for two tasks (three sentences for each task) from a dataset we have collected using Amazon Mechanical Turk for the Cleanup Domain. We obtained the reward function for each task using MLIRL, computed the Pr(T i |R j ), then ran Algorithm 1 and obtained the parameters Pr(w k |R j ). After this training process, we presented the agent with a new task. She is given the instruction S N : Go to green room. and a starting state, somewhere in the same grid. Using parameters Pr(w k |R j ), the agent can estimate: and choose the optimal policy corresponding to reward R 2 , thus successfully carrying out the task. Note that R 1 and R 2 corresponded to the two target tasks, but this mapping was determined by EM."
+    }
 }

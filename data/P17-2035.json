@@ -19,5 +19,9 @@
     "numcitedby": 69,
     "year": 2017,
     "month": "July",
-    "title": "Neural Architecture for Temporal Relation Extraction: A {B}i-{LSTM} Approach for Detecting Narrative Containers"
+    "title": "Neural Architecture for Temporal Relation Extraction: A {B}i-{LSTM} Approach for Detecting Narrative Containers",
+    "values": {
+        "building on past work": "In this paper, we present a neural architecture for narrative container identification between medical events (EVENT) and/or temporal expressions (TIMEX3). We experiment on a corpus of deidentified clinical notes in English from the Mayo Clinic, namely the THYME corpus. Our model achieves an F-measure of 0.613 and outperforms the best result reported on this corpus to date. Recent years have seen an increasing interest for the use of neural approaches. Beyond a further analysis of the characteristics of our model, we are interested in two main extensions. The first one will investigate whether training two models, one for EVENT-TIMEX3 relations and one for EVENT-EVENT relations, as done by Dligach et al.",
+        "performance": "Our model achieves an F-measure of 0.613 and outperforms the best result reported on this corpus to date. From a global perspective, the work we have presented in this article shows that in accordance with a more general trend, our neural model for extracting containment relations clearly outperforms classical approaches based on feature engineering."
+    }
 }

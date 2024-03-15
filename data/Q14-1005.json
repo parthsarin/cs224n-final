@@ -19,5 +19,9 @@
     "numcitedby": 68,
     "year": 2014,
     "month": "",
-    "title": "Cross-lingual Projected Expectation Regularization for Weakly Supervised Learning"
+    "title": "Cross-lingual Projected Expectation Regularization for Weakly Supervised Learning",
+    "values": {
+        "novelty": "We propose a new method that projects model expectations rather than labels, which facilities transfer of model uncertainty across language boundaries. We encode expectations as constraints and train a discriminative CRF model using Generalized Expectation Criteria (Mann and McCallum, 2010) . Attaining the same accuracy with supervised CRFs requires 12k and 1.5k labeled sentences. Furthermore, when combined with labeled examples, our method yields significant improvements over state-of-the-art supervised methods, achieving best reported numbers to date on Chinese OntoNotes and German CoNLL-03 datasets.",
+        "performance": "CLIPER s gives the best results on both Chinese and German, yielding statistically significant improvements over all baselines except for CWD13 on German. The improvement over CRF on German is almost a percent. To our knowledge, these are the best reported numbers on the OntoNotes Chinese and CoNLL-03 German datasets."
+    }
 }

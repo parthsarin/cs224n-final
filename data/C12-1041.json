@@ -18,5 +18,10 @@
     "numcitedby": 32,
     "year": 2012,
     "month": "December",
-    "title": "Using Argumentative Zones for Extractive Summarization of Scientific Articles"
+    "title": "Using Argumentative Zones for Extractive Summarization of Scientific Articles",
+    "values": {
+        "building on past work": "We develop a summarization system that uses AZ categories (i) as features and (ii) in the final sentence selection process. We evaluate the system directly as well as using task-based evaluation. The results show that AZ can support both full document and customized summarization. We report a statistically significant improvement in summarization performance against a competitive baseline that uses journal section labels instead of AZ information. In this initial investigation on the topic, we kept the summarization framework intentionally simple for evaluation purposes. Future work could optimise the use of AZ for state-of-the-art summarization systems and also explore further ways of integrating AZ in the task.",
+        "performance": "The results show that AZ can support both full document and customized summarization. We report a statistically significant improvement in summarization performance against a competitive baseline that uses journal section labels instead of AZ information. The improvement in F 1 scores when using AZ during the clustering stage was found to be statistically significant (p < 0.03). There is a 76 % improvement in F 1 scores in the \"Results\" task and an improvement of 54 % in the \"Discussion\" task.",
+        "reproducibility": "To summarize the text they used a heuristic function based on position of paragraphs in a document, position of paragraph in a thematic segment, tf-idf distribution and cue words specific to each theme. In this paper we investigate whether AZ could be used to support a summarization system in the scientific domain. We focus on biomedicine and experiment with the AZ scheme developed for biology by (Mizuta et al., 2006) . Instead of using the positive and unlabeled data, one could artificially generate some labeled data and use that for training a classifier. A traditional classifier model based on Support Vector Machines was built using these positive and negative instances."
+    }
 }

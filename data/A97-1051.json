@@ -26,5 +26,8 @@
     "numcitedby": 175,
     "year": 1997,
     "month": "March",
-    "title": "Mixed-Initiative Development of Language Processing Systems"
+    "title": "Mixed-Initiative Development of Language Processing Systems",
+    "values": {
+        "novelty": "But evaluation rests on an oracle, and for text processing, that oracle is the training and test corpora for a particular task. This has led us to develop a tailoring environment which focuses all of the available knowledge on accelerating the corpus development process. The very same learning procedure that is used to bootstrap the manual tagging process leads eventually to the derivation of tagging heuristics that can be applied in the operational setting to unseen documents. Rules derived manually, automatically, and through a combination of efforts have been applied successfully in a variety of languages, including English, Spanish, Portuguese, Japanese and Chinese. The tailoring environment, known as the Alembic Workbench, has been built and used within our organization, and we are making it available to other organizations involved in the development of language processing systems and/or annotated corpora. Initial experiments indicate an significant improvement in the rate at which annotated corpora can be generated using the Alembic Workbench methodology. Earlier work has shown that with the training dat~ obtained in the course of only a couple of hours of text annotation, an information extraction system can be induced purely automatically that achieves a very competitive level of performance."
+    }
 }

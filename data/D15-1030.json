@@ -18,5 +18,10 @@
     "numcitedby": 9,
     "year": 2015,
     "month": "September",
-    "title": "Birds of a Feather Linked Together: A Discriminative Topic Model using Link-based Priors"
+    "title": "Birds of a Feather Linked Together: A Discriminative Topic Model using Link-based Priors",
+    "values": {
+        "building on past work": "The new topic model we propose therefore takes association links into account so that a document's topic distribution is influenced by the topic distributions of its neighbors. We then use distributed representations to \"seed\" the topic representations before getting down to modeling the documents.",
+        "novelty": "We introduce a new topic model that takes advantage of document links, incorporating link information straightforwardly by deriving clusters from the link graph and assigning each cluster a separate Dirichlet prior. We also take advantage of locally-derived distributed representations to \"seed\" the model's latent topics in an informed way, and we integrate max-margin prediction and lexical regression to improve link prediction quality.",
+        "performance": "We validate our approach on the tweets from 2,000 Sina Weibo users and evaluate our model's reconstruction of the social network. The results confirm that our model outperforms both LDA and MRTF and that its use of user interactions holds promise. A document's PLR is the average rank, among all documents, of the documents to which it actually links. This means that lower values of PLR are better. Figure 2 breaks out the 5-fold cross validation results and the distinct extensions of RTM. The results support the value in combining all three extensions using Lex-IS-MED-RTM, although for mentioning and retweeting, Lex-IS-MED-RTM and IS-RTM are quite close. Applying user interactions does not always produce improvements. However, according to the training performance (extrinsic evaluations which we are still in progress), user interactions do benefit link prediction performance when links are partially available, e.g., suggesting more links based on observed links. In contrast, hinge loss and lexical term weights do not depend on metadata availability and generally produce improvements in link prediction performance."
+    }
 }

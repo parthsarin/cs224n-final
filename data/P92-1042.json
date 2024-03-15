@@ -18,5 +18,9 @@
     "numcitedby": 2,
     "year": 1992,
     "month": "June",
-    "title": "Documentation Parser to Extract Software Test Conditions"
+    "title": "Documentation Parser to Extract Software Test Conditions",
+    "values": {
+        "building on past work": "The CARPER project is aimed at building a self-maintaining database checker for the XCS database. This project looks at what additional testing information can be retrieved from the database dictionary. Instead, it extracts the specific concepts which can be used to test the database. It looks at the appropriate sections of the document on a sentence-by-sentence basis. The canonical form can be used to generate a logical formula or a representation appropriate for input to the test system. A document parser can be an effective software engineering tool for reverse engineering and populating test systems. Questions remain about the potential depth and robustness of the system for more complex types of testable conditions, for additional document types, and for additional domains. Experiments in these areas will investigate deeper representational structures for modal, conditional, and generic sentences, appropriate domain modeling techniques, and representations for general testing knowledge.",
+        "performance": " Preliminary experiments using the grammar to extract information about the allowable XCS attribute and class combinations showed that the system works with good recall (six of twenty-six testcases were missed) and precision (only two incorrect testcases were returned)."
+    }
 }

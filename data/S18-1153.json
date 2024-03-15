@@ -18,5 +18,8 @@
     "numcitedby": 2,
     "year": 2018,
     "month": "June",
-    "title": "{UWB} at {S}em{E}val-2018 Task 10: Capturing Discriminative Attributes from Word Distributions"
+    "title": "{UWB} at {S}em{E}val-2018 Task 10: Capturing Discriminative Attributes from Word Distributions",
+    "values": {
+        "performance": " Our system achieves F1 score 72.1% and is ranked #4 among 26 submitted systems.   Combining all three approaches to- gether yields additional improvements (72.0% and 71.3% on validation and test data, respectively).  Our final UWB system combines all three approaches with one extra trick. We create additional binary features represented as a product of each pair of features (x a \u00d7 x b for a = b) and add them into the classifier. We do this to better model the dependencies between single features. In the table, we denote this trick as a conjunction. Despite the fact that this setting leads to increasing sparseness of the feature set, it boosts F1 score on validation data by 1.9% and on test data by 0.8%."
+    }
 }

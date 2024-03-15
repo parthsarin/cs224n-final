@@ -18,5 +18,10 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "May",
-    "title": "{O}pen{B}rand: Open Brand Value Extraction from Product Descriptions"
+    "title": "{O}pen{B}rand: Open Brand Value Extraction from Product Descriptions",
+    "values": {
+        "building on past work": "In this context, (Karamanolakis et al., 2020) proposed a taxonomy aware knowledge extraction model that takes advantage of the hierarchical relationships between product categories. The latest approaches extend the open world assumption also to attributes and use question answering (QA) models (Wang et al., 2020) to scale to a larger number of attributes.",
+        "novelty": "OpenBrand is a BiLSTM-CRF-Attention model with embeddings at different granularities. Such embeddings are learned using CNN and LSTM architectures to provide more accurate representations. Previous state-of-the-art sequence tagging methods faced the challenge of discovering new values that have not been encountered before. To tackle this issue we proposed OpenBrand, a novel attribute-value extraction model with the integration of character level representations to improve generalizability. Our experiments also show that CNN based representations outperform LSTM based representations in both performance and computation.",
+        "performance": "CNNs have less training complexity as compared to LSTM models under similar experimental settings. This is because our model can leverage the sub-sequence level similarities in brand names between the train set and test set, through the character level embeddings. This indicates that our model has good generalization and is able to transfer to other domains. OpenBrand outperforms baseline approaches by a significant margin. Besides the general F1 score, the gains can be seen in both precision and recall which go up to 2.2% and 11.5%, respectively. OpenBrand performs particularly well for unseen data which confirms our initial claim that character embeddings enhance model generalizability."
+    }
 }

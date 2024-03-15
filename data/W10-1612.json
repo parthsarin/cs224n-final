@@ -20,5 +20,9 @@
     "numcitedby": 10,
     "year": 2010,
     "month": "June",
-    "title": "{IRAS}ubcat, a highly parametrizable, language independent tool for the acquisition of verbal subcategorization information from corpus"
+    "title": "{IRAS}ubcat, a highly parametrizable, language independent tool for the acquisition of verbal subcategorization information from corpus",
+    "values": {
+        "building on past work": "To our knowledge, there is no system to acquire subcategorization information from corpora that is flexible enough to work with different languages and levels of annotation of corpora. We present IRASubcat, a tool that acquires information about the behaviour of verbs from corpora. It is aimed to address a variety of situations and needs, ranging from rich annotated corpora to virtually raw text (because the tags to study can be selected in the configuration file). This approach obtained 73.85% f-score in an evaluation with human judges. Also in 1993, (Ushioda et al., 1993) exploited also the WSJ corpus but only the part that was annotated with part-of-speech tags, with 600.000 words. Various approaches were also found for languages other than English. For German, (Eckle-Kohler, 1999) studied the behaviour of 6305 verbs on automatically POS-tagged corpus data. Many other approaches have been pursued for various languages: (de Lima, 2002) for Portuguese, (Georgala, 2003) for Greek, (Sarkar and Zeman, 2000) for Czech, (Spranger and Heid, 2003) for Dutch, (Chesley and Salmon-Alt, 2006) for French or (Chrupala, 2003) for Spanish, to name a few.",
+        "performance": "We found that the frequency threshold was the best filter to associate patterns and verbs, obtaining an f-measure of 74%."
+    }
 }

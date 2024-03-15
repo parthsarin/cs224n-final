@@ -18,5 +18,8 @@
     "numcitedby": 42,
     "year": 2008,
     "month": "August",
-    "title": "An Agreement Measure for Determining Inter-Annotator Reliability of Human Judgements on Affective Text"
+    "title": "An Agreement Measure for Determining Inter-Annotator Reliability of Human Judgements on Affective Text",
+    "values": {
+        "novelty": " This paper presents a new agreement measure inspired by Kappa coefficient to compute inter-annotator reliability when the annotators have freedom to categorize a text into more than one class.  The extended reliability coefficient has been applied to measure the quality of an affective text corpus.  An analysis of the factors that influence corpus quality has been provided."
+    }
 }

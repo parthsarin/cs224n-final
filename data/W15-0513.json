@@ -19,5 +19,9 @@
     "numcitedby": 20,
     "year": 2015,
     "month": "June",
-    "title": "Towards Detecting Counter-considerations in Text"
+    "title": "Towards Detecting Counter-considerations in Text",
+    "values": {
+        "building on past work": "Among the few approaches that do consider counter-considerations, Kang and Saint-Dizier (2014) analyze technical douments (largely instructional text), where the notion of exception to an argument plays a role, but its function is quite different from the perspective-switching that we discuss here. Ong et al. (2014) work on student essays, which are somewhat more similar to \"our\" genres. Their task includes the recognition of sentence types (Cur-rentStudy, Hypothesis, Claim, Citation) and of support and oppose relations between sentences. Stab and Gurevych (2014) , who annotated a corpus of 90 essays (1673 sentences) with the central claim of the text (90 instances), claims of paragraph-size units (429), and premises (1033). As the proportion of 'against' claims is also relatively low, the authors restrict their classification task, again, to the 'for' claims and the support relations.",
+        "performance": "The performance of the classifiers is shown in Table 2 For the microtexts, we regard the results as fairly satisfactory. For ProCon, there is a significant drop in F1 macro, and even more so for the opponent prec/rec/F1. This was in principle to be expected, but we wanted to know reasons and thus performed a qualitative error analysis."
+    }
 }

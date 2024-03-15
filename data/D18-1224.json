@@ -16,5 +16,9 @@
     "numcitedby": 16,
     "year": 2018,
     "month": "October-November",
-    "title": "Regular Expression Guided Entity Mention Mining from Noisy Web Data"
+    "title": "Regular Expression Guided Entity Mention Mining from Noisy Web Data",
+    "values": {
+        "building on past work": " Unlike much of the previous body of work on this topic, we do not focus on learning/inferring highly accuracte REs for entity identification (Prasse et al., 2012; Bui and Zeng-Treitler, 2014; Li et al., 2008; Banko et al., 2007; Brauer et al., 2011; Bartoli et al., 2016) .  We aim instead to show that deep learning can leverage imperfect REs and achieve very high accuracy while requiring only a modest human involvement.",
+        "performance": "Looking at the examples in the first and last 2 rows of the table, we find strings that match RE with YYYYMMDDhhmmss format. This is an unusual form and it is expected that it might not always correspond to datetime entity. We hypothesize that the neural network encountered many negative strings in the weakly labeled data that have a similar form and learned that this form is not a reliable predictor of datetime. The experimental evaluation on several entity identification problems shows that the proposed framework achieves impressive accuracy, while requiring very modest human effort."
+    }
 }

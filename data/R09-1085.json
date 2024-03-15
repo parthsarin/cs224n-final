@@ -20,5 +20,8 @@
     "numcitedby": 16,
     "year": 2009,
     "month": "September",
-    "title": "Instance Sampling Methods for Pronoun Resolution"
+    "title": "Instance Sampling Methods for Pronoun Resolution",
+    "values": {
+        "performance": "All sampling methods prove to increase the F-score for all classifiers, but the most successful method is random sampling. In the best setting, the F-score improves from 0.541 to 0.608 for memory-based learning, from 0.561 to 0.611 for decision tree learning and from 0.511 to 0.584 for maximum entropy learning. The highest F-score is reached for all classifiers by using random instance sampling with a ratio between 1:1.5 and 1:2."
+    }
 }

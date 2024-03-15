@@ -17,5 +17,10 @@
     "numcitedby": 62,
     "year": 2020,
     "month": "July",
-    "title": "You Impress Me: Dialogue Generation via Mutual Persona Perception"
+    "title": "You Impress Me: Dialogue Generation via Mutual Persona Perception",
+    "values": {
+        "building on past work": "Our work, instead, takes the perspective of understanding modeling. According to the research in cognitive science, effective communication creates similar activation maps in the brains of both interlocutors (Hasson et al., 2012) , suggesting that understanding between interlocutors is an essential signal for a highquality chit-chat conversation. Although both works demonstrate promising results, they focus more on mimicking the style of human-like responses, leaving understudied the aspects of explicitly modeling understanding between interlocutors. A more straightforward approach, which equips chit-chat systems with predefined personas, was proposed accompanied by a novel dataset, PERSONA-CHAT (Zhang et al., 2018b) . As mentioned above, a successful conversation helps interlocutors know each other, which means B's impression of A should correspond to A's persona and vice versa. Following previous work (Li et al., 2016b; Zhang et al., 2018b) , we treat dialogue generation as a sequence generation problem.",
+        "novelty": "   ",
+        "performance": "We also conducted Wilcoxon signed-rank tests between our method and the baselines and the results show the improvements are significant with p < 0.05. As expected, the results on Hits@1 validate the important role of the auxiliary task. Across all the variants, the gains in BLEU and F1 are very small, revealing the difficulty in improving them. Similar conclusions can be drawn from the trend of F1."
+    }
 }

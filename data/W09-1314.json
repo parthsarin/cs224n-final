@@ -17,5 +17,9 @@
     "numcitedby": 11,
     "year": 2009,
     "month": "June",
-    "title": "User-Driven Development of Text Mining Resources for Cancer Risk Assessment"
+    "title": "User-Driven Development of Text Mining Resources for Cancer Risk Assessment",
+    "values": {
+        "building on past work": "We report promising results with inter-annotator agreement tests and automatic classification experiments, and a user test which demonstrates that the resources we have built are well-defined, accurate, and applicable to a real-world CRA scenario. Expanding on our preliminary experiments (Lewin et al. However, the understanding of user needs is still one of the neglected areas of BIO-TM, and further usercentered evaluations and systems grounded in reallife tasks are required to determine which tools and services are useful (Cohen et al. Given the basic resources we have constructed, the development of such technology is now realistic and can be done using unsupervised or semi-supervised machine learning techniques, e.g. Our long term goal is to develop a TM tool specifically designed for CRA. Some tools have recently been built to assist other critical activities of biomedicine (e.g. literature curation for genetics). A few of them have been evaluated for their practical usefulness in a real-world scenario (Karamanis et al.",
+        "novelty": "The taxonomy is based on expert annotation of a corpus of 1297 MEDLINE abstracts. We discuss extending and refining the taxonomy further via manual and machine learning approaches, and the subsequent steps required to develop TM for the needs of CRA."
+    }
 }

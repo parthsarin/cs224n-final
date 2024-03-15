@@ -16,5 +16,8 @@
     "numcitedby": 54,
     "year": 2015,
     "month": "June",
-    "title": "And That{'}s A Fact: Distinguishing Factual and Emotional Argumentation in Online Dialogue"
+    "title": "And That{'}s A Fact: Distinguishing Factual and Emotional Argumentation in Online Dialogue",
+    "values": {
+        "performance": "The precision for the FACTUAL class is reasonably good, but the precision for the FEELING class is only moderate."
+    }
 }

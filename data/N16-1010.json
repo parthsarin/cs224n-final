@@ -18,5 +18,11 @@
     "numcitedby": 22,
     "year": 2016,
     "month": "June",
-    "title": "Automatic Summarization of Student Course Feedback"
+    "title": "Automatic Summarization of Student Course Feedback",
+    "values": {
+        "building on past work": "The integer linear programming framework has demonstrated substantial success on summarizing news documents (Gillick et al., 2008; Gillick et al., 2009; Woodsend and Lapata, 2012; Li et al., 2013) 2011 ) explored a supervised approach to learn parameters using a cost-augmentative SVM.",
+        "novelty": "We make the first effort to summarize student feedback using an integer linear programming framework with data imputation. Our approach allows sentences to share co-occurrence statistics and alleviates sparsity issue.",
+        "performance": "Experimental results on a student feedback corpus show that our approach outperforms a range of baselines in terms of both ROUGE scores and human evaluation. Our proposed approach outperforms all the baselines based on three standard ROUGE metrics. We calculate the percentage of \"wins\" (strong or slight preference) for each system among all comparisons with its counterparts.",
+        "reproducibility": "Our experiments show that the proposed approach performs competitively against a range of baselines and shows promise for future automation of student feedback analysis."
+    }
 }

@@ -19,5 +19,9 @@
     "numcitedby": 14,
     "year": 2019,
     "month": "June",
-    "title": "Embeddia at {S}em{E}val-2019 Task 6: Detecting Hate with Neural Network and Transfer Learning Approaches"
+    "title": "Embeddia at {S}em{E}val-2019 Task 6: Detecting Hate with Neural Network and Transfer Learning Approaches",
+    "values": {
+        "building on past work": "The task was further divided into three sub-tasks: offensive language identification, automatic categorization of offense types, and offense target identification. A different model was trained for each sub-task. For the first sub-task, we used a BERT model fine-tuned on the provided dataset, while for the second and third tasks we developed a custom neural network architecture which combines bag-of-words features and automatically generated sequence-based features. Our results show that combining automatically and manually crafted features fed into a neural architecture outperform transfer learning approach on more unbalanced datasets.",
+        "performance": "   A closer look at the confusion matrices further confirms our claim about the impact of class imbalances on our systems' performance. While the predictions for both classes were fairly accurate in the Sub-task A (Figure 3a ), we can see a dwindling performance on the untargeted insults (UNT) class in Sub-task B (Figure 3b ) where approximately two thirds of the instances were misclassified as targeted insults (TIN) class on the test set.  The confusion matrix for Sub-task C (Figure 3c ) paints a very similar picture. Even though the majority individual (IND) and middle group (GRP) classes were heavily imbalanced in the original dataset, our model was still able to successfully discriminate between them. However, it again performed subpar on the minority other entity (OTH) class, which was heavily underrepresented compared to the other two. Of the 35 instances in the test set, three out of four were misclassified."
+    }
 }

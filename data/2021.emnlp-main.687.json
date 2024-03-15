@@ -18,5 +18,9 @@
     "numcitedby": 5,
     "year": 2021,
     "month": "November",
-    "title": "{M}ulti-Class Grammatical Error Detection for Correction: {A} Tale of Two Systems"
+    "title": "{M}ulti-Class Grammatical Error Detection for Correction: {A} Tale of Two Systems",
+    "values": {
+        "building on past work": "In particular, we first experiment with pretrained language models, and show that simply finetuning ELECTRA (Clark et al., 2020) leads to significant improvements in binary GED and achieves a new state of the art. To illustrate the value of multi-class GED for downstream GEC, we extend the Transformer encoder-decoder model (Vaswani et al., 2017) and employ a multi-encoder GEC model (Yuan and Bryant, 2021) . We also introduce a two-step training strategy which only requires additional input information from a small dataset for fine-tuning. Specifically, we experiment with two methods that use GED to inform GEC: i) we use GED predictions as auxiliary input to fine-tune a model; and ii) we use GED predictions as a means to re-rank system output during post-processing.",
+        "novelty": "We obtain a new state of the art in binary GED on three benchmark datasets. We propose a novel multi-encoder GEC model and two-step training strategy, which has proven to be effective at incorporating an additional GED signal. We demonstrate how multi-class GED can improve a GEC model by i) using GED predictions during fine-tuning; and ii) using GED predictions as a basis for re-ranking. We report competitive performance with the state of the art using a single model without task-specific adaptation."
+    }
 }

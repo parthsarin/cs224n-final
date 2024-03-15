@@ -19,5 +19,9 @@
     "numcitedby": 8,
     "year": 2022,
     "month": "May",
-    "title": "{H}i{T}ab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation"
+    "title": "{H}i{T}ab: A Hierarchical Table Dataset for Question Answering and Natural Language Generation",
+    "values": {
+        "novelty": "Importantly, we provide fine-grained annotations on entity and quantity alignment. In experiments, we introduce strong baselines and conduct detailed analysis on QA and NLG tasks on HiTab. Results suggest that HiTab can serve as a challenging and valuable benchmark for future research on complex tables.",
+        "performance": "MAPO with our hierarchy-aware logical form outperforms that using its original logical form by a large margin 11.5%, indicating the necessity of designing a logical form leveraging hierarchies. MAPO achieves the best EA (40.7%) with the lowest spurious rate (19%). First, it improves EA. The model learns how to deal with more cases given high-quality programs. Second, it largely lowers %Spurious. The model learns to generate correct programs instead of some tricks. This well proves the difficulty of HiTab."
+    }
 }

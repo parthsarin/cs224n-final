@@ -20,5 +20,9 @@
     "numcitedby": 15,
     "year": 2007,
     "month": "June",
-    "title": "Word Sense Disambiguation Incorporating Lexical and Structural Semantic Information"
+    "title": "Word Sense Disambiguation Incorporating Lexical and Structural Semantic Information",
+    "values": {
+        "novelty": "Exploiting rich semantic and structural information improves precision 2-3%. We found that basic n-gram features and collocations provided a great deal of useful information, but that better results could be gained by using ontological information and semantic dependencies.",
+        "performance": "We evaluated the method by using precise information from a large treebank and an ontology automatically created from dictionary sentences. Exploiting rich semantic and structural information improves precision 2-3%. The most gains are seen with verbs, with an improvement of 5.7% over a model using only bag of words and n-gram features. The semantic features (+SEM-Col and +SEM-Dep) are particularly effective for verb and also give moderate improvements on the results of the other POSs. The precision is saturated in using four partitions (264,000 tokens). These results of the dictionary sentences are close to the best published results for the SENSEVAL-2 task (79.3% by Murata et al. (2003) using a combination of simple Bayes learners)."
+    }
 }

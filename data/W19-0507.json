@@ -18,5 +18,10 @@
     "numcitedby": 7,
     "year": 2019,
     "month": "May",
-    "title": "Generating a Novel Dataset of Multimodal Referring Expressions"
+    "title": "Generating a Novel Dataset of Multimodal Referring Expressions",
+    "values": {
+        "building on past work": "Here, we present a novel dataset of Embodied Multimodal Referring Expressions (EMRE), blending gesture and natural language (English text-to-speech), used by an avatar in a human-computer interaction (HCI) scenario. Following these, we seek to build models for generating, recognizing, and classifying referring expressions that are both natural and useful to the human interlocutors of computational dialogue systems. Going forward, we seek to use the evaluated data to train a model that can be deployed within this and other HCI systems to generate natural multimodal referring expressions in real-time, and to not only capture the strong predictors from Sec. 3, but also more subtle dependencies between contextual parameters.",
+        "novelty": "We present a novel dataset of referring expressions combining natural language and gesture, describe its creation and evaluation, and its uses to train models for generating and interpreting multimodal referring expressions.",
+        "performance": "Fig. 3 shows the relative probability of score conditioned on modality. It is very clear that there is a strong preference for the ensemble (in yellow) compared to the others, and that the gesture only method (in blue) was routinely ranked worst while language only was more likely average in terms of naturalness. From the graph on the right, we can see that while the ensemble method was still most likely to achieve ratings above the median, this was not always far (i.e., +2) above the median, suggesting that either most referencing methods were considered adequate (the percentages at X = 0 also suggest this), or the ensemble method itself could be bettered in some way (likely by clearer or more detailed language-see Fig."
+    }
 }

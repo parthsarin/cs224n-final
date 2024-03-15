@@ -18,5 +18,10 @@
     "numcitedby": 44,
     "year": 2018,
     "month": "June",
-    "title": "Multi-Task Learning for Argumentation Mining in Low-Resource Settings"
+    "title": "Multi-Task Learning for Argumentation Mining in Low-Resource Settings",
+    "values": {
+        "building on past work": "The scope for future work is vast. For example, it would be interesting to investigate whether standard low-level tasks, such as POS tagging or chunking, are effective for AM.",
+        "novelty": "We are among the first to perform a structured investigation of MTL for higher-level pragmatic tasks, which are thought to be much more challenging than syntactic tasks (Alonso and Plank, 2017) , and in particular, explore it for AM in cross-domain settings.",
+        "performance": "Our results show that MTL performs particularly well (and better than single-task learning) when little training data is available for the main task, a common scenario in AM. In this paper, we (1) investigate to which de- MTL has been applied in many different settings. We are among the first to perform a structured investigation of MTL for higher-level pragmatic tasks, which are thought to be much more challenging than syntactic tasks (Alonso and Plank, 2017) , and in particular, explore it for AM in cross-domain settings. Experiments hyperparameter configurations. We compare STL on each task, MTL with all remaining datasets as auxiliary tasks, and the union baseline. For three of the six datasets, MTL yields a significant improvement in all sparsity scenarios. The var and news datasets are stable, with consistent small gains from MTL over STL for all sizes of the main task. We observe three different patterns with respect to the main task: (i) for essays, web, and hotel, MTL is considerably better than STL when the main task is sparse, but for 21K tokens we observe either minimal gains or losses from MTL compared to STL. It is further interesting that for the hotel dataset, MTL confuses premises mainly with the semantically similar implicit premises, whereas STL confuses premises with claims. These results indicate that, despite the differ-ent domains and label spaces of the six datasets, MTL appears to learn generalized cross-domain representations of argument components, which aid argument component identification in sparse data scenarios and across domains."
+    }
 }

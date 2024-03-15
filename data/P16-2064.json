@@ -17,5 +17,10 @@
     "numcitedby": 116,
     "year": 2016,
     "month": "August",
-    "title": "{H}awkes Processes for Continuous Time Sequence Classification: an Application to Rumour Stance Classification in {T}witter"
+    "title": "{H}awkes Processes for Continuous Time Sequence Classification: an Application to Rumour Stance Classification in {T}witter",
+    "values": {
+        "building on past work": "Hawkes Processes (Hawkes, 1971) , commonly used for modelling information diffusion in social media (Yang and Zha, 2013; De et al., 2015) , for the task of rumour stance classification. Little work has been done on stance classification of rumour tweets. Qazvinian et al. (2011) introduced a system for classifying rumour tweets and Lukasik et al. (2015a) considered this problem in a setting where the tweets associated with a new emerging rumour is the target for classification. Both works ignored the temporal information. We proposed a novel model based on Hawkes Processes for sequence classification of stances in Twitter which takes into account temporal information in addition to text.",
+        "novelty": "Our experiments on rumour stance classification on four Twitter datasets show the importance of using the temporal information of tweets along with the textual content. The novel contributions of this paper are: Developing a Hawkes Process model for time sensitive sequence classification. Demonstrating on real world data how temporal dynamics conveys important information for stance classification. Establishing the new state of the art method for rumour stance classification. Broadening the set of labels considered in previous work to include a new label commenting.",
+        "performance": "We can observe that in terms of accuracy, HP Approx. beats all other methods. On the other hand, in terms of F 1 score, Language model and GP become the best methods, with HP Approx. method not performing as well anymore. Overall, different metrics yield very different rankings of methods. Nevertheless, we can notice that HP Grad. outperforms NB under all metrics on all datasets. This shows, that the temporal dynamics based prior provided by HP is more helpful than the simple frequency based prior from NB according to all considered metrics."
+    }
 }

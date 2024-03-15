@@ -19,5 +19,9 @@
     "numcitedby": 36,
     "year": 2016,
     "month": "August",
-    "title": "{SHEF}-Multimodal: Grounding Machine Translation on Images"
+    "title": "{SHEF}-Multimodal: Grounding Machine Translation on Images",
+    "values": {
+        "novelty": "Our proposed systems are standard phrase-based SMT systems based on the Moses decoder, trained only on the provided data. We investigate how image features can be used to re-rank the n-best list produced by the SMT model, with the aim of improving performance by grounding the translations on images. We use image features from a Convolutional Neural Network (CNN) along with standard Moses features to re-rank the n-best list. We also propose an alternative scheme for the German-to-English direction, where terms in the English image descriptions are matched against 1,000 Word-Net synsets, and the probability of these synsets occurring in the image estimated using CNN predictions on the images.",
+        "performance": "Our submissions that re-rank the n-best translations with image vectors are able to marginally outperform the strong, text-only baseline system for both directions. The intuition behind our approach is that image features may help further improve the translation of image descriptions, for example disambiguating words with multiple senses, when these alternatives are available in the n-best list produced by the SMT model. Note that although all (n-best) translation hypotheses for a given source description get the same image feature values (1,000 dimension image vector), the combination of the decoder features with these image vectors make the optimiser produce different discriminative weights, which may lead to better translation choices. It can be seen in Table 3 that our systems were able to improve over the baseline in the official metrics in both directions, although only marginally. Moreover, both systems are among the top three systems in the official ranking that outperform the strong Moses SMT baseline."
+    }
 }

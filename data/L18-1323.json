@@ -16,5 +16,11 @@
     "numcitedby": 2,
     "year": 2018,
     "month": "May",
-    "title": "Revisiting the Task of Scoring Open {IE} Relations"
+    "title": "Revisiting the Task of Scoring Open {IE} Relations",
+    "values": {
+        "building on past work": " In the context of Open Information Extraction (OIE), our aim is to assign a score to an arbitrary unseen query fact 1 , judging its plausibility as a member of the KB. This task is important for three reasons : first, it extends the coverage of the existing KB probabilistically to any query, greatly improving upon the closed-world assumption that facts not known to be true are false. Second, as the extraction of information in the open domain is a relatively noisy process, a confidence score helps detecting extraction errors, and makes for higher-quality automatically generated KBs. Last, adjusting the confidence threshold of extracted facts allows to tune as desired the trade-off between precision and recall of the extraction process.  The task has attracted little attention since it was introduced in (Angeli and Manning, 2013) , most that we know in (Li et al., 2016) .  We propose a new baseline for this task, in the form of a language model. Whereas the method of (Angeli and Manning, 2013) is fairly complicated to implement, and requires indexing the KB in various ways for intermediate computations, a trained language model is very compact, straightforward to implement and train, and fast to process requests at use time. We train the model on automatically extracted facts (including some noise) from the same corpus, i.e. the knowledge base, taken as a list of sentences. We experiment with language model features and show that a linear classifier gives good results at the task of recognising actual extracted facts, perhaps unsurprisingly.",
+        "ease of implementation": "a trained language model is very compact, straightforward to implement and train, and fast to process requests at use time.",
+        "novelty": " We propose a simple baseline, based on language modeling and trained with off-the-shelf programs, which gives competitive results in the previously defined protocol for this task, and provides an independent source of signal to judge arbitrary fact plausibility.   We propose a new baseline for this task, in the form of a language model.",
+        "performance": "Both judges achieved just 80% accuracy at discriminating genuine and artificial facts"
+    }
 }

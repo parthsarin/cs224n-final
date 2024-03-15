@@ -18,5 +18,8 @@
     "numcitedby": 9,
     "year": 2019,
     "month": "July",
-    "title": "Aiming beyond the Obvious: Identifying Non-Obvious Cases in Semantic Similarity Datasets"
+    "title": "Aiming beyond the Obvious: Identifying Non-Obvious Cases in Semantic Similarity Datasets",
+    "values": {
+        "novelty": "This paper proposes to distinguish obvious from non-obvious text pairs based on superficial lexical overlap and ground-truth labels. We characterise existing datasets in terms of containing difficult cases and find that recently proposed models struggle to capture the non-obvious cases of semantic similarity. We describe metrics that emphasise cases of similarity which require more complex inference and propose that these are used for evaluating systems for semantic similarity."
+    }
 }

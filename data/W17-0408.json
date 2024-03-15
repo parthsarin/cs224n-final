@@ -21,5 +21,9 @@
     "numcitedby": 12,
     "year": 2017,
     "month": "May",
-    "title": "Towards {U}niversal {D}ependencies for Learner {C}hinese"
+    "title": "Towards {U}niversal {D}ependencies for Learner {C}hinese",
+    "values": {
+        "building on past work": "We adapt this scheme in terms of word segmentation (Section 3.1), POS tagging (Section 3.2) and dependency annotation (Section 3.3). We follow SALLE and TLE in adhering to the principle of \"literal annotation\", with some exceptions to be discussed below.",
+        "novelty": "Our scheme characterizes the POS and dependency relations with respect to both morphological and distributional evidence."
+    }
 }

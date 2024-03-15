@@ -18,5 +18,10 @@
     "numcitedby": 16,
     "year": 2013,
     "month": "June",
-    "title": "Using Out-of-Domain Data for Lexical Addressee Detection in Human-Human-Computer Dialog"
+    "title": "Using Out-of-Domain Data for Lexical Addressee Detection in Human-Human-Computer Dialog",
+    "values": {
+        "building on past work": "Recent work on AD (Shriberg et al., 2012) showed good results using prosodic and lexical features trained on in-domain data. In this study we focus on lexical models and investigate how well out-of-domain data (either outside the domain, or from single-user scenarios) can fill in for matched in-domain data. We show in this paper that precisely this training scenario is feasible and achieves results that are comparable or better than using completely matched H-H-C training data.",
+        "novelty": "We find that human-addressed speech can be modeled using out-of-domain conversational speech transcripts, and that human-computer utterances can be modeled using single-user data: the resulting AD system outperforms a system trained only on matched in-domain data. The POS-based model with N = 300 improves the EER by 0.5 points on ASR output, and N = 1000 improves the EER by 0.8 points on transcripts. Another effective way to overcome scarce training data is to replace the less frequent words with part-of-speech labels. In a second study we found that the most salient phrases for lexical addressee detection occur within the first 1 to 1.5 seconds of speech in each utterance.",
+        "performance": "Combining in-domain and out-of-domain data (both-all, bothsmall) gives about 1 point additional EER gain. Interpolating with out-of-domain data still helps here. The POS-based model with N = 300 improves the EER by 0.5 points on ASR output, and N = 1000 improves the EER by 0.8 points on transcripts. Using the outside training data, we obtain results that are even better than results using matched (but smaller) H-H-C training data. Results can be improved considerably by adapting H-C and H-H language models with small amounts of matched H-H-C data, via interpolation. In both baseline and interpolated model, we found that POS-based models that keep an appropriate number of the top N most frequent word types can further improve the system's performance."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 135,
     "year": 2015,
     "month": "June",
-    "title": "{S}em{E}val-2015 Task 1: Paraphrase and Semantic Similarity in {T}witter ({PIT})"
+    "title": "{S}em{E}val-2015 Task 1: Paraphrase and Semantic Similarity in {T}witter ({PIT})",
+    "values": {
+        "performance": "The best systems scored a F1-measure of 0.674 for the PI task and a Pearson correlation of 0.619 for the SS task respectively, comparing to a strong baseline using logistic regression model of 0.589 F1 and 0.511 Pearson; while the best SS systems can often reach >0.80 Pearson on well-formed text. Our analysis provides some initial insights into the relation and the difference between paraphrase identification and semantic similarity problems.",
+        "reproducibility": " We make all the data, baseline systems and evaluation scripts publicly available."
+    }
 }

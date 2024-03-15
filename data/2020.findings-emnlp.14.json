@@ -16,5 +16,8 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "November",
-    "title": "Neural Speed Reading Audited"
+    "title": "Neural Speed Reading Audited",
+    "values": {
+        "performance": "Our first observation is that our n-gram-based classifier consistently outperforms the reported performance of the STRUCTURAL-JUMP-LSTM architecture. This is remarkable, since the STRUCTURAL-JUMP-LSTM is a novel deep learning architecture, which employs more parameters and takes considerably less time to train: Our total training time corresponds roughly to training the baseline LSTM architecture for one epoch, but the n-gram-based architecture is significantly faster at inference time, as measured in FLOP reductions. On average, we reduce 136 times as many FLOPs as STRUCTURAL-JUMP-LSTM. The n-gram-based classifier is also easier to parallelize than the STRUCTURAL-JUMP-LSTM. We have argued that traditional n-gram classifiers are fully adequate baselines for neural speed reading architectures, in the context of document classification. Wu et al. (2017) present an even simpler non-recurrent model based only on convolutions that is 100x faster than their recurrent baseline model and achieves the same performance. Both papers are good examples of significantly faster reading strategies for a sequence labeling task -in this case, machine comprehension -that seem to outperform neural speed reading architectures by some margin. For a more direct comparison, Trischler et al. (2016) show that using only convolutional encoders and similar scores on the CBT-CN dataset seem to outperform their own LSTM baseline, as well as STRUCTURAL-JUMP-LSTM, by some margin."
+    }
 }

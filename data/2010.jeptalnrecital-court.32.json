@@ -19,5 +19,8 @@
     "numcitedby": 26,
     "year": 2010,
     "month": "July",
-    "title": "Semi-automated Extraction of a Wide-Coverage Type-Logical Grammar for {F}rench"
+    "title": "Semi-automated Extraction of a Wide-Coverage Type-Logical Grammar for {F}rench",
+    "values": {
+        "performance": "The supertagger obtains state-of-the-art performance compared to English supertaggers."
+    }
 }

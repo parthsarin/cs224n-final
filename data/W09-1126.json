@@ -18,5 +18,8 @@
     "numcitedby": 62,
     "year": 2009,
     "month": "June",
-    "title": "Using Encyclopedic Knowledge for Automatic Topic Identification"
+    "title": "Using Encyclopedic Knowledge for Automatic Topic Identification",
+    "values": {
+        "performance": "The task of topic identification goes beyond keyword extraction (Mihalcea and Csomai, 2007) , since relevant topics may not be necessarily mentioned in the document, and instead have to be obtained from some repositories of external knowledge. In order to measure the effectiveness of the topic ranking process, we run three sets of experiments, aimed at measuring the relevancy of the automatically identified topics with respect to manually annotated gold standard data sets. Figures 3, 4 and 5 show the precision, recall and F-measure obtained for the various settings. As seen in the figures, the best results are obtained for a setting where both the initial bias and the propagation include all the available nodes, i.e., both articles and categories. Figures 6, 7 and 8 show the effect of varying the value of the keyRatio parameter used by Wikify! has on the precision, recall and F-measure of the system. The system's best performance occurs for a keyRatio of 0.04 to 0.06, which coincides with the ratio found optimal in previous experiments using the Wikify! Overall, the system manages to find many relevant topics for the documents in the evaluation data set, despite the large number of candidate topics (close to 390,000). Our system exceeds the baseline by a large margin, demonstrating the usefulness of using the biased ranking on the encyclopedic graph. Using a machine learning system, (Medelyan and Witten, 2008) reported a consistency of 30.5%. Thus, our result of 34.5% is significantly better, despite the fact that our method is unsupervised."
+    }
 }

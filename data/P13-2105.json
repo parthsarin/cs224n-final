@@ -19,5 +19,9 @@
     "numcitedby": 2,
     "year": 2013,
     "month": "August",
-    "title": "Iterative Transformation of Annotation Guidelines for Constituency Parsing"
+    "title": "Iterative Transformation of Annotation Guidelines for Constituency Parsing",
+    "values": {
+        "novelty": "This paper presents an effective algorithm of annotation adaptation for constituency treebanks, which transforms a treebank from one annotation guideline to another with an iterative optimization procedure, thus to build a much larger treebank to train an enhanced parser without increasing model complexity.",
+        "performance": "It achieves a 0.69% absolute improvement on the CTB test data over the direct parsing baseline when the whole CTB training data is used for training. The curve shows that the maximum performance is achieved at iteration 5. Compared to the basic annotation transformation, the iterative training strategy leads to a better parser with higher accuracy. Table 1 reports that the final optimized parsing results on the CTB test set contributes a 0.95% absolute improvement over the directly parsing baseline."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 11,
     "year": 2016,
     "month": "August",
-    "title": "Unshared task: (Dis)agreement in online debates"
+    "title": "Unshared task: (Dis)agreement in online debates",
+    "values": {
+        "performance": "F-scores of 0.44 and 0.37 were achieved by a classifier trained on 2,000 debate sentences for detecting sentencelevel agreement and disagreement. For the training set, an F-score of around 0.47 was obtained for agreement and around 0.55 for disagreement. Results were, however, substantially lower for disagreement on the evaluation set. Not all of these previous studies are, however, directly comparable, e.g., since more narrowly or broadly defined categories were used and/or larger training data sets or external lexical resources.",
+        "reproducibility": "The next step includes an expansion of the training and evaluation sets, as well as to involve a second annotator to measure inter-annotator agreement and to create a gold standard. Without this measure of reliability, the annotated corpus cannot be considered complete Future work also includes studying to what extent a topic-independent classifier detects dis/agreement in general."
+    }
 }

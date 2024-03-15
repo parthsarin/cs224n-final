@@ -19,5 +19,9 @@
     "numcitedby": 21,
     "year": 2021,
     "month": "November",
-    "title": "Improving Question Answering Model Robustness with Synthetic Adversarial Data Generation"
+    "title": "Improving Question Answering Model Robustness with Synthetic Adversarial Data Generation",
+    "values": {
+        "building on past work": " Introduction While dynamic adversarial data collection, in which a human annotator tries to write examples that fool a model-in-the-loop, can improve model robustness, this process is expensive which limits the scale of the collected data. In this work, we are the first to use synthetic adversarial data generation to make question answering models more robust to human adversaries.  Related Work  Results",
+        "performance": "By incorporating our synthetic data, we improve the state-of-theart on the AdversarialQA dataset by 3.7F 1 and improve model generalisation on nine of the twelve MRQA datasets. We further conduct a novel human-in-the-loop evaluation and show that our models are considerably more robust to new human-written adversarial examples: crowdworkers can fool our model only 8.8% of the time on average, compared to 17.6% for a model trained without synthetic data. We develop a data generation pipeline that selects source passages, identifies candidate answers, generates questions, then finally filters or relabels them to improve quality."
+    }
 }

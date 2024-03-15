@@ -18,5 +18,11 @@
     "numcitedby": 88,
     "year": 2017,
     "month": "August",
-    "title": "{T}uring at {S}em{E}val-2017 Task 8: Sequential Approach to Rumour Stance Classification with Branch-{LSTM}"
+    "title": "{T}uring at {S}em{E}val-2017 Task 8: Sequential Approach to Rumour Stance Classification with Branch-{LSTM}",
+    "values": {
+        "building on past work": "Our method decomposes the tree structure of conversations into linear sequences and achieves accuracy 0.784 on the testing set and sets the state-of-the-art for rumour stance classification. In future work we plan to explore different methods for modelling tree-structured conversations.",
+        "novelty": "We propose a LSTM-based sequential model that, through modelling the conversational structure of tweets, which achieves an accuracy of 0.784 on the RumourEval test set outperforming all other systems in Subtask A. Our method decomposes the tree structure of conversations into linear sequences and achieves accuracy 0.784 on the testing set and sets the state-of-the-art for rumour stance classification.",
+        "performance": "The branch-LSTM model predicts commenting, the majority class well, however it is unable to pick out any denying, the mostchallenging under-represented class. Most deny-6 We used the implementation of the TPE algorithm in the hyperopt package (Bergstra et al., 5 ), with only one tweet misclassified as querying and two as supporting (Figure 2 ). An increased amount of labelled data would be helpful to improve performance of this model. This paper describes the Turing system entered in the SemEval-2017 Task 8 Subtask A. Our method decomposes the tree structure of conversations into linear sequences and achieves accuracy 0.784 on the testing set and sets the state-of-the-art for rumour stance classification.",
+        "reproducibility": "The dataset provided for this task contains Twitter conversation threads associated with rumours around ten different events in breaking news, including the Paris shootings in Charlie Hebdo, the Ferguson unrest, the crash of a Germanwings plane."
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 104,
     "year": 2008,
     "month": "October",
-    "title": "Learning the Scope of Negation in Biomedical Texts"
+    "title": "Learning the Scope of Negation in Biomedical Texts",
+    "values": {
+        "novelty": " As far as we know, this way of approaching the negation scope finding task is novel.  Our approach to negation detection differs in two main aspects from existing research on negation. First, we focus on finding the scope of negation signals, instead of determining whether a term is negated or not. Second, we apply supervised machine learning techniques, whereas most existing systems apply rule-based algorithms.  We have highlighted the fact that our approach to negation detection focuses on finding the scope of negation signals, instead of determining whether a term is negated or not, and on applying supervised machine learning techniques. As far as we know, this approach is novel."
+    }
 }

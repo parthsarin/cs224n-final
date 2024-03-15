@@ -18,5 +18,9 @@
     "numcitedby": 20,
     "year": 2012,
     "month": "April",
-    "title": "{CL}ex: A Lexicon for Exploring Color, Concept and Emotion Associations in Language"
+    "title": "{CL}ex: A Lexicon for Exploring Color, Concept and Emotion Associations in Language",
+    "values": {
+        "building on past work": "We call this lexicon CLEX 1 . In contrast to the development of these lexicons, we do not restrict our annotators to a particular set of emotions. This allows us to collect more linguistically rich color-concept annotations associated with mood, cognitive state, behavior and attitude. We also do not have any restrictions on color naming, which helps us to discover a rich lexicon of color terms and collocations that represent various hues, darkness, saturation and other natural language collocations. We investigate the relation between color and concept, and color and emotion, reinforcing results from previous studies, as well as discovering new associations.",
+        "novelty": "In this paper we begin to address this problem by building a novel, color-emotion-concept association lexicon via crowdsourcing. This lexicon, which we call CLEX, has over 2,300 color terms, over 3,000 affect terms and almost 2,000 concepts. We investigate the relation between color and concept, and color and emotion, reinforcing results from previous studies, as well as discovering new associations. We also investigate cross-cultural differences in color-emotion associations between US and India-based annotators."
+    }
 }

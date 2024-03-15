@@ -19,5 +19,9 @@
     "numcitedby": 242,
     "year": 2007,
     "month": "April",
-    "title": "Improving Diversity in Ranking using Absorbing Random Walks"
+    "title": "Improving Diversity in Ranking using Absorbing Random Walks",
+    "values": {
+        "novelty": " We introduce a novel ranking algorithm called GRASSHOPPER, which ranks items with an emphasis on diversity.  Our algorithm is based on random walks in an absorbing Markov chain. We turn ranked items into absorbing states, which effectively prevents redundant items from receiving a high rank.  GRASSHOPPER is an alternative to MMR and variants, with a principled mathematical model and strong empirical performance.",
+        "performance": "GRASSHOPPER is highly competitive in these text summarization tasks: in particular it ranks between the 1st and 2nd automatic systems on 2004 Task 2. The lower performance in Task 4a is potentially due to the documents being machine-translated. If they contain poorly translated sentences, graph edges based on cosine similarity could be less meaningful. For such a task, more advanced text processing is probably required."
+    }
 }

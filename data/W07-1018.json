@@ -19,5 +19,8 @@
     "numcitedby": 71,
     "year": 2007,
     "month": "June",
-    "title": "Interpreting comparative constructions in biomedical text"
+    "title": "Interpreting comparative constructions in biomedical text",
+    "values": {
+        "performance": "Results of a preliminary evaluation were recall of 70%, precision of 96%, and F-score of 81%. Upon inspection of the SemRep processing results we noticed that the test set contained nine duplicates. In addition, four sentences were not processed for various technical reasons. We report the results for the remaining 287 sentences, which contain 288 comparative structures occurring in 168 MEDLINE citations. Seventy four citations contain 85 comp2 structures. The remaining 203 structures are comp1. Correct identification of comparative structures of both types depends on two factors: 1) recognition of both drugs being compared, and 2) recognition of the presence of a comparative structure itself. In addition, correct identification of the comp2 structures depends on recognition of the scale on which the drugs are compared and the relative position of the drugs on the scale. Table 1 presents recall, precision, and F-score reflecting these factors. We considered drug identification to be correct only if both drugs participating in the relationship were identified correctly. The recall results indicate that approximately 30% of the drugs and comparative structures of comp1, as well as 40% of comp2 structures, remain unrecognized; however, all components are identified with high precision. Macro-averaging over compared drug names, scale, and position on scale categories we achieve an F-score = 0.78. The micro-average score for 287 comparative sentences is 0.5."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 94,
     "year": 2016,
     "month": "June",
-    "title": "Attention-Based Convolutional Neural Network for Machine Comprehension"
+    "title": "Attention-Based Convolutional Neural Network for Machine Comprehension",
+    "values": {
+        "building on past work": "It is, to our knowledge, the first deep learning (DL) based system for this MCTest task. Existing systems for MCTest are mostly based on manually engineered features",
+        "novelty": "Our approach is novel in three aspects. (i) A document is modeled by a hierarchical CNN for different granularity, from word to sentence level, then from sentence to snippet level. Hence, the same document should have different representations based on what the question is. To this end, attention is incorporated into the hierarchical CNN to guide the learning of dynamic document representations which closely match the information requirements by questions. (iii) Document representations at sentence and snippet levels both are informative for the question. Therefore a highway network is developed to combine them, enabling our system to make a flexible tradeoff.",
+        "performance": "Table 2 lists the performance of baselines, HABCNN systems, and two top-performing non-DL systems (Sachan et al. (2015) , Wang et al. (2015) ) in the first, second, and last block, respectively. Consistently, our HABCNN systems outperform all baselines, especially surpass the two competitive DL systems AR and NR. The margin between our best-performing ABHCNN-TE and NR is 15.5/16.5 (accuracy/NDCG) on MCTest-150 and 7.3/4.6 on MCTest-500. This demonstrates the promise of our architecture in this task."
+    }
 }

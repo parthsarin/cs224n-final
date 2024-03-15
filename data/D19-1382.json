@@ -25,5 +25,10 @@
     "numcitedby": 148,
     "year": 2019,
     "month": "November",
-    "title": "{PAWS}-{X}: A Cross-lingual Adversarial Dataset for Paraphrase Identification"
+    "title": "{PAWS}-{X}: A Cross-lingual Adversarial Dataset for Paraphrase Identification",
+    "values": {
+        "building on past work": "Most existing work on adversarial data generation focuses on English. For example, PAWS (Paraphrase Adversaries from Word Scrambling) (Zhang et al., 2019) consists of challenging English paraphrase identification pairs from Wikipedia and Quora. The lack of high-quality adversarial examples in other languages makes it difficult to benchmark model improvements. We choose translation instead of repeating the PAWS data generation approach (Zhang et al., 2019) to other languages. This has at least three advantages. Our experimental results showed that PAWS-X effectively measures sensitivity of models to word order and the efficacy of cross-lingual learning approaches. It also leaves considerable headroom as a new challenging benchmark to drive multilingual research on the problem of paraphrase identification.",
+        "novelty": " We remedy this gap with PAWS-X, a new dataset of 23,659 human translated PAWS evaluation pairs in six typologically distinct languages: French, Spanish, German, Chinese, Japanese, and Korean.  Our experimental results showed that PAWS-X effectively measures sensitivity of models to word order and the efficacy of cross-lingual learning approaches. It also leaves considerable headroom as a new challenging benchmark to drive multilingual research on the problem of paraphrase identification.",
+        "performance": "PAWS-X effectively measures the multilingual adaptability of models and how well they capture context and word order. The state-of-the-art multilingual BERT model (Devlin et al., 2019) obtains a 32% (absolute) accuracy improvement over a bag-of-words model. The majority of the examples are easy, with 61.7% correct in all languages."
+    }
 }

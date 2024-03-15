@@ -20,5 +20,8 @@
     "numcitedby": 3,
     "year": 2013,
     "month": "August",
-    "title": "Selecting Feature Sets for Comparative and Time-Oriented Quality Estimation of Machine Translation Output"
+    "title": "Selecting Feature Sets for Comparative and Time-Oriented Quality Estimation of Machine Translation Output",
+    "values": {
+        "performance": "For German-English, we experiment with 14 feature sets, using both variations of Logistic Regression. The two highest tau scores are given by Stepwise Feature Set Selection using feature sets #33 and #24. We see that although baseline features #31 alone have very low correlation, when combined with previously successful #24, provide the best system in terms of tau. For English-Spanish, the correlation of the produced systems is significantly lower and it appears that the L2-regularized logistic regression performs better as classification method. Surprisingly enough, Kendall tau on counts of numbers and punctuation, combined with contrastive BLEU score. This seems to rather overfit a peculiarity of the particular development set and indeed performs much lower on the final test set of the shared task (tau=0.04). The fitted \u03b2 coefficients (in tables 3 and 4) give an indication of the importance of each feature (see equation 1), for each language pair. We note the models that have the lowest Root Mean Square Error and Mean Average Error. Our best model seems to be the one built linear regression using feature set #6. The second best feature set (#8) includes 29 glass-box features with the highest absolute Reli-efF, joined with the black-box features of the successful feature set #6."
+    }
 }

@@ -21,5 +21,10 @@
     "numcitedby": 9,
     "year": 2018,
     "month": "June",
-    "title": "Automated Paraphrase Lattice Creation for {H}y{TER} Machine Translation Evaluation"
+    "title": "Automated Paraphrase Lattice Creation for {H}y{TER} Machine Translation Evaluation",
+    "values": {
+        "building on past work": "We show that although the metric achieves high correlation with human judgments of translation quality on small and carefully curated data, with both manual and automatically constructed paraphrase networks, it obtains medium performance on recent WMT data. The lower performance is mainly due to the noisier nature of the data and to the higher quality lexical choices made by current neural MT systems, compared to phrase-based and transfer systems, which limits the potential of the metric for system evaluation and tuning.",
+        "novelty": "The original HyTER metric relied on hand-crafted paraphrase networks which restricted its applicability to new data. We test, for the first time, HyTER with automatically built paraphrase lattices. We propose an alternative to the costly manual annotation of reference translations which exploits an embedding-based model of lexical substitution proposed by Melamud et al. (2015) (called Add-Cos).",
+        "performance": "We show that although the metric achieves high correlation with human judgments of translation quality on small and carefully curated data, with both manual and automatically constructed paraphrase networks, it obtains medium performance on recent WMT data."
+    }
 }

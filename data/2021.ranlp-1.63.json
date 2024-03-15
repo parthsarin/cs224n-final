@@ -18,5 +18,10 @@
     "numcitedby": 0,
     "year": 2021,
     "month": "September",
-    "title": "Application of Deep Learning Methods to {SNOMED} {CT} Encoding of Clinical Texts: From Data Collection to Extreme Multi-Label Text-Based Classification"
+    "title": "Application of Deep Learning Methods to {SNOMED} {CT} Encoding of Clinical Texts: From Data Collection to Extreme Multi-Label Text-Based Classification",
+    "values": {
+        "building on past work": "We propose an adaptation of the approach proposed by (Chang et al., 2020) and demonstrate the entire process from training dataset construction to classification model design and training. Our further work includes training of Multilingual BERT to solve the multilingual problem.",
+        "novelty": "Proposed augmentation techniques matching data distribution specifics Proposed sampling strategy dealing with unbalanced data Multi-class cluster classification is replaced with multi-label cluster classification, increasing the task's level of complexity Cluster to label refinement is compressed to model per cluster, which is more suitable for extreme scale classification tasks",
+        "performance": "The experiments are performed for trained models for 7 epochs for Dataset V2 -disorders subset. Approach Accuracy bioBERT clusterings + label refinement (final approach) 0.97 The proposed approach shows high accuracy and scalability. The additional steps for label refinement do not cause significant slow down of the learning process of the model. Moreover, the presented results of the experiments and the evaluation are for a larger dataset and a wider range of SNOMED CT codes."
+    }
 }

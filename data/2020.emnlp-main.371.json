@@ -21,5 +21,9 @@
     "numcitedby": 0,
     "year": 2020,
     "month": "November",
-    "title": "Character-level Representations Improve {DRS}-based Semantic Parsing Even in the Age of {BERT}"
+    "title": "Character-level Representations Improve {DRS}-based Semantic Parsing Even in the Age of {BERT}",
+    "values": {
+        "building on past work": "   (2019) and Liu et al. (2019b) .",
+        "novelty": "We combine character-level and contextual language model representations to improve performance on Discourse Representation Structure parsing. Character representations can easily be added in a sequence-to-sequence model in either one encoder or as a fully separate encoder, with improvements that are robust to different language models, languages and data sets. For English, these improvements are larger than adding individual sources of linguistic information or adding non-contextual embeddings. A new method of analysis based on semantic tags demonstrates that the character-level representations improve performance across a subset of selected semantic phenomena. These methods should be applicable to other semantic parsing and perhaps other natural language analysis tasks."
+    }
 }

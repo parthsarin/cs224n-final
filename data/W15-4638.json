@@ -24,5 +24,8 @@
     "numcitedby": 54,
     "year": 2015,
     "month": "September",
-    "title": "{M}ulti{L}ing 2015: Multilingual Summarization of Single and Multi-Documents, On-line Fora, and Call-center Conversations"
+    "title": "{M}ulti{L}ing 2015: Multilingual Summarization of Single and Multi-Documents, On-line Fora, and Call-center Conversations",
+    "values": {
+        "performance": "14 of the 23 systems did better than the baseline summary for at least half of the languages they partook in. On average across all languages, except for Chinese, 13 of the 18 systems surpassed the baseline, according to the automatic evaluation."
+    }
 }

@@ -22,5 +22,9 @@
     "numcitedby": 0,
     "year": 2013,
     "month": "October",
-    "title": "Meta-level Statistical Machine Translation"
+    "title": "Meta-level Statistical Machine Translation",
+    "values": {
+        "building on past work": " We propose a simple and effective method to build a meta-level Statistical Machine Translation (SMT), called meta-SMT, for system combination. Our approach is based on the framework of Stacked Generalization, also known as Stacking, which is an ensemble learning algorithm, widely used in machine learning tasks.  Most other researches are in the statistical post-editing (SPE) techniques which have been used successfully to improve the output of Rule- Based MT (RBMT) systems. Simard et al. (2007a) , trained a \"mono-lingual\" Phrase-based SMT system (the Portage system) on the output of an RBMT system for the source side of the training set of the Phrase-based SMT system and the corresponding human translated (manually post-edited) reference.  More recently, B\u00e9chara et al. (2011) designed a full phrase-based SMT pipeline that included a translation step and a post-editing step. The authors report significant improvements of 2 BLEU points for a French to English translation task, using a novel context aware approach.",
+        "performance": "Experimental results show that our approach leads to significant improvements in translation quality over a phrase-based baseline by about 1.1 BLEU points. The biggest improvement is obtained by meta-SMT (10-best) by 1.07 BLEU improvement. Considering the results on the development set, meta-SMT (4best) and meta-SMT (8-best) will be good choices for meta-level SMT. The figure shows BLEU curve on the test set, where the X-axis is the number of base-level outputs (n-best) that is used to create meta-level corpus for meta-SMT, and the Y-axis is the BLEU scores of the final meta-SMT calculated from each approach. It is observed that all stackingbased meta-SMTs are really better than the baseline SMT in 99% of the times. The proposed method outperforms the baseline SMT on the same test set."
+    }
 }

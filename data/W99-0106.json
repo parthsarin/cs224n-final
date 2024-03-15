@@ -16,5 +16,8 @@
     "numcitedby": 42,
     "year": 1999,
     "month": "",
-    "title": "Discourse Structure and Co-Reference: An Empirical Study"
+    "title": "Discourse Structure and Co-Reference: An Empirical Study",
+    "values": {
+        "performance": "The graph in Figure 3 shows the potentials of the Linear-k and Discourse-VT-k models to correctly determine co-referential links for each k from 1 to 20. As theze two graphs show, the potentials increase monotonically with k, the VT-k models always doing better than the Linear-k models. Eventually, for large ks, the potential performance of the two models converges to 100~. For example, the graphs suggests that by choosing to work with EDRAs of size 7, a discourse-based system has the potential of resolving more thun 90~ of the coreferential links in a text correctly. To achieve the same potential, a linear-based system needs to look back 8 units. If a system does not look back at all and attempts to resolve co-referential links only within the unit under scrutiny (k --0), it has the potential to correctly resolve about 40~ of the coreferential links. Figure 5 shows, for each k, the value of the Discourse-VT-k potentials divided by the value of the Linear-k potentials. For k = 0, the potentials of both models are equal because both use only the unit in focus in order to determine cwreferential links. Empirical experiments that investigated the relation between discourse structure and reference also claim that by exploiting the structure of discourse one has the potential of determining correct co-referential links for more than 80% of the referential expressions (Fox, 1987; Cristea et al., 1998) although to date, no discourse-based anaphora resolution system has been implemented."
+    }
 }

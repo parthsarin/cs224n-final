@@ -18,5 +18,10 @@
     "numcitedby": 1,
     "year": 2021,
     "month": "August",
-    "title": "{E}ns{LM}: Ensemble Language Model for Data Diversity by Semantic Clustering"
+    "title": "{E}ns{LM}: Ensemble Language Model for Data Diversity by Semantic Clustering",
+    "values": {
+        "building on past work": "Inspired by their works and to move beyond, in this paper, we find the semantics learned by topic modeling (Blei et al., 2003; Srivastava and Sutton, 2017) can infer sample clusters to a certain extent via K-means, but is not good enough, as shown in Fig. To jointly consider the clustering and topic modeling for better clustering (as shown in Fig. For each sample in the corpus, mATM can infer a soft clustering assignment. Specifically, as shown in Fig. Guided by clustering assignment inferred from mATM, these parameters modulate the backbone single LM to multiple LMs, corresponding to different clusters. Therefore, our proposed model can be seen as a type of ensemble learning, and hence we call it ensemble language model (EnsLM).",
+        "novelty": "Having obtained the clustering assignment for each sample, we develop the ensemble LM (En-sLM) with the technique of weight modulation. Specifically, EnsLM contains a backbone which is adjusted by a few modulated weights to fit for different sample clusters. As a result, the backbone learns the shared knowledge among all clusters while modulated weights extract the cluster-specific features. EnsLM can be trained jointly with mATM with flexible LM backbone.",
+        "performance": "Having obtained the clustering assignment for each sample, we develop the ensemble LM (En-sLM) with the technique of weight modulation. Specifically, EnsLM contains a backbone which is adjusted by a few modulated weights to fit for different sample clusters. As a result, the backbone learns the shared knowledge among all clusters while modulated weights extract the cluster-specific features. EnsLM can be trained jointly with mATM with flexible LM backbone. We evaluate the effectiveness of both mATM and EnsLM on different language understanding and generative tasks."
+    }
 }

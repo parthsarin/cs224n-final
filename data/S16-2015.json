@@ -18,5 +18,8 @@
     "numcitedby": 1,
     "year": 2016,
     "month": "August",
-    "title": "Linguistic Style Accommodation in Disagreements"
+    "title": "Linguistic Style Accommodation in Disagreements",
+    "values": {
+        "novelty": "We investigate style accommodation in online discussions, in particular its interplay with content agreement and disagreement. Using a new model for measuring style accommodation, we find that speakers coordinate on style more noticeably if they disagree than if they agree, especially if they want to establish rapport and possibly persuade their interlocutors. We have investigated style accommodation in online discussions by means of a new model that takes into account the presence of a marker in both quoted text and response and the relative frequency of that marker given the length of a post."
+    }
 }

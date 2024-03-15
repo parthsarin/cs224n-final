@@ -20,5 +20,10 @@
     "numcitedby": 0,
     "year": 2020,
     "month": "June",
-    "title": "Generating Lexical Representations of Frames using Lexical Substitution"
+    "title": "Generating Lexical Representations of Frames using Lexical Substitution",
+    "values": {
+        "building on past work": "Our method is inspired by the recent work of Amrami and Goldberg (2018) . Arefyev et al. (2019) takes the idea of substitute vectors from (Amrami and Goldberg, 2018) for the SemEval 2019 (Qasem-iZadeh et al., 2019) frame induction task and replaces ELMo with BERT (Devlin et al., 2019) for improved performance. Zhou et al. (2019) show the utility of BERT for the lexical substitution task.",
+        "novelty": "We suggest a different perspective on the problem: expanding the FrameNet resource automatically by using lexical substitution. A prominent direction for future work is testing the proposed technology for building frame representations of low-resource languages and domains.",
+        "performance": "Lexical Units Expansion Task The best performance was achieved by the BalAdd measure of Melamud et al. The fastText model achieves a comparable performance and even shows slightly better results for p@5 and p@10. BERT performed comparably to fast-Text and word2vec, it could not outperform them except for p@1. Frame Role Expansion Task The DTs perform substantially better than neural word embedding models. The models of Melamud et al."
+    }
 }

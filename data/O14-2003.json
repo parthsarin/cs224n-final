@@ -18,5 +18,9 @@
     "numcitedby": 7,
     "year": 2014,
     "month": "March",
-    "title": "Linking Databases using Matched {A}rabic Names"
+    "title": "Linking Databases using Matched {A}rabic Names",
+    "values": {
+        "novelty": "In this paper, a new hybrid algorithm that combines both token-based and character-based approaches is presented. The basic Levenshtein approach also has been extended to the token-based distance metric. The distance metric is enhanced to set the proper granularity level behavior of the algorithm. It smoothly maps a threshold of misspelling differences at the character level and the importance of token level errors in terms of token position and frequency. Using a large Arabic dataset, the experimental results show that the proposed algorithm successfully overcomes many types of errors, such as typographical errors, omission or insertion of middle name components, omission of non-significant popular name, and different writing style character variations. When compared with other classical algorithms, using the same dataset, the proposed algorithm was found to increase the minimum success level of the best tested lower limit algorithm (Soft TFIDF) from 69% to about 80%, while achieving an upper accuracy level of 99.67%.",
+        "performance": "When compared with other classical algorithms, using the same dataset, the proposed algorithm was found to increase the minimum success level of the best tested lower limit algorithm (Soft TFIDF) from 69% to about 80%, while achieving an upper accuracy level of 99.67%. Due to flexibility in changing the algorithm parameters, it can be optimized according to dataset characteristics to obtain better results. The best accuracy is lower than the basic Levenshtein algorithm, which achieves 100% upper accuracy levels for single and two character omission. Nevertheless, basic Levenshtein achieves only 16% as a lower accuracy level."
+    }
 }

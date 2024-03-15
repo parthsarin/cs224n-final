@@ -20,5 +20,8 @@
     "numcitedby": 7,
     "year": 2014,
     "month": "August",
-    "title": "Discovering Conceptual Metaphors using Source Domain Spaces"
+    "title": "Discovering Conceptual Metaphors using Source Domain Spaces",
+    "values": {
+        "performance": "We show the number of conceptual metaphors present in the Governance target domain (metaphors about government and bureaucracy), Economic Inequality (dealing with metaphors of poverty, wealth and taxation) and Democracy (democracy and elections metaphors). The validation results show that this is indeed a promising first attempt of tackling a challenging research problem."
+    }
 }

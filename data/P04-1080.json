@@ -19,5 +19,8 @@
     "numcitedby": 6,
     "year": 2004,
     "month": "July",
-    "title": "Learning Word Sense With Feature Selection and Order Identification Capabilities"
+    "title": "Learning Word Sense With Feature Selection and Order Identification Capabilities",
+    "values": {
+        "novelty": "Our word sense learning algorithm combined two novel ingredients: feature selection and order identification. Feature selection was formalized as a constrained optimization problem, the output of which was a set of important features to determine word senses. Let Y = {y n } N n=1 be a set of M dimensional vectors to be modelled by GMM. Assuming that this model has K subclasses, let \u03c0 k denote the prior probability of subclass k, \u00b5 k denote the M dimensional mean vector for subclass k, R k denote the M \u00d7 M dimensional covariance matrix for subclass k, 1 \u2264 k \u2264 K. Experimental results showed that our algorithm can retrieve important features, estimate cluster number automatically, and achieve better performance in terms of average accuracy than CGD algorithm which required cluster number as input."
+    }
 }

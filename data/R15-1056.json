@@ -19,5 +19,9 @@
     "numcitedby": 10,
     "year": 2015,
     "month": "September",
-    "title": "A Procedural Definition of Multi-word Lexical Units"
+    "title": "A Procedural Definition of Multi-word Lexical Units",
+    "values": {
+        "novelty": "It will succeed if it agrees with the native speakers' judgment. Our goal: systematic expansion of a wordnet by tens of thousands of MWEs in a manner as free of personal biases as possible.",
+        "performance": "Table 1 shows more details. Cohen's \u03ba was reasonable. See Table 1 again. For the plWordNet set (L2-plWN), we only have checked \u03ba. Good performance of our procedures on different word combination sets (NA in L3 set, all structural types in L1 and L2 sets), tested by many subjects (2-6, experienced and inexperienced), shows that these procedures are useful."
+    }
 }

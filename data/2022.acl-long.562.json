@@ -18,5 +18,10 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "May",
-    "title": "Multimodal Sarcasm Target Identification in Tweets"
+    "title": "Multimodal Sarcasm Target Identification in Tweets",
+    "values": {
+        "building on past work": " In this paper, we introduce a novel task called Multimodal Sarcasm Target Identification (MSTI) on social media data.  The MSTI task is to extract sarcasm targets (STs) from both texts and images in tweets.  To the best of our knowledge, this is the first attempt to perform the MSTI task.  We build an MSTI dataset and propose a novel cross-modality MSTI framework.    We design a cross-modality attention visualization method in terms of text-to-image and image-to-text to illustrate the mutual effects between textual and visual modalities.  These results show the image regions and words extracted through cross-modality attention are the keys to sarcasm and explain the improved performance of TSTI and VSTI by cross-modality learning.",
+        "novelty": "We build an MSTI dataset and propose a novel cross-modality MSTI framework. We design a cross-modality attention visualization method in terms of text-to-image and image-to-text to illustrate the mutual effects between textual and visual modalities.",
+        "performance": "The object detection baselines such as Mask R-CNN and YOLOv4 which are directly trained by sarcastic objects are better than the pretrained multimodal baselines with RoIs detected by a traditional object detector, obtaining an increase of approximately 2% in AP metrics."
+    }
 }

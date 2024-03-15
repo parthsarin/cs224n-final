@@ -18,5 +18,8 @@
     "numcitedby": 8,
     "year": 2009,
     "month": "August",
-    "title": "{P}hilippine Language Resources: Trends and Directions"
+    "title": "{P}hilippine Language Resources: Trends and Directions",
+    "values": {
+        "performance": "Experiments revealed that the Filipino language does not follow a strict binary structure as English, but is more right-biased. Over-all accuracy of number recognition is 85%."
+    }
 }

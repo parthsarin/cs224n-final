@@ -18,5 +18,9 @@
     "numcitedby": 0,
     "year": 2013,
     "month": "August",
-    "title": "Automatic Voice Selection in {J}apanese based on Various Linguistic Information"
+    "title": "Automatic Voice Selection in {J}apanese based on Various Linguistic Information",
+    "values": {
+        "building on past work": "Related work The task of automatic voice selection has been mainly developed in the NLG community. However, it has attracted less attention compared with other major NLG problems, such as generating referring expressions. There is less work focusing singly on voice selection, but not entirely without exception, such as Abb et al. In their work, passivisation is performed by taking into account both linguistic and extra-linguistic information. The linguistic information explains passivisation in an incremental generation process; realising the most salient discourse entity in short term memory as a subject eventually leads to passivisation. In contrast, extra-linguistic information is used to move a less salient entity to a subject position when an explicit agent is missing in the text. Although these two kinds of information seem adequate for explaining passivisation, their applicability was not examined in empirical evaluations. Sheikha and Inkpen (2011) focused attention on voice selection in the generation task distinguishing formal and informal sentences. In their work, passivisation is considered as a rhetorical technique for conveying formal intentions. However, they did not discuss passivisation in terms of discourse coherence.",
+        "performance": "Therefore, we set the \u03b8 to 0.2 in the following comparison. Table 4 shows that the model using the feature type PRED achieves the best performance among the four models when using a single feature type. Finally, the results of the model using the PRED, ARG and COREF features achieved the best F-score, 0.605, out of the two baselines and models based on the maximum entropy model. Furthermore, the results of the model using SVM with the second degree polynomial kernel show better performance than any model based on"
+    }
 }

@@ -19,5 +19,8 @@
     "numcitedby": 53,
     "year": 2017,
     "month": "July",
-    "title": "Varying Linguistic Purposes of Emoji in ({T}witter) Context"
+    "title": "Varying Linguistic Purposes of Emoji in ({T}witter) Context",
+    "values": {
+        "performance": "We find that it is possible to train a classifier to tell the difference between those emoji used as linguistic content words and those used as paralinguistic or affective multimodal markers even with a small amount of training data, but that accurate sub-classification of these multimodal emoji into specific classes like attitude, topic, or gesture will require more data and more feature engineering. We trained a sequence tagger to assign the correct linguistic-function label to an emoji character. After one iteration, we saw that the low number of func tokens was preventing us from finding any func emoji, so we combined the cont and func tokens into a single label of cont. The results in Table 3 show what we could reliably label with coarse-grained labels given the small size of our data set: 511 training tweets, 56 test tweets. We did a few other experiments to explore our features. 'best \u2212 character' showed that ignoring the character actually improved recall on content words, at the expense of precision. We saw fairly reasonable recall on the mm topic and mm attitude labels, but given that those are the most frequent labels in the entire data set, it is more relevant that our precision was low."
+    }
 }

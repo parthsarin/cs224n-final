@@ -18,5 +18,11 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "May",
-    "title": "Multi-Granularity Structural Knowledge Distillation for Language Model Compression"
+    "title": "Multi-Granularity Structural Knowledge Distillation for Language Model Compression",
+    "values": {
+        "building on past work": " Various attempts have been made to compress the huge PLMs into small ones with minimum performance degradation. As one of the main approaches, knowledge distillation (Hinton et al., 2015) utilizes a large and powerful teacher model to transfer the knowledge to a small student model.   Recall that when calculating the structural relations between representations, we project them into m relation heads. We show how the number of relation heads impacts the performance on SST-2 and MNLI.",
+        "novelty": "Concretely, instead of aligning the corresponding representations of the teacher and the student, we propose to form the knowledge as the pair-wise interactions and the triplet-wise geometric angels of a group of representations. Different from previous works that only considered a single granularity of representations, we jointly transfer the token-level, span-level and sample-level structural knowledge.",
+        "performance": "Experimental results on GLUE benchmark demonstrate that our method outperforms advanced distillation methods. Surprisingly, MGSKD achieves comparable or better performance than BERT base on most of the tasks on GLUE, while keeping much smaller and faster. We can conclude that the sample-level knowledge is most crucial for the overall performance, the token-level knowledge provides moderate benefit, and the span-level knowledge contributes the least. Moreover, jointly utilizing the sample-level pair-wise and triplet-wise relations can't further improve the model's performance, therefore we only employ triplet-wise relations as sample-level knowledge. Evaluation results on GLUE benchmark verify the effectiveness of our method.",
+        "reproducibility": "We release our code to facilitate future research. We adopt the fine-tuned ELECTRA base as the teacher, and conduct task-specific distillation using the same distillation schedule and hyperparameters on the same augmented training sets as ours."
+    }
 }

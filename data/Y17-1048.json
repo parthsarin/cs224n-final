@@ -18,5 +18,10 @@
     "numcitedby": 3,
     "year": 2017,
     "month": "November",
-    "title": "Extracting Important Tweets for News Writers using Recurrent Neural Network with Attention Mechanism and Multi-task Learning"
+    "title": "Extracting Important Tweets for News Writers using Recurrent Neural Network with Attention Mechanism and Multi-task Learning",
+    "values": {
+        "building on past work": "We expanded this model by using the attention mechanism and multi-task learning. We referred to some studies for our future work. Dredze et al. ( 2016) estimated the geolocation of the tweet. They used the time the tweet was written and obtained good results. Kanouchi st al. ( 2015) classified each tweet according to the people who was mentioned in the tweet, such as the person who posted the tweet of himself/herself, his/her family or people around him/her.",
+        "novelty": "In this paper, we describe a method to extract tweets that include useful information for news writers. Our purposes are to reduce the amount of laborious work and extract information that cannot be extracted by using queries. Our contribution is to reveal that the combination of attention mechanism and multi-task learning is effective for characterbased approaches. We expanded this model by using the attention mechanism and multi-task learning.",
+        "performance": "In our experiment, we compared two types of attention mechanism and compared their types with/without multi-task learning. By our proposed method, we obtained an F-measure of 0.627, which is 0.037 higher than that of baseline method. Comparing the two methods of attention mechanism, FinalState and MeanVector, we showed that the MeanVector method is better in our task. Overall, our method (MeanVector attention with multitask learning) achieved an F-measure of 0.627 in F-measure, which is 0.037 higher than baseline method."
+    }
 }

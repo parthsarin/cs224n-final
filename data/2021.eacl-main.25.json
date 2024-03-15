@@ -18,5 +18,8 @@
     "numcitedby": 17,
     "year": 2021,
     "month": "April",
-    "title": "Evaluating the Evaluation of Diversity in Natural Language Generation"
+    "title": "Evaluating the Evaluation of Diversity in Natural Language Generation",
+    "values": {
+        "reproducibility": "All the collected data, metric scores per samples for each of decTest and conTest, as well as code for running and visualizing the tests, are publicly available Fine-tuning was done using 200K examples over 30 epochs, and took 23 hours using a single TITAN Xp GPU core"
+    }
 }

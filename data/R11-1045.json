@@ -18,5 +18,8 @@
     "numcitedby": 13,
     "year": 2011,
     "month": "September",
-    "title": "Combining Relational and Attributional Similarity for Semantic Relation Classification"
+    "title": "Combining Relational and Attributional Similarity for Semantic Relation Classification",
+    "values": {
+        "performance": "Fourth, our best overall accuracy of 71.3% represents a statistically significant improvement not only over our corresponding baseline of 51.8% but also over the best result of 66.0% achieved at SemEval-1 Task 4 for systems of type A. It is also higher (but no statistically significant difference) than the state-of-the-art result of Davidov and Rappoport (2008) , who achieved 70.1%. We can further see that relations like THEME-TOOL and ORIGIN-ENTITY are best characterized by the properties of their arguments, which makes them a good fit for attributional methods. In contrast, relations like INSTRUMENT-AGENCY and PRODUCT-PRODUCER, are better expressed by patterns: verbs, prepositions and coordinations. Note that for two of the relations, we achieve results that are better than the best results achieved at SemEval-1 Task 4, even by systems that used WordNet and the original search engine query."
+    }
 }

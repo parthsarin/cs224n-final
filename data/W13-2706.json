@@ -18,5 +18,8 @@
     "numcitedby": 8,
     "year": 2013,
     "month": "August",
-    "title": "Morphological annotation of Old and Middle {H}ungarian corpora"
+    "title": "Morphological annotation of Old and Middle {H}ungarian corpora",
+    "values": {
+        "performance": "In addition to token accuracy, we also present sentence accuracy values in the table. Note that, in contrast to the usual way of evaluating taggers, these values were calculated excluding the always unambiguous punctuation tokens from the evaluation. The baseline tagger uses no morphological information at all. Its current lemmatization implementation uses suffix guessing in all cases (even for words seen in the training corpus) and selects the most frequent lemma, which is obviously not an ideal solution. The disambiguator using morphology performs significantly better. Its clause-level accuracy is 81.50%, which means that only every fifth clause contains a tagging error. The tag set we used in the corpus differentiates constructions which are not generally differentiated at the tag level in Hungarian corpora, e.g. deictic pronouns (ebben 'in this') vs. deictic pre-determiners (ebben a h\u00e1zban 'in this house'). Many of these can only be disambiguated using long-distance dependencies, i.e. information often not available to the trigram tagger. Combination of the tagger with a constraintbased tool (see e.g. Hulden and Francom (2012) ) would presumably improve accuracy significantly. In the rightmost column, we listed a theoretical upper limit of the performance of the current trigram tagger implementation using 5-best output and an ideal oracle that can select the best annotation."
+    }
 }

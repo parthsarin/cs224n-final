@@ -16,5 +16,10 @@
     "numcitedby": 1,
     "year": 2014,
     "month": "June",
-    "title": "Using Simple {NLP} Tools to Trace the Globalization of the Art World"
+    "title": "Using Simple {NLP} Tools to Trace the Globalization of the Art World",
+    "values": {
+        "building on past work": "An initial phase of the project revealed for the first time an object that has resisted empirical description: the contemporary global art world. Our automated detection, checked by human annotators, identified 1007 unique cities. We use two approaches for temporal resolution to assess whether the cities mentioned are the locations of events that happened in the past, are currently happening, or expected to happen in the future. Combining the two approaches improves the performance of the time tagging task.",
+        "novelty": "We introduce a novel task, that of associating relative time with cities in text. Our project relies on NLP techniques to solve the problems of data collection that have limited previous research endeavors. We use two approaches for temporal resolution to assess whether the cities mentioned are the locations of events that happened in the past, are currently happening, or expected to happen in the future. The second approach uses verbal tense to resolve grammaticized reference to time. Combining the two approaches improves the performance of the time tagging task. We start with one approach to tag an event and when that approach fails (does not provide an answer), the other approach kicks in. If both approaches fail, the event is tagged by default as current. If G L has no answer, choose present.",
+        "performance": "The two systems in combination perform slightly better than either does alone, and at a high enough level of accuracy to produce meaningful data for network analysis. Combining the two approaches improves the performance of the time tagging task. The accuracy of this approach is 78.0%."
+    }
 }

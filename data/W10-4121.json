@@ -18,5 +18,10 @@
     "numcitedby": 8,
     "year": 2010,
     "month": "",
-    "title": "Active Learning Based Corpus Annotation"
+    "title": "Active Learning Based Corpus Annotation",
+    "values": {
+        "novelty": "Active Learning Performance (ALP) Evaluation of Active Learning Algorithm",
+        "performance": "The active learning system outperforms the baseline system greatly especially when dealing with unbalanced data set (Figure 4 and Table 4 ).",
+        "reproducibility": "This paper experimentally demonstrates the validity of active learning algorithm when used for opinioned elements identification and proposes a computational method for overall system performance evaluation which consists of Fmeasure, training time, and number of training instances. According to our tests, active learning algorithm outperforms the base line system in most of the cases especially when fewer instances are added into the training data set in each round of iteration. However, the method could extent the training time in a large scale. To balance the pros and cons of active learning algorithm, it might be helpful to adjust the number of training instances added in each round dynamically in the training process. For instance, add less training instances at the beginning of the training process to ensure a high peak value of Fmeasure could be achieved and add more training instances later so that time spent on training process could be reduced."
+    }
 }

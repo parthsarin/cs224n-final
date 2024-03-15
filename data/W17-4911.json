@@ -18,5 +18,8 @@
     "numcitedby": 9,
     "year": 2017,
     "month": "September",
-    "title": "Stylistic Variation in Television Dialogue for Natural Language Generation"
+    "title": "Stylistic Variation in Television Dialogue for Natural Language Generation",
+    "values": {
+        "novelty": "  Television dialogue are exemplars of many different linguistic styles that were designed to express dramatic characters. Thus we construct a corpus of television character dialogue from The Big Bang Theory (BBT) and apply content analysis and language modeling techniques to extract relevant linguistic features to build character-based stylistic models.  Our work is also related to character modeling from film dialogue for NLG (Lin and Walker, 2011; Walker et al., 2011) , except that we focused on TV series because they offered more dialogue.  We see that for |z| \u2265 1, Sheldon, Penny, Bernadette and Amy have over 200 significant features. Sheldon, more specifically, has close to 400 significant features.  PYPER (Bowden et al., 2016 ) is a spin-off implementation of PERSONAGE (Mairesse and Walker, 2007) in Python that provides new controls for expressive NLG.  The re-written and better-controlled PYPER allows for more useful mapping of character models for NLG.  We used Mechanical Turk to get user feedback on the generated dialogue. The PYPER generated output dialogue were post-processed to get rid of typos and minor grammatical issues.  Certain character pairs were easier to distinguish than others. For example, Leonard-Penny and vise-versa (95.2%), Sheldon-Penny and vise-versa (85.7%, 90.5%), and Amy-Bernadette and vise-versa (85.7%).  One possible future work is to use people's blogs as a source to create speaker-specific models.  Another possible future work is to use character models to drive the monologue-to-dialogue process that created the stories used in our experiment."
+    }
 }

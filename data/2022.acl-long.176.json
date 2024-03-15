@@ -20,5 +20,9 @@
     "numcitedby": 2,
     "year": 2022,
     "month": "May",
-    "title": "Modeling Dual Read/Write Paths for Simultaneous Machine Translation"
+    "title": "Modeling Dual Read/Write Paths for Simultaneous Machine Translation",
+    "values": {
+        "novelty": "   As a result, the two SiMT models can be optimized jointly by forcing their read/write paths to satisfy the mapping.",
+        "performance": "our method can outperform strong baselines under all latency. our method outperforms strong baselines under all latency and achieves a high-quality read/write path."
+    }
 }

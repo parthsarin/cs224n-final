@@ -19,5 +19,9 @@
     "numcitedby": 17,
     "year": 2016,
     "month": "May",
-    "title": "{OSMAN} \u2015 A Novel {A}rabic Readability Metric"
+    "title": "{OSMAN} \u2015 A Novel {A}rabic Readability Metric",
+    "values": {
+        "building on past work": "We base our hypothesis on the fact that the Arabic translation of the UN English resolutions is of high quality being translated by UN language professionals. In our paper, we use additional features to improve on the previous work on Arabic readability by counting the number of Arabic syllables in the text. In contrast to Al-Tamimi et. al (2013) we include diacritics in order to correctly count the number of syllables in a word.",
+        "novelty": "We present OSMAN (Open Source Metric for Measuring Arabic Narratives) -a novel open source Arabic readability metric and tool. In our work we introduce a novel approach towards counting short, long and stress syllables in Arabic which is essential for judging readability of Arabic narratives. We also introduce an additional factor called \"Faseeh\" which considers aspects of script usually dropped in informal Arabic writing."
+    }
 }

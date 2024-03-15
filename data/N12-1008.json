@@ -16,5 +16,9 @@
     "numcitedby": 38,
     "year": 2012,
     "month": "June",
-    "title": "Multi-Event Extraction Guided by Global Constraints"
+    "title": "Multi-Event Extraction Guided by Global Constraints",
+    "values": {
+        "building on past work": " Introduction Today, most efforts in information extraction have focused on the field extraction task, commonly formulated as a sequence tagging problem. Our goal is therefore to extract event templates which aggregate field values for individual events. We formulate our approach as a joint model that marks each word with field and event labels simultaneously. At the sentence level, segmentation and field extraction taggers are implemented using separate sequence models operating over local features. At the document level, the model encourages global consistency via potentials that link the extracted event records and their fields.  Previous Work Work on this task has focused on pipeline models which decouple the task into the sub-tasks of field extraction and event-based text segmentation. In our work, we also address the sub-tasks of field extraction and event segmentation individually; however, we link them through soft global constraints and encourage consistency through joint inference.  Model To implement these ideas in a computational framework, we define an undirected graphical model with a vertex set V = X \u222a Y \u222a Z. Y and Z are sets of unobserved nodes corresponding to the field and event assignments respectively of the ith word. Global Consistency Potentials link the extracted event records and their fields to encourage global consistency.  Inference The global potentials encode important document level information that links together the extracted event records and their fields. Introducing these potentials, however, greatly complicates inference. the tightest upper bound of the original MAP objective.",
+        "novelty": " "
+    }
 }

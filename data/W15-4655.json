@@ -18,5 +18,10 @@
     "numcitedby": 46,
     "year": 2015,
     "month": "September",
-    "title": "Reward Shaping with Recurrent Neural Networks for Speeding up On-Line Policy Learning in Spoken Dialogue Systems"
+    "title": "Reward Shaping with Recurrent Neural Networks for Speeding up On-Line Policy Learning in Spoken Dialogue Systems",
+    "values": {
+        "building on past work": "We recently proposed convolutional and recurrent neural network (RNN) approaches for determining dialogue success. Here we extend the RNN approach by introducing new training constraints in order to combine the merits of the above three works: (1) diffusing dialogue level ratings down to the turn level to (2) add reward shaping information for faster policy learning, whilst (3) not requiring prior task knowledge which is simply unavailable on-line.",
+        "novelty": " We recently proposed convolutional and recurrent neural network (RNN) approaches for determining dialogue success. This was used to provide a reinforcement signal for learning on-line from real users without requiring any prior knowledge of the user's task (Su et al., 2015) .  Here we extend the RNN approach by introducing new training constraints in order to combine the merits of the above three works: (1) diffusing dialogue level ratings down to the turn level to (2) add reward shaping information for faster policy learning, whilst (3) not requiring prior task knowledge which is simply unavailable on-line.  To encourage good turn level predictions, all three RNN variants are trained to predict the dialogue return not with the final output of the network, but with the constraint that their scalar outputs from each turn t should sum to predict the return for the whole dialogue.",
+        "performance": "In both simulated and real user scenarios these RNNs are shown to increase policy learning speed. Furthermore, our proposed RNN method further outperforms the hand-crafted system, whilst also being able to be applied on-line. It can be seen that by adding the RNN based shaping reward, the policy learnt quicker in the important initial phase of policy learning."
+    }
 }

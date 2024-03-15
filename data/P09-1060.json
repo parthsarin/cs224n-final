@@ -19,5 +19,8 @@
     "numcitedby": 6,
     "year": 2009,
     "month": "August",
-    "title": "Linefeed Insertion into {J}apanese Spoken Monologue for Captioning"
+    "title": "Linefeed Insertion into {J}apanese Spoken Monologue for Captioning",
+    "values": {
+        "performance": "Both of them were highest among those of the four baseline, which showed an effectiveness of our method. In the experiment described in Section 5, we used the linguistic information provided by human as the features on the maximum entropy method. However, compared with baseline 1, our method uses a lot of linguistic information which should be provided not by human but by natural language analyzers under the real situation. Therefore, to fairly evaluate our method and four baselines, we conducted an experiment on linefeed insertion by using the automatically provided information on clause boundaries and dependency structures 5 . Table 5 shows the result. Compared with Table 3 , it shows the decreasing rate of the performance of our method was more than those of four baselines which use simply only basic linguistic information. However, the F-measure of our method was more than 10% higher than those of four baselines."
+    }
 }

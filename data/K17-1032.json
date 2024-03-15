@@ -18,5 +18,10 @@
     "numcitedby": 29,
     "year": 2017,
     "month": "August",
-    "title": "Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text"
+    "title": "Learning local and global contexts using a convolutional recurrent network model for relation classification in biomedical text",
+    "values": {
+        "building on past work": "This simplicity allows for intuitive understanding of each level of the model, while still learning a sufficiently complex representation of the input sentence. We analyze and discuss why such a model effectively captures short and long-term dependencies in a sentence, and demonstrate why this representation facilitates classification. We evaluate an attention-based pooling technique and compare its performance with conventional pooling strategies. We provide evidence to further the argument in favor of using RNNs to obtain regional embeddings in a sentence.",
+        "novelty": " To the best of our knowledge, this is the first attempt at combining CNNs and RNNs in sequence for a relation classification task in biomedical domain.   To obtain a classifier over the extracted global features, we use a fully connected layer consisting of |C| nodes, where C is the set of all possible relation classes, followed by a softmax layer to generate a probability distribution over the set of all possible labels.",
+        "performance": "This simplicity allows for intuitive understanding of each level of the model, while still learning a sufficiently complex representation of the input sentence. Our model is distinctive in that it does not rely upon any linguistic feature for relation classification. Our models outperform the baselines even without the need for explicit feature engineering. It is evident that the model assigns a higher weight to semantically relevant words such as \"showed,\" \"question,\" and \"revealed\"."
+    }
 }

@@ -19,5 +19,9 @@
     "numcitedby": 10,
     "year": 2014,
     "month": "August",
-    "title": "{{\\'U}FAL}: Using Hand-crafted Rules in Aspect Based Sentiment Analysis on Parsed Data"
+    "title": "{{\\'U}FAL}: Using Hand-crafted Rules in Aspect Based Sentiment Analysis on Parsed Data",
+    "values": {
+        "building on past work": "We used the training and trial data provided by the organizers. During system development, we used the trial section as a held-out set. In the final submission, both datasets are utilized in training. Overall, the impact is very small (f-measure stays within 2-decimal rounding error). We expect that outputs of our rules can serve as useful indicator features for a discriminative learning model, along with standard features such as bag-of-words (lemmas) or n-grams.",
+        "performance": " Table 2 and Table 3 summarize the results of our submission. We do not achieve the best performance in any particular task, our system overall ranked in the middle.  Effect of the Spell-checker We evaluated the performance of our system with and without the spell-checker. Overall, the impact is very small (f-measure stays within 2-decimal rounding error)."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 0,
     "year": 2006,
     "month": "April",
-    "title": "Unsupervised approaches to metonymy recognition"
+    "title": "Unsupervised approaches to metonymy recognition",
+    "values": {
+        "building on past work": "This paper will therefore investigate if this so-called 'knowledge acquisition bottleneck' can be tackled by the application of Sch\u00fctze's (1998) unsupervised word sense discrimination algorithm, an approach that does not need a single annotated example. In section 2, I will discuss the most important literature on corpus-based metonymy recognition, and introduce the notion of unsupervised learning. In section 3, I will highlight the research questions behind my experiments. Section 4 will present the experimental results, while section 5 wraps up with the conclusions of this study.",
+        "performance": "Accuracy, for instance, lies more than 20 % below the accuracy reached by TiMBL. Moreover, the results of the unsupervised approach are also much lower than those of its supervised competitors. The results of my experiments confirm Markert and Nissim's (2002a) claim that an approach based on co-occurrences (or bigrams) gives the best results with smaller context windows. Nevertheless, the clusters that were identified did often correlate with the literal and metonymical senses of the target word. In 32 out of 40 experiments (80 %), the smaller cluster indeed contained a larger proportion of metonymical examples. In 24 cases (60 %), this difference was significant. None of the investigated variations on the original algorithm was able to beat the accuracy of a baseline algorithm that classifies all instances as literal."
+    }
 }

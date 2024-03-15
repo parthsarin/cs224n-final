@@ -18,5 +18,8 @@
     "numcitedby": 113,
     "year": 1997,
     "month": "",
-    "title": "Developing and Empirically Evaluating Robust Explanation Generators: The {KNIGHT} Experiments"
+    "title": "Developing and Empirically Evaluating Robust Explanation Generators: The {KNIGHT} Experiments",
+    "values": {
+        "performance": "KNIGHT scored within approximately half a grade of the domain experts, and its performance exceeded that of one of the domain experts. This paper is structured as follows: The task of explanation generation is characterized and the Biology Knowledge Base is described. Finally, one of the most fruitful areas for future work is research on animated explanation generation."
+    }
 }

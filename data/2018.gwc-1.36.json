@@ -19,5 +19,8 @@
     "numcitedby": 2,
     "year": 2018,
     "month": "January",
-    "title": "{A}frican {W}ordnet: facilitating language learning in {A}frican languages"
+    "title": "{A}frican {W}ordnet: facilitating language learning in {A}frican languages",
+    "values": {
+        "novelty": "The aim of this paper is to investigate the usefulness of the current isiZulu Wordnet in an application such as language learning. The AWN is based on the expand method, and to compensate for the general resource scarceness of the African languages, various development strategies were used. However, it soon became clear that a more localised approach was needed. Currently the courses also do not offer links to other external resources. It is in this area where the AWN, already freely available for the five languages, could play a central role in future improvements to these courses. This clearly shows that there is still some work to be done on the isiZulu AWN to achieve a balanced coverage of the most basic vocabulary, as taught to language learners. The so-called SIL-CAWL contains 1700 words in various categories such as Man's Physical Being and Environment."
+    }
 }

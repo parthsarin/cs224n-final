@@ -18,5 +18,8 @@
     "numcitedby": 0,
     "year": 2016,
     "month": "December",
-    "title": "Presenting a New Dataset for the Timeline Generation Problem"
+    "title": "Presenting a New Dataset for the Timeline Generation Problem",
+    "values": {
+        "performance": "Random (R): 15 articles are sampled from the entire corpus. Random+Linked (RL): 15 articles linked to the entity are sampled. Reassuringly, we see that OL outperforms RL which outperforms R for both ROUGE-1 and ROUGE-2 scores (Figure 6 ). OL received scores of 0.290 (ROUGE-1) and 0.051 (ROUGE-2) (Table 1 ). This can be taken as a strong benchmark for future timeline generation models trained and evaluated using this dataset."
+    }
 }

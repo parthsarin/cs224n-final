@@ -18,5 +18,9 @@
     "numcitedby": 7,
     "year": 2018,
     "month": "July",
-    "title": "Political discourse classification in social networks using context sensitive convolutional neural networks"
+    "title": "Political discourse classification in social networks using context sensitive convolutional neural networks",
+    "values": {
+        "novelty": "   This paper is organized as follows. In Section 2 we analyse the previous work done in the area of automatic political discourse analysis in social networks. In Section 3 we describe the classification taxonomy that we have used for the analysis of the political discourse. In Section 4 we present our neural network architecture for political discourse classification. In Section 5 we discuss the evaluation of the system. In Section 6 we offer a real use case of the presented system by analysing the political activity on Twitter during the 2015 and 2016 general elections in Spain. Finally, section 7 draws some conclusions and proposes fur-ther work.",
+        "performance": "With regard to E5, since combining party and previous phrase does not improve the results of E4, we can affirm that those two features are not complementary. Additionally, we have also tested the performance of our model on Twitter. On the one hand, from T1 to T2 there is an improvement of 2.5 points in accuracy and 6 points in F1. On the other hand, from T3 to T4 there is an improvement of 4 points in accuracy and 3 points in F1."
+    }
 }

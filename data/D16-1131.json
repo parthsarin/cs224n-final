@@ -18,5 +18,8 @@
     "numcitedby": 9,
     "year": 2016,
     "month": "November",
-    "title": "Antecedent Selection for Sluicing: Structure and Content"
+    "title": "Antecedent Selection for Sluicing: Structure and Content",
+    "values": {
+        "performance": "We have addressed the problem of sluicing antecedent selection by defining linguistically sophisticated features describing the structure and content of candidates. We described a hill-climbed model which achieves accuracy of 72.4%, a substantial improvement over a strong manually constructed baseline. We have shown that both syntactic and discourse relationships are important in antecedent selection."
+    }
 }

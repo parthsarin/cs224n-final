@@ -18,5 +18,9 @@
     "numcitedby": 21,
     "year": 2015,
     "month": "July",
-    "title": "Discourse-sensitive Automatic Identification of Generic Expressions"
+    "title": "Discourse-sensitive Automatic Identification of Generic Expressions",
+    "values": {
+        "building on past work": "Our experiments prove that context information improves automatic labeling results, and that our model outperforms previous approaches by a large margin.",
+        "novelty": " This paper describes a novel sequence labeling method for identifying generic expressions, which refer to kinds or arbitrary members of a class, in discourse context.  Prior work has focused on identifying generic noun phrases; we present a new corpus in which not only subjects but also clauses are annotated for genericity according to an annotation scheme motivated by semantic theory. "
+    }
 }

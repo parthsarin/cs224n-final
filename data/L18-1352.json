@@ -20,5 +20,11 @@
     "numcitedby": 18,
     "year": 2018,
     "month": "May",
-    "title": "Multilingual Dependency Parsing for Low-Resource Languages: Case Studies on North Saami and {K}omi-{Z}yrian"
+    "title": "Multilingual Dependency Parsing for Low-Resource Languages: Case Studies on North Saami and {K}omi-{Z}yrian",
+    "values": {
+        "building on past work": "Guo et al. (2016) and Ammar et al. (2016a) have conducted multilingual parsing studies for Indo-European languages using the model transfer approach. Guo et al. (2015) and Zhang and Barzilay (2015) , we used gold POS sets for training and testing for Komi.",
+        "novelty": "The study demonstrates that specific language combinations enable improved dependency parsing when compared to previous work, allowing for wider reuse of pre-existing resources when parsing low-resource languages. The study also explores the question of whether contemporary contact languages or genetically related languages would be the most fruitful starting point for multilingual parsing scenarios.",
+        "performance": "Compared with the result of the Shared Task, it seems that our approach (lexicalized cross-lingual transfer parsing with resources from relevant languages) can be effective for parsing low-resource languages. All the experiments we conducted using Finnish for training obtained better results than other language combinations (i.e. English for Saami and Russian and English for Komi). More detailed analysis of the results, beyond the LAS and UAS scores, is most likely needed in order to determine the exact influences of different language pairs or combinations.",
+        "reproducibility": "The structure of the paper is as follows. We first provide an overview of our approach (Section 2) before detailing the multilingual resource representation used (Section 3) and our parsing model (Section 4). We then describe a series of experiments aiming at validating the approach (Section 5) before presenting an analysis of our results along with some thoughts for future work (Section 6). All the experiments were carried out using 20 training sentences in Saami, as was the case for the 2017 CoNLL Shared Task, which means these results can be compared to the ones in the official CoNLL evaluation. For Saami, however, the teams in the CoNLL Shared Task used preprocessed POS tagging sets processed by UDpipe. We used the same training environments in these experiments as for the CoNLL Shared Task (the same training sets and no development set)."
+    }
 }

@@ -19,5 +19,8 @@
     "numcitedby": 29,
     "year": 2006,
     "month": "June",
-    "title": "Semantic role labeling of nominalized predicates in {C}hinese"
+    "title": "Semantic role labeling of nominalized predicates in {C}hinese",
+    "values": {
+        "performance": "The results show a similar performance degradation compared with the results reported for verbs on the same data in previous work, which is not unexpected. Xue and Palmer (2005) reported an f-score of 61.3% when a parser is used to preprocess the data. Our experiments show, however, that simply adding the verb data to the training set and indiscriminately extracting the same features from the verb and noun instances will hurt the overall performance instead of improving it. When the arguments are given and the input is hand-crafted goldstandard parses in the treebank, selecting the top 10 propositions yields an oracle score of 97%. This initial promise does not pan out, however. Performing reranking on the top 10 propositions did not lead to significant improvement, using the five feature classes described in (Haghighi et al., 2005)"
+    }
 }

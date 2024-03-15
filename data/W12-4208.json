@@ -19,5 +19,9 @@
     "numcitedby": 3,
     "year": 2012,
     "month": "July",
-    "title": "Extracting Semantic Transfer Rules from Parallel Corpora with {SMT} Phrase Aligners"
+    "title": "Extracting Semantic Transfer Rules from Parallel Corpora with {SMT} Phrase Aligners",
+    "values": {
+        "novelty": "This paper presents two procedures for extracting transfer rules from parallel corpora for use in a rule-based Japanese-English MT system. First a \"shallow\" method where the parallel corpus is lemmatized before it is aligned by a phrase aligner, and then a \"deep\" method where the parallel corpus is parsed by deep parsers before the resulting predicates are aligned by phrase aligners. In both procedures, the phrase tables produced by the phrase aligners are used to extract semantic transfer rules. The procedures were employed on a 10 million word Japanese English parallel corpus and 190,000 semantic transfer rules were extracted.",
+        "performance": "The coverage of Lemm and Pred is the same; 20.8%, but Pred gets a higher NEVA score than Lemm (21.11 vs. 18.65) , and the F1 score is one percent higher. The NEVA score of Combined is between that of Lemm and Pred while the F1 score beats both Lemm and Pred."
+    }
 }

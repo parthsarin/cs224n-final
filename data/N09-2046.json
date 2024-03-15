@@ -18,5 +18,10 @@
     "numcitedby": 21,
     "year": 2009,
     "month": "June",
-    "title": "Improving {SCL} Model for Sentiment-Transfer Learning"
+    "title": "Improving {SCL} Model for Sentiment-Transfer Learning",
+    "values": {
+        "building on past work": " Among these techniques, SCL (Structural Correspondence Learning) (Blitzer et al., 2006) is regarded as a promising method to tackle transfer-learning problem.  Consequently, proposed FW-SCL algorithm could be regarded as a generalized version of traditional SCL algorithm.",
+        "novelty": "The experimental results indicate that proposed W-SCL model could overcome the adverse influence of HFDS features, and leverage knowledge from labels of instances and pivot features.",
+        "performance": "For FW-SCL, the Z HFDS is set to 200 and \u03b7 is set to 0.1; For W-SCL, the Z HFDS is set to 200, \u03b7 is set to 0.1, and \u03b3 is set to 0.9. As expected, proposed method FW-SCL does indeed provide much better performance than supervised baselines, TSVM and T-SCL model. For example, the average accuracy of FW-SCL beats supervised baselines by about 12 percents, beats TSVM by about 11 percents and beats T-SCL by about 10 percents. This result indicates that proposed FW-SCL model could overcome the shortcomings of HFDS features in building correspondence vectors. More surprisingly, instance-weighting strategy can further boost the performance of FW-SCL by about 4 percents. As a result, we can say that proposed W-SCL model offers a better choice for sentiment-analysis applications that require high-precision classification but hardly have any labeled training data."
+    }
 }

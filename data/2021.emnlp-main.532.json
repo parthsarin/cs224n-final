@@ -19,5 +19,9 @@
     "numcitedby": 25,
     "year": 2021,
     "month": "November",
-    "title": "{CLIFF}: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization"
+    "title": "{CLIFF}: Contrastive Learning for Improving Faithfulness and Factuality in Abstractive Summarization",
+    "values": {
+        "novelty": "We study generating abstractive summaries that are faithful and factually consistent with the given articles. A novel contrastive learning formulation is presented, which leverages both reference summaries, as positive training data, and automatically generated erroneous summaries, as negative training data, to train summarization systems that are better at distinguishing between them.",
+        "performance": "Experiments on XSum and CNN/Daily Mail show that our contrastive learning framework is robust across datasets and models. It consistently produces more factual summaries than strong comparisons with post error correction, entailmentbased reranking, and unlikelihood training, according to QA-based factuality evaluation. CLIFF obtains higher QuestEval scores than unlikelihood training in 12 out of the 14 comparisons. Using PEGASUS, CLIFF also outperforms in 11 setups"
+    }
 }

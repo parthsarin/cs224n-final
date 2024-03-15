@@ -18,5 +18,9 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "December",
-    "title": "Funny3 at {S}em{E}val-2020 Task 7: Humor Detection of Edited Headlines with {LSTM} and {TFIDF} Neural Network System"
+    "title": "Funny3 at {S}em{E}val-2020 Task 7: Humor Detection of Edited Headlines with {LSTM} and {TFIDF} Neural Network System",
+    "values": {
+        "novelty": "Let us summarize this section. The computational linguistics studies of humor on generation, detection, and analysis are not parallel development, these research directions are related to each other, and we need to develop new algorithms to complete more refined tasks based on the new database. This task is based on the publication of Hossain et al. The task (Hossain et al., 2020a) asks us to predict the funniness of an edited headline, given its original headline and edited headline. Each headline is allowed to only change one word or one named entity. We present a two-component neural network system. The first component is a combination of multiple features, included a bidirectional LSTM (Hochreiter and Schmidhuber, 1997) neural network, a TF-IDF (Salton and McGill, 1986) representation and the difference between original headline target words and edited words (subtraction of two vectors). Beyond our LSTM and subtraction, we choose a FastText (Mikolov et al., 2018) model to embed our headlines and words. All features are concatenated together and fed to the second component. The second component is a two-layer feed-forward neural network.",
+        "performance": "We achieve a score of 0.57237 RMSE in the competition and rank 30th place. Then we later modify our system and further improve the result to 0.56786 RMSE score."
+    }
 }

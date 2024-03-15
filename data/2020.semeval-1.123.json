@@ -19,5 +19,9 @@
     "numcitedby": 5,
     "year": 2020,
     "month": "December",
-    "title": "{NLP}-{CIC} at {S}em{E}val-2020 Task 9: Analysing Sentiment in Code-switching Language Using a Simple Deep-learning Classifier"
+    "title": "{NLP}-{CIC} at {S}em{E}val-2020 Task 9: Analysing Sentiment in Code-switching Language Using a Simple Deep-learning Classifier",
+    "values": {
+        "performance": "These results are similar to those obtained on our experiments on the development set, where we achieved a performance of 0.45 using macro-F1. CNN model GRU model Precision Error analysis Here an additional analysis is done to examine the results of our best model (the CNN model) via removing the text normalization stage and running cross-validation. We found that removing the normalization step reduces the model performance in some points. Specifically, the macro-F1 score without the presence of Ekphrasis normalization is 0.42, hence a performance reduction of 3%.",
+        "reproducibility": "We did not apply normalization to the Spanish part of the text. We predict using the best epoch result obtained out of 5 epochs. We did not use English embeddings because in previous experiments we noticed it does not contribute enough to the performance gain. This is probably due to the fact that Spanish is the majority language in the dataset, as we mentioned before. We found that removing the normalization step reduces the model performance in some points. Specifically, the macro-F1 score without the presence of Ekphrasis normalization is 0.42, hence a performance reduction of 3%."
+    }
 }

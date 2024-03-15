@@ -24,5 +24,9 @@
     "numcitedby": 22,
     "year": 2012,
     "month": "October 28",
-    "title": "The {CRITT} {TPR}-{DB} 1.0: A Database for Empirical Human Translation Process Research"
+    "title": "The {CRITT} {TPR}-{DB} 1.0: A Database for Empirical Human Translation Process Research",
+    "values": {
+        "novelty": "The database compiles this data into a consistent format which can be processed by various visualization and analysis tools. This allows us to extract various different types of product and process units from the UAD and to mutually correlate the product and the process data. Translation sessions can thus be visualized in the form of translation progression graphs (Carl and Jacobsen, 2009) or statistically analyzed e.g. with R",
+        "reproducibility": "In this paper we give a short introduction to translation process research and the data that we obtain from Translog. We describe the structure of the CRITT TPR-DB and the origin/intention of the various studies it contains. We will then describe how the raw logging data is compiled into a database structure which allows for more detailed analysis and evaluation of the translation processes. While much of this compilation is fully automatized, the database design also contains a number of tools to manually adjust the annotations. Finally we give an overview of the Metadata that is stored with the CRITT TPR-DB. In addition, more than 230 translation sessions were recorded in the past year to complement the legacy TPR UAD with more target languages and with post-editing sessions."
+    }
 }

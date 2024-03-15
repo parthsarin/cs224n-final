@@ -18,5 +18,9 @@
     "numcitedby": 425,
     "year": 2006,
     "month": "July",
-    "title": "Automatic classification of citation function"
+    "title": "Automatic classification of citation function",
+    "values": {
+        "building on past work": "Its 12 categories mark relationships with other works. Each citation is labelled with exactly one category. The difference between them concerns whether the contrast is between methods employed or goals (CoCoGM), or results, and in the case of results, a difference is made between the cited results being worse than the current work (CoCo-), or comparable or better results (CoCoR0). While this is not typically annotated in the literature, we expect a potential practical benefit of this category for our application, particularly in searches for differences and rival approaches.",
+        "performance": "For our task, memory-based learning outperformed other models. The reported results use the IBk algorithm with k = 3 (we used the Weka machine learning toolkit (Witten and Frank, 2005) for our experiments). Kappa is even higher for the top level distinction. We collapsed the obvious similar categories (all P categories into one category, and all CoCo categories into another) to give four top level categories (Weak, Positive, Contrast, Neutral; results in Fig. 5). Precision for all the categories is above 0.75, and K=0.59."
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 3,
     "year": 1993,
     "month": "September",
-    "title": "{DR}-{LINK} System: Phase {I} Summary"
+    "title": "{DR}-{LINK} System: Phase {I} Summary",
+    "values": {
+        "performance": "Table 5 and 7 show that even with the exacdy same representation and retrieval methods, the results obtained from different databases and topics are radically different."
+    }
 }

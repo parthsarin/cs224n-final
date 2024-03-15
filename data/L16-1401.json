@@ -19,5 +19,8 @@
     "numcitedby": 2,
     "year": 2016,
     "month": "May",
-    "title": "{LREC} as a Graph: People and Resources in a Network"
+    "title": "{LREC} as a Graph: People and Resources in a Network",
+    "values": {
+        "building on past work": "In this paper we shall also attempt to identify LRs that seem to be more or less central to the scientific community network and its research production, and measure the impact of a LR on the research outcomes.In order to do this, we are taking into account the data gathered during various editions of LREC, namely 2010 LREC, namely , 2012 LREC, namely , 2014, contributed , contributed Metadata Description The set of metadata used for documenting language resources can vary from repository to repository. Some harmonization initiatives are currently being carried out in order to make diverse datasets interoperable, e.g. (McCrae et al., 2015) . Nevertheless a common core has been broadly agreed upon by all; this includes type of resource (such as corpus, lexicon, tool), modality, language(s), use, and availability. The analysis of coauthorship networks in the field of computational linguistics is not new: thanks to the ACL ANTHOLOGY NET-WORK initiative (Radev et al., 2009 ) bibliographic data about papers' citations and authors' collaboration from the ACL Anthology are easy to explore 3 . In a similar vein Saffron 4 (Buitelaar et al., 2014; Bordea et al., 2013; Buitelaar et al., 2013) as a research framework based on text mining and linked data principles is able to perform community detection suggesting domain specific experts. Visualisations are organised around topics automatically extracted. "
+    }
 }

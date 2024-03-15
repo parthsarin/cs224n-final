@@ -17,5 +17,10 @@
     "numcitedby": 4,
     "year": 2021,
     "month": "August",
-    "title": "Neural Stylistic Response Generation with Disentangled Latent Variables"
+    "title": "Neural Stylistic Response Generation with Disentangled Latent Variables",
+    "values": {
+        "building on past work": "Our approach achieves a higher BERT-based style intensity score and comparable BLEU scores, compared with baselines. To address the issue, we propose to disentangle the style and content of a response. Our approach achieves a higher BERT-based style intensity score and comparable BLEU scores, compared with baselines. Experimental results show that our proposed approach improves style intensity and maintains content relevance.",
+        "novelty": "We propose a unified framework to simultaneously improve style intensity and maintain content relevance for neural stylistic response generation. We introduce a scheme of learning latent variables by a diluting strategy to disentangle the style and content. Experimental results show that our proposed approach improves style intensity and maintains content relevance.",
+        "performance": "Experimental results show that our approach achieves higher performance in style intensity without decreasing content relevance, compared with previous approaches. Our approach achieves a higher BERT-based style intensity score and comparable BLEU scores, compared with baselines. Human evaluation results show that our approach significantly improves style intensity and maintains content relevance. Our approach has the highest mean score, which indicates that it achieves the best overall performance. This verifies the effectiveness of our disentanglement approach in improving the style intensity and maintaining the content relevance. The decreases in SI after removing the fusion objective and smoothness objective are more significant than that after removing the disentanglement. This is because the two objectives are bottom components for constructing the structured latent space, where our approach and Style Fusion are built upon."
+    }
 }

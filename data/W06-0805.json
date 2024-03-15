@@ -18,5 +18,8 @@
     "numcitedby": 0,
     "year": 2006,
     "month": "July",
-    "title": "Exploring Semantic Constraints for Document Retrieval"
+    "title": "Exploring Semantic Constraints for Document Retrieval",
+    "values": {
+        "performance": "Our evaluation results have shown that such combination produces some improvement in IR performance over the term-based IR system on our test collection. In the case of recall, the absolute scores improve at least nine percent. The IR results from the combined system seem to be able to tolerate significant errors in semantic annotation, considering that the accuracy of AV-extraction is about 50%."
+    }
 }

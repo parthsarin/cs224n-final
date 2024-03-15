@@ -21,5 +21,8 @@
     "numcitedby": 10,
     "year": 2017,
     "month": "",
-    "title": "Unsupervised Learning of Morphological Forests"
+    "title": "Unsupervised Learning of Morphological Forests",
+    "values": {
+        "building on past work": "Our work demonstrates that this framework continues to be effective in an unsupervised setting, providing strong guidance for a local, unsupervised classifier. Our proposed approach attempts to combine the advantages of both approaches, by defining an objective that incorporates both levels of linguistic properties over the entire forest representation, and adopting an alternating training regime for optimization."
+    }
 }

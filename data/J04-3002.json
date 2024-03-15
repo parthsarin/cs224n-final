@@ -18,5 +18,9 @@
     "numcitedby": 767,
     "year": 2004,
     "month": "",
-    "title": "Learning Subjective Language"
+    "title": "Learning Subjective Language",
+    "values": {
+        "building on past work": "In contrast, the focus in our work is on automatically identifying features from the data.",
+        "performance": "The second are collocations (Section 3.3). We demonstrate a straightforward method for automatically identifying collocational clues of subjectivity in texts. The method is first used to identify fixed n-grams, such as of the century and get out of here. The method is then used to identify an unusual form of collocation: One or more positions in the collocation may be filled by any word (of an appropriate part of speech) that is unique in the test data. We hypothesized that two words may be distributionally similar because they are both potentially subjective (e.g., tragic, sad, and poignant are identified from bizarre). In addition, we use distributional similarity to improve estimates of unseen events: A word is selected or discarded based on the precision of it together with its n most similar neighbors. We show that the various subjectivity clues perform better and worse on the same data sets, exhibiting an important consistency in performance (Section 4.2). We find that the density of clues in the surrounding context is an important influence. Using two types of annotations serves us well here, too. It enables us to use manual judgments to identify parameters for disambiguating instances of automatically identified clues. High-density clues are high precision in both the expression-level and document-level data. Finally, we use the clues together to perform documentlevel classification, to further demonstrate the utility of the acquired knowledge (Section 4.6). At the end of the article, we discuss related work (Section 5) and conclusions (Section 6)."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 7,
     "year": 2013,
     "month": "October",
-    "title": "Statistical Morphological Analyzer for {H}indi"
+    "title": "Statistical Morphological Analyzer for {H}indi",
+    "values": {
+        "building on past work": "The paradigm based analyzer (PBA) by Bharati et al. (1995) is one of the most widely used applications among researchers in the Indian NLP community. Goyal and Lehal's analyser (2008) , which is a re-implementation of the PBA with few extensions, has not done any comparative evaluation. Kanuparthi et al. (2012) built a derivational morphological analyzer for Hindi by introducing a layer over the PBA. It identifies 22 derivational suffixes which helps in providing derivational analysis for the word whose suffix matches with one of these 22 suffixes. The large scale machine translation projects 2 that are currently under way in India use shallow parser built on PBA and an automatic POS tagger. The shallow parser prunes the morphological analyses from PBA to select the correct one using the POS tags from the tagger.",
+        "performance": "Our morphological analyzer has better coverage and accuracy when compared to the existing analyzers for Hindi. An oracle system that takes the best values from the PBA's output achieves only 63.41% for lemma, gender, number, person and case. Our statistical analyzer has an accuracy of 84.16% for these morphological attributes when evaluated on the test section of the Hindi Treebank. A comprehensive evaluation was carried out for our system by comparing it with the existing analyzers. The analyzer we have developed achieved an accuracy of 82.03% for lemma, gender, number, person, case, vibhakti and TAM."
+    }
 }

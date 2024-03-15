@@ -18,5 +18,9 @@
     "numcitedby": 2,
     "year": 2013,
     "month": "September",
-    "title": "Releasing multimodal data as Linguistic Linked Open Data: An experience report"
+    "title": "Releasing multimodal data as Linguistic Linked Open Data: An experience report",
+    "values": {
+        "ease of implementation": " Our framework is implemented on the Rails web application framework.  In order to address this gap, we describe a framework supporting the easy publication of multimodal data as RDF / Linked Data which is based on an existing multimodal data model and on the Rails framework.  This tool chain is designed to be easy to integrate with existing libraries in a plugin-like fashion, in order to reduce the effort of integrating existing systems into Linked Data networks and infrastructures.",
+        "novelty": " Building on an internal multimodal data model we call FiESTA, we have implemented a library that enhances existing libraries and classes by functionality allowing to convert the data to RDF. Our framework is implemented on the Rails web application framework. We argue that this work can be highly useful for further contributions to the Linked Data community, especially from the fields of spoken dialogue and multimodal communication.   This can be useful if an existing library should be augmented with RDF information without modifying the existing source code. POSEIdON, by providing such a high-level interface, spares the user the creation and management of single RDF triples and graphs."
+    }
 }

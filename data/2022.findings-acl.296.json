@@ -18,5 +18,8 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "May",
-    "title": "Benchmarking Answer Verification Methods for Question Answering-Based Summarization Evaluation Metrics"
+    "title": "Benchmarking Answer Verification Methods for Question Answering-Based Summarization Evaluation Metrics",
+    "values": {
+        "performance": "F 1 is the best or indistinguishable from LERC. This result is expected given how similarly they perform at answer verification on this QA metric and dataset split. Overall, the FEQA correlations are still lower than those by FactCC by a large margin. Although we were able to identify that some methods perform better than others at verification, any such improvement does not necessarily translate a better overall metric quality. Even though token F 1 may be sufficient in some scenarios, we also recommend that practitioners also use LERC since it is likely to provide additional benefits, even if they are not easily measured. QAEval-IsAns statistically ties the best methods. QAEval-IsAns is statistically out-performed by the verification methods."
+    }
 }

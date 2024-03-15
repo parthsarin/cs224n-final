@@ -18,5 +18,8 @@
     "numcitedby": 48,
     "year": 2016,
     "month": "May",
-    "title": "{V}ox{ML}: A Visualization Modeling Language"
+    "title": "{V}ox{ML}: A Visualization Modeling Language",
+    "values": {
+        "building on past work": "This language, VoxML (Visual Object Concept Modeling Language), is being used as the platform for creating multimodal semantic simulations in the context of human-computer communication. Prior work in visualization from natural language has largely focused on object placement and orientation in static scenes (Coyne and Sproat, 2001; Siskind, 2001; Chang et al., 2015) , and we have endeavored to incorporate dynamic semantics and motion language into our model. In previous work (Pustejovsky and Krishnaswamy, 2014; Pustejovsky, 2013) , we introduced a method for modeling natural language expressions within a 3D simulation environment built on top of the game development platform Unity (Goldstone, 2009) . The goal of that work was to evaluate, through explicit visualizations of linguistic input, the semantic presuppositions inherent in the different lexical choices of an utterance. This work led to two additional lines of research: an explicit encoding for how an object is itself situated relative to its environment; and an operational characterization of how an object changes its location or how an agent acts on an object over time. The former has developed into a semantic notion of situational context, called a habitat (Pustejovsky, 2013; McDonald and Pustejovsky, 2014) , while the latter is addressed by dynamic interpretations of event structure (Pustejovsky and Moszkowicz, 2011; Pustejovsky, 2013) ."
+    }
 }

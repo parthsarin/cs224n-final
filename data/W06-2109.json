@@ -18,5 +18,8 @@
     "numcitedby": 10,
     "year": 2006,
     "month": "",
-    "title": "{G}erman Particle Verbs and Pleonastic Prepositions"
+    "title": "{G}erman Particle Verbs and Pleonastic Prepositions",
+    "values": {
+        "novelty": " We also show how the restrictions on particle verbs and pleonastic PPs can be expressed in a grammar theory like Lexical Functional Grammar (LFG).  The paper gives an overview of the semantic verb classes influencing this phenomenon, based on corpus data, and explains the underlying reasons for the behaviour of the particle verbs. We also show how the restrictions on particle verbs and pleonastic PPs can be expressed in a grammar theory like Lexical Functional Grammar (LFG).  A classification of particle verbs based on semantic criteria was given, illustrating the restrictions imposed on their behaviour."
+    }
 }

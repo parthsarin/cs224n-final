@@ -19,5 +19,8 @@
     "numcitedby": 2,
     "year": 1985,
     "month": "March",
-    "title": "A Two-Way Approach to Structural Transfer in {MT}"
+    "title": "A Two-Way Approach to Structural Transfer in {MT}",
+    "values": {
+        "ease of implementation": "The type of direct transfer described here has several good points."
+    }
 }

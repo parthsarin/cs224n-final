@@ -18,5 +18,9 @@
     "numcitedby": 29,
     "year": 2013,
     "month": "June",
-    "title": "Multi-faceted Event Recognition with Bootstrapped Dictionaries"
+    "title": "Multi-faceted Event Recognition with Bootstrapped Dictionaries",
+    "values": {
+        "building on past work": "Our work focuses on civil unrest events. We also present experiments with documents that do not contain event keywords, and obtain 74% accuracy when matching all three types of event information. Our belief is that many different types of events have characteristic agent terms, but additional types of facets will need to be defined to cover a broad array of event types.",
+        "performance": "Our research focuses on civil unrest events and learns civil unrest expressions as well as phrases corresponding to potential agents and reasons for civil unrest. The best text filtering results were high (about 90% F score), but relied on hand-built event extraction systems. We conclude that finding at least two different types of event information produces high accuracy (88% precision) with good recall (71%) on documents that contain an event keyword. We also present experiments with documents that do not contain event keywords, and obtain 74% accuracy when matching all three types of event information. Statistical significance testing shows that the Event Phrase lookup approach works significantly better than the unigram classifier (p < 0.05, paired bootstrap (Berg-Kirkpatrick et al., 2012) ). Statistical significance testing shows that the All Pairs approach works significantly better than the unigram classifier (p < 0.001, paired bootstrap). The All Pairs approach is significantly better than the Event Phrase (EV) lookup approach at the p < 0.1 level. The PairLex classifier yield higher precision but very low recall, undoubtedly due to sparsity issues in matching specific pairs of phrases. The All Sets classifier yields the best performance with an F-score of 76%. However, our straightforward dictionary look-up approach still performs better (79% F-score), and does not require annotated documents for training."
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 15,
     "year": 2020,
     "month": "May",
-    "title": "A Framework for Evaluation of Machine Reading Comprehension Gold Standards"
+    "title": "A Framework for Evaluation of Machine Reading Comprehension Gold Standards",
+    "values": {
+        "performance": " . . , m} under a performance metric.  Typical performance metrics are exact match (EM) or accuracy, i.e. the percentage of exactly predicted answers, and the F1 score -the harmonic mean between the precision and the recall of the predicted tokens compared to expected answer tokens. The overall F1 score can either be computed by averaging the F1 scores for every instance or by first averaging the precision and recall and then computing the F1 score from those averages (macro F1).    Our proposed approach differs in that we aim to provide qualitative justifications for those quantitatively measured issues.   Finally, investigating gold standards under this framework where MRC models outperform the human baseline (e.g. SQUAD) will contribute to a deeper understanding of the seemingly superb performance of deep learning approaches on them."
+    }
 }

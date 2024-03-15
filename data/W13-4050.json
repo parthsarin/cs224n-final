@@ -18,5 +18,8 @@
     "numcitedby": 14,
     "year": 2013,
     "month": "August",
-    "title": "Spoken Dialog Systems for Automated Survey Interviewing"
+    "title": "Spoken Dialog Systems for Automated Survey Interviewing",
+    "values": {
+        "performance": "ASR and concept accuracy We evaluated overall word, sentence, and concept accuracy for all 8,228 spoken utterances to the system, shown in the first row of An input is \"concept accurate\" if the semantic value assigned by the system exactly matches that assigned by the annotator. Impact of Errors on Survey Estimates Recognition error is undoubtedly a key factor in overall user experience. But unlike dialog systems for information access, search, and transactions, the most important factor in a survey dialog system is the impact of errors on the quality of the estimates derived from the survey. To examine the impact of the residual 4.4% concept error on overall survey error, we compared answer distributions derived from the system hypothesis for the last response versus the annotation of the last response using paired t-tests. For the 18 categorical questions, we conducted t-tests comparing the counts for each response option of each question. For all 18 questions (a total of 77 response categories) none of the differences were statistically significant (p<0.05)."
+    }
 }

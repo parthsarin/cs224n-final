@@ -19,5 +19,10 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "Zero-shot cross-lingual open domain question answering"
+    "title": "Zero-shot cross-lingual open domain question answering",
+    "values": {
+        "building on past work": "Passage representations and their similarity score with the query are used to generate the final response in the reader module. Further, the RAG approach works efficiently at scale due to the independent processing of passages in the encoder module. Bi-encoder retrievers are effective in bringing out relevant passages from a large index but sometimes reranking those passages is essential as the downstream reader can only see a limited number of them.",
+        "novelty": "  Our end-2-end pipeline shows an improvement of 3 and 4.6 points on F1 and EM metrics respectively, when compared with the baseline CORA model on the XOR-TyDi dataset.  We also evaluate the effectiveness of our proposed techniques in the zero-shot setting using the MKQA dataset and show an improvement of 5 points in F1 for high-resource and 3 points improvement for low-resource zero-shot languages.",
+        "performance": "We get the best results for applying postprocessing (P) on the outputs by the reranker(RR) + FiD model. For zero-shot settings in the MKQA dataset, we also see consistent 5 points of F1 improvement over the baseline due to the combined effect of the FiD, reranker, and the postprocessor. For high-resource zero-shot languages Es, Sv, Zh we observe around 5 points improvement over baseline whereas for Km which is an extremely low-resource language we still show around 3 points improvement. Applying the reranker to the baseline mDPR gives a consistent improvement in R@50 for all the languages leading to about 1.6 points improvement. For the MKQA dataset, in table 5, we see a significant increase over the mDPR model across all the languages for R@50. We see a 2.6 improvement in R@50 over the baseline. This further corroborates the effectiveness of the reranker and the mT5 based FiD for unseen languages. Also, it is worth noting that for En language in MKQA, simply adding FiD improves the performance by 12 points, showing the advantage of the fusion-in-decoder technique. In the zero-shot setting, there is a huge improvement of 6 points in Zh because of the same reason."
+    }
 }

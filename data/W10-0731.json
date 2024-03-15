@@ -18,5 +18,9 @@
     "numcitedby": 90,
     "year": 2010,
     "month": "June",
-    "title": "{A}mazon {M}echanical {T}urk for Subjectivity Word Sense Disambiguation"
+    "title": "{A}mazon {M}echanical {T}urk for Subjectivity Word Sense Disambiguation",
+    "values": {
+        "performance": "However, according to McNemar's test (Dietterich, 1998) , there is no statistically significant difference between any trial of any group.",
+        "reproducibility": " We evaluate each group itself separately on the gold-standard data. Additionally, we evaluate each worker's performance on the gold-standard data and inspect their distribution in various groups.   We split the list into bins of size 40 and we test for an increasing trend in the proportion of successes over time. Using this test, we find that all of the p-values are substantially larger than 0.05. Thus, there is no increasing trend in the proportion of successes and no learning effect. "
+    }
 }

@@ -19,5 +19,10 @@
     "numcitedby": 73,
     "year": 2018,
     "month": "June",
-    "title": "Humor Recognition Using Deep Learning"
+    "title": "Humor Recognition Using Deep Learning",
+    "values": {
+        "building on past work": "We implement a Convolutional Neural Network (CNN) with extensive filter size, number and Highway Networks to increase the depth of networks. Results show that our model outperforms in recognition of different types of humor with benchmarks collected in both English and Chinese languages on accuracy, precision, and recall in comparison to previous works.",
+        "novelty": "  We use the architecture called highway network to implement a much more proficient model for humor recognition.  The performance on many benchmarks shows a significant improvement in detecting different humor context genre.  In our work, we build the humor recognizer by using CNNs with extensive filter size and number, and the result shows higher accuracy from previous CNNs models.  We conducted experiments on two different dataset, which were used in the previous studies.",
+        "performance": "We implement a Convolutional Neural Network (CNN) with extensive filter size, number and Highway Networks to increase the depth of networks. Results show that our model outperforms in recognition of different types of humor with benchmarks collected in both English and Chinese languages on accuracy, precision, and recall in comparison to previous works. Table 2 shows the experiments on both 16000 One-Liners and Pun of the Day. The novel deep learning model relieves the required human intervention of selection linguistic features for humor recognition task."
+    }
 }

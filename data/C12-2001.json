@@ -20,5 +20,10 @@
     "numcitedby": 13,
     "year": 2012,
     "month": "December",
-    "title": "{K}-Best Spanning Tree Dependency Parsing With Verb Valency Lexicon Reranking"
+    "title": "{K}-Best Spanning Tree Dependency Parsing With Verb Valency Lexicon Reranking",
+    "values": {
+        "building on past work": "While rule-based dependency parsers might use such information on (predicate) verbs at parser runtime, a post-processing reranking approach is presented here. Namely, a parser is developed that provides k-best dependency trees sorted by adequacy for an input sentence and this parser is then linked to the valency lexicon through a reranking module that reorders the suggested k-best trees by using the lexicon to evaluate them. It was tested in the form of prototype parser CroDep on the Croatian Dependency Treebank by using the CROVALLEX lexicon of Croatian verbs and it scored 77.21% LAS, topping the top-performing baseline parser by 2.68% LAS.",
+        "novelty": " A novel method for hybrid graph-based dependency parsing of natural language text is proposed.  The suggested approach scored approximately 77.21% LAS, outperforming the tested state-of-the-art approaches by at least 2.68% LAS.",
+        "performance": "CroDep also handles long-distance dependencies better than the best baseline parsers and that its footprint is very similar to the one of the graph-based parser. CroDep scored 80.51% LAS, topping CroDep0 by 1.73% LAS, thus indicating method applicability across languages and outlining the influence of resource properties on method performance."
+    }
 }

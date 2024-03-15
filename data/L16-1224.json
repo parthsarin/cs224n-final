@@ -19,5 +19,8 @@
     "numcitedby": 11,
     "year": 2016,
     "month": "May",
-    "title": "The {OFAI} Multi-Modal Task Description Corpus"
+    "title": "The {OFAI} Multi-Modal Task Description Corpus",
+    "values": {
+        "reproducibility": "A first detailed analysis of the multimodality of object references can be found in (Gross et al., accepted on 19 January 2016). In addition to the German dataset a comparable English dataset is available for Task 1, allowing us to compare the realisation of information structure in the German and English versions of the task descriptions."
+    }
 }

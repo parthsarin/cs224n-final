@@ -19,5 +19,9 @@
     "numcitedby": 1,
     "year": 2021,
     "month": "May",
-    "title": "Found in translation/interpreting: combining data-driven and supervised methods to analyse cross-linguistically mediated communication"
+    "title": "Found in translation/interpreting: combining data-driven and supervised methods to analyse cross-linguistically mediated communication",
+    "values": {
+        "building on past work": "A common interest in these diverse fields is to get a good descriptive basis of the specific linguistic characteristics of interpreting output. In the study of human language processing, interpreting offers a highly interesting experimental ground for observing the interplay of prediction, retrieval and working memory (e.g. And in automatic language processing, simultaneous interpreting by machine remains a challenging task with many interesting open research questions (e.g. Here, we come from the perspective of \"translationese\", i.e. the observation that translations exhibit specific linguistic features that distinguish them from original, non-translated language due to simplification, normalization, shining-through of the source text etc. While well documented for written translation, there is only little work on \"interpretese\" (see Section 2). While there are overlaps in the features distinguishing interpreting and translations from their comparable originals (general translationese effects), we also expect differences between interpretese and translationese (effects of spoken vs. written mode).",
+        "performance": " The results of automatic classification in Table 2 above shows that our classifiers achieve an overall good performance in recognising the classes in our data.  The F1-measure scores for these three groups of features are higher in Table 3 than in Table 4 . This confirms our assumption that interpreting is more distinct from comparable speech than translation from comparable text.  Interestingly, the KLD features have the biggest overlap (18.25%), whereas the word unigrams have 8.25% of overlapping features only."
+    }
 }

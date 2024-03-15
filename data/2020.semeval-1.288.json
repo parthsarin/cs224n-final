@@ -18,5 +18,8 @@
     "numcitedby": 6,
     "year": 2020,
     "month": "December",
-    "title": "{SU}-{NLP} at {S}em{E}val-2020 Task 12: Offensive Language {I}dentifi{C}ation in {T}urkish Tweets"
+    "title": "{SU}-{NLP} at {S}em{E}val-2020 Task 12: Offensive Language {I}dentifi{C}ation in {T}urkish Tweets",
+    "values": {
+        "performance": "Our final submitted approach ranked as the second best model in the Turkish sub-task. Even after downsampling, the data collection is still imbalanced. Therefore, we use macro-averaged F1-score to compare the models in addition to the accuracy metric. F1-score is also the official evaluation measure for this task. Even though using word embeddings trained on data originated from Twitter seems to be useful, BERTurk's results suggest that the architecture and how much information is being learnt and transferred, are still very much important. For 373 of those, all three models predicted the same incorrect label, and for 4466 tweets all three models predicted correctly. For the rest of the 1412 tweets, three models did not return the same results. Among these 4351 instances, BERTurk has correctly predicted the outcome in 4128 of the instances, around 95% of them. With the rest of the 1900 instances where weighted voting has been applied, only the output prediction of 324 instances were modified from BERTurk's prediction and 220 of these modifications resulted in correct predictions."
+    }
 }

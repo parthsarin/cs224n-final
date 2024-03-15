@@ -19,5 +19,8 @@
     "numcitedby": 3,
     "year": 2016,
     "month": "December",
-    "title": "Sentence Based Discourse Classification for {H}indi Story Text-to-Speech ({TTS}) System"
+    "title": "Sentence Based Discourse Classification for {H}indi Story Text-to-Speech ({TTS}) System",
+    "values": {
+        "performance": "The proposed model achieves its best accuracy 72.6% when support vector machine (SVM) is used for classification and features are extracted from CNN (which is trained using the word2vec feature). The performance of the proposed methods is evaluated using confusion matrix, ROC curve, and F-Score. Table 3 represents that each discourse is classified (using SVM which is trained on features extracted from CNN) correctly by almost 72.6%. Table 4 shows that each discourse is classified (using CNN with softmax function which is trained on features extracted from word2vec model) correctly by almost 62.66%. Table 5 shows that each discourse is classified (using SVM which is trained on features extracted from word2vec model) correctly by almost 54.3%."
+    }
 }

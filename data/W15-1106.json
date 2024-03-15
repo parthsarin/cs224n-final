@@ -19,5 +19,9 @@
     "numcitedby": 14,
     "year": 2015,
     "month": "June",
-    "title": "Verb polysemy and frequency effects in thematic fit modeling"
+    "title": "Verb polysemy and frequency effects in thematic fit modeling",
+    "values": {
+        "novelty": "While several data sets for evaluating thematic fit of verb-role-filler triples exist, they do not control for verb polysemy. Thus, it is unclear how verb polysemy affects human ratings of thematic fit and how best to model that. We present a new dataset of human ratings on high vs. low-polysemy verbs matched for verb frequency, together with high vs. low-frequency and well-fitting vs. poorly-fitting patient rolefillers. Our analyses show that low-polysemy verbs produce stronger thematic fit judgements than verbs with higher polysemy. Rolefiller frequency, on the other hand, had little effect on ratings. We show that these results can best be modeled in a vector space using a clustering technique to create multiple prototype vectors representing different \"senses\" of the verb.",
+        "performance": "As expected, the most substantial improvements are achieved for POLYSEMOUS verbs, but we also found that model performance on MONOSEMOUS verbs was not hurt by using the kClusters method."
+    }
 }

@@ -16,5 +16,8 @@
     "numcitedby": 29,
     "year": 2001,
     "month": "July",
-    "title": "{XML}-Based Data Preparation for Robust Deep Parsing"
+    "title": "{XML}-Based Data Preparation for Robust Deep Parsing",
+    "values": {
+        "performance": "The extremely low success rate of Version 1 is a reflection of the fact that the ANLT lexicon does not contain any specialist lexical items. The figure for Version 2 gives a crude measure of the contribution of our use of tags in lexical look-up and the figure for Version 3 shows further gains when further pre-processing techniques are used. Although we have achieved an encouraging overall improvement in performance, the total of 39.5% for Version 3 is not a precise reflection of accuracy of the parser. In order to determine accuracy, we hand-examined the parser output for the 79 sentences that were parsed and recorded whether or not the correct parse was among the parses found. Of these 79 sentences, 61 (77.2%) were parsed correctly while 18 (22.8%) were not, giving a total accuracy measure of 30.5% for Version 3. While this figure is rather low for a practical application, it is worth reiterating that this still means that nearly one in three sentences are not only correctly parsed but they are also assigned a logical form. We are confident that the further work outlined below will achieve an improvement in performance which will lead to a useful semantic analysis of a significant proportion of the corpus."
+    }
 }

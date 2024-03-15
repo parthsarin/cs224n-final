@@ -18,5 +18,11 @@
     "numcitedby": 1,
     "year": 2021,
     "month": "6--9 September",
-    "title": "{M}ob{IE}: A {G}erman Dataset for Named Entity Recognition, Entity Linking and Relation Extraction in the Mobility Domain"
+    "title": "{M}ob{IE}: A {G}erman Dataset for Named Entity Recognition, Entity Linking and Relation Extraction in the Mobility Domain",
+    "values": {
+        "building on past work": "The dataset setup allows for training and evaluating algorithms that aim for fine-grained typing of geolocations, entity linking of these, as well as for n-ary relation extraction. All entity types except for event cause originate from the corpus of Schiersch et al. The main characteristics of the original annotation scheme are the usage of coarseand fine-grained entity types (e.g., organization, organization-company, location, location-street), as well as trigger entities for phrases which indicate annotated relations, e.g., \"Stau\" (\"traffic jam\"). In contrast to the original corpus, our dataset includes entity linking information. For example, \"A2 Dortmund Richtung Hannover 2 km Stau\" is easily identified as a Traffic Jam relation mention due to the occurrence of the \"Stau\" trigger  in combination with the road name \"A2\". We implement LFs for the relation classification of trigger concepts and role classification of trigger-argument concept pairs.",
+        "novelty": "To the best of our knowledge, this is the first German-language dataset that combines annotations for NER, EL and RE, and thus can be used for joint and multi-task learning of these fundamental information extraction tasks. We significantly extend the dataset with 1,686 annotated documents, more than doubling its size from 1,546 to 3,232 documents We add entity linking annotations to geolinkable entity types, with references to Open Street Map 1 identifiers, as well as geo-shapes We implement an automatic labeling approach using the Snorkel framework (Ratner et al., 2017) to obtain additional high quality, but weakly-supervised relation annotations",
+        "performance": "On this dev set, Snorkel-assigned trigger class labels achieved a F1-score of 80.6 (Accuracy: 93.0), and role labeling of trigger-argument pairs had a F1-score of 72.6 (Accuracy: 83.1). This confirms our intuition that for the traffic report domain, weak labeling functions can provide useful supervision signals.",
+        "reproducibility": "Each document was labeled iteratively, first for named entities and concepts, then for entity linking information, and finally for relations."
+    }
 }

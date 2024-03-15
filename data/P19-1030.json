@@ -18,5 +18,10 @@
     "numcitedby": 13,
     "year": 2019,
     "month": "July",
-    "title": "You Only Need Attention to Traverse Trees"
+    "title": "You Only Need Attention to Traverse Trees",
+    "values": {
+        "building on past work": "Our idea is inspired by the RvNN models from Socher et al. (2013 Socher et al. ( , 2011b Socher et al. ( , 2014) ) where a composition function is used to transform a set of child representations into one single parent representation. As can be seen, all of the previous recursive architectures are somewhat inferior to the Tree Transformer results. As can be seen, in almost all the cases, multi-branch attention has much better performance compared to the other two.",
+        "novelty": "Our extensive evaluation proves that our model is better or at least on par with the existing sequential (i.e., LSTM and Transformer) and tree structured (i.e., Tree LSTM and RvNN) models.",
+        "performance": "Evaluation of this model on four tasks gets noteworthy results compared to the standard transformer and LSTM-based models as well as tree-structured LSTMs. Our extensive evaluation proves that our model is better or at least on par with the existing sequential (i.e., LSTM and Transformer) and tree structured (i.e., Tree LSTM and RvNN) models. For SICK-E, our model achieved 82.95% and 82.72% accuracy with dependency and constituency tree, respectively, which is on par with DT-LSTM (83.11%) as well as CT-LSTM (82.00%) and somewhat better than the standard Transformer (81.15%). For SICK-R, we are getting .2774 and .3012 MSE whereas the reported MSE for DT-LSTM and CT-LSTM are .2532 and .2734, respectively. However, in our implementation of those models with the same hyperparameters, we haven't been able to reproduce the reported results. Instead we ended up getting .2625 and .2891 MSE for DT-LSTM and CT-LSTM, respectively. On this task, our model is doing significantly better than the standard Transformer (.5241 MSE). On the SST dataset, our model (86.66% Acc.) is again on par with tree LSTM (87.27% Acc.) and better than Transformer (85.38% Acc.) as well as Infersent (86.00% Acc.)  On the MSRP dataset, our dependency tree version (70.34% Acc.) is below DT-LSTM (72.07%"
+    }
 }

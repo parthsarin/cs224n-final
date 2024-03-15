@@ -21,5 +21,8 @@
     "numcitedby": 17,
     "year": 2020,
     "month": "December",
-    "title": "An Empirical Study of Tokenization Strategies for Various {K}orean {NLP} Tasks"
+    "title": "An Empirical Study of Tokenization Strategies for Various {K}orean {NLP} Tasks",
+    "values": {
+        "performance": "Even though Byte Pair Encoding (BPE) has been considered the de facto standard tokenization method due to its simplicity and universality, it still remains unclear whether BPE works best across all languages and tasks. Experimental results demonstrate that a hybrid approach of morphological segmentation followed by BPE works best in Korean to/from English machine translation and natural language understanding tasks such as KorNLI, KorSTS, NSMC, and PAWS-X. As an exception, for KorQuAD, the Korean extension of SQuAD, BPE segmentation turns out to be the most effective. The BLEU scores of the subword models-Syllable, Morpheme, Subword, and Morphemeaware Subword-are mostly higher than those of the CV models, which are plotted as dotted lines. Although they have the same average token length around 1.4, the Morpheme-aware Subword models outperform the Subword models. We believe this is evidence to support that linguistic awareness is another important factor in Korean tokenization strategies for machine translation."
+    }
 }

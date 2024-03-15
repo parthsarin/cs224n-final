@@ -18,5 +18,8 @@
     "numcitedby": 5,
     "year": 1992,
     "month": "June",
-    "title": "Prosodic Aids to Syntactic and Semantic Analysis of Spoken {E}nglish"
+    "title": "Prosodic Aids to Syntactic and Semantic Analysis of Spoken {E}nglish",
+    "values": {
+        "performance": "The work described here is in progress. The prosodic features with which sentences have been annotated are the output of our feature extractor, but synchronisation is by hand as we do not have a speech recognition system. As shown by the =old men ...\" example, the system is capable of accurately producing correct interpretations, but as yet, no formal experiments using data extracted from ordinary telephone conversations and human comparisons have been performed. The aim has been to investigate the potential for the use of prosody in parsers intended for use in speech understanding systems."
+    }
 }

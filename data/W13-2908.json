@@ -18,5 +18,9 @@
     "numcitedby": 29,
     "year": 2013,
     "month": "August",
-    "title": "The {CW} Corpus: A New Resource for Evaluating the Identification of Complex Words"
+    "title": "The {CW} Corpus: A New Resource for Evaluating the Identification of Complex Words",
+    "values": {
+        "novelty": " This paper addresses these shortcomings with a new corpus for evaluating a system's performance in identifying CWs.     A CW is defined as one which causes a sentence to be more difficult for a user to read.   The corpus contains 731 sentences, each with one annotated CW.     ",
+        "performance": " This paper addresses these shortcomings with a new corpus for evaluating a system's performance in identifying CWs.    The contributions of this paper are as follows: \u2022 A description of the method used to create the CW corpus.  \u2022 An analysis of the corpus combining results from 6 human annotators.  \u2022 A discussion on the practicalities surrounding the use of the CW corpus for the evaluation of a CW identification system.   This paper describes the method used to produce the CW corpus and presents the results of evaluation, showing its validity.   There is no basis for comparison of current techniques and, prior to this work, there has been no standard corpus or evaluation technique for the CW identification task."
+    }
 }

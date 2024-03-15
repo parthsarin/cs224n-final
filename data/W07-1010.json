@@ -18,5 +18,9 @@
     "numcitedby": 29,
     "year": 2007,
     "month": "June",
-    "title": "Exploring the Efficacy of Caption Search for Bioscience Journal Search Interfaces"
+    "title": "Exploring the Efficacy of Caption Search for Bioscience Journal Search Interfaces",
+    "values": {
+        "building on past work": " In this article, we focus on another new opportunity: the ability to search over figure captions and display the associated figures. This idea is based on the observation, noted by our own group as well as many others, that when reading bioscience articles, researchers tend to start by looking at the title, abstract, figures, and captions.   Automated Caption Analysis Several research projects have examined the automated analysis of text from captions.  Figures in Bioscience Article Search Some bioscience journal publishers provide a service called \"SummaryPlus\" that allows for display of figures and captions in the description of a particular article, but the interface does not apply to search results listings.",
+        "novelty": " The main idea is to support search over figure captions explicitly, and show the corresponding figures directly within the search results. Participants in a pilot study expressed surprise at the idea, noting that they had never thought of search in this way.  This idea is based on the observation, noted by our own group as well as many others, that when reading bioscience articles, researchers tend to start by looking at the title, abstract, figures, and captions.  This paper reports on the results of a pilot study of the caption search idea. Participants found the idea novel, stimulating, and most expressed a desire to use a search interface that supports caption search and figure display.  The Grid view may be especially useful for seeing commonalities among topics, such as all the phylogenetic trees that include a given gene, or seeing all images of embryo development of some species.  We have also received several requests for table caption search along with figure caption search."
+    }
 }

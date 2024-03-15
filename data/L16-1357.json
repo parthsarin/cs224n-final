@@ -19,5 +19,8 @@
     "numcitedby": 2,
     "year": 2016,
     "month": "May",
-    "title": "{S}ub{C}o: A Learner Translation Corpus of Human and Machine Subtitles"
+    "title": "{S}ub{C}o: A Learner Translation Corpus of Human and Machine Subtitles",
+    "values": {
+        "performance": "The semiotic dimension reveals a different behaviour in contrast, where differences between HT and MT are negligible, intersemiotic coherence errors seem to be quite infrequent. Humans tend to produce mostly perfect and acceptable subtitles. SUMAT however shows a more homogeneous distribution. All in all, MT output seems to require more revision effort than human translations for all four dimensions. By and large, the machine makes more errors than the humans. The greatest pitfall for MT is syntax, followed by morphology and function words. In all three categories, the differences with human performance are significant."
+    }
 }

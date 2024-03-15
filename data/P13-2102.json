@@ -16,5 +16,9 @@
     "numcitedby": 27,
     "year": 2013,
     "month": "August",
-    "title": "A System for Summarizing Scientific Topics Starting from Keywords"
+    "title": "A System for Summarizing Scientific Topics Starting from Keywords",
+    "values": {
+        "building on past work": "In earlier work, (Teufel and Moens, 2002) have examined the problem of summarizing scientific articles using rhetorical analysis of sentences. Nanba and Okumura (1999) have also discussed the problem of generating surveys of multiple papers. Mohammad et al. (2009) presented experiments on generating surveys of scientific topics starting from papers to be summarized. More recently, Hoang and Kan (2010) have presented initial results on automatically generating related work section for a target paper by taking a hierarchical topic tree as an input. Additionally, we manually annotated 2,625 input sentences, about 375 sentences per topic, with the factoids extracted from the gold standard documents for each topic. Using this corpus, we presented experimental results for the performance of our document selection component and three sentence selection strategies.",
+        "performance": "Using this corpus, we presented experimental results for the performance of our document selection component and three sentence selection strategies. Our results indicate three main directions for future work."
+    }
 }

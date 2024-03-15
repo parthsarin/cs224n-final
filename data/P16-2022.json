@@ -18,5 +18,10 @@
     "numcitedby": 293,
     "year": 2016,
     "month": "August",
-    "title": "Natural Language Inference by Tree-Based Convolution and Heuristic Matching"
+    "title": "Natural Language Inference by Tree-Based Convolution and Heuristic Matching",
+    "values": {
+        "building on past work": "We are the first to introduce tree-based convolution to sentence pair modeling tasks like NLI Leveraging additional heuristics further improves the accuracy while remaining low complexity, outperforming existing sentence encoding-based approaches to a large extent, including feature-rich methods and long short term memory (LSTM)-based recurrent networks.",
+        "ease of implementation": "In our experiments, the matching part (Figure 1b ) counts 1.71% of the total time during prediction (single-CPU, C++ implementation), showing the potential applications of our approach in efficient retrieval of semantically related sentences.",
+        "novelty": "  Leveraging additional heuristics further improves the accuracy while remaining low complexity, outperforming existing sentence encoding-based approaches to a large extent, including feature-rich methods and long short term memory (LSTM)-based recurrent networks."
+    }
 }

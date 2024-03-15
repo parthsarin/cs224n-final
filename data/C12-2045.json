@@ -18,5 +18,10 @@
     "numcitedby": 15,
     "year": 2012,
     "month": "December",
-    "title": "Predicting Stance in Ideological Debate with Rich Linguistic Knowledge"
+    "title": "Predicting Stance in Ideological Debate with Rich Linguistic Knowledge",
+    "values": {
+        "building on past work": "We introduce three types of features and train a post-stance classifier using a feature set composed of these and Anand et al. 's features. We incorporate these two extensions incrementally into CRDD, and the corresponding results are shown under the \"CRDD+Ext1\" and \"CRDD+Both\" in Table 2 , respectively.",
+        "novelty": " We propose a machine learning approach to debate stance classification that leverages two types of rich linguistic knowledge, one exploiting contextual information and the other involving the determination of the author's stances on topics.   We introduce three types of features and train a post-stance classifier using a feature set composed of these and Anand et al. 's features.  To capture the meaningful topics in a post, we extract from each post topic features, which are all the word sequences starting with zero or more adjectives followed by one or more nouns.  As noted in the introduction, certain types of sentences in a debate post often contain words and phrases that do not represent the stance of its author. In this work, we consider three such types of sentences.  Additionally, we assign another tag, Type-4, to the unigrams in sentences with \"I\" as the subject of a reporting verb to indicate that these unigrams are likely to represent the author's opinions.  We address these problems by creating topic-polarity features as follows. For each sentence, we (1) identify its topic(s) (see Section 4.1.1); (2) label each sentiment word with its polarity (+ or \u2212) and strength (strong (S) or weak (W)) using the MPQA subjectivity lexicon 3 ; and (3) generate the typed dependencies using the Stanford Parser 4 .  We hypothesize that debate stance classification performance could be improved if we leveraged the predictions made by both the post-stance classifier and the topic-stance classifier.",
+        "performance": "Overall, our approach improves the better baseline by 3.96 and 4.52 percentage points in absolute F-measure for Abortion and Gun Rights, respectively."
+    }
 }

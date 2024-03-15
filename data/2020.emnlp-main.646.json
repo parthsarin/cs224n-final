@@ -18,5 +18,10 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "November",
-    "title": "{TESA}: A {T}ask in {E}ntity {S}emantic {A}ggregation for Abstractive Summarization"
+    "title": "{TESA}: A {T}ask in {E}ntity {S}emantic {A}ggregation for Abstractive Summarization",
+    "values": {
+        "building on past work": "We argue that it is important to also focus explicitly on semantic abstraction, as this capability is required for more difficult types of summarization which are out of reach of current methods. Our work is a step in this direction. Our proposed entity aggregation task is related to referring expression generation (REG). Our work can be seen as a specific REG task that focuses on semantically abstracting multiple named entities. Our work is also related to coreference resolution, especially those that examine multi-antecedent resolution (Burga et al., 2016; Vala et al., 2016) , an inverse problem to ours.",
+        "performance": "Fine-tuning BART on TESA increased its performance significantly, especially if done discriminatively. Discriminative BART achieves the best results.",
+        "reproducibility": " We used the New York Times (NYT) Annotated Corpus (Sandhaus, 2008) to extract tuples of named entities and their document context. The NYT corpus contains high-quality metadata listing the salient named entities mentioned in each article.  In each annotation, an annotator could provide between zero (meaning the instance is not aggregatable) and two aggregations.  Finally, we post-processed the aggregations, removing determiners, numerical expressions and standardized the casing (e.g., \"The two cities\" became \"cities\").   To ensure maximal reproducibility, we provide here some details regarding the collection of the human annotations."
+    }
 }

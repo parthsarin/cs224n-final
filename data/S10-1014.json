@@ -19,5 +19,10 @@
     "numcitedby": 32,
     "year": 2010,
     "month": "July",
-    "title": "{S}em{E}val-2010 Task 18: Disambiguating Sentiment Ambiguous Adjectives"
+    "title": "{S}em{E}val-2010 Task 18: Disambiguating Sentiment Ambiguous Adjectives",
+    "values": {
+        "novelty": "The experimental results of the 16 participating systems are promising, and the used approaches are quite novel.",
+        "performance": "The micro accuracy of the best system is 94.20% that is 43.12% higher than the worst system. The accuracy of the best three systems is even higher than inter-annotator agreement. The performance of the worst system is only a little higher than random baseline, which is 50% when we randomly assign the SO of sentiment ambiguous adjectives. The experimental results of some systems are promising. The micro accuracy of the best three systems is over 93%. On the contrary, the experimental results of some systems are disappointing, which are below our predefined simple baseline (61.20%), and are only a little higher than random baseline (50%).",
+        "reproducibility": "We collected data from two sources. The main part was extracted from Xinhua News Agency of Chinese Gigaword (Second Edition) released by LDC. Another small part of data was extracted from the Web. From the returned snippets, we manually picked out some sentences that contain the strings of (2). Also, the sentences were automatically segmented and POS-tagged using ICTCLAS. Although the number of such ambiguous adjectives is not large, they are frequently used in real text, especially in the texts expressing opinions and emotions."
+    }
 }

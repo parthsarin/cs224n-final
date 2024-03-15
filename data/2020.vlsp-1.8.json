@@ -19,5 +19,8 @@
     "numcitedby": 0,
     "year": 2020,
     "month": "December",
-    "title": "{R}e{INTEL} Challenge 2020: A Multimodal Ensemble Model for Detecting Unreliable Information on {V}ietnamese {SNS}"
+    "title": "{R}e{INTEL} Challenge 2020: A Multimodal Ensemble Model for Detecting Unreliable Information on {V}ietnamese {SNS}",
+    "values": {
+        "novelty": "We combined two single models in order to improve the accuracy of fake news detection."
+    }
 }

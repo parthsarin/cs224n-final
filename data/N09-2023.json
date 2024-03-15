@@ -18,5 +18,9 @@
     "numcitedby": 6,
     "year": 2009,
     "month": "June",
-    "title": "Automatic Agenda Graph Construction from Human-Human Dialogs using Clustering Method"
+    "title": "Automatic Agenda Graph Construction from Human-Human Dialogs using Clustering Method",
+    "values": {
+        "building on past work": "Bangalore et al., 2006) . Discourse structure is necessary for dialog state-specific speech recognition and language understanding to improve the performance by predicting the next possible dialog states. In addition, the discourse structure is essential to determine whether the current utterance in the dialog is part of the current subtask or starts a new task. More recently, it has been proposed stochastic dialog management such as the framework of a partially observable Markov decision process (POMDP). This framework is statistically data-driven and theoretically principled dialog modeling. However, detailed dialog states in the master space should be clustered into general dialog states in summary space to scale up POMDP-based dialog management for practical applications (Williams and Young, 2007) . To address this problem, an unsupervised automatic clustering of dialog states has been introduced and investigated in POMDPbased dialog manager (Lefevre and Mori, 2007) .",
+        "performance": "We also evaluated the dialog system performance with the agenda graphs which are manually (HC-AG) or automatically designed (AC-AG) In this result, although the system with HC-AG slightly outperforms the system with AC-AG, we believe that AC-AG can be helpful to manage task-oriented dialogs with less human costs for designing the hand-crafted agenda graph."
+    }
 }

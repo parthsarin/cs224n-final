@@ -20,5 +20,9 @@
     "numcitedby": 15,
     "year": 2016,
     "month": "August",
-    "title": "Conversion from Paninian Karakas to {U}niversal {D}ependencies for {H}indi Dependency Treebank"
+    "title": "Conversion from Paninian Karakas to {U}niversal {D}ependencies for {H}indi Dependency Treebank",
+    "values": {
+        "building on past work": "Universal Dependencies (UD) are gaining much attention of late for systematic evaluation of cross-lingual techniques for crosslingual dependency parsing. Our contribution to this is manifold. We extend UD to Indian languages through conversion of P\u0101n \u0323inian Dependencies to UD for the Hindi Dependency Treebank (HDTB). The rest of the paper is organized as follows: In Section 2, we describe the annotation scheme used for the Indian language treebanking and Universal Dependency treebanking. Section 4, we elaborate upon the differences in design between the two schemes, how existing dependency scheme and POS tags for Hindi map onto the universal taxonomy, the issues that were faced and how they have been resolved.",
+        "performance": "The parser is not able to learn copula constructions properly, the 'be' verb is not recognised as 'cop' in most cases, it is made the root of the sentence or head of the phrase, in-3 MALT version 1.8.1 , http://www.maltparser.org/ stead. For control constructions which have more than one verb, the first non-finite verb is marked as the head instead of the finite verb. Sentences having paired connectives like 'agar-to' (\u0905\u0917\u0930-\u0924\u094b), 'yadi-to' (\u092f \u0926-\u0924\u094b) corresponding to 'if-then', do not have their governors and dependents correctly marked. This is because they are handled differently in both the schemes. We performed experiments using MALT parser on both the source treebank HDTB and the converted UD Hindi Treebank, to find that the performance is slightly deteriorated after conversion."
+    }
 }

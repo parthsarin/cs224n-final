@@ -18,5 +18,8 @@
     "numcitedby": 1,
     "year": 2019,
     "month": "June",
-    "title": "{MILAB} at {S}em{E}val-2019 Task 3: Multi-View Turn-by-Turn Model for Context-Aware Sentiment Analysis"
+    "title": "{MILAB} at {S}em{E}val-2019 Task 3: Multi-View Turn-by-Turn Model for Context-Aware Sentiment Analysis",
+    "values": {
+        "performance": "Our final MVTT model achieved 0.7634 microaveraged f1 score. "
+    }
 }

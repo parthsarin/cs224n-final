@@ -25,5 +25,9 @@
     "numcitedby": 206,
     "year": 2016,
     "month": "November",
-    "title": "A Hierarchical Model of Reviews for Aspect-based Sentiment Analysis"
+    "title": "A Hierarchical Model of Reviews for Aspect-based Sentiment Analysis",
+    "values": {
+        "building on past work": "Our model was designed with this goal in mind and is able to extract additional information inherent in the training data. Past approaches use classifiers with expensive hand-crafted features based on n-grams, parts-of-speech, negation words, and sentiment lexica (Pontiki et al., 2014; Pontiki et al., 2015) . The model by Zhang and Lan (2015) is the only approach we are aware of that considers more than one sentence. In addition, our model shows results competitive with the best single models of the competition, while requiring no expensive hand-crafted features or external resources, thereby demonstrating its language and domain independence.",
+        "novelty": "We demonstrate this hypothesis for the task of aspect-based sentiment analysis by modeling the interdependencies of sentences in a review with a hierarchical bidirectional LSTM. We show that the hierarchical model outperforms two non-hierarchical baselines, obtains results competitive with the state-of-the-art, and outperforms the state-of-the-art on five multilingual, multi-domain datasets without any handengineered features or external resources. Our model was designed with this goal in mind and is able to extract additional information inherent in the training data."
+    }
 }

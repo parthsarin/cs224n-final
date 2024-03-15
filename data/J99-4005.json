@@ -19,5 +19,8 @@
     "numcitedby": 331,
     "year": 1999,
     "month": "",
-    "title": "Decoding complexity in word-replacement translation models"
+    "title": "Decoding complexity in word-replacement translation models",
+    "values": {
+        "novelty": "Statistical machine translation is a relatively new approach to the long-standing problem of translating human languages by computer We show that for the simplest form of statistical models, this problem is NP-complete, i.e., probably exponential in the length of the observed sentence We trace this complexity to factors not present in other decoding problems These are important departures from the two applications discussed earlier The former is more closely tied to the source model, and the latter to the channel model, though the complexity arises from the interaction of the two It is also possible to devise approximation algorithms like those devised for other NP-complete problems For example, some researchers avoid bag generation by preprocessing bilingual texts to remove word-order differences, while others adopt channels that eliminate syntactically unlikely alignments Finally, expensive decoding also suggests expensive training from unannotated (monolingual) texts, which presents a challenging bottleneck for extending statistical machine translation to language pairs and domains where large bilingual corpora do not exist"
+    }
 }

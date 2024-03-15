@@ -20,5 +20,9 @@
     "numcitedby": 0,
     "year": 2016,
     "month": "May",
-    "title": "Cross-lingual {RDF} Thesauri Interlinking"
+    "title": "Cross-lingual {RDF} Thesauri Interlinking",
+    "values": {
+        "building on past work": "   The main aspects in which our present work is different from the previous one are: b. Cleaning documents using Data preprocessing techniques such as tokenization, stop-word removal, etc.",
+        "performance": "We conduct two experiments involving different thesauri in different languages. The first experiment involves concepts from the TheSoz multilingual thesaurus in three languages: English, French and German. The second experiment involves concepts from the EuroVoc and AGROVOC thesauri in English and Chinese respectively. Our results demonstrate that machine translation can be beneficial for cross-lingual thesauri interlinking independently of a dataset structure. The best F-measure of 0.91 was found at Level 3 which is an improvement of 26 percentage points compared to Level 1. The best F-measures of 0.81 and 0.80 at Level 1 were obtained by both link extraction algorithms 13 . The results at Level 3 dropped significantly (by 20 percentage points) for both algorithms."
+    }
 }

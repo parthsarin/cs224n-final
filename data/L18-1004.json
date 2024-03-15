@@ -22,5 +22,10 @@
     "numcitedby": 59,
     "year": 2018,
     "month": "May",
-    "title": "{ESCAPE}: a Large-scale Synthetic Corpus for Automatic Post-Editing"
+    "title": "{ESCAPE}: a Large-scale Synthetic Corpus for Automatic Post-Editing",
+    "values": {
+        "building on past work": "The training of APE systems usually relies on data sets comprising (source, MT, human post-edit) triplets, in which the source sentence in a given language has been automatically translated to produce the MT element that, in turn, has been manually corrected to produce the human post-edit. Unsurprisingly, the impressive gains achieved by the neu-ral solutions come at the cost of a much higher data demand compared to the PBMT methods.",
+        "novelty": "Our preliminary experiments on mixed-domain data confirm this expectation: though trained on artificially-created instances, APE models significantly outperform baseline results in both language directions, independently from the MT technology underlying the data generation process. The work reported in this paper is the initial step of a more ambitious roadmap aimed to extend the resource with more data covering a larger spectrum of domains and language combinations.",
+        "performance": " The observed gains vary for the two language pairs (with highest results on En-It) and depending on the type of data used.  APE systems outperform the baselines in both language settings with statistically significant gains.  Differently from the most recent shared evaluation settings (i.e.  a system that leaves all the raw MT output unmodified).  The BLEU score improvements also confirm the findings of (Oflazer and El-Kahlout, 2007; B\u00e9chara et al., 2011; Rubino et al., 2012) and extend them to neural APE."
+    }
 }

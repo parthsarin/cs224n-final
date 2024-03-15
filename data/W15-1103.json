@@ -16,5 +16,8 @@
     "numcitedby": 5,
     "year": 2015,
     "month": "June",
-    "title": "Audience size and contextual effects on information density in {T}witter conversations"
+    "title": "Audience size and contextual effects on information density in {T}witter conversations",
+    "values": {
+        "building on past work": "We consider conversational messages, using a large corpus of tweets, and look for UID behavior. We do not find evidence of UID behavior, and even find context effects that are opposite that of previous, monologue-based research. We propose that a more collaborative conception of information density and careful consideration of channel noise may be needed in the informationtheoretic framework for conversation. Contrary to previous UID findings, we do not see a clear increase in apparent entropy estimates due to more extensive common ground, as had been found in previous non-conversational work (Genzel and Charniak, 2002; Qian and Jaeger, 2012; Doyle and Frank, 2015) . Previous work supports the UID hypothesis that rational communicators adjust their messages so as to spread information as uniformly as possible in response to local context (Aylett and Turk, 2004; Levy and Jaeger, 2007) , as well as to discourse-level context in monologic writing (Genzel and Charniak, 2002; Qian and Jaeger, 2012)"
+    }
 }

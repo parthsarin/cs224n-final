@@ -16,5 +16,8 @@
     "numcitedby": 28,
     "year": 2011,
     "month": "",
-    "title": "Extracting Contextual Evaluativity"
+    "title": "Extracting Contextual Evaluativity",
+    "values": {
+        "performance": "The resulting system has an F-score of 0.90 on our dataset, outperforming reasonable baselines, and indicating the viability of inferencing in the evaluative domain. Our system (SYS) classifies objects in context as follows: If the functor verb is a preserver, the target NP is assigned the same polarity as the input event polarity. If the functor verb is a reverser, the target NP is assigned the opposite of the input event polarity. This procedure is modulated by the presence of negation, as detected by a neg relation in the dependency parse. Under negation, a preserver acts like a reverser, and vice versa. Table 3 shows the performance (precision vs. recall) of our system compared to the three baselines. Its precision is significantly higher, but its F-score is limited by the lower coverage of our manually constructed lexicon. SYS+Maj simply assigns these out-of-vocabulary verbs to the majority class: preservers. SYS+Sim classifies out-of-vocabulary verbs as preservers or reversers based on their relative similarity to the known preservers and reversers selected from FrameNet -an unknown verb is categorized as a preserver if its average similarity to preservers is greater than its average similarity to reversers. These two systems outperform all baselines, but have indistinguishable F-scores (if misspellings are excluded, SYS+Sim has a Recall of 0.99 and F-score of 0.91)."
+    }
 }

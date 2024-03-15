@@ -16,5 +16,10 @@
     "numcitedby": 7,
     "year": 2017,
     "month": "August",
-    "title": "{MACA}: A Modular Architecture for Conversational Agents"
+    "title": "{MACA}: A Modular Architecture for Conversational Agents",
+    "values": {
+        "building on past work": "We hope that this will facilitate the fast development of new models, but also foster reproducibility in dialogue system research. The modular design enables rapid prototyping and should facilitate reproducing previous results.",
+        "ease of implementation": "We propose a software architecture designed to ease the implementation of dialogue systems. The Modular Architecture for Conversational Agents (MACA) uses a plug-n-play style that allows quick prototyping, thereby facilitating the development of new techniques and the reproduction of previous work. MACA provides tools to host dialogue agents on Amazon Mechanical Turk (mTurk) for data collection and allows processing of other sources of training data. The current version of the framework already incorporates several domains and existing dialogue strategies from the recent literature. MACA offers a unified architecture for dialogue agents that supports the plug-n-play of different types of dialogue agents and different domains. We hope that this will facilitate the fast development of new models, but also foster reproducibility in dialogue system research.",
+        "reproducibility": "We hope that this will facilitate the fast development of new models, but also foster reproducibility in dialogue system research. A few possible limitations in the current implementation of MACA include simplicity of the pubsub system, lack of support for distributed hosting of different components of the architecture, and lack of support for parallel conversations."
+    }
 }

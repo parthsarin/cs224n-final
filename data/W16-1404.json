@@ -18,5 +18,8 @@
     "numcitedby": 3,
     "year": 2016,
     "month": "June",
-    "title": "Network Motifs May Improve Quality Assessment of Text Documents"
+    "title": "Network Motifs May Improve Quality Assessment of Text Documents",
+    "values": {
+        "performance": "The bare length of an article is a surprisingly good predictor for whether or not an article is featured. So, for the second research question, we will combine the article length with our motif analysis. Methodological contribution The revision history of a Wikipedia article allows us to analyze the development of the induced network and its motif signature over time. So, for each article we analyzed a series of \"snapshots\" and the temporal tendency of the motif signature. Stand-alone We evaluate the predictive power of our motifs with experiments that use only 3-node motifs, only 4-node motifs or both. Used Features Accuracy Table 2 shows the results with 100 minimum instances per leaf (up from 2), which reduces the model size and the overfitting effects. Lower bound and baseline accuracy are the same as in the first setup, at 0.93 and 0.95, respectively. In this setup, using only 3-node motifs yields an accuracy of 0.943. 4-node motifs alone or in conjunction with 3node motifs do not outperform the word count base-"
+    }
 }

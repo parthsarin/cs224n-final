@@ -18,5 +18,8 @@
     "numcitedby": 4,
     "year": 2014,
     "month": "April",
-    "title": "A System for Building {F}rame{N}et-like Corpus for the Biomedical Domain"
+    "title": "A System for Building {F}rame{N}et-like Corpus for the Biomedical Domain",
+    "values": {
+        "building on past work": "In our previous work, we proposed a method for building FramenNet-like corpus for the area using domain knowledge provided by ontologies. In this paper, we present a framework for supporting the method and the system which we developed based on the framework. The projects, such as PASBio (Wattarujeekrit et al., 2004) , BioProp (Tsai et al., 2006) and BioFrameNet (Dolbey et al., 2006) , have made efforts on building resources for training SRL systems in the biomedical domain."
+    }
 }

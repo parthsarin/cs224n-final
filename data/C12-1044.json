@@ -18,5 +18,9 @@
     "numcitedby": 44,
     "year": 2012,
     "month": "December",
-    "title": "A Corpus-Based Study of Edit Categories in Featured and Non-Featured {W}ikipedia Articles"
+    "title": "A Corpus-Based Study of Edit Categories in Featured and Non-Featured {W}ikipedia Articles",
+    "values": {
+        "building on past work": "Our contribution in this study is three-fold. This addresses the proposal of Ferschke et al. (2012a) to investigate on the classification of textual revisions. The goal is to facilitate data extraction for NLP applications building upon revision history data. To the best of our knowledge, such a corpus is not available yet. Third, based on the annotations in our corpus, we analyze differences in the collaborative writing process of featured and non-featured articles.",
+        "novelty": "Our contribution in this study is three-fold. This addresses the proposal of Ferschke et al. (2012a) to investigate on the classification of textual revisions. The goal is to facilitate data extraction for NLP applications building upon revision history data. Second, we compile and annotate a corpus tailored towards a qualitative analysis of Wikipedia revisions and based on a set of edits and release it for free access to the research community. To the best of our knowledge, such a corpus is not available yet. Third, based on the annotations in our corpus, we analyze differences in the collaborative writing process of featured and non-featured articles. Featured articles are promoted as such after an internal reviewing process which confirms the required quality standards in Wikipedia (cf. Section 3.2). Although it was not possible to identify a relationship between a certain type of collaboration and article quality in terms of featured and non-featured articles, we show that the collaborative behavior among authors significantly changes once an article is awarded featured status."
+    }
 }

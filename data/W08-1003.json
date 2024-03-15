@@ -20,5 +20,9 @@
     "numcitedby": 3,
     "year": 2008,
     "month": "June",
-    "title": "Part-of-Speech Tagging with a Symbolic Full Parser: Using the {TIGER} Treebank to Evaluate Fips"
+    "title": "Part-of-Speech Tagging with a Symbolic Full Parser: Using the {TIGER} Treebank to Evaluate Fips",
+    "values": {
+        "building on past work": "The parser is based on an adaption of generative linguistics, borrowing concepts from the Minimalist model (Chomsky, 1995) , from the Simpler Syntax model (Culicover and Jackendoff, 2005) , as well as from Lexical Functional Grammar (Bresnan, 2001) . Fips has been developed independently of the TIGER treebank. Therefore, a large part of this paper deals with problems arising from mismatches between the design decisions made for Fips and the annotation guidelines of TIGER. In our view, a detailed discussion of these mismatches is essential for a fair assessment of the performances of Fips, but may also be interesting for future research involving evaluation.",
+        "performance": "In our view, a detailed discussion of these mismatches is essential for a fair assessment of the performances of Fips, but may also be interesting for future research involving evaluation. This is a very promising beginning, and the discussion of the errors has shown that there are many \"low hanging fruits\" to improve the performance. Finally, the quantitative evaluation of the POS tagging performances yields important feedback on the forces and weaknesses of Fips. The result of the evaluation can be viewed as a sort of priority list for the developer. By working on the most common errors in a target-oriented way, (s)he is guaranteed to invest his/her time in a maximally effective manner."
+    }
 }

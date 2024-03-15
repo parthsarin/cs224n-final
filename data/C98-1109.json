@@ -18,5 +18,8 @@
     "numcitedby": 0,
     "year": 1998,
     "month": "",
-    "title": "A Flexible Example-Based Parser Based on the {SSTC}"
+    "title": "A Flexible Example-Based Parser Based on the {SSTC}",
+    "values": {
+        "novelty": "Our approach is an example-based approach, which relies mainly on examples that already parsed to their representation structure, and on the knowledge that we can get from these examples the required it~brmation to parse a new input sentence. In our approach, examples are annotated with the Structured String Tree Correspondence (SSTC) annotation schema where each SSTC describes a sentence, a representation tree as well as the correspondence between substrings in the sentence attd subtrees in the representation tree. In the process of patwing, we first try to build subtrees for phrases in the input sentence which have been successfully found in the example-base -a bottom up approach. These subtrees will then be combined together to form a single rooted representation tree based on an example with similar representation structure -a top down approach."
+    }
 }

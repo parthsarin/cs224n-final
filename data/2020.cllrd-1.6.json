@@ -21,5 +21,9 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "May",
-    "title": "The {INCOMSLAV} Platform: Experimental Website with Integrated Methods for Measuring Linguistic Distances and Asymmetries in Receptive Multilingualism"
+    "title": "The {INCOMSLAV} Platform: Experimental Website with Integrated Methods for Measuring Linguistic Distances and Asymmetries in Receptive Multilingualism",
+    "values": {
+        "novelty": " Through a website which serves as a platform for online testing, a large number of participants with different linguistic backgrounds can be targeted.  A statistical language model is used to measure information density and to gauge how language users master various degrees of (un)intelligibilty.  We present our methods for measuring linguistic distances and asymmetries between related languages. ",
+        "performance": "The participants have the opportunity to see their performance in different challenges in a visualization of their achievements on a timeline showing the individual completed experiments. According to our experimental results, the frequency of cognates is not a reliable predictor for Russian readers. We found that surprisal had a significant correlation with target words that were non-cognates or false friends (there were 65.1% cognates, 11.4% non-cognates, and 23.5% false friends). During the disambiguation of these, readers did rely on context rather than on word similarity (ibid.). The experimental results show in particular that among the East Slavic languages UK is more understandable to Russian readers than BE. The average comprehensibility values for UK and BE stimuli are relatively highalmost 86% and 73% respectively."
+    }
 }

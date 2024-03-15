@@ -18,5 +18,8 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "{SATL}ab at {S}em{E}val-2022 Task 4: Trying to Detect Patronizing and Condescending Language with only Character and Word N-grams"
+    "title": "{SATL}ab at {S}em{E}val-2022 Task 4: Trying to Detect Patronizing and Condescending Language with only Character and Word N-grams",
+    "values": {
+        "performance": "It obtained an average level of performance, well above the performance of a system that tries to guess without using any knowledge about the task, but much lower than the best teams. It ranked in the middle of the participants at best, very far from the challenge winners. The differences between the two submissions for the two tasks are however very small, less than 0.005. This suggests that the optimization did not produce an overfit. The comparison of the system's performance to that of the best team for the seven categories (Table 4) shows that for none of the categories does the system manage to come close to this benchmark. SATLab's performance is five times better than this baseline for Task 2, but less than three times better for Task 1. So the n-grams bring some information, but it is obvious that it is not enough to perform well in this task. The best system for task 1 achieved a corrected F1 slightly below 0.60. It thus performed 60 % of the way between doing nothing (i.e., the Best Guess) and a perfect performance. For task 2, all the corrected performances are even worse."
+    }
 }

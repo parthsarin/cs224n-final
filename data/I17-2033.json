@@ -18,5 +18,10 @@
     "numcitedby": 17,
     "year": 2017,
     "month": "November",
-    "title": "Automatic Text Summarization Using Reinforcement Learning with Embedding Features"
+    "title": "Automatic Text Summarization Using Reinforcement Learning with Embedding Features",
+    "values": {
+        "building on past work": "As far as we know, Ryang and Abekawa (2012) have so far been the first ones who applied RL to the text summarization. The authors regard the extractive summarization task as a search problem. Rioux et al. (2014) extended this approach by using TD. Hen\u00df and Mieskes (2015) introduced Q-learning to text summarization. They suggest RL-based features that describe a sentence in the context of the previously selected sentences and how adding this sentence changes hypothetical summary. Our work extends previous work using DQN based algorithm and embedding features.",
+        "novelty": " Content embeddings vector and position embeddings vector are only features that our system adopts.  Second, we propose a novel deep learning network for estimating Q-values used in RL. This network is devised to consider the relevance of a candidate sentence for an entire document as well as the naturalness of a generated summary.",
+        "performance": "Evaluation results show that our model is competitive with the previous models. Our method outperforms the previous studies (TextRank (Mihalcea and Tarau, 2005) , L2R (Hen\u00df et al, 2015) , Regression (Hen\u00df et al, 2015) , RL-full (Hen\u00df et al, 2015) ) on ACL-ARC and WIKI data but achieves lower performance than the previous studies on DUCs. However, the differences of ROUGE scores between the models are relatively small. These experimental results show that our model is competitive with the previous models. Evaluation results show that our model is promising for text summarization even though it uses only simple features."
+    }
 }

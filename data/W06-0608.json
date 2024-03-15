@@ -20,5 +20,9 @@
     "numcitedby": 10,
     "year": 2006,
     "month": "July",
-    "title": "The Hinoki Sensebank {---} A Large-Scale Word Sense Tagged Corpus of {J}apanese {---}"
+    "title": "The Hinoki Sensebank {---} A Large-Scale Word Sense Tagged Corpus of {J}apanese {---}",
+    "values": {
+        "building on past work": "We have built a Japanese corpus of over three million words with both lexical and structural semantic information.",
+        "performance": "Table 4 shows statistics about the annotation results. The average numbers of word senses in the newspapers are lower than the ones in the dictionary and, therefore, the token agreement of the newspapers is higher than those of the dictionary sentences. %Unanimous indicates the ratio of tokens vs types for which all annotators (normally five) choose the same sense. This was an unexpected result. Even though the average polysemy is high, there are still many highly familiar words with very good agreement. Table 6 shows the agreement according to part of speech. Nouns and verbal nouns (vn) have the highest agreements, similar to the results for the English all-words task at SENSEVAL-3 (Snyder and Palmer, 2004) . In contrast, adjectives have as low agreement as verbs, although the agreement of adjectives was the highest and that of verbs was the lowest in English. This partly reflects differences in the part of speech divisions between Japanese and English. Adjectives in Japanese are much close in behaviour to verbs (e.g. they can head sentences) and includes many words that are translated as verbs in English. As is expected, the overall agreement increased, from 0.787 to 0.829 using the ontology, and to 0.835 using the coarse-grained Goi-Taikei semantic classes. For many applications, we expect that this level of disambiguation is all that is required."
+    }
 }

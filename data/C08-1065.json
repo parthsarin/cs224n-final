@@ -19,5 +19,9 @@
     "numcitedby": 166,
     "year": 2008,
     "month": "August",
-    "title": "Authorship Attribution and Verification with Many Authors and Limited Data"
+    "title": "Authorship Attribution and Verification with Many Authors and Limited Data",
+    "values": {
+        "novelty": "as a problem of authorship verification.",
+        "reproducibility": "We use the Memory-Based Shallow Parser (MBSP) (Daelemans and van den Bosch, 2005) , which gives an incomplete parse of the input text, to extract reliable syntactic features. We use the \u03c7 2 metric (see Figure 1 ), which calculates the expected and observed frequency for every item in every category, to identify features that are able to discriminate between the categories under investigation. As an implementation of the lazy learning approach we used TiMBL (Tilburg Memory-Based Learner) (Daelemans et al., 2007) , a supervised inductive algorithm for learning classification tasks based on the k-nn algorithm with various extensions for dealing with nominal features and feature relevance weighting. As eager learners, we selected SMO, an implementation of Support-Vector Machines (SVM) using Sequential Minimal Optimization (Platt, 1998) , and Maxent, an implementation of Maximum Entropy learning (Le, 2006) . All experiments for (a), (b) and (c) are performed using 5-fold cross-validation. The feature vectors that are fed into the machine learning algorithm contain the top-n features (n=50) with highest \u03c7 2 value. Every text fragment is split into ten equal parts, each part being represented by means of a feature vector, resulting in 1450 vectors per fold (divided over training and test)."
+    }
 }

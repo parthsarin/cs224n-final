@@ -19,5 +19,9 @@
     "numcitedby": 41,
     "year": 2006,
     "month": "July",
-    "title": "Interactive Question Answering and Constraint Relaxation in Spoken Dialogue Systems"
+    "title": "Interactive Question Answering and Constraint Relaxation in Spoken Dialogue Systems",
+    "values": {
+        "building on past work": "We describe a knowledge manager that provides factual and ontological information, a content optimizer that regulates the amount of information, and a generator that realizes the selected content. The domain data is divided between domain-specific ontologies and a database back-end. We use the system for both restaurant selection and MP3 player tasks, and conducted experiments with 20 subjects. There has been substantial previous work on information presentation in spoken dialogue systems. (Qu and Green, 2002 ) also present a constraint-based approach to cooperative information dialogue. Moreover, we guide the user through the dialogue by making suggestions about query refinements, which serve a similar r\u00f4le to the conditional responses of (Kruijff-Korbayova et al., 2002) . This facilitates variation and alignment with the user utterance. A long-standing strand of research in NLP is in natural language access to databases (Androutsopoulos et al., 1995) . It mainly focused on mapping natural language input to database queries. Our work can be seen as an extension of this work by embedding it into a dialogue system and allowing the user to refine and relax queries, and to engage in clarification dialogs. More recently, work on question answering (QA) is moving toward interactive question answering that gives the user a greater role in the QA process (HLT, forthcoming) . QA systems mostly operate on free text whereas we use a relational database.",
+        "performance": "Task completion in the experiments was high: the subjects met all target constraints in 170 out of 180 tasks, i.e. completion rate was 94.44%."
+    }
 }

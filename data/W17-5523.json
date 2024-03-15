@@ -16,5 +16,11 @@
     "numcitedby": 41,
     "year": 2017,
     "month": "August",
-    "title": "The Role of Conversation Context for Sarcasm Detection in Online Interactions"
+    "title": "The Role of Conversation Context for Sarcasm Detection in Online Interactions",
+    "values": {
+        "building on past work": " Thus, recent work on sarcasm and irony detection have started to exploit contextual information.  Our work show that using better models, such as LSTM networks show a clear benefit of using context for sarcasm detection.",
+        "novelty": " Focusing on social media discussions, we investigate two issues: (1) does modeling of conversation context help in sarcasm detection and (2) can we understand what part of conversation context triggered the sarcastic reply.  To address the first issue, we investigate several types of Long Short-Term Memory (LSTM) networks that can model both the conversation context and the sarcastic response. ",
+        "performance": "The LSTM model with sentence-level attentions on both context and reply (LSTM ca s +LSTM ra s ) gives the best F1 score of 73.7% for the S class. LSTM conditional model shows an improvement of 11% F1 on the S class and 4-5%F1 on the N S class, compared to LSTM r .",
+        "reproducibility": "https://github.com/debanjanghosh/sarcasm"
+    }
 }

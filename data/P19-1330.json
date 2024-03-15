@@ -18,5 +18,9 @@
     "numcitedby": 23,
     "year": 2019,
     "month": "July",
-    "title": "{H}igh{RES}: Highlight-based Reference-less Evaluation of Summarization"
+    "title": "{H}igh{RES}: Highlight-based Reference-less Evaluation of Summarization",
+    "values": {
+        "novelty": " novel approach for manual evaluation  HIGHlight-based Reference-less Evaluation of Summarization (HIGHRES)     highlights can be used for evaluating multiple systems  improves inter-annotator agreement    ",
+        "performance": "The performance difference is lowest when they are evaluated against the reference summary (2.51 and -1.79 Precision and Recall points). The fact that PTGEN is better in terms of HROUGE is also an evidence that the copying done by PT-GEN selects salient content, thus confirming that the copying mechanism works as intended."
+    }
 }

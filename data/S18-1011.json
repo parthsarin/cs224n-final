@@ -18,5 +18,9 @@
     "numcitedby": 17,
     "year": 2018,
     "month": "June",
-    "title": "{S}em{E}val 2018 Task 6: Parsing Time Normalizations"
+    "title": "{S}em{E}val 2018 Task 6: Parsing Time Normalizations",
+    "values": {
+        "novelty": "We have provided a complete annotation for two different domains, newswire and clinical notes, and introduced two different metrics for evaluation. In particular, the interval based evaluation for Track 2 is a novelty for these kind of tasks.",
+        "reproducibility": "The top of Figure 1 shows an example. Each annotation in the example corresponds to a formally defined time entity. For instance, the annotation on top of since corresponds to a BETWEEN entity that identifies an interval starting at the most recent March 6 and ending at the document creation time. Here, the BETWEEN entity finds the interval on the timeline that is between the intervals of its two arguments: the LAST and the DOC-TIME. Formally, this BETWEEN operator is defined as: BETWEEN([t 1 , t 2 ) : INTERVAL, [t 3 , t 4 ) : INTERVAL) : INTERVAL = [t 2 , t 3 ) In the proposed task, systems need only to identify time entities in text and link them correctly to signal how they are to be composed (i.e., systems would only need to produce annotation structures like those at the top of Figure 1 ). The timeline intervals implied by such system output are inferred through a time entity interpreter provided to the participants by the workshop organizers. Every resulting graph, composed of a set of linked time entities, represents a time expression that can be semantically interpreted. For this purpose, we provide a Scala library 2 that reads the graphs in Anafora XML format (Chen and Styler, 2013) and converts them into intervals on the timeline. The evaluation system is also able to obtain the intervals from timestamps in TimeML format. Thus, systems can be evaluated by both methods or just by the interval-based one, depending on the output format. The task includes two evaluation methods, one for the parsing step, i.e."
+    }
 }

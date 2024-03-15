@@ -21,5 +21,10 @@
     "numcitedby": 24,
     "year": 2020,
     "month": "November",
-    "title": "Alleviating Digitization Errors in Named Entity Recognition for Historical Documents"
+    "title": "Alleviating Digitization Errors in Named Entity Recognition for Historical Documents",
+    "values": {
+        "building on past work": "(2016) presented a CRF-based model with handcrafted features for Latin historical texts and motivated the choice of Part-of-Speech (POS) tagger by the fact that this NLP tool leverages the highly informative morphological complexity of Latin.",
+        "novelty": "Our findings show that the proposed model clearly improves the results on both historical datasets, and does not degrade the results for modern datasets.",
+        "performance": "Comparing with the baseline models, the BERT+n\u00d7Transf only achieves a 20 percentage points difference between precision and recall, while the baseline suffers from 40 points difference. While the F1 value has a very small margin difference from the (Devlin et al., 2019) , the performance results for the BERT+n\u00d7Transf slightly increased for both proposed models. For NEWSEYE German, 8.84% of the total number of words in the vocabulary needed to be fully trained, while only 0.14% were unknown in the HIPE dataset. Following this observation, we notice that there is a large F1 margin between BERT+CRF and BERT+n\u00d7Transf (63.4% in comparison with 73.5% and 72.6%, respectively), a fact that could be motivated by the large percentage of unknown words. For French, the results vary of around 1 \u2212 2 percentage F1 points between the stand-alone BERT and the BERT+n\u00d7Transf models. Analyzing the French predictions for BERT and BERT+n\u00d7Transf, we observed that BERT detects on average 75.04% of the entities of size 1 to 10, with other models performing slightly better. However, for entities with more than 10 tokens, there is clear a difference, since BERT detects 55.54% of the entities, while BERT+1\u00d7Transf detects 57.13%, and BERT+2\u00d7Transf reaches 82.52%. This could mean that BERT learned that overpredicting was a straightforward solution to achieve better results. In the case of BERT+n\u00d7Transf, we can see that the Transformer layers made the models to be more conservative and at the same time more accurate in their predictions."
+    }
 }

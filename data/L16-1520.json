@@ -20,5 +20,8 @@
     "numcitedby": 0,
     "year": 2016,
     "month": "May",
-    "title": "{ALT} Explored: Integrating an Online Dialectometric Tool and an Online Dialect Atlas"
+    "title": "{ALT} Explored: Integrating an Online Dialectometric Tool and an Online Dialect Atlas",
+    "values": {
+        "novelty": "By using a newly created url-based interface to Gabmap, ALT-Web is able to take advantage of the sophisticated dialect visualization and exploration options incorporated in Gabmap. Furthermore, the complete ALT-Web dataset as well as subsets of the data (selected via the ALT-Web website) can be automatically uploaded and explored in Gabmap. This claim will be exemplified with the analysis of dialectal data. In particular, the paper presents the integration of an online dialect atlas together with an online application for dialectometric analyses. Whereas close reading software tools are within reach of traditional scholars of the arts and humanities, this is not typically the case with distant reading tools. In this paper, we demonstrate how a combined view of close and distant reading can open new research perspectives and answer new questions."
+    }
 }

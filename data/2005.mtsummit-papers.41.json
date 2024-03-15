@@ -19,5 +19,8 @@
     "numcitedby": 6,
     "year": 2005,
     "month": "September 13-15",
-    "title": "Boosting Statistical Word Alignment"
+    "title": "Boosting Statistical Word Alignment",
+    "values": {
+        "performance": "For instance, it has been applied to tagging and PP attachment (Abney et al., 1999) , word sense disambiguation (Escudero et al., 2000) , parser construction (Haruno et al., 1998; Henderson and Brill, 2000) , and sentence generation (Walker et al., 2001) . In this paper, we investigate how to improve word alignment with boosting. Although word alignment is not a classification problem, we can still build different word aligners by changing the weights of the training samples. If these aligners perform accurately and diversely on the corpus (Dietterich, 2000) , they can be employed to improve the word alignment results. Experimental results indicate that the boosting method proposed in this paper performs much better than the original word aligner, achieving a large error rate reduction. The remainder of the paper is organized as follows. Section 2 introduces the basic idea of the AdaBoost algorithm. Section 3 describes our boosting method used for word alignment, including reference set construction, error rate calculation, and the alignment algorithm. Section 4 presents the evaluation results. Section 5 discusses the boosting approach proposed in this paper. The last section concludes this paper and presents the future work. For statistical word alignment, large-scale training data is needed to obtain good results. However, the AdaBoost algorithm requires that the training data be annotated manually. This needs heavy manual work. In order to tackle with this problem, we build a pseudo reference set for the training data."
+    }
 }

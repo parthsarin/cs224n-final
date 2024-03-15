@@ -19,5 +19,9 @@
     "numcitedby": 4,
     "year": 2016,
     "month": "May",
-    "title": "{P}alabras: Crowdsourcing Transcriptions of {L}2 Speech"
+    "title": "{P}alabras: Crowdsourcing Transcriptions of {L}2 Speech",
+    "values": {
+        "ease of implementation": "The application had to be easy to use. The task had to be \"fun\" to do. This led to the web application that we called Palabras, the Spanish word for 'words'. Our conditions were met in the following way: The task is very easy: the participant listens to a word that is played (with option to repeat), enters what (s)he hears and the next sound is played. The login procedure is also very easy.",
+        "performance": "The use of crowdsourcing to obtain annotations or scorings of intelligibility or accentedness of non-native speech is not new (Evanini et al., 2010; Cooke et al., 2013; Wang et al., 2013) . In their crowdsourcing experiment (Cooke et al., 2013) had observed that limited feedback could lead to low task engagement. Sometimes they adapted their strategy by transcribing what they thought was meant to be said to get a higher score. This gives a bias towards the canonical transcription."
+    }
 }

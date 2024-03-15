@@ -18,5 +18,10 @@
     "numcitedby": 7,
     "year": 2019,
     "month": "July",
-    "title": "{MC}{\\^{}}2: Multi-perspective Convolutional Cube for Conversational Machine Reading Comprehension"
+    "title": "{MC}{\\^{}}2: Multi-perspective Convolutional Cube for Conversational Machine Reading Comprehension",
+    "values": {
+        "building on past work": "Our model achieves significant improvement over these published models. Comparing with the previous state-of-the-art model, SDNet, our model outperforms it by 3.2% on F1 score.",
+        "novelty": "Besides, replacing 2D CNN (Perspective III-1) with 1D CNN (Perspective II) also causes a significant decline of performance (0.79% on F1 score). We also explore 3D CNN (Perspective III-2), but it brings no improvement as expected.",
+        "performance": "Experiments on the Conversational Question Answering (CoQA) dataset show that our model achieves state-of-the-art results. Our model achieves significant improvement over these published models. Comparing with the previous state-of-the-art model, SDNet, our model outperforms it by 3.2% on F1 score. Although all mod-els perform worse on out-of-domain datasets compared to in-domain datasets, our model only drops 3.8% on F1 score. It is the smallest drop between in-domain and out-of-domain among all models, which proves that our model has very good generalization ability. And it outperforms all baseline models only after 5 epochs and achieves the best performance after 18 epochs. Especially, our model achieves 72.472% on F1 score only after the first epoch, which is about 10% to 20% higher than SDNet. Thus with fewer training epochs, our model still can perform well."
+    }
 }

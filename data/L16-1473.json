@@ -19,5 +19,8 @@
     "numcitedby": 4,
     "year": 2016,
     "month": "May",
-    "title": "Can Tweets Predict {TV} Ratings?"
+    "title": "Can Tweets Predict {TV} Ratings?",
+    "values": {
+        "performance": "Overall we find a strong correlation of 0.82; the correlation remains strong, 0.79, if tweets are counted a half hour before broadcast time. However, the two most popular TV shows account for most of the positive effect; if we leave out the single and second most popular TV shows, the correlation drops to being moderate to weak. Thus the ratings of a programme are predictable from the ratings of the previous episode to a high degree. The most popular shows stand out with the most tweets as well as the highest ratings, leading to a high correlation for the 11 most popular programmes overall. The larger shows bias this result, since for the other programmes a higher number of tweets does not always go together with higher ratings."
+    }
 }

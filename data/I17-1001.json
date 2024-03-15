@@ -19,5 +19,9 @@
     "numcitedby": 124,
     "year": 2017,
     "month": "November",
-    "title": "Evaluating Layers of Representation in Neural Machine Translation on Part-of-Speech and Semantic Tagging Tasks"
+    "title": "Evaluating Layers of Representation in Neural Machine Translation on Part-of-Speech and Semantic Tagging Tasks",
+    "values": {
+        "building on past work": " Methodologically, our work is most similar to Shi et al. (2016) and Belinkov et al. (2017) , who also used hidden vectors from neural MT models to predict linguistic properties. However, they focused on relatively low-level tasks (syntax and morphology, respectively), while we apply the approach to a semantic task and compare the results with a POS tagging task.  Our methodology is reminiscent of the approach taken by P\u00e9rez-Ortiz and Forcada (2001) , who trained a recurrent neural network POS tagger in two steps. However, their goal was to improve POS tagging while we use it as a task to evaluate neural MT models.",
+        "performance": "Consistent with previous work, we find that lower layer representations are usually better for POS tagging. However, we also find that representations from higher layers are better at capturing semantics, even though these are word-level labels. This is especially true with tags that are more semantic in nature such as discourse functions or noun concepts. In contrast to previous work, we observe little effect of the target language on source-side representation. We find that the effect of target language diminishes as the size of data used to train the NMT model increases. Comparing POS and SEM tagging (Table 5 ), we note that higher layer representations improve SEM tagging, while POS tagging peaks at layer 1, in line with our previous observations. We also observe similar trends as before: POS tagging does not benefit from features from the upper layers, while SEM tagging improves with layer 4 representations."
+    }
 }

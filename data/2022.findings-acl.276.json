@@ -17,5 +17,10 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "May",
-    "title": "{MERI}t: {M}eta-{P}ath {G}uided {C}ontrastive {L}earning for {L}ogical {R}easoning"
+    "title": "{MERI}t: {M}eta-{P}ath {G}uided {C}ontrastive {L}earning for {L}ogical {R}easoning",
+    "values": {
+        "building on past work": "Previous studies either employ graph-based models to incorporate prior knowledge about logical relations, or introduce symbolic logic into neural models through data augmentation. These methods, however, heavily depend on annotated training data, and thus suffer from overfitting and poor generalization problems due to the dataset sparsity. To address these two problems, in this paper, we propose MERIt, a MEta-path guided contrastive learning method for logical ReasonIng of text, to perform selfsupervised pre-training on abundant unlabeled text data. Two novel strategies serve as indispensable components of our method. In particular, a strategy based on meta-path is devised to discover the logical structure in natural texts, followed by a counterfactual data augmentation strategy to eliminate the information shortcut induced by pre-training. We successfully employ the meta-path strategy to mine the potential logical structure in raw text. It is able to automatically generate negative candidates for contrastive learning via logical relation editing. We propose a simple yet effective counterfactual data augmentation method to eliminate the information shortcut during pre-training.",
+        "ease of implementation": " We employed the model implementation of Transformer from Huggingface (Wolf et al., 2020) and pytorch 5 framework.  During pre-training, we adopted the LAMB (You et al., 2020) optimizer, warming up the learning rate to the peak and then linearly decaying it.  It takes 32 hours on 4 RTX 2080Ti GPUs for RoBERTa pre-training and 3 days on 2 TeslaT4 GPUs for ALBERT pre-training. ",
+        "reproducibility": " The knowledge graph we used for constructing training data is provided by Qin et al.   We also report the best result on the test set on LogiQA and ReClor for fair comparison with the published results of LReasoner. "
+    }
 }

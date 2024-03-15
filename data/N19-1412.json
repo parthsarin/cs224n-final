@@ -18,5 +18,9 @@
     "numcitedby": 8,
     "year": 2019,
     "month": "June",
-    "title": "Benchmarking Hierarchical Script Knowledge"
+    "title": "Benchmarking Hierarchical Script Knowledge",
+    "values": {
+        "novelty": "In total we collected over 10K action sequences (\u223c400K tokens). The average caption is approximately 4x longer than a YouCook caption. Most importantly 1,536 lemmas and 2,316 lexical types from KIDSCOOK's vocabulary do not appear in any of the original captions. This indicates that there are over 1,500 new concepts, tools, and procedures that were assumed by YouCookII but are now explicit in KIDSCOOK.",
+        "performance": " "
+    }
 }

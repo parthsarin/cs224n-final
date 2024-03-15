@@ -16,5 +16,9 @@
     "numcitedby": 1,
     "year": 2021,
     "month": "August",
-    "title": "Towards Navigation by Reasoning over Spatial Configurations"
+    "title": "Towards Navigation by Reasoning over Spatial Configurations",
+    "values": {
+        "novelty": " We propose a neural agent that uses the elements of spatial configurations and investigate their influence on the navigation agent's reasoning ability.  Our neural agent improves strong baselines on the seen environments and shows competitive performance on the unseen environments.  Additionally, the experimental results demonstrate that explicit modeling of spatial semantic elements in the instructions can improve the grounding and spatial reasoning of the model.",
+        "performance": "Our model improves the performance in the seen environment and obtains com-petitive results in the unseen environment. We analyze the errors in Section 5.2. In the unseen environment, training with T1, SpC-NAV outperforms Self-monitor (and is even comparable to it with data augmentation) and performs similarly as Sub-Instruction. However, training with T2, our model does not outperform Environment Dropout and Sub-Instruction in unseen environments."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 4,
     "year": 2019,
     "month": "June",
-    "title": "Neural {C}hinese Address Parsing"
+    "title": "Neural {C}hinese Address Parsing",
+    "values": {
+        "building on past work": "Our model is motivated by the latter approaches, where we additionally introduce latent variables for capturing complex dependencies among chunks. We conduct extensive experiments and compare our approach with strong baselines through detailed analysis. We show that our proposed model outperforms baseline approaches significantly, due to its ability in capturing rich structural information present in the Chinese addresses.",
+        "novelty": " We investigate neural structured prediction models with latent variables to capture such rich structural information within Chinese addresses.  Our main contributions in this work can be summarized as follows: \u2022 We create and publicly release a new corpus consisting of 15K Chinese address entries fully annotated with chunk boundaries and address labels.  We introduce a novel neural approach to Chinese address parsing with latent variables to flexibly capture both prior ordering information and rich dependencies among labels.",
+        "performance": " Through extensive experiments, we demonstrate the effectiveness of our approach. The experimental results show that our approach outperforms several baselines significantly.  As the length increases, the performance of all models drop gradually. For chunks whose lengths are at least 8, the F 1 score is around 60-63 for all models.  Considering chunks whose lengths are either 2, 3, or 4 only (such chunks constitute over 80% of total chunks), we can observe that APLT (sp=7) outperforms two baselines significantly by more than 1 point for each category."
+    }
 }

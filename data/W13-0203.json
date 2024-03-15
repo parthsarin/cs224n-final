@@ -18,5 +18,8 @@
     "numcitedby": 4,
     "year": 2013,
     "month": "March",
-    "title": "Scope Disambiguation as a Tagging Task"
+    "title": "Scope Disambiguation as a Tagging Task",
+    "values": {
+        "ease of implementation": "It is also a straightforward extension to an existing semantic parsing system given an annotation of the input text with a layer of scope tags. Nevertheless, our approach is empirically successful at accounting for 96% of all cases in some of the most common syntactic configurations giving rise to scope ambiguities involving universal quantifiers, namely modification of NPs and VPs by preposition phrases."
+    }
 }

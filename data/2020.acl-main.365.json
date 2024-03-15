@@ -18,5 +18,8 @@
     "numcitedby": 82,
     "year": 2020,
     "month": "July",
-    "title": "Analysing Lexical Semantic Change with Contextualised Word Representations"
+    "title": "Analysing Lexical Semantic Change with Contextualised Word Representations",
+    "values": {
+        "performance": "We show that both the model representations and the detected semantic shifts are positively correlated with human intuitions. Our extensive qualitative analysis demonstrates that our method captures a variety of synchronic and diachronic linguistic phenomena. Overall, our study demonstrates the potential of using contextualised word representations for modelling and analysing lexical semantic change and opens the door to further work in this direction."
+    }
 }

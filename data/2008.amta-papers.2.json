@@ -20,5 +20,9 @@
     "numcitedby": 7,
     "year": 2008,
     "month": "October 21-25",
-    "title": "Exploiting Document-Level Context for Data-Driven Machine Translation"
+    "title": "Exploiting Document-Level Context for Data-Driven Machine Translation",
+    "values": {
+        "ease of implementation": "The method is simple to implement, efficient (increases the translation time of an example-based system by only a few percent), and robust (still works even when the actual document boundaries in the input text are not known). The basic idea behind exploiting document-level context is to most heavily weight examples retrieved from training documents which are most similar to the input document. Thus, in the first pass over the input document, corpus matches are found by consulting the corpus index just as they are during normal translation, but the matches are not actually retrieved. In addition to simplicity of implementation (due to the re-use of existing mechanisms), the n-gram match similarity score has the additional advantage that it does not require additional storage as would term vectors for cosine similarity, message hashes, or alternative representations such as [8th AMTA conference, Hawaii, 21-25 October 2008]",
+        "performance": "Experiments on French-English and Arabic-English showed relative gains over the same system without using document-level similarity of up to 7.4% and 5.4%, respectively, on the BLEU metric. For each data set, the tables show the NIST and BLEU scores of the baseline system (no document boundaries in the input text), the enhanced system with arbitrary uniformly-spaced document boundaries, and  if appropriate the enhanced system with true document boundaries for the input text. The difference between the baseline and truedocument case is statistically significant for MT04, as is the difference between baseline and arbitrary 8-sentence boundaries."
+    }
 }

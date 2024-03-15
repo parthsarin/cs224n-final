@@ -18,5 +18,10 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "Unifying Parsing and Tree-Structured Models for Generating Sentence Semantic Representations"
+    "title": "Unifying Parsing and Tree-Structured Models for Generating Sentence Semantic Representations",
+    "values": {
+        "building on past work": "We introduce a novel tree-based model that learns its composition function together with its structure. Our model is capable of supporting multiple parser architectures. We exploit this property to conduct an ablation study by comparing different parser initializations. We explore to which extent the trees produced by our model compare with linguistic structures and how this initialization impacts downstream performance.",
+        "novelty": "We introduce a novel tree-based model that learns its composition function together with its structure. The architecture produces sentence embeddings by composing words according to an induced syntactic tree. The parsing and the composition functions are explicitly connected and, therefore, learned jointly. As a result, the sentence embedding is computed according to an interpretable linguistic pattern and may be used on any downstream task. We evaluate our encoder on downstream tasks, and we observe that it outperforms tree-based models relying on external parsers. In some configurations, it is even competitive with BERT base model. Our model is capable of supporting multiple parser architectures. We exploit this property to conduct an ablation study by comparing different parser initializations.",
+        "performance": "We evaluate our model on textual entailment and semantic similarity tasks and outperform sequential models and tree-structured models relying on external parsers. Moreover, when initialized on human-annotated structures, our model improves inference close to BERT base performance on the semantic similarity task. As BERT is fine-tuned, structures tend to become more standard and present slightly more similarities with linguistic patterns."
+    }
 }

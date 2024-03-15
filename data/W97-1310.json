@@ -20,5 +20,8 @@
     "numcitedby": 20,
     "year": 1997,
     "month": "",
-    "title": "Corpus annotation and reference resolution"
+    "title": "Corpus annotation and reference resolution",
+    "values": {
+        "performance": "The data in itself is quite remarkable, and shows a variety of points clearly. First, the preoccupation with intra-sentential anaphora in generative linguistics is shown to be unhealthy. Most anaphors in the data sample are inter-sentential. Any anaphor resolution system which dwells upon intrasentential anaphora at the expense of intersentential anaphora is doomed to failure. In practical terms, if you accepted that you were prepared to limit your search for an antecedent five sentences distant from an anaphor, then although you would be placing an upper limit on the accuracy of your algorithm of 94.92%, you would be receiving a bonus, in a reduction of some 75% of the potential relevant search space. If we assume that with an increased search space accuracy declines, then quantitatively motivated limitations such as that suggested may boost the success rate of a knowledge intensive system which suffers from declining accuracy and speed with an open ended search space. Third, the majority of anaphors are either intersentential, or occur in the previous sentence. Admittedly, this observation only covers around 75% of cases, but nonetheless, it is indicative of the type of probabilistic information that may be incorporated into search algorithms to aid with selection of an antecedent -if there is no case to choose on rational grounds between an antecedent five sentences away and one in the previous sentence, the one in the previous sentence is fundamentally more likely to be the right one."
+    }
 }

@@ -20,5 +20,8 @@
     "numcitedby": 1,
     "year": 2018,
     "month": "May",
-    "title": "Building a Macro {C}hinese {D}iscourse {T}reebank"
+    "title": "Building a Macro {C}hinese {D}iscourse {T}reebank",
+    "values": {
+        "novelty": "On this basis, a macro Chinese discourse structure treebank is annotated, consisting of 147 Newswire articles. Preliminary experimental results show that the representation schema and corpus resource constructed in this paper can lay the foundation for further analysis of macro discourse structure."
+    }
 }

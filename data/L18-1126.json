@@ -20,5 +20,9 @@
     "numcitedby": 2,
     "year": 2018,
     "month": "May",
-    "title": "From analysis to modeling of engagement as sequences of multimodal behaviors"
+    "title": "From analysis to modeling of engagement as sequences of multimodal behaviors",
+    "values": {
+        "building on past work": "In this paper, we presented a sequence-mining based approach toward engagement modeling from a corpus of expert-novice interactions. Sequence mining allowed us to extract relevant patterns associated to five engagement levels.  While a part of our results perfectly supports previous works, some of our findings are complementary to the current state-of-the-art. This demonstrates that temporal characteristics, like starting time and duration of behaviors, are essential to studying engagement. ",
+        "novelty": "The novelty of this study is to consider explicitly engagement as sequence of multimodal behaviors."
+    }
 }

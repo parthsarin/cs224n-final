@@ -16,5 +16,8 @@
     "numcitedby": 43,
     "year": 1999,
     "month": "",
-    "title": "{POS} Tags and Decision Trees for Language Modeling"
+    "title": "{POS} Tags and Decision Trees for Language Modeling",
+    "values": {
+        "novelty": " To use POS tags effectively, we use clustering and decision tree algorithms, which allow generalizations between POS tags and words to be effectively used in estimating the probability distributions.  "
+    }
 }

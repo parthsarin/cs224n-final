@@ -18,5 +18,9 @@
     "numcitedby": 4,
     "year": 2017,
     "month": "September",
-    "title": "Controlling Human Perception of Basic User Traits"
+    "title": "Controlling Human Perception of Basic User Traits",
+    "values": {
+        "novelty": "In this pilot study, we measure the extent to which human perception of basic user trait information -gender and age -is controllable through text. Using automatic models of gender and age prediction, we estimate which tweets posted by a user are more likely to mis-characterize his traits. We perform multiple controlled crowdsourcing experiments in which we show that we can reduce the human prediction accuracy of gender to almost random -an over 20% drop in accuracy. Our experiments show that it is practically feasible for multiple applications such as text generation, text summarization or machine translation to be tailored to specific traits and perceived as such. This is a regularized Linear SVM that obtains state-of-theart prediction results on user gender (91.9% accuracy) and age (r = .835) prediction from social media text.",
+        "performance": "Our selection procedure has great impact on rater accuracy. Selecting tweets most likely to be written by the opposite gender -even if they are posted by the same user in reality -has an impact of decreasing the individual rater accuracy by 20.93% to only slightly above random guess (55.75%). On the other hand, selecting the tweets that are most likely to be posted by a user from the same gender as determined by our automatic model has the impact of increasing the individual rater accuracy by 14.66%. We only report results with a user age computed as the average three guesses. Results with individual ratings are very similar and we omit them for brevity. The experiments show that our model's selection matches human perception: in the Younger experiment, the average predicted age is lower than in the Random experiment, which is in turn lower on average than the predicted age in the Oldest setup."
+    }
 }

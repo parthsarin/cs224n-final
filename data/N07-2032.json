@@ -18,5 +18,8 @@
     "numcitedby": 44,
     "year": 2007,
     "month": "April",
-    "title": "Subtree Mining for Relation Extraction from {W}ikipedia"
+    "title": "Subtree Mining for Relation Extraction from {W}ikipedia",
+    "values": {
+        "performance": "The result shows that our proposed method gives a substantial improvement over the baselines. Although the recall is quite adequate, precision is low. Data analysis reveals that although the mined subtrees capture key features for relationships, they also generate many irrelevant features which degrade the performance. It is necessary to carry out feature selection step for subtree feature. One more reason of the poor precision is that our system suffers from the error accumulation in a long pipeline of entity detection, entity classification, dependency parsing and relation classification."
+    }
 }

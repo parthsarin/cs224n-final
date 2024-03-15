@@ -19,5 +19,9 @@
     "numcitedby": 1,
     "year": 2015,
     "month": "July",
-    "title": "The Discovery of Natural Typing Annotations: User-produced Potential {C}hinese Word Delimiters"
+    "title": "The Discovery of Natural Typing Annotations: User-produced Potential {C}hinese Word Delimiters",
+    "values": {
+        "novelty": "We argue that such a process can be used to build a labeled corpus in a more natural way. We do this by 1) training a classifier to distinguish acceptable-quality NTAs from low-quality ones, and then 2) using a voting mechanism to further locate the high-quality NTAs among those identified by the classifier in the first step. high-quality NTAs texts are very close to gold standard of word segmentation. We also find out that the NTAs might be particularly useful to identify OOV words, such as proper names and neo-logisms.",
+        "performance": "Table 3 suggests that high-quality NTAs texts are very close to gold standard of word segmentation."
+    }
 }

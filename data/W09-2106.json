@@ -18,5 +18,9 @@
     "numcitedby": 11,
     "year": 2009,
     "month": "June",
-    "title": "An Application of Latent Semantic Analysis to Word Sense Discrimination for Words with Related and Unrelated Meanings"
+    "title": "An Application of Latent Semantic Analysis to Word Sense Discrimination for Words with Related and Unrelated Meanings",
+    "values": {
+        "building on past work": "LSA was originally applied to Information Retrieval (Dumais et al., 1988) and called Latent Semantic Indexing (LSI). LSA was subsequently applied to number of problems, such as synonym detection (Landauer et al., 1998) , document clustering (Song and Park, 2007) , vocabulary acquisition simulation (Landauer and Dumais, 1997) , etc. Levin and colleagues (2006) applied LSA to word sense discrimination. They clustered documents containing ambiguous words and for a test instance of a document, they assigned the document to its closest cluster.",
+        "performance": " In all cases, LSA outperforms the baseline for certain values of the truncation parameter and when context selection was used. This shows that LSA is well suited for measuring semantic similarity between two contexts when at least one of them is short.  The best performance obtained for words with unrelated meanings and context selection is also better than the performance for words with related and unrelated meanings.  LSA helps overcome sparsity of short contexts such as questions and gives an improvement over the exact match baseline."
+    }
 }

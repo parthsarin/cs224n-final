@@ -18,5 +18,10 @@
     "numcitedby": 34,
     "year": 2018,
     "month": "July",
-    "title": "Improving Slot Filling in Spoken Language Understanding with Joint Pointer and Attention"
+    "title": "Improving Slot Filling in Spoken Language Understanding with Joint Pointer and Attention",
+    "values": {
+        "novelty": " We present a generative neural network model for slot filling based on a sequenceto-sequence (Seq2Seq) model together with a pointer network, in the situation where only sentence-level slot annotations are available in the spoken dialogue data.  This model predicts slot values by jointly learning to copy a word which may be out-of-vocabulary (OOV) from an input utterance through a pointer network, or generate a word within the vocabulary through an attentional Seq2Seq model.  Experimental results show the effectiveness of our slot filling model, especially at addressing the OOV problem.  Additionally, we integrate the proposed model into a spoken language understanding system and achieve the state-of-the-art performance on the benchmark data.",
+        "performance": "Experimental results show the effectiveness of our slot filling model, especially at addressing the OOV problem. Additionally, we integrate the proposed model into a spoken language understanding system and achieve the state-of-the-art performance on the benchmark data. The CNN model performs much poorer than before in terms of the recall. While CNN and the basic Seq2Seq model decline 10.3% and 9.2% in F1 respectively using the smallest training set compared to using the complete one, our model is the most stable one with the least performance drop of 5.4%. Overall, the results in Section 4.4 and 4.5 demonstrate the effectiveness of the proposed hybrid model for slot value prediction, especially when the training set is small and the OOV ratio is large. All our systems outperform the prior work, and among them the one with the proposed hybrid model achieves the best F1 score. The performance of the proposed model with 20% training data already reaches that of the best system reported in the literature with 100% training data.",
+        "reproducibility": "Our model has achieved the state-of-the-art performance for both slot value prediction and SLU on the benchmark even with less training data."
+    }
 }

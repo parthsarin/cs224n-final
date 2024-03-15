@@ -19,5 +19,11 @@
     "numcitedby": 4,
     "year": 2012,
     "month": "December",
-    "title": "System Combination with Extra Alignment Information"
+    "title": "System Combination with Extra Alignment Information",
+    "values": {
+        "building on past work": "Our results show that with choosing Lucy, which is an RBMT system, as a backbone the result is slightly better (0.11% improvment by BLEU) than the traditional TER backbone selection method.",
+        "novelty": " ",
+        "performance": "Our results show that this backbone, which is the RBMT system output, achieves an 0.11% improvement in BLEU over the backbone chosen by TER, while the extra information we added in the decoding part does not improve the results. Table 1 shows the result of using Lucy as a backbone and the result of changing \u03b8 \u03c8 on the development and test sets. Note that \u03b8 \u03c8 = 1 stands for the case when there is no effect of this factor on the current path. We can see that the Lucy backbone result was 0.11% better than that of TER.",
+        "reproducibility": "Note that \u03b8 \u03c8 = 1 stands for the case when there is no effect of this factor on the current path."
+    }
 }

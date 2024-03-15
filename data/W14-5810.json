@@ -21,5 +21,9 @@
     "numcitedby": 9,
     "year": 2014,
     "month": "August",
-    "title": "Annotation and Classification of Light Verbs and Light Verb Variations in {M}andarin {C}hinese"
+    "title": "Annotation and Classification of Light Verbs and Light Verb Variations in {M}andarin {C}hinese",
+    "values": {
+        "building on past work": "Past linguistic and computational studies on light verbs had very different foci. Linguistic studies tend to focus on the status of light verbs and its various selectional constraints. While NLP studies have focused on light verbs in the context of either a multi-word expression (MWE) or a construction to be identified, classified, or translated, trying to overcome the apparent poverty of semantic content of light verbs. In this study, we first incorporate results from past linguistic studies to create annotated light verb corpora with syntactic-semantics features. Our results show that a language resource based methodology optimally incorporating linguistic information can resolve challenges posed by light verbs in NLP.",
+        "performance": "ID3 out-performs SVM slightly, with Logistic and NB not far behind. The results show that the light verb jiayi behaves quite differently from the other four light verbs in both Mainland and Taiwan corpora, which is similar to the analysis based on statistical methods Meanwhile, we can also find a cluster which is mainly formed by instances of jiayi from the Mainland corpus (i.e. cluster 0)."
+    }
 }

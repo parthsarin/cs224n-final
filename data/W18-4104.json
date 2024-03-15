@@ -16,5 +16,10 @@
     "numcitedby": 6,
     "year": 2018,
     "month": "August",
-    "title": "Enhancing Cohesion and Coherence of Fake Text to Improve Believability for Deceiving Cyber Attackers"
+    "title": "Enhancing Cohesion and Coherence of Fake Text to Improve Believability for Deceiving Cyber Attackers",
+    "values": {
+        "novelty": "A novel computational method to increase the cohesion and semantic coherence of a fake text to enhance believability. An analysis of effects of this method on the human perception of text's believability.",
+        "performance": "Results show that the probability to distinguish legit texts from believable fake texts is consistently lower than from fake texts that have not been improved in believability. This indicates the effectiveness of our method in generating believable fake text. We found that the increase in the values of cohesion and coherence metrics for the believable fake text was statistically significant when compared with the fake text. These results prove our hypothesis that the computer-generated fake text with higher cohesion and coherence leads to improvement in the believability of the text. This result implies that the believable fake text is truly believable for the subjects, and there may not exist a distinguishing factor that helped the subjects to recognize the believable fake text as fake. Specifically, if there exists a noun phrase n 1 in s i that occurs only once in c(s i ) after s i has been deleted; then, n 1 is replaced with a semantically similar noun phrase n 2 present in c(s i ) (FIND SEMANTICALLY SIMILAR(n 1 , N c(s i ) , \u03b8)).",
+        "reproducibility": " For the purpose of reproducibility, our dataset will be available upon request, for research purposes."
+    }
 }

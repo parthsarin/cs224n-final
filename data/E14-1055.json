@@ -20,5 +20,9 @@
     "numcitedby": 9,
     "year": 2014,
     "month": "April",
-    "title": "Information Structure Prediction for Visual-world Referring Expressions"
+    "title": "Information Structure Prediction for Visual-world Referring Expressions",
+    "values": {
+        "novelty": " We find previously-unknown effects of the visual characteristics of objects; specifically, when a relational description involves a visually salient object, that object is more likely to be mentioned first.   Using a discriminative classifier, we learn to predict the information structuring strategies used in our corpus. We compare these strategies to the typical given/new pattern of English discourse. ",
+        "performance": "Our system's use of the number of descendants feature is not captured by this oracle-these features capture information about a particular speaker's content plan beyond their decision to mention a particular pair-but we suspect that the oracle's performance will nonetheless be hard for any practical system to beat. The classifier improves this to 52%. When predicting the direction alone, the best baseline (PRECEDE) scores 42%; the classifier scores 57%. All system scores are significantly better than the baseline (sign test on pairs, p < 0.01). In predictions of ESTABLISH tags, our result is a 60% f-score, which is indistinguishable from the lower bound"
+    }
 }

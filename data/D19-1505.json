@@ -16,5 +16,10 @@
     "numcitedby": 2,
     "year": 2019,
     "month": "November",
-    "title": "Modeling the Relationship between User Comments and Edits in Document Revision"
+    "title": "Modeling the Relationship between User Comments and Edits in Document Revision",
+    "values": {
+        "building on past work": "To the best of our knowledge, no prior work focuses on jointly modeling the relationship between comments and edits. Note however, that edits are a (possibly discontinuous and non-trivial) delta between two versions of a text, making their representation and understanding more challenging than that of a simple string. We demonstrate this in our evaluation in Section 5.2, where we compare against several competing models that were designed for other text matching challenges.",
+        "novelty": "Thus, in this paper we tackle two novel tasks. Comment Ranking considers a document edit operation and seeks to rank a set of candidate comments in order of their relevance to the edit. Edit Anchoring seeks to identify the locations in a document that are most likely to have undergone change as the result of a specific comment. Crucially, both tasks require jointly modeling comment-edit relationship.",
+        "performance": "In a number of evaluation settings, our experimental results show that our approach outperforms several strong baselines significantly. We are able to achieve a precision@1 of 71.0% and a precision@3 of 94.4% for Comment Ranking, while we achieve 74.4% accuracy on Edit Anchoring. Our model outperforms the best baseline by 34.6% on NDCG for Comment Ranking and achieves a best score of 0.687 F1 for Edit Anchoring. Finally, we evaluate our model on both tasks and in a number of experimental settings, demonstrating that our solution is significantly better than several strong baselines on jointly capturing the relationship between edits and comments. In our experiments we show that our approach outperforms several baselines by significant margins on both tasks, yielding a best score of 71% precision@1 for Comment Ranking and 74.4% accuracy for Edit Anchoring."
+    }
 }

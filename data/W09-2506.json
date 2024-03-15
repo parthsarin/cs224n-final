@@ -18,5 +18,9 @@
     "numcitedby": 40,
     "year": 2009,
     "month": "August",
-    "title": "Ranking Paraphrases in Context"
+    "title": "Ranking Paraphrases in Context",
+    "values": {
+        "building on past work": "  However, inverse selectional preferences are used in E&P's model mainly to compute meaning in context, while they are directly \"built into\" the vectors representing predicate meaning in our model.",
+        "performance": "An evaluation on the SemEval 2007 lexical substitution task data shows promising results: the model significantly outperforms a current state of the art model, and our treatment of context is effective. Table 2 shows the results of our experiments for two variants of our model (\"TDP\"), and compares them to a random baseline and three instantiations (in two variants) of E&P's model. The \"add\" model uses vector addition and considers only objects as context; it is the best-performing model (in terms of P oot ) for our dataset. As can be seen, our model performs > 10% better than the random baseline. It performs > 4% better than the \"min\" E&P model and > 6% better then the \"add\" model in terms of GAP if we use a vectors space with words as basis. For the variants of the E&P models in which the basis corresponds to words indexed by their syntactic role, we obtain different results, but our model is still > 4% better than these variants. We can also see that our treatment of context is effective, leading to a > 3% increase of GAP. A stratified shuffling-based randomization test (Yeh, 2000) shows that the differences are statistically significant (p < 0.05). In terms of P oot , the \"add\" E&P model performs better than our model, which might look surprising, given its low GAP score. Fig. 1 gives a more finegrained comparison between the two models. It displays the \"precision out of n\" of the two models for varying n. As can be seen, our model performs better for all n < 10, and much better than the baseline and E&P for n \u2264 4."
+    }
 }

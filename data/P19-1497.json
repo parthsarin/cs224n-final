@@ -19,5 +19,10 @@
     "numcitedby": 0,
     "year": 2019,
     "month": "July",
-    "title": "Asking the Crowd: Question Analysis, Evaluation and Generation for Open Discussion on Online Forums"
+    "title": "Asking the Crowd: Question Analysis, Evaluation and Generation for Open Discussion on Online Forums",
+    "values": {
+        "building on past work": "To generate high-qualified questions (for open discussion), we need to perform question evaluation, which is rather challenging. Questions in most existed QG (QA) datasets, e.g. SQuAD (Rajpurkar et al., 2016) , are fixed-answered thus not suitable for openQG. Based on these conclusions, several models are built for question evaluation. For openQG task, we construct OQGenD, the first dataset as far as we know, and propose a model based on conditional generative adversarial networks and our question evaluation model.",
+        "novelty": "In this paper, we take the first step on teaching machines to ask open-answered questions from real-world news for open discussion (openQG). To generate high-qualified questions, effective ways for question evaluation are required. We take the perspective that the more answers a question receives, the better it is for open discussion, and analyze how language use affects the number of answers. Based on these conclusions, several models are built for question evaluation. For openQG task, we construct OQGenD, the first dataset as far as we know, and propose a model based on conditional generative adversarial networks and our question evaluation model.",
+        "performance": "Of all the baselines, SentiGAN gets the best performances on BLEU-3 and BLEU-4, which is largely contributed by its penalty based objective function. Since the same piece of news always corresponds with multiple questions (and these questions may differ a lot) in OQGenD, models based on adversarial training (SeqGAN, SentiGAN and ours) always get better results than others (Seq2seq and CopyNet). When it comes to F s , the full version of our model gets the best performance,"
+    }
 }

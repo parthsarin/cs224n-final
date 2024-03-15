@@ -18,5 +18,9 @@
     "numcitedby": 9,
     "year": 2010,
     "month": "August",
-    "title": "Discriminant Ranking for Efficient Treebanking"
+    "title": "Discriminant Ranking for Efficient Treebanking",
+    "values": {
+        "novelty": " We propose to use a statistical ranking model to assist the discriminant-based treebank annotation.    Apart from the specific features presented in Section 3.3, the model itself does not assume a phrase-structure tree annotation, and the discriminants can take various forms.  Assuming a \"grammar\" produces a number of candidate analyses, the annotators can rely on the ranking model to efficiently pick relevant discriminants, and focus on making linguistically relevant decisions.",
+        "performance": "The baseline model ranks the discriminants by the spanning length of the corresponding constituent, and uses the alphabetical order of the rule or lexical type names as tie-breaker. The own-model refers to the annotation sessions which have been carried out by the annotators us- The annotation efficiency was boosted by over 50% with all the discriminant ranking models. The own-model setting achieved best speed. To measure the inter-annotator agreement, we calculate the Cohen's KAPPA (Carletta, 1996) on the constituents of the derivation trees: The numbers in Table 3 show that the use of discriminant ranking models results in a small improvement to the inter-annotator agreement, with the best agreement achieved by each annotator using the model trained with their own annotation records. These numbers are comforting in that the annotation quality is not damaged by our new way to present the linguistic decisions. The annotators also claim that the speed-up is somewhat diminished over the \"rejected\" sentences, for which none of the candidate trees are acceptable."
+    }
 }

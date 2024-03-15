@@ -18,5 +18,9 @@
     "numcitedby": 14,
     "year": 2007,
     "month": "April",
-    "title": "Corpus-driven Metaphor Harvesting"
+    "title": "Corpus-driven Metaphor Harvesting",
+    "values": {
+        "building on past work": "Earlier projects annotating metaphor in corpora include (Martin, 1994) and (Barnden et al., 2002) .  In what follows, we give two examples of recent work. Prominent conceptual metaphors are illustrated by a larger number of lexical metaphors, which support the systematicity of their mapping. Lexical extension Corpus annotation is now extended to a larger list of lemmas from the source domains of BUILDING and MOTION. The challenge here is finding additional lemmas that might exploit the postulated mappings, given a small set of disambiguated lemmas and ambiguous collocates (cf. Table 7 ). A reiteration of these steps (using encountered lemmas as new seeds) could lead very soon to general or peripheral lemmas. Ideally, one would set up a limit of reiteration per operation and consider all encountered lemmas as possible keywords of the domain. This outnumbers by far the results of previous studies filed within HMD, which originated under similar conditions but did not resort to a corpus manager.",
+        "novelty": "The European Constitution Corpus Exploration and annotation of a corpus to find information regarding its predominant conceptual source domains is most productive when applied to an abstract and novel target domain. Abstractness calls for ways to make the topic cognitively accessible, and novelty entails a certain openness about the particular source domains that might be activated for this purpose."
+    }
 }

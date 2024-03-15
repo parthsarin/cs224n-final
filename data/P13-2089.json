@@ -19,5 +19,10 @@
     "numcitedby": 37,
     "year": 2013,
     "month": "August",
-    "title": "Generating Recommendation Dialogs by Extracting Information from User Reviews"
+    "title": "Generating Recommendation Dialogs by Extracting Information from User Reviews",
+    "values": {
+        "building on past work": "This paper makes two main contributions. The framework makes use of techniques from topic modeling and sentiment-based aspect extraction to identify finegrained attributes for each business. These attributes form the basis of a new set of questions that the system can ask the user. This allows our system to select the most informative question at each dialog step. An evaluation based on simulated dialogs shows that both the ranking method and the automatically generated questions improve recall.",
+        "novelty": "Our information gain recommendation agent gives a principled way to dynamically combine these diverse attributes to ask relevant questions in a coherent dialog.",
+        "performance": "Figure 1 shows the average recall for the random agent versus the information gain agent with varying sets of attributes. 'Top-level' repeatedly queries the user's top-level category preferences, 'Subtopic' additionally uses our topic modeling subcategories, and 'All' uses these plus the aspects extracted from reviews. We see that for sufficiently long dialogs, 'All' outperforms the other systems. The 'Subtopic' and 'Top-level' systems plateau after a few dialog steps once they've asked all useful questions. For instance, most businesses only have one or two top-level categories, so after the system has identified the top-level category that the user is interested in, it has no more good questions to ask. Note that the information gain agent starts dialogs with the top-level and appropriate subcategory questions, so it is only for longer dialogs that the fine-grained aspects boost performance."
+    }
 }

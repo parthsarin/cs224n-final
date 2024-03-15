@@ -18,5 +18,8 @@
     "numcitedby": 44,
     "year": 1997,
     "month": "July",
-    "title": "Tracking Initiative in Collaborative Dialogue Interactions"
+    "title": "Tracking Initiative in Collaborative Dialogue Interactions",
+    "values": {
+        "performance": "Our experiments show that by utilizing the constant-increment-with-counter adjustment method in determining the basic probability assignments for each cue, the system can correctly predict the task and dialogue initiative holders 99.1% and 87.8% of the time, respectively, in the TRAINS91 corpus, compared to 96.8% and 74.9% without the use of cues. The differences between these results are shown to be statistically significant using Cochran's Q test. In addition, we demonstrated the generality of our model by applying it to dialogues in different application environments. The results indicate that although the basic probability assignments may be sensitive to application environments, the use of cues in the prediction process significantly improves the system' s performance."
+    }
 }

@@ -19,5 +19,10 @@
     "numcitedby": 7,
     "year": 2015,
     "month": "September",
-    "title": "Rule Selection with Soft Syntactic Features for String-to-Tree Statistical Machine Translation"
+    "title": "Rule Selection with Soft Syntactic Features for String-to-Tree Statistical Machine Translation",
+    "values": {
+        "building on past work": "This is a new and clean way to integrate soft source syntactic constraints into string-to-tree systems as features of the rule selection model.",
+        "novelty": "This is a new and clean way to integrate soft source syntactic constraints into string-to-tree systems as features of the rule selection model. We release our implementation as part of Moses.",
+        "performance": "None of these differences is statistically significant. Our augmented system largely outperforms the baselines. Interestingly, hierarchical rule selection significantly helps on the medical and scientific domain but still yields results that are significantly lower than those of the string-to-tree systems. This indicates that systems with target side syntax better disambiguate than hierarchical models with improved rule selection. An extensive evaluation on French-English translation tasks for different domains has shown that rule selection cannot significantly improve string-to-tree systems."
+    }
 }

@@ -19,5 +19,10 @@
     "numcitedby": 74,
     "year": 2019,
     "month": "November",
-    "title": "Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs"
+    "title": "Connecting the Dots: Document-level Neural Relation Extraction with Edge-oriented Graphs",
+    "values": {
+        "building on past work": "To the best of our knowledge, this is the first approach to utilise an edge-oriented model for document-level RE.",
+        "novelty": "To the best of our knowledge, this is the first approach to utilise an edge-oriented model for document-level RE.",
+        "performance": "As observed, our proposed model performs consistently with both in-domain and out-of-domain pre-trained word embeddings. The low performance of random embeddings is due to the small size of the dataset, which results in lower quality embeddings. Usage of EE edges only results in poor performance across pairs. Removal of MM and ME edges does not significantly affect the performance as ES edges can replace their impact. In general, intra-sentence pairs are not affected by these settings. However, for inter-sentence pairs, removal of node type embeddings and distance embeddings results in a 2% and 5% drop in terms of F1score."
+    }
 }

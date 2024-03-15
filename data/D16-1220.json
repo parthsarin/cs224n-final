@@ -19,5 +19,10 @@
     "numcitedby": 6,
     "year": 2016,
     "month": "November",
-    "title": "Learning to Identify Metaphors from a Corpus of Proverbs"
+    "title": "Learning to Identify Metaphors from a Corpus of Proverbs",
+    "values": {
+        "building on past work": "To the best of our knowledge, this is the first attempt to design a word-level metaphor recognizer specifically tailored to such metaphorically rich data. Due to the lack of a separate test set, as in the original setup by Klebanov et al. (2014) , and to the high dimensionality of B's lexicalized features, we cannot rule out over-fitting as an explanation for the relatively good performance of B on this benchmark. In particular, our implementation of the B features performs better than reported by Klebanov et al. ( 2014 ) on all four genres, namely: 0.52 vs. 0.51 for \"news\", 0.51 vs. 0.28 for \"academic\", 0.39 vs. 0.28 for \"conversation\" and 0.42 vs. 0.33 for \"fiction\".",
+        "novelty": "On the proverb data, the novel features result in compact models that significantly outperform existing features designed for word-level metaphor detection in other genres (Klebanov et al., 2014) , such as news and essays. By also testing the new features on these other genres, we show that their generalization power is not limited to proverbs.",
+        "performance": "Using only baseline features (B) we measure an average F1 score of 0.738. We believe that the difference in performance is at least in part due to the sparser B features requiring more data to be able to generalize. But most importantly, unlike B, N accounts for the context and the peculiarity of the target word with respect to the rest of the sentence. The worst performance is observed when all the domain features are removed (i.e., N \\ (d s \u222a d n )). These results suggest that the prior knowledge about the domain of a word and the frequency of its metaphorical use are indeed strong predictors of a word metaphoricity in context. The results of this experiment reported in Table 2 are similar to the cross-fold evaluation, and in this case the contribution of N features is even more accentuated. Indeed, the absolute F 1 of N and B \u222a N is slightly higher on test data, while the f-measure of B decreases slightly."
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 7,
     "year": 2015,
     "month": "July",
-    "title": "{H}allym: Named Entity Recognition on {T}witter with Word Representation"
+    "title": "{H}allym: Named Entity Recognition on {T}witter with Word Representation",
+    "values": {
+        "performance": "Our final model shows an error reduction of 14.08% from the baseline system. As shown in table 2, brown clustering and word embedding have a good effect on performance. All types of entities except movie show error reduction."
+    }
 }

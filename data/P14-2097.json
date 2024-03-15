@@ -18,5 +18,11 @@
     "numcitedby": 71,
     "year": 2014,
     "month": "June",
-    "title": "Nonparametric Method for Data-driven Image Captioning"
+    "title": "Nonparametric Method for Data-driven Image Captioning",
+    "values": {
+        "building on past work": "Our work addresses this challenge by estimating a word frequency representation of the visual content of a query image. This allows us to cast caption generation as an extractive summarization problem. Our caption generation system effectively leverages information from the massive amounts of human-written image captions on the internet. We achieve a remarkable 34% improvement in human relevance scores over a recent state-of-the-art image captioning system (Kuznetsova et al., 2012) , and 48% improvement over a scene-based retrieval system (Patterson et al., 2014) using the same computed image features. Our approach uses simple models which can be easily reproduced by both CV and NLP researchers. We provide resources to enable comparison against future systems.",
+        "ease of implementation": "Our approach uses simple models which can be easily reproduced by both CV and NLP researchers. We provide resources to enable comparison against future systems.",
+        "novelty": "Our caption generation system effectively leverages information from the massive amounts of human-written image captions on the internet. Our approach uses simple models which can be easily reproduced by both CV and NLP researchers. We provide resources to enable comparison against future systems. We leave these ideas for future work.",
+        "performance": "Our model strongly outperforms two state-ofthe-art caption extraction systems according to human judgments of caption relevance."
+    }
 }

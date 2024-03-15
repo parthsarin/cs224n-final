@@ -21,5 +21,8 @@
     "numcitedby": 61,
     "year": 2020,
     "month": "December",
-    "title": "Twenty Years of Confusion in Human Evaluation: {NLG} Needs Evaluation Sheets and Standardised Definitions"
+    "title": "Twenty Years of Confusion in Human Evaluation: {NLG} Needs Evaluation Sheets and Standardised Definitions",
+    "values": {
+        "reproducibility": "     The aim is to provide authors with a simple list of what information to include in reports of human evaluations at a minimum. "
+    }
 }

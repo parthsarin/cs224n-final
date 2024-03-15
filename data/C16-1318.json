@@ -18,5 +18,11 @@
     "numcitedby": 28,
     "year": 2016,
     "month": "December",
-    "title": "A Neural Network Approach for Knowledge-Driven Response Generation"
+    "title": "A Neural Network Approach for Knowledge-Driven Response Generation",
+    "values": {
+        "building on past work": "To the best of our knowledge this work constitutes the first attempt for building an end-to-end learnable system for automatic context-sensitive response generation by leveraging the alignment of two different data sources.",
+        "novelty": "To the best of our knowledge this work constitutes the first attempt for building an end-to-end learnable system for automatic context-sensitive response generation by leveraging the alignment of two different data sources.",
+        "performance": "We also gratefully acknowledge the support of NVIDIA Corporation with the donation of the Titan X GPU used for this research.",
+        "reproducibility": "Our approach achieves up to 55% improvement in perplexity compared to purely sequential models based on RNNs that are trained only on sequences of utterances. It should also be noted that our approach is domain independent; thus, it could be transferred out-of-box to a wide variety of conversation topics. The structure of the paper is as follows. Section 2 discusses premises of our work regarding both automatic response generation and neural networks approaches for Natural Language Processing (NLP). Section 3 presents the components of the network. Section 4 describes the structure of the dataset. Section 5 discusses the experiments and the evaluation of the models. Section 6 summarises the contributions of the current work and outlines future plans. We propose a novel architecture for context-sensitive response generation. Our model is trained on a dataset that consists of realistic sequences of Reddit comments that aligned with sets of Wikipedia sentences. We use an RNN and a CNN components to process the sequence of comments and their corresponding set of sentences respectively and we introduce a learnable coupling formulation."
+    }
 }

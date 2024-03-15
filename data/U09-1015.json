@@ -16,5 +16,10 @@
     "numcitedby": 24,
     "year": 2009,
     "month": "December",
-    "title": "Improved Text Categorisation for {W}ikipedia Named Entities"
+    "title": "Improved Text Categorisation for {W}ikipedia Named Entities",
+    "values": {
+        "building on past work": " This involved the conversion of heuristics used by Nothman into features as well as the incorporation of a number of new features. We demonstrate the superiority of our approach, providing a comparison of the individual text categorisation step to both Nothman's system and other previous research.  We experimented with a combination of the classification techniques used by Dakka and Cucerzan (2008) and the feature extraction methods used by Nothman et al.  We found that across all experiments the NB classifier performed best when using a bag-of-words representation incorporating the first sentence of an article only, along with tokens extracted from categories, templates and infoboxes.",
+        "novelty": "We explore the use of a variety of machine learning algorithms for categorising Wikipedia articles, an initial step in producing the named entity training data. We were able to achieve a categorisation accuracy of 95% F -score over six coarse categories, an improvement of up to 5% F -score over previous methods. Our state-of-the-art text categorisation system for Wikipedia achieved an improvement of up to 5% F -score over previous approaches. We exploited Wikipedia's rich document structure and content, such as categories, templates and infoboxes, to classify its articles under a categorisation scheme using NB and SVM machine learners. Our system produced state-of-the-art results, achieving an F -score of 95%, an improvement of up to 5% over previous approaches.",
+        "performance": "This involved the conversion of heuristics used by Nothman into features as well as the incorporation of a number of new features. We demonstrate the superiority of our approach, providing a comparison of the individual text categorisation step to both Nothman's system and other previous research. Our state-of-the-art text categorisation system for Wikipedia achieved an improvement of up to 5% F -score over previous approaches."
+    }
 }

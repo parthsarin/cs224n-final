@@ -18,5 +18,10 @@
     "numcitedby": 3,
     "year": 2020,
     "month": "November",
-    "title": "{TSDG}: Content-aware Neural Response Generation with Two-stage Decoding Process"
+    "title": "{TSDG}: Content-aware Neural Response Generation with Two-stage Decoding Process",
+    "values": {
+        "building on past work": "To address the aforementioned issue, we propose a novel content-aware TSDG model with a two-stage decoding process. Zhou et al. (2018) account to facilitate conversation understanding. In the decoding process, these models always use a single decoder to generate the final response at a stroke in a left-to-right manner.",
+        "novelty": " To address the aforementioned issue, we propose a novel content-aware TSDG model with a two-stage decoding process.  This paper analyzes the limitation of the encoder-decoder models which use a single decoder to generate a complete response at a stroke. For this limitation, we elaborate a content-aware TSDG model to generate a more informative and relevant response.  We find that the CWSs of baselines are significantly lower than the CWS of ground truth. The significant improvement in CWS indicates that TSDG can effectively increase the proportion of content words in the response.",
+        "performance": "TSDG outperforms all baseline methods both on automatic and human evaluation, and the improvement is significant in a statistical sense (p-value < 0.01). The significant improvement in CWS indicates that TSDG can effectively increase the proportion of content words in the response. Note that our model consistently outperforms the comparison models with a large margin. This superior performance confirms that our model can generate more appropriate content words."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 6,
     "year": 2009,
     "month": "August",
-    "title": "Classifying Relations for Biomedical Named Entity Disambiguation"
+    "title": "Classifying Relations for Biomedical Named Entity Disambiguation",
+    "values": {
+        "novelty": " We propose a new method that distinguishes a named entity by finding the informative keywords in its surrounding context, and then trains a model to predict whether each keyword indicates the semantic class of the entity.   Given a sentence, let E be the set of 'target' entities (e.g., p53) and W of the 'cue' words (e.g., human) that co-occur in a sentence, we define a relation as a pair r = e, w , where e \u2208 E and w \u2208 W , and r is a positive relation if e belongs to the semantic class indicated by w, and is a negative one if not.  Then we can disambiguate e by accomplishing the following steps: 1) identify W and build a set of relations R = { e, w i |w i \u2208 W, i = 1, 2, .., n}, where n is the size of W ; and 2) classify every r \u2208 R and assign the semantic tag of w j to e such that r j = e, w j is positive.",
+        "performance": "First of all, Table 2 shows the results of the classification methods described in Section 4.2. Next, the SPRD columns in Table 3 show the results when the spreading rules were applied, which Nevertheless, we combined the two methods in a rather crude way, leaving ample room for exploring better strategies in the future. One drawback of the relation classification systems is that they can not cover all entity mentions but only the ones with informative keywords cooccurring in the same sentence."
+    }
 }

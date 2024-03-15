@@ -19,5 +19,9 @@
     "numcitedby": 4,
     "year": 2013,
     "month": "September",
-    "title": "Parameter Optimization for Statistical Machine Translation: It Pays to Learn from Hard Examples"
+    "title": "Parameter Optimization for Statistical Machine Translation: It Pays to Learn from Hard Examples",
+    "values": {
+        "building on past work": "One relevant line of research is on multi-source translation, which generates a single translation given multiple versions of the input. A related line focused on data selection. For training data, this includes filtering (Moore and Lewis, 2010; Foster et al., 2010) , instanceweighting (Axelrod et al., 2011; Matsoukas et al., 2009) and model adaptation (Hildebrand et al., 2005) . For tuning data, Liu et al. (2012) built a separate tuning dataset for each test sentence, which is too costly for real-world translation. Previous English-Arabic SMT has used the first input (Al-Haj and Lavie, 2012; Kholy and Habash, 2012) .",
+        "performance": "In case (a) (see columns 2 and 3), MT044 is selected, which is the worst possible choice. However, in case (b) (see columns 4 and 5), the best score is achieved for MT040, which is the optimal choice, i.e., best-on-tuning yields optimal results when averaging over all but the tuning dataset. We further see 0.5-1.5 absolute difference in BLEU between the best (mostly MT051) and the worst choice (mostly MT050). Note that this time the optimal choice is made regardless of whether the averaging is done over all datasets or over all but the tuning dataset (in the reverse direction, averaging over all made the worst possible choice, while averaging over all but the one used for tuning made an optimal choice)."
+    }
 }

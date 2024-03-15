@@ -18,5 +18,8 @@
     "numcitedby": 31,
     "year": 2004,
     "month": "July",
-    "title": "Automatic Semantic Role Assignment for a Tree Structure"
+    "title": "Automatic Semantic Role Assignment for a Tree Structure",
+    "values": {
+        "performance": " The system achieves 92.71% accuracy in labeling the semantic roles for pre-structure-bracketed texts which is considerably higher than the simple method using probabilistic model of head-modifier relations.  Method Accuracy Backoff 90.29% Baseline: 68.68%  Method Accuracy Refined Backoff 92.71% Backoff 90.29% Baseline 68.68%"
+    }
 }

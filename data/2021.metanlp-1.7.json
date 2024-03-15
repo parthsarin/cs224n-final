@@ -18,5 +18,10 @@
     "numcitedby": 2,
     "year": 2021,
     "month": "August",
-    "title": "Multi-accent Speech Separation with One Shot Learning"
+    "title": "Multi-accent Speech Separation with One Shot Learning",
+    "values": {
+        "building on past work": "To our best knowledge, we are the first to conduct speech separation experiments on a multi-accent dataset. We applied meta-learning to help improve the multi-accent speech recognition task.",
+        "novelty": "To our best knowledge, we are the first to conduct speech separation experiments on a multi-accent dataset. We applied meta-learning to help improve the multi-accent speech recognition task.",
+        "performance": "  Our results show that MAML and FOMAML training methods are effective on multi-accent speech separation. More specifically, it is confirmed that these two methods are better than joint training when adapting to new speakers with new accents and even noisy environments.  By comparing models (d) and (f), we found out that these two training methods have similar performance."
+    }
 }

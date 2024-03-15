@@ -18,5 +18,10 @@
     "numcitedby": 17,
     "year": 2019,
     "month": "July",
-    "title": "Adversarial Multitask Learning for Joint Multi-Feature and Multi-Dialect Morphological Modeling"
+    "title": "Adversarial Multitask Learning for Joint Multi-Feature and Multi-Dialect Morphological Modeling",
+    "values": {
+        "building on past work": "Despite having several contributions in the literature, the role of mapped embedding spaces has not been studied in the context of joint morphological modeling of different dialects. Joint modeling of the different features, through feature concatenation, results in a large target space with increased sparsity. Whereas total separation of the different feature models eliminates access to the other features, which constrains the model. These issues are further exacerbated for dialectal content, with many morphosyntactic variations that further complicate the modeling. Morphological modeling for Arabic has many contributions in both MSA (Diab et al., 2004; Habash and Rambow, 2005; Pasha et al., 2014; Abdelali et al., 2016; Khalifa et al., 2016) , and Dialectal Arabic (Duh and Kirchhoff, 2005; Al-Sabbagh and Girju, 2012; Habash et al., 2013) . There were also several neural extensions that show impressive results (Zalmout and Habash, 2017; Zalmout et al., 2018) . These contributions use separate models for each morphological feature, then apply a disambiguation step, similar to several previous models for Arabic (Habash and Rambow, 2005; Pasha et al., 2014) .",
+        "novelty": "   ",
+        "reproducibility": "We use the EGY data from the work by Zbib et al. (2012) as the unlabeled corpus for EGY. We use the MADAR corpus (Bouamor et al., 2018) as the seed dictionary for embedding space mapping."
+    }
 }

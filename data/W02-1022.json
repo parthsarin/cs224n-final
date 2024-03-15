@@ -16,5 +16,8 @@
     "numcitedby": 94,
     "year": 2002,
     "month": "July",
-    "title": "Bootstrapping Lexical Choice via Multiple-Sequence Alignment"
+    "title": "Bootstrapping Lexical Choice via Multiple-Sequence Alignment",
+    "values": {
+        "novelty": " We instead propose to acquire it automatically via a novel multiple-pass algorithm employing multiple-sequence alignment, a technique commonly used in bioinformatics.  Crucially, our method leverages latent information contained in multiparallel corpora -datasets that supply several verbalizations of the corresponding semantics rather than just one."
+    }
 }

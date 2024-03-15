@@ -19,5 +19,10 @@
     "numcitedby": 0,
     "year": 2020,
     "month": "May",
-    "title": "Does History Matter? Using Narrative Context to Predict the Trajectory of Sentence Sentiment"
+    "title": "Does History Matter? Using Narrative Context to Predict the Trajectory of Sentence Sentiment",
+    "values": {
+        "building on past work": "Our study has focused on two central questions -firstly, to establish whether linear or non-linear methods are best suited to modelling this type of relationship and, secondly, to determine what kind of features extracted from the historical content are the most effective in training the machine learning models. In conclusion, we have established a linear relationship between sentence context history and the valence value of the current sentence. We have demonstrated that the sentences in closer proximity to the target sentence are more informative. We have also shown that the inclusion of semantic word embeddings does seem to enrich our model predictions.",
+        "novelty": "While there is a rich literature on the tracking of sentiment and emotion in texts, modelling the emotional trajectory of longer narratives, such as literary texts, poses new challenges. We propose to explore the influence of previous sentences on the sentiment of a given sentence. We show that the inclusion of semantic word embeddings further enriches our model predictions.",
+        "performance": "The application of non-linear methods does not improve performance. This relationship is statistically significant at p = 0.0001. While these results clearly show that we have captured a real linear effect between valence history and current sentence valence, the magnitude of explained variance is small. From the results presented in Table 1 , we can see that there is a small linear relationship between sentence valence history and the valence of the current sentence. In conclusion, we have established a linear relationship between sentence context history and the valence value of the current sentence. We have demonstrated that the sentences in closer proximity to the target sentence are more informative. We have also shown that the inclusion of semantic word embeddings does seem to enrich our model predictions."
+    }
 }

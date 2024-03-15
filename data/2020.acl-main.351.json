@@ -16,5 +16,10 @@
     "numcitedby": 6,
     "year": 2020,
     "month": "July",
-    "title": "Towards end-2-end learning for predicting behavior codes from spoken utterances in psychotherapy conversations"
+    "title": "Towards end-2-end learning for predicting behavior codes from spoken utterances in psychotherapy conversations",
+    "values": {
+        "building on past work": "  The ASR output is then used for the target natural language understanding task.     Speech-2-Vector follows the learning objective similar to Skipgram architecture of Word2Vec.   We then learn a function c = f(W) that maps W to a behavioral code c1, 2, ..., C, with C being the number of defined target code types.   ",
+        "novelty": " We propose a novel framework for predicting utterance level labels directly from speech features, thus removing the dependency on first generating transcripts, and transcription free behavioral coding.  Our proposed approach just uses speech features and word segmentation information for predicting spoken utterance-level target labels.  Our end-2-end transcription-free approach is similar and perhaps even motivated some of the previous works. There have been some works (Serdyuk et al., 2018; Lugosch et al., 2019) which perform prediction tasks directly from speech signals but lack in capturing the underlying linguis-tic structure of a language (sentences break into words for semantics). We believe capturing some of the important linguistic units (e.g. words) are important for spoken language understanding. ",
+        "performance": "Table 2 shows results where we compare performance of the system when we use lexically-derived word embeddings (word2Vec) vs speech-features derived word embeddings (Speech2Vec). Results confirm two main observations: 1) It is better to learn/fine-tune the word embeddings on an in-domain dataset. 2) Speech2Vec that learns word embeddings based on different spoken variations of word provides better results for behavior code prediction. This result is consistent with findings from (Singla et al., 2018; Chen et al., 2019) where it is shown that acoustic-prosodic information can provide complementary information for predicting behavior codes and hence, produce better results."
+    }
 }

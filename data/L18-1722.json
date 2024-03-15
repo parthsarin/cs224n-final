@@ -25,5 +25,9 @@
     "numcitedby": 1,
     "year": 2018,
     "month": "May",
-    "title": "Browsing and Supporting Pluricentric Global {W}ordnet, or just your {W}ordnet of Interest"
+    "title": "Browsing and Supporting Pluricentric Global {W}ordnet, or just your {W}ordnet of Interest",
+    "values": {
+        "ease of implementation": "The development of an installation of the browser based on a particular wordnet is quite straightforward. Similar procedure is needed with respect to the files for the translations desired. Concerning the language of the user interface, all that is required is that the few English words of the menu be linked (by straightforwardly editing the code) to their translation equivalents in the language chosen for the user interface, if such translation is not already existent in the current set of user interface supported languages",
+        "novelty": "This had yet further unanticipated consequences, beyond the instrumental goal that triggered this implementation of a new wordnet browser. The analysis of the requirements on how wordnets should better be presented set us on the path to ponder on how this could serve a wider purpose of an as much inclusive support as possible for wordnets and for their flexible integration with each other. That is what we are trying to capture with the notion of a pluricentric global wordnet. As it turns out from the analysis in Section 3., every existing browser happens not to meet one or other of the requirements lined up in Section 2.. This provided the motivation for our development of a new browser that seeks to meet all these requirements, to whose presentation we turn now. By allowing to look also for the translations of the lemma searched for in the wordnet of interest, the browser presented in Section 4. permits the perusing of any wordnet, on which it is based, in a multilingual setting. While that day has not arrived, this browser is a most useful instrument to peruse ensembles of wordnets whose different composition respond to diverse interests, needs, constraints or limitations."
+    }
 }

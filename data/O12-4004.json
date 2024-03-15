@@ -20,5 +20,10 @@
     "numcitedby": 1,
     "year": 2012,
     "month": "September",
-    "title": "Strategies of Processing {J}apanese Names and Character Variants in Traditional {C}hinese Text"
+    "title": "Strategies of Processing {J}apanese Names and Character Variants in Traditional {C}hinese Text",
+    "values": {
+        "building on past work": "Our special-type bigram probability model is very similar to Gao et al. Nevertheless, they treat all dictionary words as one class and all types of special words as a second class, while we treat different types as different classes. When computing the Chinese name generation probability P \u03c3 (w|\u03c0), we borrowed the idea from Chen et al. We also assume that the surname is unrelated to the person's gender.",
+        "novelty": "This paper proposes an approach to identify word candidates that are not Traditional Chinese, including Japanese names (written in Japanese Kanji or Traditional Chinese characters) and word variants, when doing word segmentation on Traditional Chinese text. We also propose a method to map Japanese Kanji into the corresponding Traditional Chinese characters. The same method can also be used to detect words written in character variants.",
+        "performance": " When handling personal names, a probability model concerning formats of names is introduced.  Another issue is how different regions may write a character 88 Chuan-Jie Lin et al. in a different shape. For example, the Traditional Chinese character \u5716 (picture) is written as \u56fe in Simplified Chinese and \u56f3 in Japanese. How these character variants impact Chinese text processing has been mentioned rarely in earlier studies; thus, it has become our interest.  In order to see the impact of directly adopting the boundary of a number candidate, we experimented on two strategies for Sys2, denoted as Sys2a and Sys2b.  The experimental results show that the name format probability model does improve the performance, and the mappings between Japanese Kanji and Traditional Chinese characters do help to detect Japanese names more successfully.  The most important of all is to find a large collection of Japanese names for training.  The main purpose of this experiment is to show that our system can do word segmentation on documents written in Simplified Chinese with a certain correctness level."
+    }
 }

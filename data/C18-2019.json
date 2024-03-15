@@ -19,5 +19,9 @@
     "numcitedby": 15,
     "year": 2018,
     "month": "August",
-    "title": "Appraise Evaluation Framework for Machine Translation"
+    "title": "Appraise Evaluation Framework for Machine Translation",
+    "values": {
+        "ease of implementation": "We believe that machine translation researchers should be able to conduct manual annotation campaigns at scale, without having to re-implement the necessary infrastructure from scratch. Since 2007, development of the Appraise evaluation framework for machine translation has supported the research community, trying to bring more human evaluation into MT research.",
+        "reproducibility": "We believe that machine translation researchers should be able to conduct manual annotation campaigns at scale, without having to re-implement the necessary infrastructure from scratch. Since 2007, development of the Appraise evaluation framework for machine translation has supported the research community, trying to bring more human evaluation into MT research. This should lead to interesting discussions."
+    }
 }

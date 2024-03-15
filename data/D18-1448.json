@@ -16,5 +16,10 @@
     "numcitedby": 65,
     "year": 2018,
     "month": "October-November",
-    "title": "{MSMO}: Multimodal Summarization with Multimodal Output"
+    "title": "{MSMO}: Multimodal Summarization with Multimodal Output",
+    "values": {
+        "building on past work": "In recent years, some researchers (Bian et al., 2013 (Bian et al., , 2015;; Wang et al., 2016) focus on incorporating multimedia contents into the output of summarization which all treat the image-text pair as a basic summarization unit. But in our work, our input comes from a document and a collection of images where there is no alignment between texts and images. So our biggest challenge is how to bridge the semantic gaps between texts and images.",
+        "novelty": " Finally, to evaluate multimodal outputs, we construct a novel multimodal automatic evaluation (MMAE) method which considers both intramodality salience and intermodality relevance.  We present a novel multimodal summarization task, which takes the news with images as input, and finally outputs a pictorial summary. We construct a large-scale corpus for MSMO studying. We propose an abstractive multimodal summarization model to jointly generate summary and the most relevant image. We propose a multimodal automatic evaluation (MMAE) method which mainly considers three aspects: salience of text, salience of image, and relevance between text and image.  We provide a multimodal summarization method to jointly generate text and the most relevant image, which can be referred as the baseline for further study. Our proposed metrics have been proved to be effective in evaluating the multimodal output. Moreover, the idea of constructing our MMAE can be easily extended to other modalities.",
+        "performance": "Surprisingly, the model ATG achieves the highest MMAE score despite the mediocre performance in three individual metrics. The MAX sim score of ATG is much higher than ATL and HAN. It shows the global features can help to learn better image-text alignments. Since GR itself makes use of the image-caption pairs, it is natural to get a high image-text relevance score. Our proposed multimodal attention models all achieves higher performance than the extractive baseline GR, which further indicate the effectiveness of our models."
+    }
 }

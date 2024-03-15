@@ -18,5 +18,8 @@
     "numcitedby": 2,
     "year": 2018,
     "month": "July",
-    "title": "Evaluating Word Embeddings in Multi-label Classification Using Fine-Grained Name Typing"
+    "title": "Evaluating Word Embeddings in Multi-label Classification Using Fine-Grained Name Typing",
+    "values": {
+        "building on past work": "We propose a new evaluation method for word embeddings based on multi-label classification given a word embedding. The task we use is finegrained name typing: given a large corpus, find all types that a name can refer to based on the name embedding. Given the scale of entities in knowledge bases, we can build datasets for this task that are complementary to the current embedding evaluation datasets in: they are very large, contain fine-grained classes, and allow the direct evaluation of embeddings without confounding factors like sentence context."
+    }
 }

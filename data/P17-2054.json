@@ -19,5 +19,10 @@
     "numcitedby": 64,
     "year": 2017,
     "month": "July",
-    "title": "Multi-Task Learning of Keyphrase Boundary Classification"
+    "title": "Multi-Task Learning of Keyphrase Boundary Classification",
+    "values": {
+        "ease of implementation": "This approach to multi-task learning has three advantages: a) It significantly reduces Rademacher complexity (Baxter, 2000; Maurer, 2007) , i.e., the risk of over-fitting, b) it is spaceefficient, reducing the number of parameters, and c) it is easy to implement.",
+        "novelty": " We overcome this by identifying good auxiliary tasks and cast it as a multi-task learning problem.  We study the so far widely underexplored, though in practice important task of scientific keyphrase boundary classification, for which only a small amount of training data is available.  We present a new state of the art for keyphrase boundary classification, using data from related, auxiliary tasks; in particular, super-sense tagging and identification of multi-word expressions.",
+        "performance": "We perform experiments for both keyphrase boundary identification (unlabelled), and keyphrase boundary identification and classification (labelled). Metrics measured are token-level precision, recall and F1, which are micro-average results across keyphrase types. Our single-and multi-task networks are three-layer, bi-directional LSTMs (Graves and Schmidhuber, 2005) with pre-trained SENNA embeddings. For the SemEval corpus, all five labelled multi-task learning models outperform both examples of previous work, as well as our singletask BiLSTM baseline, by some margin. Overall, multi-task models show bigger improvements over baselines for the SemEval corpus, and all models achieve better results on ACL RD-TEC. All models struggle with semantically vague or broad keyphrases (e.g. 'items', 'scope', 'key') and long keyphrases, especially those containing clauses (e.g. 'complete characterisation of the oxide particles', 'earley deduction proof procedure for definite clauses'). The multi-task models generally outperform the BiLSTM baseline for long phrases (e.g. 'language-independent system for"
+    }
 }

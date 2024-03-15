@@ -18,5 +18,9 @@
     "numcitedby": 3,
     "year": 2016,
     "month": "September",
-    "title": "Parsing Linear Context-Free Rewriting Systems with Fast Matrix Multiplication"
+    "title": "Parsing Linear Context-Free Rewriting Systems with Fast Matrix Multiplication",
+    "values": {
+        "ease of implementation": "This indicates that similar speed-ups may be possible in practice using our algorithm for LCFRS parsing.",
+        "novelty": "We also show that this algorithm can be used as a subroutine to obtain a recognition algorithm for general binary LCFRS with running time O(n \u03c9d+1 ). The currently best known \u03c9 is smaller than 2.38. Our result provides another proof for the best known result for parsing mildly context-sensitive formalisms such as combinatory categorial grammars, head grammars, linear indexed grammars, and tree-adjoining grammars, which can be parsed in time O (n 4.76 )."
+    }
 }

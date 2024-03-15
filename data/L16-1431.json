@@ -18,5 +18,9 @@
     "numcitedby": 4,
     "year": 2016,
     "month": "May",
-    "title": "Using Data Mining Techniques for Sentiment Shifter Identification"
+    "title": "Using Data Mining Techniques for Sentiment Shifter Identification",
+    "values": {
+        "novelty": "This paper presents a novel and efficient semi-automatic method for identifying sentiment shifters in drug reviews, aiming at improving the overall accuracy of opinion mining systems. First, we employed data mining techniques to mine sentiment shifter patterns from a domain-specific corpus of polarity-tagged sentences. These patterns include different kinds of sentiment shifters such as negation (e.g., \"no\", \"not\", \"no longer\"), shifter verbs (e.g., \"reduce\", \"eliminate\") and quantifiers (e.g., \"less\"), and can detect both local and long-distance shifters.",
+        "performance": "Experiments on drug reviews demonstrate that extracted shifters can improve the precision of the lexicon-based approach for polarity classification 9.25 percent. Table 2 : Comparison of the precision of the proposed approach for polarity classification with lexicon-based approaches Figure 1 shows that the proposed approach for shifter identification outperforms NegEx algorithm (a domain-specific method) and general purpose methods."
+    }
 }

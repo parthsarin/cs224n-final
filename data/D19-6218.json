@@ -16,5 +16,8 @@
     "numcitedby": 3,
     "year": 2019,
     "month": "November",
-    "title": "Writing habits and telltale neighbors: analyzing clinical concept usage patterns with sublanguage embeddings"
+    "title": "Writing habits and telltale neighbors: analyzing clinical concept usage patterns with sublanguage embeddings",
+    "values": {
+        "building on past work": "   However, one key axis of sublanguage characterization that has not yet been explored is how domain-specific clinical concepts differ in their usage patterns among different document types.     We show that overlap in nearest neighborhoods can reliably distinguish between document types while controlling for noise in the embedding process.   "
+    }
 }

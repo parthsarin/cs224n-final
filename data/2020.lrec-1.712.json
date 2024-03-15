@@ -18,5 +18,9 @@
     "numcitedby": 3,
     "year": 2020,
     "month": "May",
-    "title": "Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation"
+    "title": "Figure Me Out: A Gold Standard Dataset for Metaphor Interpretation",
+    "values": {
+        "novelty": "We believe that this resource can be used to enrich Wiktionary (or any lexical resource) by including a metaphor category similar to the idioms one. Our methodology and annotation scheme can be generalised to annotate metaphors of any syntactic structure in any text genre/type. We believe that this dataset will be invaluable for the development and evaluation of approaches for metaphor interpretation.",
+        "reproducibility": "Our methodology and annotation scheme can be generalised to annotate metaphors of any syntactic structure in any text genre/type. We believe that this dataset will be invaluable for the development and evaluation of approaches for metaphor interpretation. Moreover, we will release the high-quality subset of the data where we only consider the instances with more than 60% majority agreement and a moderate interannotator agreement of 0.48 in terms of Fleiss' kappa."
+    }
 }

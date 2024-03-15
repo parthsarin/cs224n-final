@@ -19,5 +19,9 @@
     "numcitedby": 12,
     "year": 2019,
     "month": "September",
-    "title": "Pseudonymisation of {S}wedish Electronic Patient Records Using a Rule-Based Approach"
+    "title": "Pseudonymisation of {S}wedish Electronic Patient Records Using a Rule-Based Approach",
+    "values": {
+        "building on past work": "One of the first attempt in creating surrogates after the DEID process was presented by Sweeney (1996) . Dates were replaced with a similar date nearby. Personal names were replaced with a fictitious unique name that sounded reasonable. (Meystre et al. The authors of the article (Antfolk and Branting, 2016) kindly provided a hierarchical list with locations.",
+        "performance": "Only 3.5 percent of the records were correctly judged as pseudonymised and 1.5 percent of the real ones were wrongly judged as pseudo, giving that in average 91 percent of the pseudonymised records were judged as real. The senior evaluator obtained a precision of 67 percent and a recall of 10 percent. The junior evaluator obtained a precision of 75 percent and a recall of 8 percent. None of the pseudonymised records was judged as pseudonymised by both of the evaluators."
+    }
 }

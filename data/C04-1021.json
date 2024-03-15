@@ -18,5 +18,9 @@
     "numcitedby": 196,
     "year": 2004,
     "month": "aug 23{--}aug 27",
-    "title": "Modern Natural Language Interfaces to Databases: Composing Statistical Parsing with Semantic Tractability"
+    "title": "Modern Natural Language Interfaces to Databases: Composing Statistical Parsing with Semantic Tractability",
+    "values": {
+        "building on past work": "We restrict ourselves to the semantically tractable subset of English rather than to a particular knowledge domain. Finally, in addition to offering formal guarantees, we assess the prevalence of our \"sublanguage\" in the ATIS data.",
+        "novelty": " To address this quandary, this paper reports on the PRECISE NLI, which uses a statistical parser as a \"plug in\".  We consider two methods of resolving this quandary and assess their performance individually and in concert on the ATIS data set.   We found that 95.8% of the ATIS questions were ST questions.  This accuracy is close to the maximum that PRECISE can achieve, given its incomplete semantic information-we found that, when all parsing errors are corrected by hand, PRECISE's accuracy is 95.8%."
+    }
 }

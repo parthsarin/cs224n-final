@@ -18,5 +18,10 @@
     "numcitedby": 0,
     "year": 2020,
     "month": "June",
-    "title": "{C}hinese Spelling Check based on Neural Machine Translation"
+    "title": "{C}hinese Spelling Check based on Neural Machine Translation",
+    "values": {
+        "building on past work": "In contrast, we focus on correcting Chinese spelling errors. Building an error correction system using machine learning techniques typically require a considerable amount of error-annotated data. Unfortunately, limited availability of error-annotated data is holding back progress in the area of automatic error correction. In a study closer to our work, Gu and Lang (2017) applied sequence-to-sequence (seq2seq) model to construct a word-based Chinese spelling error corrector. They established their own error corpus for training and evaluation by transplanting errors into an error-free news corpus. Comparing with traditional methods, their model can correct errors more effectively. Until now, most work on error correction done by using NMT model aimed at grammatical errors for English text. In contrast, we focus on correcting Chinese spelling errors.",
+        "novelty": "The method involves combining real edit logs and artificially generated errors to train a neural machine translation model that translates a potentially erroneous sentence into correct one.",
+        "performance": " The experiment results show that our model achieves significantly better performance, especially at an extremely low false alarm rate.    UDN + Artificial (1:4) performs substantially better than the other models, noticeably improving on all metrics. "
+    }
 }

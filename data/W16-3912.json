@@ -18,5 +18,10 @@
     "numcitedby": 8,
     "year": 2016,
     "month": "December",
-    "title": "Unsupervised Stemmer for {A}rabic Tweets"
+    "title": "Unsupervised Stemmer for {A}rabic Tweets",
+    "values": {
+        "building on past work": "  Our work is, to the best of our knowledge, the first step towards developing a stemmer for Arabic tweets or similar text styles which can benefit a wide range of downstream NLP applications such as information extraction and machine translation.  We define all possible affixes and write a set of rules of valid prefixes, suffixes and word forms and select the shortest stem of a word as the correct stem.  We have compared our stemming accuracy with (Al-Kabi et al., 2015) , (Khoja and Garside., 1999) and (Ghwanmeh et al., 2009) . Those three stemmers yield accuracies 75.03%, 74.03% and 67.40% respectively (Al-Kabi et al., 2015) . Our results show improvements over the performance of those three well-known stemmers for Arabic.",
+        "novelty": "Although Arabic tweets and MSA are closely related and share many characteristics, there are substantial differences between them in lexicon and syntax. In this paper, we introduce a light Arabic stemmer for Arabic tweets. Our results show improvements over the performance of a number of well-known stemmers for Arabic. Our work is, to the best of our knowledge, the first step towards developing a stemmer for Arabic tweets or similar text styles which can benefit a wide range of downstream NLP applications such as information extraction and machine translation.",
+        "performance": "The results of the tests on our stemmer yield an accuracy of 77.91% of the whole collection. We have compared our stemming accuracy with (Al-Kabi et al., 2015) , (Khoja and Garside., 1999) and (Ghwanmeh et al., 2009) . Those three stemmers yield accuracies 75.03%, 74.03% and 67.40% respectively (Al-Kabi et al., 2015) . Our results show improvements over the performance of those three well-known stemmers for Arabic."
+    }
 }

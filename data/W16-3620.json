@@ -16,5 +16,8 @@
     "numcitedby": 8,
     "year": 2016,
     "month": "September",
-    "title": "On the Contribution of Discourse Structure on Text Complexity Assessment"
+    "title": "On the Contribution of Discourse Structure on Text Complexity Assessment",
+    "values": {
+        "performance": "When all features are used, the accuracy of the classifier trained on the SEWbased data set is 94.96% and the one trained on the PDTB-based data set is 69.04%. Considering only one class of features, the models trained using coherence features on both data sets outperformed the others (93.76% and 64.02%) and their accuracy are statistically as high as using all features together. The last section of Table 3 shows the classification results when excluding only one class of features. In this case, removing coherence features leads to a more significant drop in performance compared to the other classes of features. Using our pairwise classifier built with all the features, we ranked the features by their information gain. As can be seen in Table 4 , coherence features are among the most discriminating features on the PDTB-based data set as they hold the top three positions. Also, the most discriminating feature on the SEW-based data set is a coherence feature. This feature on its own outperformed the individual class of surface features and lexical features and performed as well as combining the features of the two classes (four features)."
+    }
 }

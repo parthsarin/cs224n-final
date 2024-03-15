@@ -19,5 +19,8 @@
     "numcitedby": 45,
     "year": 2012,
     "month": "7-8 June",
-    "title": "{S}em{E}val-2012 Task 4: Evaluating {C}hinese Word Similarity"
+    "title": "{S}em{E}val-2012 Task 4: Evaluating {C}hinese Word Similarity",
+    "values": {
+        "performance": "Kendall's tau is used as the evaluation metric. Three of them got the positive correlation rank compared with the gold standard data Generally the tau's value is very small, it indicates that obtaining a good rank is still difficult."
+    }
 }

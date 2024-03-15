@@ -20,5 +20,10 @@
     "numcitedby": 16,
     "year": 2020,
     "month": "July",
-    "title": "The Paradigm Discovery Problem"
+    "title": "The Paradigm Discovery Problem",
+    "values": {
+        "building on past work": " There are insights for cognitive modeling to be won (Pinker, 2001; Goldwater, 2007) and intuitions on combating sparse data for language generation (King and White, 2018) to be accrued. Unsupervised language processing also has natural applications in the documentation of endangered languages (Zamaraeva et al., 2019) where a lot of annotated data is never likely to exist.  Our paper presents a concrete formalization of the PDP. Then, as a baseline for future work, we introduce a heuristic benchmark system. Our benchmark system takes an unannotated text corpus and a lexicon of words from the corpus to be analyzed. It first clusters the lexicon by cell and then by paradigm making use of distributional semantics and string similarity. Finally, it uses this clustering as silver-standard supervision to bootstrap a neural transducer (Vaswani et al., 2017) that generates the desired target inflections.  We propose two separate metrics to evaluate both the clustering of attested forms into paradigms and cells and the prediction of unseen inflected forms. Our metrics handle non-canonical morphological behavior discussed in theoretical literature (Corbett, 2005) and extend to the full PDP.",
+        "novelty": "We formalize the PDP and develop evaluation metrics for judging systems. Our benchmark system first makes use of word embeddings and string similarity to cluster forms by cell and by paradigm. Then, we bootstrap a neural transducer on top of the clustered data to predict words to realize the empty paradigm slots. An error analysis of our system suggests clustering by cell across different inflection classes is the most pressing challenge for future work.",
+        "performance": " For three of the five languages we consider, our benchmark system predicts unattested inflections one of its subtasks which Boy\u00e9 and Schalchli (2019) call the paradigm cell finding problem (see \u00a72.2).  joint modeling and making better use of distributional semantic information."
+    }
 }

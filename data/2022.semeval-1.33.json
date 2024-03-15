@@ -21,5 +21,9 @@
     "numcitedby": 1,
     "year": 2022,
     "month": "July",
-    "title": "{U}o{R}-{NCL} at {S}em{E}val-2022 Task 3: Fine-Tuning the {BERT}-Based Models for Validating Taxonomic Relations"
+    "title": "{U}o{R}-{NCL} at {S}em{E}val-2022 Task 3: Fine-Tuning the {BERT}-Based Models for Validating Taxonomic Relations",
+    "values": {
+        "novelty": "This task is divided into two subtasks: classification and regression. To tackle this task, this work proposes to fine-tune different BERT-based models pre-trained on different languages. To effectively validate taxonomic relations in such constructions, understanding the contexts or semantic meanings of these constructions are the key. The mean squared error loss function is used for fine-tuning this model. This work proposes to fine-tune the pre-trained BERT-based models to validate taxonomic relations in different presuppositional constructions.",
+        "performance": "According to the experimental results, the fine-tuned BERT-based models are effective compared to the baselines for classification. For regression, the fine-tuned models show promising performances with the possibility of improvement. For sub-task 1, the models were evaluated by Precision, Recall, F1 and F1-macro. For sub-task 2, they were evaluated by MSE, RMSE and Spearman Correlation (\u03c1). From this table, It-C and Fr-C performed better than the baseline in every evaluation metric. Meanwhile, En-C outperformed the baselines in terms of Precision, F1 and F1-macro. This suggests that the proposed approaches predicted the acceptability scores close to their actual scores but their ranks are dissimilar."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 4,
     "year": 2008,
     "month": "",
-    "title": "Automatic Rule Acquisition for {C}hinese Intra-chunk Relations"
+    "title": "Automatic Rule Acquisition for {C}hinese Intra-chunk Relations",
+    "values": {
+        "novelty": "We also proposed an expectation precision index to objectively evaluate the descriptive capabilities of the refined rule base.",
+        "performance": "Based on the rule base automatically acquired through the above algorithm, we developed a rule-based MWC parser to automatically recognize different kinds of MWCs in the Chinese sentences after word segmentation and POS tagging. Through \u03b8-based disambiguation technique, the parser can output most reliable MWCs in the disambiguated region of a sentence and keep some ambigous regions with less reliable MWC structures to provide multiple selection possibilities for a full syntactic parser. We used three commonly-used indexes : precision, recall and F-measure to evaluate the performance of the parser. The differences of F-measures among three MWC subsets, i.e. noun chunks, verb chunks and other chunks, show interesting positive association with the differences of their EP indexes listed in the previous sections. When we apply the acquired rule base with higher EP index in the rule-based parser, we can get better parsing performance. It indicates that EP value can be used as an important objective index to evaluate the descriptive capability of the rule base automatically acquired for large scale annotated corpus."
+    }
 }

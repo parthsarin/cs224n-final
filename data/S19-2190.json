@@ -18,5 +18,10 @@
     "numcitedby": 4,
     "year": 2019,
     "month": "June",
-    "title": "{A}ndrej{J}an at {S}em{E}val-2019 Task 7: A Fusion Approach for Exploring the Key Factors pertaining to Rumour Analysis"
+    "title": "{A}ndrej{J}an at {S}em{E}val-2019 Task 7: A Fusion Approach for Exploring the Key Factors pertaining to Rumour Analysis",
+    "values": {
+        "building on past work": "While this work was developed on the foundations laid out by previous research in the field Derczynski et al. A model for automatic identification of rumourous tweets and classification of their responses into two denying and supporting classes, presented in Qazvinian et al. While, we built upon the experiences of this research, especially in the approach of replacing a multi-class classification problem with a hierarchical pipeline of binary classifiers, our approach differs in a number of aspects. In particular, we further enhance the representation of rumourous posts with a number of features, from word embeddings, sentiment and stylistic features to structural properties of interaction threads. The research study by Lukasik et al. (2015) extends on the work of Qazvinian et al. The approach presented in this paper follows some of these ideas, although it differs in the scope and the way features are operationalized. For instance, TF-IDF n-gram counts and clusters of Word2Vec embeddings were used in our model.",
+        "novelty": "This paper contributes to the research efforts of automatically determining the veracity of rumourous tweets and classifying their replies according to stance. Our research objective was to investigate the interplay between a number of phenomenological and contextual features of rumours, in particular, we explore the extent to which network structural characteristics, metadata and user profiles could complement the linguistic analysis of the written content for the task at hand. The current findings strongly demonstrate that supplementary sources of information play significant role in classifying the veracity and the stance of Twitter interactions deemed to be rumourous.",
+        "performance": "(2017) interpretation of the results."
+    }
 }

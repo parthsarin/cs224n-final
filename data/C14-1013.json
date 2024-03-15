@@ -19,5 +19,10 @@
     "numcitedby": 5,
     "year": 2014,
     "month": "August",
-    "title": "Augmenting Business Entities with Salient Terms from {T}witter"
+    "title": "Augmenting Business Entities with Salient Terms from {T}witter",
+    "values": {
+        "building on past work": "We extract the terms from Twitter, and from the Web. We evaluate the term distributions describing a place in the context of local search for the U.S. and Brazil. We construct a corpus of search engine queries with local intent, and evaluate the retrieval of businesses in response to the queries. We compare several different strategies for augmenting the representation of the business to a baseline system described in Colombo et al. Our method uses co-occurrence statistics and user frequency to extract relevant salient terms.  The results demonstrate the effectiveness of this approach when compared with a competitive baseline that uses term frequency to extract salient terms.",
+        "novelty": "We evaluate our system with the local search task of ranking businesses given a query, in both the U.S. and in Brazil. We show that augmenting entities with salient terms from social media and the Web improves precision at rank one for the U.S. by 18%, and for Brazil by 9% over a competitive baseline. For precision at rank three, the improvement for the U.S. is 19%, and for Brazil 15%.",
+        "performance": "For precision at rank three, the improvement for the U.S. is 19%, and for Brazil 15%. The fact that the precision at rank three is lower than precision at rank one is an artifact of their being a single relevant result in most cases."
+    }
 }

@@ -31,5 +31,10 @@
     "numcitedby": 2,
     "year": 2020,
     "month": "December",
-    "title": "{B}abel{E}nconding at {S}em{E}val-2020 Task 3: Contextual Similarity as a Combination of Multilingualism and Language Models"
+    "title": "{B}abel{E}nconding at {S}em{E}val-2020 Task 3: Contextual Similarity as a Combination of Multilingualism and Language Models",
+    "values": {
+        "building on past work": "In the past few years, techniques to build language models became very popular. Solutions for measuring contextual similarity between word pairs and word-sense disambiguation benefited from BERT-like language models. Word-sense disambiguation can also take advantage of multilingualism.",
+        "novelty": "BabelEnconding was applied to both subtasks and ranked among the top-3 in six out of eight task/language combinations and was the highest scoring system three times.",
+        "performance": "Our additional experiments in English and Croatian showed that adding more languages noticeably improved the results for Croatian in both subtasks. In English, the gain was small and happened only in Subtask 2. A combination of BERT and word embeddings also proved to be beneficial for that task. Google Translator outperforms Bing in both subtasks for all languages."
+    }
 }

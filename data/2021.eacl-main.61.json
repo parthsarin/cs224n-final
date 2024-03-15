@@ -18,5 +18,10 @@
     "numcitedby": 11,
     "year": 2021,
     "month": "April",
-    "title": "Does the Order of Training Samples Matter? Improving Neural Data-to-Text Generation with Curriculum Learning"
+    "title": "Does the Order of Training Samples Matter? Improving Neural Data-to-Text Generation with Curriculum Learning",
+    "values": {
+        "building on past work": " We show that by simply changing the order of samples during training, neural models can be improved via the use of curriculum learning.  We explore various difficulty metrics at the level of the data, text, and data-text pairs, and propose an effective novel metric.  Bengio et al. (2009) first demonstrated empirically that curriculum learning approaches can decrease training times and improve generalization; later approach address these issues by changing the minibatch sampling strategy to also include model competence (Kocmi and Bojar, 2017; Zhou et al., 2020; Platanios et al., 2019; Liu et al., 2020; Zhang et al., 2018 Zhang et al., , 2019)) .  Our approach considers data and text jointly, similar to edit distance metric -Levenshtein (Levenshtein, 1966) and Damerau-Levenshtein Distance (Damerau, 1964; Brill and Moore, 2000a) , which was used as a content ordering metric in Wiseman et al. (2017) to measure the extent of alignment between data slots and text tokens.",
+        "novelty": " We show that by simply changing the order of samples during training, neural models can be improved via the use of curriculum learning.   We explore various difficulty metrics at the level of the data, text, and data-text pairs, and propose an effective novel metric.   We call this variant the plain edit distance (PED).  ",
+        "performance": "We explore various difficulty metrics at the level of the data, text, and data-text pairs, and propose an effective novel metric. It also outperforms all other metrics by roughly 1 BLEU."
+    }
 }

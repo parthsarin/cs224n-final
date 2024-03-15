@@ -18,5 +18,9 @@
     "numcitedby": 18,
     "year": 2009,
     "month": "June",
-    "title": "Using Emotion to Gain Rapport in a Spoken Dialog System"
+    "title": "Using Emotion to Gain Rapport in a Spoken Dialog System",
+    "values": {
+        "building on past work": "Informal user comments about the baseline system helped determine missing features for automated rapport building technology. One salient feature that is missing is attention to emotion in voice. This confirmed the direction of this research. The full system will provide a means to evaluate whether emotion contributes to automated rapport building. This system will be based on several available technologies and previous research in spoken dialog systems. The emotion annotations of the two judges show that strategies for adaptive emotion responses can be extracted from the corpus. Communication Accomodation Theory states that interlocutors mirror nonverbal behaviors during interaction when attempting to decrease social distance. The coordinator's emotional responses were correlated with the student's emotional utterances to determine if emotional mirroring (matching student emotion and coordinator response) was present in the persuasive dialog corpus.",
+        "novelty": "There is a possibility that using a dimensional approach will enable more accurate modeling of subtle emotions that exist in spontaneous human-human dialogs. The full system will provide a means to evaluate whether emotion contributes to automated rapport building."
+    }
 }

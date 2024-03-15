@@ -19,5 +19,8 @@
     "numcitedby": 11,
     "year": 2006,
     "month": "July",
-    "title": "Extending {T}ime{ML} with Typical Durations of Events"
+    "title": "Extending {T}ime{ML} with Typical Durations of Events",
+    "values": {
+        "performance": "SVM with linear kernel achieves the best overall precision (76.6%). Compared with the baseline (59.0%) and human agreement (87.7%), this level of performance is very encouraging, especially as the learning is from such limited training data. SVM again achieves the best performance with 67.9% test precision (baseline 51.5% and human agreement 79.8%) in \"approximate agreement\" where temporal units are considered to match if they are the same temporal unit or an adjacent one."
+    }
 }

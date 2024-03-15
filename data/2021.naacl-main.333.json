@@ -20,5 +20,10 @@
     "numcitedby": 5,
     "year": 2021,
     "month": "June",
-    "title": "Inductive Topic Variational Graph Auto-Encoder for Text Classification"
+    "title": "Inductive Topic Variational Graph Auto-Encoder for Text Classification",
+    "values": {
+        "building on past work": "Although few studies such as (Wang et al., 2020) have proposed incorporating a topic structure into GCNs, the topics are extracted in advance from the set of documents, independently from the graph and information propagation among documents and words. We believe that the topics should be determined in accordance with the connections in the graph. For example, the fact that two words are connected provides extra information that these words are on a similar topic(s). a document can be classified only if it is already seen in the training phase (Wang et al., 2020; Yao et al., 2019; Liu et al., 2020) . In contrast with these studies, we focus on integrating the topic model into GCN-based VGAE for supervised learning tasks and derive word-topic and document-topic distributions simultaneously.",
+        "novelty": " to address both aforementioned issues. We propose to combine the topic model and graph based information propagation in a unified framework with VGAE to learn interpretable representations for words and documents.   In contrast with these studies, we focus on integrating the topic model into GCN-based VGAE for supervised learning tasks and derive word-topic and document-topic distributions simultaneously.",
+        "performance": "l 2 (0, 1, 2, 3)."
+    }
 }

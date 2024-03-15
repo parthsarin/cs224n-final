@@ -18,5 +18,9 @@
     "numcitedby": 11,
     "year": 2019,
     "month": "June",
-    "title": "Plain {E}nglish Summarization of Contracts"
+    "title": "Plain {E}nglish Summarization of Contracts",
+    "values": {
+        "building on past work": "We propose the task of the automatic summarization of legal documents in plain English for a non-legal audience. We hope that such a technological advancement would enable a greater number of people to enter into everyday contracts with a better understanding of what they are agreeing to. As there is not currently a dataset in this domain large enough for supervised methods, we suggest the use of methods developed for simplification and/or style transfer.",
+        "performance": "Crucially, ROUGE scores are much higher on DUC 2002 than on our legal dataset. We speculate that this is due to the highly abstractive nature of this data, in addition to the divergent styles of the summaries and original texts. In general, Lead-K performed best on both TOS;DR and DUC 2002. The performance gap between TextRank and Lead-K is much larger on DUC 2002 than on our dataset. On the legal datasets, TextRank outperformed Lead-K on TL-DRLegal and is very close to the performance of Lead-K on TOS;DR. Additionally, Random-K performed only about 2 ROUGE points lower than Lead-K on our dataset, while it scored almost 8 points lower on the DUC 2002 dataset. We speculate that this is due to the highly abstractive nature of this data, in addition to the divergent styles of the summaries and original texts. Qualitative Analysis We examined some of the results of the unsupervised extractive techniques to get a better understanding of what methods might improve the results. As shown by example (1), the extractive systems performed well when the reference summaries were either an extract or a compressed version of the original text. However, show various ways the extractive systems were not able to perform well."
+    }
 }

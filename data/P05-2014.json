@@ -18,5 +18,9 @@
     "numcitedby": 64,
     "year": 2005,
     "month": "June",
-    "title": "Dialogue Act Tagging for Instant Messaging Chat Sessions"
+    "title": "Dialogue Act Tagging for Instant Messaging Chat Sessions",
+    "values": {
+        "novelty": "The novelty and popularity of IM dialogue and the significant differences between written and spoken English warrant specific research on IM dialogue. We show that IM dialogue has some unique problems and attributes not found in transcribed spoken dialogue, which has been the focus of most work in discourse modelling. The present study addresses the problems presented by these differences when modelling dialogue acts in IM dialogue. The present study addresses the problems presented by these differences when modelling dialogue acts in IM dialogue.",
+        "performance": "This involved the collection of a small set of task-based dialogues and annotating them with a revised tag set. We then dealt with segmentation and synchronisation issues which do not arise in spoken dialogue. The model we developed combines naive Bayes and dialogue-act n-grams to obtain better than 80% accuracy in our tagging experiment. Evaluation of the results was conducted via 9-fold cross-validation across the 9 dialogues in our corpus using 8 dialogues for training and 1 for testing. The baseline used for this task was to assign the most frequently observed dialogue act to each utterance, namely, STATEMENT. The bigram model obtains the best result with 81.6% accuracy. The trigram model produced a slightly lower accuracy rate, partly due to a lack of training data and to dialogue act adjacency pairs not being dependent on dialogue acts further removed as discussed in \u00a74."
+    }
 }

@@ -19,5 +19,8 @@
     "numcitedby": 1,
     "year": 2015,
     "month": "September",
-    "title": "Visual Classifier Prediction by Distributional Semantic Embedding of Text Descriptions"
+    "title": "Visual Classifier Prediction by Distributional Semantic Embedding of Text Descriptions",
+    "values": {
+        "novelty": " The main question we address in this paper is how to use purely textual description of categories with no training images to learn a visual classifiers for these categories.  In contrast to most related work, we go beyond simple use of tags and image captions, and apply standard Natural Language Processing techniques to typical text to learn visual classifiers.  The description of a new category is purely textual, and the process is totally automatic without human annotation beyond the category labels.    We also proposed a distributional semantic kernel between text descriptions which is shown to be effective in our setting.  The proposed framework is not restricted to textual descriptions, and can also be applied to other forms knowledge representations.  We also show that our framework is applicable to other form of side information including weak attributes in addition to text."
+    }
 }

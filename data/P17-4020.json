@@ -17,5 +17,9 @@
     "numcitedby": 59,
     "year": 2017,
     "month": "July",
-    "title": "{W}eb{C}hild 2.0 : Fine-Grained Commonsense Knowledge Distillation"
+    "title": "{W}eb{C}hild 2.0 : Fine-Grained Commonsense Knowledge Distillation",
+    "values": {
+        "building on past work": "This paper presents automated methods targeting the acquisition of large-scale, semantically organized commonsense knowledge. This goal poses challenges because commonsense knowledge is: implicit and sparse, as humans tend not to explicitly express the obvious multimodal, as it is spread across textual and visual sources affected by reporting bias, as uncommon facts are reported disproportionally context dependent, which implies, among other things, that at an abstract level it is perhaps best described as merely holding with a certain confidence.  Prior state-of-the-art methods to acquire commonsense are either not automated or based on shallow representations. Thus, they cannot automatically produce large-scale, semantically organized commonsense knowledge.  Properties of objects: acquisition of properties like hasSize, hasShape, etc. We develop a transductive approach to compile semantically organized properties.  Relationships between objects: acquisition of relations like largerThan, partOf, memberOf, etc. We develop a linearprogramming based method to compile comparative relations, and, we further develop a method based on statistical and logical inference to compile part-whole relations.  Their interactions: acquisition of knowledge about activities such as drive a car, park a car, etc., with expressive frame based representation including temporal and spatial attributes. For this, our Knowlywood approach is based on semantic parsing and probabilistic graphical models to compile activity knowledge. ",
+        "performance": "The WebChild 2.0 KB is bigger and richer than any other automatically constructed commonsense KB."
+    }
 }

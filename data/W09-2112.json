@@ -20,5 +20,8 @@
     "numcitedby": 84,
     "year": 2009,
     "month": "June",
-    "title": "{G}en{ERR}ate: Generating Errors for Use in Grammatical Error Detection"
+    "title": "{G}en{ERR}ate: Generating Errors for Use in Grammatical Error Detection",
+    "values": {
+        "performance": "Wagner et al. The results are encouraging. There is a significant increase in accuracy when we train on the newungram-BNC set instead of the old-ungram-BNC set. This increase is on the ungrammatical side of the test data, i.e. an increase in recall, demonstrating that by analysing a small set of data from our test domain, we can automatically create more effective training data. Of course, the accuracy is still rather low but we suspect that some of this difference can be explained by domain effects -the sentences in the training data are BNC written sentences (or distorted versions of them) whereas the sentences in the learner corpus are transcribed spoken utterances. There is a 6.2% drop in accuracy when we move from training on original CLC sentences to artificially generated sentences. This is somewhat disappointing since it means that we have not completely succeeded in replicating the CLC errors using GenERRate. It is promising, however, that much of the performance degradation is recovered when a mixture of the two types of ungrammatical training data is used, suggesting that artificial data could be used to augment naturally occurring training sets"
+    }
 }

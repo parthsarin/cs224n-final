@@ -18,5 +18,9 @@
     "numcitedby": 7,
     "year": 2020,
     "month": "July",
-    "title": "{STARC}: Structured Annotations for Reading Comprehension"
+    "title": "{STARC}: Structured Annotations for Reading Comprehension",
+    "values": {
+        "building on past work": " Our approach primarily falls into the third category. The basic 4-answer format we use is identical to RACE (Lai et al., 2017) , which enables training models on RACE and evaluating them on OneStopQA.  MCTest (Richardson et al., 2013) was created with a similar purpose to RACE, but has a low text difficulty level suitable for 7-year-olds.  Span identification QA is a task in which the correct answer to the question is one or more textual spans which the reader is required to mark.  Prior work has explored both manual and automatic auxiliary span annotations for correct answers in multiple choice QA datasets (Khashabi et al., 2018; Wang et al., 2019) .",
+        "novelty": " We present STARC (Structured Annotations for Reading Comprehension), a new annotation framework for assessing reading comprehension with multiple choice questions. Our framework introduces a principled structure for the answer choices and ties them to textual span annotations.   We use this dataset to demonstrate that STARC can be leveraged for a key new application for the development of SAT-like reading comprehension materials: automatic annotation quality probing via span ablation experiments.   We further show that it enables in-depth analyses and comparisons between machine and human reading comprehension behavior, including error distributions and guessing ability.   Our experiments also reveal that the standard multiple choice dataset in NLP, RACE (Lai et al., 2017) , is limited in its ability to measure reading comprehension.   OneStopQA provides an alternative test set for reading comprehension which alleviates these shortcomings and has a substantially higher human ceiling performance. "
+    }
 }

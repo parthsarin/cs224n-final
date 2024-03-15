@@ -19,5 +19,10 @@
     "numcitedby": 92,
     "year": 2019,
     "month": "August",
-    "title": "{M}icrosoft Translator at {WMT} 2019: Towards Large-Scale Document-Level Neural Machine Translation"
+    "title": "{M}icrosoft Translator at {WMT} 2019: Towards Large-Scale Document-Level Neural Machine Translation",
+    "values": {
+        "building on past work": "Our work is inspired rather by recent results on long-sequence language modelling than by previous document-level machine translation approaches. However, Tiedemann and Scherrer (2017) needs to be emphasized as an important precursor to this paper. Devlin et al. (2018) and Radford et al. (2019) have shown significant impact by training deeper models on large data sets with long-sequence context. We adopt the long-sequence training and increased model-depth in our experiments.",
+        "novelty": "Our main focus is document-level neural machine translation with deep transformer models. Using document boundaries present in the authentic and synthetic parallel data, we create sequences of up to 1000 subword segments and train transformer translation models. We find that current transformer models are perfectly capable of translating whole documents with up to 1000 subword segments with improved quality over comparable sentence-level systems. Deeper models seem to benefit more from the added context. Based on preliminary human evaluation results, evaluators strongly prefer the document-level systems over comparable sentence-level systems. The document-level systems also seem to score higher than the human references in source-based direct assessment.",
+        "performance": "Based on preliminary human evaluation results, evaluators strongly prefer the document-level systems over comparable sentence-level systems. The document-level systems also seem to score higher than the human references in source-based direct assessment."
+    }
 }

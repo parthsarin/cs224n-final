@@ -18,5 +18,9 @@
     "numcitedby": 9,
     "year": 2018,
     "month": "July",
-    "title": "Eyes are the Windows to the Soul: Predicting the Rating of Text Quality Using Gaze Behaviour"
+    "title": "Eyes are the Windows to the Soul: Predicting the Rating of Text Quality Using Gaze Behaviour",
+    "values": {
+        "novelty": "To the best of our knowledge, our work is pioneering in using gaze information for predicting text quality rating.",
+        "performance": "Textual features when augmented with gaze based features show significant improvement for all the properties. To test our hypothesis -that adding gaze features make a statistically significant improvement -we run the t-test. Our null hypothesis: Gaze based features do not help in prediction, any more than text features themselves, and whatever improvements happen when gaze based features are added to the textual features, are not statistically significant. We choose a significance level of p < 0.001. For all the improvements, we found them to be statistically significant above this \u03b1 level, rejecting our null hypothesis."
+    }
 }

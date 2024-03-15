@@ -18,5 +18,10 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "Generating Repetitions with Appropriate Repeated Words"
+    "title": "Generating Repetitions with Appropriate Repeated Words",
+    "values": {
+        "building on past work": "To the best of our knowledge, this is the first neural approach to address repetition generation. We propose Weighted Label Smoothing, a smoothing method for explicitly learning which words to repeat during finetuning, and a repetition scoring method that can output more appropriate repetitions during decoding.",
+        "novelty": " To the best of our knowledge, this is the first study to use a neural model for generating repetitions.   We propose RSM to select repetitions containing appropriate repeated words during decoding.",
+        "performance": " WLS + RSM obtained the highest scores for all metrics, confirming the effectiveness of both WLS and RSM.  There were friends who play Go.) Rule-Based \u56f2\u7881\u3067\u3059\u304b. (Go, is it?)  T5 \u56f2\u7881\u3092\u3057\u3066\u304f\u308c\u305f\u3093\u3067\u3059\u306d. (You played Go.) Ours \u4ef2\u9593\u5185\u3067\u56f2\u7881\u3059\u308b\u4eba\u3044\u305f\u3093\u3067\u3059\u304b. (There were friends who play Go.)  WLS + RSM outperformed the other methods for all measures, confirming its effectiveness."
+    }
 }

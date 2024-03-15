@@ -20,5 +20,8 @@
     "numcitedby": 2,
     "year": 1995,
     "month": "December",
-    "title": "Automatic Acquisition of Class-based Rules for Word Alignment"
+    "title": "Automatic Acquisition of Class-based Rules for Word Alignment",
+    "values": {
+        "performance": "That allows the algorithm to work in situation where only a small bilingual corpus is available. We have achieved an application rate of 81.8% and precision rate of 93.3%."
+    }
 }

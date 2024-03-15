@@ -18,5 +18,9 @@
     "numcitedby": 8,
     "year": 2006,
     "month": "July",
-    "title": "Sentence Comparison Using Robust {M}inimal {R}ecursion {S}emantics and an Ontology"
+    "title": "Sentence Comparison Using Robust {M}inimal {R}ecursion {S}emantics and an Ontology",
+    "values": {
+        "building on past work": "It rst compares all elementary predicates from the RMRSs to construct a list of match records and then examines, and potentially alters, the list of match records according to constraints encoded in the argn variables.",
+        "performance": " In both tasks, results showed an improvement over Bag-of-Words, as well as providing extra information useful to the applications.  The simplest and most commonly used methods of judging sentence similarity use word overlap { either looking for matching word sequences, or comparing a Bag-of-Words representation of each sentence.   While the RMRS specication does not dene semantic roles for the argn features, in practice arg1 is generally used for the agent and arg2 for the patient.  The RMRS comparison had an accuracy was 78.4% with almost 100% coverage, an improvement over the Bag-of-Words.  Considering only those sentences with a parse from JACY gave an accuracy of 81.1% but with a coverage of only 46.1%.  This shows that deep parsing improves precision, but must be used in conjunction with a shallower fallback.  To explore what eect the ontology was having on the results, another evaluation was performed without the ontology matching. This had an accuracy of 77.3% (78.1% using Jacy, 46.1% coverage).  This shows that the information available in the ontology denitely improves scores, but that even without that sort of deep lexical resource, the RMRS matching can still improve on Bag-of-Words using just surface form abstraction and argument matching.  The Bag-of-Words comparison correctly found a sentence containing the answer for 62.5% of the 2000 questions.  The RMRS comparison method gave a small improvement, with a result of 64.3%."
+    }
 }

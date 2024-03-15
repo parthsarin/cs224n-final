@@ -19,5 +19,8 @@
     "numcitedby": 13,
     "year": 2014,
     "month": "April",
-    "title": "Modeling the Use of Graffiti Style Features to Signal Social Relations within a Multi-Domain Learning Paradigm"
+    "title": "Modeling the Use of Graffiti Style Features to Signal Social Relations within a Multi-Domain Learning Paradigm",
+    "values": {
+        "performance": "Performance of the style features was estimated for each style-feature rule. For each rule, we compute a false positive and false negative rate. Our automatically identified dominant gang labels were 73.3% accurate (.63 Kappa) at the gang level and 76.6% accurate (.72 Kappa) at the nation level. In both tables the domain and nation variables are handannotated. indicates the results are significantly better than the no domain unigram baseline. Underline indicates best result per column. And bold indicates overall best result."
+    }
 }

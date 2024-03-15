@@ -18,5 +18,9 @@
     "numcitedby": 14,
     "year": 2012,
     "month": "July",
-    "title": "Exploiting Latent Information to Predict Diffusions of Novel Topics on Social Networks"
+    "title": "Exploiting Latent Information to Predict Diffusions of Novel Topics on Social Networks",
+    "values": {
+        "novelty": "Our framework is evaluated on real data collected from public domain. The experiments show 16% AUC improvement over baseline methods.",
+        "performance": " We further conduct experiments to evaluate different combinations of features (Table 2 ), and found that the best one (TS + ID + NDT) results in about 16% improvement over the baseline, and outperforms the combination of all features.  Promising experiment result (74% in AUC) not only demonstrates the usefulness of the proposed models, but also indicates that predicting diffusion of unseen topics without historical diffusion data is feasible."
+    }
 }

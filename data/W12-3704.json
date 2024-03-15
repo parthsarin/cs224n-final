@@ -18,5 +18,10 @@
     "numcitedby": 94,
     "year": 2012,
     "month": "July",
-    "title": "Mining Sentiments from Tweets"
+    "title": "Mining Sentiments from Tweets",
+    "values": {
+        "building on past work": "To the best of our knowledge, there is very less amount of work done in twitter sentiment analysis. We use Naive Bayes method to decide the polarity of tokens in the tweets. Along with that we provide an useful insight on how preprocessing should be done on tweet. Our method of Senti Feature Identification and Popularity Score perform well on both the datasets. In feature vector approach, we show the contribution of individual NLP and Twitter specific features.",
+        "novelty": "We present a sentiment scoring function which uses prior information to classify (binary classification ) and weight various sentiment bearing words/phrases in tweets. Using this scoring function we achieve classification accuracy of 87% on Stanford Dataset and 88% on Mejaj dataset. Using supervised machine learning approach, we achieve classification accuracy of 88% on Stanford dataset.",
+        "performance": "Using this scoring function we achieve classification accuracy of 87% on Stanford Dataset and 88% on Mejaj dataset. Using supervised machine learning approach, we achieve classification accuracy of 88% on Stanford dataset. On the Stanford dataset, we achieved 87% accuracy using the scoring method and 88% using SVM classifier. On Mejaj dataset, we showed an improvement of 4.77% as compared to their (Bora, 2012 ) accuracy of 83.33%."
+    }
 }

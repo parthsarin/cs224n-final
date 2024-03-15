@@ -18,5 +18,9 @@
     "numcitedby": 8,
     "year": 2019,
     "month": "November",
-    "title": "Adaptive Ensembling: Unsupervised Domain Adaptation for Political Document Analysis"
+    "title": "Adaptive Ensembling: Unsupervised Domain Adaptation for Political Document Analysis",
+    "values": {
+        "novelty": "We present adaptive ensembling, an unsupervised domain adaptation framework capable of identifying political texts for a multi-source, diachronic corpus by only leveraging supervision from a single-source, modern corpus. Our methods outperform strong benchmarks on both binary and multi-label classification tasks. We release our system, as well as an expert-annotated set of political articles from COHA, to facilitate domain adaptation research in NLP and political science research on public opinion over time. Our method draws upon consistency regularization, a popular technique that stabilizes model predictions under input or weight perturbations (Athiwaratkun et al., 2019) . At the framework-level, we introduce an adaptive, feature-specific approach to optimization; at the model-level, we develop a novel text classification model that works well with our framework.",
+        "performance": "Our framework, equipped with our best model, significantly outperforms existing domain adaptation algorithms on our tasks. In particular, adaptive ensembling achieves gains of 11.4 and 10.1 macro-averaged F1 on the binary and multi-label tasks, respectively. The temporal curriculum further improves our results by a large margin, validating its effectiveness for domain adaptation on diachronic corpora. Our full model achieves the highest F1 scores on both the binary and multi-label tasks, and each component consistently contributes to the overall F1 score."
+    }
 }

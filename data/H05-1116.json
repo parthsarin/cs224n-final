@@ -19,5 +19,9 @@
     "numcitedby": 145,
     "year": 2005,
     "month": "October",
-    "title": "Multi-Perspective Question Answering Using the {O}p{QA} Corpus"
+    "title": "Multi-Perspective Question Answering Using the {O}p{QA} Corpus",
+    "values": {
+        "building on past work": "The bulk of the research in this area, however, addresses fact-based questions like: \"When did McDonald's open its first restaurant? or \"What is the Kyoto Protocol?\". To date, however, relatively little research been done in the area of Multi-Perspective Question Answering (MPQA), which targets questions of the following sort: Much of the relevant research explores sentiment classification, a text categorization task in which the goal is to assign to a document either positive (\"thumbs up\") or negative (\"thumbs down\") polarity Other research has concentrated on analyzing opinions at, or below, the sentence level.",
+        "performance": "  As a result, the three subjectivity filters outperform the baseline in both MRR and MRFA.  The filter outperforms the baseline on some questions and performs worst on others. As a result the MRR for the source filter is worse than the base-line (0.4633 vs. 0.4244). However, the source filter exhibits by far the best results using the MRFA measure, a value of 11.267."
+    }
 }

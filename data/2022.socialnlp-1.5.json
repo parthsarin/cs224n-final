@@ -20,5 +20,8 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "A Comparative Study on Word Embeddings and Social {NLP} Tasks"
+    "title": "A Comparative Study on Word Embeddings and Social {NLP} Tasks",
+    "values": {
+        "performance": "Our results show that using social-media-based word embeddings as input features, rather than non-social-media-based embeddings, leads to better cyberbullying detection performance. We used a Bi-directional LSTM (Schuster and Paliwal, 1997) , with the same architecture as in (Agrawal and Awekar, 2018) , who used RNN models to detect cyberbullying. Our results show that social-media-based word embeddings gave the best results for four out of five datasets: HateEval, Kaggle, Twitter-racism and Jigsaw-toxicity. The best performing word embeddings on the Kaggle dataset is also the social-media-based word embeddings, Chan, with the average F1-score of 0.727 across all the categories with the results significantly better than the rest of the word embeddings for all the categories with p \u2212 value < 0.05. Urban Dictionary embeddings, social-media-based, gave the best results on the Twitter-racism dataset with the average F1 score of 0.663 across all the categories. These results are significantly better with p \u2212 value < 0.05."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 7,
     "year": 2020,
     "month": "December",
-    "title": "Aspect-Based Argument Mining"
+    "title": "Aspect-Based Argument Mining",
+    "values": {
+        "building on past work": "In previous works, many of the challenges to automatically extract and to some degree reason over natural language arguments were addressed. The tools to extract argument units are increasingly available and further open problems can be addressed. Our work is based on Trautmann et al. We extend their benchmark with aspect term extraction on these argument units. We believe that these findings as well as the benchmark are of high potential for further downstream tasks, such as argument ranking, argument summarization and the search for counter-arguments on the aspect-level.",
+        "novelty": "In previous works, many of the challenges to automatically extract and to some degree reason over natural language arguments were addressed. The tools to extract argument units are increasingly available and further open problems can be addressed. At the first instance, we create and release an annotated corpus with aspect information on the token-level. This information is important for further downstream tasks such as argument ranking, argument summarization and generation, as well as the search for counter-arguments on the aspect-level.",
+        "performance": "All the models performed much better than the lower boundary from the PoS-Patterns Matches. Both of them perform similar, but the one with the CRF-layer is slightly better on the development set for inner-topic and the test set for the cross-topic. The inner-topic scores are higher compared to the more challenging cross-topic set-up, were we evaluate the models on unseen topics. Furthermore, the cross-topic set-up is also more challenging for this task, compared to the inner-topic setting."
+    }
 }

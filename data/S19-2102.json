@@ -23,5 +23,9 @@
     "numcitedby": 32,
     "year": 2019,
     "month": "June",
-    "title": "{C}onv{AI} at {S}em{E}val-2019 Task 6: Offensive Language Identification and Categorization with Perspective and {BERT}"
+    "title": "{C}onv{AI} at {S}em{E}val-2019 Task 6: Offensive Language Identification and Categorization with Perspective and {BERT}",
+    "values": {
+        "building on past work": "Various forms of offensive language detection have recently attracted a lot of attention (Nobata et al., 2016; Pavlopoulos et al., 2017b; Park and Fung, 2017; Wulczyn et al., 2017) Apart from the growing volume of popular press concerning toxicity online, the increased interest in research into offensive language is partly due to the recent Workshops on Abusive Language Online, 4 as well as other fora, such as GermEval for German texts, 5 or TA-COS 6 and TRAC (Kumar et al.,  2018), 7 . The first publicly available dataset for hate speech detection was that of Waseem and Hovy (2016) . It contained 1607 English tweets annotated for sexism and racism. A larger dataset was published by Davidson et al. (2017) , containing approx. 25K tweets collected by using a hate lexicon. Despite the popularity of hate speech detection in literature, no larger publicly available hate speech datasets seem to exist. For recent overviews of hate speech detection, consult Schmidt and Wiegand (2017) and Fortuna and Nunes (2018) .",
+        "performance": "Perspective performed better than BERT in detecting toxicity, but BERT was much better in categorizing the offensive type. The Perspective-based baseline was ranked 12th among 103 submissions for the task of classifying a post as offensive or not. The BERT baseline was ranked 11th among 73 submissions for the task of recognizing whether an offensive post is targeted or not. Both baselines were ranked surprisingly high in the corresponding tasks, considering that they were given no or few, respectively, additional task-specific training instances. Furthermore, the Perspective baseline, which required no fine tuning outperformed BERT by a large margin in the task of detecting offensive language."
+    }
 }

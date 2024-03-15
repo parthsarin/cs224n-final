@@ -19,5 +19,10 @@
     "numcitedby": 4,
     "year": 2019,
     "month": "June",
-    "title": "A Submodular Feature-Aware Framework for Label Subset Selection in Extreme Classification Problems"
+    "title": "A Submodular Feature-Aware Framework for Label Subset Selection in Extreme Classification Problems",
+    "values": {
+        "building on past work": "We propose a submodular maximization approach with a linear cost to find an informative set of labels. In contrast to the other similar approaches (Balasubramanian and Lebanon, 2012; Bi and Kwok, 2013) which consider only labellabel dependencies, we also consider label-feature dependencies and outlier labels that are highly independent of other labels. Previous similar methods ignore label-feature dependencies in the subset selection step, allowing the training error for the selected subset of the labels to be propagated to the reconstructed labels and affecting the final predictions. In addition, to avoid information loss, we also extract and predict outlier labels with weak dependency on other labels and treat them separately.",
+        "novelty": "Our novel label selection mechanism follows three principles: Modelling only the most informative labels helps to avoid transforming the label space to a new embedding space leading to accumulation of training and embedding errors. We use a greedy approach for our monotone submodular framework with linear cost and good theoretical convergence.",
+        "performance": "Experimental results show that our proposed approach improves label prediction quality, in terms of precision and nDCG, by 3% to 5% in three of the 5 tasks and is competitive in the others, even with a simple linear prediction model. The proposed approach in most cases has significantly better results than other methods on both measures. However, for Bibtex datasset, our proposed method is competitive with the best results, and for Eurlex and Wiki10-31k, our method is substantially better than both SLEEC and FastXML, a notable achievement for a single model approach."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 15,
     "year": 2020,
     "month": "July",
-    "title": "Towards Interpretable Clinical Diagnosis with {B}ayesian Network Ensembles Stacked on Entity-Aware {CNN}s"
+    "title": "Towards Interpretable Clinical Diagnosis with {B}ayesian Network Ensembles Stacked on Entity-Aware {CNN}s",
+    "values": {
+        "building on past work": "In this study, we bring forward a novel framework of automatic diagnosis with EMR documents for CDS. Different from the previous works (Yang et al., 2018; Sha and Wang, 2017; Li et al., 2017; Girardi et al., 2018; Mullenbach et al., 2018) that solely rely on the end-to-end neural models, we propose to stack the Bayesian Network (BN) ensembles on top of Entity-aware Convolutional Neural Networks (ECNN) in automatic diagnosis, where ECNN improves the accuracy of the prediction and BN ensembles explain the prediction. The proposed framework attempts to bring some interpretability of the predictions by incorporating the knowledge encoded in the BN ensembles.",
+        "novelty": " The proposed framework attempts to bring some interpretability of the predictions by incorporating the knowledge encoded in the BN ensembles. ",
+        "performance": "Generally, sensitivity is ususally used in binary classification (mostly output yes or no). Similarly, when we are dealing with classification of multi-class rather than binary classification, the proposed automatic diagnosis model outputs the probability distribution over K diseases (classes) for a given EMR. Suppose there are l i out of n i cases, where d i is included in the Top-k predictions (ranked by probability) for the n i EMRs of disease d i . The Top-k sensitivity of the proposed model on disease d i is: l i n i . Furthermore, in the overall evaluation of the proposed model on all diseases, we use the micro average of all classes as the overall Top-k sensitivity: sensitivity = i l i i n i . (11) Table 4 shows the Top-k sensitivity (The micro average of the per-disease Top-k sensitivity, com-monly used as the accuracy measurement in healthcare studies (Liang et al., 2019) .) under two departments."
+    }
 }

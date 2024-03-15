@@ -19,5 +19,8 @@
     "numcitedby": 180,
     "year": 2003,
     "month": "",
-    "title": "Maximum Entropy Models for Named Entity Recognition"
+    "title": "Maximum Entropy Models for Named Entity Recognition",
+    "values": {
+        "performance": "As can be derived from table 1, our baseline recognizer clearly outperforms the CoNLL-2003 baseline (e.g. % X \u00a7 \u00a2\u00a1 \u00a4\u00a3 \u00a6\u00a5 vs. % X \u00a7 \u00a8 \u00a7 t t \u00a1 ). To investigate the contribution of the Gaussian prior method, several experiments were carried out for different standard deviation parameters . Figure 2 depicts the obtained F-Measures in comparison to the performance of non-smoothed ME models ( % X \u00a7 \u00a9\u00a1 \u00a5 \u00a7 ). The gain in performance is obvious. By incorporating the information extracted from the non-annotated data our system is further improved."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 46,
     "year": 2015,
     "month": "May{--}June",
-    "title": "Everyone Likes Shopping! Multi-class Product Categorization for e-Commerce"
+    "title": "Everyone Likes Shopping! Multi-class Product Categorization for e-Commerce",
+    "values": {
+        "novelty": "We built multi-class classification algorithm that classifies product titles into 319 distinct classes organized in 6 levels. We conducted an empirical evaluation with 445, 408 product titles and reach .88 f-score.",
+        "performance": "We conducted an empirical evaluation on 445, 408 product titles and used a rich product taxonomy of 319 categories organized into 6 levels. We compared performance against multiple algorithms and found that the best performing system reaches .88 f-score. We manually inspected the produced classification outputs and found that often the predicted categories are more specific and fine-grained compared to those provided by humans."
+    }
 }

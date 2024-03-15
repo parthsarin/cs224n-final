@@ -18,5 +18,8 @@
     "numcitedby": 5,
     "year": 2020,
     "month": "July",
-    "title": "{D}scorer: A Fast Evaluation Metric for Discourse Representation Structure Parsing"
+    "title": "{D}scorer: A Fast Evaluation Metric for Discourse Representation Structure Parsing",
+    "values": {
+        "performance": "We now explain how we convert DRSs to graphs. There are two types of clauses depending on the number of arguments: 2-argument clauses (e.g., b 2 male.n.02 x 1 ) and 3-argument ones (e.g., b 1 Agent e 1 x 1 ). The two types of clauses can be formatted as node In our experiments, we investigate the correlation between DSCORER and COUNTER, and the efficiency of the two metrics. We observe similar trends for both metrics; DSCORER penalizes more harshly SPAR and SIM-SPAR, which output random DRSs without any parsing algorithm. Generally speaking, the two metrics are highly correlated; across systems and datatasets, Pearson's correlation coefficient r is 0.93 on 1-grams, 0.94 on 2-grams, 0.91 on 3-grams, and 0.88 on 4-grams, with 2-grams being most correlated. Figure 3 shows the 4-gram correlation between COUNTER and DSCORER. We found most points are around the curve of y = x 3 , which means that considering high-order grams renders the two metrics less similar, but nevertheless allows to more faithfully capture similarities or discrepancies between DRSs. Both metrics have similar run-times on PMB which mostly consists of small graphs. However, in GMB, which consists of larger graphs with many nodes, the run-time of COUNTER explodes (more than 4 hours per graph), while DSCORER evaluates DRSs within an acceptable time frame (2.35 seconds per graph). In GMB-doc, DSCORER runs seven thousand times faster than COUNTER, showing it is very efficient at comparing large graphs."
+    }
 }

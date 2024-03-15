@@ -19,5 +19,8 @@
     "numcitedby": 21,
     "year": 2014,
     "month": "August",
-    "title": "Part-of-speech Tagset and Corpus Development for {I}gbo, an {A}frican Language"
+    "title": "Part-of-speech Tagset and Corpus Development for {I}gbo, an {A}frican Language",
+    "values": {
+        "novelty": "This project aims to develop linguistic resources to support computational NLP research on the Igbo language. The starting point for this project is the development of a new part-of-speech tagging scheme based on the EAGLES tagset guidelines, adapted to incorporate additional language internal features. The tags are currently being used in a part-of-speech annotation task for the development of POS tagged Igbo corpus. The proposed tagset has 59 tags. We discuss the development of the tagset and corpus for Igbo. This work is, to the best of our knowledge, the first published work attempting to develop statistical NLP resources for Igbo. Our method of tagset design could be used for other African or under-resourced languages. African languages are morphologically rich, and of around 2000 languages in the continent, only a small number have featured in NLP research."
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 86,
     "year": 2007,
     "month": "June",
-    "title": "Instance-based Evaluation of Entailment Rule Acquisition"
+    "title": "Instance-based Evaluation of Entailment Rule Acquisition",
+    "values": {
+        "performance": "The current performance level only stresses the obvious need for satisfactory evaluation methodologies that would drive future research. While most NLP applications need directional inference, previous acquisition works typically expected that the learned rules would be paraphrases. Under such an expectation, unidirectional rules were assessed as incorrect, underestimating the true potential of these algorithms. We have experimented with a sample of input verbs for both DIRT and TEASE. Our results show significant improvement in human agreement over the rule-based approach. It is also the first comparison between such two state-of-the-art algorithms, which showed that they are comparable in precision but largely complementary in their coverage. For example, the rule 'X lose to Y \u2192 Y beat X' can be used to infer \"Liverpool beat Chelsea\" from \"Chelsea lost to Liverpool in the semifinals\". The instance-based evaluation approach proposed in this paper obtained acceptable agreement levels, which are substantially higher than those obtained for the common rulebased approach. We also conducted the first comparison between two state-of-the-art acquisition algorithms, DIRT and TEASE, using the new methodology. We found that their quality is comparable but they effectively complement each other in terms of rule coverage."
+    }
 }

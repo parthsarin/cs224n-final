@@ -20,5 +20,10 @@
     "numcitedby": 9,
     "year": 2020,
     "month": "May",
-    "title": "{M}orfessor {EM}+{P}rune: Improved Subword Segmentation with Expectation Maximization and Pruning"
+    "title": "{M}orfessor {EM}+{P}rune: Improved Subword Segmentation with Expectation Maximization and Pruning",
+    "values": {
+        "building on past work": "Using English, Finnish, North Sami, and Turkish data sets, we show that this approach is able to find better solutions to the optimization problem defined by the Morfessor Baseline model than its original recursive training algorithm. The improved optimization also leads to higher morphological segmentation accuracy when compared to a linguistic gold standard. We publish implementations of the new algorithms in the widely-used Morfessor software package. In the unigram language model, an assumption is made that the morphs in a word occur independently of each other. Table 1 summarizes the differences between these methods. It applies greedy pruning based on unigram likelihood. One of its design goals is use in multilingual systems.",
+        "novelty": " Using English, Finnish, North Sami, and Turkish data sets, we show that this approach is able to find better solutions to the optimization problem defined by the Morfessor Baseline model than its original recursive training algorithm.  Table 1 summarizes the differences between these methods.   EM, 2. Lateen-EM, EM+Viterbi-prune EM+Viterbi-prune is an intermediary mode between EM and lateen-EM in the context of pruning.  Alternative segmentations can be sampled from the full data distribution using Forward-filtering backward-sampling algorithm (Scott, 2002) or approximatively but more efficiently from an n-best list.  To recover SentencePiece, Morfessor EM+Prune should be run with the following settings: The prior should be omitted entirely, leaving only the likelihood \u03b8 = arg min \u03b8 {\u2212 log P (D | \u03b8)}",
+        "performance": "In this work we focused on model cost and linguistic segmentation. In future work the performance of Morfessor EM+Prune in applications will be evaluated."
+    }
 }

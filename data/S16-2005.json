@@ -19,5 +19,10 @@
     "numcitedby": 0,
     "year": 2016,
     "month": "August",
-    "title": "Implicit Semantic Roles in a Multilingual Setting"
+    "title": "Implicit Semantic Roles in a Multilingual Setting",
+    "values": {
+        "building on past work": "Our approach does not rely on pre-existing knowledge bases and is extendible to any language pair with parallel data and dependency parses. Previous resources for implicit SRL were developed over diverging schemas, texts, and predicate types. Aside from English, resources for SRL only exist for a select number of languages. Our implicit role detection applies to both core and non-core arguments and is not dependent on large-scale SRL resources.",
+        "novelty": " Our work is the first to address the detection of implicit roles from a multilingual perspective.  We map predicate-argument structures across English and German sentences, and we develop a classifier that distinguishes implicit arguments from other translation shifts.  Using a combination of alignment statistics and linguistic features, we achieve a precision of 0.68 despite a limited training set, which is a significant gain over the majority baseline.  Our approach does not rely on pre-existing knowledge bases and is extendible to any language pair with parallel data and dependency parses.",
+        "performance": "Our approach does not rely on pre-existing knowledge bases and is extendible to any language pair with parallel data and dependency parses."
+    }
 }

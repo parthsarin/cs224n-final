@@ -18,5 +18,8 @@
     "numcitedby": 13,
     "year": 2007,
     "month": "June",
-    "title": "The Role of Roles in Classifying Annotated Biomedical Text"
+    "title": "The Role of Roles in Classifying Annotated Biomedical Text",
+    "values": {
+        "performance": "Experimental results show that: 1) Roles for each NE greatly helped improve performance of the system, 2) combining information about NE classes with their Roles contribute significantly to the improvement of performance. From the result tables we can conclude that the effectiveness of each NE on the performance of classification in our corpus is decreased in the following order. We first consider the Role case. This Role is associated to PERSON which has highest frequency in the corpus. Role case helped improve the accuracy from 76.8% to 80.60%, and Precision from 66.57% to 74.43% for PERSON. When we compare the effect of all Roles on performance, we can see that the improvements of Role case and also Quality number are much higher than the improvements of Roles therapeutic and transmission. We note that there are two Roles therapeutic and transmission in diseaserelated NE classes, and all 3 Roles case, therapeutic and transmission in all NE classes. For all NE classes, all 3 Roles case, therapeutic, and transmission help to improve the accuracy from 74.40% to 84.40% and Precision from 64.35% to 74.76%."
+    }
 }

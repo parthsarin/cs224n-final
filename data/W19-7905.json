@@ -20,5 +20,9 @@
     "numcitedby": 3,
     "year": 2019,
     "month": "August",
-    "title": "A Comparative Corpus Analysis of {PP} Ordering in {E}nglish and {C}hinese"
+    "title": "A Comparative Corpus Analysis of {PP} Ordering in {E}nglish and {C}hinese",
+    "values": {
+        "building on past work": "Previous work on PP orderings have mainly focused on English using data of relatively small size. Here we leverage corpora of much larger scale with straightforward annotations. We show that while dependency length plays a strong role across genre for English, it only exerts a mild effect in Chinese. On the other hand, the argument status of the PP has a pronounced role in both languages, that is, there exists a strong tendency for the argument-like PP to appear closer to the head verb than the adjunct-like PP. Our work contributes empirically to the long-standing proposal in linguistic typology that crosslinguistic word ordering preference is driven by cooperating and competing principles.",
+        "performance": "The argument status of the PP also has a pronounced effect on the orderings. It appears to play a comparable or even stronger role when compared to dependency length using logistic regression modeling. Overall, our results provide direct and quantitative evidence that dependency length and argument status are competing and cooperating motivations in PP ordering preferences across English and Chinese."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 3,
     "year": 2021,
     "month": "August",
-    "title": "Findings of the {WOAH} 5 Shared Task on Fine Grained Hateful Memes Detection"
+    "title": "Findings of the {WOAH} 5 Shared Task on Fine Grained Hateful Memes Detection",
+    "values": {
+        "building on past work": "This shared task builds on the hateful memes detection task created by Facebook AI Research in 2020. For the purposes of this work, hate is defined as a direct attack against people based on 'protected characteristics' 3 .",
+        "novelty": "This shared task builds on the hateful memes detection task created by Facebook AI Research in 2020. Task A: Protected Category Task B: Attack Type",
+        "performance": "Table 4 shows the performance on the 2 tasks across all the participants. None of the submissions exploited the correlation across all the tasks, and instead trained the systems independently on each of the tasks. Interestingly, SU1, which is a text BERT system finetuned on the tasks performed remarkably strongly, even outperforming their multimodal system and the provided baselines."
+    }
 }

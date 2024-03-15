@@ -21,5 +21,9 @@
     "numcitedby": 2,
     "year": 2021,
     "month": "November",
-    "title": "{DELA} Corpus - A Document-Level Corpus Annotated with Context-Related Issues"
+    "title": "{DELA} Corpus - A Document-Level Corpus Annotated with Context-Related Issues",
+    "values": {
+        "building on past work": "With the rise in NMT quality and the claims of human parity, the need to move towards a more fine-grained evaluation involving the whole document is beyond question. We believe that the annotation can be also used for closely-related languages such as Spanish. We intend to increase the corpus, adding more documents, domains and more context-aware issues. The full translation into PT-BR is ongoing, and we want to annotate it for other languages, starting with the Romance language family.",
+        "novelty": "To the best of our knowledge, this is the first corpus of its kind."
+    }
 }

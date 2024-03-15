@@ -26,5 +26,8 @@
     "numcitedby": 20,
     "year": 2015,
     "month": "June",
-    "title": "Mapping Different Rhetorical Relation Annotations: A Proposal"
+    "title": "Mapping Different Rhetorical Relation Annotations: A Proposal",
+    "values": {
+        "novelty": "We believe that differences across approaches are minimal, and a unified set of relations that works across languages is possible. We propose here a unified hierarchy of discourse relations. Our proposal has several motivations. First of all, with the wide availability of annotated corpora, it would be beneficial to have a system for mapping relations across approaches. By this we mean that the main classes at the top level should remain constant. Our taxonomy is both intentionally and semantically driven, motivated by our desire to find a balance between RST and SDRT. We have presented a unified taxonomy for discourse relations which can be used to map existing annotations, and to annotate new corpora. We believe our taxonomy is robust across theoretical approaches, and can be applied to multiple languages."
+    }
 }

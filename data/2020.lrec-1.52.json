@@ -19,5 +19,10 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "May",
-    "title": "Alignment Annotation for Clinic Visit Dialogue to Clinical Note Sentence Language Generation"
+    "title": "Alignment Annotation for Clinic Visit Dialogue to Clinical Note Sentence Language Generation",
+    "values": {
+        "building on past work": "While some work exists on doctor-patient conversation analysis (Byrne and Long, 1977; Raimbault et al., 1975; Drass, 1982; Cerny, 2007) , annotation (Wang et al., 2018) , and dialogue topic classification (Rajkomar et al., 2019) , few explore the relationship between a patient visit's dialogue and a clinical note. Compared to (Kazi and Kahanda, 2019) , (Jeblee et al., 2019) , and (Finley et al., 2018a) , we actually annotate the final note content output. Compared to the work in (Finley et al., 2018b) , we manually create our alignments and do it for the entire conversation and note. Therefore our dataset does not rely on a specific sequence of domain-dependent NLU tasks or a specific relationship between the extracted information and the final output (e.g. template-filling), nor assumes a narrow part of the problem",
+        "novelty": "In this paper, we present an annotation methodology that is content-and technique-agnostic while associating note sentences to sets of dialogue sentences. To our knowledge, this is the first work to attempt such a content-and technique-agnostic systematic annotation methodology for this task.",
+        "performance": "In future iterations, we will add user-friendly improvements, including text search and highlights of clinically important elements to better assist annotating. an automatically generated table in the note should be considered one unit instead of trying to divide the table into sentences, etc. While the data and analysis here was created from mock patient visits, the dialogue content should approximate actual real patient visits."
+    }
 }

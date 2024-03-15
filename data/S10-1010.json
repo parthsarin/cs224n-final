@@ -24,5 +24,8 @@
     "numcitedby": 376,
     "year": 2010,
     "month": "July",
-    "title": "{S}em{E}val-2010 Task 13: {T}emp{E}val-2"
+    "title": "{S}em{E}val-2010 Task 13: {T}emp{E}val-2",
+    "values": {
+        "performance": "The results for Spanish are more uniform and generally higher than the results for English. For Spanish, the f-measure for TIMEX3 extents ranges from 0.88 through 0.91 with an average of 0.89; for English the f-measure ranges from 0.26 through 0.86, for an average of 0.78. The results for task B, event recognition, are given in tables 4 and 5. Both tables contain results for both Spanish and English, the first part of each ta-ble contains the results for Spanish and the next part the results for English. Table 6 shows the results for all relation tasks, with the Spanish systems in the first two rows and the English systems in the last six rows. Recall that for Spanish the training and test sets only contained data for tasks C and D. Interestingly, the version of the TIPSem systems that were applied to the Spanish data did much better on task C compared to its English cousins, but much worse on task D, which is rather puzzling. The results are very similar except for task D, but if we take a away the one outlier (the NCSUjoint score of 0.21) then the average becomes 0.78 with a standard deviation of 0.05. However, we had expected that for TempEval-2 the systems would score better on task C since we added the restriction that the event and time expression had to be syntactically adjacent. It is not clear why the results on task C have not improved."
+    }
 }

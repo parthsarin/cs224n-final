@@ -19,5 +19,9 @@
     "numcitedby": 20,
     "year": 2010,
     "month": "October",
-    "title": "Tense Sense Disambiguation: A New Syntactic Polysemy Task"
+    "title": "Tense Sense Disambiguation: A New Syntactic Polysemy Task",
+    "values": {
+        "novelty": "To the best of our knowledge, this is the first paper to address this task. TSD fits well with modern linguistics theories. Words, multiword expressions, and syntactic forms are all valid constructions. It is thus very natural to address the sense disambiguation problem for all of these. In this paper we focus on tense constructions.",
+        "performance": "Our algorithm outperforms the MFS baseline in all three conditions. In the TypeKnown condition, the accuracy of the algorithm drops from 57.9% (when using training and test time constraints and ASF type features) to 53% (when using only ASF type features but no constraints). In the TypeUnknown condition, accuracy drops from 57.24% (when using training time constraints) to 48.03% (when neither constraints nor ASF type features are used)."
+    }
 }

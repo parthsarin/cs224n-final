@@ -22,5 +22,10 @@
     "numcitedby": 16,
     "year": 2018,
     "month": "",
-    "title": "Leveraging Orthographic Similarity for Multilingual Neural Transliteration"
+    "title": "Leveraging Orthographic Similarity for Multilingual Neural Transliteration",
+    "values": {
+        "building on past work": "( 2016 ) have outperformed the state-ofthe-art phrase-based systems on the NEWS shared task datasets. Unlike previous approaches which pivot over bilingual transliteration models, we propose zeroshot transliteration that pivots over multilingual transliteration models. We also propose a direct zeroshot transliteration method, a scenario which has been explored for machine translation by Johnson et al. (2017) , but not investigated previously for transliteration. Another work, the correlational encoder-decoder architecture (Saha et al., 2016) , maps source and pivot languages to a common space but requires a source-pivot parallel transliteration corpus.",
+        "novelty": " We propose a modified neural encoder-decoder model that maximizes parameter sharing across language pairs in order to effectively leverage orthographic similarity.   We show that multilingual transliteration significantly outperforms bilingual transliteration in different scenarios (average increase of 58% across a variety of languages we experimented with).   We also show that multilingual transliteration models can generalize well to languages/language pairs not encountered during training and hence perform well on the zeroshot transliteration task.   We show that further improvements can be achieved by using phonetic feature input. ",
+        "performance": "We show that multilingual transliteration significantly outperforms bilingual transliteration in different scenarios (average increase of 58% across a variety of languages we experimented with). Our results are backed by extensive experiments on 8 languages across 2 orthographically similar language groups. Since the source as well as target scripts are largely phonetic, phonetic representation may not be useful in resolving ambiguities (unlike Indic-English transliteration)."
+    }
 }

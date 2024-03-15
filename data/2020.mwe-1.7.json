@@ -18,5 +18,8 @@
     "numcitedby": 2,
     "year": 2020,
     "month": "December",
-    "title": "Annotating Verbal {MWE}s in {I}rish for the {PARSEME} Shared Task 1.2"
+    "title": "Annotating Verbal {MWE}s in {I}rish for the {PARSEME} Shared Task 1.2",
+    "values": {
+        "performance": "Of the 9 systems participating in the shared task, 6 were submitted for Irish, with 5 of them achieving F 1 scores above 0. The highest achieved F 1 score for unseen MWEs in Irish was 19.54, while the cross-lingual macro-average F 1 score (based on unseen MWEs) for the same system was 38.53. The categories IAV and VPC.full appear the easiest to identify, while VID proved difficult. VPC.semi and IRV were not identified at all, possibly as the number of examples of each was too few (20 and 6 respectively). In general, the systems performed more poorly on Irish when compared with other languages, particularly compared to Hindi, which had a similarly sized corpus, and the best unseen MWE-based F 1 score was 53.11. The language that performed most similarly was Hebrew, where the best unseen MWE-based F 1 score was 19.59."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 2,
     "year": 2021,
     "month": "November",
-    "title": "{STANKER}: Stacking Network based on Level-grained Attention-masked {BERT} for Rumor Detection on Social Media"
+    "title": "{STANKER}: Stacking Network based on Level-grained Attention-masked {BERT} for Rumor Detection on Social Media",
+    "values": {
+        "building on past work": "Unlike previous studies, we employ the masking strategy on the whole attention layer instead of on random text spans.",
+        "novelty": "Unlike the original BERT, our new LGAM-BERT model takes comments as important auxiliary features and masks coattention between posts and comments on lower-layers. LGAM-BERT), which masks insignificant co-attention between source posts and comments on lower-layers.",
+        "performance": "STANKER outperformed all compared models, especially beating the old state-of-theart on Weibo dataset. However, our model got up to 0.8% improvement on Weibo datasets and 1.4% on Twitter datasets over Bagging-BERT(2)."
+    }
 }

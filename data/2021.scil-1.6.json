@@ -16,5 +16,9 @@
     "numcitedby": 0,
     "year": 2021,
     "month": "February",
-    "title": "Emergent Gestural Scores in a Recurrent Neural Network Model of Vowel Harmony"
+    "title": "Emergent Gestural Scores in a Recurrent Neural Network Model of Vowel Harmony",
+    "values": {
+        "novelty": " In this paper, we present the results of neural network modeling of speech production. We introduce GestNet, a sequence-to-sequence, encoder-decoder neural network architecture in which a string of input symbols is translated into sequences of vocal tract articulator movements.  Though we provide our models with no linguistic structure, they reliably learn this harmony pattern. In addition, by probing these models we find evidence of emergent linguistic structure.  Specifically, we examine patterns of encoder-decoder attention (degree of influence of specific input segments on model outputs) and find that they resemble the patterns of gestural activation assumed within the Gestural Harmony Model, a model of harmony built upon the representations of Articulatory Phonology.",
+        "performance": "All models were able to learn to produce the training data with a high degree of accuracy. Across the twenty models, the mean loss per word after 200 epochs was 3.51. To illustrate model performance, we provide one model's output articulatory trajectories for the lips and tongue body for the input forms /eb-a/, which should be produced faithfully as [eba], and /eb-i/, which should be produced as [ibi] due to height harmony. As seen in figures 9 and 10, the predicted output trajectories for both vocal tract articulators closely match the target trajectories. Importantly, the model has learned that the /e/ of root /eb/ should be produced with a constriction degree of 8 (narrow-mid) before nonhigh vowels and a constriction degree of 4 (narrow) before high vowels that trigger harmony, correctly producing the Nzebilike stepwise vowel raising pattern."
+    }
 }

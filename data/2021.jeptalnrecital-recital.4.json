@@ -16,5 +16,9 @@
     "numcitedby": 0,
     "year": 2021,
     "month": "6",
-    "title": "Adaptation de ressources en langue anglaise pour interroger des donn{\\'e}es tabulaires en fran{\\c{c}}ais (Adaptation of resources in {E}nglish to query {F}rench tabular data)"
+    "title": "Adaptation de ressources en langue anglaise pour interroger des donn{\\'e}es tabulaires en fran{\\c{c}}ais (Adaptation of resources in {E}nglish to query {F}rench tabular data)",
+    "values": {
+        "building on past work": "Cependant toutes ces ressources ne sont con\u00e7ues que pour un usage qui concerne la langue anglaise. Dans leurs travaux les plus r\u00e9cents sur le mod\u00e8le (Eisenschlos et al., 2020) , les auteurs ont ajout\u00e9 une \u00e9tape interm\u00e9diaire d'apprentissage.",
+        "performance": " Enfin, TAPAS est entra\u00een\u00e9 plus finement sur une t\u00e2che des r\u00e9ponses aux questions. Le mod\u00e8le cherche alors \u00e0 pr\u00e9dire deux choses : les cellules correctes associ\u00e9es \u00e0 la r\u00e9ponse et l'agr\u00e9gateur correspondant.   En effet on peut esp\u00e9rer de meilleurs r\u00e9sultats avec un apprentissage plus long, ou un jeu de donn\u00e9es traduit et relu, ce qui all\u00e9gerait la t\u00e2che d'expertise humaine n\u00e9cessaire \u00e0 l'obtention d'un jeu de donn\u00e9es pour cette t\u00e2che de traitement de requ\u00eates en fran\u00e7ais sur des donn\u00e9es tabulaires.  Enfin, des r\u00e9sultats compl\u00e9mentaires permettront d'affiner les conclusions et perspectives de cette \u00e9tude, comme sur l'influence de la traduction sur les performances d'exactitude. "
+    }
 }

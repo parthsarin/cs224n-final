@@ -19,5 +19,10 @@
     "numcitedby": 2,
     "year": 2009,
     "month": "October",
-    "title": "Smoothing fine-grained {PCFG} lexicons"
+    "title": "Smoothing fine-grained {PCFG} lexicons",
+    "values": {
+        "novelty": "We present an approach for smoothing treebank-PCFG lexicons by interpolating treebank lexical parameter estimates with estimates obtained from unannotated data via the Inside-outside algorithm. The PCFG has complex lexical categories, making relative-frequency estimates from a treebank very sparse. This kind of smoothing for complex lexical categories results in improved parsing performance, with a particular advantage in identifying obligatory arguments subcategorized by verbs unseen in the treebank. We follow their methodology of constrained EM re-estimation. Using the PCFG with fine lexical categories (as described in \u00a72) as the initial model, we re-estimate its parameters from an unannotated corpus. The lexical parameters of the re-estimated PCFG form its probabilistic \"lexicon\", containing the same fine-grained categories as the original treebank PCFG. There have been previous attempts to use POStagging technologies (such as HMM or maximumentropy based taggers) to enhance treebanktrained grammars (Goldberg et al. (2009) for Hebrew, (Clark and Curran, 2004) for CCG). An interesting option would be to train a \"supertagger\" on fine-grained tags from the PTB and to supertag a large corpus to harvest lexical frequen- cies.",
+        "performance": "23) an interpolation factor as in Eq. 5 : this is the best model with a statistically significant improvement in f-score over t t , t pos and t em 1 ,\u03bb=0.5 . A breakup of error by frame type for unseen verbs is also shown (here, only frames with >10 token occurrences in the test data are shown). In all cases (unseen verbs and all verbs) we see a substantial error reduction. The error reduction improves with larger amounts of unannotated training data.",
+        "reproducibility": "The tag-feature sequence correlates to the structure selected by the verb, as exemplified in Fig. "
+    }
 }

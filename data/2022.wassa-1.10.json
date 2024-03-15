@@ -23,5 +23,10 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "May",
-    "title": "Emotion Analysis of Writers and Readers of {J}apanese Tweets on Vaccinations"
+    "title": "Emotion Analysis of Writers and Readers of {J}apanese Tweets on Vaccinations",
+    "values": {
+        "building on past work": "We contribute to this research area by using a BERT to extract emotions of both writers and readers towards Tweets related to COVID-19 vaccines and comparing the predicted emotions to vaccination uptake. Prior to the adoption of deep learning, emotion analysis of Tweets was performed with a combination of feature engineering, lexicon-based approach, and traditional off-the-shelf classifiers. Vateekul and Koomsubha (2016) demonstrated the superiority of LSTMs in emotion analysis over SVMs and Naive Bayes on Thai Twitter text, while Colneri\u010d and Dem\u0161ar (2018) showed the effectiveness of character-based RNNs. Our study differs from this by extracting emotions rather than sentiments from both writers and readers, and comparing these mined features to vaccinations, vaccinated people, and fully vaccinated people.",
+        "performance": "emotion analysis BERT outperforms both of the other models. We achieve 0.111 MSE and 0.106 MSE improvements on writer and reader emotion prediction respectively. For overall emotional intensity prediction, we outperform the next best model by 0.090 MSE.",
+        "reproducibility": "Code will be made available at https: //github.com/PatrickJohnRamos/ BERT-Japan-vaccination."
+    }
 }

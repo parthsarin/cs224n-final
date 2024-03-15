@@ -18,5 +18,8 @@
     "numcitedby": 2,
     "year": 2007,
     "month": "June",
-    "title": "{S}em{E}val-2007 Task 06: Word-Sense Disambiguation of Prepositions"
+    "title": "{S}em{E}val-2007 Task 06: Word-Sense Disambiguation of Prepositions",
+    "values": {
+        "performance": "Examination of the detailed results by preposition in Table 1 shows that performance is inversely related to polysemy. The greater number of senses leads to reduced performance. The scores are also negatively correlated with the number of test instances. The scores for each preposition are strongly negatively correlated with entropy and perplexity, as frequently observed in lexical sample disambiguation."
+    }
 }

@@ -20,5 +20,8 @@
     "numcitedby": 47,
     "year": 2011,
     "month": "July",
-    "title": "Crisis {MT}: Developing A Cookbook for {MT} in Crisis Situations"
+    "title": "Crisis {MT}: Developing A Cookbook for {MT} in Crisis Situations",
+    "values": {
+        "building on past work": "Over the last 12 months many problems have been solved regarding the workflow of managing crisis data, but one of the biggest remaining problems is the ability to quickly deploy machine-translation systems to augment relief efforts. By integrating MT services directly into a messaging infrastructure (whatever the type of messages being serviced, e.g., text messages, Twitter feeds, blog postings, etc. ), MT can be used to provide first pass translations into a majority language, which can assist in triaging messages and routing them to appropriate aid agencies. We also note that there are significant contributions that our community can make to relief efforts through continued work on our research, especially that research which makes MT more viable for under-resourced languages."
+    }
 }

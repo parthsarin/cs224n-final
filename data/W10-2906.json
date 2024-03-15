@@ -20,5 +20,9 @@
     "numcitedby": 39,
     "year": 2010,
     "month": "July",
-    "title": "Learning Better Monolingual Models with Unannotated Bilingual Text"
+    "title": "Learning Better Monolingual Models with Unannotated Bilingual Text",
+    "values": {
+        "building on past work": "They used an annotated bitext to learn parse reranking models for English and Chinese, exploiting features that examine pieces of parse trees in both languages. Our method can be thought of as the semi-supervised counterpart to their supervised model. Indeed, we achieve nearly the same results, but without annotated bitexts. Smith and Smith (2004) consider a similar setting for parsing both English and Korean, but instead of learning a joint model, they consider a fixed combination of two parsers and a word aligner. Our model learns parameters for combining two monolingual models and potentially thousands of bilingual features. The result is that our model significantly improves state-ofthe-art results, for both parsing and NER. Indeed, we achieve nearly the same results, but without annotated bitexts. Our model learns parameters for combining two monolingual models and potentially thousands of bilingual features. The result is that our model significantly improves state-ofthe-art results, for both parsing and NER.",
+        "novelty": "    "
+    }
 }

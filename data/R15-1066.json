@@ -18,5 +18,9 @@
     "numcitedby": 11,
     "year": 2015,
     "month": "September",
-    "title": "Classifying Idiomatic and Literal Expressions Using Vector Space Representations"
+    "title": "Classifying Idiomatic and Literal Expressions Using Vector Space Representations",
+    "values": {
+        "building on past work": "We hypothesize that words in a given text segment that are representatives of a common topic of discussion are likely to associate strongly with a literal expression in the segment, in terms of projection (or inner product) of word vectors onto the vector representing the literal expression. We also hypothesize that the context word distribution for a literal expression in word vector space will be different from the distribution for an idiomatic one. We have experimented with the Frobenius norm and the spectral norm. The spectral norm, on the other hand, evaluates the difference when they act on the direction of maximal variance over the whole space.",
+        "performance": "Table 2 shows the average precision, recall and accuracy of the competing methods on 12 datasets over 20 runs.  The best performance is in bold face.  The best model is identified by considering precision, recall, and accuracy together for each model.  We calculate accuracy by adding true positives and true negatives and normalizing the sum by the number of examples.  As for the individual model performance, the CoVAR model outperforms the rest of the models.  Interestingly, the Frobenius norm outperforms the spectral norm.  One possible explanation is that the spectral norm evaluates the difference when two matrices act on the maximal variance direction, while the Frobenius norm evaluates on a standard basis.  That is, Frobenius measures the difference along all basis vectors.  On the other hand, the spectral norm evaluates changes in a particular direction.  When the difference is a result of all basis directions, the Frobenius norm potentially provides a better measurement.  "
+    }
 }

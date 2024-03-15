@@ -22,5 +22,8 @@
     "numcitedby": 4,
     "year": 2020,
     "month": "May",
-    "title": "Building Multilingual Specialized Resources Based on {F}rame{N}et: Application to the Field of the Environment"
+    "title": "Building Multilingual Specialized Resources Based on {F}rame{N}et: Application to the Field of the Environment",
+    "values": {
+        "building on past work": "The methodology along with the theoretical principles on which it is based, i.e. Frame Semantics, are especially appealing as they allow domain-specific resources to account for the conceptual background of specialized knowledge and to explain the linguistic properties of terms against this background. Additionally, the FrameNet methodology allows designers of specialized resources to account for the linguistic properties of terms and to connect these properties to a conceptual background."
+    }
 }

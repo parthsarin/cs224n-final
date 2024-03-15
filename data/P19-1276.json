@@ -16,5 +16,10 @@
     "numcitedby": 32,
     "year": 2019,
     "month": "July",
-    "title": "Open Domain Event Extraction Using Neural Latent Variable Models"
+    "title": "Open Domain Event Extraction Using Neural Latent Variable Models",
+    "values": {
+        "building on past work": "  In addition, given the fact that different news agencies can report the same events, redundancy can be leveraged for better event extraction.  We build an unsupervised generative model to address these challenges.  While previous work on generative schema induction (Chambers, 2013; Cheung et al., 2013; Nguyen et al., 2015) relies on hand-crafted indicator features, we introduce latent variables produced by neural networks for better representation power.",
+        "novelty": " A novel latent variable neural model is constructed, which is scalable to very large corpus. ",
+        "reproducibility": "To evaluate model performance, we collect and annotate a large-scale dataset from Google Business News 1 with diverse event types and explainable event schemas. In addition to the standard metrics for schema matching, we adapt slot coherence based on NPMI (Lau et al., 2014) for quantitatively measuring the intrinsic qualities of slots and schemas, which are inherently clusters. Results show that our neural latent variable model outperforms state-of-the-art event schema induction methods. We release our code and dataset at https://github.com/ lx865712528/ACL2019-ODEE."
+    }
 }

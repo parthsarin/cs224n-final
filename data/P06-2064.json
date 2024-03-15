@@ -18,5 +18,9 @@
     "numcitedby": 83,
     "year": 2006,
     "month": "July",
-    "title": "Interpreting Semantic Relations in Noun Compounds via Verb Semantics"
+    "title": "Interpreting Semantic Relations in Noun Compounds via Verb Semantics",
+    "values": {
+        "building on past work": "In our approach we map the actual verbs in sentences containing the head noun and modifiers to seed verbs corresponding to the relation forms. The set of seed verbs contains verbs representative of each semantic relation form. We chose two sets of seed verbs of size 57 and 84, to examine how the coverage of actual verbs by seed verbs affects the performance of our method. the classifier produced similar results over the 17 semantic relations to the 19 semantic relations. In its current form, we do not weight the different seed verbs based on their relative similarity to the original verb. We also use the same weight and frequency for each seed verb relative to a given relation, despite seed verbs being more indicative of a given relation and also potentially occurring more often in the corpus.",
+        "performance": "The performance of our final system at interpreting NCs is 52.6%. Our method avoids any such assumptions while outperforming previous methods. We also experimented with varying numbers of seed verbs, and found that generally the more seed verbs, the better the performance."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 2,
     "year": 2009,
     "month": "September",
-    "title": "{E}dlin: an Easy to Read Linear Learning Framework"
+    "title": "{E}dlin: an Easy to Read Linear Learning Framework",
+    "values": {
+        "ease of implementation": "The main goal is to provide easy to edit working examples of implementations for popular learning algorithms. To minimize programmer overhead, Edlin depends only on GNU Trove 1 for fast data structures and JUnit 2 for unit tests. For researchers we expect the main advantage of Edlin is that its code is easy to read, understand and modify, meaning that variations are easy to experiment with. Edlin implements learning algorithms for linear models. Currently implemented are: Naive Bayes, maximum entropy models, the Perceptron and one-best MIRA (optionally with averaging), AdaBoost, structured Perceptron and structured one-best MIRA (optionally with averaging) and conditional random fields. Because of the focus on clarity and conciseness, some optimizations that would make the code harder to read have not been made. This makes the framework slightly slower than it could be, but implementations are asymptotically fast and suitable for use on medium to large datasets.",
+        "performance": "Edlin is implemented with an natural language tasks in mind. Because of the focus on clarity and conciseness, some optimizations that would make the code harder to read have not been made. This makes the framework slightly slower than it could be, but implementations are asymptotically fast and suitable for use on medium to large datasets. MALLET also contains a very general implementation of CRFs that allows linear-chain models with varying order n Markov properties. These enhancements lead to a larger and hence harder to read code-base. BioTagger [14] is a different tool for named entity recognition in biomedical text also using linear-chain CRFs."
+    }
 }

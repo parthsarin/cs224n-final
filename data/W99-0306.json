@@ -18,5 +18,8 @@
     "numcitedby": 29,
     "year": 1999,
     "month": "",
-    "title": "Tagging of Speech Acts and Dialogue Games in {S}panish Call Home"
+    "title": "Tagging of Speech Acts and Dialogue Games in {S}panish Call Home",
+    "values": {
+        "performance": "Our results show that the label of a game cannot be predicted from n-grams of words it contains. We get better than baseline results for predicting the label of a game from the sequence of speech acts it contains, but only when the speech acts are hand tagged, and not when they are automatically detected. The reason that speech acts help as an intermediate level between words and games may be because the speech acts already encode some of the discriminating words that are necessary for game detection."
+    }
 }

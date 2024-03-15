@@ -18,5 +18,10 @@
     "numcitedby": 80,
     "year": 2015,
     "month": "",
-    "title": "Imitation Learning of Agenda-based Semantic Parsers"
+    "title": "Imitation Learning of Agenda-based Semantic Parsers",
+    "values": {
+        "building on past work": "The challenge in this setting is that the vocabulary of the target logical language often contains thousands of logical predicates, and there is a mismatch between the structure of the natural language and the logical language. As a result, the space of possible semantic parses for even a short utterance grows quickly. At each step, the parse with the highest priority is popped from the agenda and put into the chart. First, syntactic parsing assumes gold parses, from which it is easy to derive an oracle action sequence. (2013) with new features that improve the mapping of phrases to KB predicates.",
+        "novelty": "We gain further efficiency by introducing a lazy agenda, which reduces the number of parses that need to be scored.",
+        "performance": "Empirically, our parser reduces the number of constructed partial logical forms by an order of magnitude, and obtains a 6x-9x speedup over fixed-order parsing, while maintaining comparable accuracy. Table 1 provides our key result comparing the fixed-order parser (FIXEDORDER) and our proposed agenda-based parser (AGENDAIL). Figure 8 compares accuracy, speed at test time, and number of derivations for AGENDAIL and FIXEDORDER. For AGENDAIL, we show both the number of derivations popped from the agenda, as well as number of derivations scored, which is slightly higher due to scored derivations on the agenda. Table 3 shows the impact of sampling from p +w \u03b8 (local reweighting), p +c \u03b8 (history compression), and directly from p \u03b8 , which reduces to policy gradient. We observe that sampling from p \u03b8 directly according to policy gradient results in very low accuracy, as this produces derivations with zero reward most of the time."
+    }
 }

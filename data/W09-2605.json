@@ -18,5 +18,10 @@
     "numcitedby": 14,
     "year": 2009,
     "month": "August",
-    "title": "Construction of a {G}erman {HPSG} grammar from a detailed treebank"
+    "title": "Construction of a {G}erman {HPSG} grammar from a detailed treebank",
+    "values": {
+        "building on past work": "However, different from earlier deep grammar extraction studies, more sophisticated structures are added. The use of the core lexicon allows us to have more linguistically motivated analyses of German than approaches where the core lexicon only comprises the textbook principles/operators.",
+        "novelty": "PPs and CPs are also split into a head and its dependent. Although this extracted grammar suffers considerably more from overgeneration than the hand-written GG, we argue that our conservative derivation procedure delivers a more detailed, compact and correct compared to previous deep grammar extraction efforts.",
+        "performance": "Compared to previous deep grammar extraction approaches, a more sophisticated core grammar (in the framework of HPSG) is created. Also, more detailed syntactic features are learnt from the resource treebank, which leads to a more precise lexicon. We took a sample of 200 sentences from both the training and the test set, where the ones from the training set did not overlap with the set used to train the MaxEnt model, so that both settings were equally influenced by the rudimentary MaxEnt model. We evaluated for how many sentences the exactly correct parse tree could be found among the top-1000 parses The goal of GG is not computational, but it serves as a testing ground for linguistic hypotheses. Therefore, the developers have never aimed at high coverage figures, and crafted the GG to give more detailed analyses and to be suited for both parsing and generation. We are happy to observe that the coverage figures in this study are higher than GG's (Zhang et al., 2009 ), but we realise the limited value of this evaluation method. Future studies will certainly include a more granular evaluation of the grammar's performance."
+    }
 }

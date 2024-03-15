@@ -18,5 +18,9 @@
     "numcitedby": 15,
     "year": 2013,
     "month": "August",
-    "title": "Extracting Definitions and Hypernym Relations relying on Syntactic Dependencies and Support Vector Machines"
+    "title": "Extracting Definitions and Hypernym Relations relying on Syntactic Dependencies and Support Vector Machines",
+    "values": {
+        "novelty": "Instead of using pattern matching methods that rely on lexico-syntactic patterns, we propose a technique which only uses syntactic dependencies between terms extracted with a syntactic parser. The assumption is that syntactic information are more robust than patterns when coping with length and complexity of the sentences. Afterwards, we transform such syntactic contexts in abstract representations, that are then fed into a Support Vector Machine classifier. The results on an annotated dataset of definitional sentences demonstrate the validity of our approach overtaking current state-of-the-art techniques.",
+        "performance": "Our first results on this method highlight the validity of the approach by significantly improving current state-of-the-art techniques in the classification of definitional sentences as well as in the extraction of hypernym relations from text. In future works, we aim at using larger syntactic contexts. In fact, currently, the detection does not surpass the sentence level, while taxonomical information can be even contained in different sentences or paragraphs. Finally, the desired result of the task of extracting hypernym relations from text (as for any semantic relationships in general) depends on the domain and the specific later application. Thus, we think that a precise evaluation and comparison of any systems strictly depends on these factors."
+    }
 }

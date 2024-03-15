@@ -21,5 +21,10 @@
     "numcitedby": 2,
     "year": 2015,
     "month": "July",
-    "title": "A Computationally Efficient Algorithm for Learning Topical Collocation Models"
+    "title": "A Computationally Efficient Algorithm for Learning Topical Collocation Models",
+    "values": {
+        "building on past work": " Previous attempts to use collocations (short sequences of adjacent words) in topic models have either relied on a pipeline approach, restricted attention to bigrams, or resulted in models whose inference does not scale to large corpora.   Several extensions of LDA have been proposed that assign topics not only to individual words but also to multi-word phrases, which we call topical collocations.   Most extensions add some ability to capture word-to-word dependencies directly into the underlying generative process.     Wang et al. (2007) extended the LDACOL model to generate the second word of a collocation from a distribution that conditions on not only the first word but also the first word's topic assignment, proposing the topical N-gram (TNG) model. ",
+        "novelty": " We present an efficient reformulation of the Adaptor Grammar-based topical collocation model (AG-colloc) (Johnson, 2010), and develop a point-wise sampling algorithm for posterior inference in this new formulation.  We further improve the efficiency of the sampling algorithm by exploiting sparsity and parallelising inference.  Experimental results derived in text classification, information retrieval and human evaluation tasks across a range of datasets show that this reformulation scales to hundreds of thousands of documents while maintaining the good performance of the AG-colloc model.",
+        "performance": "Experimental results derived in text classification, information retrieval and human evaluation tasks across a range of datasets show that this reformulation scales to hundreds of thousands of documents while maintaining the good performance of the AG-colloc model."
+    }
 }

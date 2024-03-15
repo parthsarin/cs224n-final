@@ -21,5 +21,9 @@
     "numcitedby": 53,
     "year": 2019,
     "month": "August",
-    "title": "The Effect of Translationese in Machine Translation Test Sets"
+    "title": "The Effect of Translationese in Machine Translation Test Sets",
+    "values": {
+        "building on past work": "Previous work has found that an MT system performs better when trained on parallel data whose source side is original and whose target side is translationese, rather than the opposite (Kurokawa et al., 2009; Lembersky, 2013) . A recent paper has studied the effect of translationese on test sets (Toral et al., 2018) , in the context of assessing the claim of human parity made on Chinese-to-English WMT's 2017 test set (Hassan et al., 2018) . Noting that this finding was based on one test set for a single translation direction, we explore this topic in more depth, studying the effect of translationese in all the language pairs of the news shared task of WMT 2016 to 2018.",
+        "performance": " Our research questions (RQs) are the following: \u2022 RQ1. Does the use of translationese in the source side of MT test sets unfairly favour MT systems in general or is this just an artifact of the Chinese-to-English test set from WMT 2017? \u2022 RQ2. If the answer to RQ1 is yes, does this effect of translationese have an impact on WMT's system rankings? In other words, would removing the part of the test set whose source side is translationese result in any change in the rankings? \u2022 RQ3. If the answer to RQ1 is yes, would some language pairs be more affected than others? E.g. based on the level of the relatedness between the two languages involved.    We see that there is no perfect correlation between rankings, apart from a few language directions for which only a few systems were submitted.    Considering either relative or absolute differences, the correlations are in both cases significant and strong (p < 0.001, |R| > 0.75)."
+    }
 }

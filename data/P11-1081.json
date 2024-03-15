@@ -20,5 +20,10 @@
     "numcitedby": 76,
     "year": 2011,
     "month": "June",
-    "title": "A Cross-Lingual {ILP} Solution to Zero Anaphora Resolution"
+    "title": "A Cross-Lingual {ILP} Solution to Zero Anaphora Resolution",
+    "values": {
+        "building on past work": "We present an ILP-based model of zero anaphora detection and resolution that builds on the joint determination of anaphoricity and coreference model proposed by Denis and Baldridge ( 2007 ), but revises it and extends it into a three-way ILP problem also incorporating subject detection. We show that this new model outperforms several baselines and competing models, as well as a direct translation of the Denis / Baldridge model, for both Italian and Japanese zero anaphora. We incorporate our model in complete anaphoric resolvers for both Italian and Japanese, showing that our approach leads to improved performance also when not used in isolation, provided that separate classifiers are used for zeros and for explicitly realized anaphors.",
+        "novelty": "      ",
+        "performance": "In zero anaphora resolution, we need to find all predicates that have anaphoric unrealized subjects (i.e. zero pronouns which have an antecedent in a text), and then identify an antecedent for each such argument. The Italian and Japanese test data sets contain 4,065 and 25,467 verbal predicates respectively. The performance of each model at zero-anaphora detection and resolution is shown For both Italian and Japanese the ILP+BF+SUBJ model works clearly better than the baselines, whereas simply applying the original Denis and Baldridge model unchanged to this case we obtain worse results than the baselines. I-BART's results are clearly better than those with both baselines, but also clearly in- ferior to the results obtained with our models."
+    }
 }

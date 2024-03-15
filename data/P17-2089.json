@@ -20,5 +20,10 @@
     "numcitedby": 88,
     "year": 2017,
     "month": "July",
-    "title": "Sentence Embedding for Neural Machine Translation Domain Adaptation"
+    "title": "Sentence Embedding for Neural Machine Translation Domain Adaptation",
+    "values": {
+        "building on past work": "  The vocabulary was built by using the selected corpus and in-domain corpus. ",
+        "novelty": "Instead of the existing external selection criteria, we applied the internal NMT sentence embedding similarity as the criterion. Empirical results on IWSLT and NIST tasks showed that the proposed method can substantially improve NMT performances and outperform state-of-the-art existing NMT adaptation methods on NMT (even PBSMT) performances. In addition, we found that the combination of sentence selection and further training has an additional effect, with a fast convergence.",
+        "performance": "Adding data selected by \u03b4 f , \u03b4 e and \u03b4 f e substantially improved NMT performance (3.9 to 6.6 BLEU points), and gave rise to a modest improvement in PBSMT performance (0.4 to 3.1 BLEU points). This method also outperformed the best existing baselines by up to 1.1 BLEU points for NMT and 0.8 BLEU for PBSMT."
+    }
 }

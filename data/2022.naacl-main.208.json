@@ -19,5 +19,8 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "July",
-    "title": "The {USMLE}\u00ae Step 2 Clinical Skills Patient Note Corpus"
+    "title": "The {USMLE}\u00ae Step 2 Clinical Skills Patient Note Corpus",
+    "values": {
+        "performance": "The main, but not sole, application for this data is the development of interpretable, transparent, and cost-effective systems for clinical text scoring, thus improving educational assessment in the field of medicine. As will be seen in Section 5, the average inter-rater agreement on whether a feature is mentioned in the corpus is F1 = 0.97. The produced data were cleaned by fixing instances of wrong feature attribution (81) and correcting: leading and trailing spaces (167), punctuation (533), extra characters (115), and missing characters (e.g., as in \"ot flashes\") (64). F1 agreement scores were computed based on character position overlap, with a substantial agreement across all cases of F1 = .84 (SD = 0.075); Jaccard distance of 86.55% (9.89); and Cohen's \u03ba of 0.89 (0.057) (See individual case agreement scores in Appendix C). Finally, the annotators had an even higher agreement (binary F1) on whether an expression of a given feature was found in a PN or not (mean F1 = 0.97 (0.014)). A binary F1 score of whether a given feature was expressed in a PN (1 if found, 0 otherwise) reveals a very strong agreement between the annotators (.97 (.014)) and a significantly worse performance for the best baseline (.86 (.048) for fuzzy + synonyms match). Therefore, to be comparable to human performance and thus operationally usable, automated approaches need to show a significant improvement over the baseline results presented here. It is our hope that the public release of this data will spur the development of interpretable and transparent solutions for PN scoring and related tasks, improving technology-assisted educational assessment in the field of medicine."
+    }
 }

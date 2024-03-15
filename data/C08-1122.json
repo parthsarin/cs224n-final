@@ -16,5 +16,10 @@
     "numcitedby": 134,
     "year": 2008,
     "month": "August",
-    "title": "{C}ollab{R}ank: Towards a Collaborative Approach to Single-Document Keyphrase Extraction"
+    "title": "{C}ollab{R}ank: Towards a Collaborative Approach to Single-Document Keyphrase Extraction",
+    "values": {
+        "building on past work": "Previous methods usually conduct the keyphrase extraction task for single documents separately without interactions for each document, under the assumption that the documents are considered independent of each other. Most previous work focuses on keyphrase extraction for journal or conference articles, while this paper focus on keyphrase extraction for news articles because news article is one of the most popular document genres on the web and most news articles have no author-assigned keyphrases. The idea is borrowed from human's perception that a user would better understand a topic expressed in a document if the user reads more documents about the same topic.",
+        "novelty": "CollabRank is implemented by first employing the clustering algorithm to obtain appropriate document clusters, and then using the graph-based ranking algorithm for collaborative single-document keyphrase extraction within each cluster.",
+        "performance": "The results demonstrate the good effectiveness of the proposed collaborative framework. The results demonstrate that all the methods are not significantly affected by the window size. We can also see from Figures 2-7 that the Col-labRank methods with high-quality clustering results always perform better than the baseline SingleRank method under different window sizes and different keyphrase numbers, and they always lead to poor performance with low-quality clustering results. This further proves that an ap-propriate cluster context is very important for the CollabRank method."
+    }
 }

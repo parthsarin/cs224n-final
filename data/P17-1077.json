@@ -18,5 +18,8 @@
     "numcitedby": 13,
     "year": 2017,
     "month": "July",
-    "title": "Semantic Dependency Parsing via Book Embedding"
+    "title": "Semantic Dependency Parsing via Book Embedding",
+    "values": {
+        "performance": "There is still a gap between our single parsing model and Peking hybrid model."
+    }
 }

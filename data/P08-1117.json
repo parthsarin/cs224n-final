@@ -19,5 +19,8 @@
     "numcitedby": 20,
     "year": 2008,
     "month": "June",
-    "title": "Extraction of Entailed Semantic Relations Through Syntax-Based Comma Resolution"
+    "title": "Extraction of Entailed Semantic Relations Through Syntax-Based Comma Resolution",
+    "values": {
+        "performance": "We defined the task of comma resolution, and developed a novel machine learning algorithm that learns Sentence Transformation Rules to perform this task. We experimented with both gold standard and parser annotated sentences, and established a performance level that seems good for a task of this complexity, and which will provide a useful measure of future systems developed for this task. When given automatically parsed sentences, performance degrades but is still much higher than random, in both scenarios. Relation Extraction Performance Firstly, we present the evaluation of the performance of ASTRL from the point of view of relation extraction. After learning the STRs for the different comma types using the gold standard parses, we generated relations by applying the STRs on the test set once. Comma Resolution Performance We present a detailed analysis of the performance of the algorithm for comma resolution. We call this metric the Relation-Type metric. Another key evaluation question is the performance of the method in identification of the OTHER category. A comma is judged to be as OTHER if no STR in the system applies to it."
+    }
 }

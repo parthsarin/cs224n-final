@@ -18,5 +18,9 @@
     "numcitedby": 72,
     "year": 2015,
     "month": "July",
-    "title": "Boosting Transition-based {AMR} Parsing with Refined Actions and Auxiliary Analyzers"
+    "title": "Boosting Transition-based {AMR} Parsing with Refined Actions and Auxiliary Analyzers",
+    "values": {
+        "building on past work": "We report improved AMR parsing results by adding a new action to a transitionbased AMR parser to infer abstract concepts and by incorporating richer features produced by auxiliary analyzers such as a semantic role labeler and a coreference resolver. Our previous work (Wang et al., 2015) describes a transition-based system that also involves two stages. Current AMR parsers are in their early stages of development, and their features are not yet fully developed. And this serves as our baseline parser. We previously create the learning target by representing an AMR graph as a Span Graph, where each AMR concept is annotated with the text span of the word or the (contiguous) word sequence it is aligned to. In our previous work, we only use simple lexical features and structural features.",
+        "performance": "There is a significant drop-off in performance compared with the results on the LDC2013E117 test set for all the parsers, but our parser outperforms the other parsers by a similar margin on both test sets."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 15,
     "year": 2019,
     "month": "August",
-    "title": "Detecting Political Bias in News Articles Using Headline Attention"
+    "title": "Detecting Political Bias in News Articles Using Headline Attention",
+    "values": {
+        "novelty": "Our model builds a vector for news article by aggregating important words obtained by paying attention based on headline representation. The experimental results demonstrate that our model significantly outperforms all the previous baseline models.",
+        "reproducibility": " We created a dataset 3 containing headline of the article, article and the political party towards which it is biased. We marked it with label \"None\" if it was unbiased.  All the experiments are carried out in a 5-fold cross validation scenario. "
+    }
 }

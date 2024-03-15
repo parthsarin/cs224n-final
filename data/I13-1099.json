@@ -20,5 +20,9 @@
     "numcitedby": 9,
     "year": 2013,
     "month": "October",
-    "title": "Adapting a State-of-the-art Anaphora Resolution System for Resource-poor Language"
+    "title": "Adapting a State-of-the-art Anaphora Resolution System for Resource-poor Language",
+    "values": {
+        "building on past work": "In this work we extend BART to perform anaphora resolution for Bengali, a resource poor language. We identify and implement several features for this task. Given BART's flexible architecture, we explore the contribution of some features implemented in BART for co-reference resolution in Bengali. Our system attains the state-of-the-art accuracy level.",
+        "performance": "Performance of any anaphoric resolver greatly depends on the quality of a high accurate mention detector. Our experiments show that, a language-dependent system can attain reasonably good performance when re-trained on a new language with a proper subset of features. Our experiments with other available scorers show the F-measure values of 59.47%, 49.83%, 31.81% and 70.82% for BCUB, CEAFM, CEAFE and BLANC, respectively. This is clearly much less compared to our proposed model. Comparisons with the available related works (specific to the language) show that our proposed system achieves state-of-the-art accuracy."
+    }
 }

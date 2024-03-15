@@ -19,5 +19,9 @@
     "numcitedby": 19,
     "year": 2015,
     "month": "July",
-    "title": "Feature Optimization for Constituent Parsing via Neural Networks"
+    "title": "Feature Optimization for Constituent Parsing via Neural Networks",
+    "values": {
+        "building on past work": "If the feature set is too small, it might underfit the model and leads to low performance. On the other hand, too many features may result in an overfitting problem. Lei et al. (2014) proposed to learn features by representing the cross-products of some primitive units with low-rank tensors for dependency parsing. However, to achieve competitive performance, they had to combine the learned features with the traditional hand-crafted features. For constituent parsing, Henderson (2003) employed a recurrent neural network to induce features from an unbounded parsing history. However, the final performance was below the state of the art.",
+        "performance": "The performance of discriminative constituent parsing relies crucially on feature engineering, and effective features usually have to be carefully selected through a painful manual process Not only does this procedure require a lot of expertise, but it is also tedious and time-consuming. Even after this painstaking process, it is still hard to say whether the selected feature set is complete or optimal to obtain the best possible results"
+    }
 }

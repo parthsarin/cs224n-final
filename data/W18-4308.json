@@ -16,5 +16,8 @@
     "numcitedby": 11,
     "year": 2018,
     "month": "August",
-    "title": "Fine-grained Structure-based News Genre Categorization"
+    "title": "Fine-grained Structure-based News Genre Categorization",
+    "values": {
+        "performance": " Using N-gram features only achieves good performance for recognizing the Inverted Pyramid structure.  Added the writing style features on top of N-gram features significantly improves the classification performance on the Martini Glass and Narrative structures which contain a Narration element.  Note that the classification performance on the Martini Glass structure is poor, mainly because it is a minority class and not sufficiently represented in our dataset.  We conclude that SVM model using both lexical features and our designed structure indicative features can achieve reasonable performance for predicting news article structure type."
+    }
 }

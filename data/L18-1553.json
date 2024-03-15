@@ -18,5 +18,9 @@
     "numcitedby": 20,
     "year": 2018,
     "month": "May",
-    "title": "Text Simplification from Professionally Produced Corpora"
+    "title": "Text Simplification from Professionally Produced Corpora",
+    "values": {
+        "building on past work": "We also evaluated our generator in practice through a full pipeline evaluation, where the output is the best lexical simplification for each complex word. We train standard MOSES toolkit (Koehn et al., 2007) with default configurations.",
+        "novelty": " We investigate the application of the recently created Newsela corpus, the largest collection of professionally written simplifications available, in TS tasks.  Using new alignment algorithms, we extract 550, 644 complex-simple sentence pairs from the corpus.  This data is explored in different ways: (i) we show that traditional readability metrics capture surprisingly well the different complexity levels in this corpus, (ii) we build machine learning models to classify sentences into complex vs. simple and to predict complexity levels that outperform their respective baselines, (iii) we introduce a lexical simplifier that uses the corpus to generate candidate simplifications and outperforms the state of the art approaches, and (iv) we show that the corpus can be used to learn sentence simplification patterns in more effective ways than corpora used in previous work."
+    }
 }

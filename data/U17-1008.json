@@ -16,5 +16,10 @@
     "numcitedby": 10,
     "year": 2017,
     "month": "December",
-    "title": "Automatic Negation and Speculation Detection in Veterinary Clinical Text"
+    "title": "Automatic Negation and Speculation Detection in Veterinary Clinical Text",
+    "values": {
+        "building on past work": "Most work on negation and speculation detection has focused on a specific corpus and domain, with some exceptions. Wu et al. (2014) investigated the generalisability of different negation detection methods over different domains, and found that performance often suffers without in-domain training data. Miller et al. (2017) also investigated the use of different unsupervised domain adaptation algorithms for negation detection in the clinical domain and found that such algorithms only achieved marginal increase in performance compared to systems that use in-domain training data. Currently, there is no publicly available corpus for training models over veterinary clinical notes. However, the BioScope corpus (Szarvas et al., 2008) provides a relevant dataset from which to train out-of-domain models. It is a publicly available collection of biomedical documents that have been annotated for both negation and speculation, in the form of cue words and their scope (see Section 1).",
+        "novelty": "    ",
+        "performance": "The model only outperforms the baselines when VetCompass training data is used. For negation cue detection and scope detection, incorporating both BioScope clinical data with VetCompass records as training instances helps improves the F-scores for most cases. Further marginal improvements can be achieved with oversampling of the VetCompass training instances as well in most cases. However, for speculation cue and scope detection, the inclusion of BioScope clinical data with VetCompass training data helps improve the recall but reduces the precision, leading to only marginal improvements in F-scores. Oversampling Vet-Compass helps to improve the precision, recall and F-score slightly, but the precision is still lower than when the BioScope clinical data was not included in the training set. In both speculation cue detection and scope detection results, the recall is consistently much lower than the precision."
+    }
 }

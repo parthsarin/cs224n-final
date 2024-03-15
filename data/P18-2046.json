@@ -18,5 +18,8 @@
     "numcitedby": 9,
     "year": 2018,
     "month": "July",
-    "title": "Injecting Relational Structural Representation in Neural Networks for Question Similarity"
+    "title": "Injecting Relational Structural Representation in Neural Networks for Question Similarity",
+    "values": {
+        "novelty": "In this paper, we propose to inject structural representations in NNs by (i) learning an SVM model using Tree Kernels (TKs) on relatively few pairs of questions (few thousands) as gold standard (GS) training data is typically scarce, (ii) predicting labels on a very large corpus of question pairs, and (iii) pre-training NNs on such large corpus. The results on Quora and SemEval question similarity datasets show that NNs trained with our approach can learn more accurate models, especially after fine tuning on GS. Indeed, also NNs directly exploiting syntactic information, such as the Recursive Neural Networks by Socher et al. (2013) or the Tree-LSTM by Tai et al. Our experiments show that NNs trained on the automatic data improve their accuracy. We may speculate that NNs learn relational structural information as (i) TK models mainly use syntactic structures to label data and (ii) other advanced models based on similarity feature vectors do not produce any improvement."
+    }
 }

@@ -16,5 +16,9 @@
     "numcitedby": 0,
     "year": 2021,
     "month": "November",
-    "title": "Keyphrase Extraction with Incomplete Annotated Training Data"
+    "title": "Keyphrase Extraction with Incomplete Annotated Training Data",
+    "values": {
+        "building on past work": "According to the length characteristics of the keyphrase, we use sliding CNN to extract the representation of the candidate gram, turn the keyphrase extraction problem into binary classification.",
+        "performance": "We can observe that our model has outperformed prior baselines."
+    }
 }

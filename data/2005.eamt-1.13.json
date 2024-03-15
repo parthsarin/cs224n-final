@@ -19,5 +19,9 @@
     "numcitedby": 55,
     "year": 2005,
     "month": "May 30{--}31",
-    "title": "A framework for interactive and automatic refinement of transfer-based machine translation"
+    "title": "A framework for interactive and automatic refinement of transfer-based machine translation",
+    "values": {
+        "building on past work": " This paper introduces a general framework for incorporating a refinement module to rule-based transfer MT systems.  Su et al. (1995) have explored the possibility of using feedback for a corpus-based MT system to adjust the system parameters so that the user style could be respected in the translation output.  (1994) report research on automatically refining models to decrease the error rate of part-of-speech tagging. Brill (1993) introduced a new technique for parsing free text: a transformational grammar is automatically learned that is capable of accurately parsing text into binary-branching syntactic trees with non-terminals unlabeled.  There are at least two different approaches one could take in order to do that. First, one could try to learn post-editing rules automatically from concrete corrections, which has the advantage of being system independent.  The other half involves using the error information available to trace back through the incorrect translation rules and fix them automatically so as to improve coverage and translation quality.  We are currently developing a first prototype of the RR module and plan to fully test this framework for at least two language pairs: Mapudungun \u2194 Spanish and Quechua \u2194 Spanish.",
+        "novelty": "In other words, we propose to automate post-editing efforts by recycling these corrections back into the MT system."
+    }
 }

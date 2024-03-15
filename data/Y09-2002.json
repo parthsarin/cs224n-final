@@ -18,5 +18,8 @@
     "numcitedby": 0,
     "year": 2009,
     "month": "December",
-    "title": "A {L}exicalized {T}ree {A}djoining {G}rammar for {T}hai"
+    "title": "A {L}exicalized {T}ree {A}djoining {G}rammar for {T}hai",
+    "values": {
+        "novelty": "Due to the scope of this paper, details of the approach cannot be given. However, the method involves the construction of supertags (elementary trees) for different context in which a lexical item can appear. Then, the selection of the appropriate supertag for each lexical item called supertag disambiguation is carried out using statistical distributions of supertag cooccurrences collected from a corpus. Supertag disambiguation results in a representation that is effectively a parse, hence the name 'almost parse'. A final parse can be obtained by combining the individual supertags selected for each lexical item in the sentence. We are in the process of constructing supertags for most, if not all, structures of compound words in Thai."
+    }
 }

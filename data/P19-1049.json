@@ -19,5 +19,9 @@
     "numcitedby": 11,
     "year": 2019,
     "month": "July",
-    "title": "Decompositional Argument Mining: A General Purpose Approach for Argument Graph Construction"
+    "title": "Decompositional Argument Mining: A General Purpose Approach for Argument Graph Construction",
+    "values": {
+        "novelty": "Decompositional Argument Mining (DAM) identifies argument structure by exploiting similarity (between C and A) and relations between the polarities of OC and OA. Our first hypothesis is then the AR between EDUs is governed by the relations between their functional components.",
+        "performance": "The approach is generic in that it is not tuned for a specific corpus and evaluated on three different corpora from the literature: AAEC, AMT, US2016G1tv and achieved an F score of 0.79, 0.77 and 0.64, respectively. We have also achieved an F measure of 0.77 on the AMT corpus and 0.64 on US2016G1tv corpus. DAM outperformed all the approaches across the three corpora achieving the highest precision, recall and F-measure."
+    }
 }

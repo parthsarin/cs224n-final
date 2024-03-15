@@ -16,5 +16,10 @@
     "numcitedby": 422,
     "year": 2010,
     "month": "October",
-    "title": "Jointly Modeling Aspects and Opinions with a {M}ax{E}nt-{LDA} Hybrid"
+    "title": "Jointly Modeling Aspects and Opinions with a {M}ax{E}nt-{LDA} Hybrid",
+    "values": {
+        "building on past work": "Our model is an extension of LDA (Blei et al., 2003) but captures both aspect words and opinion words. We set \u03c0 d,s,n using a maximum entropy (MaxEnt) model applied to a feature vector x d,s,n associated with w d,s,n . We found that our model was competitive in identifying meaningful aspects compared with previous models. Most importantly, our model was able to identify meaningful opinion words strongly associated with different aspects.",
+        "novelty": " A novelty of this model is the integration of a discriminative maximum entropy (Max-Ent) component with the standard generative component. ",
+        "performance": "We can see that ME-LDA outperformed the two baselines consistently. Especially, for P@5, ME-LDA gave more than 100% relative improvement over BL-1."
+    }
 }

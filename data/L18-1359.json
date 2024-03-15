@@ -18,5 +18,9 @@
     "numcitedby": 0,
     "year": 2018,
     "month": "May",
-    "title": "Development of a Mobile Observation Support System for Students: {F}ish{W}atchr Mini"
+    "title": "Development of a Mobile Observation Support System for Students: {F}ish{W}atchr Mini",
+    "values": {
+        "ease of implementation": "Despite the 30-minute training time, we did not observe any students facing difficulties in using FWM while they were observing the presentations. This ease of use is further supported by the scores in Question 1 (4.29) and by the high minimum number of annotations (22) . FWM was designed to provide the following three solutions for introducing annotation systems effectively in the classroom: (a) FWM was implemented as a Web application run on students' smartphones; (b) many operations, apart from annotation, were automated to lessen Students' burdens of learning how to use FWM; and (c) three functions, namely visualization, synchronization, and exportation, were provided so that the annotation results could be used in the reflection phase.",
+        "performance": " The results of applying FWM to presentation practices in a university validated the effectiveness of FWM in terms of its ease of use and applicability of annotation results.  The result of Question 3 in Table 1 shows that annotations against students' own presentations were helpful in that they could recognize what kinds of actions were evaluated positively."
+    }
 }

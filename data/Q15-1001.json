@@ -19,5 +19,9 @@
     "numcitedby": 92,
     "year": 2015,
     "month": "",
-    "title": "Reasoning about Quantities in Natural Language"
+    "title": "Reasoning about Quantities in Natural Language",
+    "values": {
+        "novelty": " Little work from the Natural Language Processing community has targeted the role of quantities in Natural Language Understanding. This paper takes some key steps towards facilitating reasoning about quantities expressed in natural language.  Second, we consider the problem of automatically understanding and solving elementary school math word problems.  We investigate two different tasks of numerical reasoning. First, we consider Quantity Entailment, a new task formulated to understand the role of quantities in general textual inference tasks.   We then use these capabilities to further develop algorithms to assist reasoning in the context of the aforementioned tasks.",
+        "performance": "We evaluate our system's performance on four tasks: Quantity Segmentation, Quantity Entailment, Currency Range Search, and Answering Math Word Problems. The bank of classifiers approach gives slightly better accuracy than the semi-CRF model, and is also significantly faster. We find that the individual classifiers have high accuracy, and hence our system performs well on the end to end task."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 11,
     "year": 2017,
     "month": "July",
-    "title": "Fine-Grained Entity Typing with High-Multiplicity Assignments"
+    "title": "Fine-Grained Entity Typing with High-Multiplicity Assignments",
+    "values": {
+        "building on past work": "Previously, most results focused on the low-multiplicity Freebase-based FIGER corpus.",
+        "novelty": "Our structured prediction framework is based on modeling type assignments as sets. We take the commonly-used linear model approach to this structured prediction problem. At the cost of restricting the permissible type sets slightly, we can speed up the greedy procedure further. We follow prior work on entity linking (Durrett and Klein, 2014) and take all mentions that occur as anchor text.",
+        "performance": "Table 3 summarizes our results. Starting with the baseline, we incrementally add the type pair, graph-based, and set size features discussed in 2.1. Adding type pair features results in an appreciable performance gain, while the graph features bring little benefit-potentially because pairwise correlations suffice to summarize the set structure when the number of types is moderately low. A concern when studying multiclass problems with large numbers of classes, whether predicting sets or individual labels, is that performance on instances associated with common classes will dominate the performance metric. Figure 3 shows micro-averaged F1 for the binary prediction task associated with predicting the presence or absence of each type, demonstrating that our performance is strong even for many rare types."
+    }
 }

@@ -19,5 +19,10 @@
     "numcitedby": 2,
     "year": 2019,
     "month": "June",
-    "title": "Cross-Topic Distributional Semantic Representations Via Unsupervised Mappings"
+    "title": "Cross-Topic Distributional Semantic Representations Via Unsupervised Mappings",
+    "values": {
+        "building on past work": " Following this line of research, we induce the creation of multiple cross-topic word embeddings by projecting the semantic representations of topic-based DSMs to a unified semantic space.  Our multi-topic word representations are evaluated on the contextual semantic similarity task and yield state-of-the-art performance compared to other unsupervised multi-prototype word embedding approaches.  We further perform experiments on two NLP downstream tasks: text classification and paraphrase identification and demonstrate that our learned word representations consistently provide higher performance than single-prototype word embedding models.",
+        "novelty": "In this work, we propose a DSM that learns multiple distributional representations of a word based on different topics. Our unsupervised mapping approach is motivated by the hypothesis that words preserving their relative distances in different topic semantic sub-spaces constitute robust semantic anchors that define the mappings between them. To our knowledge, this is the first time that mappings between semantic spaces are applied to the problem of learning multiple embeddings for polysemous words.",
+        "performance": "It is clear that all different setups of UTDSM perform better than the baseline for both contextual semantic similarity metrics. Specifically, we get an improvement of 2 \u2212 2.5% on topic-based average and 0.5 \u2212 1% on simple average combination compared to using Global-DSM. Avg D yields the best results especially in F1 metric showing that cross-topic representations are semantically richer than single embeddings baseline (Global-DSM). Overall, the proposed UTDSM model outperforms the baseline Global-DSM model on both se-mantic similarity and downstream tasks."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 88,
     "year": 2009,
     "month": "August",
-    "title": "Entity Extraction via Ensemble Semantics"
+    "title": "Entity Extraction via Ensemble Semantics",
+    "values": {
+        "building on past work": "(2008) present a weaklysupervised system for extracting large sets of class-instance pairs using two knowledge extractors: a pattern-based extractor supported by distributional evidence, which harvests candidate pairs from a Web corpus; and a table extractor that harvests candidates from Web tables. The Ranker uses graph random walks to combine the information of the two extractors and output the final list. 'government' \u2192 'organization'). Candidate instances are passed to an SVM Ranker, which uses features stemming from the two extractors, to decide which instances are output in the final list.",
+        "performance": "The large set of features adopted in ES-all accounts for a dramatic improvement in AP, indicating that existing state-of-the-art systems for entity extraction (reflected by our baselines strategies) are not making use of enough semantic cues. In all configurations, except the k family alone, and along all classes, our system significantly outperforms (at the 0.95 level) the baselines. w and t are consistently better than q and k, across all classes. k is shown to be the least useful family. However, without access to richer resources such as a webcrawl or query logs, the features from k do indeed provide large gains over current baselines (on average +10.2% and +7.7% over B3 and B4). All combinations (except those with k) appear valuable, substantially increasing the single-family results in rows 3-6, indicating that combining different feature families (as suggested by the ES paradigm) is helpful. As expected, the best combination is q+w+t with an average precision nearly identical to the full ES-all system. If one has access to Web or query log sources, then the value of the Wikipedia features tends to be subsumed by our web and query log features. For reason of space constraints, we here only focus on some high level observations."
+    }
 }

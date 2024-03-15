@@ -19,5 +19,8 @@
     "numcitedby": 1,
     "year": 2021,
     "month": "December",
-    "title": "{LFG} Generation from Acyclic {F}-Structures is {NP}-Hard"
+    "title": "{LFG} Generation from Acyclic {F}-Structures is {NP}-Hard",
+    "values": {
+        "novelty": "This note has introduced new results concerning the complexity of LFG generation (and recognition) for grammars that assign acyclic f-structures to input strings. Wedekind and Kaplan (2020) introduced a subclass of LFG grammars with particular restrictions that exclude our generic reduction grammars but ensure that at least the recognition problem is tractable for inputs of arbitrary length. However, it is at this point still an open question whether generation is polynomial for arbitrary grammars in this linguistically plausible subclass or whether polynomial generation can be established only for grammars within a yet more restricted proper subclass of the k-bounded class."
+    }
 }

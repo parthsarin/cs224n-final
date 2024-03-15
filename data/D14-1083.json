@@ -18,5 +18,9 @@
     "numcitedby": 148,
     "year": 2014,
     "month": "October",
-    "title": "Why are You Taking this Stance? Identifying and Classifying Reasons in Ideological Debates"
+    "title": "Why are You Taking this Stance? Identifying and Classifying Reasons in Ideological Debates",
+    "values": {
+        "novelty": " We therefore examine the new task of reason classification in this paper.      Second, we propose stance-supported RC systems, hypothesizing that automatically computed stance information can be profitably exploited for RC.   Finally, since progress on RC is hindered in part by the lack of an annotated corpus, we make our reason-annotated dataset publicly available.",
+        "performance": "Our best system, J3, significantly beats the Baseline by an average of 6.7 and 7.5 points at the sentence and post levels respectively. A first step towards handling these errors would therefore be to identify sentences containing sarcasm and/or rhetorical questions."
+    }
 }

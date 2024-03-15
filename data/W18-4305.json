@@ -17,5 +17,8 @@
     "numcitedby": 3,
     "year": 2018,
     "month": "August",
-    "title": "An Evaluation of Information Extraction Tools for Identifying Health Claims in News Headlines"
+    "title": "An Evaluation of Information Extraction Tools for Identifying Health Claims in News Headlines",
+    "values": {
+        "performance": "OPENIE-5.0 ranked highest in F-measure at .62, followed by OLLIE at .53, REVERB at .41 and SemRep at .13. OPENIE-5.0 also ranked highest in BLEU score, followed by REVERB and OLLIE, regardless of the maximum number of n-grams. OPENIE-5.0 is the best tool for extracting \"IV-relation-DV\" in headlines with health claims, leaving some room for improvement. REVERB and OLLIE achieved similar precision level to OPENIE-5.0, but their recalls are relatively lower."
+    }
 }

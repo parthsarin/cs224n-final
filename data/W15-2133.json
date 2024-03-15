@@ -18,5 +18,8 @@
     "numcitedby": 3,
     "year": 2015,
     "month": "August",
-    "title": "{P}ars{P}er: A Dependency Parser for {P}ersian"
+    "title": "{P}ars{P}er: A Dependency Parser for {P}ersian",
+    "values": {
+        "performance": "Subsequently, we automatically parsed the manually normalized, tokenized, but automatically tagged text and compared the parsing results with the manually parsed gold text. Finally, we automatically parsed the manually normalized, tokenized, and tagged text and compared the parsing with the manually parsed gold file."
+    }
 }

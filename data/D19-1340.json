@@ -16,5 +16,10 @@
     "numcitedby": 14,
     "year": 2019,
     "month": "November",
-    "title": "On the Importance of Delexicalization for Fact Verification"
+    "title": "On the Importance of Delexicalization for Fact Verification",
+    "values": {
+        "novelty": "To mitigate this dependence on lexicalized information, we experiment with two strategies of masking. In particular, we first replace named entities with their corresponding semantic tags from Stanford's CoreNLP (Manning et al., 2014) . Second, we similarly replace other word classes in the sentence (common nouns, verbs, adjectives, and adverbs) with their super sense tags (Ciaramita and Johnson, 2003) .",
+        "performance": "While neural networks produce state-of-the-art performance in many NLP tasks, they generally learn from lexical information, which may transfer poorly between domains. Our results show that, while performance on the in-domain dataset remains on par with that of the model trained on fully lexicalized data, it improves considerably when tested out of domain. For example, the performance of a state-of-the-art RTE model trained on the masked Fake News Challenge (Pomerleau and Rao, 2017) data and evaluated on Fact Extraction and Verification (Thorne et al., 2018) data improved by over 10% in accuracy score compared to the fully lexicalized model. Thus our experiments demonstrate that our masking strategy is successful in mitigating the dependency on domain-specific lexical information.",
+        "reproducibility": "All the software for our proposed approach is open-source and publicly available on GitHub at: https://github. com/clulab/releases/tree/master/ emnlp2019-masking."
+    }
 }

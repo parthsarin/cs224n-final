@@ -18,5 +18,9 @@
     "numcitedby": 7,
     "year": 2020,
     "month": "May",
-    "title": "Unsupervised Argumentation Mining in Student Essays"
+    "title": "Unsupervised Argumentation Mining in Student Essays",
+    "values": {
+        "novelty": "To shed light on this question, we propose a novel unsupervised approach to argument mining, with the goal of determining how well we can do without argument-annotated data. We believe that these results would be of interest to argument mining researchers, as our approach can be fairly easily adapted to identify argumentative structures in essays written in languages for which argument-annotated data is not readily available.",
+        "performance": "The most important of these results is shown in the last column, where our unsupervised approach, despite using no labeled training data, achieves performance that is 2.9% higher than that of the better baseline (the ILP baseline). This column measures the average F-score between the two subtasks (ACI and RI). Due to the difficulty of heuristically detecting an AC's exact boundaries, our unsupervised system's exact matching performance is only marginally better than the baseline performances. By the most important measure, however, our unsupervised system scores only 0.4% more than the ILP baseline system in absolute average F-score."
+    }
 }

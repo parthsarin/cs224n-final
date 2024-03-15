@@ -19,5 +19,11 @@
     "numcitedby": 4,
     "year": 2021,
     "month": "April",
-    "title": "Parsing Argumentative Structure in {E}nglish-as-Foreign-Language Essays"
+    "title": "Parsing Argumentative Structure in {E}nglish-as-Foreign-Language Essays",
+    "values": {
+        "building on past work": "We will quantify how the two encoders perform in our task. The third contribution of this paper is an evaluation of Sentence-BERT (SBERT, Reimers and Gurevych (2019) ) in AM as a downstream application setting.",
+        "novelty": "First, this paper presents an application of AM to EFL essays.",
+        "performance": "Our best relation labelling model, BERT, achieves the cross-domain F1-macro of .587 (the difference is not significant to in-domain performance) Although not currently shown, the change of performance in other models are also almost negligible (up to 2% in F1-macro). All models, and in particular BIAF, are better at predicting long-distance links (d \u2264 \u22125, avg. F1 = [0.22, 0.41]) than short distance links (2 \u2264 |d| \u2264 4, avg.",
+        "reproducibility": " All resources of this paper are available on github.  We use part of the \"International Corpus Network of Asian Learners of English\" (Ishikawa, 2013 (Ishikawa, , 2018)) , which we annotated with Argumentative Structure and Sentence Reordering (\"ICNALE-AS2R\" corpus).  We performed an inter-annotator agreement (IAA) study on 20 essays, using as annotators a PhD student in English education (also an EFL teacher -expert annotator) and the first author, both having a near-native English proficiency. We found the agreement to be Cohen's \u03ba=.66 for ACI; \u03ba=.53 for sentence linking; and \u03ba=.61 for relation labelling (Cohen, 1960) ."
+    }
 }

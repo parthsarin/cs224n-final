@@ -19,5 +19,9 @@
     "numcitedby": 4,
     "year": 1999,
     "month": "February",
-    "title": "Sub-Sentential Alignment Method by Analogy"
+    "title": "Sub-Sentential Alignment Method by Analogy",
+    "values": {
+        "building on past work": "Sub-sentential alignment methods which have been proposed are based on statistics. The problem with statistical methods is that they are not able to produce reliable results when the corpus size is limited. For unexplored languages whose huge parallel corpus are still not available, these approaches cannot be applied. Melamed avoids these cases and considers only one-to-one correspondence [5] On the other hand, although Kitamura' s [6] main goal is not the sub-sentential alignment, but the extraction of translation patterns, possible correspondences between functional words are not considered. It weakens the method since it decreases the number of translation patterns which could be extracted. Besides, it is considered to be able to resolve efficiently correspondences involving multiple tokens, since solution models are given beforehand within the translation examples.",
+        "performance": "As the number of translation examples goes beyond 1,000, more than 80.0% of correct word correspondence rates were earned. The accuracy rate of prediction is also slightly rising. With 2,600 translation examples, more than 80% of the word correspondences are extracted, with a 90% of accuracy rate of prediction. This is considered to be a good result as far as spoken-language sentences are concerned."
+    }
 }

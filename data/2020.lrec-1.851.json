@@ -20,5 +20,9 @@
     "numcitedby": 5,
     "year": 2020,
     "month": "May",
-    "title": "A {F}rench Corpus for Semantic Similarity"
+    "title": "A {F}rench Corpus for Semantic Similarity",
+    "values": {
+        "performance": "The annotators estimated that the annotation of the 1,010 pairs of sentences took between seven and fifteen hours. The \u03b1 value for the five annotators is 0.69. This value is above the generally observed threshold which is considered as reliable (\u03b1 = 0.67). Yet, this score is quite low. When we take the average and the vote scores into account for the computation, the \u03b1 value goes up to 0.77, which is a sign that putting all the annotations together significantly improves the data reliability. This may mean that the average scores and collective perception of the semantic similarity remain coherent despite the differences observed during the annotation process.",
+        "reproducibility": "This indicates that the manually created data are reliable and can be used for a variety of experiments where semantic textual similarity is of interest."
+    }
 }

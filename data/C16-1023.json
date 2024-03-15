@@ -19,5 +19,10 @@
     "numcitedby": 22,
     "year": 2016,
     "month": "December",
-    "title": "Abstractive News Summarization based on Event Semantic Link Network"
+    "title": "Abstractive News Summarization based on Event Semantic Link Network",
+    "values": {
+        "building on past work": " The examples below show that the core information of news texts is the atomic event mentions as shown in bolded words and their related concepts as shown in italic phrases.  Abstraction-based approaches that gather information across sentences boundaries have become more and more popular in recent years. ",
+        "novelty": "This paper explores the issue of abstractive summarization for event-oriented news texts. The semantic relations between events like cause-effect relation are also extracted to help generate more coherent and informative summary in our system. The contributions of this work include: \u2022 The abstractive summarization for event-oriented news texts is made by extracting fine-grained events and constructing event semantic link network as the abstract representation of source texts.",
+        "performance": "In addition, we also compare our system (ESLN with coherence) with several state-of-the-art summarization methods: graph-based extractive method MultiMR (Wan and Xiao, 2009) , sparse-coding-based compressive method RA-MDS (Li et al., 2015) , and two most recently developed abstractive methods ILPSumm (Banerjee et al., 2015) and PSM (Bing et al., 2015) . The results show that our system significantly (paired t-test with p<0.05) outperforms all the other four systems. Table 7 shows the evaluation results of our system and two abstractive baselines on both DUC 2006 and DUC 2007(test set) . The results show that our system significantly (p<0.05) outperform the two baselines on both datasets, which demonstrates that our system can generate more informative summary."
+    }
 }

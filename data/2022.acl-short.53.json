@@ -19,5 +19,12 @@
     "numcitedby": 1,
     "year": 2022,
     "month": "May",
-    "title": "As Little as Possible, as Much as Necessary: Detecting Over- and Undertranslations with Contrastive Conditioning"
+    "title": "As Little as Possible, as Much as Necessary: Detecting Over- and Undertranslations with Contrastive Conditioning",
+    "values": {
+        "building on past work": "Our premise is that a translation has optimal coverage if it uses as little information as possible and as much information as necessary to convey the source sequence. We believe our algorithm could be a useful aid whenever humans remain in the loop, for example in a post-editing workflow. We release the code and data to reproduce our findings, including a large-scale dataset of synthetic coverage errors in English-German and Chinese-English machine translations.",
+        "ease of implementation": "For ease of implementation, we also exclude segments that consist of multiple sentences.",
+        "novelty": "We propose a method for detecting such phenomena with off-the-shelf translation models. Using contrastive conditioning, we compare the likelihood of a full sequence under a translation model to the likelihood of its parts, given the corresponding source or target sequence. Our premise is that a translation has optimal coverage if it uses as little information as possible and as much information as necessary to convey the source sequence.",
+        "performance": "Our approach clearly surpasses the baseline in the detection of omission errors in both language pairs. However, both approaches recognize addition errors with low accuracy, and especially the supervised baseline has low recall. Precision is higher than expected when detecting omission errors in English-German translations, but is still low for additions. Higher accuracy would be necessary for word-level QE to be helpful (Shenoy et al., 2021) , and so with regard to detecting addition errors, the practical utility of both the baseline and of our approach remains limited.",
+        "reproducibility": "We release the code and data to reproduce our findings, including a large-scale dataset of synthetic coverage errors in English-German and Chinese-English machine translations. In this paper, we propose a reference-free algorithm based on hypothetical reasoning."
+    }
 }

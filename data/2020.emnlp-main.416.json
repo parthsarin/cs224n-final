@@ -19,5 +19,8 @@
     "numcitedby": 4,
     "year": 2020,
     "month": "November",
-    "title": "Facilitating the Communication of Politeness through Fine-Grained Paraphrasing"
+    "title": "Facilitating the Communication of Politeness through Fine-Grained Paraphrasing",
+    "values": {
+        "performance": " Our experimental results indicate that in both our application scenarios, our method can suggest paraphrases that narrow the potential gap between the intended and perceived politeness, and thus better preserve the sender's intentions.  The results and limitations of our method open up several natural directions for future work.  "
+    }
 }

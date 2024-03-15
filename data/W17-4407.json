@@ -19,5 +19,12 @@
     "numcitedby": 14,
     "year": 2017,
     "month": "September",
-    "title": "Simple Queries as Distant Labels for Predicting Gender on {T}witter"
+    "title": "Simple Queries as Distant Labels for Predicting Gender on {T}witter",
+    "values": {
+        "building on past work": "We confirm the reliability of this query heuristic by comparing with manual annotation. As such, we offer a cheap, extensible, and fast alternative that can be employed beyond the task of gender classification. Our contributions are as follows: We demonstrate a simple, extensible method for gathering self-reports on Twitter, that competes with expensive manual annotation. To empirically compare distant labels (i.e. obtained using heuristics) with manual annotations, we require both data containing self-reports, and corpora with hand-labelled Twitter profiles for comparison. This method however ensures a high accuracy of the distant labels, which should outweigh the amount of data. Note that despite being constructed by manual inspection of the mismatches between annotations and the distant labels, our filters, rules, and even the initial query can be extended with some creativity. To compare our distant labels to annotated alternatives, we include Volkova et al.",
+        "ease of implementation": "can feasibly be repeated on a weekly basis Hence, through manual analysis, as well as experimental evidence, we demonstrate our distantly supervised method to be a reliable and cheap alternative.",
+        "novelty": "     ",
+        "performance": "We demonstrate a simple, extensible method for gathering self-reports on Twitter, that competes with expensive manual annotation. We publish the IDs, manual annotations, as well as the distant labels for 6.6K Twitter profiles, spanning 16.8M tweets. Employing these for distant supervision, we demonstrate them to be an accurate signal for gender classification, and form a reliable, cheap method that has competitive performance with models trained on costly humanlabelled profiles.",
+        "reproducibility": "Our contributions are as follows: \u2022 We demonstrate a simple, extensible method for gathering self-reports on Twitter, that competes with expensive manual annotation. Our further work will focus on intelligently expanding the queries and evaluating this method on a larger scale with more attributes."
+    }
 }

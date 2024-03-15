@@ -19,5 +19,10 @@
     "numcitedby": 0,
     "year": 2018,
     "month": "May",
-    "title": "Can Domain Adaptation be Handled as Analogies?"
+    "title": "Can Domain Adaptation be Handled as Analogies?",
+    "values": {
+        "building on past work": "Basically, all the systems made extensive use of lexical data and this creates serious problems when changing the domain. Our method, explained in next section, proposed to augment the initial list of features by projecting them into the new domain. Word analogy questions have been used to demonstrate that vector space representations consistently encode linguistic regularities (Mikolov et al. 2013 , Levy et al., 2014 , Linzen, 2016, among others) . To our knowledge, this is the first time that word analogy method is applied to a domain shift problem. However, in our results, in addition to clear central representative words (like food and eat) there were also words that can hardly be considered representative, even although there was a certain degree of similarity for the features that got the same analogue. As for frequency, although some are very frequent 6 (i.e. food) others are rather infrequent words (i.e. multicourse).",
+        "novelty": "In this paper, we present an experiment to validate a method to handle domain shifts when there is no available labeled data to retrain. The system is based on the offset method as used for solving word analogy problems in vector semantic models such as word embedding. To our knowledge, this is the first time that word analogy method is applied to a domain shift problem.",
+        "performance": "For referring to aspects such as quality, price or customer services the vocabulary might differ and affect performance. Domain adaptation addresses the problem of moving from a source distribution for which we have labelled training data to a target distribution for which we have no labels. Domain adaptation might be crucial for identifying aspects in Aspect Based Sentiment Analysis (ABSA)."
+    }
 }

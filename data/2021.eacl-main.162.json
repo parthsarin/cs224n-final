@@ -20,5 +20,10 @@
     "numcitedby": 0,
     "year": 2021,
     "month": "April",
-    "title": "Error Analysis and the Role of Morphology"
+    "title": "Error Analysis and the Role of Morphology",
+    "values": {
+        "novelty": "somewhat surprisingly, our results only support the first conjecture. In other words, (i) while morphology is helpful in predicting such errors, (ii) the degree to which morphology helps does not increase with the morphological complexity of the language.",
+        "performance": "The two control features, FREQ and LEN, always appear among the three most important categories, only trumped by U:POS for the UDP and SEM tasks.",
+        "reproducibility": "      "
+    }
 }

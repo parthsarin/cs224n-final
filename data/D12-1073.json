@@ -19,5 +19,10 @@
     "numcitedby": 54,
     "year": 2012,
     "month": "July",
-    "title": "{SSHLDA}: A Semi-Supervised Hierarchical Topic Model"
+    "title": "{SSHLDA}: A Semi-Supervised Hierarchical Topic Model",
+    "values": {
+        "building on past work": "SSHLDA is a probabilistic graphical model that describes a process for generating a hierarchical labeled document collection. SSHLDA makes use of not only observed topics, but also latent topics.",
+        "novelty": "In this paper, we propose a semi-supervised hierarchical topic model which aims to explore new topics automatically in the data space while incorporating the information from observed hierarchical labels into the modeling process, called Semi-Supervised Hierarchical Latent Dirichlet Allocation (SSHLDA). SSHLDA is able to not only explore new latent topics in the data space, but also makes use of the information from the hierarchy of observed labels;",
+        "performance": "The experimental results show that predictive ability of SSHLDA is better than that of baselines, and SSHLDA can also achieve significant improvement over baselines for clustering on the FScore measure. L \u2208 {5, 6, 7, 8}. It shows that the performance of SSHLDA is always better than the state-of-the-art baselines, and means that our proposed model can model the hierarchical labeled data better than the state-of-the-art models. The result shows that our model can achieve about 34.2%, 20.7% and 13.5% improvements over h-clustering, hLDA and hLLDA at height 5. The improvements are significant by t-test at the 95% significance level."
+    }
 }

@@ -19,5 +19,10 @@
     "numcitedby": 13,
     "year": 2019,
     "month": "July",
-    "title": "Paraphrases as Foreign Languages in Multilingual Neural Machine Translation"
+    "title": "Paraphrases as Foreign Languages in Multilingual Neural Machine Translation",
+    "values": {
+        "building on past work": " Unlike previous works that only explore paraphrases at the word or phrase level, we use different translations of the whole training data that are consistent in structure as paraphrases at the corpus level.  Our method achieves high translation performance and gives interesting findings. The differences between our work and the prior works are mainly the following.   Unlike most of the multilingual NMT works that uses data from multiple languages, we use paraphrases as foreign languages in a single-source single-target NMT system training only on data from the source and the target languages.",
+        "novelty": "Unlike previous works that only explore paraphrases at the word or phrase level, we use different translations of the whole training data that are consistent in structure as paraphrases at the corpus level. We train on parallel paraphrases in multiple languages from various sources. We treat paraphrases as foreign languages, tag source sentences with paraphrase labels, and train on parallel paraphrases in the style of multilingual Neural Machine Translation (NMT). Our multi-paraphrase NMT that trains only on two languages outperforms the multilingual baselines. Adding paraphrases improves the rare word translation and increases entropy and diversity in lexical choice. Adding the source paraphrases boosts performance better than adding the target ones. Combining both the source and the target paraphrases lifts performance further; combining paraphrases with multilingual data helps but has mixed performance. We achieve a BLEU score of 57.2 for French-to-English translation using 24 corpus-level paraphrases of the Bible, which outperforms the multilingual baselines and is +34.7 above the single-source singletarget NMT baseline.",
+        "performance": " Our multi-paraphrase NMT results show significant improvements in BLEU scores over all baselines.  Adding paraphrases improves the sparsity issue of rare word translation and diversity in lexical choice."
+    }
 }

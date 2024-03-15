@@ -20,5 +20,10 @@
     "numcitedby": 3,
     "year": 2008,
     "month": "September",
-    "title": "Improved Minimum Phone Error based Discriminative Training of Acoustic Models for {M}andarin Large Vocabulary Continuous Speech Recognition"
+    "title": "Improved Minimum Phone Error based Discriminative Training of Acoustic Models for {M}andarin Large Vocabulary Continuous Speech Recognition",
+    "values": {
+        "building on past work": "2006; Li et al.",
+        "novelty": "  Moreover, a novel data selection approach based on the frame-level normalized entropy of Gaussian posterior probabilities obtained from the word lattice of the training utterance is explored.  It has the merit of making the training algorithm focus much more on the training statistics of those frame samples that center nearly around the decision boundary for better discrimination.",
+        "performance": "MFA ( \u03c1 =0.5) trained with 10 iterations (20.46%) leads to an absolute CER reduction of 0.31% over MPE trained with the same iterations (20.77%), which is equivalent to a condition where about 81 of the character recognition errors have been corrected. The two frame-level training data selection approaches, i.e., HS and SS, respectively, are integrated with the MSFA training. The corresponding results are shown in Table 3 ."
+    }
 }

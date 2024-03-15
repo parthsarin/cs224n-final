@@ -18,5 +18,8 @@
     "numcitedby": 9,
     "year": 1999,
     "month": "November 10-11",
-    "title": "Controlling Input and Output of {MT} for Greater User Acceptance"
+    "title": "Controlling Input and Output of {MT} for Greater User Acceptance",
+    "values": {
+        "performance": "Furthermore, the so-called Clarity Index provides a measure of the overall quality of the document. The TCI is a measure of IBM's MT system's confidence in its own translation. For example, a segment that cannot be given a complete parse may translate better into a target language that has a word order similar to the source language than into a target language with a very different word order. This confidence is based on a number of factors, some of which depend on the language pair involved in the translation; the language distance (Odlin 1989) 1 makes a noticeable difference. We have integrated the TCI with IBM's English-German MT system and calibrated the profile to yield a general precision of around 70-75 percent. Problems flagged by EEA are underlined and given an identifying number in parenthesis to which we will refer below. As before, the problems that EEA pointed out for the source text are underlined and identified by a number immediately following the problem. For the translation given in fig. 3 , which is based on the raw (un-EEA'ed) English source text, the percentage of useful translations is 68%. The resulting translation into German is given in fig. 5 . We notice that pre-editing increased  the percentage of useful translations to 93%. Additionally, if we apply the TCI 3 , the number of useful translations goes up to 96%."
+    }
 }

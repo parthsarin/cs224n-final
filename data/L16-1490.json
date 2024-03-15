@@ -18,5 +18,10 @@
     "numcitedby": 13,
     "year": 2016,
     "month": "May",
-    "title": "Detection of Major {ASL} Sign Types in Continuous Signing For {ASL} Recognition"
+    "title": "Detection of Major {ASL} Sign Types in Continuous Signing For {ASL} Recognition",
+    "values": {
+        "building on past work": "In order to tailor sign recognition strategies to structurally different types of signs, we have developed a system for segmentation of continuous signing based on the linguistic type of sign production (lexical signs, fingerspelling, classifier constructions). The system labeling matched that of human annotators for 91.27% of the frames from 500 utterances consisting of 3,085 signs. The remaining 8.73% contain cases that clearly reflect either human inaccuracy in the \"ground truth\" labeling of boundaries, or signs with properties consistent with more than one class of signs. The segmentation results could be improved by running different sign type HMMs simultaneously in cases where the segmentation system produces a low-confidence result. This is a first step towards creating a complete system for real-time sign recognition that leverages the linguistic properties of the distinct sign classes.",
+        "novelty": " Unlike most previous research, we detect classifier signs.  Our novel feature extraction method does not require pre-segmented hands of specific size and scale, thus eliminating the need for a hand tracker. ",
+        "performance": "Fingerspelled signs and classifiers have a bigger overlap with lexical signs than with each other. Therefore, the regions of interest can be trivially extracted based on local motion."
+    }
 }

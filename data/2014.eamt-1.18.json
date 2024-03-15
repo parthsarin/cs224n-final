@@ -21,5 +21,9 @@
     "numcitedby": 11,
     "year": 2014,
     "month": "June 16-18",
-    "title": "{SEECAT}: {ASR} {\\&} Eye-tracking enabled computer-assisted translation"
+    "title": "{SEECAT}: {ASR} {\\&} Eye-tracking enabled computer-assisted translation",
+    "values": {
+        "building on past work": " In SEECAT, AT&T Watson Toolkit has been trained for ASR in three languages, namely English, Hindi and Spanish.  Also, the MT hypotheses are generated for the source string. These MT hypotheses are used to rescore ASR hypotheses. The experiments related to ASR MT integration are described in the following section.  In the future, we would also like to improve the translation output combining gaze data with ASR+MT output. The data from the eye-tracker will not only provide information about the translation process, but will also help to improve the output provided by the MT server base in gaze information coming from the user.  In a previous work (Kulkarni et al., 2013) was provided information on the use of gaze data to map gaze fixations to source words to improve ASR.  For the integration, lattices were created and composed using the same ASR-MT composition. Experiments showed that ASR as weighted bagof-words and gaze as unweighted bag-of-words improved by 4.6% word accuracy in ASR for the English-Hindi pair.",
+        "performance": " Overall the word accuracy increased by 3.4% for Hindi-English and 2.0% for Spanish-English system over the baseline ASR.   We performed the integration taking MT hypotheses as sequence (Seq.) of words and unweighted (Unw.)   There was not much difference in ASR word accuracy for experiments with POS and without POS tag, so we performed experiments without POS information for Spanish-English as the system performs faster in a real translation task without assigning POS tag for each word in the hypothesis.   ASR as weighted bagof-words and gaze as unweighted bag-of-words improved by 4.6% word accuracy in ASR for the English-Hindi pair. "
+    }
 }

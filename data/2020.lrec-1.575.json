@@ -17,5 +17,9 @@
     "numcitedby": 3,
     "year": 2020,
     "month": "May",
-    "title": "Decode with Template: Content Preserving Sentiment Transfer"
+    "title": "Decode with Template: Content Preserving Sentiment Transfer",
+    "values": {
+        "building on past work": "  The proposed method significantly outperforms stateof-the-art approaches in public sentiment transfer datasets, especially in content preservation.  For each input sentence, we first mask the sentiment words to generate a template without sentiment information. Then we input the template into the encoder (the left part of Figure 1 ) to learn the content representation. Next, we modify the template by replacing the masked words with the target sentiment representations (the right lower part of Figure 1 ). Finally, we feed both the learned semantic content representation and the modified template into the decoder to generate the output sentences (the right upper part of Figure 1 ).  ",
+        "performance": "   "
+    }
 }

@@ -19,5 +19,8 @@
     "numcitedby": 5,
     "year": 2004,
     "month": "April 26{--}27",
-    "title": "Challenges in using an example-based {MT} system for a transnational digital government project"
+    "title": "Challenges in using an example-based {MT} system for a transnational digital government project",
+    "values": {
+        "performance": "The Panlite system has been used for translation with a variety of language pairs, including English-Spanish, and continuously modified to keep pace with new technological developments and resources. However, as the system has grown and changed, many control parameters have been added to run specific experiments. The interface has grown somewhat \"organically\" and has become virtually incomprehensible to all but its primary developer. One relatively small but important improvement is therefore the redesign of the EBMT engine's interface first, and soon thereafter Panlite's. The new design, which is now partially implemented, is intended to support a GUI control panel style interface. For backwards compatibility and in deference to some users' tastes, it will also continue supporting the system's current interface. The new interface design partitions control inputs by engine, by component within the engine, and by its use at training and/or translation time; it also explicitly states dependencies and co-dependencies among control inputs. The design will aid the user to achieve a better understanding and control of Panlite's power and flexibility; it will also aid the developer in maintaining interface documentation as enhancements to the system's functionality give rise to changes in the control interface. Further planned enhancements to the system include: a new corpus indexing scheme to improve lookup speed, improved sub-sentential alignment and dictionary extraction and refinement algorithms, a new approach to generalization in EBMT, and an improved decoder for Panlite."
+    }
 }

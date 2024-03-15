@@ -19,5 +19,10 @@
     "numcitedby": 26,
     "year": 2011,
     "month": "June",
-    "title": "Evaluating an {`}off-the-shelf{'} {POS}-tagger on Early {M}odern {G}erman text"
+    "title": "Evaluating an {`}off-the-shelf{'} {POS}-tagger on Early {M}odern {G}erman text",
+    "values": {
+        "building on past work": "The results of our study show that using an 'off-the shelf' German POS tagger on data from the Early Modern period achieves reasonable results (69.6% on average), but requires a substantial amount of manual post-editing. We further demonstrated that adding a normalisation layer can improve results by 10%. However, using the current manual normalisation scheme only half of all annotations carried out have a positive effect on tagger performance.",
+        "novelty": "Our study assesses the effects of spelling variation on the performance of the tagger, and investigates to what extent tagger performance can be improved by using 'normalised' input, where spelling variants in the corpus are standardised to a modern form. Finally, we plan to retrain state-of-the-art POS taggers such as the TreeTagger and TnT Tagger (Brants, 2000b) on our data and compare the results to the findings of this study.",
+        "performance": "Compared with the performance of the TreeTagger on modern data (ca. 97% ; Schmid, (1995) ), the current results seem relatively low. However, two issues should be taken into account when interpreting these findings: First, the modern accuracy figures result from an evaluation of the tagger on the text type it was developed on (newspaper text), while GerManC-GS includes a variety of genres, which is bound to result in lower performance. Secondly, inter-annotator agreement was also found to be considerably lower in the present task (91.6%) than in one reported for modern German (98.6%; Brants, 2000a) . Overall, this accounts for an improvement of around 10.3% (5981 out of 57,845 tokens in the corpus). Using the original word form as input results in a false POS tag in these cases. However, 32% (4119) of normalised tokens are tagged correctly using both N and O input, while 18% (2339) of tokens are tagged incorrectly using both types of input. This means that for 50% of all annotated spelling variants, normalisation has no effect on POS tagger performance."
+    }
 }

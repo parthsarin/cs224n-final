@@ -17,5 +17,10 @@
     "numcitedby": 11,
     "year": 2019,
     "month": "July",
-    "title": "Duality of Link Prediction and Entailment Graph Induction"
+    "title": "Duality of Link Prediction and Entailment Graph Induction",
+    "values": {
+        "building on past work": "We claim that while these two tasks are usually treated separately, they are complementary. We propose a method to predict entailment scores by using link prediction scores. We further show how we can improve link prediction scores by using predicted entailment scores. We have additionally considered the reverse problem, i.e., using the learned entailment graphs to improve link prediction.",
+        "novelty": "We train a link prediction model on a knowledge graph of assertions extracted from raw text. We propose an entailment score that exploits the new facts discovered by the link prediction model, and then form entailment graphs between relations. We further use the learned entailments to predict improved link prediction scores. Our results show that the two tasks can benefit from each other.",
+        "performance": "Our results show that the two tasks can benefit from each other. The new entailment score outperforms prior state-of-the-art results on a standard entialment dataset and the new link prediction scores show improvements over the raw link prediction scores. In the global setting, Aug MC shows about 13% improvement relative to the best result of the methods based on SBOW vectors (.187 vs .165). In addition, it is 25% higher relative to the cos score (15%). Similar patterns can be seen in the local setting. We observe that adding the entail-ment scores improve the rankings of the correct triples. The value of MRR, Hits@1 and Hits@10 have increased after applying any of the methods for learning entailment scores. The change of the mean rank (MR) is more apparent. For example, MR has decreased about 50% when we apply our best method (Global Aug MC) to re-rank the link prediction scores. This means using entailment relations is more useful to improve the link prediction for harder examples."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 3,
     "year": 2020,
     "month": "July",
-    "title": "Detecting and understanding moral biases in news"
+    "title": "Detecting and understanding moral biases in news",
+    "values": {
+        "building on past work": "In this paper, we offer an initial analysis on the steps necessary for detecting and understanding the prominence of moral frames in news. Our work responds to the need for cross-disciplinary frameworks that enable the early detection, propagation, and influence of moral frames in such networks.",
+        "fairness": "We analyze the connection between issue-specific and moral frames in the Baltimore unrest articles (ol-sent dataset). It is interesting to note that for most moral frames, there is a dominant corresponding issue-specific frame. For Subversion, it is Black Criminality (Blk Crm), for Fairness, it is Rogue Cops (Rog Cop), for Cheating/Injustice it is Structural Inequality (Str Inq). Issue-specific frame distributions (Fig. Neutral sources are harder to explain, however, according to the domain expert, the structural inequality in issue-specific frames can be explained by the fact that these sources are more likely to be aligned with the liberal sources. Cheating or Injustice is heavily used by liberal sources as opposed to conservative. Authority and Betrayal are present in conservative sources and absent in the liberal ones. Liberal sources have some sentences labeled as Sanctity which is missing from conservative sources.",
+        "performance": " We develop and test a simple classification model for detecting the presence of a moral frame, highlighting the need for more sophisticated models.  It is compared to a baseline Keyword match which reports a frame present if at least one of the MFT keywords (Graham et al., 2013) is present in the sentence. The relatively poor results partially reflect the class skew (95% of sentences do not have a moral frame present). "
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 78,
     "year": 2011,
     "month": "June",
-    "title": "Proposal for an Extension of Traditional Named Entities: From Guidelines to Evaluation, an Overview"
+    "title": "Proposal for an Extension of Traditional Named Entities: From Guidelines to Evaluation, an Overview",
+    "values": {
+        "building on past work": "We thus produced guidelines to specify the way corpora had to be annotated, and launched the annotation process. In this paper, after covering related work (Section 2), we describe the taxonomy we created (Section 3) and the annotation process and results (Section 4), including the corpora we gathered and the tools we developed to facilitate annotation. While traditional named entities include three major classes (persons, locations and organizations), we decided to extend the coverage of our campaign to new types of entities and to broaden their main parts-of-speech from proper names to substantives, this extension being necessary for ever-increasing knowledge extraction from documents. We created guidelines that were used by graduate annotators to annotate a broadcast news corpus. Our first goal is to add a new type of named entity for all kinds of events; guidelines are being written and human annotation tests are ongoing.",
+        "novelty": "These extended named entities are hierarchical (with types and components) and compositional (with recursive type inclusion and metonymy annotation). Another original point in this work is the compositional nature of the annotations."
+    }
 }

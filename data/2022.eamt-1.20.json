@@ -19,5 +19,8 @@
     "numcitedby": 0,
     "year": 2022,
     "month": "June",
-    "title": "A Taxonomy and Study of Critical Errors in Machine Translation"
+    "title": "A Taxonomy and Study of Critical Errors in Machine Translation",
+    "values": {
+        "reproducibility": "Reproducibility In this section, we present an analysis of the inter-annotator agreement (IAA) ratings among annotators, based on the set of 100 sentences, for each of the three language combinations, i.e. English-Chinese (EN-ZH), English-Italian (EN-IT) and English-Arabic (EN-AR). Sentence Level: We compute IAA on the sentence-level binary labels, using Cohen's Kappa (Cohen, 1960) , where raters agree on whether or not the sentence has at least one critical error, regardless of the type of critical error. Type Level: As a further step, we calculate the IAA on a categorical scale. We use Fleiss' kappa in SPSS (Fleiss, 1971; Fleiss et al., 2003) that allows determining the level of agreement on a categorical scale, i.e. agreement on individual categories of errors."
+    }
 }

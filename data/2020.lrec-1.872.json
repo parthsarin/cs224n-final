@@ -18,5 +18,8 @@
     "numcitedby": 4,
     "year": 2020,
     "month": "May",
-    "title": "A Web-based Collaborative Annotation and Consolidation Tool"
+    "title": "A Web-based Collaborative Annotation and Consolidation Tool",
+    "values": {
+        "ease of implementation": " AWOCATo is based on three pillars: (1) Simplicity, built with a modular architecture employing easy to use technologies; (2) Flexibility, the JSON configuration file allows an easy adaption to the annotation task; (3) Customizability, parameters such as labels, colours, or consolidation features can be easily customized.  AWOCATo's structure is based on three pillars: 1. Simplicity -built with Python and utilising Mon-goDB 1 as back-end.  This is in line with the fundamentals of providing an easy to use and open source annotation tool for textual data."
+    }
 }

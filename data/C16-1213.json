@@ -19,5 +19,9 @@
     "numcitedby": 50,
     "year": 2016,
     "month": "December",
-    "title": "pl{W}ord{N}et 3.0 {--} a Comprehensive Lexical-Semantic Resource"
+    "title": "pl{W}ord{N}et 3.0 {--} a Comprehensive Lexical-Semantic Resource",
+    "values": {
+        "novelty": " That was meant to keep our wordnet's structure free from the idiosyncrasies of the lexical systems of other languages.     The system is a very large network, linking knowledge elements to lexical meaning and descriptions of local syntactic-semantic structures.",
+        "performance": "plWordNet has also been included in a very large and popular Polish multilingual dictionary Lingo (http://ling.pl). Access to plWordNet as a dictionary amounts to tens of thousand of visits a month. "
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 12,
     "year": 2018,
     "month": "June",
-    "title": "{S}em{E}val 2018 Task 4: Character Identification on Multiparty Dialogues"
+    "title": "{S}em{E}val 2018 Task 4: Character Identification on Multiparty Dialogues",
+    "values": {
+        "novelty": "In this shared task, we propose a novel entity linking task called character identification that aims to find the global entities for all personal mentions, representing individual characters in the contexts of multiparty dialogue.",
+        "performance": "All systems produce better results for Main + Others than ALL, which is expected due to the fewer number of entities to classify (7 vs 78). The hidden units in RNNs enable the network to aggregate character-related information and to disambiguate timeline shifts across utterances. The entity library is consumed and updated as necessary given the mention embeddings."
+    }
 }

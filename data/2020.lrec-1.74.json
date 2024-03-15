@@ -16,5 +16,9 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "May",
-    "title": "Augmenting Small Data to Classify Contextualized Dialogue Acts for Exploratory Visualization"
+    "title": "Augmenting Small Data to Classify Contextualized Dialogue Acts for Exploratory Visualization",
+    "values": {
+        "novelty": " We have shown that 2-layered classification is effective in capturing the longer-term dependencies between utterances for DA classification in our domain.  Another finding is that data augmentation is an effective technique for improving DA classification in a low resource setting, particularly the combination of paraphrasing and semantic slot filling.  Finally, we observed that the LSTM networks, despite efforts to improve performance by supplying augmented data and domain-trained word embeddings, were not as effective compared to CRF, an indication that deep learning models, despite their success in a variety of domains, may not be appropriate in all settings.",
+        "performance": "  However, CRF's general superior performance is statistically significant according to the sign test: for each setting P/P+F/P+F+S, CRF performs better (p < 0.0001).      We found significant differences between AU GX = 0 and AU GX = 10 for LDNN (p = 0.04) and BLDNN (p = 0.02), and a trend towards significance for CLDNN (p = 0.06).  For both layers, CRF is still the top performing classifier.    Additionally, from a practical point of view, training CRF is much faster even without using a GPU, as shown in Table 5 . Hence, we implemented a 2-layered CRF and results are shown in Table 6 .  For 2-layered CRF, we find a trend towards significance with a 8.6% improvement (AU GX = 10) wrt baseline (AU GX = 0) (p = 0.09).   Table 7 shows the average F1 scores for each label across the 5 folds. We observe that the classification model achieved a high score of 90 F1 on think aloud (which is expected since 1096/1536=71% of the labels are think aloud) while also performing relatively well on AR (77 F1). "
+    }
 }

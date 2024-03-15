@@ -18,5 +18,8 @@
     "numcitedby": 34,
     "year": 2020,
     "month": "July",
-    "title": "Improving Disentangled Text Representation Learning with Information-Theoretic Guidance"
+    "title": "Improving Disentangled Text Representation Learning with Information-Theoretic Guidance",
+    "values": {
+        "performance": "Experiments Our method achieves better style and content preservation, with a little performance sacrifice on sentence fluency."
+    }
 }

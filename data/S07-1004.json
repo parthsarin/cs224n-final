@@ -20,5 +20,8 @@
     "numcitedby": 4,
     "year": 2007,
     "month": "June",
-    "title": "{S}em{E}val-2007 Task 05: Multilingual {C}hinese-{E}nglish Lexical Sample"
+    "title": "{S}em{E}val-2007 Task 05: Multilingual {C}hinese-{E}nglish Lexical Sample",
+    "values": {
+        "performance": "  The precision baseline is obtained by the most frequent sense.  Because the corpus is not reflected the real usage, the precision is very low. "
+    }
 }

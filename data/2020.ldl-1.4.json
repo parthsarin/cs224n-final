@@ -19,5 +19,8 @@
     "numcitedby": 1,
     "year": 2020,
     "month": "May",
-    "title": "From Linguistic Descriptions to Language Profiles"
+    "title": "From Linguistic Descriptions to Language Profiles",
+    "values": {
+        "building on past work": "In Virk et al. As a case study, the authors have shown how the parser can be used to extract value of an example typological feature. However, the system has not been used for any actual typological work. As suggested by the authors in the same paper, the annotations can be converted to typological information in any required format using a rule based module. This is exactly what we have done to extract feature values shown in Table 2 for the Ulwa language. In the future we plan to extend this work to other typological features and hence enhance the attributive part of a language profile."
+    }
 }

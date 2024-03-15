@@ -20,5 +20,10 @@
     "numcitedby": 3,
     "year": 2010,
     "month": "August",
-    "title": "A Novel Method for Bilingual Web Page Acquisition from Search Engine Web Records"
+    "title": "A Novel Method for Bilingual Web Page Acquisition from Search Engine Web Records",
+    "values": {
+        "building on past work": "Former researchers extract parallel corpus from specific bilingual web sites. Since search engines index amounts of web pages, and we aim to acquire bilingual pages based on them, our method expands the corpus source greatly. For one search engine, only one sample result page is used to generate the record wrapper. Then the wrapper is used to identify web records from other result pages of the same search engine. We model the issue of verification bilingual pages as a binary-class classification problem. The records acquired automatically and annotated manually are utilized to train and test the classifier. This work is domain and search engine independent.",
+        "novelty": "  ",
+        "performance": "The test is based on 2516 records extracted from six search engines automatically and annotated manually, which gets a high precision of 81.3% and a recall of 94.93%. The experimental results indicate that our approach is very effective. Our method has the following advantages:  Former researchers extract parallel corpus from specific bilingual web sites. Since search engines index amounts of web pages, and we aim to acquire bilingual pages based on them, our method expands the corpus source greatly.  For one search engine, only one sample result page is used to generate the record wrapper. Then the wrapper is used to identify web records from other result pages of the same search engine.  We model the issue of verification bilingual pages as a binary-class classification problem. The records acquired automatically and annotated manually are utilized to train and test the classifier. The recall is lower than the precision, which indicates that it sometimes misses a few records. The reason for this is that in the extraction step, the records different from more common ones are eliminated. Based on the similarity of HTML structures, AP clustering is used to extract web records from result pages of search engines. Experiments show that our algorithm has good performance in precision and recall."
+    }
 }

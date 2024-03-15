@@ -18,5 +18,9 @@
     "numcitedby": 11,
     "year": 2015,
     "month": "September",
-    "title": "Recurrent Polynomial Network for Dialogue State Tracking with Mismatched Semantic Parsers"
+    "title": "Recurrent Polynomial Network for Dialogue State Tracking with Mismatched Semantic Parsers",
+    "values": {
+        "building on past work": "  Recently, constrained Markov Bayesian polynomial (CMBP) has been proposed as a data-driven rule-based model for dialog state tracking (DST). CMBP is an approach to bridge rule-based models and statistical models.  CMBP formulates rule-based DST in a general way and allows data-driven rules to be generated, so the performance can be improved when training data is available. This enables CMBP to achieve competitive performance to the state-of-the-art statistical approaches, while at the same time keeping most of the advantages of rule-based models.  To tackle the weakness of CMBP, recurrent polynomial network (RPN) (Sun et al., 2015) is proposed to further bridge the gap between rule-based and statistical approaches for DST (Sun et al., 2015) . RPN's unique structure enables the framework to have all the advantages of CMBP. Additionally, RPN achieves more properties of statistical approaches than CMBP. RPN uses gradient descent where CMBP uses Hillclimbing. Hence RPN can train its parameters faster and the parameter space are not limited to grid where parameters only takes values which are a multiple of a constant.",
+        "performance": "RPN trained on DSTC-2 can achieve state-of-the-art performance on DSTC-3 without modifying tracking method, outperforming all the submitted trackers in DSTC-3 including the RNN system. RPN shows its robustness on mismatched semantic parsers, which demonstrates the power of using both prior knowledge and being a statistical approach. RPN achieves highest accuracy on every SLU among rule-based models, statistical models and mixed models."
+    }
 }

@@ -20,5 +20,9 @@
     "numcitedby": 7,
     "year": 2015,
     "month": "September",
-    "title": "The {U}niversity of {A}licante at {M}ulti{L}ing 2015: approach, results and further insights"
+    "title": "The {U}niversity of {A}licante at {M}ulti{L}ing 2015: approach, results and further insights",
+    "values": {
+        "novelty": "Given that it bears some relation to LSA and SVD techniques, and it has been shown that such techniques are very competitive, MultiLing 2015 is the perfect context to test it.",
+        "performance": " Our participation in MultiLing has been very positive, ranking at intermediate positions when compared to the other participant systems, showing that PCA is a good technique for generating language-independent summaries, but the addition of lexical-semantic knowledge may heavily depend on the size and quality of the resources available for each language.   Taking into account the different submissions, our versions were not among the best performing approaches, despite obtaining results in line of the other participants.  In general, there were not very big differences in results between the teams. "
+    }
 }

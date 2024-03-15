@@ -18,5 +18,11 @@
     "numcitedby": 0,
     "year": 2013,
     "month": "September",
-    "title": "Towards Definition Extraction Using Conditional Random Fields"
+    "title": "Towards Definition Extraction Using Conditional Random Fields",
+    "values": {
+        "building on past work": "We present and discuss the process of building and evaluating a DE system for educational purposes. It is based on the theoretical and methodological foundations of DE, the task to automatically identify definitional sentences within texts (Navigli and Velardi, 2010) . This annotation schema builds up on previous work by Sierra et al.",
+        "novelty": "This article presents KESSI (Knowledge Extraction System for Scientific Interviews), a multilingual domainindependent machine-learning approach to the extraction of definitional knowledge, specifically oriented to scientific interviews. These results also seem to suggest that combining linguistic information (surface forms, Part-of-Speech and syntactic functions), statistical information (word counts or tfidf) and structural information (position of the token within the document, or whether it is the interviewer or the interviewee who speaks) can contribute to the design of DE systems.",
+        "performance": "This amounts to 111 definitions. While Recall increases almost a 10% (from 0.89 to 0.98), Precision suffers from a strong decrease, in this case 94% (from 0.97 to 0.03).",
+        "reproducibility": "And finally, providing sentence-wise evaluation scores for the CRF approach, so that the two methods showcased could be evenly compared."
+    }
 }

@@ -19,5 +19,9 @@
     "numcitedby": 20,
     "year": 2017,
     "month": "September",
-    "title": "{ACTSA}: Annotated Corpus for {T}elugu Sentiment Analysis"
+    "title": "{ACTSA}: Annotated Corpus for {T}elugu Sentiment Analysis",
+    "values": {
+        "building on past work": "While there is a wealth of raw corpora with opinionated information, no corpora with annotated sentences in Telugu are publicly available as far as we know. This data also motivates the development of new techniques for Telugu sentiment analysis. In future, we try to automate the task of annotation for new sentences with the help of ACTSA. We would also like to perform sentiment analysis task for Telugu, using this corpus.",
+        "reproducibility": "The corpus and guidelines are publicly available."
+    }
 }

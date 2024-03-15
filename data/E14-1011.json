@@ -18,5 +18,9 @@
     "numcitedby": 69,
     "year": 2014,
     "month": "April",
-    "title": "Mapping Dialectal Variation by Querying Social Media"
+    "title": "Mapping Dialectal Variation by Querying Social Media",
+    "values": {
+        "ease of implementation": "The suite is available at http://github.com/gabedoyle/ seetweet.",
+        "performance": "Tests using Twitter to investigate the geographic distribution of dialectal forms show that this method can provide distributions that are tightly correlated with existing gold-standard studies at a fraction of the time, cost, and effort. The SeeTweet method appears to be robust to false positives, although noisier queries may require manual inspection."
+    }
 }

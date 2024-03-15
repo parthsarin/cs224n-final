@@ -19,5 +19,9 @@
     "numcitedby": 5,
     "year": 2020,
     "month": "May",
-    "title": "Design and Evaluation of {S}enti{E}con: a fine-grained Economic/Financial Sentiment Lexicon from a Corpus of Business News"
+    "title": "Design and Evaluation of {S}enti{E}con: a fine-grained Economic/Financial Sentiment Lexicon from a Corpus of Business News",
+    "values": {
+        "novelty": " In this paper we present, describe, and evaluate SentiEcon, a large, comprehensive, domain-specific computational lexicon designed for sentiment analysis applications, for which we compiled our own corpus of online business news.   These economic indicators are characterized by not having inherent sentiment but will be positive or negative as they increase or decrease. The polarity of these terms will depend on the expected direction of events (e.g., the results are positive when they are expected to increase, but neutral or negative when they decline).  Our evaluation results evidence that, in combination with a high-quality general-language sentiment lexicon, such as Lingmotif-lex, SentiEcon achieves very high performance levels that may encourage us to carry out further performance tests, different applications and the compilation of other domain-specific lexicons.",
+        "performance": "In this paper we present, describe, and evaluate SentiEcon, a large, comprehensive, domain-specific computational lexicon designed for sentiment analysis applications, for which we compiled our own corpus of online business news. We evaluate SentiEcon's performance by comparing results in a sentence classification task using exclusively sentiment words as features. Improvements are significant for every lexicon in terms of accuracy, across all categories. Accuracy is thus improved by nearly 8 percent on average by employing SentiEcon."
+    }
 }

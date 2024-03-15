@@ -23,5 +23,9 @@
     "numcitedby": 11,
     "year": 2017,
     "month": "August",
-    "title": "Language-independent Gender Prediction on {T}witter"
+    "title": "Language-independent Gender Prediction on {T}witter",
+    "values": {
+        "novelty": "Our classification results show that, while the prediction model based on language-independent features performs worse than the bag-of-words model when training and testing on the same language, it regularly outperforms the bag-of-words model when applied to different languages, showing very stable results across various languages. The potential of a language-independent procedure for gender prediction is substantial both for the field of natural language processing where using extra-linguistic variables is currently gaining momentum, as well as disciplines from social sciences and the humanities working with usergenerated content, where such factors have a long tradition.",
+        "performance": "Our classification results show that, while the prediction model based on language-independent features performs worse than the bag-of-words model when training and testing on the same language, it regularly outperforms the bag-of-words model when applied to different languages, showing very stable results across various languages. In cases where the training and testing language differ, in most cases the models based on language-independent features outperform the BoW models. Finally, the language-independent models show much more consistent results than BoW models in the cross-lingual setting with an average per-language variance of the cross-lingual experiments of 0.001 for language-independent models and 0.01 for BoW models."
+    }
 }

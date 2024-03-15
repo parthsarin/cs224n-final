@@ -18,5 +18,8 @@
     "numcitedby": 21,
     "year": 2004,
     "month": "July",
-    "title": "Feeding {OWL}: Extracting and Representing the Content of Pathology Reports"
+    "title": "Feeding {OWL}: Extracting and Representing the Content of Pathology Reports",
+    "values": {
+        "performance": "To evaluate this module, we have manually annotated the NPs in a randomly selected test set of 20 reports (ca. 2,800 words; we found about 500 NPs). We then computed precision and recall based on two different matching criteria: for exact matching, where only exact congruence of chunks counts, a precision of 48% and a recall of 63% was computed; the numbers improve when partial matches, i.e. smaller chunks within the target chunk, receive partial credit (by a factor of .25), resulting in a (relaxed) precision of 61% and a (relaxed) recall of 80%. This difference can be explained by the fact that some of the more complex NP-constructions (with quite complex modifications) in our data are not yet covered by the grammar, and only their constituent NPs are recognised. Note that this evaluation just takes into account the boundaries of the chunks and not the correctness of the computed semantic representations. For a full-scale evaluation, we will manually annotate these NPs with semantic representations, and we will use this to compute precision and recall also with respect to semantics, and ultimately with respect to sample search queries."
+    }
 }

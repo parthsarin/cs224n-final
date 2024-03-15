@@ -18,5 +18,9 @@
     "numcitedby": 21,
     "year": 2003,
     "month": "April",
-    "title": "{PEAS}, the first instantiation of a comparative framework for evaluating parsers of {F}rench"
+    "title": "{PEAS}, the first instantiation of a comparative framework for evaluating parsers of {F}rench",
+    "values": {
+        "building on past work": "In this case, the corpus is homogeneous in text genre, since it contains only newspaper articles extracted from Le Monde although it covers various domains from politics to sports. The approach is however ambitious and interesting: the corpus contains 1M words, 17 000 different lemma; it is annotated both with morpho-syntax and grammatical functions. Carroll et al. (1998) gave a survey and proposed a new evaluation scheme. Since, two orientations have emerged. Based on this preliminary research, a larger project for syntactic parser evaluation, named EASY/EVALDA has been accepted by TECHNOLANGUE, a joint program of the three French Ministries of Industry, Culture and Research.",
+        "novelty": "This paper presents PEAS, the first comparative evaluation framework for parsers of French whose annotation formalism allows the annotation of both constituents and functional relations."
+    }
 }

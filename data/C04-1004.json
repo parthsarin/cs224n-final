@@ -18,5 +18,10 @@
     "numcitedby": 4,
     "year": 2004,
     "month": "aug 23{--}aug 27",
-    "title": "Discriminative Hidden {M}arkov Modeling with Long State Dependence using a k{NN} Ensemble"
+    "title": "Discriminative Hidden {M}arkov Modeling with Long State Dependence using a k{NN} Ensemble",
+    "values": {
+        "building on past work": "This paper proposes a discriminative HMM (DHMM) with long state dependence (LSD-DHMM) to segment and label sequential data. The LSD-DHMM overcomes the strong context independent assumption in traditional generative HMMs (GHMMs) and models the sequential data in a discriminative way, by assuming a novel mutual information independence. As a result, the LSD-DHMM separately models the long state dependence in its state transition model and the observation dependence in its output model. In this paper, a variable-length mutual informationbased modeling approach and an ensemble of kNN probability estimators are proposed to capture the long state dependence and the observation dependence respectively.",
+        "novelty": " This paper proposes a discriminative HMM (DHMM) with long state dependence (LSD-DHMM) to segment and label sequential data.  The LSD-DHMM overcomes the strong context independent assumption in traditional generative HMMs (GHMMs) and models the sequential data in a discriminative way, by assuming a novel mutual information independence.  As a result, the LSD-DHMM separately models the long state dependence in its state transition model and the observation dependence in its output model.",
+        "performance": "Table 2 shows the effect of different number of kNN probability estimators in the ensemble. Table 3 compares the LSD-DHMM with GHMMs and other DHMMs. Table 2 also compares the kNN ensemble with popular classifier-based approaches, such as SNoW and Maximum Entropy, in estimating the output model of the LSD-DHMM."
+    }
 }

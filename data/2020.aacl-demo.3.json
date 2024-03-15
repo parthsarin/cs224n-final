@@ -16,5 +16,9 @@
     "numcitedby": 3,
     "year": 2020,
     "month": "December",
-    "title": "{ISA}: An Intelligent Shopping Assistant"
+    "title": "{ISA}: An Intelligent Shopping Assistant",
+    "values": {
+        "building on past work": "In addition to natural language processing techniques, ISA also needs to use techniques in computer vision and speech processing when interacting with the users. Using Amazon Mechanical Turk, a popular crowdsourcing platform, we create a dataset of 6,922 questions that are related to 369 specifications and 148 products listed in the Home Depot website. The model consists of two recurrent neural networks: an encoder and a decoder. The encoder converts the input query into a fixed size feature vector.",
+        "performance": "The accuracy of the trained RF model evaluated on the test set is 98.20%. The top-1 accuracy, top-2 accuracy, and top-3 accuracy of the model evaluated on a held-out test set are 85.60%, 95.80%, and 97.60%, respectively."
+    }
 }

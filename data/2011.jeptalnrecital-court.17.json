@@ -21,5 +21,8 @@
     "numcitedby": 13,
     "year": 2011,
     "month": "June",
-    "title": "Le corpus {T}ext+{B}erg Une ressource parall{\\`e}le alpin fran{\\c{c}}ais-allemand (The {T}ext+{B}erg Corpus An Alpine {F}rench-{G}erman Parallel Resource)"
+    "title": "Le corpus {T}ext+{B}erg Une ressource parall{\\`e}le alpin fran{\\c{c}}ais-allemand (The {T}ext+{B}erg Corpus An Alpine {F}rench-{G}erman Parallel Resource)",
+    "values": {
+        "building on past work": "We have compiled a sizable parallel corpus of French-German alpine texts. We manually corrected all tables of content and turned them into tabular format. We finally processed the text, adding structural metadata, e.g. article boundaries, headers, authors, as well as linguistic information like lemmas and part-of-speech tags. We have assigned a language tag to each article (manually) and each sentence (automatically). reflected in the high proportion of German sentences in the 4 Swiss-German articles and the almost exclusive presence of Swiss-German sentences in German articles (apart from 2 Swiss-German sentences in French articles). We use the original English, German and Italian parameter files distributed with the TreeTagger. For French, we created a new parameter file by training the TreeTagger on an adapted version of the Le Monde corpus. To build the treebanks we loaded the tagged texts into Annotate an interactive graphical tool that suggests constituent phrases and function labels based on a previously computed shallow parsing model (hidden Markov model). We built the first French trees with the help of our adapted Le Monde model. In order to align the sentences we applied the Bleualign algorithm"
+    }
 }

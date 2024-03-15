@@ -20,5 +20,11 @@
     "numcitedby": 152,
     "year": 2018,
     "month": "October-November",
-    "title": "Predicting Factuality of Reporting and Bias of News Media Sources"
+    "title": "Predicting Factuality of Reporting and Bias of News Media Sources",
+    "values": {
+        "building on past work": "  Unlike the above work, (i) we perform classification at the news medium level rather than focusing on an individual article. Thus, (ii) we use reliable manually-annotated labels as opposed to noisy labels resulting from projecting the category of a news medium to all news articles published by this medium (as most of the work above did). Moreover, (iii) we use a much larger set of news sources, namely 1,066, which is 1-2 orders of magnitude larger than what was used in previous work. ",
+        "novelty": "We further perform an ablation study of the impact of the individual (groups of) features. We create a new dataset of news media sources, which has annotations for both tasks, and is 1-2 orders of magnitude larger than what was used in previous work. We release the dataset and our code, which should facilitate future research. We use a variety of sources such as (i) a sample of articles from the target website, (ii) its Wikipedia page, (iii) its Twitter account, (iv) the structure of its URL, and (v) information about the Web traffic it has attracted. This combination, as well as some of the sources, are novel for these problems.",
+        "performance": "We can see that the textual features extracted from the ARTICLES yielded the best performance on factuality. They also perform well on bias, being the only type that beats the baseline on MAE. This is not surprising, as we normally may not be able to tell much about the political ideology of a website just by looking at its Twitter profile (not its tweets!) This is mainly due to the nature of these features, which are aimed at detecting phishing websites, as we mentioned in Section 3. These are under-studied, but arguably important research problems, both in their own right and as a prior for fact-checking systems. We have created a new dataset of news media sources that has annotations for both tasks and is 1-2 orders of magnitude larger than what was used in previous work.",
+        "reproducibility": "We release the dataset and our code, which should facilitate future research."
+    }
 }

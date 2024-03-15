@@ -19,5 +19,8 @@
     "numcitedby": 8,
     "year": 2009,
     "month": "May 14{--}15",
-    "title": "A Constraint Satisfaction Approach to Machine Translation"
+    "title": "A Constraint Satisfaction Approach to Machine Translation",
+    "values": {
+        "performance": "The incorporation of sourceside context models in our model filters out many irrelevant candidate translations, leading to superior translation scores. The relative performance differences are rather diverse among the four data sets. This may be attributed to the underlying search algorithm, a greedy hill-climbing search, which is known to risk ending up in suboptimal local optima. Constraint satisfaction inference seems to deal with this circumstance better than ReWrite. On the one hand, the richer objective function used by constraint satisfaction inference, based on the predicted constraint model, may account for the better performance of constraint satisfaction inference. On the other hand, though, the smaller solution space searched by constraint satisfaction inference may also be expected to have fewer local optima. The fact that on the EMEA corpus the ReWrite system performs better may be rooted in the fact that sentences in EMEA are largely formulaic and on average rather short: 9 tokens. Apparently, the hill-climbing algorithm only needs a few transformation operations to reach good translations. Constraint satisfaction inference's objective function causes it to perform more transformation operations than it should."
+    }
 }

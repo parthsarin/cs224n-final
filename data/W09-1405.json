@@ -18,5 +18,8 @@
     "numcitedby": 31,
     "year": 2009,
     "month": "June",
-    "title": "Biomedical Event Extraction without Training Data"
+    "title": "Biomedical Event Extraction without Training Data",
+    "values": {
+        "performance": "The overall F-scores achieved were 36.44% and 30.80% on the development and the test sets respectively.     Our performance on the regulation events is substantially lower in both recall and precision. "
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 33,
     "year": 2022,
     "month": "July",
-    "title": "{S}em{E}val-2022 Task 4: Patronizing and Condescending Language Detection"
+    "title": "{S}em{E}val-2022 Task 4: Patronizing and Condescending Language Detection",
+    "values": {
+        "performance": "A total of 42 out of 77 teams outperformed the baseline for Subtask 1, while 37 out of 48 outperformed the baseline for Subtask 2. For Subtask 1, the best-performing systems used the following strategies: For Subtask 2, the best-performing systems used the following strategies: Considering the choice of language models, the most successful systems either used RoBERTa, DeBERTa or an ensemble which included the former ones and other models. For instance, these models were used by the best performing teams for both subtasks, i.e. PALI-NLP and STCE for Subtask 1 and BEIKE NLP and PINGAN Omini-Sintic for Subtask 2."
+    }
 }

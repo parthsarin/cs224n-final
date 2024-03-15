@@ -18,5 +18,9 @@
     "numcitedby": 15,
     "year": 2020,
     "month": "December",
-    "title": "{LAVA}: Latent Action Spaces via Variational Auto-encoding for Dialogue Policy Optimization"
+    "title": "{LAVA}: Latent Action Spaces via Variational Auto-encoding for Dialogue Policy Optimization",
+    "values": {
+        "building on past work": "Word-level RL views each word of the entire system vocabulary as an action in a sequential decision making process. This blows up the action space size and the trajectory length, hindering effective learning and optimal convergence. The challenge of credit assignment and reward signal propagation is further compounded by the typically sparse rewards in dialogue. Last but not least, simultaneously optimizing language coherence and decision making within one model can lead to divergence. Thus, effectively incorporating RL in the end-to-end setting remains a challenge. Furthermore, the latent space model is conditioned only on the context. Therefore it is unclear whether the latent variables truly encode the characteristics of different dialogue actions, or whether it encodes the dialogue context instead. Because RL optimizes action selection and planning, it is important that it is performed on an action-characterized space. In this paper, we propose an unsupervised approach for optimizing the latent action representation for end-to-end dialogue policy optimization with RL.",
+        "performance": "The result confirms that our model is able to optimize its dialogue policy by leveraging action-relevant information that is encoded in the latent variable, e.g. action type and domain, even in an extreme setting where no additional label is utilized in the pipeline. We are able to achieve state-of-the-art success rate on the challenging MultiWoZ 2.0 corpus on both context-to-response generation as well as the end-to-end modeling task. At the time of publication, our best model achieves state-of-the-art results."
+    }
 }

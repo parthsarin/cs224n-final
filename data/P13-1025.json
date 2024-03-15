@@ -16,5 +16,10 @@
     "numcitedby": 300,
     "year": 2013,
     "month": "August",
-    "title": "A computational approach to politeness with application to social factors"
+    "title": "A computational approach to politeness with application to social factors",
+    "values": {
+        "building on past work": "The present paper develops a computational framework for identifying and characterizing politeness marking in requests. Our investigation is guided by a new corpus of requests annotated for politeness. The data come from two large online communities in which members frequently make requests of other members: Wikipedia, where the requests involve editing and other administrative functions, and Stack Exchange, where the requests center around a diverse range of topics (e.g., programming, gardening, cycling). The present paper pursues similar goals using orders of magnitude more data, which facilitates a fuller survey of different politeness strategies.",
+        "novelty": "  Our classifier achieves close to human performance and is effective across domains. We use our framework to study the relationship between politeness and social power, showing that polite Wikipedia editors are more likely to achieve high status through elections, but, once elevated, they become less polite. We see a similar negative correlation between politeness and power on Stack Exchange, where users at the top of the reputation scale are less polite than those at the bottom. Finally, we apply our classifier to a preliminary analysis of politeness variation by gender and community.",
+        "performance": "Our classifier achieves close to human performance and is effective across domains. While the in-domain results are within 3% of human performance, the greater room for improvement in the cross-domain setting motivates further research on linguistic cues of politeness."
+    }
 }

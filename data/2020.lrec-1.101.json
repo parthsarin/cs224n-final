@@ -18,5 +18,9 @@
     "numcitedby": 2,
     "year": 2020,
     "month": "May",
-    "title": "{W}e{DH} - a Friendly Tool for Building Literary Corpora Enriched with Encyclopedic Metadata"
+    "title": "{W}e{DH} - a Friendly Tool for Building Literary Corpora Enriched with Encyclopedic Metadata",
+    "values": {
+        "building on past work": "WeDH is a collaborative project and we invite anyone who has ideas or suggestions regarding this procedure to reach out to us. DHTK has the ambition to go beyond textual resources to integrate other human resources such as images (e.g., paintings, comics, etc.) or sounds (e.g., music, transcripts, etc.). WeDH is also currently used in teaching for Digital Humanities courses. One of the objectives for the future, is to assess the pedagogical impact of this tool so as to extend its use not only to the areas of research but also to teaching.",
+        "ease of implementation": "WeDH is conceived as a high-end user interface that provides a graphical access to textual and metadata repositories that can be easily accessed. Given the simplicity of WeDH, it could be adopted by universities as a tool for Digital Humanities courses specifically designed for humanists. WeDH is also currently used in teaching for Digital Humanities courses."
+    }
 }

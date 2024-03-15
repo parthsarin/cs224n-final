@@ -18,5 +18,10 @@
     "numcitedby": 14,
     "year": 2018,
     "month": "July",
-    "title": "{`}Lighter{'} Can Still Be Dark: Modeling Comparative Color Descriptions"
+    "title": "{`}Lighter{'} Can Still Be Dark: Modeling Comparative Color Descriptions",
+    "values": {
+        "building on past work": "Though color has been studied in terms of its contextual dependence and vagueness in grounding (Egr\u00e9 et al., 2013; McMahan and Stone, 2015; Monroe et al., 2016 Monroe et al., , 2017)) , no approaches have focused explicitly on learning to ground comparatives. Related to this work is that of image ranking, which is inherently a form of comparison (Parikh and Grauman, 2011; Yu and Grauman, 2014) . However, ranking methods do not ground the comparatives themselves in image features.",
+        "novelty": "We propose a novel paradigm of grounding comparative adjectives within the realm of color descriptions. We propose a new paradigm of grounding comparative adjectives describing colors as directions in RGB space such that the colors along the vector, rooted at the reference color, satisfy the comparison. We introduce a new methodology for transforming labeled color data into comparative color data, and propose a simple but effective learning model that is able to accurately modify unseen colors and comparatives. This model is the first step towards fine-grained object recognition through comparative descriptions, providing a way to utilize relational descriptive text.",
+        "performance": "Our model generates grounded representations of comparative adjectives with an average accuracy of 0.65 cosine similarity to the desired direction of change. These learned vectors approach colors with Delta-E scores of under 7 compared to the target colors, indicating the differences are very small with respect to human perception. Separating the performance by test condition, we see that the conditions where the reference and comparatives were both seen perform the best (independent of whether the pairing was seen in training); again 'seen reference' refers only to the label being seen and not the reference color datapoint itself. The fully unseen case performs the worst by far with respect to cosine similarity, though it is not as deviant in Delta-E."
+    }
 }

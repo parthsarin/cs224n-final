@@ -18,5 +18,9 @@
     "numcitedby": 59,
     "year": 2005,
     "month": "June",
-    "title": "Domain Kernels for Text Categorization"
+    "title": "Domain Kernels for Text Categorization",
+    "values": {
+        "novelty": "In this paper we propose and evaluate a technique to perform semi-supervised learning for Text Categorization. External knowledge is acquired from unlabeled data in a totally unsupervised way, and it is represented by means of Domain Models. We evaluated the Domain Kernel in two standard benchmarks for Text Categorization with good results, and we compared its performance with a kernel function that exploits a standard bag-of-words feature representation. The learning curves show that the Domain Kernel allows us to reduce drastically the amount of training data required for learning.",
+        "performance": "The learning curves show that the Domain Kernel allows us to reduce drastically the amount of training data required for learning. In addition, F1 measure increases by 2.8 points in the Reuters task at full learning, achieving the state-of-the-art results. We explained this phenomenon by showing that the similarity scores evaluated by the Domain Kernel takes into account both variability and ambiguity, being able to estimate similarity even among texts that do not have any word in common."
+    }
 }

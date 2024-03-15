@@ -19,5 +19,10 @@
     "numcitedby": 1,
     "year": 2010,
     "month": "September",
-    "title": "Hand Gestures in Disambiguating Types of You Expressions in Multiparty Meetings"
+    "title": "Hand Gestures in Disambiguating Types of You Expressions in Multiparty Meetings",
+    "values": {
+        "building on past work": "First, because of our different application on machine translation, rather than processing you at an utterance level to identify addressee, our work here concerns each occurrence of you within each utterance. Second and more importantly, our work investigates the role of corresponding hand gestures in the disambiguation process. This aspect has not been examined in previous work. Our investigation here is closely related to two areas of previous work: addressee identification based on you and the use of gestures in coreference resolution. Compared to these two areas of earlier work, our investigation here has two unique aspects.",
+        "novelty": "This aspect has not been examined in previous work.",
+        "performance": "Our results have shown that on the binary generic vs. referential classification problem, the inclusion of gesture data provides a statistically significant increase in performance over the same feature set without gesture. As shown, the generic class proved to be the easiest for the classifiers to identify. The performance on the plural and singular classes is comparable to one another when the basic feature set is used. However, as more features are added, the performance on the singular class increases while the performance on the plural class does not. When compared to the same feature set without gesture features (the \"Gupta + Frampton automatic\" row in Table 3 ) we see a statistically significant (p < 0.01) absolute accuracy improvement of about 2.6%. Furthermore, if we incorporate gesture features with this configuration, the performance increases to 69.0% (statistically significantly, p < 0.01)."
+    }
 }

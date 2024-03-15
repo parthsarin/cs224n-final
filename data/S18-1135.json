@@ -16,5 +16,8 @@
     "numcitedby": 0,
     "year": 2018,
     "month": "June",
-    "title": "{T}ake{L}ab at {S}em{E}val-2018 Task 7: Combining Sparse and Dense Features for Relation Classification in Scientific Texts"
+    "title": "{T}ake{L}ab at {S}em{E}val-2018 Task 7: Combining Sparse and Dense Features for Relation Classification in Scientific Texts",
+    "values": {
+        "performance": "The SVM model performed better than CNN, achieving an F1-macro score of 69.98% on subtask 1.1 and 75.69% on subtask 1.2. Differently from previous findings (Nguyen and Grishman, 2015b), in our case the SVM outperformed the CNN model. This might be explained by the relatively small size size of the training set. On subtask 1.1, the CNN performs slightly worse than the SVM model, while it fails completely on the second subtask. Overall, the tasks proved to be very challenging, mainly due to the peculiarities of the domain."
+    }
 }

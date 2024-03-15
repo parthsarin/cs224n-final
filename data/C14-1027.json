@@ -19,5 +19,10 @@
     "numcitedby": 23,
     "year": 2014,
     "month": "August",
-    "title": "Rapid Development of a Corpus with Discourse Annotations using Two-stage Crowdsourcing"
+    "title": "Rapid Development of a Corpus with Discourse Annotations using Two-stage Crowdsourcing",
+    "values": {
+        "building on past work": "We propose a framework for developing a corpus with discourse annotations using two-stage crowdsourcing, which is both cheap and quick to execute, but still retains good quality of the annotations.",
+        "novelty": "We propose a framework for developing a corpus with discourse annotations using two-stage crowdsourcing, which is both cheap and quick to execute, but still retains good quality of the annotations. We construct a Japanese discourse corpus in an extremely short time. We develop a discourse parser based on the acquired corpus.",
+        "performance": "It is difficult to compare our results with those in previous work due to the use of different data set and different languages. We, however, anticipate that our results would be comparable with those of state-of-the-art English discourse parsers. For example, the end-to-end discourse parser of Lin et al. (2012) achieved an F1 of 20.6% -46.8% on the Penn Discourse Treebank. We also obtained a low F1 for comparison relations. This tendency is similar to the previous results on the Penn Discourse Treebank. The biggest cause of this low F1 is the lack of unambiguous explicit discourse connectives for these relations. Although there are explicit discourse connectives in Japanese, many of them have multiple meanings and cannot be used as a direct clue for discourse relation detection (e.g., as described in Kaneko and Bekki (2014) ). As reported in Pitler et al. (2009) and other studies, the identification of implicit discourse relations are notoriously difficult."
+    }
 }

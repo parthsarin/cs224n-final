@@ -18,5 +18,9 @@
     "numcitedby": 6,
     "year": 2009,
     "month": "September",
-    "title": "Maximal Phrases Based Analysis for Prototyping Online Discussion Forums Postings"
+    "title": "Maximal Phrases Based Analysis for Prototyping Online Discussion Forums Postings",
+    "values": {
+        "novelty": "One of the weaknesses of the suffix array approach used by Yamamoto & Church is that extensions to the left are difficult to discover. Simply stated, the problem is that suffixes are extensions of phrases to the right, so it is hard to look to the left. One weakness of Abouelhoda et al's approach, however, is that it does not adapt well to large alphabets. This is, of course, a serious weakness for use in text processing, where one wants at least to work with some subset of Unicode, or even worse, to treat each tokenized word as an alphabet symbol.",
+        "performance": "The problem of accuracy is compounded by the fact that texts (selected from text collections known as ePortfolios) are often short. results are significant at that level. In our case we are not concern about a particular significant level as we are looking to the most significant texts on certain topic and with certain grade that can be used use as gold standards. Chat texts Probability Fig. 2 : Permutation test results for each chat text Each phrase has been counted in one of 4 ways: all instances, left-maximal, right-maximal and maximal. In fact the best results for two of the four grades (e.g. excellent and poor) were yielded by semantic spaces build from phrases. Different results are produced by kNN classification for topics where semantic spaces built from bags of words produced the best results clearly for at least four of the six topics."
+    }
 }

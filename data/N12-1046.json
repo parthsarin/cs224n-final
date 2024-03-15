@@ -20,5 +20,9 @@
     "numcitedby": 49,
     "year": 2012,
     "month": "June",
-    "title": "Encouraging Consistent Translation Choices"
+    "title": "Encouraging Consistent Translation Choices",
+    "values": {
+        "building on past work": " Motivated by the success of a \"one sense per discourse\" heuristic in Word Sense Disambiguation (WSD), we explore the potential benefit of leveraging a \"one translation per discourse\" heuristic in MT.   When coupled with the one-sense-per-discourse heuristic, this suggests that the reverse may also be true.  ",
+        "performance": "Among the single-feature runs, C 3 had the best performance in Ar-En experiments, with 53.84 BLEU points, whereas C 2 yielded the best results for Zh-En with a BLEU score of 30.96. The combination of all three variants, C 123 , yielded the best results, nearly 1.0 BLEU point higher than the baseline for both language pairs. In order to gain greater insight into the effect of the consistency features, we randomly sampled 60 of the 197 cases and analyzed the influence of the change to the document BLEU score. In 25 of the sampled cases, at least one of the three systems made a change that improved the BLEU score, whereas the score was adversely affected for at least one system in 13 cases. From this, we conclude that BLEU is a somewhat conservative measure when used in this way, and that the actual overall improvement in translation quality over our baseline may be somewhat more than our roughly 1.0 measured BLEU improvement would suggest."
+    }
 }

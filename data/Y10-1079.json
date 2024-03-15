@@ -18,5 +18,10 @@
     "numcitedby": 20,
     "year": 2010,
     "month": "November",
-    "title": "Multi-aspects Review Summarization Based on Identification of Important Opinions and their Similarity"
+    "title": "Multi-aspects Review Summarization Based on Identification of Important Opinions and their Similarity",
+    "values": {
+        "building on past work": "Blair-Goldensohn et al. (2008) have computed a polarity value of sentences based on the maximum entropy method with WordNet and rating information. They extracted evaluative sentences with a high polarity value preferentially and generated a summary. As the advantage of their method, it could estimate the polarity of sentences with high accuracy. However, it is not always true that sentences with high polarity values are appropriate a summary. They also did not treat redundancy of the summary. Lu and Zhai (2008) have introduced the concept of aspects to a PLSA model. They integrated expert reviews and ordinary opinions scattering in the Web. Opinions which should be integrated are identified by measuring the number of mentions in the Web. Although their method are very effective, their purpose is to add more information, such as similar and supplementary opinions, to the base review. In this paper, we did not discuss the identification of the aspect of sentences. However, it is important to identify the aspect information for the sentiment summarization task. Hadano et al. (2010) have identified an aspect of an evaluative sentence with machine-learning approaches. We need to introduce such a method to our task in the future.",
+        "novelty": "We focus on multi-aspects review summarization in this research. We apply a clustering algorithm to sentences to measure the number of mentions with a similar topic. Then, we aim to integrate those features and generate a more appropriate summary. In this paper, we focused on the multi-aspects review summarization. We used the clustering method to integrate similar opinions.",
+        "performance": "The experiment results show the effectiveness of our method. In our subjective evaluation, we verified that the summarization by using the three features was effective. However, in quantitative evaluation, there was no great difference between the summary using all three features and summaries using only one or two features."
+    }
 }

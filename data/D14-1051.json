@@ -19,5 +19,10 @@
     "numcitedby": 14,
     "year": 2014,
     "month": "October",
-    "title": "An {I}-vector Based Approach to Compact Multi-Granularity Topic Spaces Representation of Textual Documents"
+    "title": "An {I}-vector Based Approach to Compact Multi-Granularity Topic Spaces Representation of Textual Documents",
+    "values": {
+        "building on past work": "In the past, several approaches considered a text document as a mixture of latent topics. Topic-based approaches involve defining a number of topics composing the topic space. The choice of the \"right\" number of topics is a crucial step, especially when the documents may contain multiple themes. Many studies have tried to find a relevant method to deal with this issue. Another solution would be to consider a set of topic models to represent a document. Nonetheless, a multi-topic-based representation of a dialogue can involve a noisy variability due to the mapping of a dialogue in each topic space.",
+        "novelty": "     This model is based on a robust multi-view representation of the textual documents.     The first step of the proposed method is to represent a dialogue in multiple topic spaces of different sizes (i.e. number of topics).   Then, a compact representation of the dialogue from the multiple views is processed to compensate the vocabulary and the variability of the topic-based representations.   In fact, we highlighted that this original compact version of all topic-based representations of dialogues, called c-vector in this work, coupled with the EFR normalization algorithm, is a better solution to deal with dialogue variabilities (high word error rates, bad acoustic conditions, unusual word vocabulary, etc).   Finally, the classification accuracy reached 85% with a gain of 9 points compared to usual baseline (best topic space configuration).   This work was funded by the SUMACC and ContNomina projects supported by the French National Research Agency (ANR) under contracts ANR-10-CORD-007 and ANR-12-BS02-0009. ",
+        "performance": "Finally, the classification accuracy reached 85% with a gain of 9 points compared to usual baseline (best topic space configuration)."
+    }
 }

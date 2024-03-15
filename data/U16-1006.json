@@ -18,5 +18,10 @@
     "numcitedby": 9,
     "year": 2016,
     "month": "December",
-    "title": "Unsupervised Pre-training With {S}eq2{S}eq Reconstruction Loss for Deep Relation Extraction Models"
+    "title": "Unsupervised Pre-training With {S}eq2{S}eq Reconstruction Loss for Deep Relation Extraction Models",
+    "values": {
+        "building on past work": "It is also too expensive to involve all unlabeled data in both training and prediction processes for each target dataset. Inspired by observations such as these, we seek methods that exploit context information composed of words and named entities to learn representations of expressions, such that semantically similar expressions tend to have similar representations. In this paper, we propose a pre-training method that generalizes well-known sequence-to-sequence model (Dai and Le, 2015) for deep RE models.",
+        "novelty": "     ",
+        "performance": "Little research is carried out to reduce their need of labeled training data. Our experiments show that, especially when the size of the labeled training data is small, the deep relation extraction models pretrained with our unsupervised pre-training method using half or even a quarter of the labeled data are able to achieve similar performance as the models without pre-training. Among all these models, pre-trained DepTreeLSTM is the best performing model on StanfordRE on average. The pre-trained BiLSTM achieves the largest improvement w.r.t. its randomly initialized counterpart with the entity embeddings computed by averaging word embeddings. It needs merely 800 sentences to achieve similar performance as the randomly initialized one trained on 3200 sentences. Both LSTM based models show that it is better off not sharing the parameters of LSTM between encoders and decoders. Otherwise they achieve only similar performance as the best baselines. In contrast, the pre-trained PCNN follows a different trend by achieving the highest improvement over the random initialized one when there are more than 3200 target relation mentions for training. Without pre-training, PCNN performs even worse than the baseline with handcrafted features unless the full training set is used."
+    }
 }

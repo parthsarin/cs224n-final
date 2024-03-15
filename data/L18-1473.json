@@ -21,5 +21,9 @@
     "numcitedby": 167,
     "year": 2018,
     "month": "May",
-    "title": "{BPE}mb: Tokenization-free Pre-trained Subword Embeddings in 275 Languages"
+    "title": "{BPE}mb: Tokenization-free Pre-trained Subword Embeddings in 275 Languages",
+    "values": {
+        "novelty": "In an evaluation using fine-grained entity typing as testbed, BPEmb performs competitively, and for some languages better than alternative subword approaches, while requiring vastly fewer resources and no tokenization.",
+        "reproducibility": " Replicability All data used in this work is freely and publicly available. BPEmb and code to replicate our experiments is available at https://github.com/bheinzerling/bpemb."
+    }
 }

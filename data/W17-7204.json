@@ -18,5 +18,8 @@
     "numcitedby": 0,
     "year": 2017,
     "month": "",
-    "title": "Explicative Path Finding in a Semantic Network"
+    "title": "Explicative Path Finding in a Semantic Network",
+    "values": {
+        "building on past work": "Path finding in semantic resources is used in several applications. In (Besnard et al., 2008) an inference system able to provide explanations of causal statements is developed. In (Figure 1 ) finding a relation t from x, y is a consolidation. We also add an arbitrary threshold under which vertices are ignored. In both experiments, the number of paths produced increases with length up to 3, then decreases."
+    }
 }

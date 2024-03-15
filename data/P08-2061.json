@@ -18,5 +18,9 @@
     "numcitedby": 9,
     "year": 2008,
     "month": "June",
-    "title": "Extracting a Representation from Text for Semantic Analysis"
+    "title": "Extracting a Representation from Text for Semantic Analysis",
+    "values": {
+        "novelty": "We present a novel fine-grained semantic representation of text and an approach to constructing it. The goal of the representation described here is to facilitate domain-independent assessment of student responses to questions in the context of a known reference answer and to perform this assessment at a level of detail that will enable more effective ITS dialog. We have two key criteria for this representation: 1) it must be at a level that facilitates detailed assessment of the learner's understanding, indicating exactly where and in what manner the answer did not meet expectations and 2) the representation and assessment should be learnable by an automated system -they should not require the handcrafting of domain-specific representations of any kind. The emphasis of this paper is on this fine-grained facet-based representationconsiderations in defining it, the process of extracting it, and the benefit of using it.",
+        "performance": " Current classification accuracy, assigning a Table 1 label to each reference answer facet to indicate the student's expressed understanding, is 79% within domain (assessing unseen answers to questions associated with the training data) and 69% out of domain (assessing answers to questions regarding entirely different science subjects).  These results are 26% and 15% over the majority class baselines, respectively, and 21% and 6% over lexi-cal entailment baselines based on Glickman et al."
+    }
 }

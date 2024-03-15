@@ -19,5 +19,8 @@
     "numcitedby": 4,
     "year": 2013,
     "month": "August",
-    "title": "Predicative Adjunction in a Modular Dependency Grammar"
+    "title": "Predicative Adjunction in a Modular Dependency Grammar",
+    "values": {
+        "novelty": " The addition of predicative adjunction allows us to obtain a modular surface syntactic grammar, the derivation structures of which can be interpreted as semantic representations.  Such a formalism has actually already been fully established (see Nasr 1995 , Kahane 2001 , Kahane & Lareau 2005 , and Lareau 2008) .  With the help of predicative adjunction, elegant rules are possible that directly interpret the derivation structure as a semantic representation.  It is even possible to not make invisible the wh-rel dependency between the antecedent noun and the wh-word and to obtain a dependency structure similar to Tesni\u00e8re's stemma for extraction.  We thus necessitate different extraction rules for that-relatives, where the antecedent noun directly fills the \"extracted\" position: D obj-extraction and D subj-extraction (Fig. 17 ).  In ( 5 ), the subject of the complement clause is extracted, but, contrarily to what might have been expected, the marker of the relative clause is QUE (la fille que \u2026) and moreover the marker of the complement clause is QUI (je pense qui \u2026)."
+    }
 }

@@ -18,5 +18,9 @@
     "numcitedby": 9,
     "year": 2011,
     "month": "June",
-    "title": "Understanding Differences in Perceived Peer-Review Helpfulness using Natural Language Processing"
+    "title": "Understanding Differences in Perceived Peer-Review Helpfulness using Natural Language Processing",
+    "values": {
+        "building on past work": " While previously we used the average of two expert-provided ratings as our gold standard of peer-review helpfulness  collecting papers from authors, assigning reviewers, and sending reviews back), there still remains the problem that the quality of peer reviews varies, and potentially good feedback is not written in a helpful way.   Such an intelligent component could enable peer-review systems to 1) control the quality of peer reviews that are sent back to authors, so authors can focus on the helpful ones; and 2) provide feedback to reviewers with respect to their reviewing performance, so students can learn to write better reviews.  In our prior work (Xiong and Litman, 2011) , we examined whether techniques used for predicting the helpfulness of product reviews (Kim et al., 2006) could be tailored to our peer-review domain, where the definition of helpfulness is largely influenced by the educational context of peer review.",
+        "performance": "author perceived helpfulness) that could be the gold standard, and that could potentially impact the features used to build the helpfulness model. Such an intelligent component could enable peer-review systems to 1) control the quality of peer reviews that are sent back to authors, so authors can focus on the helpful ones; and 2) provide feedback to reviewers with respect to their reviewing performance, so students can learn to write better reviews."
+    }
 }

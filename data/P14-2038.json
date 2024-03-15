@@ -18,5 +18,9 @@
     "numcitedby": 7,
     "year": 2014,
     "month": "June",
-    "title": "Detecting Retries of Voice Search Queries"
+    "title": "Detecting Retries of Voice Search Queries",
+    "values": {
+        "building on past work": "We identify four salient types of retry pairs, describe a test set and identify the features we extracted to build an automatic classifier. Previous work in voice-enabled information retrieval has investigated the problem of identifying voice retries, and some has taken the additional step of taking corrective action in instances where the user is thought to be retrying an earlier utterance. Our model identifies retries with 81% accuracy, significantly above baseline. Our error analysis confirms that user rephrasings complicate the binary class separation; an approach that models typical typed rephrasings may help overcome this difficulty. However, our model's performance today correlates strongly with an orthogonal accuracy metric, word error rate, on unseen data. This suggests that \"retry rate\" is a reasonable offline quality metric, to be considered in context among other metrics and traditional evaluation based on word error rate.",
+        "performance": "The retry rate predicted by this method correlates significantly with a gold standard measure of accuracy, suggesting that it may be useful as an offline predictor of accuracy. A logistic regression model was trained on these features to predict the collapsed binary categories of NO RETRY (search retry, other, no retry) vs. RETRY (rephrase, repetition)."
+    }
 }

@@ -22,5 +22,9 @@
     "numcitedby": 16,
     "year": 1998,
     "month": "",
-    "title": "Language Identification With Confidence Limits"
+    "title": "Language Identification With Confidence Limits",
+    "values": {
+        "novelty": "The main innovation is to compute confidence limits on the classification, so that the algorithm terminates when enough evidence to make a clear decision has been made, and so avoiding problems with categories that have similar characteristics. The idea I have been presenting here is to get the statistical process itself to provide feedback about itself, through the use of confidence limits which are themselves based in the statistical model. In doing so, we hope to avoid presenting a result for which we lack adequate evidence.",
+        "performance": " The accuracy figures are generally similar to or better than those of Sibun and Reynar.  The results in table 1 show that there is a tradeoff between accuracy and the degree to which the algorithm selects a single language.  Not surprisingly, the amount of training data also affects the performance, with 2000 tokens being adequate for accuracy close to 100%, and convergence typically being reached in the first 10 tokens.  On a more unconstrained problem, such as genre identification from words alone, the algorithm performs less well in both accuracy and decisiveness even with significantly more training data, and is probably not adequate except as a preprocessor to some more knowledge intensive technique."
+    }
 }

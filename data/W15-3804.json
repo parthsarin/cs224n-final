@@ -16,5 +16,10 @@
     "numcitedby": 1,
     "year": 2015,
     "month": "July",
-    "title": "Event Extraction in pieces:Tackling the partial event identification problem on unseen corpora"
+    "title": "Event Extraction in pieces:Tackling the partial event identification problem on unseen corpora",
+    "values": {
+        "novelty": " Motivated by this requirement, this work targets a particular type of error, namely partial events, where an event is missing one or more arguments.  Specifically, we attempt to improve the performance of a state-of-the-art event extraction tool, EventMine, when applied to a new cancer pathway curation corpus.  We propose a post-processing ranking approach based on relaxed constraints, in order to reconsider the candidate arguments for each event trigger, and suggest possible new arguments.  The proposed methodology, applicable to the output of any event extraction system, achieves an improvement in argument recall of 2%-4% when applied to EventMine output, and thus constitutes a promising direction for further developments.",
+        "performance": " For both corpora, our ranking method leads to an increase in recall compared to the default EventMine application. However, our method also results in a decrease in precision.   Of particular note is the demonstration that our approach has the greatest impact when applied to unseen data.   However, this study has already revolved various promising areas for further investigation, in terms of both increasing recall and reducing noisy additions.",
+        "reproducibility": "However, this study has already revolved various promising areas for further investigation, in terms of both increasing recall and reducing noisy additions. An important feature of our approach is that the methodology employed is generic enough to be applied to output of any other event extraction architecture (particularly pipelined ones) or any other biomedical corpus without significant modification. Future testing on different corpora and annotation schemes will help to reinforce the robustness and generalisability of our method."
+    }
 }

@@ -18,5 +18,8 @@
     "numcitedby": 1,
     "year": 2011,
     "month": "September",
-    "title": "{META}-{DARE}: Monitoring the Minimally Supervised {ML} of Relation Extraction Rules"
+    "title": "{META}-{DARE}: Monitoring the Minimally Supervised {ML} of Relation Extraction Rules",
+    "values": {
+        "performance": "The overall precision of this experiment is 80.05% with 297 correct instances. The precision of instances with all four arguments given is pretty high, namely, 91.61%. They cover almost half of extracted instances. Among the instances with three arguments, there are two argument combinations where W stands for winners, P for prize names, Y for years and A for areas. The combination (W.P.Y) has achieved a very good precision but contains only few instances. In our experiment, we consider only instances at least containing a person name as instance candidates. This experiment confirms our observation that instances which cover more arguments of the target relation have in general better precision values. However, with more examples in the fourth run, the system needs only five iterations. With one single example, the system can achieve very good performance. Therefore, all four experiments share similar performance in our evaluations."
+    }
 }

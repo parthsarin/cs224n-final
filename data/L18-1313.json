@@ -26,5 +26,8 @@
     "numcitedby": 0,
     "year": 2018,
     "month": "May",
-    "title": "Evaluation of Dictionary Creating Methods for Finno-Ugric Minority Languages"
+    "title": "Evaluation of Dictionary Creating Methods for Finno-Ugric Minority Languages",
+    "values": {
+        "performance": "Precision The most precise method is using Wikt2dict in extraction mode thus extracting translation equivalents from Wiktionary translation tables. The second method is using Wikt2dict in triangulation mode, but there is a 15% decrease in the precision of this method compared to that of the first one. The ok-wr figure for this method is the highest, mainly due to polysemy. Wikipedia has very valuable translation texts since these translations were manually made by editors. Therefore, it is quite surprising, that using Wikipedia title pairs as a dictionary proved to be just the third most precise method. Consider the high nd-nd figure, which may be due to the fact that Wikipedia titles sometimes are not lemmas but plural forms, for example in the case of the names of families of plants and animals. The worst result was produced by the method used in the Opus corpus, which is a standard dictionary building method based on parallel text material, using standard alignment and word pair extraction tools developed for well-resourced languages. Figures of this method are more flat, i.e. word pairs are distributed more uniformly across the categories compared to the other methods. Coverage As usual, the most precise method has the lowest coverage. We could gather much more word pairs from Wikipedia titles than from Wiktionary translation tables, which is likely due to the fact that Wikipedia contains more articles compared to the number of translations in Wiktionary's translation tables. Moreover, the number of entries highly depends on the activity of editors knowing these FU languages and willing to create new entries."
+    }
 }

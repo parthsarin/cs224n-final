@@ -18,5 +18,8 @@
     "numcitedby": 1,
     "year": 2009,
     "month": "October",
-    "title": "Heuristic search in a cognitive model of human parsing"
+    "title": "Heuristic search in a cognitive model of human parsing",
+    "values": {
+        "performance": " When informed by experience with the Brown corpus, the parsing system described in this paper exhibits a pattern of \"time-sharing\" performance that corresponds to human behavioral difficulty in three controversial cases. "
+    }
 }

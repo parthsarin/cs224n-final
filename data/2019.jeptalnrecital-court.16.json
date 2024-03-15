@@ -18,5 +18,10 @@
     "numcitedby": 0,
     "year": 2019,
     "month": "7",
-    "title": "Exploring sentence informativeness"
+    "title": "Exploring sentence informativeness",
+    "values": {
+        "building on past work": "The authors argue that just as humans do not need many examples to learn the meaning of a word, the word2vec architecture can be adapted to learn a competitive representation of a word from 2-6 occurrences only. This can be critical to build an embedding for rare words or in situations of scarce data.",
+        "novelty": "To this end, the informativeness of a sentence needs to be defined and modelled. The contribution of this paper is threefold. First, we propose a method to automatically get an artificial informativeness measure of any sentence towards a target word, using sentence classification. Then, we design a labelling process in terms of informativeness scores to evaluate our models' results. Finally, we give preliminary results on the use of the artificial informativeness measure for the training of word embeddings.",
+        "performance": "The c2v neural model gets the highest accuracy among all classifiers, while the FastText classifier has the lowest. Moreover, training embeddings on a set of 500 good and bad sentences gives almost the same quality of embeddings as training on a set of only 250 good sentences. The former is usually lower when the sim-uninf value is low, showing that removing these sentences can improve word representations."
+    }
 }

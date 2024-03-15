@@ -22,5 +22,8 @@
     "numcitedby": 4,
     "year": 2021,
     "month": "April",
-    "title": "Beyond the {E}nglish Web: Zero-Shot Cross-Lingual and Lightweight Monolingual Classification of Registers"
+    "title": "Beyond the {E}nglish Web: Zero-Shot Cross-Lingual and Lightweight Monolingual Classification of Registers",
+    "values": {
+        "performance": "We demonstrate that deep pre-trained language models perform strongly in these languages and outperform previous state-of-the-art in English and Finnish. Specifically, we show 1) that zeroshot cross-lingual transfer from the large English CORE corpus can match or surpass previously published monolingual models, and 2) that lightweight monolingual classification requiring very little training data can reach or surpass our zero-shot performance. In monolingual settings, XLM-R large performs competitively compared to monolingual models and clearly outperforms both mBERT and the CNN baseline. The lead of XLM-R over monolingual models is substantial in all cases except for the Fin-BERT model, where the two perform within one standard deviation of each other. Our results sup- port the claimed competitiveness of XLM-R large with monolingual models, mentioned in Section 3. English, Finnish and French BERT models achieve similar monolingual test results (73-74% F1-score), while the Swedish KB-BERT achieves the highest F1-score (81%). Furthermore, Table 3 shows very strong zeroshot cross-lingual results with XLM-R large, with F1-scores in the 61-69% range. This represents a remarkably consistent relative decrease of 16.2-16.6% (11.8-13.8% absolute) from the monolingual scores of XLM-R."
+    }
 }

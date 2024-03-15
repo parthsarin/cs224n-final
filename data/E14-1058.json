@@ -18,5 +18,8 @@
     "numcitedby": 63,
     "year": 2014,
     "month": "April",
-    "title": "Weighted {K}rippendorff{'}s alpha is a more reliable metrics for multi-coders ordinal annotations: experimental studies on emotion, opinion and coreference annotation"
+    "title": "Weighted {K}rippendorff{'}s alpha is a more reliable metrics for multi-coders ordinal annotations: experimental studies on emotion, opinion and coreference annotation",
+    "values": {
+        "reproducibility": "Any reliability measure considers the most pertinent criterion to estimate data reliability to be reproducibility. Reproducibility can be estimated by observing the agreement among independent annotators (Krippendorff, 2004) : the more the coders agree on the data they have produced, the more their annotations are likely to be reproduced by any other set of coders. Unlike Cohen's \u03ba, Scott's \u03c0 \u03c0 \u03c0 \u03c0 (Scott, 1955) does not aim at modelling annotator bias. It defines chance as the statistical independence of the data and the set of coding categories, independently from the coders. Krippendorff's \u03b1 \u03b1 \u03b1 \u03b1 (Krippendorff, 2004) considers chance independently from coders like Scott's \u03c0, but data reliability is estimated depending on disagreement instead of agreement: Another original aspect of this metrics is to allow disagreement estimation between two categories through any distance measure. This implies that \u03b1 handles directly any number of coders and any kind of annotation (nominal or ordinal coding scheme)."
+    }
 }

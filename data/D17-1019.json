@@ -16,5 +16,10 @@
     "numcitedby": 109,
     "year": 2017,
     "month": "September",
-    "title": "Neural Net Models of Open-domain Discourse Coherence"
+    "title": "Neural Net Models of Open-domain Discourse Coherence",
+    "values": {
+        "building on past work": "Our work marks an initial step in building endto-end systems to evaluate open-domain discourse coherence, and more importantly, generating coherent texts given discourse contexts. The proposed model is closely related to many recent attempts in training variational autoencoders (VAE) (Kingma and Welling, 2013; Rezende et al., 2014) , variational or latent-variable recurrent nets (Bowman et al., 2015; Chung et al., 2015; Ji et al., 2016; Bayer and Osendorfer, 2014) , hierarchical latent variable encoder-decoder models (Serban et al., 2016b,a) .",
+        "novelty": "Our work achieves state-of-the-art performance on multiple coherence evaluations, and marks an initial step in generating coherent texts given discourse contexts. Here we introduce two classes of neural models for discourse coherence. Our discriminative models induce coherence by treating human generated texts as coherent examples and texts with random sentence replacements as negative examples, feeding LSTM sentence embeddings of pairs of consecutive sentences to a classifier. Our generative models are based on augumenting encoder-decoder models with latent variables to model discourse relationships across sentences, including (1) a model that incorporates an HMM-LDA topic model into the generative model and (2) an end-to-end model that introduces a Markovstructured neural latent variable, inspired by recent work on training latent-variable recurrent nets (Bowman et al., 2015; Serban et al., 2016b) .",
+        "performance": "The proposed models also offer an initial step in generating coherent texts given contexts, which has the potential to benefit a wide range of generation tasks in NLP. Our latent variable neural models, by offering a new way to learn latent discourse-level features of a text, also suggest new directions in discourse representation that may bring benefits to any discourse-aware NLP task."
+    }
 }

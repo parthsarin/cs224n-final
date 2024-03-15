@@ -18,5 +18,8 @@
     "numcitedby": 8,
     "year": 2013,
     "month": "October",
-    "title": "{W}ord{T}opic-{M}ulti{R}ank: A New Method for Automatic Keyphrase Extraction"
+    "title": "{W}ord{T}opic-{M}ulti{R}ank: A New Method for Automatic Keyphrase Extraction",
+    "values": {
+        "performance": "Experiments have been performed on two different data sets. One is a collection of scientific publication abstracts, while the other consists of news articles with human-annotated keyphrases. Experimental results demonstrate that our WordTopic-MultiRank method outperforms representative baseline approaches in specified evaluation metrics. Experimental results on this data set demonstrate the effectiveness of our proposed model again as it outperforms baseline methods over all three metrics."
+    }
 }

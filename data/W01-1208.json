@@ -19,5 +19,10 @@
     "numcitedby": 2,
     "year": 2001,
     "month": "",
-    "title": "Question Answering Using Encyclopedic Knowledge Generated from the Web"
+    "title": "Question Answering Using Encyclopedic Knowledge Generated from the Web",
+    "values": {
+        "building on past work": "Although Harabagiu et al. (2000) proposed a knowledge-based QA system, most existing systems rely on conventional IR and shallow NLP methods. A reasonable method is that while the system periodically updates the encyclopedia off-line, terms unindexed in the encyclopedia are dynamically processed in real-time usage.",
+        "novelty": " Introduction  Statistical Organization Model  Description Model Our language model is almost the same as existing models, but is different in two respects.  Results",
+        "performance": "The performance of QA systems can be evaluated based on coverage and accuracy. Coverage is the ratio between the number of questions answered (disregarding their correctness) and the total number of questions. Accuracy is the ratio between the number of correct answers and the total number of answers made by the system. For the purpose of evaluation, we used as test questions the Japanese Information-Technology Engineers Examination, and found that our Webbased encyclopedia was comparable with an existing dictionary in terms of the application to question answering. We also investigated the performance of our QA system where descriptions related to the computer domain are solely used."
+    }
 }

@@ -18,5 +18,10 @@
     "numcitedby": 16,
     "year": 2021,
     "month": "August",
-    "title": "Improving Pretrained Cross-Lingual Language Models via Self-Labeled Word Alignment"
+    "title": "Improving Pretrained Cross-Lingual Language Models via Self-Labeled Word Alignment",
+    "values": {
+        "building on past work": "  By simply learning masked language modeling (MLM; Devlin et al.   For example, the translation language modeling (TLM; Conneau and Lample 2019) task performs MLM on the concatenated parallel sentences, which implicitly enhances cross-lingual transferability.",
+        "novelty": "\u2022 We propose a word alignment algorithm that formulates the word alignment problem as optimal transport. \u2022 We demonstrate that our explicit alignment objective is effective for cross-lingual transfer.",
+        "performance": "Results We first explore whether our word alignment self-labeling method is effective for generating high-quality alignment labels. Then, we compare our XLM-ALIGN with XLM-R base on the word alignment task. We also compare XLM-ALIGN with XLM-R base using the hidden vectors from the 3-th layer to the 12-th layer. Layer Word Alignment Self-Labeling Layer Denoising Word Alignment Layer Effects of Alignment Filtering Effects of DWA Query Positions"
+    }
 }

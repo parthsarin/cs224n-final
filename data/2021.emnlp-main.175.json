@@ -19,5 +19,10 @@
     "numcitedby": 3,
     "year": 2021,
     "month": "November",
-    "title": "More is Better: Enhancing Open-Domain Dialogue Generation via Multi-Source Heterogeneous Knowledge"
+    "title": "More is Better: Enhancing Open-Domain Dialogue Generation via Multi-Source Heterogeneous Knowledge",
+    "values": {
+        "building on past work": "This paper proposes a novel multi-source heterogeneous knowledge-enhanced dialogue generation approach, MSKE-Dialog, which outperforms competitive knowledge-enhanced baselines and pretraining models. It verifies the advantages of using multi-source heterogeneous knowledge and the advantages of our approach. Some previous works have also noticed this issue. Our work is different from them because we focus on the open-domain knowledge-enhanced dialogue response generation, rather than the emotional/visual conversation, etc. To our best knowledge, few works have studied this topic in this area.",
+        "novelty": "This paper proposes a novel multi-source heterogeneous knowledge-enhanced dialogue generation approach, MSKE-Dialog, which outperforms competitive knowledge-enhanced baselines and pretraining models. To our best knowledge, this work is the first to use the multi-source heterogeneous knowledge in the open-domain knowledge-enhanced dialogue generation.",
+        "performance": "Our experiments are conducted on a Chinese Weibo dataset. In both automatic and human evaluations, MSKE-Dialog can outperform various stateof-the-art knowledge-enhanced methods by notable margins, as well as can surpass the fine-tuned pretraining system CDial-GPT (GPT & GPT2) (Wang et al., 2020b) even with fewer parameters and training corpus. Evidently, among the three knowledge sources, commonsense knowledge and text knowledge bring more contributions. Previous works (Gu et al., 2016; Vinyals et al., 2015) have shown that copying words from the context R X can significantly improve the performance. Full does not achieve the best in each aspect but has the best overall performance and perplexity, which indicates using multi-source knowledge is quite challenging. It is crucial to fuse the knowledge sources into the context without the impact of the possible conflicts."
+    }
 }

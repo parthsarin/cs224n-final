@@ -19,5 +19,8 @@
     "numcitedby": 0,
     "year": 2007,
     "month": "June",
-    "title": "{ILK}2: Semantic Role Labeling of {C}atalan and {S}panish using {T}i{MBL}"
+    "title": "{ILK}2: Semantic Role Labeling of {C}atalan and {S}panish using {T}i{MBL}",
+    "values": {
+        "performance": " Results show that rather simple individual systems can produce competitive results in both tasks, and that they are robust enough to be applied to two languages and to the held-out test sets provided.  Improvements of the systems would consist in improving the focus selection step, and applying more elaborate techniques for feature selection and postprocessing."
+    }
 }

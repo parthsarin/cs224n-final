@@ -18,5 +18,9 @@
     "numcitedby": 18,
     "year": 2015,
     "month": "May{--}June",
-    "title": "{\\#}{W}hy{IS}tayed, {\\#}{W}hy{IL}eft: Microblogging to Make Sense of Domestic Abuse"
+    "title": "{\\#}{W}hy{IS}tayed, {\\#}{W}hy{IL}eft: Microblogging to Make Sense of Domestic Abuse",
+    "values": {
+        "performance": "The RBF SVM performed slightly better than the others, achieving a maximum accuracy of 81% \u00b1 .3% on the devset and 82% on the testset. Feature ablation, following the procedure in Fraser et al. (2014) , was utilized to determine the most important features for the classifier, the results of which can be seen in Table 3 .",
+        "reproducibility": "The corpus spans the beginning of September (the start of the trend) to the beginning of October, 2014. We fully rehydrated the tweets (to update the retweet count, etc.) at the end of the collection period. Regular expressions matched these structures and for tweets marked by both tags, split them into multiple instances, labeled with their respective tag. If the tweet contained only one of the target hashtags, the instance was labeled with that hashtag. If the tweet contained both hashtags but did not match with any of the regular expressions, it was excluded to ensure data quality. The resulting corpus comprised 24,861 #WhyIStayed and 8,767 #WhyILeft labeled datapoints. By random sampling of #WhyIStayed, a balanced set of 8,767 examples per class was obtained, resulting in a binary 50% baseline. From this set, 15% were held out as a final testset, to be considered after a tuning procedure with the remaining 85% devset. Four people (co-authors) annotated a random sample of 1000 instances from the devset, to further characterize the filtered corpus and to assess the automated extraction of gold standard labels. This random subset is composed of 47% #WhyIStayed and 53% #WhyILeft gold standard samples. Informal register was expanded to standard English forms using a slang dictionary. Classifier tuning involved 5-fold cross-validation and selecting the best parameters based on the mean accuracy. For heldout data testing the full devset was used for training."
+    }
 }

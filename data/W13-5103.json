@@ -19,5 +19,11 @@
     "numcitedby": 7,
     "year": 2013,
     "month": "September",
-    "title": "De-Identification of Clinical Free Text in {D}utch with Limited Training Data: A Case Study"
+    "title": "De-Identification of Clinical Free Text in {D}utch with Limited Training Data: A Case Study",
+    "values": {
+        "building on past work": " This paper presents a machine learning deidentification system for clinical free text in Dutch, relying on best practices from the state of the art in de-identification of English-language texts.  We combine string and pattern matching features with machine learning algorithms and compare performance of three different experimental setups using Support Vector Machines and Random Forests on a limited data set of one hundred manually obfuscated texts provided by Antwerp University Hospital (UZA).  The setup with the best balance in precision and recall during development was tested on an unseen set of raw clinical texts and evaluated manually at the hospital site.",
+        "novelty": "This paper presents a machine learning deidentification system for clinical free text in Dutch, relying on best practices from the state of the art in de-identification of English-language texts. We combine string and pattern matching features with machine learning algorithms and compare performance of three different experimental setups using Support Vector Machines and Random Forests on a limited data set of one hundred manually obfuscated texts provided by Antwerp University Hospital (UZA).",
+        "performance": "In terms of recall -which we consider the most crucial evaluation measure for practically usable de-identification -it is better than the Random Forest classifier, which in its turn scores better in terms of de-identification time and precision. The setup with the best balance in precision and recall during development was tested on an unseen set of raw clinical texts and evaluated manually at the hospital site. The results suggest that the de-identification algorithm we developed achieves reasonable performance considering the limited set of training data it is based on.",
+        "reproducibility": "This paper presents a machine learning deidentification system for clinical free text in Dutch, relying on best practices from the state of the art in de-identification of English-language texts. The setup with the best balance in precision and recall during development was tested on an unseen set of raw clinical texts and evaluated manually at the hospital site."
+    }
 }
