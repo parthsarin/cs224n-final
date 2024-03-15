@@ -1,7 +1,10 @@
 import wandb
-
-
 import pandas as pd
+from nltk import sent_tokenize
+import numpy as np
+import torch
+import torch.nn as nn
+from transformers import RobertaTokenizer, RobertaModel
 
 data = pd.read_csv("devset.csv")
 test_data = pd.read_csv("testset.csv")
@@ -13,9 +16,6 @@ test_data = test_data[
     ["article_text", "military", "corporate", "research_agency", "foundation", "none"]
 ]
 
-import torch
-import torch.nn as nn
-from transformers import RobertaTokenizer, RobertaModel
 
 tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 
@@ -45,7 +45,7 @@ class Model(nn.Module):
         self.classifier = nn.Sequential(
             nn.Linear(in_features=768, out_features=256),
             nn.ReLU(),
-            nn.Linear(in_features=256, out_features=5),
+            nn.Linear(in_features=256, out_features=4),
         )
 
     def forward(self, x):
@@ -56,6 +56,44 @@ class Model(nn.Module):
 
 
 model = Model().to("cuda")
+
+
+def apply_model(doc):
+    # break the document into chunks
+    sentences = sent_tokenize(doc)
+    chunks = []
+    curr = ""
+    for sentence in sentences:
+        proposal = curr + sentence
+        proposal_len = len(tokenizer.encode(proposal, add_special_tokens=False))
+        if proposal_len > 512:
+            chunks.append(curr)
+            curr = sentence
+        else:
+            curr = proposal
+    chunks.append(curr)
+
+    # apply the model to each chunk
+    chunk_labels = []
+    for chunk in chunks:
+        tokenized = tokenizer.encode(
+            chunk, return_tensors="pt", add_special_tokens=False
+        ).to("cuda")
+        with torch.no_grad():
+            preds = model(tokenized).cpu().detach().numpy()
+        chunk_labels.append(preds)
+    chunk_labels = np.array(chunk_labels)
+
+    # probability of funding by x is 1 - P(no funding by x)
+    # P(no funding by x) = P(no funding by x in c1) * P(no funding by x in c2) * ...
+    # P(no funding by x in c1) = 1 - P(funding by x in c1)
+    p_no_funding = 1 - chunk_labels
+    p_no_funding = np.log(p_no_funding)
+    p_no_funding = np.sum(p_no_funding, axis=0)
+    p_no_funding = np.exp(p_no_funding)
+    p_funding = 1 - p_no_funding
+    return p_funding
+
 
 # file_id, article_text, military, corporate, research_agency, foundation, none
 X_train = list(data["article_text"])
