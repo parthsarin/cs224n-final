@@ -126,7 +126,7 @@ def train(
     """
     Train the model on the given data.
     """
-    X_train = tokenizer.batch_encode(
+    X_train = tokenizer.encode(
         train_docs,
         return_tensors="pt",
         add_special_tokens=False,
