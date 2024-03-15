@@ -9,6 +9,7 @@ import pandas as pd
 from glob import glob
 from nltk import sent_tokenize
 import random
+from transformers import RobertaTokenizer
 
 tokenizer = RobertaTokenizer.from_pretrained("roberta-base")
 
@@ -38,49 +39,55 @@ def inject_sample(sample, original):
 
 def main(args):
     # load the dataset
-    df = pd.read_csv(args.dataset)
+    df = pd.read_csv(args.dataset, dtype={"chunk_id": str})
 
     pos_categories = [
         f.split("/")[-1].split(".")[0] for f in glob(f"{args.pos_dir}/*.txt")
     ]
-    [f.split("/")[-1].split(".")[0] for f in glob(f"{args.neg_dir}/*.txt")]
+    neg_categories = [
+        f.split("/")[-1].split(".")[0] for f in glob(f"{args.neg_dir}/*.txt")
+    ]
     pos = [open(f).read().strip().split("\n") for f in glob(f"{args.pos_dir}/*.txt")]
-    [open(f).read().strip().split("\n") for f in glob(f"{args.neg_dir}/*.txt")]
+    neg = [open(f).read().strip().split("\n") for f in glob(f"{args.neg_dir}/*.txt")]
 
     # inject the positive samples
-    for category, sample in zip(pos_categories, pos):
-        k = args.pos_branching_factor
+    for category, samples in zip(pos_categories, pos):
+        for sample in samples:
+            k = args.pos_branching_factor
 
-        # sample k indices with none = true
-        x = df[df["none"] is True]
-        indices = x.sample(k).index
-        x = df.loc[indices]
+            # sample k indices with none = true
+            x = df[df["none"] == 1]
+            indices = x.sample(k).index
+            x = df.loc[indices]
 
-        # inject the samples
-        for i, row in x.iterrows():
-            new_text = inject_sample(sample, row["text"])
+            # inject the samples
+            for i, row in x.iterrows():
+                new_text = inject_sample(sample, row["text"])
 
-            df = df.append(row, ignore_index=True)
-            df.loc[len(df) - 1, "text"] = new_text
-            df.loc[len(df) - 1, "none"] = False
-            df.loc[len(df) - 1, category] = True
+                df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
+                df.loc[len(df) - 1, "text"] = new_text
+                df.loc[len(df) - 1, "chunk_id"] += f"-pos-{category}-{i}"
+                df.loc[len(df) - 1, "none"] = False
+                df.loc[len(df) - 1, category] = True
 
     # inject the negative samples
-    for category, sample in zip(neg_categories, neg):
-        k = args.neg_branching_factor
+    for category, samples in zip(neg_categories, neg):
+        for sample in samples:
+            k = args.neg_branching_factor
 
-        # sample k indices with none = true
-        x = df[df["none"] is True]
-        indices = x.sample(k).index
-        x = df.loc[indices]
+            # sample k indices with none = true
+            x = df[df["none"] == 1]
+            indices = x.sample(k).index
+            x = df.loc[indices]
 
-        # inject the samples
-        for i, row in x.iterrows():
-            new_text = inject_sample(sample, row["text"])
+            # inject the samples
+            for i, row in x.iterrows():
+                new_text = inject_sample(sample, row["text"])
 
-            df = df.append(row, ignore_index=True)
-            df.loc[len(df) - 1, "text"] = new_text
-            # original funding hasn't changed
+                df = pd.concat([df, pd.DataFrame([row])], ignore_index=True)
+                df.loc[len(df) - 1, "text"] = new_text
+                df.loc[len(df) - 1, "chunk_id"] += f"-neg-{category}-{i}"
+                # original funding hasn't changed
 
     # write the dataset to a file
     df.to_csv(args.out_file, index=False)

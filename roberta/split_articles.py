@@ -17,7 +17,10 @@ for article in reader:
 
     curr = ""
     for sentence in sentences:
-        proposal = curr + sentence
+        if curr:
+            proposal = curr + " " + sentence
+        else:
+            proposal = sentence
         proposal_len = len(tokenizer.encode(proposal, add_special_tokens=False))
         if proposal_len > 512:
             chunks.append(curr)
