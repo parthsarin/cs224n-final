@@ -1,6 +1,6 @@
 """
-File: roberta.py
-----------------
+File: roberta_frozen.py
+-----------------------
 
 Our implementation of the fine-tuned sliding window model using the RoBERTa
 transformer model.
@@ -135,7 +135,7 @@ def train(
         # track hyperparameters and run metadata
         config={
             "learning_rate": lr,
-            "architecture": "sliding RoBERTa",
+            "architecture": "sliding RoBERTa (frozen roberta)",
             "epochs": n_epochs,
         },
     )
