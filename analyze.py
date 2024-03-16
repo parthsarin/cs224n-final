@@ -34,11 +34,11 @@ df = pd.DataFrame(data)
 # -----------------------------------------------------------------------------
 labels = ["defense","corporate","research agency","foundation","none"]
 df['decade'] = df.year // 10 % 10 * 10
-df = df[df.decade != 80]
 totals = dict(df.groupby('decade').acl_id.count())
 
 # normalize each year so the row adds up to 1
-funding_year = df.groupby('decade')[labels].sum()
+funding_year = df[df.decade != 80]
+funding_year = funding_year.groupby('decade')[labels].sum()
 funding_year = funding_year.div(funding_year.sum(axis=1), axis=0)
 decade_order = [80, 90, 0, 10, 20]
 mapping = {day: i for i, day in enumerate(decade_order)}
@@ -69,24 +69,27 @@ plt.clf()
 # -----------------------------------------------------------------------------
 labels = ["defense","corporate","research agency","foundation","none"]
 def categorize(citations):
-    if 0 <= citations <= 9:
-        return '0-9'
-    elif 10 <= citations <= 29:
-        return '10-29'
-    elif 30 <= citations <= 59:
-        return '30-59'
+    if 0 <= citations <= 29:
+        return '0-29'
+    # elif 10 <= citations <= 29:
+    #     return '10-29'
+    elif 30 <= citations <= 99:
+        return '30-99'
+    # elif 60 <= citations <= 99:
+    #     return '60-99'
     else:
-        return '60+'
+        return '100+'
 df['citations'] = df.numcitedby.apply(categorize)
 totals = dict(df.groupby('citations').acl_id.count())
 
 # normalize each year so the row adds up to 1
 funding_citations = df.groupby('citations')[labels].sum()
 funding_citations = funding_citations.div(funding_citations.sum(axis=1), axis=0)
-# citations_order = [80, 90, 0, 10, 20]
-# mapping = {day: i for i, day in enumerate(citations_order)}
-# key = funding_citations.index.map(mapping)
-# funding_citations = funding_citations.iloc[key.argsort()]
+
+citations_order = ['0-29', '10-29', '30-99', '60-99', '100+']
+mapping = {day: i for i, day in enumerate(citations_order)}
+key = funding_citations.index.map(mapping)
+funding_citations = funding_citations.iloc[key.argsort()]
 funding_citations.index = funding_citations.index.map(lambda x: f'{x}\n({totals[x]} papers)')
 
 # stacked barplot
