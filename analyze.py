@@ -29,6 +29,8 @@ for file in glob('data/*.json'):
 
 df = pd.DataFrame(data)
 
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(10, 5))
+
 # -----------------------------------------------------------------------------
 # funding by year
 # -----------------------------------------------------------------------------
@@ -44,25 +46,26 @@ decade_order = [80, 90, 0, 10, 20]
 mapping = {day: i for i, day in enumerate(decade_order)}
 key = funding_year.index.map(mapping)
 funding_year = funding_year.iloc[key.argsort()]
-funding_year.index = funding_year.index.map(lambda x: f'{x}s\n({totals[x]} papers)')
+funding_year.index = funding_year.index.map(lambda x: f'{x:0{2}}s\n({totals[x]} papers)')
 
 # stacked barplot
-funding_year.plot(kind='bar', stacked=True, rot=0)
+funding_year.plot(kind='area', stacked=True, rot=0, ax=ax1)
 
-plt.title('Funding of NLP research by decade')
-plt.xlabel('Decade')
-plt.ylabel('Funding percentages')
+ax1.set_title('Activity of different NLP funders over time')
+ax1.set_xlabel('Decade')
+ax1.set_ylabel('Relative number of papers funded')
 
 # show legend outside of plot
-ax = plt.gca()
-box = ax.get_position()
-ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
-handles, labels = ax.get_legend_handles_labels()
-ax.legend(handles[::-1], labels[::-1], loc='center left', bbox_to_anchor=(1, 0.5))
+# ax = plt.gca()
+# box = ax.get_position()
+# ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+# handles, labels = ax.get_legend_handles_labels()
+# ax.legend(handles[::-1], labels[::-1], loc='center left', bbox_to_anchor=(1, 0.5))
+ax1.legend().remove()
 
-plt.tight_layout()
-plt.savefig('img/funding_by_decade.png', dpi=300, bbox_inches='tight')
-plt.clf()
+# plt.tight_layout()
+# plt.savefig('img/funding_by_decade.png', dpi=300, bbox_inches='tight')
+# plt.clf()
 
 # -----------------------------------------------------------------------------
 # funding by citation count
@@ -93,22 +96,22 @@ funding_citations = funding_citations.iloc[key.argsort()]
 funding_citations.index = funding_citations.index.map(lambda x: f'{x}\n({totals[x]} papers)')
 
 # stacked barplot
-funding_citations.plot(kind='bar', stacked=True, rot=0)
+funding_citations.plot(kind='area', stacked=True, rot=0, ax=ax2)
 
-plt.title('Funding of influential NLP research')
-plt.xlabel('Citation count')
-plt.ylabel('Funding percentages')
+ax2.set_title('Funding of influential NLP research')
+ax2.set_xlabel('Citation count')
+# ax2.set_ylabel('Funding percentages')
 
 # show legend outside of plot
-ax = plt.gca()
-box = ax.get_position()
-ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
-handles, labels = ax.get_legend_handles_labels()
-ax.legend(handles[::-1], labels[::-1], loc='center left', bbox_to_anchor=(1, 0.5))
+# ax = plt.gca()
+box = ax2.get_position()
+ax2.set_position([box.x0, box.y0, box.width * 0.8, box.height])
+handles, labels = ax2.get_legend_handles_labels()
+ax2.legend(handles[::-1], labels[::-1], loc='center left', bbox_to_anchor=(1, 0.5))
 
 plt.tight_layout()
-plt.savefig('img/funding_by_citations.png', dpi=300, bbox_inches='tight')
-plt.clf()
+plt.savefig('img/funding.png', dpi=300, bbox_inches='tight')
+# plt.clf()
 
 # totals = df.groupby('decade')[labels].count()
 # funding_citations['total'] = totals
